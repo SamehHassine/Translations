@@ -6,7 +6,9 @@ The files in each application folder can be used to fix errors or complete missi
 
 This xlif-files can be opened and modified with specific Xlif-Editors. 
 
-* EOS Solutions internals and authorized partners can install and use ***EOS Xliff Editor***
+* EOS Solutions internals and authorized partners can install and use ***EOS Xliff Editor***  
+  Install the editor retrieving it from internal feeds.  
+  In GitHub Repo *Defaults* you can find a predefined configuration file to use with the EOS Xliff Editor
 
 * Others can use e.g. Microsoft ***Multilingual Editor*** ( ["Multilingual app toolkit 4.0 Editor"](https://developer.microsoft.com/en-us/windows/downloads/multilingual-app-toolkit/) )  
 or  any other compatible Xliff Editor 
