@@ -219,12 +219,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS037 Detailed Discount Setup - Control Inv. Discount Base Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3991500977 - Control 2772601947 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the calculation method for sales discounts.</source>
+          <source>Specifies the calculation method for sales discounts. If the new Sales Price Experience is enabled, this setup is replaced by a new price calculation method.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS037 Detailed Discount Setup - Control Sales Discount Calc. Method - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3991500977 - Control 1758068475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the calculation method for sales prices.</source>
+          <source>Specifies the calculation method for sales prices. If the new Sales Price Experience is enabled, this setup is replaced by a new price calculation method.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS037 Detailed Discount Setup - Control Sales Price Calc. Method - Property ToolTip</note>
         </trans-unit>
@@ -323,6 +323,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS037 Detailed Discounts - Action EOS MoveUp - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3532597725 - Control 3336588398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+          <source>Shows a summary of the detailed discounts active for this record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS037DDDPageExt18004270 - Control EOSDetailedLineDiscount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532597725 - Control 3336588398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 881164414">
+          <source>Detailed Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS037DDDPageExt18004270 - Control EOSDetailedLineDiscount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4170294342 - Control 3336588398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+          <source>Shows a summary of the detailed discounts active for this record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS037DDDPageExt18004271 - Control EOSDetailedLineDiscount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4170294342 - Control 3336588398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4154795139">
+          <source>Detailed Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS037DDDPageExt18004271 - Control EOSDetailedLineDiscount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1967469113 - Control 3336588398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 311504068">
           <source>Shows a summary of the detailed discounts active for this record.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -377,6 +397,11 @@
           <source>Detailed Discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18004269 - Control EOSDetailedLineDiscount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 407942633 - Field 1846927841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2964960979">
+          <source>Discount Set ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS037DDDTableExt18004271 - Field EOS037 Discount Set ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3798199318 - Field 1846927841 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1671969677">
           <source>Discount Set ID</source>
@@ -452,6 +477,11 @@
           <source>Discount Amount per Unit</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS037 Line Discount Type - EnumValue Discount Amount per Unit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2153484137 - EnumValue 2658491748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 3428108069">
+          <source>Hierarchical</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension EOS037DDDEnumExt18004265 - EnumValue EOS037 DDD Hierarchical - Property Caption</note>
         </trans-unit>
       </group>
     </body>

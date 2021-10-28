@@ -83,6 +83,10 @@
           <source>Discount</source>
           <target>Sconto</target>
         </trans-unit>
+        <trans-unit id="EnumExtension 2153484137 - EnumValue 2658491748 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hierarchical</source>
+          <target>Calcolo per priorità</target>
+        </trans-unit>
         <trans-unit id="Page 3451930093 - Action 1490319663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Moves the selected line up</source>
           <target>Sposta la riga selezionata verso l'alto</target>
@@ -156,8 +160,8 @@
           <target>Setup applicazione</target>
         </trans-unit>
         <trans-unit id="Page 3991500977 - Control 1758068475 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the calculation method for sales prices.</source>
-          <target>Specifica il metodo di calcolo per i prezzi di vendita.</target>
+          <source>Specifies the calculation method for sales prices. If the new Sales Price Experience is enabled, this setup is replaced by a new price calculation method.</source>
+          <target>Specifica il metodo di calcolo per i prezzi di vendita. Se la nuova esperienza dei prezzi di vendita è abilitata, questa configurazione viene sostituita da un nuovo metodo di calcolo del prezzo.</target>
         </trans-unit>
         <trans-unit id="Page 3991500977 - Control 1928531586 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the standard field "Line Discount %" should be hidden on all document pages.</source>
@@ -168,8 +172,8 @@
           <target>Specifica se il campo standard "Sconto fattura %" deve essere nascosto in tutte le pagine del documento.</target>
         </trans-unit>
         <trans-unit id="Page 3991500977 - Control 2772601947 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the calculation method for sales discounts.</source>
-          <target>Specifica il metodo di calcolo per gli sconti vendita.</target>
+          <source>Specifies the calculation method for sales discounts. If the new Sales Price Experience is enabled, this setup is replaced by a new price calculation method.</source>
+          <target>Specifica il metodo di calcolo per gli sconti vendite. Se la nuova esperienza dei prezzi di vendita è abilitata, questa configurazione viene sostituita da un nuovo metodo di calcolo del prezzo.</target>
         </trans-unit>
         <trans-unit id="Page 3991500977 - Control 2861336861 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Inv. Discount Base Amount" field. If set to exclude will work as standard</source>
@@ -199,11 +203,27 @@
           <source>Detailed Discount</source>
           <target>Sconto dettagliato</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3532597725 - Control 3336588398 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows a summary of the detailed discounts active for this record.</source>
+          <target>Mostra un riepilogo degli sconti dettagliati attivi per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3532597725 - Control 3336588398 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Discount</source>
+          <target>Sconto dettagliato</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3711649941 - Control 3336588398 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows a summary of the detailed discounts active for this record.</source>
           <target>Mostra un riepilogo degli sconti dettagliati attivi per questo record.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3711649941 - Control 3336588398 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Discount</source>
+          <target>Sconto dettagliato</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4170294342 - Control 3336588398 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows a summary of the detailed discounts active for this record.</source>
+          <target>Mostra un riepilogo degli sconti dettagliati attivi per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4170294342 - Control 3336588398 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Discount</source>
           <target>Sconto dettagliato</target>
         </trans-unit>
@@ -356,6 +376,10 @@
           <target>ID set sconti</target>
         </trans-unit>
         <trans-unit id="TableExtension 3798199318 - Field 1846927841 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Set ID</source>
+          <target>ID set sconti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 407942633 - Field 1846927841 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
           <target>ID set sconti</target>
         </trans-unit>
