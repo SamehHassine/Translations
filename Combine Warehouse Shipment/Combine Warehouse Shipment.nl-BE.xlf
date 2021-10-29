@@ -23,10 +23,6 @@
           <source>Our %1 %2</source>
           <target>Onze %1 %2</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1213197687 - Method 581474840 - NamedType 580820098" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Your %1 %2</source>
-          <target>Uw %1 %2</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 581474840 - NamedType 712762521" translate="yes" size-unit="char" xml:space="preserve">
           <source>Our %1 %2</source>
           <target>Onze %1 %2</target>
@@ -217,6 +213,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 355668835 - Method 2240348274 - NamedType 2657222187" translate="yes" size-unit="char" xml:space="preserve">
           <source>ETC: CWS Is installed, Use CWS Shipping Price Calculation instead.</source>
+          <target>ETC: CWS is geïnstalleerd, gebruik in plaats daarvan CWS Shipping Price Calculation.</target>
         </trans-unit>
         <trans-unit id="Codeunit 355668835 - Method 224459359 - NamedType 2604593156" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 Post Code not found</source>
@@ -822,6 +819,14 @@
           <source>Return Line Description</source>
           <target>Beschrijving retourregel</target>
         </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 365568743 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if all lines in a warehouse shipment should always be shipped, ignoring filters applied on the page.</source>
+          <target>Hiermee geeft u op of alle regels in een magazijnzending altijd moeten worden verzonden, waarbij filters die op de pagina zijn toegepast, worden genegeerd.</target>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 365568743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Always Ship All Lines</source>
+          <target>Verzend altijd alle lijnen</target>
+        </trans-unit>
         <trans-unit id="Page 1137884171 - Control 395510365 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase</source>
           <target>Aankoop</target>
@@ -853,6 +858,14 @@
         <trans-unit id="Page 1137884171 - Control 4289299091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which report print with CWS posted shipments from sales order.</source>
           <target>Hiermee geeft u op welk rapport wordt afgedrukt met CWS-verzonden zendingen van verkooporder.</target>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 495124604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if lines groups are calculated at the end of one of the different action used to retrieve source lines</source>
+          <target>Hiermee geeft u op of lijngroepen worden berekend aan het einde van een van de verschillende acties die worden gebruikt om bronregels op te halen</target>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 495124604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Grouping By Activity</source>
+          <target>Groeperen op activiteit inschakelen</target>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 538715564 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipment</source>
@@ -4886,6 +4899,10 @@
           <source>Post Not-Inventory Lines (Sales)</source>
           <target>Regels voor niet-object (verkoop)</target>
         </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 365568743 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Always Ship All Lines</source>
+          <target>Verzend altijd alle lijnen</target>
+        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 3887078708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post Not-Item Lines (Service)</source>
           <target>Regels voor niet-object (service) plaatsen</target>
@@ -4901,6 +4918,10 @@
         <trans-unit id="Table 1137884171 - Field 4289299091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report ID for Sales Order Shipment</source>
           <target>Rapport-id voor verzending van verkooporders</target>
+        </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 495124604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Grouping By Activity</source>
+          <target>Groeperen op activiteit inschakelen</target>
         </trans-unit>
         <trans-unit id="Table 1137884171 - Field 623826671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Return Line Description (Purchase)</source>
@@ -5352,6 +5373,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 3491034391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reference Contact No.</source>
+          <target>Referentie contactnr.</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 3532935625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Area</source>
@@ -5367,9 +5389,11 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 3604039254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reference Type</source>
+          <target>Referentietype</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 3604039254 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Customer,Vendor</source>
+          <target> ,Klant,Leverancier</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 365832844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Whse. Shipment No.</source>
@@ -5437,6 +5461,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 4113707863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reference No.</source>
+          <target>Referentienr.</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 4153370520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bill/Pay-to Address</source>
