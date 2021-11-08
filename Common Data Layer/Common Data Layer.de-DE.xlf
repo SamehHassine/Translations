@@ -3,6 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1308764409 - Method 4254127607 - NamedType 3714006762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>''</source>
+          <target>''</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2359682165 - Method 874745641 - NamedType 1700642953" translate="yes" size-unit="char" xml:space="preserve">
           <source>The field %1 Code of table %2 contains a value (%3) that cannot be found in the related table (%4).</source>
           <target>Das Kodexfeld %1 der Tabelle %2 enthält einen Wert (%3), der in der Bezugstabelle (%4) nicht vorhanden ist.</target>
@@ -83,6 +87,14 @@
           <source>Undefined</source>
           <target>Undefiniert</target>
         </trans-unit>
+        <trans-unit id="Enum 2846614056 - EnumValue 178842400 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary unit of measure</source>
+          <target>Sekundäre Maßeinheit</target>
+        </trans-unit>
+        <trans-unit id="Enum 2846614056 - EnumValue 3226954027 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line unit of measure</source>
+          <target>Linieneinheit</target>
+        </trans-unit>
         <trans-unit id="Enum 2879915374 - EnumValue 334786305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page Opening</source>
           <target>Seite geöffnet</target>
@@ -138,6 +150,18 @@
         <trans-unit id="Enum 3242129425 - EnumValue 434348504 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>4</source>
           <target>4</target>
+        </trans-unit>
+        <trans-unit id="Enum 3594858348 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>STANDARD</target>
+        </trans-unit>
+        <trans-unit id="Enum 3594858348 - EnumValue 2352214222 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Default</source>
+          <target>Kein Standard</target>
+        </trans-unit>
+        <trans-unit id="Enum 3594858348 - EnumValue 744835066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fixed</source>
+          <target>Fixiert</target>
         </trans-unit>
         <trans-unit id="Page 1181034471 - Control 202036913 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Contact No." field.</source>
@@ -1434,6 +1458,14 @@
         <trans-unit id="Page 2452281662 - Action 1419059538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Load Defaults</source>
           <target>Führt die Aktion Load Defaults aus</target>
+        </trans-unit>
+        <trans-unit id="Page 2452281662 - Control 1774139514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table Shortcut Filter.</source>
+          <target>Gibt den Tabellenverknüpfungsfilter an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2452281662 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Code.</source>
+          <target>Gibt den Code an.</target>
         </trans-unit>
         <trans-unit id="Page 2452281662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table Groups (CDL)</source>
@@ -4899,6 +4931,10 @@
           <source>Master G/L Account</source>
           <target>Hauptsachkonto</target>
         </trans-unit>
+        <trans-unit id="TableExtension 100379694 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 100379694 - Field 1544514135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Material Code</source>
           <target>CONAI Materialcode</target>
@@ -4915,6 +4951,14 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 100379694 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 100379694 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 100379694 - Field 3636040444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary/Tertiary Weight</source>
           <target>Sekundäres/Tertiäres Gewicht</target>
@@ -4922,6 +4966,10 @@
         <trans-unit id="TableExtension 100379694 - Field 3810577311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Weight</source>
           <target>Primärgewicht</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 100379694 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 100379694 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
@@ -4955,9 +5003,33 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1159802225 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1159802225 - Field 1662612225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Price Calc. Method</source>
+          <target>Kaufpreis Calc. Methode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1159802225 - Field 2857212653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Conai</source>
           <target>EOS Conai</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1159802225 - Field 3594858348 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Calc. Method</source>
+          <target>Sekundäre Menge. Calc. Methode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1159802225 - Field 816696135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Price Calc. Method</source>
+          <target>VK-Preis Berech.-Methode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206863905 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206863905 - Field 153980605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Shipped Not Invd.</source>
+          <target>Sekundäre Rücksendung Menge. Versendet Nicht Invd.</target>
         </trans-unit>
         <trans-unit id="TableExtension 1206863905 - Field 1830490411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
@@ -4966,6 +5038,22 @@
         <trans-unit id="TableExtension 1206863905 - Field 2156377460 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tariff No.</source>
           <target>Zollpos.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206863905 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206863905 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206863905 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1206863905 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 1251801826 - Field 1599356657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mileage</source>
@@ -4987,6 +5075,10 @@
           <source>Discount Set ID</source>
           <target>Rabattsatz-ID</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1319282774 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1319282774 - Field 1544514135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Material Code</source>
           <target>CONAI Materialcode</target>
@@ -5003,6 +5095,14 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1319282774 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1319282774 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1319282774 - Field 3636040444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary/Tertiary Weight</source>
           <target>Sekundäres/Tertiäres Gewicht</target>
@@ -5010,6 +5110,10 @@
         <trans-unit id="TableExtension 1319282774 - Field 3810577311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Weight</source>
           <target>Primärgewicht</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1319282774 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 1319282774 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
@@ -5027,6 +5131,10 @@
           <source>Split Payment</source>
           <target>Split Payment</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1844560522 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1844560522 - Field 1544514135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Material Code</source>
           <target>CONAI Materialcode</target>
@@ -5043,6 +5151,14 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1844560522 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1844560522 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1844560522 - Field 3636040444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary/Tertiary Weight</source>
           <target>Sekundäres/Tertiäres Gewicht</target>
@@ -5050,6 +5166,10 @@
         <trans-unit id="TableExtension 1844560522 - Field 3810577311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Weight</source>
           <target>Primärgewicht</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1844560522 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 1844560522 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
@@ -5083,6 +5203,18 @@
           <source>No VAT Reg. No.</source>
           <target>Keine USt.-ID</target>
         </trans-unit>
+        <trans-unit id="TableExtension 222227037 - Field 2301474697 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rounding Type</source>
+          <target>Rundungsart</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 222227037 - Field 2301474697 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Nearest,Up,Down</source>
+          <target>Kaufmännisch,Aufrunden,Abrunden</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 222227037 - Field 312867355 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rounding Precision</source>
+          <target>Rundungspräzision</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2352698870 - Field 946599851 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftscode</target>
@@ -5103,6 +5235,14 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2482257139 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2482257139 - Field 153980605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Shipped Not Invoiced</source>
+          <target>Sekundärmenge. Versand Nicht in Rechnung gestellt</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2482257139 - Field 1830490411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftscode</target>
@@ -5110,6 +5250,22 @@
         <trans-unit id="TableExtension 2482257139 - Field 2156377460 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tariff No.</source>
           <target>Zollpos.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2482257139 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2482257139 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2482257139 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2482257139 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 2681510906 - Field 1939811130 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Our Bank Account</source>
@@ -5147,6 +5303,10 @@
           <source>Our Bank Account</source>
           <target>Unser Bankkonto</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3119953756 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3119953756 - Field 1830490411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftscode</target>
@@ -5155,17 +5315,93 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3119953756 - Field 2560426839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Rcd. Not Invd.</source>
+          <target>Sekundäre Rendite Menge. Rcd. Nicht Invd.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3119953756 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3119953756 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3119953756 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3119953756 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 1527787710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Received</source>
+          <target>Sekundäre Menge erhalten</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 153980605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Shipped Not Invd.</source>
+          <target>Sekundäre Rücksendung Menge. Versendet Nicht Invd.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 1662612225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Price Calc. Method</source>
+          <target>Kaufpreis Calc. Methode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3288862779 - Field 1830490411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftscode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 1872478584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Receive</source>
+          <target>Sekundäre Menge zu empfangen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 1882130601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Shipped</source>
+          <target>Sekundäre Rücksendemenge. Versandt</target>
         </trans-unit>
         <trans-unit id="TableExtension 3288862779 - Field 2156377460 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 2356765826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Invoice</source>
+          <target>Sekundäre Menge zur Rechnung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 2411693142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Outst. Quantity</source>
+          <target>Sekundäre Outst. Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 2560426839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Received Not Invoiced</source>
+          <target>Sekundärmenge. Erhalten Nicht in Rechnung gestellt</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 3485287900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. to Ship</source>
+          <target>Sekundäre Rücklaufmenge zum Versand</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3288862779 - Field 3838061420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Issued Delivery Reminder Level</source>
           <target>Zuletzt ausgestellte Zustellungserinnerungsstufe</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3288862779 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 3288862779 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
@@ -5231,6 +5467,10 @@
           <source>No VAT Reg. No.</source>
           <target>Keine USt.-ID</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3757650373 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3757650373 - Field 1544514135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Material Code</source>
           <target>CONAI Materialcode</target>
@@ -5247,6 +5487,14 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3757650373 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3757650373 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3757650373 - Field 3636040444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary/Tertiary Weight</source>
           <target>Sekundäres/Tertiäres Gewicht</target>
@@ -5254,6 +5502,10 @@
         <trans-unit id="TableExtension 3757650373 - Field 3810577311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Weight</source>
           <target>Primärgewicht</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3757650373 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 3757650373 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
@@ -5287,6 +5539,22 @@
           <source>Share Capital (LCY)</source>
           <target>Gesellschaftskapital (MW)</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 1212432695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Ship</source>
+          <target>Sekundärer Versandmenge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 133190076 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. to Receive</source>
+          <target>Sekundäre Rücklaufmenge zu erhalten</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 153980605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Shipped Not Invoiced</source>
+          <target>Sekundärmenge. Versand Nicht in Rechnung gestellt</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4173550196 - Field 1544514135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Material Code</source>
           <target>CONAI Materialcode</target>
@@ -5303,17 +5571,57 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 2356765826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Invoice</source>
+          <target>Sekundäre Menge zur Rechnung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 2411693142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Outst. Quantity</source>
+          <target>Sekundäre Outst. Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 2560426839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Rcd. Not Invd.</source>
+          <target>Sekundäre Rendite Menge. Rcd. Nicht Invd.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4173550196 - Field 3636040444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary/Tertiary Weight</source>
           <target>Sekundäres/Tertiäres Gewicht</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 3777817143 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Received</source>
+          <target>Sekundäre Rückgabe Menge. Erhalten</target>
         </trans-unit>
         <trans-unit id="TableExtension 4173550196 - Field 3810577311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Weight</source>
           <target>Primärgewicht</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4173550196 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
           <target>Rabattsatz-ID</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 476886162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Shipped</source>
+          <target>Sekundärversendete Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4173550196 - Field 816696135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Price Calc. Method</source>
+          <target>VK-Preis Berech.-Methode</target>
         </trans-unit>
         <trans-unit id="TableExtension 4179376287 - Field 1599356657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mileage</source>
@@ -5331,6 +5639,22 @@
           <source>ISTAT City Code</source>
           <target>EOS ISTAT Stadtkodex</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 1212432695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Ship</source>
+          <target>Sekundärer Versandmenge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 133190076 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. to Receive</source>
+          <target>Sekundäre Rücklaufmenge zu erhalten</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 153980605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Shipped Not Invoiced</source>
+          <target>Sekundärmenge. Versand Nicht in Rechnung gestellt</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4226437967 - Field 1830490411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftscode</target>
@@ -5339,9 +5663,49 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 2356765826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Invoice</source>
+          <target>Sekundäre Menge zur Rechnung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 2411693142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Outst. Quantity</source>
+          <target>Sekundäre Outst. Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 2560426839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Rcd. Not Invd.</source>
+          <target>Sekundäre Rendite Menge. Rcd. Nicht Invd.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 3777817143 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Received</source>
+          <target>Sekundäre Rückgabe Menge. Erhalten</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4226437967 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
           <target>Rabattsatz-ID</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 476886162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Shipped</source>
+          <target>Sekundärversendete Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4226437967 - Field 816696135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Price Calc. Method</source>
+          <target>VK-Preis Berech.-Methode</target>
         </trans-unit>
         <trans-unit id="TableExtension 4271375888 - Field 1599356657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mileage</source>
@@ -5407,6 +5771,10 @@
           <source>Trip Hours</source>
           <target>Fahrtzeit</target>
         </trans-unit>
+        <trans-unit id="TableExtension 569167288 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 569167288 - Field 1806612430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Shipment No.</source>
           <target>Kred.-Lieferungsnr.</target>
@@ -5419,9 +5787,29 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 569167288 - Field 2560426839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Received Not Invoiced</source>
+          <target>Sekundärmenge. Erhalten Nicht in Rechnung gestellt</target>
+        </trans-unit>
         <trans-unit id="TableExtension 569167288 - Field 2982749502 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
           <target>Belegdatum</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 569167288 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 569167288 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 569167288 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 569167288 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 614105209 - Field 1599356657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mileage</source>
@@ -5463,17 +5851,41 @@
           <source>Discount Set ID</source>
           <target>Rabattsatz-ID</target>
         </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 1421564688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Unit of Measure Code</source>
+          <target>Sekundär-Einheitencode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 1468938721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Issued Delivery Reminder Level</source>
           <target>Zuletzt ausgestellte Zustellungserinnerungsstufe</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 1527787710 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Received</source>
+          <target>Sekundäre Menge erhalten</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 153980605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Shipped Not Invd.</source>
+          <target>Sekundäre Rücksendung Menge. Versendet Nicht Invd.</target>
         </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 1544514135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Material Code</source>
           <target>CONAI Materialcode</target>
         </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 1662612225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Price Calc. Method</source>
+          <target>Kaufpreis Calc. Methode</target>
+        </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 1830490411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftscode</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 1872478584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Receive</source>
+          <target>Sekundäre Menge zu empfangen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 1882130601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. Shipped</source>
+          <target>Sekundäre Rücksendemenge. Versandt</target>
         </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 211733125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Conai Attached to Line No.</source>
@@ -5483,6 +5895,34 @@
           <source>Tariff No.</source>
           <target>Zollpos.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 2356765826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. to Invoice</source>
+          <target>Sekundäre Menge zur Rechnung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 2411693142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Outst. Quantity</source>
+          <target>Sekundäre Outst. Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 2560426839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Received Not Invoiced</source>
+          <target>Sekundärmenge. Erhalten Nicht in Rechnung gestellt</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 3098486948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity Invoiced</source>
+          <target>Sekundäre Fakturierte Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 3100200479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Quantity</source>
+          <target>Sekundäre Menge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 3485287900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Return Qty. to Ship</source>
+          <target>Sekundäre Rücklaufmenge zum Versand</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 3594677863 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Unit Price</source>
+          <target>Ber. VK-Preis</target>
+        </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 3636040444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary/Tertiary Weight</source>
           <target>Sekundäres/Tertiäres Gewicht</target>
@@ -5490,6 +5930,10 @@
         <trans-unit id="TableExtension 883639036 - Field 3810577311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Weight</source>
           <target>Primärgewicht</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 883639036 - Field 435205998 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit of Measure Code</source>
+          <target>Preis des Measure-Codes</target>
         </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
