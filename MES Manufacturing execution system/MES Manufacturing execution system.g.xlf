@@ -528,6 +528,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Add Stapling Text - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 180971711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Barcode Generation Method - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 3093544144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Barcode Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -972,6 +977,16 @@
           <source>Trial Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Subscription - NamedType TrialVersLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 500799860 - Method 4209375023 - NamedType 1743254385" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1%4%2%4%3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS070 MES ReportingManagement - Method FormatBarcodeRoutingLine - NamedType FormatBarcodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 500799860 - Method 3097575078 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not enabled with barcode method %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS070 MES ReportingManagement - Method GetBarcode - NamedType Text001Msg</note>
         </trans-unit>
         <trans-unit id="Page 1121645954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production Progress (MES)</source>
@@ -1843,10 +1858,35 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Method 1026192128 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not enabled with barcode method %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Method CheckBarcodeTypeQRCode - NamedType Text001Msg</note>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1786338833 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name of the Font</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Barcode Font - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1786338833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode Font</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Barcode Font - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 180971711 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode Generation Method (Font for Saas)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Barcode Generation Method - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 180971711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Barcode Generation Method - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 3093544144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Establish a barcode format (Code39, Code128, Interleaved2of5, EAN13, QRCode</source>
@@ -2047,6 +2087,26 @@
           <source>Load Default</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Action Load Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 3287685894 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Reasons Barcode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Action PrintBarcodeReasons - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 3287685894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Barcode Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Action PrintBarcodeReasons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 2881010978 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Badge Barcode for Employee</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Action PrintEmployeeBadge - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 2881010978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Employee Badge</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Action PrintEmployeeBadge - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3605165294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starling/Modify Employee Entry</source>
@@ -2463,6 +2523,171 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS MES 070 Rework Codes - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Report 2488794991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MES Barcode Reason Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Barcode Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2488794991 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Barcode Reason - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2488794991 - Control 533313955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates how many copies to print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Barcode Reason - Control Nr.Copies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2488794991 - Control 533313955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Barcode Reason - Control Nr.Copies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 117647550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee Badge - Label Print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Employee Badge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 117647550 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Employee Badge - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 117647550 - Control 3548891542 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header Text of the society</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Employee Badge - Control Header Text - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 117647550 - Control 3548891542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Header Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Employee Badge - Control Header Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 117647550 - Control 533313955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates how many copies to print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Employee Badge - Control Nr.Copies - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 117647550 - Control 533313955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES Employee Badge - Control Nr.Copies - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Detailed Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 947140346" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Detailed Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType ProdOrderDetailedCalcCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 1157506943" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType TotalCostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 1833557762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Material Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType TotalMaterialCostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 2249874505" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Material Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType TotalMterlCostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 3542044504" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Production Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType TotalProdCostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3630997790 - NamedType 3159124898" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Production Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderDetCalc - NamedType TotalProductionCostCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Job Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>production order - job card,work order job card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 2223087433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ByCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType CurrReportPageNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 35837468" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType DateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 689524896" size-unit="char" translate="yes" xml:space="preserve">
+          <source>___________</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType EmptyStringCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 3488251477" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Material Requirements</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType MaterialRequirementsCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 1380858669" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType OutputCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 2363186620" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Precalc. Times</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType PrecalcTimesCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 4028231548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order - Job Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ProdOrderJobCardCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 525703089" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ProdOrderRtngLnStrtDtCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 2935871553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ProdOrderSourceNoCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 2140924953" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ProdOrdRtngLnEndDatCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 2007957674" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Needed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ProdOrdRtngLnExpcCapNdCptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 374662651 - NamedType 1332862809" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scrap</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS 07000 MES ProdOrderJobCard - NamedType ScrapCaptionLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1097886108 - Control 4293444238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 866835530">
           <source>MES</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2612,6 +2837,16 @@
           <source>Allow Starling/Modify Employe Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext18122706 - Field EOS Allow Starl/Mod Empl.Entr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2016811298 - EnumValue 907989901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Font</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS 070 MES Barcode Method - EnumValue Font - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2016811298 - EnumValue 1438292092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Font Demo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS 070 MES Barcode Method - EnumValue Font Demo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1360883003 - EnumValue 2611489258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Code128</source>
