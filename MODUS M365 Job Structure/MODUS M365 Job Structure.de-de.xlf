@@ -79,10 +79,6 @@
           <source>You have to resort to insert accordingly</source>
           <target>Vergabe Sortiernummer nicht möglich. Bitte Sortiernummer reorganisieren</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1471355777 - NamedType 3230600703" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1, %2</source>
-          <target>%1, %2</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1471355777 - NamedType 3367219793" translate="yes" size-unit="char" xml:space="preserve">
           <source>The processing has been aborted.</source>
           <target>Die Verarbeitung wurde abgebrochen.</target>
@@ -110,6 +106,10 @@
         <trans-unit id="Codeunit 1744245452 - NamedType 3500250348" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sort no. of the job structure lines are reorganising. Please wait...</source>
           <target>Sortiernummern für die Strukturzeilen werden reorganisiert. Bitte warten...</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1826152176 - Method 1609300185 - NamedType 2761381573" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Please recalculate the related production order</source>
+          <target>Bitte berechnen Sie den zugehörigen Fertigungsauftrag neu</target>
         </trans-unit>
         <trans-unit id="Codeunit 1826152176 - NamedType 1080749685" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot delete/change Job Structure Line %1 Pos. %2!\</source>
@@ -207,6 +207,22 @@
           <source>You may have changed a dimension.\\Do you want to update the lines?</source>
           <target>Sie haben unter Umständen eine Dimension geändert.\\Möchten Sie die Zeilen aktualisieren?</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2544331150 - Method 3418320054 - NamedType 3237687648" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The autom. creation of a job is not possible, since the job exceeds the max. field length of %1. </source>
+          <target>Das autom. Anlegen eines Kostenträgers ist nicht möglich, da der Kostenträger\die max. Feldlänge von %1 überschreitet.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2544331150 - Method 3418320054 - NamedType 3676615677" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 %2</source>
+          <target>%1 %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2544331150 - Method 3418320054 - NamedType 3688755800" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Automatic Cost Object is set to NONE, would you really generate cost object?</source>
+          <target>Der Parameter "Automatische Kostenträgeranlage" ist auf "Keine" gestellt. Möchten Sie wirklichen einen Kostenträger erstellen?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2544331150 - Method 3418320054 - NamedType 4054521657" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Would you like to provide a new project of the job? </source>
+          <target>Möchten Sie einen neuen Projektkostenträger erstellen?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2544331150 - Method 3951146563 - NamedType 152034454" translate="yes" size-unit="char" xml:space="preserve">
           <source>?</source>
           <target>?</target>
@@ -214,22 +230,6 @@
         <trans-unit id="Codeunit 2544331150 - Method 3951146563 - NamedType 3249739377" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1%2</source>
           <target>%1%2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2544331150 - Method 3991408455 - NamedType 3237687648" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The autom. creation of a job is not possible, since the job exceeds the max. field length of %1. </source>
-          <target>Das autom. Anlegen eines Kostenträgers ist nicht möglich, da der Kostenträger\die max. Feldlänge von %1 überschreitet.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2544331150 - Method 3991408455 - NamedType 3676615677" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 %2</source>
-          <target>%1 %2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2544331150 - Method 3991408455 - NamedType 3688755800" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Automatic Cost Object is set to NONE, would you really generate cost object?</source>
-          <target>Der Parameter "Automatische Kostenträgeranlage" ist auf "Keine" gestellt. Möchten Sie wirklichen einen Kostenträger erstellen?</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2544331150 - Method 3991408455 - NamedType 4054521657" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Would you like to provide a new project of the job? </source>
-          <target>Möchten Sie einen neuen Projektkostenträger erstellen?</target>
         </trans-unit>
         <trans-unit id="Codeunit 2544331150 - Method 735705293 - NamedType 3676615677" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2</source>
@@ -463,6 +463,10 @@
           <source>The resource group no. %1 of the resource %2 are not equal with the job journal line resource group %3. Do you really want to do it?</source>
           <target>Die Ressourcengruppe %1 der Ressource %2 ist nicht gleich mit der Ressourcengruppe %3 in der Zeile. </target>
         </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 1323952009 - NamedType 3688029601" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possible to change to another Reordering Policy, because you have to uncheck "No Disposition" first</source>
+          <target>Es ist nicht möglich, zu einer anderen Neuanordnungsrichtlinie zu wechseln, da Sie zuerst "Keine Disposition" deaktivieren müssen.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 1353975324 - NamedType 757302957" translate="yes" size-unit="char" xml:space="preserve">
           <source>Contact %1 %2 is related to a different company than customer %3.</source>
           <target>Kontakt %1 %2 ist mit einem anderen Mandanten als Debitor %3 verknüpft.</target>
@@ -523,6 +527,10 @@
           <source>Reordering Policy must be &lt;blank&gt;, if %1 = %2.</source>
           <target>Das Wiederbeschaffungsverfahren muß &lt;leer&gt; sein, wenn %1 = %2 ist.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2449491365 - NamedType 2437862175" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There is one line of consumption that has no entry in the field "Applies-to", do you really want to post?</source>
+          <target>Es gibt eine Verbrauchszeile, die keinen Eintrag im Feld "Gilt-für" hat, möchten Sie wirklich posten?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 2576684318 - NamedType 3562011475" translate="yes" size-unit="char" xml:space="preserve">
           <source>cannot be less than the starting date</source>
           <target>darf nicht kleiner als das Startdatum sein</target>
@@ -546,10 +554,6 @@
         <trans-unit id="Codeunit 3869258156 - Method 3867554287 - NamedType 2981935906" translate="yes" size-unit="char" xml:space="preserve">
           <source>cannot be greater than the ending date</source>
           <target>darf nicht grösser als das Enddatum sein</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 4008997139 - NamedType 2765299198" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Replacement for %1</source>
-          <target>Ersatz für %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 4101969666 - NamedType 308004423" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reordering Policy must be &lt;blank&gt;, if %1 = %2.</source>
@@ -587,17 +591,9 @@
           <source>This Operation No. is already used in this group.</source>
           <target>Diese Nummer wurde schon in dieser Gruppe verwendet.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - NamedType 1797460317" translate="yes" size-unit="char" xml:space="preserve">
-          <source>A Reservation Entry for %1 %2 exists for this line. Please take care of this mismatch.</source>
-          <target>Für diese Zeile existierte eine Reservierung auf %1 %2. Bitte korrigieren.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 1800055778" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod Order Component</source>
           <target>FA Komponente</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - NamedType 1923333622" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The item is already in use in jobstructurelines. Deletion not possible</source>
-          <target>Dieser Artikel befindet sich schon in Projektzeilen. Ein Löschen ist nicht möglich.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 1989411158" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job ledger entry</source>
@@ -607,25 +603,33 @@
           <source>Change of purchase order</source>
           <target>Bestelländerung</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - NamedType 2165692845" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outstanding Pos. Qty. (Base) has to be more than 0!</source>
+          <target>Restmenge Zugang (Basis) muss grösser als 0 sein!</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - NamedType 2401133608" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A Reservation Entry for %1 %2 exists for this line. Please take care of this mismatch.</source>
+          <target>Für diese Zeile existierte eine Reservierung auf %1 %2. Bitte korrigieren.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 255132806" translate="yes" size-unit="char" xml:space="preserve">
           <source>You have choosen the same location %1 like in the engineering setup. This is not allowed</source>
           <target>Sie haben den gleichen Lagerort %1 wie in der Engineering Einrichtung gewählt. Dies ist nicht erlaubt.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - NamedType 2560377523" translate="yes" size-unit="char" xml:space="preserve">
-          <source>There is not enough Quantity for this Tracking No. Please check Reservations. </source>
-          <target>Von dieser Verfolgungsnummer sind nicht genug verfügbar. Bitte Reservierungen prüfen.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 2698598225" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity ledger entry</source>
           <target>Kapazitätsposten</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - NamedType 2788134195" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The quote validity is exceeded.</source>
-          <target>Die Angebotsgültigkeit ist überschritten.</target>
+        <trans-unit id="Codeunit 3869258156 - NamedType 3465442431" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The item is already in use in jobstructurelines. Deletion not possible</source>
+          <target>Dieser Artikel befindet sich schon in Projektzeilen. Ein Löschen ist nicht möglich.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 3559326452" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item ledger entry</source>
           <target>Artikelposten</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - NamedType 395536163" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The quote validity is exceeded.</source>
+          <target>Die Angebotsgültigkeit ist überschritten.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 4014325214" translate="yes" size-unit="char" xml:space="preserve">
           <source>New purchase order line</source>
@@ -639,9 +643,9 @@
           <source>No posting of item to project or projectstructure are allowed if you are in status planning or quote</source>
           <target>Keine Artikelbuchungen auf Projekt oder Projektstruktur sind im Status Planung oder Angebot erlaubt</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - NamedType 572988032" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Outstanding Pos. Qty. (Base) has to be more than 0!</source>
-          <target>Restmenge Zugang (Basis) muss grösser als 0 sein!</target>
+        <trans-unit id="Codeunit 3869258156 - NamedType 51961042" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There is not enough Quantity for this Tracking No. Please check Reservations. </source>
+          <target>Von dieser Verfolgungsnummer sind nicht genug verfügbar. Bitte Reservierungen prüfen.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - NamedType 653441946" translate="yes" size-unit="char" xml:space="preserve">
           <source>Change of job structure</source>
@@ -674,6 +678,22 @@
         <trans-unit id="Codeunit 4107031517 - NamedType 899712451" translate="yes" size-unit="char" xml:space="preserve">
           <source>cannot be less than the planned starting date.</source>
           <target>darf nicht kleiner als das geplante Startdatum sein.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 545730366 - NamedType 2814513582" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free version</source>
+          <target>Kostenlose Version</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 545730366 - NamedType 3466325478" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free Version</source>
+          <target>Kostenlose Version</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 545730366 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set up a Subscription</source>
+          <target>Einrichten eines Abonnements</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 545730366 - NamedType 3763278856" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free version</source>
+          <target>Kostenlose Version</target>
         </trans-unit>
         <trans-unit id="Codeunit 708519695 - Method 1421851118 - NamedType 1559941757" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Purchase</source>
@@ -754,14 +774,6 @@
         <trans-unit id="EnumExtension 2819112643 - EnumValue 495001976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Structure Line</source>
           <target>Projektstrukturzeile</target>
-        </trans-unit>
-        <trans-unit id="EnumExtension 4120894345 - EnumValue 3000301148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Project Code = Job No. + Index</source>
-          <target>Projekt Code = Projekt Nr. + Index</target>
-        </trans-unit>
-        <trans-unit id="EnumExtension 4120894345 - EnumValue 981246535 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Project Code = Job No.</source>
-          <target>Projekt Code = Projekt Nr.</target>
         </trans-unit>
         <trans-unit id="Page 1079552110 - Action 1059583194 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creates a skeleton job structure based on the schedule</source>
@@ -1618,6 +1630,10 @@
         <trans-unit id="Page 161037437 - Control 1547947668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Posting Group</source>
           <target>Projektbuchungsgruppe</target>
+        </trans-unit>
+        <trans-unit id="Page 161037437 - Control 1559872831 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you enter the No. for a default routing. Necessary when updating production order with job structure</source>
+          <target>Hier geben Sie die Nr. für ein Standardrouting. Notwendig bei Aktualisierung des Produktionsauftrags mit Auftragsstruktur</target>
         </trans-unit>
         <trans-unit id="Page 161037437 - Control 1792570132 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Here you enter the No. Series for Job Structure Template Nos.</source>
@@ -2881,6 +2897,14 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
         <trans-unit id="Page 2077999208 - Control 949215307 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the number</source>
           <target>Gibt die Nummer des Sachverhaltes an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2077999208 - Method 500903405 - NamedType 1697190640" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User abort</source>
+          <target>Benutzerabbruch</target>
+        </trans-unit>
+        <trans-unit id="Page 2077999208 - Method 500903405 - NamedType 2437862175" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There is a minimum of one line of usage that has no entry in the field "Applies-to", do you really want to post?</source>
+          <target>Es gibt mindestens eine Nutzungszeile, die keinen Eintrag im Feld "Gilt-für" hat, möchten Sie wirklich posten?</target>
         </trans-unit>
         <trans-unit id="Page 2077999208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Assembling Journal</source>
@@ -4166,10 +4190,6 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
           <source>Change Status</source>
           <target>Status ändern</target>
         </trans-unit>
-        <trans-unit id="Page 2429657013 - Action 1255503984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This action generates a spare part catalog of the job structure</source>
-          <target>Diese Aktion druckt einen Ersatzteilkatalog auf Basis der in den Projektstruktur entsorechend klassifizierten Zeilen.</target>
-        </trans-unit>
         <trans-unit id="Page 2429657013 - Action 1255503984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Spare Parts Catalog</source>
           <target>&amp;Ersatzteilkatalog</target>
@@ -4223,8 +4243,16 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
           <target>Diese Aktion aktualisiert die Anzeige der Projektstruktur.</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Action 2823323620 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Refresh js-view</source>
+          <source>Refresh jobstructure view</source>
           <target>PS - Ansicht aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2429657013 - Action 284241613 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This action generates a spare part quote of the job structure</source>
+          <target>Diese Aktion generiert ein Ersatzteilangebot der Auftragsstruktur</target>
+        </trans-unit>
+        <trans-unit id="Page 2429657013 - Action 284241613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Spare Parts Quote</source>
+          <target>Ersatzteilangebot</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Action 286597317 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action archives the job structure versions will be incremented</source>
@@ -4307,7 +4335,7 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
           <target>Wird diese Verarbeitung gestartet, werden für die Projektstrukturzeilen eindeutige Positionsnummern vergeben, wo die jeweiligen Strukturen der Zeilen in der Positionsnummer abgebildet werden. Zum Beispiel erhält die erste Zeile unterhalb der Position 1 die Nummer 1.1 usw. Bitte beachten Sie, dass bei nachträglichen Änderungen in der Projektstruktur (z.B. einfügen/löschen von Zeilen) nicht zu einer automatischen Neuberechnung der Positionsnummer führt. Diese Verarbeitung kann jedoch mehrfach ausgeführt werden, wobei die Positionsnummern jeweils neu berechnet werden.</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Action 411512063 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculate Position</source>
+          <source>Calculate Position Nos.</source>
           <target>&amp;Positionsnummern berechnen</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Action 4231510117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -4897,7 +4925,7 @@ Wird diese Funktion bei einer Projektstrukturzeile ausgeführt und der Parameter
           <target>Ereignis</target>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 2048387296 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This action generates a spare part catalog</source>
+          <source>This action generates a spare part quote</source>
           <target>In der Projektstruktur können Artikel als „Ersatzteile“ bzw. „Verschleißteile“ gekennzeichnet werden. Ist ein Artikel in den Stammdaten über das Feld „Austauschart“ entsprechend gekennzeichnet (Artikelkarte, Inforegister Lagerbestand), wird dieses automatisch in die Projektstrukturzeile übernommen. Es kann in der Projektstrukturzeile jedoch individuell überschrieben werden.
 
 Wird die Funktion ausgeführt, erscheint zunächst ein Auswahldialog, ob das Angebot Ersatzteile, Verschleißteile oder beides enthalten soll. Hat man eine Option ausgewählt erscheint eine weitere Auswahl, in welcher man folgende Parameter bestimmen kann:
@@ -4911,7 +4939,7 @@ Ist dieser Parameter aktiviert, wird die Menge von der Projektstruktur in die Be
 Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatzteil mehrfach in der Projektstruktur vorkommen, wird es auch mehrfach im Angebot erscheinen.</target>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 2048387296 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Ersatzteilangebot erstellen</source>
+          <source>Generate Spare Part Quote</source>
           <target>Ersatzteilangebot erstellen</target>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 2093150661 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -5104,6 +5132,10 @@ Sollte eine der Bedingungen nicht zutreffen, wird eine entsprechende Fehlermeldu
         <trans-unit id="Page 278747505 - Action 3667967206 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cut</source>
           <target>Ausschneiden</target>
+        </trans-unit>
+        <trans-unit id="Page 278747505 - Action 3858059103 - Method 1377591017 - NamedType 4034115766" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You have choosen the option "10" in engineering setup. Recalculation will not work due to SQL Sorting</source>
+          <target>Sie haben im Engineering Setup die Option "10" gewählt. Neuberechnung funktioniert aufgrund der SQL-Sortierung nicht</target>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 3858059103 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action calculates the serial routing</source>
@@ -6150,7 +6182,7 @@ Jede Arbeitsplanzeile besitzt eine Arbeitsgangnummer. Die Arbeitsgangnummer dien
           <target>Dieses Feld zeigt das Datum des nächsten Wareneingangs an.</target>
         </trans-unit>
         <trans-unit id="Page 2907532635 - Control 702307329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Next receiptdate</source>
+          <source>Next receipt date</source>
           <target>Nächster Wareneingang</target>
         </trans-unit>
         <trans-unit id="Page 2907532635 - Control 787958552 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -7519,10 +7551,6 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
           <source>Here you enter the No. Series for Job Item Variant Nos.</source>
           <target>Nummernkreis für die bei der Funktion „Projektartikel“ generierten Variantencodes. Achtung: Sollte die Projektstruktur in Kombination mit dem MODUS Configurator verwendet werden, ist darauf zu achten, dass es an dieser Stelle keine Überschneidungen gibt. Projektartikel im Sinne der entsprechenden Funktion dürfen keine Konfigurationsklassen haben.</target>
         </trans-unit>
-        <trans-unit id="Page 3710421013 - Control 542598856 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If this check mark is set, then with each change in the job structure line also the Resource capacity planning items adjusted in real time.</source>
-          <target>Wenn dieses Häkchen gesetzt ist, werden bei jeder Änderung in der Projektstrukturzeile auch die Ressourcenkapazitätsplanungspositionen in Echtzeit angepasst.</target>
-        </trans-unit>
         <trans-unit id="Page 3710421013 - Control 615377845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Here you can specify whether the application should be insert header lines of bills of material and routings in job structures.</source>
           <target>Durch das Aktivieren dieses Parameters können gesteuert werde, ob die Anwendung beim Auflösen von Stücklisten und Arbeitsplänen in Projektstrukturen Überschriftenzeilen mit der Nummer der jeweiligen Stammdatenstückliste und -arbeitsplan einfügt.</target>
@@ -7547,6 +7575,10 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
           <source>Here its a mark for "Modus Engineering Active"</source>
           <target>Wird von der Applikation vergeben</target>
         </trans-unit>
+        <trans-unit id="Page 3710421013 - Control 826206968 - Method 2126772001 - NamedType 1795101700" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If you choose the first option, the function for recalculating of operation no. will not work</source>
+          <target>Wenn Sie die erste Option wählen, wird die Funktion zur Neuberechnung der Operation Nr. funktioniert nicht</target>
+        </trans-unit>
         <trans-unit id="Page 3710421013 - Control 826206968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If the operation number is determined automatically you can use this field to change the structure of the number. </source>
           <target>Spezifiziert die Art und Weise, wie Arbeitsgangnummern in der Projektstruktur vergeben werden sollen, wenn diese manuell hinzugefügt werden. Die Optionen sind 10, 010 und 0010</target>
@@ -7554,10 +7586,6 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
         <trans-unit id="Page 3710421013 - Control 889802961 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>At this point the status must be taken from the table "Project Status" must be entered, which is displayed with the code unit 5130123 from the "Project sequence control" is connected.</source>
           <target>Dieser Status wird verwendet wenn ein Projekt oder eine Projektstrukturzeile als ungültig gekennzeichnet wird.</target>
-        </trans-unit>
-        <trans-unit id="Page 3710421013 - Control 908280405 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If this check mark is set, then for job structure lines of the type "Resource" resource capacity planning items are written, which reduced the View of the free availability of the resource. Actually not in use</source>
-          <target>Wenn dieses Häkchen gesetzt ist, werden für Projektstrukturzeilen vom Typ "Ressource" Ressourcenplanungspositionen geschrieben, wodurch die Ansicht der freien Verfügbarkeit der Ressource reduziert wurde. Eigentlich nicht im Einsatz</target>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Engineering Setup</source>
@@ -8088,6 +8116,14 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
         <trans-unit id="Page 3932771532 - Control 3798681774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the variant code</source>
           <target>Zeigt den Variantencode des Artikels in der Zeile an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Control 3850527368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the qty in purch. rcpt. line</source>
+          <target>Gibt die Menge in purch an. rcpt. Linie</target>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Control 3850527368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Qty in purch. rcpt. line</source>
+          <target>Menge in Purch. rcpt. Linie</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 3851953830 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter a variant code</source>
@@ -10073,6 +10109,14 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>If you enter an exchange type you can use that item in a sparepart list</source>
           <target>Gibt die Austauschart an. Diese wird in der Projektstruktur verwendet.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2245591138 - Control 2899819573 - Method 2126772001 - NamedType 842150501" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possible to change "No Disposition", because Reorder Policy isnt BLANK</source>
+          <target>Es ist nicht möglich, "Keine Disposition" zu ändern, da die Richtlinie für Neuanordnung nicht LEER ist</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2245591138 - Control 2899819573 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If you check this field, the item will not be disposable with the manual disposition of the jobstructure. Regardless of the field Reordering Policy = BLANK</source>
+          <target>Wenn Sie dieses Feld aktivieren, ist der Artikel bei der manuellen Disposition der Auftragsstruktur nicht verfügbar. Unabhängig vom Feld Richtlinie zum Neuanordnen = LEER</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2245591138 - Control 3253055305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicates wether this item generates a new variant every time you put it in a job structure line</source>
           <target>Gibt an, ob es sich um einen Projektartikel handelt.</target>
@@ -11013,6 +11057,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Recalc Actual Cost</source>
           <target>Istkosten neu ermitteln</target>
         </trans-unit>
+        <trans-unit id="Report 1605201065 - Method 127747183 - NamedType 3640662900" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Default Routing No. set in Engineering Setup</source>
+          <target>Kein Standard-Routing-Nr. in Engineering Setup festgelegt</target>
+        </trans-unit>
         <trans-unit id="Report 1605201065 - NamedType 1595328865" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creating production order for item #1#########</source>
           <target>Fertigungsauftragserstellung zu Artikel #1#########</target>
@@ -11457,9 +11505,13 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Status of Routing</source>
           <target>Arbeitsplanstatus</target>
         </trans-unit>
-        <trans-unit id="Report 3026846999 - Control 2580823852 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New,Certified,Under Development,Closed</source>
-          <target>Neu,Zertifiziert,In Entwicklung,Abgelaufen</target>
+        <trans-unit id="Report 3026846999 - Control 2744025891 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the no. series for the new version</source>
+          <target>Definiert die Nr. Serie für die neue Version</target>
+        </trans-unit>
+        <trans-unit id="Report 3026846999 - Control 2744025891 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No. Series of Routing</source>
+          <target>Versions-Nr. Serie von Routing</target>
         </trans-unit>
         <trans-unit id="Report 3026846999 - Control 2872504979 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Defines which numbering should be used</source>
@@ -11509,6 +11561,14 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Create new Version of BoM</source>
           <target>Neue Stücklistenversion erstellen</target>
         </trans-unit>
+        <trans-unit id="Report 3026846999 - Control 4016262229 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Defines the no. series for the new version</source>
+          <target>Definiert die Nr. Serie für die neue Version</target>
+        </trans-unit>
+        <trans-unit id="Report 3026846999 - Control 4016262229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Version No. Series of BOM</source>
+          <target>Versions-Nr. Stücklistenserie</target>
+        </trans-unit>
         <trans-unit id="Report 3026846999 - Method 1870756677 - NamedType 802873508" translate="yes" size-unit="char" xml:space="preserve">
           <source>The operation no., previous operation no., next operation no. isnt calculated. Please calculate before use of this action</source>
           <target>Die Arbeitsgangnr., vorhergehende Arbeitsgangnr., nächste Arbeitsgangnr. fehlt. Bitte berechnen Sie den Arbeitsablauf bevor Sie diese Aktion ausführen.</target>
@@ -11516,10 +11576,6 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
         <trans-unit id="Report 3026846999 - NamedType 1056659033" translate="yes" size-unit="char" xml:space="preserve">
           <source>You can not create master data for a Job Item.</source>
           <target>Sie können keine Stammdaten für einen Projektartikel erstellen.</target>
-        </trans-unit>
-        <trans-unit id="Report 3026846999 - NamedType 1137144234" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Open Production BOM? </source>
-          <target>Fertigungsstückliste öffnen?</target>
         </trans-unit>
         <trans-unit id="Report 3026846999 - NamedType 1711003876" translate="yes" size-unit="char" xml:space="preserve">
           <source>Using of Resources or G/L Accounts are not considering in Production BoM.</source>
@@ -13473,13 +13529,13 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Error in schedule calculation.\</source>
           <target>Zur Zeit können keine Berechnungen durchgeführt werden.\</target>
         </trans-unit>
+        <trans-unit id="Table 3591311979 - NamedType 3980505657" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines are created.</source>
+          <target>Die Zeilen sind übernommen worden.</target>
+        </trans-unit>
         <trans-unit id="Table 3591311979 - NamedType 629104484" translate="yes" size-unit="char" xml:space="preserve">
           <source>cannot be less than the planned starting date.</source>
           <target>darf nicht kleiner als das geplante Startdatum sein.</target>
-        </trans-unit>
-        <trans-unit id="Table 3591311979 - NamedType 629688172" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lines are created.</source>
-          <target>Die Zeilen sind übernommen worden.</target>
         </trans-unit>
         <trans-unit id="Table 3591311979 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Schedule Line</source>
@@ -14129,6 +14185,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>There are production order lines already, manual status change not allowed</source>
           <target>Es gibt bereits Fertigungsauftragszeilen. ein manuelles Ändern des Status ist nicht möglich.</target>
         </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 513339096 - Method 2126772001 - NamedType 2240602148" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The field "No." is empty, change not possible</source>
+          <target>Das Feld "Nein." ist leer, Änderung nicht möglich</target>
+        </trans-unit>
         <trans-unit id="Table 3790414227 - Field 513339096 - Method 2126772001 - NamedType 2636743374" translate="yes" size-unit="char" xml:space="preserve">
           <source>There is a production component already, manual status change not allowed</source>
           <target>Es gibt bereits Fertigungsauftragskomponenten. Ein manuelles Ändern des Status ist nicht möglich.</target>
@@ -14241,6 +14301,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>The Quantity %1 %2 cannot be less than the equivalent setup time of %3 %4.</source>
           <target>Die Menge %1 %2 darf nicht kleiner als die umgerechnete Rüstzeit von %3 %4 sein.</target>
         </trans-unit>
+        <trans-unit id="Table 3790414227 - NamedType 1208655277" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are connected lines to jobstructureline %1, No.%2 in ItemJournal %3</source>
+          <target>Es befinden sich zugehörige Zeilen zur Projektstrukturzeile %1, Nr. %2 in Artikelbuchblatt %3</target>
+        </trans-unit>
         <trans-unit id="Table 3790414227 - NamedType 1545318942" translate="yes" size-unit="char" xml:space="preserve">
           <source>This Value can not be changed, because there are associated Production Order Routing Lines.</source>
           <target>Dieser Wert kann nicht geändert werden, da bereits verknüpfte Arbeitsgangzeilen existieren.</target>
@@ -14256,10 +14320,6 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
         <trans-unit id="Table 3790414227 - NamedType 1700044466" translate="yes" size-unit="char" xml:space="preserve">
           <source>You only can set this value for items with reordering policy = BLANK</source>
           <target>Sie können diesen Wert nur für Artikel mit Wiederbeschaffungsverfahren LEER setzen</target>
-        </trans-unit>
-        <trans-unit id="Table 3790414227 - NamedType 1701280867" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You cant choose a "Standard Production" item, when you have attached items</source>
-          <target>Bevor Sie einen Standardfertigungsartikel wählen, löschen Sie die Unterartikel</target>
         </trans-unit>
         <trans-unit id="Table 3790414227 - NamedType 1712639195" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot decrease the quantity below %1. You already have supplylines with quantity %1</source>
@@ -14329,10 +14389,6 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Field %1 is invalid Purchase Price Calculation</source>
           <target>Feld %1 ist nicht gültig für die Einkaufspreisberechnung</target>
         </trans-unit>
-        <trans-unit id="Table 3790414227 - NamedType 3790127480" translate="yes" size-unit="char" xml:space="preserve">
-          <source>There are connected lines to jobstructureline %1, No.%2 in ItemJournal %3</source>
-          <target>Es befinden sich zugehörige Zeilen zur Projektstrukturzeile %1, Nr. %2 in Artikelbuchblatt %3</target>
-        </trans-unit>
         <trans-unit id="Table 3790414227 - NamedType 3806681280" translate="yes" size-unit="char" xml:space="preserve">
           <source>A different replenishment system must be planned manually.</source>
           <target>Ein unterschiedliches Wiederbeschaffungsverfahren muss manuell geplant werden</target>
@@ -14345,13 +14401,17 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>You only can set this field when Type = Item</source>
           <target>Sie können dieses Feld nur setzen wenn der Typ auch Artikel ist</target>
         </trans-unit>
-        <trans-unit id="Table 3790414227 - NamedType 566835843" translate="yes" size-unit="char" xml:space="preserve">
-          <source>There are connected lines to jobstructureline %1, No. %2 in jobjournal %3</source>
-          <target>Es befinden sich zugehörige Zeilen zur Projektstrukturzeile %1, Nr. %2 in Projektbuchungsblatt %3 </target>
-        </trans-unit>
         <trans-unit id="Table 3790414227 - NamedType 586409470" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field is filled for service items automatically with quantity (base) of assembly.</source>
           <target>Dieses Feld wird bei Leistungspositionen automatisch mit Menge (Basis) der Baugruppe gefüllt.</target>
+        </trans-unit>
+        <trans-unit id="Table 3790414227 - NamedType 588688818" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are connected lines to jobstructureline %1, No. %2 in jobjournal %3</source>
+          <target>Es befinden sich zugehörige Zeilen zur Projektstrukturzeile %1, Nr. %2 in Projektbuchungsblatt %3 </target>
+        </trans-unit>
+        <trans-unit id="Table 3790414227 - NamedType 634067290" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cant choose a "Standard Production" item, when you have attached items</source>
+          <target>Bevor Sie einen Standardfertigungsartikel wählen, löschen Sie die Unterartikel</target>
         </trans-unit>
         <trans-unit id="Table 3790414227 - NamedType 730115570" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you really want to change the checklist?</source>
@@ -14492,6 +14552,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
         <trans-unit id="Table 3932771532 - Field 368311501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty in Purch. Quote</source>
           <target>Menge in Einkaufsanfragen</target>
+        </trans-unit>
+        <trans-unit id="Table 3932771532 - Field 3778441876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Qty in Purch. Order Received</source>
+          <target>Menge in Purch. Bestellung eingegangen</target>
         </trans-unit>
         <trans-unit id="Table 3932771532 - Field 3946195661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Res. Qty purchase order</source>
@@ -15477,6 +15541,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Prod. BOM Version Nos.</source>
           <target>Stückl. Versionsnummern</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3911251660 - Field 1983088713 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing Version Nos.</source>
+          <target>Routing-Versions-Nr.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3939542790 - Field 1825782762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exchange Type</source>
           <target>Austauschart</target>
@@ -15500,6 +15568,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
         <trans-unit id="TableExtension 3939542790 - Field 2886080144 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Unit Cost Calc. At</source>
           <target>Letzte Einstandspreisberechnung am</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3939542790 - Field 2899819573 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Disposition</source>
+          <target>Keine Disposition</target>
         </trans-unit>
         <trans-unit id="TableExtension 3939542790 - Field 3184702601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Unit Cost Calc. From</source>
