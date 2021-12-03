@@ -37,7 +37,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 1516392556 - Method 1207513016 - NamedType 4093886363" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Application Prefix has been set for App %1 (ID: %2).</source>
-          <target>Für App %1 (ID: %2) wurde kein Anwendungspräfix festgelegt.</target>
+          <target>Für App %1 (ID: %2) wurde kein Anwendungspräfix gesetzt.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1516392556 - Method 825316825 - NamedType 135903268" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set up %1 from %2</source>
@@ -163,13 +163,13 @@
           <source>Your License for App %1 from %2 is corrupt or cannot be retrieved. Please contact support.</source>
           <target>Ihre Lizenz für App %1 von %2 ist beschädigt oder kann nicht abgerufen werden. Bitte kontaktieren Sie den Support.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 377934790 - NamedType 20328080" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Welcome to the %1 App %2 from %3.</source>
-          <target>Willkommen bei der %1 App %2 von %3.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 377934790 - NamedType 3056168527" translate="yes" size-unit="char" xml:space="preserve">
           <source>Your license is expired and will only allow limited functionality for the next time.\Please consider to renew your license.</source>
           <target>Ihre Lizenz ist abgelaufen und erlaubt in der nächsten Zeit nur noch eingeschränkte Funktionalität.\Bitte ziehen Sie in Betracht, Ihre Lizenz zu erneuern.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 377934790 - NamedType 3094943402" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to %1 from %2.</source>
+          <target>Willkommen zu %1 von %2.</target>
         </trans-unit>
         <trans-unit id="Codeunit 377934790 - NamedType 3435650887" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Contact %1 support, please write an E-Mail to %2 &lt;%3&gt;.</source>
@@ -190,10 +190,6 @@
         <trans-unit id="Codeunit 377934790 - NamedType 3958885012" translate="yes" size-unit="char" xml:space="preserve">
           <source>Your license is outside of the Limited License Period and does not function anymore.\Please consider renewing your license.</source>
           <target>Ihre Lizenz befindet sich außerhalb des begrenzten Lizenzzeitraums und funktioniert nicht mehr.\Bitte ziehen Sie in Betracht, Ihre Lizenz zu erneuern.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 377934790 - NamedType 515114629" translate="yes" size-unit="char" xml:space="preserve">
-          <source>License Status: %1\Expiration Date: %2\Limited Expiration Date: %3</source>
-          <target>Lizenz-Status: %1\Ablaufdatum: %2\Begrenztes Ablaufdatum: %3</target>
         </trans-unit>
         <trans-unit id="Codeunit 377934790 - NamedType 544433905" translate="yes" size-unit="char" xml:space="preserve">
           <source>Contact Support</source>
@@ -293,11 +289,11 @@
         </trans-unit>
         <trans-unit id="Enum 2680761210 - EnumValue 3958331253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unique</source>
-          <target>Eindeutig</target>
+          <target>Einmalig</target>
         </trans-unit>
         <trans-unit id="Enum 2680761210 - EnumValue 51463044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Multiple</source>
-          <target>Mehrfach</target>
+          <target>Mehrere</target>
         </trans-unit>
         <trans-unit id="Enum 3517392482 - EnumValue 1358949437 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Per Tenant</source>
@@ -835,6 +831,14 @@
           <source>New Record</source>
           <target>Neuer Datensatz</target>
         </trans-unit>
+        <trans-unit id="Page 4283920485 - Action 3744098192 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the configuration Card Page for this record.</source>
+          <target>Öffnet die Konfigurationskarte für diesen Datensatz.</target>
+        </trans-unit>
+        <trans-unit id="Page 4283920485 - Action 3744098192 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Card Page</source>
+          <target>Karte anzeigen</target>
+        </trans-unit>
         <trans-unit id="Page 766956609 - Action 1349328336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use this action to acquire an OAuth2 V1.0 authorization token and test if the authorization is successful.</source>
           <target>Verwenden Sie diese Aktion, um ein OAuth2 V1.0-Autorisierungstoken zu anzufordern und zu testen, ob die Autorisierung erfolgreich ist.</target>
@@ -1097,7 +1101,7 @@
         </trans-unit>
         <trans-unit id="Table 1071073578 - Field 2530295428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Link Type</source>
-          <target>Verbindungsart</target>
+          <target>Verknüpfungsart</target>
         </trans-unit>
         <trans-unit id="Table 1071073578 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
