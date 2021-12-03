@@ -3,6 +3,18 @@
   <file datatype="xml" source-language="en-US" target-language="it-CH" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1974296129 - Method 1330123647 - NamedType 472987049" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Page %1 does not belong to Table %2.</source>
+          <target>La pagina %1 non appartiene alla tabella %2.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1974296129 - Method 1435628464 - NamedType 643799615" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 could not be validated as a Field.</source>
+          <target>Impossibile convalidare %1 come campo.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1974296129 - Method 4005096316 - NamedType 1882794283" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 could not be validated as a Table.</source>
+          <target>Impossibile convalidare %1 come tabella.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1974296129 - NamedType 1388208873" translate="yes" size-unit="char" xml:space="preserve">
           <source>Today</source>
           <target>Oggi</target>
@@ -11,29 +23,13 @@
           <source>You must select a Field if %1 is %2.</source>
           <target>È necessario selezionare un campo se %1 è %2.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1974296129 - NamedType 2119084195" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Could not validate Table %1.</source>
-          <target>Impossibile convalidare la tabella %1.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1974296129 - NamedType 2326310359" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Could not validate Field %1.</source>
-          <target>Impossibile convalidare il campo %1.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1974296129 - NamedType 2526083431" translate="yes" size-unit="char" xml:space="preserve">
           <source>WorkDate</source>
           <target>Work date</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1974296129 - NamedType 3530827156" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicator %1 - %2</source>
-          <target>Indicatore %1 - %2</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1974296129 - NamedType 3716331492" translate="yes" size-unit="char" xml:space="preserve">
           <source>CurrentDateTime</source>
           <target>CurrentDateTime</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1974296129 - NamedType 55942532" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indicator %1 - %2: Relation from Table %3 to Table %4</source>
-          <target>Indicatore %1 - %2: relazione tra tabella %3 e tabella %4</target>
         </trans-unit>
         <trans-unit id="Codeunit 1974296129 - NamedType 646701609" translate="yes" size-unit="char" xml:space="preserve">
           <source>Test Result: %1 - %2</source>
@@ -43,6 +39,10 @@
           <source>No match found for Record %1. Probably you need to provide a default value.</source>
           <target>Nessuna corrispondenza trovata per il record %1. Probabilmente è necessario fornire un valore predefinito.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2848876749 - Method 2059051022 - NamedType 649818945" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Batch quote %1 was created!</source>
+          <target>È stata creata l'offerta batch %1.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2848876749 - Method 4045448183 - NamedType 173874313" translate="yes" size-unit="char" xml:space="preserve">
           <source>The total number of Purchase Quotes per Batch Quote can not exceed 16 Documents.</source>
           <target>Il numero totale di offerte di acquisto per offerta batch non può superare i 16 documenti.</target>
@@ -50,10 +50,6 @@
         <trans-unit id="Codeunit 2848876749 - Method 4175030152 - NamedType 390305495" translate="yes" size-unit="char" xml:space="preserve">
           <source> %1 Lines with Replenishment System unequal to Purchase or not support types have been skipped.</source>
           <target> %1 Le righe con sistema di rifornimento disuguale ai tipi di acquisto o non di supporto sono state ignorate.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2848876749 - NamedType 1958837537" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Batch quote %1 was created!</source>
-          <target>È stata creata l'offerta batch %1.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2848876749 - NamedType 2278384528" translate="yes" size-unit="char" xml:space="preserve">
           <source>The field "Create purchase order" was not set in any line!</source>
@@ -84,8 +80,8 @@
           <target>Impostare l'estensione base MODUS</target>
         </trans-unit>
         <trans-unit id="Codeunit 3600583934 - Method 4210113768 - NamedType 716329142" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Position No., Statistics, Production Output</source>
-          <target>Posizione n., Statistiche, Produzione</target>
+          <source>Position No., Statistics, Production Output, Checklists, Batch Quotes</source>
+          <target>Position No., Statistics, Production Output, Checklists, Batch Quotes</target>
         </trans-unit>
         <trans-unit id="Codeunit 722206537 - NamedType 1182247308" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1..%2</source>
@@ -135,33 +131,21 @@
           <source>The activation of the feature was interrupted.</source>
           <target>L'attivazione della funzione è stata interrotta.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 831705836 - NamedType 976023894" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 831705836 - NamedType 3992919220" translate="yes" size-unit="char" xml:space="preserve">
           <source>MODUS Consult GmbH does not support the new price calculation at this time. If you activate this function, adjustments on the part of MODUS will no longer work and the pricing will provide different results.\Do you really want to activate the new price calculation?</source>
           <target>MODUS Consult GmbH al momento non supporta il nuovo calcolo dei prezzi. Se si attiva questa funzione, le regolazioni da parte di MODUS non funzioneranno più e il prezzo fornirà risultati diversi.\Attivare davvero il nuovo calcolo del prezzo?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 2354729532" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Purchase Line %1, %2, %3 has no check list.</source>
-          <target>La riga di acquisto %1, %2, %3 non dispone di un elenco di controllo.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 2561294189" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Sales Line %1, %2, %3 has no check list.</source>
-          <target>La riga vendite %1, %2, %3 non dispone di un elenco di controllo.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 2666660523" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Purchase Document %1, %2 has no check list.</source>
-          <target>Il documento di acquisto %1, %2 non dispone di un elenco di controllo.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 2731888478" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Sales Document %1, %2 has no check list.</source>
-          <target>Il documento di vendita %1, %2 non dispone di un elenco di controllo.</target>
+        <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 1851985007" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Record %1 has no check list.</source>
+          <target>Il record %1 non dispone di una lista di controllo.</target>
         </trans-unit>
         <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 3062158913" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table %1 not configured for opening checklists.</source>
           <target>Tabella %1 non configurata per l'apertura di elenchi di controllo.</target>
         </trans-unit>
         <trans-unit id="Codeunit 849254663 - Method 4089845798 - NamedType 4163206806" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Checkliste does not exist.</source>
-          <target>L'elenco di controllo non esiste.</target>
+          <source>Checklist does not exist.</source>
+          <target>La checklist non esiste.</target>
         </trans-unit>
         <trans-unit id="Enum 1901726311 - EnumValue 2041629824 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Equal</source>
@@ -331,9 +315,29 @@
           <source>Blanket Sales Order</source>
           <target>Ordine vendita programmato</target>
         </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 2187938695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service</source>
+          <target>Assistenza</target>
+        </trans-unit>
         <trans-unit id="Page 1033761563 - Control 2247197532 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date when this checklist was created or modified.</source>
           <target>Specifica la data in cui questo elenco di controllo è stato creato o modificato.</target>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 2335352125 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of open mandatory checklist-lines for this document type.</source>
+          <target>No. di righe di elenco di controllo obbligatorie aperte per questo tipo di documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 2335352125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Contract</source>
+          <target>Contratto di assistenza</target>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 2717801825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of open mandatory checklist-lines for this document type.</source>
+          <target>No. di righe di elenco di controllo obbligatorie aperte per questo tipo di documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 2717801825 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Order</source>
+          <target>Ordine assistenza</target>
         </trans-unit>
         <trans-unit id="Page 1033761563 - Control 2852007643 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. of open mandatory checklist-lines for this document type.</source>
@@ -362,6 +366,14 @@
         <trans-unit id="Page 1033761563 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description for this checklist.</source>
           <target>Specifica una descrizione per questo elenco di controllo.</target>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 3562859125 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of open mandatory checklist-lines for this document type.</source>
+          <target>No. di righe di elenco di controllo obbligatorie aperte per questo tipo di documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 3562859125 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Quote</source>
+          <target>Offerta assistenza</target>
         </trans-unit>
         <trans-unit id="Page 1033761563 - Control 3819752341 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the user who is currently assigned to this checklist.</source>
@@ -394,6 +406,10 @@
         <trans-unit id="Page 1103450956 - Action 1402615620 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Line</source>
           <target>Ri&amp;ga</target>
+        </trans-unit>
+        <trans-unit id="Page 1103450956 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the batch quote card. </source>
+          <target>Visualizza la scheda di preventivo batch. </target>
         </trans-unit>
         <trans-unit id="Page 1103450956 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Card</source>
@@ -431,6 +447,10 @@
           <source>Batch Quotes</source>
           <target>Offerte batch</target>
         </trans-unit>
+        <trans-unit id="Page 1128491568 - Action 112710097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the actual and probable quantity of an item by variant code.</source>
+          <target>Visualizza la quantità effettiva e probabile di un articolo in mezzo al codice variante.</target>
+        </trans-unit>
         <trans-unit id="Page 1128491568 - Action 112710097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant</source>
           <target>Variante</target>
@@ -439,9 +459,17 @@
           <source>&amp;Line</source>
           <target>Ri&amp;ga</target>
         </trans-unit>
+        <trans-unit id="Page 1128491568 - Action 1942335638 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the vendor assignment for the selected line.</source>
+          <target>Visualizza l'assegnazione del fornitore per la riga selezionata.</target>
+        </trans-unit>
         <trans-unit id="Page 1128491568 - Action 1942335638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Assignement</source>
           <target>Assegnazione fornitore</target>
+        </trans-unit>
+        <trans-unit id="Page 1128491568 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the dimensions for the selected row. These can be revised at this point.</source>
+          <target>Visualizza le quote per la riga selezionata. Questi possono essere rivisti a questo punto.</target>
         </trans-unit>
         <trans-unit id="Page 1128491568 - Action 2173385693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimensions</source>
@@ -451,13 +479,25 @@
           <source>Item Availability by</source>
           <target>Disponibilità articolo per</target>
         </trans-unit>
+        <trans-unit id="Page 1128491568 - Action 3891454143 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the actual and probable quantity of an item by location code.</source>
+          <target>Visualizza la quantità effettiva e probabile di un articolo in ordine di codice località.</target>
+        </trans-unit>
         <trans-unit id="Page 1128491568 - Action 3891454143 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location</source>
           <target>Ubicazione</target>
         </trans-unit>
+        <trans-unit id="Page 1128491568 - Action 912261439 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the actual and probable quantity of an item by period.</source>
+          <target>Visualizza la quantità effettiva e probabile di un articolo per periodo.</target>
+        </trans-unit>
         <trans-unit id="Page 1128491568 - Action 912261439 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period</source>
           <target>Periodo</target>
+        </trans-unit>
+        <trans-unit id="Page 1128491568 - Control 1139616293 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the no of related vendors.</source>
+          <target>Specifica il numero di fornitori correlati.</target>
         </trans-unit>
         <trans-unit id="Page 1128491568 - Control 1602222300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the requested receipt date.</source>
@@ -519,6 +559,42 @@
           <source>Item Lines</source>
           <target>Righe articoli</target>
         </trans-unit>
+        <trans-unit id="Page 113973747 - Control 1338796320 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the selected page.</source>
+          <target>Specifica il nome della pagina selezionata.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Control 1359954629 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table ID for the automatic page field Indicator assignment.</source>
+          <target>Specifica l'ID tabella per l'assegnazione automatica dell'indicatore del campo di pagina.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Control 1500409770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Table for the automatic page field Indicator assignment.</source>
+          <target>Specificare la tabella per l'assegnazione automatica degli indicatori del campo pagina.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Control 2015550576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Indicator Code that should be used for the selected Control.</source>
+          <target>Specificare il codice indicatore da utilizzare per il controllo selezionato.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Control 2147711170 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Control Name to assign the Indicator to.</source>
+          <target>Specificare il Nome controllo a cui assegnare l'indicatore.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Control 4148070650 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Page ID for the automatic page field Indicator assignment.</source>
+          <target>Specifica l'ID pagina per l'assegnazione automatica dell'indicatore del campo pagina.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Control 438909893 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Page for the automatic page field Indicator assignment.</source>
+          <target>Specificare la pagina per l'assegnazione automatica dell'indicatore del campo pagina.</target>
+        </trans-unit>
+        <trans-unit id="Page 113973747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Page Assignments</source>
+          <target>Assegnazioni della pagina indicatore</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Action 1031015225 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the checklist.</source>
+          <target>Visualizza l'elenco di controllo.</target>
+        </trans-unit>
         <trans-unit id="Page 1378743752 - Action 1031015225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Checklist</source>
           <target>Mostra Checklist</target>
@@ -526,6 +602,78 @@
         <trans-unit id="Page 1378743752 - Action 1509383920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Checklist Line</source>
           <target>Riga &amp;checklist</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value</source>
+          <target>Specifica il valore</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 1165969121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the line no</source>
+          <target>Specifica la riga no</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 1440873699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the check list code.</source>
+          <target>Specifica il codice della lista di controllo.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level of the Checklist Line</source>
+          <target>Specifica il livello della riga dell'elenco di controllo</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 1907234846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the modified by.</source>
+          <target>Specifica il modificato da.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 2247197532 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the modified on.</source>
+          <target>Specifica l'on modificato.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 2486419900 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the position no..</source>
+          <target>Specifica la posizione n..</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 2790486453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the comment.</source>
+          <target>Specifica il commento.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 2827249175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the color.</source>
+          <target>Specifica il colore.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 317369864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the time of the last change.</source>
+          <target>Specifica l'ora dell'ultima modifica.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description of the checkliste line.</source>
+          <target>Descrizione della riga checkliste.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 3849872368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the checklist line is relevant for the quote release.</source>
+          <target>Specifica se la riga dell'elenco di controllo è rilevante per la versione dell'elenco di preventivo.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 3939928242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates to which parent row the current row is assigned.</source>
+          <target>Indica a quale riga padre è assegnata la riga corrente.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 442768151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the line is to be displayed in bold type.</source>
+          <target>Specifica se la riga deve essere visualizzata in grassetto.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 512284356 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the checklist line is relevant for the oder release.</source>
+          <target>Specifica se la riga dell'elenco di controllo è rilevante per la versione oder.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 526712655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether the checklist line is relevant for the purchase oder release.</source>
+          <target>Specifica se la riga dell'elenco di controllo è rilevante per la versione di acquisto oder.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 848733486 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit of measure code.</source>
+          <target>Specifica in che modo ogni unità dell'articolo o della risorsa viene misurata, ad esempio in pezzi od ore. Per default, viene inserito il valore del campo Unità di misura base della scheda articolo o risorsa.</target>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 90423963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the Line is selected.</source>
+          <target>Specifica se l'opzione Linea è selezionata.</target>
         </trans-unit>
         <trans-unit id="Page 1378743752 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist Lines</source>
@@ -575,17 +723,33 @@
           <source>Checklist List</source>
           <target>Lista checklist</target>
         </trans-unit>
+        <trans-unit id="Page 1899019946 - Control 2593441947 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of purchase quotes associated with the batch quote.</source>
+          <target>Numero di preventivi di acquisto associati all'preventivo batch.</target>
+        </trans-unit>
         <trans-unit id="Page 1899019946 - Control 2593441947 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quotes</source>
           <target>Offerte</target>
+        </trans-unit>
+        <trans-unit id="Page 1899019946 - Control 3435539207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of purchase orders associated with the batch quote.</source>
+          <target>Numero di ordini di acquisto associati al preventivo batch.</target>
         </trans-unit>
         <trans-unit id="Page 1899019946 - Control 3435539207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Orders</source>
           <target>Ordini</target>
         </trans-unit>
+        <trans-unit id="Page 1899019946 - Control 4183231089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of purchase proposals associated with the batch quote.</source>
+          <target>Numero di proposte di acquisto associate al preventivo batch.</target>
+        </trans-unit>
         <trans-unit id="Page 1899019946 - Control 4183231089 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Proposals</source>
           <target>Proposta</target>
+        </trans-unit>
+        <trans-unit id="Page 1899019946 - Control 919603500 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Number of req. worksheet lines associated with the batch quote.</source>
+          <target>Numero di righe del foglio di lavoro req. associate all'elenco batch.</target>
         </trans-unit>
         <trans-unit id="Page 1899019946 - Control 919603500 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Req. Worksheet</source>
@@ -598,6 +762,10 @@
         <trans-unit id="Page 2010039357 - Action 1402615620 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Line</source>
           <target>Ri&amp;ga</target>
+        </trans-unit>
+        <trans-unit id="Page 2010039357 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displayes the card of the Batch quote.</source>
+          <target>Visualizza la scheda del preventivo Batch.</target>
         </trans-unit>
         <trans-unit id="Page 2010039357 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Card</source>
@@ -671,6 +839,10 @@
           <source>&amp;Line</source>
           <target>Ri&amp;ga</target>
         </trans-unit>
+        <trans-unit id="Page 2196499863 - Action 3162801707 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the vendor card.</source>
+          <target>Visualizza la scheda del fornitore.</target>
+        </trans-unit>
         <trans-unit id="Page 2196499863 - Action 3162801707 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Card</source>
           <target>Scheda fornitore</target>
@@ -724,28 +896,80 @@
           <target>Righe assegnazione fornitore</target>
         </trans-unit>
         <trans-unit id="Page 2272332 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specify the Value for this Indicator Style.</source>
+          <source>Specify a Value for this Style. This Value will be shown in a field, if this Style is assigned (i.e. the Rules apply).</source>
           <target>Specificare il valore per questo stile indicatore.</target>
         </trans-unit>
         <trans-unit id="Page 2272332 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specify the Code for this Indicator Style.</source>
+          <source>Specify the Code to identify this Style.</source>
           <target>Specificare il codice per questo stile indicatore.</target>
         </trans-unit>
         <trans-unit id="Page 2272332 - Control 3334115041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specify the Style if this Indicator is applied.</source>
+          <source>Specify a Style. This Style will be applied to a field if it is assigned (i.e. the Rules apply).</source>
           <target>Specificare lo stile se questo indicatore è applicato.</target>
         </trans-unit>
         <trans-unit id="Page 2272332 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specify the Description for this Indicator Style.</source>
+          <source>Specify the Description for this Style.</source>
           <target>Specificare la descrizione per questo stile indicatore.</target>
         </trans-unit>
         <trans-unit id="Page 2272332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicator Styles</source>
           <target>Stili indicatore</target>
         </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the comparision value for this Rule based on the configured Type.</source>
+          <target>Specificare il valore di confronto per questa regola in base al tipo configurato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 1162397407 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the value to compare against for this Rule based on the configured Relation Type.</source>
+          <target>Specificare il valore da confrontare per questa regola in base al tipo di relazione configurato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 1165969121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies an automatically created line number for this entry.</source>
+          <target>Specifica un numero di riga creato automaticamente per questa voce.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 1359954629 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the base Table ID related to this Rule definition.</source>
+          <target>Specifica l'ID tabella di base correlato a questa definizione di regola.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 1523082388 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Relation Table defined for this Rule definition.</source>
+          <target>Specifica la tabella delle relazioni definita per questa definizione di regola.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Type of value for this Rule. It can be a Constant, Filter, or Field value. In most cases this will be "Field".</source>
+          <target>Specificare il tipo di valore per questa regola. Può essere un valore Costante, Filtro o Campo. Nella maggior parte dei casi questo sarà "Campo".</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 2015550576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Indicator Code related to this Rule definition.</source>
+          <target>Specifica il codice indicatore correlato a questa definizione di regola.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 2062843026 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the comparision/Relation Type of Relation Value for this Rule. It can be a Constant, Filter, or Field value.</source>
+          <target>Specificate il tipo di confronto/relazione del valore di relazione per questa regola. Può essere un valore Costante, Filtro o Campo.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 3221147252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Comparision type against the configured Releation Type and Relation Value.</source>
+          <target>Specificate il tipo di confronto rispetto al tipo di releation e al valore di relazione configurati.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 358941092 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify how the current or subsequent line is to be considered. You can link rules with "Then", "And" or "Or".</source>
+          <target>Specificare come considerare la riga corrente o successiva. Puoi collegare le regole con "Allora", "E" o "O".</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 3732470600 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify if values should be aggregated before comparision takes place.</source>
+          <target>Specificare se i valori devono essere aggregati prima che avvenga il confronto.</target>
+        </trans-unit>
+        <trans-unit id="Page 2584462283 - Control 3806000269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Style to apply in case of a match.</source>
+          <target>Specificate lo stile da applicare in caso di corrispondenza.</target>
+        </trans-unit>
         <trans-unit id="Page 2584462283 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicator Rules</source>
           <target>Regole indicatore</target>
+        </trans-unit>
+        <trans-unit id="Page 2628831011 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displaes the dimensions of the record.</source>
+          <target>Displaes le dimensioni del record.</target>
         </trans-unit>
         <trans-unit id="Page 2628831011 - Action 2173385693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimensions</source>
@@ -758,6 +982,10 @@
         <trans-unit id="Page 2628831011 - Action 3935837104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>F&amp;unction</source>
           <target>F&amp;unzione</target>
+        </trans-unit>
+        <trans-unit id="Page 2628831011 - Action 530829447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sets the status back to open.</source>
+          <target>Imposta di nuovo lo stato su aperto.</target>
         </trans-unit>
         <trans-unit id="Page 2628831011 - Action 530829447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re&amp;open</source>
@@ -815,9 +1043,21 @@
           <source>Finished Batch Quote</source>
           <target>Offerte batch chiuse</target>
         </trans-unit>
+        <trans-unit id="Page 2854261894 - Action 746276264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displays the list of assigned vendors.</source>
+          <target>Visualizza l'elenco dei fornitori assegnati.</target>
+        </trans-unit>
         <trans-unit id="Page 2854261894 - Action 746276264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Edit</source>
           <target>Modifica</target>
+        </trans-unit>
+        <trans-unit id="Page 2854261894 - Control 1607295407 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the vendor no..</source>
+          <target>Specifica il n. fornitore.</target>
+        </trans-unit>
+        <trans-unit id="Page 2854261894 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the vendor.</source>
+          <target>Specifica il nome del fornitore.</target>
         </trans-unit>
         <trans-unit id="Page 2854261894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Assignement</source>
@@ -831,6 +1071,22 @@
           <source>Relations</source>
           <target>Relazioni</target>
         </trans-unit>
+        <trans-unit id="Page 2877087339 - Action 2149120411 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the Relation setup for this Indicator Table.</source>
+          <target>Apre l'impostazione Relazione per questa tabella indicatori.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Action 2149120411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Relations</source>
+          <target>Relazioni</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Action 2928932288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the Assignment setup for this Indicator Table.</source>
+          <target>Apre l'impostazione Assegnazione per questa tabella degli indicatori.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Action 2928932288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assignments</source>
+          <target>Dove Usato</target>
+        </trans-unit>
         <trans-unit id="Page 2877087339 - Action 3208507290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the configured Rules for this Indicator Table.</source>
           <target>Apre le regole configurate per questa tabella indicatori.</target>
@@ -839,9 +1095,49 @@
           <source>Rules</source>
           <target>Regole</target>
         </trans-unit>
+        <trans-unit id="Page 2877087339 - Action 3552449307 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the Rule setup for this Indicator Table.</source>
+          <target>Apre l'impostazione della regola per questa tabella degli indicatori.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Action 3552449307 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rules</source>
+          <target>Regole</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Control 1500409770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the base Table for configuration of Rules and Relations to a configured Relation Table.</source>
+          <target>Specificare la tabella di base per la configurazione di regole e relazioni in una tabella di relazioni configurata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Control 1523082388 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify the Relation Table to configure Relations to the base Table.</source>
+          <target>Specificate la tabella delle relazioni per configurare le relazioni con la tabella di base.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Control 1548211826 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify a Filter for the base Table to reduce the number of records before any Rules or Relations are applied.</source>
+          <target>Specificare un filtro per la tabella di base per ridurre il numero di record prima dell'applicazione di qualsiasi regola o relazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Control 2015550576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Indicator Code related to this Table configuration.</source>
+          <target>Specifica il codice indicatore correlato a questa configurazione della tabella.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Control 3020633271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of existing Rules for the configured tables.</source>
+          <target>Specifica il numero di regole esistenti per le tabelle configurate.</target>
+        </trans-unit>
+        <trans-unit id="Page 2877087339 - Control 3048766263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of existing Relations for the configured tables.</source>
+          <target>Specifica il numero di relazioni esistenti per le tabelle configurate.</target>
+        </trans-unit>
         <trans-unit id="Page 2877087339 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicator Tables</source>
           <target>Tabelle indicatori</target>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 1643976242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist template nos..</source>
+          <target>Specifica il modello di elenco di controllo n.</target>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 2173555009 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the method of  autom. cost object creation.</source>
+          <target>Specifica il metodo di autom. creazione di oggetti di costo.</target>
         </trans-unit>
         <trans-unit id="Page 2948439809 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
@@ -850,6 +1146,18 @@
         <trans-unit id="Page 2948439809 - Control 2773143106 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether for multilevel production orders the end date should be updated for all levels when the end date is changed.</source>
           <target>Specifica se per gli ordini di produzione multilivello la data di fine deve essere aggiornata per tutti i livelli quando viene modificata la data di fine.</target>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 3380284972 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if checklist features for service are activated or not.</source>
+          <target>Specifica se le funzionalità dell'elenco di controllo per il servizio sono attivate o meno.</target>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 3851288392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist</source>
+          <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 4086255738 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist nos..</source>
+          <target>Specifica i 15 dell'elenco di controllo.</target>
         </trans-unit>
         <trans-unit id="Page 2948439809 - Control 4129381658 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Statistic</source>
@@ -895,6 +1203,22 @@
           <source>Checklist Template</source>
           <target>Template Checklist</target>
         </trans-unit>
+        <trans-unit id="Page 3261317592 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code</source>
+          <target>Specifica il codice</target>
+        </trans-unit>
+        <trans-unit id="Page 3261317592 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <target>Specifica la descrizione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3261317592 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Points</source>
+          <target>Punti di controllo</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Action 2356002707 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Increments the level of the checklist line.</source>
+          <target>Incrementa il livello della riga dell'elenco di controllo.</target>
+        </trans-unit>
         <trans-unit id="Page 3321015631 - Action 2356002707 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Increment Level</source>
           <target>&amp;Incrementa livello</target>
@@ -903,45 +1227,181 @@
           <source>Lines</source>
           <target>Righe</target>
         </trans-unit>
+        <trans-unit id="Page 3321015631 - Action 356022265 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Decrements the level of the checklist line.</source>
+          <target>Decrementa il livello della riga dell'elenco di controllo.</target>
+        </trans-unit>
         <trans-unit id="Page 3321015631 - Action 356022265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Decrement Level</source>
           <target>&amp;Decrementa livello</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value.</source>
+          <target>Specifica il valore.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 1165969121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the line no..</source>
+          <target>Specifica il n. riga.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 1402313444 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the due date.</source>
+          <target>Specifica la data di scadenza.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 1582388115 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for service quote release.</source>
+          <target>Specifica se questa riga è obbligatoria per il service quote release.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level.</source>
+          <target>Specifica il livello.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 2435544622 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for sales blanket order release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'ordine generale.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 2486419900 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the position no..</source>
+          <target>Specifica la posizione n..</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 275971277 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for purchase order release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'ordine di acquisto.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 2771814192 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the assigned user-id.</source>
+          <target>Specifica l'ID utente assegnato.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 2782190379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the check list template code.</source>
+          <target>Specifica il codice del modello di elenco di controllo.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 2790486453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the comment.</source>
+          <target>Specifica il commento.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 3400013759 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for service order release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'ordine di servizio.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <target>Specifica la descrizione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 3534529049 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for purchase quote release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'preventivo di acquisto.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 374146051 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for blanket purchase order release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'ordine di acquisto generale.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 3849872368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for sales quote release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'elenco di vendita.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 3939928242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the attached to line no..</source>
+          <target>Specifica l'oggetto collegato alla riga n.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 4181488837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for service contract signing.</source>
+          <target>Specifica se questa riga è obbligatoria per la firma del contratto di servizio.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 442768151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is displayed in bold style.</source>
+          <target>Specifica se questa riga viene visualizzata in grassetto.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 512284356 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is mandatory for sales order release.</source>
+          <target>Specifica se questa riga è obbligatoria per il rilascio dell'ordine di vendita.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 744835066 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether this line is fixed.</source>
+          <target>Specifica se questa riga è fissa.</target>
+        </trans-unit>
+        <trans-unit id="Page 3321015631 - Control 848733486 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>pecifies the unit of measure code.</source>
+          <target>pecifica il codice dell'unità di misura.</target>
         </trans-unit>
         <trans-unit id="Page 3321015631 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines</source>
           <target>Righe</target>
         </trans-unit>
         <trans-unit id="Page 3346827 - Action 3020633271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Opens the rule sets attached to this relation.</source>
-          <target>Apre i set di regole associati a questa relazione.</target>
+          <source>Opens the Rule setup for the Indicator Table.</source>
+          <target>Apre il setup regole per la tabella indicatori</target>
         </trans-unit>
         <trans-unit id="Page 3346827 - Action 3020633271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rules</source>
           <target>Regole</target>
         </trans-unit>
+        <trans-unit id="Page 3346827 - Control 1500409770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the base Table related to this definition.</source>
+          <target>Specifica la tabella di base correlata a questa definizione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3346827 - Control 1523082388 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table defined for this Relation.</source>
+          <target>Specifica la tabella definita per questa relazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3346827 - Control 1884737638 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify a Field of the base Table that acts as a filter source of the Relation.</source>
+          <target>Specificare un campo della tabella di base che funge da origine di filtro della relazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 3346827 - Control 2004557848 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specify a Field of the Relation Table that must match the base Field to consider this table.</source>
+          <target>Specificate un campo della tabella delle relazioni che deve corrispondere al campo di base per considerare questa tabella.</target>
+        </trans-unit>
+        <trans-unit id="Page 3346827 - Control 2015550576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Indicator Code related to this Relation definition.</source>
+          <target>Specifica il codice indicatore correlato a questa definizione di relazione.</target>
+        </trans-unit>
         <trans-unit id="Page 3346827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicator Relations</source>
           <target>Relazioni con gli indicatori</target>
+        </trans-unit>
+        <trans-unit id="Page 3378828770 - Control 1643976242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist template nos..</source>
+          <target>Specifica il modello di elenco di controllo n.</target>
         </trans-unit>
         <trans-unit id="Page 3378828770 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
         </trans-unit>
+        <trans-unit id="Page 3378828770 - Control 4086255738 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist nos..</source>
+          <target>Specifica i 15 dell'elenco di controllo.</target>
+        </trans-unit>
         <trans-unit id="Page 3378828770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist Setup</source>
           <target>Setup elenco di controllo</target>
+        </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 1418115204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prints the batch quote</source>
+          <target>Stampa il preventivo del lotto</target>
         </trans-unit>
         <trans-unit id="Page 3513453877 - Action 1418115204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch &amp;Quote</source>
           <target>&amp;Offerta batch</target>
         </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 1521510191 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates purchase quotes</source>
+          <target>Crea preventivi di acquisto</target>
+        </trans-unit>
         <trans-unit id="Page 3513453877 - Action 1521510191 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Quotes</source>
           <target>Crea offerte</target>
         </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 207814823 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sets status to finished</source>
+          <target>Imposta lo stato su finito</target>
+        </trans-unit>
         <trans-unit id="Page 3513453877 - Action 207814823 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Finish</source>
           <target>&amp;Fine</target>
+        </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displayes the Dimensions of the record. </source>
+          <target>Visualizza le dimensioni del record. </target>
         </trans-unit>
         <trans-unit id="Page 3513453877 - Action 2173385693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimensions</source>
@@ -955,6 +1415,10 @@
           <source>Batch &amp;Quote</source>
           <target>&amp;Offerta batch</target>
         </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 3339019926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Displayes the related purchase quotes.  </source>
+          <target>Visualizza le relative quotazioni di acquisto.  </target>
+        </trans-unit>
         <trans-unit id="Page 3513453877 - Action 3339019926 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase quotes</source>
           <target>Offerte acquisto</target>
@@ -963,21 +1427,33 @@
           <source>F&amp;unction</source>
           <target>F&amp;unzione</target>
         </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 483158641 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set status to released</source>
+          <target>Impostare lo stato su rilasciato</target>
+        </trans-unit>
         <trans-unit id="Page 3513453877 - Action 483158641 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re&amp;lease</source>
           <target>Ri&amp;lascio</target>
         </trans-unit>
         <trans-unit id="Page 3513453877 - Action 516349010 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>open Price Matrix</source>
-          <target>open Price Matrix</target>
+          <source>Opens the Price Matrix</source>
+          <target>Apri la matrice prezzo</target>
         </trans-unit>
         <trans-unit id="Page 3513453877 - Action 516349010 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Matrix</source>
           <target>Matrice dei prezzi</target>
         </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 530829447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sets the status back to open.</source>
+          <target>Imposta di nuovo lo stato su aperto.</target>
+        </trans-unit>
         <trans-unit id="Page 3513453877 - Action 530829447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re&amp;open</source>
           <target>Ri&amp;apri</target>
+        </trans-unit>
+        <trans-unit id="Page 3513453877 - Action 551713774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates entries in Req. Worksheet</source>
+          <target>Crea voci nel foglio di lavoro Req.</target>
         </trans-unit>
         <trans-unit id="Page 3513453877 - Action 551713774 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Req. Worksheet</source>
@@ -1035,45 +1511,161 @@
           <source>Specifies the status.</source>
           <target>Specifica lo stato.</target>
         </trans-unit>
-        <trans-unit id="Page 3513453877 - NamedType 1124774361" translate="yes" size-unit="char" xml:space="preserve">
-          <source>End batch quote?</source>
-          <target>Terminare l'offerta batch?</target>
-        </trans-unit>
         <trans-unit id="Page 3513453877 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Quote</source>
           <target>Offerta batch</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1001789827 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1065780641 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1170698850 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 128205453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1447231123 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
         </trans-unit>
         <trans-unit id="Page 4086812399 - Control 1577567912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shortcut dimension 1 code.</source>
           <target>Specifica il codice della dimensione di collegamento 1.</target>
         </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1639486444 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1703477258 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 171837889 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 1808395467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
         <trans-unit id="Page 4086812399 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type.</source>
           <target>Specifica il tipo.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 2084927740 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 218530485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 2295705704 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the dimension value name.</source>
+          <target>Specifica il nome del valore della quota.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 2341173875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
         </trans-unit>
         <trans-unit id="Page 4086812399 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the unit of measure code.</source>
           <target>Specifica in che modo ogni unità dell'articolo o della risorsa viene misurata, ad esempio in pezzi od ore. Per default, viene inserito il valore del campo Unità di misura base della scheda articolo o risorsa.</target>
         </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 2446092084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
         <trans-unit id="Page 4086812399 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the quantity.</source>
           <target>Specifica la quantità.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 2722624357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 2978870492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3083788701 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
         </trans-unit>
         <trans-unit id="Page 4086812399 - Control 3179217921 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the quantity (base).</source>
           <target>Specifica la quantità (base).</target>
         </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3191411951 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3238104547 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
         <trans-unit id="Page 4086812399 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line no.</source>
           <target>Specifica il n. riga</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3360320974 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
         </trans-unit>
         <trans-unit id="Page 4086812399 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description.</source>
           <target>Specifica la descrizione.</target>
         </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3529229997 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3552576295 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3616567109 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3721485318 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3829108568 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 3875801164 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 4085354703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 4166926614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 4190272912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
         <trans-unit id="Page 4086812399 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the no.</source>
           <target>Specifica il n.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 428084024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
         </trans-unit>
         <trans-unit id="Page 4086812399 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description 2.</source>
@@ -1082,6 +1674,18 @@
         <trans-unit id="Page 4086812399 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document no.</source>
           <target>Specifica il numero del documento.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 533002233 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 765902070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4086812399 - Control 809534506 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the matrix cell data.</source>
+          <target>Specifica i dati della cella della matrice.</target>
         </trans-unit>
         <trans-unit id="Page 4086812399 - NamedType 1008313066" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sub Total 2</source>
@@ -1119,9 +1723,53 @@
           <source>Batch Quote Matrix Lines</source>
           <target>Righe matrice offerta batch</target>
         </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 1907234846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies who has modified this record.</source>
+          <target>Specifica chi ha modificato questo record.</target>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 2247197532 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies when this record was modified.</source>
+          <target>Specifica quando questo record è stato modificato.</target>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 2295453870 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the no. series.</source>
+          <target>Specifica il no. serie.</target>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 299022368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description 2.</source>
+          <target>Specifica la descrizione 2.</target>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code.</source>
+          <target>Specifica il codice.</target>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <target>Specifica la descrizione.</target>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the status.</source>
+          <target>Specifica lo stato.</target>
+        </trans-unit>
         <trans-unit id="Page 4150300429 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist Template List</source>
           <target>Lista template checklist</target>
+        </trans-unit>
+        <trans-unit id="Page 451930999 - Control 1651395556 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the factor by which the price of the base unit must be multiplied.</source>
+          <target>Specifica il fattore per il quale deve essere moltiplicato il prezzo dell'unità di base.</target>
+        </trans-unit>
+        <trans-unit id="Page 451930999 - Control 2132912848 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code.</source>
+          <target>Specifica il codice.</target>
+        </trans-unit>
+        <trans-unit id="Page 451930999 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <target>Specifica la descrizione.</target>
+        </trans-unit>
+        <trans-unit id="Page 451930999 - Control 376878006 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the text which is printed on documents.</source>
+          <target>Specifica il testo stampato sui documenti.</target>
         </trans-unit>
         <trans-unit id="Page 451930999 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Units</source>
@@ -1143,6 +1791,30 @@
           <source>Test Rule</source>
           <target>Regola di test</target>
         </trans-unit>
+        <trans-unit id="Page 750238537 - Action 2179533372 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the page with all defined Styles.</source>
+          <target>Apre la pagina con tutti gli stili definiti.</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 2179533372 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Styles</source>
+          <target>Stili</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 2481842203 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the configured Tables for this Indicator.</source>
+          <target>Apre le tabelle configurate per questo indicatore.</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 2481842203 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tables</source>
+          <target>Tabelle</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 2928932288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the Assignment setup page.</source>
+          <target>Apre la pagina impostazione assegnazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 2928932288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assignments</source>
+          <target>Dove Usato</target>
+        </trans-unit>
         <trans-unit id="Page 750238537 - Action 3350057345 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the Styles attached to this Indicator.</source>
           <target>Mostra gli stili collegati a questo indicatore.</target>
@@ -1151,16 +1823,32 @@
           <source>Styles</source>
           <target>Stili</target>
         </trans-unit>
+        <trans-unit id="Page 750238537 - Action 3510320993 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allows to test a configured Indicator against the defined rules. Opens record selector for all related Tables to pick comparision records.</source>
+          <target>Consente di testare un indicatore configurato rispetto alle regole definite. Apre il selettore di record per tutte le tabelle correlate per selezionare i record di confronto.</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 3510320993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Test Indicator</source>
+          <target>Indicatore di prova</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 4046723224 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the translation page for the Description field.</source>
+          <target>Apre la pagina di traduzione per il campo Descrizione.</target>
+        </trans-unit>
+        <trans-unit id="Page 750238537 - Action 4046723224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Translations</source>
+          <target>Traduzioni</target>
+        </trans-unit>
         <trans-unit id="Page 750238537 - Control 1061736343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the number of Tables attached to this Indicator.</source>
+          <source>Specifies the number of configured Tables for this Indicator.</source>
           <target>Specifica il numero di tabelle collegate a questo indicatore.</target>
         </trans-unit>
         <trans-unit id="Page 750238537 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specify the code identifier for the Indicator.</source>
+          <source>Specify the Code to identify this Indicator.</source>
           <target>Specificare l'identificatore di codice per l'indicatore.</target>
         </trans-unit>
         <trans-unit id="Page 750238537 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specify the Description for the Indicator.</source>
+          <source>Specify the Description for this Indicator.</source>
           <target>Specificare la descrizione dell'indicatore.</target>
         </trans-unit>
         <trans-unit id="Page 750238537 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1194,6 +1882,10 @@
         <trans-unit id="Page 831434773 - Control 1440873699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for this checklist.</source>
           <target>Specifica il codice per questo elenco di controllo.</target>
+        </trans-unit>
+        <trans-unit id="Page 831434773 - Control 1582388115 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if this line is mandatory for this document type.</source>
+          <target>Specifica se questa riga è obbligatoria per questo tipo di documento.</target>
         </trans-unit>
         <trans-unit id="Page 831434773 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field is used for line grouping.</source>
@@ -1231,6 +1923,10 @@
           <source>Specifies the modification time of this line.</source>
           <target>Specifica l'ora di modifica di questa riga.</target>
         </trans-unit>
+        <trans-unit id="Page 831434773 - Control 3400013759 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if this line is mandatory for this document type.</source>
+          <target>Specifica se questa riga è obbligatoria per questo tipo di documento.</target>
+        </trans-unit>
         <trans-unit id="Page 831434773 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description for this checklist line.</source>
           <target>Specifica una descrizione per questa riga dell'elenco di controllo.</target>
@@ -1250,6 +1946,10 @@
         <trans-unit id="Page 831434773 - Control 3939928242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field is used for line grouping.</source>
           <target>Questo campo viene utilizzato per il raggruppamento delle linee.</target>
+        </trans-unit>
+        <trans-unit id="Page 831434773 - Control 4181488837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if this line is mandatory for this document type.</source>
+          <target>Specifica se questa riga è obbligatoria per questo tipo di documento.</target>
         </trans-unit>
         <trans-unit id="Page 831434773 - Control 442768151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if this checklist line should be shown bold.</source>
@@ -1279,6 +1979,10 @@
           <source>Lines</source>
           <target>Righe</target>
         </trans-unit>
+        <trans-unit id="Page 849334665 - Control 1589199135 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the filter of batchquotes.</source>
+          <target>Specifica il filtro delle quote batch.</target>
+        </trans-unit>
         <trans-unit id="Page 849334665 - Control 1589199135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Quote No.</source>
           <target>Nr. offerta batch</target>
@@ -1295,9 +1999,21 @@
           <source>Batch Quote Matrix</source>
           <target>Matrice offerta batch</target>
         </trans-unit>
+        <trans-unit id="Page 894138264 - Control 104884344 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the quote req. wksh. name.</source>
+          <target>Specifica la citazione req. wksh. nome.</target>
+        </trans-unit>
+        <trans-unit id="Page 894138264 - Control 1513230821 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the quote req. wksh. template.</source>
+          <target>Specifica la citazione req. wksh. sagoma.</target>
+        </trans-unit>
         <trans-unit id="Page 894138264 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 894138264 - Control 3148170990 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the batch quote nos..</source>
+          <target>Specifica i preventivi batch..</target>
         </trans-unit>
         <trans-unit id="Page 894138264 - Control 595257147 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field is used to control how to deal with purchase quotes that are linked to a batch quote that is deleted.</source>
@@ -1306,6 +2022,14 @@
         <trans-unit id="Page 894138264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Quote Setup</source>
           <target>Setup offerta batch</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1126765954 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1126765954 - Control 737479576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit price (price unit).</source>
+          <target>Specifica il prezzo unitario (unità di prezzo).</target>
         </trans-unit>
         <trans-unit id="PageExtension 1195525490 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
@@ -1319,9 +2043,29 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1195525490 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195525490 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195525490 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1195525490 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1242181817 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1242181817 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 129465586 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
@@ -1331,6 +2075,14 @@
           <source>Specifies a description 2 of the entry of the product to be ordered.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da ordinare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 129465586 - Control 3066518554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 129465586 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1310182693 - Control 1073676874 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the term timing device time</source>
           <target>Specifica il termine tempo del dispositivo di temporizzazione</target>
@@ -1338,6 +2090,14 @@
         <trans-unit id="PageExtension 1310182693 - Control 620653919 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the timing device</source>
           <target>Specifica il dispositivo di temporizzazione</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 154443717 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1618215012 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
         </trans-unit>
         <trans-unit id="PageExtension 1624550017 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
@@ -1355,13 +2115,49 @@
           <source>Specifies a description 2 of the entry of the product to be ordered.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da ordinare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 2033917305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates if an order is created.</source>
+          <target>Indica se è stato creato un ordine.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 3066518554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1624550017 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 171838584 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 171838584 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the related checklist.</source>
+          <target>Apre l'elenco di controllo correlato.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 171838584 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist</source>
           <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 171838584 - Control 1248350503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
         </trans-unit>
         <trans-unit id="PageExtension 171838584 - Control 1309120917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item description the vendor uses in his own system.</source>
@@ -1371,6 +2167,10 @@
           <source>Specifies a description 2 of the entry of the product to be ordered.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da ordinare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 171838584 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 171838584 - Control 3330318283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Global Trade Item Number (GTIN) for the item.</source>
           <target>Specifica il numero gtin (Global Trade Item Number) per l'articolo.</target>
@@ -1379,9 +2179,49 @@
           <source>Specifies the item description 2 the vendor uses in his own system.</source>
           <target>Specifica la descrizione articolo 2 utilizzata dal fornitore nel proprio sistema.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 171838584 - Control 679776021 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the position number with which an outline is simplified.</source>
+          <target>Specifica il numero di posizione con cui viene semplificata una struttura.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 171838584 - Control 718028037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item number the vendor uses in his own system.</source>
           <target>Specifica il numero di articolo utilizzato dal fornitore nel proprio sistema.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1800463884 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1800463884 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1800463884 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist</source>
+          <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1800463884 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Checklist Code for this record.</source>
+          <target>Specifica il codice dell'elenco di controllo per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1835817332 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1835817332 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist for this record.</source>
+          <target>Specifica la checklist per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1857672485 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1857672485 - Control 737479576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit price (price unit).</source>
+          <target>Specifica il prezzo unitario (unità di prezzo).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2009702854 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
         </trans-unit>
         <trans-unit id="PageExtension 2009702854 - Control 2427092398 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the related sales order.</source>
@@ -1400,6 +2240,34 @@
           <target>lista di controllo</target>
         </trans-unit>
         <trans-unit id="PageExtension 2177449175 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2177449175 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2177449175 - Control 664676178 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2353421411 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2353421411 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist for this record.</source>
+          <target>Specifica la checklist per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2370806644 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2370806644 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist for this record.</source>
+          <target>Specifica la checklist per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2489165018 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
@@ -1423,9 +2291,25 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2601740419 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2601740419 - Control 3269870925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2685390118 - Control 3330318283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Global Trade Item Number (GTIN) for the item.</source>
           <target>Specifica il numero gtin (Global Trade Item Number) per l'articolo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2731004054 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2731004054 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 273180326 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
@@ -1443,6 +2327,46 @@
           <source>Specifies a description 2 of the entry of the product to be ordered.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da ordinare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 273180326 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 273180326 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 273180326 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 273180326 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 273180326 - Control 3066518554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 273180326 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2844359286 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2844359286 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the related checklist.</source>
+          <target>Apre l'elenco di controllo correlato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2844359286 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist</source>
+          <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2844359286 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist for this record.</source>
+          <target>Specifica la checklist per questo record.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2867940807 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
@@ -1450,6 +2374,34 @@
         <trans-unit id="PageExtension 2867940807 - Control 1802118155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description 2 of the entry of the product to be sold.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da vendere.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 3740936477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sales price of price unit.</source>
+          <target>Specifica il prezzo di vendita dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2992149165 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
         </trans-unit>
         <trans-unit id="PageExtension 2992149165 - Control 1040689818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the vendors buy-from address.</source>
@@ -1483,6 +2435,22 @@
           <source>Specifies the city of the vendor who delivered the items.</source>
           <target>Specifica la città del fornitore che ha consegnato gli articoli.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2992149165 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2992149165 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2992149165 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2992149165 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2992149165 - Control 3271505925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date that the vendor has expected to receive the order.</source>
           <target>Specifica la data prevista per la ricezione dell'ordine da parte del fornitore.</target>
@@ -1507,6 +2475,22 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3036544580 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3036544580 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3036544580 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3036544580 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3112718768 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
           <target>Apre un elenco di controllo assegnato a questo documento.</target>
@@ -1520,16 +2504,48 @@
           <target>Dati estesi (M365)</target>
         </trans-unit>
         <trans-unit id="PageExtension 3112718768 - Control 1139700778 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the price unit code .</source>
+          <source>Specifies the price unit code.</source>
           <target>Specifica il codice unità di prezzo .</target>
         </trans-unit>
         <trans-unit id="PageExtension 3112718768 - Control 1802118155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description 2 of the entry of the product to be sold.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da vendere.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3112718768 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3112718768 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3112718768 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3112718768 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3112718768 - Control 3740936477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the sales price of price unit.</source>
           <target>Specifica il prezzo di vendita dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3124523060 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3124523060 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3154435333 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3154435333 - Control 737479576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit price (price unit).</source>
+          <target>Specifica il prezzo unitario (unità di prezzo).</target>
         </trans-unit>
         <trans-unit id="PageExtension 3157124563 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
@@ -1540,8 +2556,8 @@
           <target>lista di controllo</target>
         </trans-unit>
         <trans-unit id="PageExtension 3157124563 - Action 1237016236 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show Production Orders for the Document</source>
-          <target>Mostra ordini di produzione per il documento</target>
+          <source>Show production orders for the document line</source>
+          <target>Visualizzare gli ordini di produzione per la riga del documento</target>
         </trans-unit>
         <trans-unit id="PageExtension 3157124563 - Action 1237016236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Orders</source>
@@ -1555,6 +2571,34 @@
           <source>Specifies a description 2 of the entry of the product to be sold.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da vendere.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 355700261 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit factor.</source>
+          <target>Specifica il fattore unitario di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3157124563 - Control 3740936477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sales price of price unit.</source>
+          <target>Specifica il prezzo di vendita dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3216435526 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
@@ -1563,6 +2607,30 @@
           <source>Specifies a description 2 of the entry of the product to be sold.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da vendere.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 3740936477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sales price of price unit.</source>
+          <target>Specifica il prezzo di vendita dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3354562337 - Control 1073676874 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the term timing device time</source>
           <target>Specifica il termine tempo del dispositivo di temporizzazione</target>
@@ -1570,6 +2638,34 @@
         <trans-unit id="PageExtension 3354562337 - Control 620653919 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the timing device</source>
           <target>Specifica il dispositivo di temporizzazione</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3387956042 - Control 1511740801 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the existing unit price pu.</source>
+          <target>Specifica il prezzo unitario esistente pu.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3387956042 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3387956042 - Control 737479576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the new unit price priceunit.</source>
+          <target>Specifica la nuova unità di prezzo unitaria.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3452453644 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3452453644 - Control 737479576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit price (price unit).</source>
+          <target>Specifica il prezzo unitario (unità di prezzo).</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3455772766 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3455772766 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
         </trans-unit>
         <trans-unit id="PageExtension 346791353 - Control 1133204893 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the address VAT specification to link transactions made for this address to.</source>
@@ -1591,6 +2687,42 @@
           <source>Specifies the Global Trade Item Number (GTIN) for the item.</source>
           <target>Specifica il numero gtin (Global Trade Item Number) per l'articolo.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3753929554 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3753929554 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3753929554 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist</source>
+          <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3753929554 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Checklist Code for this record.</source>
+          <target>Specifica il codice dell'elenco di controllo per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3812570911 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3822366290 - Control 3116644971 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the new unit price priceunit.</source>
+          <target>Specifica la nuova unità di prezzo unitaria.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3822366290 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3822366290 - Control 3343769621 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the current unit price pu.</source>
+          <target>Specifica il prezzo unitario corrente pu.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3830172252 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3988481077 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
           <target>Apre un elenco di controllo assegnato a questo documento.</target>
@@ -1603,6 +2735,22 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3988481077 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3988481077 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3988481077 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3988481077 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
         <trans-unit id="PageExtension 4052791368 - Control 2806794024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the checklist template for this record. If a template is entered here, a new checklist will be created if this record is used in a document.</source>
           <target>Specifica il modello di elenco di controllo per questo record. Se viene immesso un modello qui, verrà creato un nuovo elenco di controllo se questo record viene utilizzato in un documento.</target>
@@ -1611,9 +2759,85 @@
           <source>Specifies the drawing number of the item.</source>
           <target>Specifica il numero di disegno dell'elemento.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4062910837 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist for this record.</source>
+          <target>Specifica la checklist per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 409304283 - Control 2806794024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the checklist template for this record. If a template is entered here, a new checklist will be created if this record is used in a document.</source>
+          <target>Specifica il modello di elenco di controllo per questo record. Se viene immesso un modello qui, verrà creato un nuovo elenco di controllo se questo record viene utilizzato in un documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4101735628 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4101735628 - Control 4182865030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the direct uni cost priceunit.</source>
+          <target>Specifica l'unità di costo diretta.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262538174 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262538174 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262538174 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist</source>
+          <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4262538174 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Checklist Code for this record.</source>
+          <target>Specifica il codice dell'elenco di controllo per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4292982936 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4292982936 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4292982936 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist</source>
+          <target>lista di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4292982936 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Checklist Code for this record.</source>
+          <target>Specifica il codice dell'elenco di controllo per questo record.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 485708012 - Control 1139700778 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 485708012 - Control 1802118155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description 2 of the entry of the product to be sold.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da vendere.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 485708012 - Control 3740936477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sales price of price unit.</source>
+          <target>Specifica il prezzo di vendita dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 530053954 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 530053954 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 592984002 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Extended Data (M365)</source>
+          <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 721759977 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of the price unit.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 721759977 - Control 737479576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit price (price unit).</source>
+          <target>Specifica il prezzo unitario (unità di prezzo).</target>
         </trans-unit>
         <trans-unit id="PageExtension 743159981 - Action 1237016236 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Production Orders for the Document</source>
@@ -1627,6 +2851,10 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 743159981 - Control 2663111104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose a checkliste template and create a new checklist for this document.</source>
+          <target>Scegliere un modello di elenco di controllo e creare un nuovo elenco di controllo per il documento.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 783727759 - Action 1033761563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens a Checklist that is assigned to this document.</source>
           <target>Apre un elenco di controllo assegnato a questo documento.</target>
@@ -1639,6 +2867,10 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 783727759 - Control 1248350503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 783727759 - Control 1309120917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item description the vendor uses in his own system.</source>
           <target>Specifica la descrizione dell'articolo utilizzata dal fornitore nel proprio sistema.</target>
@@ -1647,6 +2879,10 @@
           <source>Specifies a description 2 of the entry of the product to be ordered.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da ordinare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 783727759 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 783727759 - Control 3330318283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Global Trade Item Number (GTIN) for the item.</source>
           <target>Specifica il numero gtin (Global Trade Item Number) per l'articolo.</target>
@@ -1654,6 +2890,10 @@
         <trans-unit id="PageExtension 783727759 - Control 671424300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item description 2 the vendor uses in his own system.</source>
           <target>Specifica la descrizione articolo 2 utilizzata dal fornitore nel proprio sistema.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 783727759 - Control 679776021 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the position number with which an outline is simplified.</source>
+          <target>Specifica il numero di posizione con cui viene semplificata una struttura.</target>
         </trans-unit>
         <trans-unit id="PageExtension 783727759 - Control 718028037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item number the vendor uses in his own system.</source>
@@ -1667,6 +2907,10 @@
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the related checklist.</source>
+          <target>Apre l'elenco di controllo correlato.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 849695750 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist</source>
           <target>lista di controllo</target>
@@ -1675,9 +2919,37 @@
           <source>Specifies a description 2 of the entry of the product to be ordered.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da ordinare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Control 2829856470 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first configured Indicator value.</source>
+          <target>Specifica il primo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Control 2829856470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 1</source>
+          <target>Controllo indicatore 1</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Control 2863776995 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the second configured Indicator value.</source>
+          <target>Specifica il secondo valore indicatore configurato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Control 2863776995 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control 2</source>
+          <target>Controllo indicatore 2</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Control 3066518554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost of the price unit.</source>
+          <target>Specifica il costo unitario dell'unità di prezzo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 849695750 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 875136593 - Action 3496314516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Data (M365)</source>
           <target>Dati estesi (M365)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 875136593 - Action 690858119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the related checklist.</source>
+          <target>Apre l'elenco di controllo correlato.</target>
         </trans-unit>
         <trans-unit id="PageExtension 875136593 - Action 690858119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist</source>
@@ -1691,9 +2963,17 @@
           <source>Specifies a description 2 of the entry of the product to be sold.</source>
           <target>Specifica una descrizione 2 del movimento del prodotto da vendere.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 875136593 - Control 3162578918 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the price unit code.</source>
+          <target>Specifica il codice dell'unità di prezzo.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 875136593 - Control 3330318283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Global Trade Item Number (GTIN) for the item.</source>
           <target>Specifica il numero gtin (Global Trade Item Number) per l'articolo.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 875136593 - Control 3740936477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sales price of price unit.</source>
+          <target>Specifica il prezzo di vendita dell'unità di prezzo.</target>
         </trans-unit>
         <trans-unit id="PageExtension 875136593 - Control 4104095284 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item description 2 the customer uses in his own system.</source>
@@ -1702,6 +2982,10 @@
         <trans-unit id="PageExtension 875136593 - Control 446824605 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item description the customer uses in his own system.</source>
           <target>Specifica la descrizione dell'articolo utilizzata dal cliente nel proprio sistema.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 875136593 - Control 679776021 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the position number with which an outline is simplified.</source>
+          <target>Specifica il numero di posizione con cui viene semplificata una struttura.</target>
         </trans-unit>
         <trans-unit id="Report 3513453877 - NamedType 1000915958" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Quote</source>
@@ -1792,7 +3076,7 @@
           <target>Nome 2</target>
         </trans-unit>
         <trans-unit id="Table 1311640467 - NamedType 2279586039" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Should an article/supplier catalog line be created?</source>
+          <source>Should an item/vendor catalog line be created?</source>
           <target>È necessario creare una riga articolo/catalogo fornitori?</target>
         </trans-unit>
         <trans-unit id="Table 1311640467 - NamedType 979248368" translate="yes" size-unit="char" xml:space="preserve">
@@ -1802,6 +3086,38 @@
         <trans-unit id="Table 1311640467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Quote Vendor Line</source>
           <target>Riga fornitore offerta batch</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 1455362306 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Control</source>
+          <target>Controllo degli indicatori</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 1500409770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table</source>
+          <target>Tabella</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 1963459466 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Page Id</source>
+          <target>ID pagina</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 2066789741 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Id</source>
+          <target>ID tabella</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 3274402224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Page Name</source>
+          <target>Nome pagina</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 3779449648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Code</source>
+          <target>Codice indicatore</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Field 438909893 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Page</source>
+          <target>Pagina</target>
+        </trans-unit>
+        <trans-unit id="Table 1822349352 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicator Page Assignment</source>
+          <target>Assegnazione della pagina indicatore</target>
         </trans-unit>
         <trans-unit id="Table 2019905536 - Field 1003760969 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shortcut Dimension 2 Code</source>
@@ -1863,6 +3179,14 @@
           <source>Purchaser Code</source>
           <target>Cod. addetto acq.</target>
         </trans-unit>
+        <trans-unit id="Table 2019905536 - Method 1375916416 - NamedType 1008145445" translate="yes" size-unit="char" xml:space="preserve">
+          <source>&amp;1 Finish batch quote and delete linked purchase quotes,&amp;2 Finish batch quote only</source>
+          <target>&amp;1 Termina il preventivo batch ed elimina i preventivi di acquisto collegati,&amp;2 Termina solo il preventivo batch</target>
+        </trans-unit>
+        <trans-unit id="Table 2019905536 - Method 1375916416 - NamedType 3650154278" translate="yes" size-unit="char" xml:space="preserve">
+          <source>By choosing 1, all linked purchase quotes will be deleted and batch quote is marked as finished. By choosing 2, only the batch quote will be set to finished and the linked purchase quotes will not be touched.</source>
+          <target>Scegliendo 1, tutte le quotazioni di acquisto collegate verranno eliminate e il preventivo batch verrà contrassegnato come terminato. Scegliendo 2, solo il preventivo batch verrà impostato su finito e le quotazioni di acquisto collegate non verranno toccate.</target>
+        </trans-unit>
         <trans-unit id="Table 2019905536 - Method 2097469045 - NamedType 886530087" translate="yes" size-unit="char" xml:space="preserve">
           <source>The maximum number of Vendors per Batch Quote must not exceed 16.</source>
           <target>Il numero massimo di fornitori per offerta batch non deve superare 16.</target>
@@ -1903,6 +3227,14 @@
           <source>Open Mand.Enter Purchase Quote Release</source>
           <target>Apri mand.Enter Purchase Quote Release</target>
         </trans-unit>
+        <trans-unit id="Table 2200783754 - Field 1949463342 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Mand.Enter Service Contract Signing</source>
+          <target>Aprire mand.enter firma del contratto di servizio</target>
+        </trans-unit>
+        <trans-unit id="Table 2200783754 - Field 2977110846 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Mand.Enter Service Order Release</source>
+          <target>Aprire Mand.Enter Service Order Release</target>
+        </trans-unit>
         <trans-unit id="Table 2200783754 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
           <target>Codice</target>
@@ -1922,6 +3254,10 @@
         <trans-unit id="Table 2200783754 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 2200783754 - Field 3813264938 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Mand.Enter Service Quote Release</source>
+          <target>Aprire Mand.Enter Service Quote Release</target>
         </trans-unit>
         <trans-unit id="Table 2200783754 - Field 392504525 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assigned To</source>
@@ -2299,6 +3635,34 @@
           <source>Sort Buffer</source>
           <target>Buffer Ordinam.</target>
         </trans-unit>
+        <trans-unit id="Table 2891431297 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Codice</target>
+        </trans-unit>
+        <trans-unit id="Table 2891431297 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 2891431297 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Point</source>
+          <target>Punto di controllo</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 104884344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quote Req. Wksh. Name</source>
+          <target>Nome prosp.</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 1052290092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete attached Purchase Quotes</source>
+          <target>Eliminare le offerte di acquisto allegate</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 1052290092 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Never,Question,Always</source>
+          <target>Mai,Conferma,Sempre</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 1513230821 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quote Req. Wksh. Template</source>
+          <target>Template richiesta approv. offerta</target>
+        </trans-unit>
         <trans-unit id="Table 2948439809 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
           <target>Chiave primaria</target>
@@ -2307,9 +3671,29 @@
           <source>Upd. End Date to Prod. Order</source>
           <target>Upd. Data fine ordine prod.</target>
         </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 2024995028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist Nos.</source>
+          <target>Nr. checklist</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 2078779124 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checklist Template Nos.</source>
+          <target>Nr. template checklist</target>
+        </trans-unit>
         <trans-unit id="Table 2948439809 - Field 2326214115 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generate Autom. Cost Object</source>
           <target>Genera autom. Oggetto Cost</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 3148170990 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Batch Quote Nos.</source>
+          <target>Nr. offerte batch</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 3380284972 - Method 2126772001 - NamedType 804018053" translate="yes" size-unit="char" xml:space="preserve">
+          <source>By deactivating this field all checklist-features are no longer active and all actions and fields will not be visible.</source>
+          <target>Disattivando questo campo, tutte le funzionalità dell'elenco di controllo non sono più attive e tutte le azioni e i campi non saranno visibili.</target>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 3380284972 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Checklist Usage Active</source>
+          <target>Elenco di controllo del servizio Utilizzo attivo</target>
         </trans-unit>
         <trans-unit id="Table 2948439809 - NamedType 234399470" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table %1 could not be read.</source>
@@ -2334,6 +3718,10 @@
         <trans-unit id="Table 3101062161 - Field 138818208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mandatory Quote Release</source>
           <target>Rilascio offerte obbligatorio</target>
+        </trans-unit>
+        <trans-unit id="Table 3101062161 - Field 1653560103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Service Order Release</source>
+          <target>Rilascio obbligatorio dell'ordine di servizio</target>
         </trans-unit>
         <trans-unit id="Table 3101062161 - Field 1789400218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level</source>
@@ -2387,6 +3775,10 @@
           <source>Mandatory Purchase Quote Release</source>
           <target>Rilascio obbligatorio dell'offerta di acquisto</target>
         </trans-unit>
+        <trans-unit id="Table 3101062161 - Field 2993823611 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Service Quote Release</source>
+          <target>Rilascio obbligatorio del preventivo di servizio</target>
+        </trans-unit>
         <trans-unit id="Table 3101062161 - Field 3301121544 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modified At</source>
           <target>Data modifica</target>
@@ -2398,6 +3790,10 @@
         <trans-unit id="Table 3101062161 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 3101062161 - Field 3734809632 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Service Contract Signing</source>
+          <target>Firma obbligatoria del contratto di servizio</target>
         </trans-unit>
         <trans-unit id="Table 3101062161 - Field 4085727052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date</source>
@@ -2423,10 +3819,6 @@
           <source>Modified On</source>
           <target>Modified On</target>
         </trans-unit>
-        <trans-unit id="Table 3101062161 - NamedType 4052740705" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The record is not active. Modify is not allowed.</source>
-          <target>Il record non è attivo. Modifiche non possibili.</target>
-        </trans-unit>
         <trans-unit id="Table 3101062161 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist Line</source>
           <target>Riga checklist</target>
@@ -2442,10 +3834,6 @@
         <trans-unit id="Table 3378828770 - Field 2078779124 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist Template Nos.</source>
           <target>Nr. template checklist</target>
-        </trans-unit>
-        <trans-unit id="Table 3378828770 - NamedType 234399470" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Table %1 could not be read.</source>
-          <target>Impossibile leggere la tabella %1.</target>
         </trans-unit>
         <trans-unit id="Table 3378828770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Checklist Setup</source>
@@ -2470,6 +3858,10 @@
         <trans-unit id="Table 3443216969 - Field 1479371395 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check List Model Code</source>
           <target>Cod. modello cecklist</target>
+        </trans-unit>
+        <trans-unit id="Table 3443216969 - Field 1653560103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Service Order Release</source>
+          <target>Rilascio obbligatorio dell'ordine di servizio</target>
         </trans-unit>
         <trans-unit id="Table 3443216969 - Field 1789400218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level</source>
@@ -2511,6 +3903,10 @@
           <source>Mandatory Purchase Quote Release</source>
           <target>Rilascio obbligatorio dell'offerta di acquisto</target>
         </trans-unit>
+        <trans-unit id="Table 3443216969 - Field 2993823611 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Service Quote Release</source>
+          <target>Rilascio obbligatorio del preventivo di servizio</target>
+        </trans-unit>
         <trans-unit id="Table 3443216969 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Nr. riga</target>
@@ -2518,6 +3914,10 @@
         <trans-unit id="Table 3443216969 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 3443216969 - Field 3734809632 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Mandatory Service Contract Signing</source>
+          <target>Firma obbligatoria del contratto di servizio</target>
         </trans-unit>
         <trans-unit id="Table 3443216969 - Field 4085727052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date</source>
@@ -2546,6 +3946,10 @@
         <trans-unit id="Table 3566015432 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Descrizione</target>
+        </trans-unit>
+        <trans-unit id="Table 3566015432 - Method 4186889925 - NamedType 2798929058" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 cannot be deleted because it is used in %2.</source>
+          <target>%1 non può essere eliminato perché viene utilizzato in %2.</target>
         </trans-unit>
         <trans-unit id="Table 3566015432 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicator</source>
@@ -2875,6 +4279,14 @@
           <source>Check List Template Code</source>
           <target>Cod. template checklist</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1014934472 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1014934472 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1048754380 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check List Code</source>
           <target>Cod. checklist</target>
@@ -3055,6 +4467,14 @@
           <source>Pos. Attached to Line No.</source>
           <target>Collegato alla linea n.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1596887549 - Field 2592531119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Record System Id</source>
+          <target>ID di sistema del record di origine</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1596887549 - Field 3543234942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Record No.</source>
+          <target>Numero di record di origine</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1601314997 - Field 1139700778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Code Unit of Measure</source>
           <target>Unità di misura cod. prezzo</target>
@@ -3120,7 +4540,7 @@
           <target>Nr. ordine di vendita</target>
         </trans-unit>
         <trans-unit id="TableExtension 1929425588 - Field 28750897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Variant Code</source>
+          <source>M365 Variant Code</source>
           <target>Cod. variante</target>
         </trans-unit>
         <trans-unit id="TableExtension 1929425588 - Field 325448646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3223,6 +4643,18 @@
           <source>Check List Template Code</source>
           <target>Cod. template checklist</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2335886769 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2335886769 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2335886769 - Method 3705942832 - NamedType 4062934808" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creation of a new checklist is not allowed in status Finished.</source>
+          <target>La creazione di un nuovo elenco di controllo non è consentita nello stato Finito.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2383255046 - Field 1033667308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Item Description 1</source>
           <target>Descrizione articolo cliente 1</target>
@@ -3319,6 +4751,30 @@
           <source>Price Unit Factor</source>
           <target>Fattore unità prezzo</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2976863183 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2976863183 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2976863183 - Method 3705942832 - NamedType 4062934808" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creation of a new checklist is not allowed in status Signed.</source>
+          <target>La creazione di un nuovo elenco di controllo non è consentita nello stato Firmato.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3006543400 - Field 1139700778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Code Unit of Measure</source>
+          <target>Unità di misura cod. prezzo</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3006543400 - Field 355700261 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit Factor</source>
+          <target>Fattore unità prezzo</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3006543400 - Field 737479576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit (Unit Price)</source>
+          <target>Unità prezzo (Prezzo unitario)</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3333860914 - Field 1461423583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Timing Device</source>
           <target>Rilevazione tempi</target>
@@ -3346,6 +4802,18 @@
         <trans-unit id="TableExtension 3333860914 - Field 97514279 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Planned Starting Date</source>
           <target>Data inizio pianificata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 345293717 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 345293717 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 345293717 - Method 3705942832 - NamedType 4062934808" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creation of a new checklist is not allowed in status Finished.</source>
+          <target>La creazione di un nuovo elenco di controllo non è consentita nello stato Finito.</target>
         </trans-unit>
         <trans-unit id="TableExtension 3461149030 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check List Code</source>
@@ -3406,6 +4874,14 @@
         <trans-unit id="TableExtension 3700386382 - Field 97514279 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Planned Starting Date</source>
           <target>Data inizio pianificata</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3705855144 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3705855144 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
         </trans-unit>
         <trans-unit id="TableExtension 379238061 - Field 1033667308 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Item Description 1</source>
@@ -3479,6 +4955,14 @@
           <source>Current Unit Price(Price Unit)</source>
           <target>Prezzo unitario attuale (Unità prezzo)</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3954406163 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3954406163 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3990520501 - Field 1139700778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Code Unit of Measure</source>
           <target>Unità di misura cod. prezzo</target>
@@ -3490,6 +4974,14 @@
         <trans-unit id="TableExtension 3990520501 - Field 4182865030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Unit (Direct Unit Cost)</source>
           <target>Unità prezzo (Costo unitario diretto)</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4030484436 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4030484436 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
         </trans-unit>
         <trans-unit id="TableExtension 4252279459 - Field 2787192952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Quote No.</source>
@@ -3506,6 +4998,42 @@
         <trans-unit id="TableExtension 4252279459 - Field 843693666 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Proposal Received</source>
           <target>Suggerimento ricevuto</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4253083740 - Field 1139700778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Code Unit of Measure</source>
+          <target>Unità di misura cod. prezzo</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4253083740 - Field 2040808268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Existing Unit Price (Price Unit)</source>
+          <target>Prezzo unitario esistente (unità di prezzo)</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4253083740 - Field 355700261 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Price Unit Factor</source>
+          <target>Fattore unità prezzo</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4253083740 - Field 737479576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit Price (Price Unit)</source>
+          <target>Prezzo Unitario (Prezzo Unitario)</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 508163994 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 508163994 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 516452258 - Field 3100836944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Code</source>
+          <target>Cod. checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 516452258 - Field 3701810136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 717787807 - Field 2806794024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check List Template Code</source>
+          <target>Cod. template checklist</target>
         </trans-unit>
         <trans-unit id="TableExtension 953062190 - Field 1461423583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Timing Device</source>
