@@ -223,6 +223,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Document Matching - Field External Document No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1179069124 - Field 3096124722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Document Matching - Field Hide Line - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1179069124 - Field 1584322482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Matched Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2623,6 +2628,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Purch. Settlem. Invoice Nos. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 682335893 - Field 3125149506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Cr.Memo Doc. Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Purchase Cr.Memo Doc. Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 830354502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Invoice Doc. Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Purchase Invoice Doc. Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2067102111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Cr.Memo Doc. Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Sales Cr.Memo Doc. Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 47368963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoice Doc. Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Sales Invoice Doc. Class - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 682335893 - Field 2441821015 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales Settlem. Cr. Memo Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2762,36 +2787,6 @@
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Prod. Bonus Group - Field Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1246772813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>075 Bonus Item Buffer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Bonus Item Buffer - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1246772813 - Field 3617662748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bonus Code</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Bonus Item Buffer - Field Bonus Code - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1246772813 - Field 3065221024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Bonus Item Buffer - Field Bonus Line No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1246772813 - Field 1115394407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bonus Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Bonus Item Buffer - Field Bonus Type - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1246772813 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Bonus Item Buffer - Field Item Description - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1246772813 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS075 Bonus Item Buffer - Field Item No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 525723200 - NamedType 1486929738" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deleting #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</source>
@@ -3017,6 +3012,11 @@
           <source>Selected %1 must be greater than negative selected %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method MatchDocumentLines - NamedType Text003Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1868882295 - Method 1047240103 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to open the posted credit memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX075 SP Bonus Tests - Method Dummy_ConfirmHandler - NamedType Text001Qst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1026167938 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for SPB found - day %1 of %2</source>
@@ -3778,6 +3778,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Control External Document No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1643836735 - Control 3096124722 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Hide Line" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Control Hide Line - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1643836735 - Control 1584322482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Matched Amount field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3832,6 +3837,16 @@
           <source>Show All</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Action ShowAll - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1643836735 - Action 1413363595 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show Hidden action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Action ShowHidden - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1643836735 - Action 1413363595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Hidden</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Action ShowHidden - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1643836735 - Action 62949966 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Only Lines To Match action</source>
@@ -5753,6 +5768,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Deposit Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 682335893 - Control 4171065795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Class</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Document Class - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 3125149506 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purchase Cr.Memo Doc. Class field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Purchase Cr.Memo Doc. Class - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 830354502 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Purchase Invoice Doc. Class field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Purchase Invoice Doc. Class - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 2067102111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Cr.Memo Doc. Class field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Sales Cr.Memo Doc. Class - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 47368963 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Sales Invoice Doc. Class field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Sales Invoice Doc. Class - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 682335893 - Control 423022656 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Permit negative amount on bonus lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6083,10 +6123,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Journal Subf. - Action Document - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1939217450 - Action 2373765970 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1939217450 - Action 2373765970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Journal Subf. - Action Open Source Document - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Journal Subf. - Action Open Source Document - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1939217450 - Action 2373765970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
@@ -7313,10 +7353,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Settl. Jnl. - Control Value Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 40194054 - Action 2373765970 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 40194054 - Action 2373765970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Settl. Jnl. - Action Open Source Document - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Settl. Jnl. - Action Open Source Document - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 40194054 - Action 2373765970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
@@ -8853,10 +8893,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action Document - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 180068439 - Action 2373765970 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 180068439 - Action 2373765970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action Open Source Document - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action Open Source Document - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 180068439 - Action 2373765970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
@@ -9133,10 +9173,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Settl. Jnl. - Control Value Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 1295398334 - Action 2373765970 - Property 2001309823" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 1295398334 - Action 2373765970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Settl. Jnl. - Action Open Source Document - Property Tooltip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Settl. Jnl. - Action Open Source Document - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1295398334 - Action 2373765970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Source Document</source>
@@ -9187,11 +9227,6 @@
           <source>Run Post Source Order.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Settl. Jnl. - Action P&amp;ostSourceDocument - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1295398334 - Action 2748363056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>P&amp;ost Source Document</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Settl. Jnl. - Action P&amp;ostSourceDocument - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1975384163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Item Buffer List</source>
@@ -9651,6 +9686,11 @@
         <trans-unit id="Report 1020202860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Calc. Allocation Entries (SPB)</source>
           <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Settl. Jnl. - Action P&amp;ostSourceDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1020202860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Calc. Allocation Entries (SPB)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Calc. Alloc. Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1020202860 - Method 1544076788 - NamedType 1979758965" size-unit="char" translate="yes" xml:space="preserve">
@@ -9913,15 +9953,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Settlement - Control Group By - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 566729347 - Control 1204673872 - Property 2589162015" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Bonus Line/Document/Dimesion,Bonus Line/Dimension</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Settlement - Control Group By - Property optionCaption</note>
-        </trans-unit>
         <trans-unit id="Report 566729347 - Control 1204673872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Group by Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Settlement - Control Group By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 566729347 - Control 1204673872 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Bonus Line/Document/Dimesion,Bonus Line/Dimension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Settlement - Control Group By - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Report 566729347 - Control 670747112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Settlement No..</source>
@@ -10578,16 +10618,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059924 - Control EOS Prod. Bonus Group - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3855467084 - Action 307165444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Show Available bonus for current customer</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059925 - Action EOS Bonus Summary - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3855467084 - Action 307165444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Bonus Summary (SPB)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059925 - Action EOS Bonus Summary - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3855467084 - Control 2510243048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>Bonus</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10798,6 +10828,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059938 - Action EOS Bonus Summary - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3363333192 - Control 2510243048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Bonus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059938 - Control EOS Bonus - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3363333192 - Control 3256906083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
           <source>Specifies Bus. Bonus Group.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10812,6 +10847,11 @@
           <source>Bonus Summary (SPB)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059939 - Action EOS Bonus Summary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2725636575 - Control 2510243048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
+          <source>Bonus</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18059939 - Control EOS Bonus - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2725636575 - Control 3256906083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4194195770">
           <source>Specifies Bus. Bonus Group.</source>
