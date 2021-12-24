@@ -87,6 +87,10 @@
           <source>Posting lines         #3###### @4@@@@@@@@@@@@@</source>
           <target>Boeken regels         #3###### @4@@@@@@@@@@@@@</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1868882295 - Method 1047240103 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to open the posted credit memo</source>
+          <target>Wilt u de geboekte credit memo openen</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1909248905 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the journal lines?</source>
           <target>Wilt u de dagboekregels boeken?</target>
@@ -1343,6 +1347,14 @@
           <source>Load</source>
           <target>Werklast</target>
         </trans-unit>
+        <trans-unit id="Page 1643836735 - Action 1413363595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Show Hidden action</source>
+          <target>Voert de actie Verborgen weergeven uit</target>
+        </trans-unit>
+        <trans-unit id="Page 1643836735 - Action 1413363595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Hidden</source>
+          <target>Verborgen weergeven</target>
+        </trans-unit>
         <trans-unit id="Page 1643836735 - Action 1522823274 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Load Purchase Invoice Lines action</source>
           <target>Hiermee voert u de actie Inkoopfactuurregels laden uit</target>
@@ -1434,6 +1446,10 @@
         <trans-unit id="Page 1643836735 - Control 2897607444 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Remaining Amount to Match field</source>
           <target>Hiermee geeft u de waarde op van het veld Resterende hoeveelheid naar overeenkomen</target>
+        </trans-unit>
+        <trans-unit id="Page 1643836735 - Control 3096124722 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Hide Line" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Regel verbergen'</target>
         </trans-unit>
         <trans-unit id="Page 1643836735 - Control 3395806969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Original Amount Including VAT field</source>
@@ -2138,6 +2154,10 @@
         <trans-unit id="Page 1975384163 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Item Buffer List</source>
           <target>Bufferlijst bonusitem</target>
+        </trans-unit>
+        <trans-unit id="Page 2082762698 - Action 1090922218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
+          <target>Documentbedrag bewerken</target>
         </trans-unit>
         <trans-unit id="Page 2082762698 - Action 1613734570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Match to Posted Document</source>
@@ -6379,6 +6399,50 @@
           <source>Bonus Header Change Status (SPB)</source>
           <target>Status bonuskoptekstwijziging (SPB)</target>
         </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 1115394407 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Type</source>
+          <target>Bonustype</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 1602546137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source No.</source>
+          <target>Bron nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2021789196 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount to Settle</source>
+          <target>Verrekeningsbedrag</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 173658532" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New amount must be greater than the sum of neg. entries (%1)</source>
+          <target>Nieuw bedrag moet groter zijn dan de som van de neg. boekingen (%1)</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 2767418744" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New amount cannot be 0</source>
+          <target>Nieuw bedrag kan niet 0 zijn</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Doc Amout</source>
+          <target>Resterende bedrag overeenkomen om te vereffenen</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3065221024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Line No.</source>
+          <target>Bonuslijn nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3304492258 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Bronsoort</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3617662748 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Code</source>
+          <target>Bonuscode</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 698539839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settings</source>
+          <target>Instellingen</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
+          <target>Documentbedrag bewerken</target>
+        </trans-unit>
         <trans-unit id="Report 2765414523 - Control 1115394407 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Type</source>
           <target>Bonustype</target>
@@ -6694,6 +6758,10 @@
         <trans-unit id="Table 1179069124 - Field 2897607444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining Amount to Match</source>
           <target>Resterende hoeveelheid die overeenkomt</target>
+        </trans-unit>
+        <trans-unit id="Table 1179069124 - Field 3096124722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hide Line</source>
+          <target>Regel verbergen</target>
         </trans-unit>
         <trans-unit id="Table 1179069124 - Field 3395806969 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Original Amount Including VAT</source>
@@ -9015,6 +9083,10 @@
           <source>Exclude From Bonus</source>
           <target>Uitsluiten van bonus</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1902445783 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <target>Kan niet doorgaan, er zijn bonusafwikkeling gekoppeld aan dit record</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1902445783 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
           <target>Beschikbaar voor bonusvereffening</target>
@@ -9046,6 +9118,10 @@
         <trans-unit id="TableExtension 2178978056 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Uitsluiten van bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2178978056 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <target>Kan niet doorgaan, er zijn bonusafwikkeling gekoppeld aan dit record</target>
         </trans-unit>
         <trans-unit id="TableExtension 2178978056 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
@@ -9087,6 +9163,10 @@
           <source>Exclude From Bonus</source>
           <target>Uitsluiten van bonus</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2540142400 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <target>Kan niet doorgaan, er zijn bonusafwikkeling gekoppeld aan dit record</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2540142400 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
           <target>Beschikbaar voor bonusvereffening</target>
@@ -9106,6 +9186,10 @@
         <trans-unit id="TableExtension 2816674673 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Uitsluiten van bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2816674673 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <target>Kan niet doorgaan, er zijn bonusafwikkeling gekoppeld aan dit record</target>
         </trans-unit>
         <trans-unit id="TableExtension 2816674673 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
@@ -9174,6 +9258,10 @@
         <trans-unit id="TableExtension 3454371290 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Uitsluiten van bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3454371290 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <target>Kan niet doorgaan, er zijn bonusafwikkeling gekoppeld aan dit record</target>
         </trans-unit>
         <trans-unit id="TableExtension 3454371290 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
@@ -9262,6 +9350,10 @@
         <trans-unit id="TableExtension 627052549 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Uitsluiten van bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 627052549 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <target>Kan niet doorgaan, er zijn bonusafwikkeling gekoppeld aan dit record</target>
         </trans-unit>
         <trans-unit id="TableExtension 627052549 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>

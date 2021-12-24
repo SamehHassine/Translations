@@ -223,6 +223,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Document Matching - Field External Document No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1179069124 - Field 3096124722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hide Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Document Matching - Field Hide Line - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1179069124 - Field 1584322482 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Matched Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3048,6 +3053,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method MatchDocumentLines - NamedType Text003Err</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1868882295 - Method 1047240103 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to open the posted credit memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX075 SP Bonus Tests - Method Dummy_ConfirmHandler - NamedType Text001Qst</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1026167938 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for SPB found - day %1 of %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3808,6 +3818,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Control External Document No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1643836735 - Control 3096124722 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Hide Line" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Control Hide Line - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1643836735 - Control 1584322482 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Matched Amount field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3867,6 +3882,16 @@
           <source>Show All</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Action ShowAll - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1643836735 - Action 1413363595 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Show Hidden action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Action ShowHidden - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1643836735 - Action 1413363595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Hidden</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Action ShowHidden - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1643836735 - Action 62949966 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Only Lines To Match action</source>
@@ -5952,6 +5977,11 @@
           <source>Starting Date Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Doc. Matching - Control Starting Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2082762698 - Action 1090922218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Cust. Bonus Doc. Matching - Action Edit Doc. Amount - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2082762698 - Action 3742662789 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Match action</source>
@@ -10068,6 +10098,61 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Duplicate Bonus - Control No. Series - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2339826591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 698539839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control Settings - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2021789196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount to Settle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control Amount to Settle - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3617662748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control Bonus Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3065221024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control Bonus Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 1115394407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bonus Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control Bonus Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 1602546137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control DocNoFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3304492258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control DocTypeFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Doc Amout</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 2767418744" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New amount cannot be 0</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Method OnValidate - NamedType GtZeroErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 173658532" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New amount must be greater than the sum of neg. entries (%1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Method OnValidate - NamedType GtNegEntriesErr</note>
+        </trans-unit>
         <trans-unit id="Report 1133078386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Insert External Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10938,6 +11023,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059904 - Field EOS Available for Bonus Settl. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 3454371290 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 3454371290">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059904 - Field EOS Available for Bonus Settl. - Method OnValidate - NamedType InMatchingErr</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3454371290 - Field 3256906083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>Bus. Bonus Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10953,6 +11043,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059905 - Field EOS Available for Bonus Settl. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2816674673 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2816674673">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059905 - Field EOS Available for Bonus Settl. - Method OnValidate - NamedType InMatchingErr</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2816674673 - Field 3256906083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
           <source>Bus. Bonus Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10967,6 +11062,11 @@
           <source>Available for Bonus Settlement</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059906 - Field EOS Available for Bonus Settl. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2178978056 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2178978056">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059906 - Field EOS Available for Bonus Settl. - Method OnValidate - NamedType InMatchingErr</note>
         </trans-unit>
         <trans-unit id="TableExtension 2178978056 - Field 3256906083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
           <source>Bus. Bonus Group</source>
@@ -11148,6 +11248,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059916 - Field EOS Available for Bonus Settl. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1902445783 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 1902445783">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059916 - Field EOS Available for Bonus Settl. - Method OnValidate - NamedType InMatchingErr</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1902445783 - Field 3256906083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1052755578">
           <source>Bus. Bonus Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11163,6 +11268,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059917 - Field EOS Available for Bonus Settl. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2540142400 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 2540142400">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059917 - Field EOS Available for Bonus Settl. - Method OnValidate - NamedType InMatchingErr</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2540142400 - Field 3256906083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1592379974">
           <source>Bus. Bonus Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11177,6 +11287,11 @@
           <source>Available for Bonus Settlement</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059918 - Field EOS Available for Bonus Settl. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 627052549 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 627052549">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059918 - Field EOS Available for Bonus Settl. - Method OnValidate - NamedType InMatchingErr</note>
         </trans-unit>
         <trans-unit id="TableExtension 627052549 - Field 3256906083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2271228953">
           <source>Bus. Bonus Group</source>
