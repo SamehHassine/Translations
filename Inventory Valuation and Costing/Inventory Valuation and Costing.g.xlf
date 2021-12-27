@@ -8523,6 +8523,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Actual Unit Cost. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3887707300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Cost Management Type - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the description of the operation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8552,6 +8557,11 @@
           <source>Specifies when the routing card was last modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Last Date Modified - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1482668068 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lot number of the item being handled for the associated document line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Lot No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 3433119822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the lot size which modifies the run time that you enter on routing lines by multiplying the value in the Run Time field with the lot size to reflect that it takes, for example, twice the time to process two pieces per operation.</source>
@@ -8648,6 +8658,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Scrap Factor % (Accumulated) - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 47037625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the serial number associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Serial No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 2370624518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the setup time of the operation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8672,6 +8687,11 @@
           <source>Specifies the unit cost for this operation if it is different than the unit cost on the work center or machine center card.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Unit Cost per - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the variant of the item on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Variant Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 4065966391 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the work center to assign this machine center to.</source>
@@ -9172,6 +9192,21 @@
           <source>Attention, %1 wrong %2=%3 cannot be used with specific cost</source>
           <note from="Developer" annotates="general" priority="2">%1 = Caption of Item Costing Setup; %2 = Code of Item Costing Setup; %3 = Caption of Production Cost Calculation ; %4 = Production Cost Calculation of Item Costing Setup.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - ReportDataItem Item Cost History - Method OnPreDataItem - NamedType SpecificCostSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - Control 1519494691 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the costing period code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - Control CtrlPeriodCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - Control 1519494691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - Control CtrlPeriodCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 241083192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Inventory Value Lines</source>
@@ -10889,7 +10924,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Rolled-up Cost Share Cost - NamedType CapacityCostCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 3677436566" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Base Unit of Measure Code</source>
+          <source>UoM</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Rolled-up Cost Share Cost - NamedType CompItemBaseUOMCaptLbl</note>
         </trans-unit>
@@ -10932,6 +10967,11 @@
           <source>Rolled-up Cost Shares</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Rolled-up Cost Share Cost - NamedType RolledupCostSharesCaptLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2880494308 - NamedType 2084104700" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subcontracting Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Rolled-up Cost Share Cost - NamedType SubcCostCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 1157506943" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total Cost</source>

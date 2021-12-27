@@ -31,26 +31,6 @@
           <source>Subscribe for an activation</source>
           <target>Teckna en aktiverings</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 254490904" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total purchased qty calculated for Item Purchased is not correct</source>
-          <target>Totalt köpt antal som beräknas för köpt artikel är inte korrekt</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2605295363" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average cost calculated for Item Mfg is not correct</source>
-          <target>Genomsnittlig kostnad som beräknas för artikel Mfg är inte korrekt</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2673009156" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average cost calculated for Item Purchased is not correct</source>
-          <target>Genomsnittlig kostnad som beräknas för köpt artikel är inte korrekt</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2724177863" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total processed qty calculated for Item Mfg is not correct</source>
-          <target>Totalt bearbetat antal beräknat för Item Mfg är inte korrekt</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 407563136" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing cost calculated for Item Mfg is not correct</source>
-          <target>Operationsföljdskostnaden som beräknas för artikel Mfg är inte korrekt</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2264642385 - NamedType 2441914056" translate="yes" size-unit="char" xml:space="preserve">
           <source>Really delete all period data?</source>
           <target>Verkligen ta bort alla perioddata?</target>
@@ -1575,6 +1555,10 @@
           <source>Routing Actual Overhead Rate</source>
           <target>Faktisk overheadfrekvens</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1482668068 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot number of the item being handled for the associated document line.</source>
+          <target>Anger partinumret för artikeln som hanteras för den associerade dokumentraden.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type of operation.</source>
           <target>Anger typ av åtgärd.</target>
@@ -1647,6 +1631,10 @@
           <source>Specifies the lot size which modifies the run time that you enter on routing lines by multiplying the value in the Run Time field with the lot size to reflect that it takes, for example, twice the time to process two pieces per operation.</source>
           <target>Anger den partistorlek som ändrar körtiden som du anger på operationsföljdsrader genom att multiplicera värdet i fältet Körtid med partistorleken för att återspegla att det till exempel tar dubbelt så lång tid att bearbeta två delar per operation.</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the variant of the item on the line.</source>
+          <target>Anger varianten av artikeln på raden.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description of the operation.</source>
           <target>Anger beskrivningen av operationen.</target>
@@ -1662,6 +1650,10 @@
         <trans-unit id="Page 2748615199 - Control 3862619926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual run time.</source>
           <target>Anger den faktiska körtiden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3887707300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost type</source>
+          <target>Anger kostnadstypen</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 3930431329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item lot size.</source>
@@ -1690,6 +1682,10 @@
         <trans-unit id="Page 2748615199 - Control 463590211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the routing link code.</source>
           <target>Anger routningslänkkoden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 47037625 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial number associated with the entry.</source>
+          <target>Anger det serienummer som är associerat med transaktionen.</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 475116396 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the line was present in the Routing Line</source>
@@ -4731,6 +4727,18 @@
           <source>Show Detail</source>
           <target>Visa information</target>
         </trans-unit>
+        <trans-unit id="Report 2229818940 - Control 1519494691 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the costing period code</source>
+          <target>Anger kostnadsperiodkoden</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - Control 1519494691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period Code</source>
+          <target>Periodkod</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Alternativ</target>
+        </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 1571969600" translate="yes" size-unit="char" xml:space="preserve">
           <source>Wip Calculation ...</source>
           <target>Wip Beräkning ...</target>
@@ -5975,6 +5983,10 @@
           <source>Description</source>
           <target>Beskrivning</target>
         </trans-unit>
+        <trans-unit id="Report 2880494308 - NamedType 2084104700" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subcontracting Cost</source>
+          <target>Kostnad för Underentreprenader</target>
+        </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 2128762536" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost</source>
           <target>Material kostnad</target>
@@ -6004,8 +6016,8 @@
           <target>Kapacitetskostnad</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 3677436566" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Base Unit of Measure Code</source>
-          <target>Kod för basenhet för mått</target>
+          <source>UoM</source>
+          <target>Uom</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - NamedType 650077689" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
