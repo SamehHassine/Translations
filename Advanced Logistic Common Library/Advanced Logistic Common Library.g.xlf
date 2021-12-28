@@ -1783,6 +1783,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Material - Field Usage - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 837273239 - Field 732996104 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Volume Calc. Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Material - Field Volume Calc. Method - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 837273239 - Field 135980815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Weight (kg)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1882,6 +1887,16 @@
           <source>Use Base Quantity</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Field Use Base Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3448884395 - Field 1291481127 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Volume Conversion Factor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Field Volume Conversion Factor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3448884395 - Field 3941035800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Volume Rounding Precision</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS055 Packaging Setup - Field Volume Rounding Precision - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3448884395 - Field 4122219339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Weight Calculation</source>
@@ -4048,6 +4063,136 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Handling Units Assigned - Action ShowHandlingUnitCard - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2072884643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pack Instructions List (HUM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1296982354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert a group code, to group different items on the same packaging.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Carrier Group Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1383905037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specify the instruction as default for the item and source combination.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Default - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1864907812 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Disabled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Disabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1037119892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Item Category Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Item Category Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 568743302 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert the item to pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Item No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3812840519 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert the load carrier used to pack the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Load Carrier No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1461151337 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>When is set, then a packaging must be specified on the shipment document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Mandatory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert a number to identify the packaging instruction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 2416624906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of layers if more packagings could be stacked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control No. of Layers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3943050797 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert the packaging material used to pack the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Packaging Material No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 4130293374 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Priority" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Priority - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1732878394 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Qty. of packages on each layer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Qty. per Layer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filling quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3949095420 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a secondary unit of measure that is calculated in addition to the default quantities. This is an alternative to "Secondary Unit of Measure Factor".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Secondary Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3622547316 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a secondary unit of measure factor that is calculated in addition to the default quantities. This is an alternative to "Secondary Unit of Measure Code".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Secondary UoM Factor - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 493801818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source for which the item should packed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Source Address Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1882905478 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source for which the item should packed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Source No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3708683910 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Source Posting Group" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Source Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 1753214751 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source for which the item should packed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Source Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 2984475554 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies which handling units are created during suggestion of the packing list for this instruction.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Suggest Handling Units - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert the unit of measure of the packed item, f.e. box</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Insert the variant to pack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Action 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows comments for the selected record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Action Comments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2072884643 - Action 503024588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Pack Instructions List - Action Comments - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2369791735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Packaging Instructions (HUM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4247,6 +4392,11 @@
           <source>Unit of measure of the packaging material, f.e. PCS.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Packaging Material Card - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1399928403 - Control 732996104 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the method of calculating the packaging material cubage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS055 Packaging Material Card - Control Volume Calc. Method - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1399928403 - Control 1450094168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Invoicing</source>
@@ -7412,6 +7562,16 @@
           <source>Default</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055 Packing List Suggestion Method - EnumValue Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1742936536 - EnumValue 4255110642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packaging material cubage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055 PackMat Volume Calc. Method - EnumValue PackMat Cubage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1742936536 - EnumValue 4084919264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Packaging material cubage + Content cubage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS055 PackMat Volume Calc. Method - EnumValue PackMatAndContent Cubage - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4157202724 - EnumValue 3703598467 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Content + Packaging</source>
