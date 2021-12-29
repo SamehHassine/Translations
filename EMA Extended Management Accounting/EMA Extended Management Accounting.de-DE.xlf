@@ -127,7 +127,7 @@
           <source>The journals were successfully posted.</source>
           <target>Die Buch.-Blätter sind gebucht worden.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3032220404 - Method 1287240630 - NamedType 4153425232" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 3032220404 - Method 1287240630 - NamedType 1488723659" translate="yes" size-unit="char" xml:space="preserve">
           <source>Function enabled only for EMA</source>
           <target>Funktion nur für EMA aktiviert</target>
         </trans-unit>
@@ -427,9 +427,17 @@
           <source>Print Journal</source>
           <target>Drucken</target>
         </trans-unit>
+        <trans-unit id="Page 1007494575 - Action 1908399212 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View a test report so that you can find and correct any errors before you perform the actual posting of the journal or document.</source>
+          <target>Zeigen Sie einen Testbericht an, damit Sie Fehler finden und korrigieren können, bevor Sie die eigentliche Buchung des Journals oder Dokuments durchführen.</target>
+        </trans-unit>
         <trans-unit id="Page 1007494575 - Action 2282416948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post</source>
           <target>Buchen</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Action 2282416948 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
+          <target>Schließt den Beleg oder das Buch.-Blatt durch Buchen der Beträge und Mengen auf die entsprechenden Konten in den Firmenbüchern ab.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Action 3951948734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Functions</source>
@@ -439,17 +447,45 @@
           <source>Dimensions</source>
           <target>Dimensionen</target>
         </trans-unit>
+        <trans-unit id="Page 1007494575 - Action 881177948 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
+          <target>Anzeigen oder Bearbeiten von Dimensionen wie Bereich, Projekt oder Abteilung, die Sie Verkaufs- und Einkaufsbelegen zuweisen können, um Kosten zu verteilen und den Transaktionsverlauf zu analysieren.</target>
+        </trans-unit>
         <trans-unit id="Page 1007494575 - Control 1038316384 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Balance</source>
           <target>Gesamtsaldo</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 1263046639 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 1, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Gibt den Code für die Verknüpfungsdimension 1 an. Dies ist einer von zwei globalen Dimensionscodes, die Sie im Fenster "Hauptbuch-Setup" eingerichtet haben.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Control 1399568462 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Name</source>
           <target>Buch.-Blattname</target>
         </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 1399568462 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the journal batch.</source>
+          <target>Gibt den Namen des Journalstapels an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 1419731019 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a document number for the journal line.</source>
+          <target>Gibt eine Dokumentennummer für die Journalzeile an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 1824573042 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 2, which is one of two global dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Gibt den Code für die Verknüpfungsdimension 2 an. Dies ist einer von zwei globalen Dimensionscodes, die Sie im Fenster "Hauptbuch-Setup" eingerichtet haben.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 1906696231 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total amount (including VAT) that the journal line consists of.</source>
+          <target>Gibt den Gesamtbetrag (einschließlich Mehrwertsteuer) an, aus dem die Journalzeile besteht, wenn es sich um einen Abbuchungsbetrag handelt.</target>
+        </trans-unit>
         <trans-unit id="Page 1007494575 - Control 1990476053 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bal. Account Name</source>
           <target>Gegenkontoname</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 1990476053 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the balancing account that has been entered on the journal line.</source>
+          <target>Gibt den Namen des Ausgleichskontos an, das in der Journalzeile eingegeben wurde.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Control 25700210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Balance</source>
@@ -459,21 +495,61 @@
           <source>Account Name</source>
           <target>Kontoname</target>
         </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 3082526597 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the account number that the entry on the journal line will be posted to.</source>
+          <target>Gibt die Kontonummer an, auf die der Eintrag in der Journalzeile gebucht wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 3177420204 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total amount (including VAT) that the journal line consists of, if it is a credit amount.</source>
+          <target>Gibt den Gesamtbetrag (einschließlich Mehrwertsteuer) an, aus dem die Journalzeile besteht, wenn es sich um einen Abbuchungsbetrag handelt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 3255617327 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the entry's posting date.</source>
+          <target>Gibt das Buchungsdatum des Eintrags an.</target>
+        </trans-unit>
         <trans-unit id="Page 1007494575 - Control 3629309975 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Balance</source>
           <target>Gesamtsaldo</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 3629309975 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total balance in the c/a journal.</source>
+          <target>Gibt den Gesamtbetrag im c / a-Journal an.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Control 3875326323 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Balance</source>
           <target>Saldo</target>
         </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 3875326323 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the balance that has accumulated in the c/a journal on the line where the cursor is.</source>
+          <target>Gibt den Kontostand an, der sich im c / a-Journal in der Zeile angesammelt hat, in der sich der Cursor befindet.</target>
+        </trans-unit>
         <trans-unit id="Page 1007494575 - Control 777301097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bal. Account Name</source>
           <target>Gegenkontoname</target>
         </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 834138311 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the general ledger, customer, vendor, or bank account to which a balancing entry for the journal line will posted (for example, a cash account for cash purchases).</source>
+          <target>Gibt die Nummer des Hauptbuchs, Kunden, Lieferanten oder Bankkontos an, auf das ein Ausgleichseintrag für die Journalzeile gebucht wird (z. B. ein Geldkonto für Bareinkäufe).</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 838464037 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total amount (including VAT) that the journal line consists of, if it is a debit amount.</source>
+          <target>Gibt den Gesamtbetrag (einschließlich Mehrwertsteuer) an, aus dem die Journalzeile besteht, wenn es sich um einen Abbuchungsbetrag handelt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 838790169 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for the balancing account type that should be used in this journal line.</source>
+          <target>Gibt den Code für den Ausgleichskontotyp an, der in dieser Journalzeile verwendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 949770657 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a description of the entry.</source>
+          <target>Gibt eine Beschreibung des Eintrags an.</target>
+        </trans-unit>
         <trans-unit id="Page 1007494575 - Control 951747800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account Name</source>
           <target>Kontoname</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 951747800 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the account.</source>
+          <target>Gibt den Namen des Kontos an.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Journal (EMA)</source>
@@ -571,17 +647,33 @@
           <source>EMA Cost Account Balance</source>
           <target>Saldo</target>
         </trans-unit>
+        <trans-unit id="Page 1254045330 - Action 1274897401 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View cost entries, which can come from sources such as automatic transfer of general ledger entries to cost entries, manual posting for pure cost entries, internal charges, and manual allocations, and automatic allocation postings for actual costs.</source>
+          <target>Zeigt Kostenposten an, die aus Datenquellen wie z. B. der automatischen Übertragung von Sachposten zu Kostenposten, der manuellen Buchung für reine Kostenposten, aus internen Gebühren und manuellen Zuordnungen sowie automatischen Zuordnungsbuchungen für die Istkosten stammen können.</target>
+        </trans-unit>
         <trans-unit id="Page 1254045330 - Action 1274897401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Entries</source>
           <target>Kostenposten</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Action 2185589249 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View simulated g/l entries, which can come from sources such as automatic transfer of simulated general ledger entries to cost entries, manual posting for pure cost entries, internal charges, and manual allocations, and automatic allocation postings for actual costs.</source>
+          <target>Zeigen Sie simulierte Sachkontenbuchungen an, die aus Quellen stammen können, z. B. aus der automatischen Übertragung simulierter Hauptbucheinträge in Kostenbuchungen, der manuellen Buchung für reine Kostenbuchungen, internen Gebühren und manuellen Zuordnungen sowie automatischen Zuordnungsbuchungen für tatsächliche Kosten.</target>
         </trans-unit>
         <trans-unit id="Page 1254045330 - Action 2185589249 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sim. G/L Entries</source>
           <target>Sim. Sachkonteneinträge</target>
         </trans-unit>
+        <trans-unit id="Page 1254045330 - Action 222027745 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse posted cost entries, for example to simulate allocations by using different allocation ratios, to reverse cost allocations to include late entries in a combined entry as part of the same posting process.</source>
+          <target>Buchen Sie gebuchte Kosteneinträge um, um beispielsweise Zuordnungen mithilfe unterschiedlicher Zuordnungsverhältnisse zu simulieren, um Kostenzuordnungen umzukehren und verspätete Einträge in einen kombinierten Eintrag als Teil desselben Buchungsprozesses aufzunehmen.</target>
+        </trans-unit>
         <trans-unit id="Page 1254045330 - Action 222027745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A entries</source>
           <target>C/A Einträge umkehren</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Action 2925236906 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View general legder entries, which can come from sources such as automatic transfer of general ledger entries to cost entries, manual posting for pure cost entries, internal charges, and manual allocations, and automatic allocation postings for actual costs.</source>
+          <target>Zeigen Sie allgemeine Legder-Einträge an, die aus Quellen wie der automatischen Übertragung von Hauptbucheinträgen in Kosteneinträge, der manuellen Buchung für reine Kosteneinträge, internen Gebühren und manuellen Zuordnungen sowie automatischen Zuordnungsbuchungen für tatsächliche Kosten stammen können.</target>
         </trans-unit>
         <trans-unit id="Page 1254045330 - Action 2925236906 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Entries</source>
@@ -595,9 +687,69 @@
           <source>Functions</source>
           <target>Funktionen</target>
         </trans-unit>
+        <trans-unit id="Page 1254045330 - Action 4011520668 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete posted cost entries, to cancel cost entries from the cost log.</source>
+          <target>Löschen Sie gebuchte Kostenbudgetposten und kehren Sie Verteilungen um, um z. B. die Budgetumlagen mithilfe verschiedener Zuteilungsverhältnisse, die Umkehrung der Kostenbudgetverteilungen, sodass verspätete Posten in einem kombinierten Posten derselben Buchung berücksichtigt werden sollen, oder die Stornierung der Kostenbudgetposten im Kostenjournal zu simulieren.</target>
+        </trans-unit>
         <trans-unit id="Page 1254045330 - Action 4011520668 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete Cost Entries</source>
           <target>Kostenposten löschen</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 1352561485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the journal batch, a personalized journal layout, that the entries were posted from.</source>
+          <target>Gibt den Namen des Buch.-Blattnamens an, eines personalisierten Buch.-Blattlayouts, in dem Posten gebucht wurden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 1373331674 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the cost log.</source>
+          <target>Gibt die Nummer des beteiligten Postens oder Datensatz entsprechend der festgelegten Nummernserie an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 1426701159 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the ID of the user who posted the entry, to be used, for example, in the change log.</source>
+          <target>Gibt die ID des Benutzers an, der die Buchung des Postens vorgenommen hat (z. B. zur Verwendung im Änderungsprotokoll).</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 1866389345 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies when the cost register was last updated.</source>
+          <target>Gibt das Datum der letzten Aktualisierung des Kostenjournals an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 217756303 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the end of the range that applies to the cost registered.</source>
+          <target>Gibt die Nummer des Bereichsendes an, der für das Kostenjournal gilt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 2177991256 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the source for the cost log.</source>
+          <target>Gibt die Herkunft für das Kostenjournal an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 2261043019 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first simulated general ledger entry number when the cost posting is transferred from the simulated general ledger.</source>
+          <target>Gibt die Nummer des ersten Sachpostens an, wenn die Kostenbuchung aus der Finanzbuchhaltung übertragen wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 2685975608 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the end of the range that applies to the cost registered.</source>
+          <target>Gibt die Nummer des Bereichsendes an, der für das Kostenjournal gilt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 2843690399 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of entries in the cost log.</source>
+          <target>Gibt die Postenanzahl im Kostenjournal an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 3251806928 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the start of the range that applies to the cost registered.</source>
+          <target>Gibt die Nummer des Bereichsbeginns an, der für das Kostenjournal gilt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 3255617327 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the entry's posting date.</source>
+          <target>Gibt das Buchungsdatum des Eintrags an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 338959756 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first general ledger entry number when the cost posting is transferred from the general ledger.</source>
+          <target>Gibt die Nummer des ersten Sachpostens an, wenn die Kostenbuchung aus der Finanzbuchhaltung übertragen wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 3448631275 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether or not the cost has been closed.</source>
+          <target>Gibt an, ob die Kosten geschlossen wurden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1254045330 - Control 3602350107 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the first cost entry number in the cost log.</source>
+          <target>Gibt die Nummer des ersten Kostenpostens im Kostenjournal an.</target>
         </trans-unit>
         <trans-unit id="Page 1254045330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Register (EMA)</source>
@@ -735,6 +887,10 @@
           <source>C/A Budget Batch List</source>
           <target>Buchblatt Budgetliste C/A</target>
         </trans-unit>
+        <trans-unit id="Page 1470967848 - Action 2732364467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trace where the transaction came from.</source>
+          <target>Verfolgen Sie, woher die Transaktion kam.</target>
+        </trans-unit>
         <trans-unit id="Page 1470967848 - Action 2732364467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracing Source</source>
           <target>Tracing Source</target>
@@ -742,6 +898,10 @@
         <trans-unit id="Page 1470967848 - Action 3475288728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry</source>
           <target>Posten</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Action 3687331307 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trace where the transaction is used.</source>
+          <target>Verfolgen Sie, wo die Transaktion verwendet wird.</target>
         </trans-unit>
         <trans-unit id="Page 1470967848 - Action 3687331307 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracing Usage</source>
@@ -751,9 +911,105 @@
           <source>Dimensions</source>
           <target>Dimensionen</target>
         </trans-unit>
-        <trans-unit id="Page 1470967848 - Control 3934310049 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Level</source>
-          <target>Ebene</target>
+        <trans-unit id="Page 1470967848 - Action 881177948 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View the dimension linked to this analysis</source>
+          <target>Zeigen Sie die mit dieser Analyse verknüpfte Dimension an</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1289093300 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the numerator of the analysis.</source>
+          <target>Gibt den Zähler der Analyse an</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 133711482 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the allocation header code of the analysis.</source>
+          <target>Gibt den Zuordnungsheadercode der Analyse an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1419731019 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the entry's Document No.</source>
+          <target>Gibt die Dokumentnummer des Eintrags an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1426701159 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the ID of the user who posted the entry, to be used, for example, in the change log.</source>
+          <target>Gibt die ID des Benutzers an, der die Buchung des Postens vorgenommen hat (z. B. zur Verwendung im Änderungsprotokoll).</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1653452653 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the denominator of the analysis.</source>
+          <target>Gibt den Nenner der Analyse an</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1788579999 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total of the ledger entries that represent credits.</source>
+          <target>Gibt die Summe der Ledger-Einträge an, die Gutschriften darstellen.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1830490411 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the source code that specifies where the entry was created.</source>
+          <target>Gibt den Quellcode an, der angibt, wo der Eintrag erstellt wurde.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 1989356158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the entry, as assigned from the specified number series when the entry was created.</source>
+          <target>Gibt die Nummer des Postens an, die ihm bei seiner Erstellung aus der angegebenen Nummernserie zugewiesen wurde.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2161603148 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies which cost journal was used to allocate the cost.</source>
+          <target>Gibt an, mit welchem Kostenjournal die Kosten zugeordnet wurden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2177991256 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the source of the analysis.</source>
+          <target>Gibt die Quelle der Analyse an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2229415063 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the tracking entry number of the analysis.</source>
+          <target>Gibt die Tracking-Eintragsnummer der Analyse an</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2333447394 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total of the ledger entries that represent debits.</source>
+          <target>Gibt die Summe der Ledger-Einträge an, die Belastungen darstellen.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2660126533 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code of c/a analysis</source>
+          <target>Gibt den Code der c / a-Analyse an</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2711571526 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the log number.</source>
+          <target>Gibt die Protokollnummer an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2816380129 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the allocation line number of the analysis.</source>
+          <target>Gibt die Zuordnungszeilennummer der Analyse an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 3167276750 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the account that the entry has been posted to.</source>
+          <target>Gibt die Kontonummer an, auf die der Posten der Buch.-Blattzeile gebucht wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 3255617327 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the entry's posting date.</source>
+          <target>Gibt das Buchungsdatum des Eintrags an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 3366779111 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists.</source>
+          <target>Gibt den Code für die globale Dimension an, die zu Analysezwecken mit dem Datensatz oder Eintrag verknüpft ist. Auf allen Karten, Dokumenten, Berichten und Listen stehen zwei globale Dimensionen zur Verfügung, die normalerweise für die wichtigsten Aktivitäten des Unternehmens gelten.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 3421023242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company's most important activities, are available on all cards, documents, reports, and lists.</source>
+          <target>Gibt den Code für die globale Dimension an, die zu Analysezwecken mit dem Datensatz oder Eintrag verknüpft ist. Auf allen Karten, Dokumenten, Berichten und Listen stehen zwei globale Dimensionen zur Verfügung, die normalerweise für die wichtigsten Aktivitäten des Unternehmens gelten.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 3797400366 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the journal batch name used in the posting. The name is copied from the Journal Template Name field on the cost journal line.</source>
+          <target>Gibt den in der Buchung verwendeten Journalstapelnamen an. Der Name wird aus dem Feld Name der Journalvorlage in der Zeile Kostenjournal kopiert.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 3934310049 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level of the analysis.</source>
+          <target>Gibt die Ebene der Analyse an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 517430892 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the amount of the analysis entry.</source>
+          <target>Gibt die Menge des Analyseeintrags an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 538067452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
+          <target>Gibt den Ursachencode an, einen zusätzlichen Quellcode, mit dem Sie den Eintrag verfolgen können.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 949770657 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a description of the entry.</source>
+          <target>Gibt eine Beschreibung des Eintrags an.</target>
         </trans-unit>
         <trans-unit id="Page 1470967848 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Analysis Entries</source>
@@ -771,9 +1027,53 @@
           <source>EMA Allocation list</source>
           <target>Zuweisungsliste (EMA)</target>
         </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1274147321 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code assigned to entries that are posted from transferring fixed asset entries to cost entries.</source>
+          <target>Gibt den Code an, der Einträgen zugewiesen wird, die aus der Übertragung von Anlageneinträgen in Kosteneinträge gebucht werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1282963127 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code assigned to entries that are posted from transferring general ledger entries to cost entries.</source>
+          <target>Gibt den Code an, der Einträgen zugewiesen wird, die aus der Übertragung von Hauptbucheinträgen in Kosteneinträge gebucht werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1380417317 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the starting date of when c/a budget entries are transferred to cost accounting.</source>
+          <target>Gibt das Startdatum an, an dem c / a-Budgetbuchungen in die Kostenrechnung übertragen werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1539419679 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies which type of G/L Account to synchronize, only Income Statement or also Balance</source>
+          <target>Gibt an, welche Art von Sachkonto synchronisiert werden soll, nur Gewinn- und Verlustrechnung oder auch Saldo</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1651282235 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how changes in the chart of accounts are carried over to the chart of cost account.</source>
+          <target>Gibt an, wie Änderungen im Kontenplan auf den Kostenplan übertragen werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1788079763 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the starting date of when general ledger entries are transferred to cost accounting.</source>
+          <target>Gibt das Startdatum an, an dem Hauptbucheinträge in die Kostenrechnung übertragen werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 1962526985 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code assigned to entries that are posted from transferring general ledger entries to cost entries.</source>
+          <target>Gibt den Code an, der Einträgen zugewiesen wird, die aus der Übertragung von Hauptbucheinträgen in Kosteneinträge gebucht werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 2014457106 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if consider the posting date of the invoice or the posting date of the shipment when calculating sales analysis</source>
+          <target>Gibt an, ob bei der Berechnung der Verkaufsanalyse das Buchungsdatum der Rechnung oder das Buchungsdatum der Sendung berücksichtigt werden soll</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 2406895792 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code assigned to entries that are posted from allocation fo c/a entries.</source>
+          <target>Gibt den Code an, der Einträgen zugewiesen wird, die aus der Zuordnung für c / a-Einträge gebucht werden.</target>
+        </trans-unit>
         <trans-unit id="Page 1807575381 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 2562339678 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the option to allow for general ledger entries to be posted individually or as a combined posting per day or month.</source>
+          <target>Gibt die Option an, dass Hauptbucheinträge einzeln oder als kombinierte Buchung pro Tag oder Monat gebucht werden können.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 2664949759 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the option to allow for industrial ledger entries to be posted individually or as a combined posting per day or month.</source>
+          <target>Gibt die Option an, dass Industriebucheinträge einzeln oder als kombinierte Buchung pro Tag oder Monat gebucht werden können.</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 2698886130 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Profitability analysis</source>
@@ -782,6 +1082,26 @@
         <trans-unit id="Page 1807575381 - Control 2720485332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Code</source>
           <target>Herkunftskodex</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 3012167030 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies which type of cost to analyze. Then costing method available are Average, Weighed Average or Standard</source>
+          <target>Gibt an, welche Art von Kosten analysiert werden soll. Die verfügbaren Kalkulationsmethoden sind Durchschnitt, Gewichteter Durchschnitt oder Standard</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 3807159181 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Balance Account Synchronization</source>
+          <target>Gibt die Synchronisierung des Kontostands an</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 3976847115 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies where retrieve the item's cost. You can choose from standard cost worksheet or IVC extension.</source>
+          <target>Gibt an, wo die Kosten des Artikels abgerufen werden. Sie können zwischen einem Standardkosten-Arbeitsblatt oder einer IVC-Erweiterung wählen.</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 460052557 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies which method to use to combine entries. Then combine method avaliable are Balance and Sign</source>
+          <target>Gibt an, welche Methode zum Kombinieren von Einträgen verwendet werden soll. Die verfügbaren Kombinationsmethoden sind Balance und Sign</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 867948701 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Cost Accounting Dimension</source>
+          <target>Gibt die Dimension der Kostenrechnung an</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Setup C/A - profitability (EMA)</source>
@@ -1144,7 +1464,7 @@
           <target>Statistik</target>
         </trans-unit>
         <trans-unit id="Page 2773799606 - NamedType 4170761881" translate="yes" size-unit="char" xml:space="preserve">
-          <source> Do you wish to update these analysis views? The existing analysis view entries will be deleted.</source>
+          <source>Do you wish to update these analysis views? The existing analysis view entries will be deleted.</source>
           <target>Analyse anderer löschen</target>
         </trans-unit>
         <trans-unit id="Page 2773799606 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1987,6 +2307,14 @@
           <source>Update Unit Cost from C/A Analysis Tariff</source>
           <target>Stückkosten aktualisieren</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1643684395 - Control 986416288 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
+          <target>Gibt eine Kostentypnummer an, um festzustellen, zu welcher Kostentyp ein Hauptbuchkonto gehört.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1783004618 - Control 986416288 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
+          <target>Gibt eine Kostentypnummer an, um festzustellen, zu welcher Kostentyp ein Hauptbuchkonto gehört.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2840445088 - Action 922973457 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check Account Presence</source>
           <target>EMA - Überprüfen Konto Presence</target>
@@ -2467,6 +2795,10 @@
           <source>Costs center detail</source>
           <target>Kostenrechnung</target>
         </trans-unit>
+        <trans-unit id="Report 2224952443 - Control 1818064166 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to allocate by cost center dimension</source>
+          <target>Gibt an, ob nach Kostenstellendimension zugeordnet werden soll</target>
+        </trans-unit>
         <trans-unit id="Report 2224952443 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Optionen</target>
@@ -2474,6 +2806,10 @@
         <trans-unit id="Report 2224952443 - Control 905590744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detail account</source>
           <target>Kostenrechnung</target>
+        </trans-unit>
+        <trans-unit id="Report 2224952443 - Control 905590744 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to use the original account no.</source>
+          <target>Gibt an, ob die ursprüngliche Kontonummer verwendet werden soll.</target>
         </trans-unit>
         <trans-unit id="Report 2224952443 - NamedType 2485155990" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fixed</source>
@@ -2611,9 +2947,21 @@
           <source>To Log No.</source>
           <target>Nr. Log. </target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1724499305 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the log number when you want the report to end.</source>
+          <target>Gibt die Protokollnummer an, wenn der Bericht beendet werden soll.</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2115621878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Def. Template</source>
           <target>Def. Journal</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal template</source>
+          <target>Gibt den Namen der c / a-Journalvorlage an</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies which type of entry to reverse</source>
+          <target>Gibt an, welche Art von Eintrag rückgängig gemacht werden soll</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2230062041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source</source>
@@ -2627,13 +2975,25 @@
           <source>Reverse Date</source>
           <target>Stornodatum</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2482135175 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the date of reversal</source>
+          <target>Gibt das Datum der Stornierung an</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Log No.</source>
           <target>Von Lognr.</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2529486654 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the log number when you want the report to start.</source>
+          <target>Gibt die Protokollnummer an, wenn der Bericht gestartet werden soll.</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jnl. Batch</source>
           <target>Buchblatt Journal</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 389241264 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal batch</source>
+          <target>Gibt den Namen des c / a-Journalstapels an</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries will be permanently reversed. \Do you want to reverse log %1 to %2?</source>
@@ -2847,6 +3207,10 @@
           <source>Source</source>
           <target>Herkunft</target>
         </trans-unit>
+        <trans-unit id="Report 3214539049 - Control 1196309632 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifiy from which source read the entries</source>
+          <target>Geben Sie an, aus welcher Quelle die Einträge gelesen werden sollen</target>
+        </trans-unit>
         <trans-unit id="Report 3214539049 - Control 1196309632 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,,,,C/A Journal, </source>
           <target> ,,,,Journal KoRe</target>
@@ -2859,13 +3223,25 @@
           <source>To Log No.</source>
           <target>Nr. Log. </target>
         </trans-unit>
+        <trans-unit id="Report 3214539049 - Control 2845062350 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the log number when you want the report to end.</source>
+          <target>Gibt die Protokollnummer an, wenn der Bericht beendet werden soll.</target>
+        </trans-unit>
         <trans-unit id="Report 3214539049 - Control 2875951789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Log No.</source>
           <target>Von Lognr.</target>
         </trans-unit>
+        <trans-unit id="Report 3214539049 - Control 2875951789 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the log number when you want the report to start.</source>
+          <target>Gibt die Protokollnummer an, wenn der Bericht gestartet werden soll.</target>
+        </trans-unit>
         <trans-unit id="Report 3214539049 - NamedType 1123266489" translate="yes" size-unit="char" xml:space="preserve">
           <source>Are you sure?</source>
           <target>Sind Sie sicher?</target>
+        </trans-unit>
+        <trans-unit id="Report 3214539049 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All corresponding c/a entries and log entries will be irrevocably deleted. \Do you want to delete log %1 to %2?</source>
+          <target>Alle betroffenen Posten von %1 und Logposten werden definitiv gelöscht. \Den Log von %1 bis %2 löschen?</target>
         </trans-unit>
         <trans-unit id="Report 3214539049 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From log no. may not be higher than to log no.</source>
@@ -3683,10 +4059,6 @@
           <source>Transfer from G/L,G/L Competence,G/L Simulation,C/A Journal,,,,Allocation,Transfer from C/A</source>
           <target>Transfer von FiBu,FiBu Komptenz,FiBu Simulation,KoRe-Buch.-blatt,,,,Umlage,Transfer von KoRe</target>
         </trans-unit>
-        <trans-unit id="Table 1354272278 - Field 2178139756 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Date Competence</source>
-          <target>Effektive Kompetenzdatum</target>
-        </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2229415063 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tracking Entry No.</source>
           <target>Rückverfolgbarkeitsposten.</target>
@@ -3731,10 +4103,6 @@
           <source>C/A Entry No.</source>
           <target>KoRe Lfd.-Nr.</target>
         </trans-unit>
-        <trans-unit id="Table 1354272278 - Field 3648910859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Starting Date</source>
-          <target>Anfangsdatum Abgrenzung</target>
-        </trans-unit>
         <trans-unit id="Table 1354272278 - Field 3751944910 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transaction no.</source>
           <target>Transaktionsnr.</target>
@@ -3766,10 +4134,6 @@
         <trans-unit id="Table 1354272278 - Field 592178414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comment</source>
           <target>Bemerkung</target>
-        </trans-unit>
-        <trans-unit id="Table 1354272278 - Field 615429594 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Ending Date</source>
-          <target>Enddatum Abgrenzung</target>
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 760114760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Business Unit Code</source>
@@ -5836,7 +6200,7 @@
           <target>Von Sachpostennr.</target>
         </trans-unit>
         <trans-unit id="Table 2885933472 - Field 3448631275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Definite</source>
+          <source>Closed</source>
           <target>Definitiv</target>
         </trans-unit>
         <trans-unit id="Table 2885933472 - Field 3602350107 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -5859,24 +6223,16 @@
           <source>Text</source>
           <target>Text</target>
         </trans-unit>
-        <trans-unit id="Table 2885933472 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you want to seal the logs?</source>
-          <target>Log genehmigen?</target>
-        </trans-unit>
-        <trans-unit id="Table 2885933472 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All logs up to the current log %1 will be closed and can no longer be deleted.\\</source>
-          <target>;ENU=All logs up to the current log %1 will be closed and can no longer be deleted.\\</target>
-        </trans-unit>
-        <trans-unit id="Table 2885933472 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Process  has been interrupted.</source>
-          <target>;ENU=Job cancelled.</target>
+        <trans-unit id="Table 2885933472 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All registers up to the current register %1 will be closed and can no longer be deleted.\\Do you want to close the registers?</source>
+          <target>Alle Journale bis zum aktuellen Journal (%1) werden geschlossen und können nicht mehr gelöscht werden.\\Möchten Sie die Journale schließen?</target>
         </trans-unit>
         <trans-unit id="Table 2885933472 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>A closed log cannot be re-activated.</source>
           <target>;ENU=A closed log cannot be re-activated.</target>
         </trans-unit>
         <trans-unit id="Table 2885933472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>C/A Log Entry</source>
+          <source>C/A Register</source>
           <target>KoRe-Logposten</target>
         </trans-unit>
         <trans-unit id="Table 2896628240 - Field 1422934717 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6444,7 +6800,7 @@
           <target>Saldo bis Datum</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3415950686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.</source>
+          <source>Capacity No.</source>
           <target>Nr.</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3416775475 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6460,7 +6816,7 @@
           <target> ,Wert,Menge,Nettogewicht</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3661182487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
+          <source>Capacity Type</source>
           <target>Art</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3661182487 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
@@ -6970,6 +7326,58 @@
         <trans-unit id="Table 4136911758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Analysis Allocation Sequence</source>
           <target>Analyse Zuweisungssequenz</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 1303377601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Global Dimension 1 Code</source>
+          <target>Globaler Dimensionscode 1</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 1337243520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Global Dimension 2 Code</source>
+          <target>Globaler Dimensionscode 2</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 1877866625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FA Posting Type</source>
+          <target>Anlagenbuchungsart</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 1877866625 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Acquisition Cost,Depreciation,Write-Down,Appreciation,Custom 1,Custom 2,Disposal,Maintenance,Salvage Value</source>
+          <target>Anschaffungskosten,Normal-AfA,Erhöhte AfA,Zuschreibung,Sonder-AfA,Benutzerdef. AfA,Verkauf,Wartung,Restwert</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code</source>
+          <target>Ursachencode</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 2223214263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Depreciation Book Code</source>
+          <target>AfA Buchcode</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 265035428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>FA Posting Group</source>
+          <target>Anlagenbuchungsgruppe</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeilennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 3322554545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dimension Set ID</source>
+          <target>Dimensionssatz-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 486908828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Belegnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Field 636392376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Betrag</target>
+        </trans-unit>
+        <trans-unit id="Table 779186106 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Compress Depreciation</source>
+          <target>Abschreibungen komprimieren</target>
         </trans-unit>
         <trans-unit id="Table 954916251 - Field 1090316517 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty. per Unit of Measure</source>
