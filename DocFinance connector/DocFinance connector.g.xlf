@@ -143,6 +143,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Error Log - Field Entry No - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3921729800 - Field 3446276168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Call Stack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Error Log - Field Error Call Stack - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3921729800 - Field 2274728435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error DateTime</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2293,6 +2298,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import Arch List - Control Removed - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2763998625 - Action 700596077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the page with error and call stack.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import Arch List - Action Show Error - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2763998625 - Action 700596077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import Arch List - Action Show Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2763998625 - Action 700596077 - Method 1377591017 - NamedType 2724188868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected record has no error to show.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import Arch List - Action Show Error - Method OnAction - NamedType NoErrorMsg</note>
+        </trans-unit>
         <trans-unit id="Page 152628609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Import Batches (DCF)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2457,6 +2477,21 @@
           <source>The posted document No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import List - Control Posted Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2237760361 - Action 323508673 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Show Error" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import List - Action Show Call Stack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2237760361 - Action 323508673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import List - Action Show Call Stack - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2237760361 - Action 323508673 - Method 1377591017 - NamedType 2724188868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected record has no errors to show.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Import List - Action Show Call Stack - Method OnAction - NamedType NoErrorMsg</note>
         </trans-unit>
         <trans-unit id="Page 2842650184 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DocFinance Master Data</source>
@@ -2977,6 +3012,36 @@
           <source>Clear pending import records</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Action ClearPendingImportRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 480835957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Show Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 480835957 - Control 3511005630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Show Error - Control Error Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 480835957 - Control 1029913974 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Callstack</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Show Error - Control ErrorCallStackLabel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 480835957 - Control 1045363784 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Error Callstack" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Show Error - Control ErrorCallStack - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 480835957 - Control 2810311271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Error Text" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Show Error - Control ErrorText - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 480835957 - Control 2810311271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error Text</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Show Error - Control ErrorText - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 745492964 - Control 2850516095 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4219821699">
           <source>Flag this field to avoid the export of this account against DocFinance</source>
