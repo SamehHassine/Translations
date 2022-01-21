@@ -2414,6 +2414,10 @@
           <source>Specifies which method to use for BOM and Routing Status</source>
           <target>Hiermee geeft u op welke methode moet worden gebruikt voor stuklijst- en routeringsstatus</target>
         </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 1122461339 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Variant Calculation as Item field.</source>
+          <target>Specificeert de waarde van het veld Variantberekening als item.</target>
+        </trans-unit>
         <trans-unit id="Page 3119941560 - Control 1207456636 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if enable Cost Type Rollup for material cost type.</source>
           <target>Hiermee geeft u op of rollup van kostensoort inschakelen voor materiaalkostentype.</target>
@@ -2798,17 +2802,9 @@
           <source>Specifies the not invoiced purchased quantity.</source>
           <target>Hiermee geeft u de niet gefactureerde aangeschafte hoeveelheid op.</target>
         </trans-unit>
-        <trans-unit id="Page 3457658548 - Control 36264349 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the average amount.</source>
-          <target>Hiermee geeft u het gemiddelde bedrag op.</target>
-        </trans-unit>
         <trans-unit id="Page 3457658548 - Control 3680588356 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Average SL Mfg. Ovhd Cost</source>
           <target>Hiermee geeft u de gemiddelde SL Mfg. Ovhd-kosten op</target>
-        </trans-unit>
-        <trans-unit id="Page 3457658548 - Control 3703179731 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the weighed average cost.</source>
-          <target>Hiermee geeft u de gewogen gemiddelde kosten op.</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Control 3788557405 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Cost</source>
@@ -4976,7 +4972,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 2931284797" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
-          <target>Variantcode</target>
+          <target>Lot nr.</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 2976447101" translate="yes" size-unit="char" xml:space="preserve">
           <source>Global Dimension 1 Code</source>
@@ -4996,7 +4992,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3050033708" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
-          <target>Variantcode</target>
+          <target>Lot nr.</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3156546981" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
@@ -5052,7 +5048,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 360314807" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
-          <target>Variantcode</target>
+          <target>Lot nr.</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3612048762" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Quantity</source>
@@ -5068,7 +5064,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3894280044" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
-          <target>Variantcode</target>
+          <target>Lot nr.</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3898024882" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Entries Amount</source>
@@ -5190,9 +5186,29 @@
           <source>Variant Cost Detail (IVC)</source>
           <target>Variant Kostendetail (IVC)</target>
         </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 1652225805" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Weighed Average Cost</source>
+          <target>Gewogen gemiddelde kosten</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 1924075859" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start Period Inventory</source>
+          <target>Voorraad beginperiode</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 2593070086" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prev. Year Weighed Average Cost</source>
+          <target>Prev. Jaar gewogen gemiddelde kosten</target>
+        </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 2816417746" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
           <target>Variantcode</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 5963122" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End Period Inventory</source>
+          <target>Voorraad eindperiode</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 846126275" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average Cost</source>
+          <target>Gemiddelde kosten</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log Details Quantity/Amount</source>
@@ -5802,6 +5818,10 @@
           <source>Posting Date</source>
           <target>Boekingsdatum</target>
         </trans-unit>
+        <trans-unit id="Report 2670902002 - ReportLabel 1285865656" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variantcode</target>
+        </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 1316107868" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base U.M.</source>
           <target>Basis U.M.</target>
@@ -5910,10 +5930,6 @@
           <source>Prod. Order No.</source>
           <target>Prod. Bestel nr.</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - ReportLabel 3596600740" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item No.</source>
-          <target>Object nr.</target>
-        </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3599549071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No.</source>
           <target>Bron nr.</target>
@@ -5933,10 +5949,6 @@
         <trans-unit id="Report 2670902002 - ReportLabel 54430663" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity</source>
           <target>Hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - ReportLabel 548536120" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 581330056" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material No.</source>
@@ -7030,6 +7042,10 @@
           <source>All,Only Certified</source>
           <target>Alles, alleen gecertificeerd</target>
         </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 1122461339 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Calculation as Item</source>
+          <target>Variantberekening als item</target>
+        </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1207456636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost Type Rollup</source>
           <target>Rollup van materiaalkostentype</target>
@@ -7681,10 +7697,6 @@
         <trans-unit id="Table 2459082793 - Field 3887707300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Management Type</source>
           <target>Type kostenbeheer</target>
-        </trans-unit>
-        <trans-unit id="Table 2459082793 - Field 3887707300 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Variant,Lot,Serial</source>
-          <target> ,Variant,Lot,Seriële</target>
         </trans-unit>
         <trans-unit id="Table 2459082793 - Field 3930431329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Lot Size</source>
