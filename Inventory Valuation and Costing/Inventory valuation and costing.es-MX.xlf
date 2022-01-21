@@ -1570,6 +1570,10 @@
           <source>Routing Actual Overhead Rate</source>
           <target>Tasa de gastos generales real</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1482668068 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot number of the item being handled for the associated document line.</source>
+          <target>Especifica el número de lote del artículo que se controla para la línea de documento asociada.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type of operation.</source>
           <target>Especifica el tipo de operación.</target>
@@ -1642,6 +1646,10 @@
           <source>Specifies the lot size which modifies the run time that you enter on routing lines by multiplying the value in the Run Time field with the lot size to reflect that it takes, for example, twice the time to process two pieces per operation.</source>
           <target>Especifica el tamaño de lote que modifica el tiempo de ejecución que se especifica en las líneas de enrutamiento multiplicando el valor en el campo Tiempo de ejecución con el tamaño de lote para reflejar que se tarda, por ejemplo, el doble de tiempo en procesar dos piezas por operación.</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the variant of the item on the line.</source>
+          <target>Especifica la variante del artículo en la línea.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description of the operation.</source>
           <target>Especifica la descripción de la operación.</target>
@@ -1657,6 +1665,10 @@
         <trans-unit id="Page 2748615199 - Control 3862619926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual run time.</source>
           <target>Especifica el tiempo de ejecución real.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3887707300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost type</source>
+          <target>Especifica el tipo de coste</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 3930431329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item lot size.</source>
@@ -1685,6 +1697,10 @@
         <trans-unit id="Page 2748615199 - Control 463590211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the routing link code.</source>
           <target>Especifica el código de vínculo de enrutamiento.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 47037625 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial number associated with the entry.</source>
+          <target>Especifica el número de serie asociado a la entrada.</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 475116396 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the line was present in the Routing Line</source>
@@ -2398,6 +2414,10 @@
           <source>Specifies which method to use for BOM and Routing Status</source>
           <target>Especifica qué método utilizar para la LDM y el estado de enrutamiento</target>
         </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 1122461339 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Variant Calculation as Item field.</source>
+          <target>Especifica el valor del campo Cálculo de variante como artículo.</target>
+        </trans-unit>
         <trans-unit id="Page 3119941560 - Control 1207456636 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if enable Cost Type Rollup for material cost type.</source>
           <target>Especifica si habilite el paquete acumulativo de clases de coste para la clase de coste de material.</target>
@@ -2677,6 +2697,10 @@
         <trans-unit id="Page 3457658548 - Control 1636433464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the purchased quantity.</source>
           <target>Especifica la cantidad comprada.</target>
+        </trans-unit>
+        <trans-unit id="Page 3457658548 - Control 1754563904 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the average cost.</source>
+          <target>Especifica el coste medio.</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Control 1930159372 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Average RU Capacity</source>
@@ -5174,9 +5198,29 @@
           <source>Variant Cost Detail (IVC)</source>
           <target>Detalle del coste de variante (IVC)</target>
         </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 1652225805" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Weighed Average Cost</source>
+          <target>Costo promedio ponderado</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 1924075859" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start Period Inventory</source>
+          <target>Inventario del período de inicio</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 2593070086" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prev. Year Weighed Average Cost</source>
+          <target>Costo promedio ponderado por año anterior</target>
+        </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 2816417746" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
           <target>Código de variante</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 5963122" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End Period Inventory</source>
+          <target>Inventario del período final</target>
+        </trans-unit>
+        <trans-unit id="Report 2281176656 - ReportLabel 846126275" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average Cost</source>
+          <target>Coste promedio</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log Details Quantity/Amount</source>
@@ -5786,6 +5830,10 @@
           <source>Posting Date</source>
           <target>Fecha de contabilización</target>
         </trans-unit>
+        <trans-unit id="Report 2670902002 - ReportLabel 1285865656" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Código de variante</target>
+        </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 1316107868" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base U.M.</source>
           <target>Base U.M.</target>
@@ -5894,10 +5942,6 @@
           <source>Prod. Order No.</source>
           <target>Prod. Orden No.</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - ReportLabel 3596600740" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item No.</source>
-          <target>Artículo No.</target>
-        </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3599549071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No.</source>
           <target>No de recurso.</target>
@@ -5916,10 +5960,6 @@
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 54430663" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity</source>
-          <target>Cantidad</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - ReportLabel 548536120" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
           <target>Cantidad</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 581330056" translate="yes" size-unit="char" xml:space="preserve">
@@ -7014,6 +7054,10 @@
           <source>All,Only Certified</source>
           <target>All,Only Certified</target>
         </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 1122461339 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Calculation as Item</source>
+          <target>Cálculo de variantes como artículo</target>
+        </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1207456636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost Type Rollup</source>
           <target>Paquete acumulativo de tipos de coste de material</target>
@@ -7665,10 +7709,6 @@
         <trans-unit id="Table 2459082793 - Field 3887707300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Management Type</source>
           <target>Tipo de gestión de costes</target>
-        </trans-unit>
-        <trans-unit id="Table 2459082793 - Field 3887707300 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Variant,Lot,Serial</source>
-          <target> ,Variant,Lot,Serial</target>
         </trans-unit>
         <trans-unit id="Table 2459082793 - Field 3930431329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Lot Size</source>
