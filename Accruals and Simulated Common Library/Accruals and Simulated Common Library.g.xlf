@@ -943,6 +943,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Sim. G/L Management - NamedType DateNotAllowedErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3573506712 - Method 4093351679 - NamedType 1211451746" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No shipment entry was found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS001 DTI Settlement - Method PostSettlement - NamedType NoShipmentEntryFoundErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2900991770 - Method 3283066691 - NamedType 2997162676" size-unit="char" translate="yes" xml:space="preserve">
           <source>Configure ...</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1048,10 +1053,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dim. Matrix - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2932534431 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 2932534431 - NamedType 2627882007" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dim. Matrix - NamedType Text001</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dim. Matrix - NamedType PeriodTxt</note>
         </trans-unit>
         <trans-unit id="Page 2932534431 - Method 1250604559 - NamedType 275725031" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;G/L Entry,&amp;Sim. Entry</source>
@@ -1083,20 +1088,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 587588164 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Period</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - NamedType Text001</note>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 is not a valid line definition.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - NamedType Text002</note>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 587588164 - NamedType 381905313" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 is not a valid column definition.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - NamedType Text003</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - NamedType InvalidColumnDefinitionErr</note>
+        </trans-unit>
+        <trans-unit id="Page 587588164 - NamedType 3877418729" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not a valid line definition.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - NamedType InvalidLineDefinitionErr</note>
+        </trans-unit>
+        <trans-unit id="Page 587588164 - NamedType 2627882007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - NamedType PeriodTxt</note>
         </trans-unit>
         <trans-unit id="Page 587588164 - Control 284195533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Filters</source>
@@ -1173,11 +1178,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - Control AmountType - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2495610112 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Net Change,Balance at Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - Control AmountType - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="Page 587588164 - Control 754170148 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the range of values that are displayed in the matrix window, for example, the total period. To change the contents of the field, choose Next Set or Previous Set.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1222,11 +1222,6 @@
           <source>Rounding Factor</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - Control RoundingFactor - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 3297953305 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>None,1,1000,1000000</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Balance by Dimension - Control RoundingFactor - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Page 587588164 - Control 1320314819 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the selected value is shown in the window.</source>
