@@ -474,7 +474,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Manager Time Sheet Det. 3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3447152436 - NamedType 2731473617" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post only my line,Post All Line</source>
+          <source>Post only my line,Post All Line,Post With Resource Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Manager Time Sheet Det. 3 - NamedType OpSelect</note>
         </trans-unit>
@@ -612,6 +612,171 @@
           <source>To Re&amp;open</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Manager Time Sheet Det. 3 - Action Reopen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheet List EOS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - NamedType 3383016222" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Resource No. defined in the user setup for the user %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - NamedType ResNoMissingUserSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - NamedType 255014706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Resource %1 is not setup for using Time Sheets.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - NamedType ResourceTimeSheetSetupMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - NamedType 1562162281" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User %1 is not defined in %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - NamedType UserSetupMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if here are some header comments existing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 3592094765 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the Ending Date of the working week.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EndingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 3433748562 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Approved Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 741968283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 CurrentPeriod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 3745564799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 GetDifference() - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 2131010771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Open Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 3315988665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Week No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Period No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 3199108717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Rejected Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 4068535124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Responsibility Center</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Res. Responsibility Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 288229588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Resource Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 1124425746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scheduled Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Scheduled Qty. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 3043948024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In Control Exists</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control EOS095 Submitted Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 949215307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control No - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the total working hours of that week.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 2754093181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the resource number belonging to that table.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control ResourceNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 543275552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the Starting Date of the working week.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control StartingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the status of the time sheet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 2900655123 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the open budget to-dos of the current resource.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action BudgetToDoopen - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 2900655123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Budget To-Do (open)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action BudgetToDoopen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 1690309038 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action TimeSheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action Comments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 503024588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action Comments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 3124756928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the posting log file. Posting error messages are reported why a line can't be posted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action Posting Log - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 3124756928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action Posting Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 3185255952 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create new time sheets.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action CreateTimeSheetsEOS - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 3185255952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Time Sheets</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action CreateTimeSheetsEOS - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 3816810956 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the time sheet in edit mode.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action EditTimeSheetAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 3816810956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Time Sheet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action EditTimeSheetAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1196476803 - Action 2343730401 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Activity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS PSATime Sheet List PSA - Action EOS095InternalActivity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 930112253 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
           <source>New,Process,Report,Navigate,Lines</source>
