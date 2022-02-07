@@ -28,8 +28,8 @@
           <target>Informazioni società deve avere un valore in %1 o %2.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3692669087 - NamedType 3415447349" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Ritenute %1.dcm</source>
-          <target>Ritenute %1.dcm</target>
+          <source>Ritenute_CUR%1.dcm</source>
+          <target>Ritenute_CUR%1.dcm</target>
         </trans-unit>
         <trans-unit id="Codeunit 444570622 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for ECU present! - this report cannot be generated!</source>
@@ -88,16 +88,16 @@
           <target>È possibile suddividere un valore solo in formato AN. Il valore supera i 16 caratteri.</target>
         </trans-unit>
         <trans-unit id="Codeunit 826558659 - Method 3437387899 - NamedType 1221256377" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Modello sintetico_%1.pdf</source>
-          <target>Modello sintetico_%1.pdf</target>
+          <source>Modello sintetico_CUR%1_%2_%3.pdf</source>
+          <target>Modello sintetico_CUR%1_%2_%3.pdf</target>
         </trans-unit>
         <trans-unit id="Codeunit 826558659 - Method 3437387899 - NamedType 1953684253" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modello sintetico.pdf</source>
           <target>Modello sintetico.pdf</target>
         </trans-unit>
         <trans-unit id="Codeunit 826558659 - Method 3437387899 - NamedType 278350566" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Modello sintetico.zip</source>
-          <target>Modello sintetico.zip</target>
+          <source>Modello sintetico_CUR%1.zip</source>
+          <target>Modello sintetico_CUR%1.zip</target>
         </trans-unit>
         <trans-unit id="Codeunit 826558659 - Method 3437387899 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
           <source>#1#######</source>
@@ -126,6 +126,10 @@
         <trans-unit id="Enum 2016970217 - EnumValue 3956781149 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modello Sintetico 2018</source>
           <target>Modello Sintetico 2018</target>
+        </trans-unit>
+        <trans-unit id="Enum 2016970217 - EnumValue 4149036470 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modello Sintetico 2022</source>
+          <target>Modello Sintetico 2022</target>
         </trans-unit>
         <trans-unit id="Enum 2016970217 - EnumValue 4256659720 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modello Sintetico 2017</source>
@@ -271,6 +275,10 @@
           <source>Specifies the value of the Intermediary Date field</source>
           <target>Specifica il valore del campo Data intermediazione</target>
         </trans-unit>
+        <trans-unit id="Page 1748373730 - Control 4046531296 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the uploaded file name</source>
+          <target>Specifica il nome del file caricato</target>
+        </trans-unit>
         <trans-unit id="Page 1748373730 - Control 673075074 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the PDF model to use</source>
           <target>Specifica il modello PDF da utilizzare</target>
@@ -294,6 +302,10 @@
         <trans-unit id="Page 2053444145 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Withh. Non-taxable Amounts</source>
           <target>Importi ritenuta non imponibili</target>
+        </trans-unit>
+        <trans-unit id="Page 2793139844 - Action 1440147253 - Method 1377591017 - NamedType 3941846598" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PDF Cert Unica is not updloaded in "Withholding Tax Setup".</source>
+          <target>Il modello PDF Cert. Unica non è stato caricato in "Setup Certificazioni Uniche (ECU)".</target>
         </trans-unit>
         <trans-unit id="Page 2793139844 - Action 1440147253 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>It will print the PDF with the backgroud specified in the setup</source>
@@ -791,6 +803,22 @@
           <source>Withholding Tax Export (ECU)</source>
           <target>Esportazione ritenuta d'acconto (ECU)</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1971852027 - Action 3362253805 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Update Non-Taxable Income Type" action</source>
+          <target>Esegue l'azione "Aggiorna tipo di reddito non imponibile"</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1971852027 - Action 3362253805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Non-Taxable Income Type</source>
+          <target>Aggiorna Tipo reddito non imponibile</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1971852027 - Action 4259510936 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Update Reason" action</source>
+          <target>Esegue l'azione "Aggiorna Causale"</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1971852027 - Action 4259510936 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Reason</source>
+          <target>Aggiorna Causale</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3380489494 - Control 2474908025 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extend the standard Non-Taxable Income Type</source>
           <target>Estendere il tipo di reddito non imponibile standard</target>
@@ -798,6 +826,58 @@
         <trans-unit id="PageExtension 3380489494 - Control 851494481 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the list of non Income Amounts</source>
           <target>Apre l'elenco degli Importi non in base al reddito</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - Control 4145702666 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Reason" field.</source>
+          <target>Specifica il valore del campo "Nuova Causale".</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - Control 4145702666 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Reason</source>
+          <target>Nuova Causale</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - Control 4145702666 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,A,B,C,D,E,G,H,I,L,L1,M,M1,M2,N,O,O1,P,Q,R,S,T,U,V,V1,V2,W,X,Y,ZO,K</source>
+          <target> ,A,B,C,D,E,G,H,I,L,L1,M,M1,M2,N,O,O1,P,Q,R,S,T,U,V,V1,V2,W,X,Y,ZO,K</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Withholding Reason (ECU)</source>
+          <target>Aggiorna Causale ritenuta (ECU)</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - ReportDataItem 1984731700 - Method 3715240 - NamedType 3366217384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Completed.</source>
+          <target>Operazione completata.</target>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - ReportDataItem 1984731700 - Method 72583909 - NamedType 3646957145" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update field %1 with new value "%2" for %3 selected record?</source>
+          <target>Aggiorna il campo %1 con il nuovo valore "%2" per %3 record selezionato?</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 291343491 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "NewNonTaxableIncomeType" field.</source>
+          <target>Specifica il valore del campo "Tipo di reddito non imponibile".</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 291343491 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Non-Taxable Income Type</source>
+          <target>Nuovo Tipo di reddito non imponibile</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Non-Taxable Income Type (ECU)</source>
+          <target>Aggiorna Tipo di reddito non imponibile (ECU)</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 3715240 - NamedType 3366217384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed.</source>
+          <target>Operazione completata.</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 72583909 - NamedType 3646957145" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update field %1 with new value "%2" for %3 selected record?</source>
+          <target>Aggiorna il campo %1 con il nuovo valore "%2" per %3 record selezionato?</target>
         </trans-unit>
         <trans-unit id="Report 4236995904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cert. UNICA - mod. sintetico</source>
@@ -810,6 +890,10 @@
         <trans-unit id="Table 1748373730 - Field 1573364966 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transmission Intermediary No.</source>
           <target>Nr. intermediario trasmissione</target>
+        </trans-unit>
+        <trans-unit id="Table 1748373730 - Field 1583647517 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Uploaded File Name</source>
+          <target>Nome file caricato</target>
         </trans-unit>
         <trans-unit id="Table 1748373730 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
@@ -840,8 +924,8 @@
           <target>Si desidera importare questo modello? %1</target>
         </trans-unit>
         <trans-unit id="Table 1748373730 - Method 2375482238 - NamedType 2895591099" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The model was successfully imported</source>
-          <target>Il modello è stato importato correttamente</target>
+          <source>The model was successfully imported. The model will be available for printing the next time you log in</source>
+          <target>Il modello è stato importato correttamente. Il modello sarà disponibile per la stampa dal prossimo log in.</target>
         </trans-unit>
         <trans-unit id="Table 1748373730 - Method 3349572119 - NamedType 1081627246" translate="yes" size-unit="char" xml:space="preserve">
           <source>Select a PDF File</source>
