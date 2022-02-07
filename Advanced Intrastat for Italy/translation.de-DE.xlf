@@ -35,6 +35,34 @@
           <source>%1 should not be negative.</source>
           <target>Der %1 darf nicht negativ sein.</target>
         </trans-unit>
+        <trans-unit id="Enum 1121593437 - EnumValue 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter</source>
+          <target>Filter</target>
+        </trans-unit>
+        <trans-unit id="Enum 1121593437 - EnumValue 965281551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include EU countries</source>
+          <target>Alle EU-Länder einschließen</target>
+        </trans-unit>
+        <trans-unit id="Enum 908454787 - EnumValue 2065820867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include local country</source>
+          <target>Lokales Land einschließen</target>
+        </trans-unit>
+        <trans-unit id="Enum 908454787 - EnumValue 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter</source>
+          <target>Filter</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Action 3393195050 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens Operation Types list. This setup is necessary for Call off stock.</source>
+          <target>Öffnet die Liste Vorgangstypen. Dieses Setup ist für Call off stock notwendig.</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Action 3393195050 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Types</source>
+          <target>Arbeitsgangarten</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 1538281119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "External Location Filter Type" field. Include EU: only locations with country having "Intrastat Code" populated will be processed; Filter: system will process locations included in custom specified filter.</source>
+          <target>Gibt den Wert des Felds "Filtertyp für externe Positionen" an.</target>
+        </trans-unit>
         <trans-unit id="Page 1933852584 - Control 1671868336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Intrastat Grouping field</source>
           <target>Gibt den Wert des Feldes Intrastat-Gruppierung an</target>
@@ -46,6 +74,34 @@
         <trans-unit id="Page 1933852584 - Control 335545441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Intrastat Declaration Nos. field</source>
           <target>Gibt den Wert der Intrastat-Deklarations-Nren an. Feld</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 3725792533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call off stock</source>
+          <target>Abruf auf Lager</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 4214987070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Suggest Call off stock lines" field.</source>
+          <target>Gibt den Wert des Felds "Aufruf von Lagerbestandspositionen vorschlagen" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 493657227 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Internal Location Filter Type" field. Include local country: only locations with country equal to company info country will be processed; Filter: system will process locations included in custom specified filter.</source>
+          <target>Gibt den Wert des Felds "Filtertyp für interne Positionen" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 53284326 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates custom filter to apply on internal Location.</source>
+          <target>Gibt einen benutzerdefinierten Filter an, der auf den internen Speicherort angewendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 53284326 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Internal Location Filter</source>
+          <target>Interner Positionsfilter</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 86893212 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates custom filter to apply on external Locations.</source>
+          <target>Gibt einen benutzerdefinierten Filter an, der auf externe Speicherorte angewendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 86893212 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Location Filter</source>
+          <target>Externer Standortfilter</target>
         </trans-unit>
         <trans-unit id="Page 1933852584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Setup (ITR)</source>
@@ -119,6 +175,14 @@
           <source>Specifies the value of the Declaration Type field</source>
           <target>Gibt den Wert des Feldes Deklarationstyp an</target>
         </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 1030582175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Recipient VAT Reg. No." field. This field is referred only to operation type 3 call off stock lines</source>
+          <target>Gibt den Wert des Felds "MwSt.-Identifikationsnummer des neuen Empfängers" an. Dieses Feld bezieht sich nur auf vorgangstyp 3 Aufruf von Lagerpositionen</target>
+        </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 1281851543 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Intra-community processing" field.</source>
+          <target>Gibt den Wert des Felds "Innergemeinschaftliche Verarbeitung" an.</target>
+        </trans-unit>
         <trans-unit id="Page 2896930430 - Control 130715553 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Suppl. Qty. field</source>
           <target>Gibt den Wert des Feldes Suppl. Qty. an</target>
@@ -182,6 +246,10 @@
         <trans-unit id="Page 2896930430 - Control 31251865 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Customs Office No. field</source>
           <target>Gibt den Wert des Zollamts Nr. an. Feld</target>
+        </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 3156524383 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Operation Type" field. This field is referred only to call off stock lines.</source>
+          <target>Gibt den Wert des Felds "Vorgangstyp" an. Dieses Feld bezieht sich nur auf den Aufruf von Lagerpositionen.</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3178927048 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Reference Year field</source>
@@ -282,6 +350,10 @@
         <trans-unit id="Page 2896930430 - Control 737807921 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Statistical Value (LCY) field</source>
           <target>Gibt den Wert des Feldes Statistischer Wert (LCY) an</target>
+        </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 827698558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Recipient Country/Region Code" field. This field is referred only to operation type 3 call off stock lines</source>
+          <target>Gibt den Wert des Felds "Neuer Empfängerland-/Regionscode" an. Dieses Feld bezieht sich nur auf vorgangstyp 3 Aufruf von Lagerpositionen</target>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines</source>
@@ -463,6 +535,30 @@
           <source>Intrastat Declarations (ITR)</source>
           <target>Intrastat-Erklärungen (ITR)</target>
         </trans-unit>
+        <trans-unit id="Page 3753874738 - Action 2583373290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Restore Default Settings. Present values will be overwritten</source>
+          <target>Standardeinstellungen wiederherstellen. Vorhandene Werte werden überschrieben</target>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Action 2583373290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Restore Default</source>
+          <target>Standard wiederherstellen</target>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Control 1383905037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Default" field. Default records cannot be deleted by users.</source>
+          <target>Gibt den Wert des Felds "Standard" an. Standarddatensätze können von Benutzern nicht gelöscht werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field.</source>
+          <target>Gibt den Wert für das Feld Code an</target>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Intrastat Operation Types</source>
+          <target>Intrastat-Vorgangsarten</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1452584635 - Control 1977714158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the EOS Suppl. Unit Of Measure field</source>
           <target>Gibt den Wert des Feldes EOS Suppl. Unit Of Measure an</target>
@@ -507,17 +603,17 @@
           <source>Specifies the value of the EOS Tariff No. field</source>
           <target>Gibt den Wert der EOS-Tarifnummer an. Feld</target>
         </trans-unit>
-        <trans-unit id="Report 2149405262 - Control 101612332 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Cost Regulation % field</source>
-          <target>Gibt den Wert des Felds Kostenregulierung % an</target>
-        </trans-unit>
-        <trans-unit id="Report 2149405262 - Control 101612332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Regulation %</source>
-          <target>Kosten Zu-/Abschlag %</target>
-        </trans-unit>
         <trans-unit id="Report 2149405262 - Control 3024247248 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Report 2149405262 - Control 3218214083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Cost Regulation % field</source>
+          <target>Gibt den Wert des Felds Kostenregulierung % an</target>
+        </trans-unit>
+        <trans-unit id="Report 2149405262 - Control 3218214083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost Regulation %</source>
+          <target>Kosten Zu-/Abschlag %</target>
         </trans-unit>
         <trans-unit id="Report 2149405262 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Suggest Intrastat Lines (ITR)</source>
@@ -550,6 +646,14 @@
         <trans-unit id="Report 3210303717 - Control 3314370131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Section 1</source>
           <target>Sektion 1 drucken</target>
+        </trans-unit>
+        <trans-unit id="Report 3210303717 - Control 763583663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Print Section 5 field</source>
+          <target>Gibt den Wert des Feldes Druckabschnitt 5 an</target>
+        </trans-unit>
+        <trans-unit id="Report 3210303717 - Control 763583663 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Print Section 5</source>
+          <target>Sektion 5 drucken</target>
         </trans-unit>
         <trans-unit id="Report 3210303717 - Control 932492686 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Print Section 2 field</source>
@@ -739,7 +843,7 @@
           <source>Intrastat Cover</source>
           <target>Intrastat Cover</target>
         </trans-unit>
-        <trans-unit id="Report 848111864 - Method 2577043479 - NamedType 148813207" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 848111864 - Method 2577043479 - NamedType 3985534756" translate="yes" size-unit="char" xml:space="preserve">
           <source>The amount in section 1 cannot be negative</source>
           <target>Der Betrag in Abschnitt 1 darf nicht negativ sein.</target>
         </trans-unit>
@@ -800,7 +904,7 @@
           <target>Zeilenart</target>
         </trans-unit>
         <trans-unit id="Table 1034651056 - Field 1746875241 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Goods,Goods correction,Services,Services correction</source>
+          <source>Goods,Goods correction,Services,Services correction,Call off stock</source>
           <target>Waren,Waren Richtigstellungen,Diestleistungen,Dienstleist. Richtigst.</target>
         </trans-unit>
         <trans-unit id="Table 1034651056 - Field 1787091971 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -863,9 +967,33 @@
           <source>Intrastat Header</source>
           <target>Intrastatkopf</target>
         </trans-unit>
+        <trans-unit id="Table 1168148295 - Field 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default</source>
+          <target>Default</target>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Method 1583998716 - NamedType 283072355" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Restoring default settings present values will be overwritten. Do you want to proceed?</source>
+          <target>Das Wiederherstellen der vorhandenen Standardeinstellungen wird überschrieben. Möchten Sie fortfahren?</target>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Intrastat Operation Type</source>
+          <target>Art der Intrastat-Operation</target>
+        </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1029634861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Country/Region Code</source>
           <target>Länder-/Regionscode</target>
+        </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 1030582175 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Recipient VAT Reg. No.</source>
+          <target>Neuer Empfänger USt-IdNr.</target>
         </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1043480093 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>County</source>
@@ -878,6 +1006,10 @@
         <trans-unit id="Table 1659617143 - Field 1238631515 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Code</source>
           <target>Zahlungsformcode</target>
+        </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 1281851543 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Intra-community processing</source>
+          <target>Innergemeinschaftliche Verarbeitung</target>
         </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1309738240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>External Document No.</source>
@@ -920,7 +1052,7 @@
           <target>Zeilenart</target>
         </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1761888289 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Goods,Goods correction,Services,Services correction</source>
+          <source>Goods,Goods correction,Services,Services correction,Call off stock</source>
           <target>Waren,Waren Richtigstellungen,Diestleistungen,Dienstleist. Richtigst.</target>
         </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1842532085 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1007,6 +1139,10 @@
           <source>Suppl. Unit of Measure</source>
           <target>Zusätzl. Einheit</target>
         </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 3156524383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Type</source>
+          <target>Arbeitsgangart</target>
+        </trans-unit>
         <trans-unit id="Table 1659617143 - Field 322169919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transport Method</source>
           <target>Verkehrszweig</target>
@@ -1091,6 +1227,10 @@
           <source>Corrected Intrastat Report No.</source>
           <target>Korrektur Intratatmeldungs Nr.</target>
         </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 827698558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Recipient Country/Region Code</source>
+          <target>Neuer Empfängerland-/Regionscode</target>
+        </trans-unit>
         <trans-unit id="Table 1659617143 - Field 855750597 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Name</source>
           <target>Herkunftsname</target>
@@ -1119,6 +1259,10 @@
           <source>Per Line,Per Document</source>
           <target>Pro Zeile,Pro Document</target>
         </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 2157404548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Location Filter</source>
+          <target>Externer Standortfilter</target>
+        </trans-unit>
         <trans-unit id="Table 1933852584 - Field 3210361224 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
           <target>Code</target>
@@ -1126,6 +1270,22 @@
         <trans-unit id="Table 1933852584 - Field 335545441 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Declaration Nos.</source>
           <target>Intrastaterklärungsnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 3508657765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Location Filter Type</source>
+          <target>Filtertyp für externe Positionen</target>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 4214987070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggest Call off stock lines</source>
+          <target>Call off stock-Linien vorschlagen</target>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 493657227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Internal Location Filter Type</source>
+          <target>Interner Positionsfiltertyp</target>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 574904206 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Internal Location Filter</source>
+          <target>Interner Positionsfilter</target>
         </trans-unit>
         <trans-unit id="Table 1933852584 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Setup</source>
