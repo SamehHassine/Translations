@@ -114,7 +114,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Header - Field EOS Line Type Filter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1034651056 - Field 1746875241 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Goods,Goods correction,Services,Services correction</source>
+          <source>Goods,Goods correction,Services,Services correction,Call off stock</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Header - Field EOS Line Type Filter - Property OptionCaption</note>
         </trans-unit>
@@ -349,7 +349,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Line - Field EOS Line Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1659617143 - Field 1761888289 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Goods,Goods correction,Services,Services correction</source>
+          <source>Goods,Goods correction,Services,Services correction,Call off stock</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Line - Field EOS Line Type - Property OptionCaption</note>
         </trans-unit>
@@ -503,6 +503,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Line - Field Intra-community processing - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 827698558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Recipient Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Line - Field New Recipient Country Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 1030582175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Recipient VAT Reg. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Line - Field New Recipient VAT Reg. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1659617143 - Field 3156524383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Line - Field Operation Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1933852584 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Intrastat Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -527,6 +542,56 @@
           <source>Per Line,Per Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Setup - Field EOS Intrastat Grouping - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 3508657765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Location Filter Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Setup - Field External Loc. Filter Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 2157404548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Setup - Field External Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 493657227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Location Filter Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Setup - Field Internal Loc. Filter Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 574904206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Setup - Field Internal Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 4214987070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suggest Call off stock lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Intrastat Setup - Field Suggest Call off stock lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intrastat Operation Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS019 Intrastat Oper. Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Method 1583998716 - NamedType 283072355" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restoring default settings present values will be overwritten. Do you want to proceed?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS019 Intrastat Oper. Type - Method RestoreDefaults - NamedType TextConfirmRestoreQst</note>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS019 Intrastat Oper. Type - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Field 1383905037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS019 Intrastat Oper. Type - Field Default - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1168148295 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS019 Intrastat Oper. Type - Field Description - Property Caption</note>
         </trans-unit>
         <trans-unit id="Codeunit 3117217873 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for ITR found - day %1 of %2</source>
@@ -693,10 +758,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Decl Subpage - Control Net Weight - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 827698558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "New Recipient Country/Region Code" field. This field is referred only to operation type 3 call off stock lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Decl Subpage - Control New Recipient Country Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 1030582175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "New Recipient VAT Reg. No." field. This field is referred only to operation type 3 call off stock lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Decl Subpage - Control New Recipient VAT Reg. No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2896930430 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the No. field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Decl Subpage - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2896930430 - Control 3156524383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Operation Type" field. This field is referred only to call off stock lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Decl Subpage - Control Operation Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2896930430 - Control 3608226253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Origin Country/Region field</source>
@@ -1093,6 +1173,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 3725792533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Call off stock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control Call off stock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 1538281119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "External Location Filter Type" field. Include EU: only locations with country having "Intrastat Code" populated will be processed; Filter: system will process locations included in custom specified filter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control External Filter Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 86893212 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates custom filter to apply on external Locations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control ExternalLocationFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 86893212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control ExternalLocationFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 493657227 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Internal Location Filter Type" field. Include local country: only locations with country equal to company info country will be processed; Filter: system will process locations included in custom specified filter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control Internal Loc. Filter Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 53284326 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates custom filter to apply on internal Location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control InternalLocationFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 53284326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control InternalLocationFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 4214987070 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Suggest Call off stock lines" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control Suggest Call off stock lines - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1933852584 - Control 2359762377 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1107,6 +1227,46 @@
           <source>Specifies the value of the Intrastat Grouping field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Control EOS Intrastat Grouping - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Action 3393195050 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens Operation Types list. This setup is necessary for Call off stock.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Action OperationTypes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Action 3393195050 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Intrastat Setup - Action OperationTypes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Intrastat Operation Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS019 Intrastat Oper. Types - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS019 Intrastat Oper. Types - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Control 1383905037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Default" field. Default records cannot be deleted by users.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS019 Intrastat Oper. Types - Control Default - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Description" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS019 Intrastat Oper. Types - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Action 2583373290 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore Default Settings. Present values will be overwritten</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS019 Intrastat Oper. Types - Action LoadDefaults - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3753874738 - Action 2583373290 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restore Default</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS019 Intrastat Oper. Types - Action LoadDefaults - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 848111864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Intrastat - Export File</source>
@@ -1143,10 +1303,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Intrastat - Export File - NamedType Text18004006Lbl</note>
         </trans-unit>
-        <trans-unit id="Report 848111864 - Method 2577043479 - NamedType 148813207" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 848111864 - Method 2577043479 - NamedType 3985534756" size-unit="char" translate="yes" xml:space="preserve">
           <source>The amount in section 1 cannot be negative</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Intrastat - Export File - Method WriteSection1 - NamedType ErrNegAmount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Intrastat - Export File - Method WriteSection1 - NamedType ErrNegAmountErr</note>
         </trans-unit>
         <trans-unit id="Report 44011682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Intrastat Cover</source>
@@ -1418,6 +1578,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Intrastat Declaration - Control PrintSection4 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 3210303717 - Control 763583663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Print Section 5 field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Intrastat Declaration - Control PrintSection5 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3210303717 - Control 763583663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Section 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Intrastat Declaration - Control PrintSection5 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 2149405262 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Suggest Intrastat Lines (ITR)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1428,15 +1598,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Suggest Intrastat Lines - Control Opzioni - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2149405262 - Control 101612332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2149405262 - Control 3218214083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Cost Regulation % field</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Suggest Intrastat Lines - Control IndirectCostPctReq - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Suggest Intrastat Lines - Control IndirectCostPctReqCtrl - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 2149405262 - Control 101612332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2149405262 - Control 3218214083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cost Regulation %</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Suggest Intrastat Lines - Control IndirectCostPctReq - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Suggest Intrastat Lines - Control IndirectCostPctReqCtrl - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3834462080 - Control 2156377460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4219821699">
           <source>Specifies the value of the EOS Tariff No. field</source>
@@ -1537,6 +1707,26 @@
           <source>Tariff No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18004217 - Field EOS Tariff No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1121593437 - EnumValue 3090661100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS019 Ext. Loc. Filter Types - EnumValue Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1121593437 - EnumValue 965281551 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include EU countries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS019 Ext. Loc. Filter Types - EnumValue Include all EU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 908454787 - EnumValue 3090661100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS019 Int. Loc. Filter Types - EnumValue Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 908454787 - EnumValue 2065820867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include local country</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS019 Int. Loc. Filter Types - EnumValue Include local country - Property Caption</note>
         </trans-unit>
       </group>
     </body>
