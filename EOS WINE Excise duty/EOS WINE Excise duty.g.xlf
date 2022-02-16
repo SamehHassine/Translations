@@ -4273,6 +4273,26 @@
           <note from="Developer" annotates="general" priority="2">%1 = Document Type; %2 Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX082 Excise Management - Method CheckEDocumentSalesHeader - NamedType eDocumentEveryErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 3876562416" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention you can't reopen %1 %2, because already you receive e-Document %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Type; %2 Document No.; %3 = E-Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX082 Excise Management - Method CheckEDocumentTransferHeader - NamedType eDocumentReceiveErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 2762366546" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention you can't reopen %1 %2, because already you request e-Document</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Type; %2 Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX082 Excise Management - Method CheckEDocumentTransferHeader - NamedType eDocumentRequestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 3122541673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention you can't posting %1 %2, because you must request and receive e-Document</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Type; %2 Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX082 Excise Management - Method CheckEDocumentTransferHeader - NamedType eDocumentPostingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 2269626182" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attention you can't create e-ad %1 %2, because every Item must have Excise </source>
+          <note from="Developer" annotates="general" priority="2">%1 = Document Type; %2 Document No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX082 Excise Management - Method CheckEDocumentTransferHeader - NamedType eDocumentEveryErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3416080016 - Method 3177495699 - NamedType 2355372627" size-unit="char" translate="yes" xml:space="preserve">
           <source>EOS Common Data Layer Setup not found</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10248,6 +10268,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">XmlPort EOS EX082 Customs Agency Table - Method OnPostXmlPort - NamedType ExecuteImportMsg</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1522165076 - Control 776078624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
+          <source>Excise Country Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Countries - Control EOS EX082 Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1522165076 - Control 776078624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 105737358">
+          <source>Excise Country Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Countries - Control EOS EX082 Country/Region Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 690579586 - Action 4176844456 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
           <source>View or edit E-AD shipping info where the customer must items delivered with E-AD</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10683,6 +10713,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Item Card - Control EOS EX082 Item Work Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 82266801 - Control 4048693904 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1750020835">
+          <source>Excise Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Languages - Control EOS EX082 Language - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 82266801 - Control 4048693904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1750020835">
+          <source>Excise Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Languages - Control EOS EX082 Language - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2571184905 - Control 692938609 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
           <source>Excise Location Work Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10733,6 +10773,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Posted Shipments - Action EOS EX082 VieweDocument - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 853753126 - Action 1873852771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 627180795">
+          <source>View or create e-AD Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Posted Transf Ships - Action EOS EX082 VieweDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 853753126 - Action 1873852771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 627180795">
+          <source>E-AD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Posted Transf Ships - Action EOS EX082 VieweDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 751049249 - Action 1873852771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4201932270">
+          <source>View or create e-AD Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Posted Transf. Ship - Action EOS EX082 VieweDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 751049249 - Action 1873852771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4201932270">
+          <source>E-AD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Posted Transf. Ship - Action EOS EX082 VieweDocument - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3418483348 - Action 1873852771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>View or create e-AD Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10742,6 +10802,16 @@
           <source>E-AD</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Sales Order - Action EOS EX082 VieweDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1025219165 - Action 1873852771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>View or create e-AD Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Transfer Order - Action EOS EX082 VieweDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1025219165 - Action 1873852771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 66664215">
+          <source>E-AD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Transfer Order - Action EOS EX082 VieweDocument - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3180003638 - Control 3494300864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1994514640">
           <source>Packaging - Type</source>
@@ -10782,6 +10852,11 @@
           <source>Excise Destination</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS EX082 Vendor List - Action EOS EX082 VendorWorkSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3687917594 - Field 776078624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4148176377">
+          <source>Excise Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS EX082 Country - Field EOS EX082 Country/Region Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 70585406 - Field 476422887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4109002614">
           <source>Add. Information language</source>
@@ -10942,6 +11017,11 @@
           <source>Item Working Setup Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS EX082 Item - Field EOS EX082 Item Work Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4048693904 - Field 4048693904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4093990710">
+          <source>Excise Language</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS EX082 Language - Field EOS EX082 Language - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1275290501 - Field 692938609 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
           <source>Location Working Setup Code</source>

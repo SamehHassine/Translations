@@ -279,6 +279,22 @@
           <source>Attention you can't reopen %1 %2, because already you receive e-Document %3</source>
           <target>Attenzione non puoi riaprire %1 %2, perché hai già ricevuto l'e-Document %3</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 2269626182" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention you can't create e-ad %1 %2, because every Item must have Excise </source>
+          <target>Attenzione, non puoi creare l'e-Document %1 %2, perché ogni articolo deve avere accise</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 2762366546" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention you can't reopen %1 %2, because already you request e-Document</source>
+          <target>Attenzione non puoi riaprire %1 %2, perché hai già richiesto e-Document</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 3122541673" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention you can't posting %1 %2, because you must request and receive e-Document</source>
+          <target>Attenzione non puoi registrare %1 %2, perché devi richiedere e ricevere l'e-Document</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3416080016 - Method 1764820828 - NamedType 3876562416" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention you can't reopen %1 %2, because already you receive e-Document %3</source>
+          <target>Attenzione non puoi riaprire %1 %2, perché hai già ricevuto l'e-Document %3</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3416080016 - Method 3177495699 - NamedType 2355372627" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Common Data Layer Setup not found</source>
           <target>Setup EOS Common Data Layer non trovato.</target>
@@ -5759,6 +5775,14 @@
           <source>(EXC) e-AD List</source>
           <target>(EXC) Lista e-AD</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1025219165 - Action 1873852771 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or create e-AD Document</source>
+          <target>Visualizza o crea documento e-AD</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1025219165 - Action 1873852771 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>E-AD</source>
+          <target>e-AD</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1285530348 - Action 3545702736 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit E-AD shipping/receiving info where the vendor must items delivered with E-AD</source>
           <target>Visualizza o modifica informazioni spedizione/carico e-AD per i fornitori che necessitano la consegna con e-AD</target>
@@ -5766,6 +5790,14 @@
         <trans-unit id="PageExtension 1285530348 - Action 3545702736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Excise Destination</source>
           <target>Destinazione accise</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1522165076 - Control 776078624 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excise Country Code</source>
+          <target>Accise Cod. Paese</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1522165076 - Control 776078624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excise Country Code</source>
+          <target>Accise Cod. Paese</target>
         </trans-unit>
         <trans-unit id="PageExtension 2465048873 - Action 1873852771 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or create e-AD Document</source>
@@ -6179,11 +6211,35 @@
           <source>Excise Destination</source>
           <target>Destinazione accise</target>
         </trans-unit>
+        <trans-unit id="PageExtension 751049249 - Action 1873852771 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or create e-AD Document</source>
+          <target>Visualizza o crea documento e-AD</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 751049249 - Action 1873852771 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>E-AD</source>
+          <target>e-AD</target>
+        </trans-unit>
         <trans-unit id="PageExtension 805118954 - Action 1873852771 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or create e-AD Document</source>
           <target>Visualizza o crea documento e-AD</target>
         </trans-unit>
         <trans-unit id="PageExtension 805118954 - Action 1873852771 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>E-AD</source>
+          <target>e-AD</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 82266801 - Control 4048693904 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excise Language Code</source>
+          <target>Accise Cod. Lingua</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 82266801 - Control 4048693904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excise Language Code</source>
+          <target>Accise Cod. Lingua</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 853753126 - Action 1873852771 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or create e-AD Document</source>
+          <target>Visualizza o crea documento e-AD</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 853753126 - Action 1873852771 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>E-AD</source>
           <target>e-AD</target>
         </trans-unit>
@@ -9366,6 +9422,14 @@
         <trans-unit id="TableExtension 1275290501 - Field 692938609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Working Setup Code</source>
           <target>Setup Funzionamento Magazzino</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3687917594 - Field 776078624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excise Country/Region Code</source>
+          <target>Accise Cod. Paese</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 4048693904 - Field 4048693904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Excise Language</source>
+          <target>Accise Cod. Lingua</target>
         </trans-unit>
         <trans-unit id="TableExtension 596881549 - Field 3108869417 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Working Setup Code</source>
