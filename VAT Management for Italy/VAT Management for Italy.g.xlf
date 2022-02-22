@@ -223,6 +223,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS VAT Exemption Setup - Field Enable Pro-Rata VAT - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3444279080 - Field 19196629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable VAT Settl. Interests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS VAT Exemption Setup - Field Enable VAT Settl. Interests - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3444279080 - Field 1066680167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>G/L Book Progressive No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -272,6 +277,16 @@
           <source>Tax Repres. Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS VAT Exemption Setup - Field Tax Repres. Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444279080 - Field 2495401230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quart. VAT Settl. Interests Acc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS VAT Exemption Setup - Field VAT Settl. Interests Acc. No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3444279080 - Field 4016821108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quart. VAT Settl. Interests Perc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS VAT Exemption Setup - Field VAT Settl. Interests Perc. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 688637832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Type</source>
@@ -903,6 +918,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS VAT Exemption Setup - Control Pro-Rata VAT Perc. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 3983049857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quarterly VAT Settl. Interests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS VAT Exemption Setup - Control QVATInterests - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 19196629 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Enable VAT Settl. Interests" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS VAT Exemption Setup - Control Enable VAT Settl. Interests - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 2495401230 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Quart. VAT Settl. Interests Acc. No." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS VAT Exemption Setup - Control VAT Settl. Interests Acc. No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 4016821108 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Quart. VAT Settl. Interests Perc." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS VAT Exemption Setup - Control VAT Settl. Interests Perc. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3444279080 - Control 3988060958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>VAT Exemption</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1228,6 +1263,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - NamedType TextTestPrintTxt</note>
         </trans-unit>
+        <trans-unit id="Report 1810182298 - NamedType 3519710442" size-unit="char" translate="yes" xml:space="preserve">
+          <source>(%1%2)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - NamedType TotalProRataSuffixTxt</note>
+        </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 3264758643" size-unit="char" translate="yes" xml:space="preserve">
           <source>Input VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1268,16 +1308,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - NamedType VATProRataCaptionTxt</note>
         </trans-unit>
-        <trans-unit id="Report 1810182298 - Method 2757394554 - NamedType 3519710442" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(%1%2)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - Method CalcProRata - NamedType TotalProRataSuffixTxt</note>
-        </trans-unit>
-        <trans-unit id="Report 1810182298 - Method 1544076788 - NamedType 3519710442" size-unit="char" translate="yes" xml:space="preserve">
-          <source>(%1%2)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - Method OnPreReport - NamedType TotalProRataSuffixTxt</note>
-        </trans-unit>
         <trans-unit id="Report 1810182298 - ReportLabel 3954732580" size-unit="char" translate="yes" xml:space="preserve">
           <source>Lo spazio sottostante di questa pagina non è stato utilizzato ed è da considerarsi annullato</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1307,6 +1337,11 @@
           <source>Used Plafond Amount (Previous Periods)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - ReportLabel PrevPeriodUsedPlafondAmountCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 1810182298 - ReportLabel 3249508661" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quarterly VAT Interests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calc. and Post VAT Settl. - ReportLabel QVATSettlInterestsCaption</note>
         </trans-unit>
         <trans-unit id="Report 1810182298 - ReportLabel 4292550588" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining Plafond Amount</source>
@@ -2423,26 +2458,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18006501 - Control EOS Reverse Charge VAT Amount - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2611469389 - Control 2642997644 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 226902773">
-          <source>Specifies the value of the "Pro-Rata VAT Amount" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18006502 - Control EOS Pro-Rata VAT Amount - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2611469389 - Control 2137654546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 226902773">
-          <source>Specifies the value of the "Pro-Rata VAT Perc." field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18006502 - Control EOS Pro-Rata VAT Perc. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3249166006 - Control 2642997644 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3407719999">
-          <source>Specifies the value of the "Pro-Rata VAT Amount" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18006503 - Control EOS Pro-Rata VAT Amount - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3249166006 - Control 2137654546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3407719999">
-          <source>Specifies the value of the "Pro-Rata VAT Perc." field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18006503 - Control EOS Pro-Rata VAT Perc. - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3045535844 - Action 960421677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>VAT Exemptions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2577,16 +2592,6 @@
           <source>VAT Exemption No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18006501 - Field EOS VAT Exemption No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2556270658 - Field 2642997644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 465128383">
-          <source>Pro-Rata VAT Amount</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18006502 - Field EOS Pro-Rata VAT Amount - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2556270658 - Field 2137654546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 465128383">
-          <source>Pro-Rata VAT Perc.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18006502 - Field EOS Pro-Rata VAT Perc. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3766780487 - Field 3803707464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247222673">
           <source>VAT Exemption No.</source>

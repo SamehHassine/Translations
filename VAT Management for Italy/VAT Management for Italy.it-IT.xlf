@@ -235,6 +235,10 @@
           <source>Specifies the value of the "Enable Pro-Rata" field.</source>
           <target>Specifica il valore del campo "IVA pro-rata".</target>
         </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 19196629 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Enable VAT Settl. Interests" field.</source>
+          <target>Specifica il vaore del campo "Abilita interessi IVA trimestrale".</target>
+        </trans-unit>
         <trans-unit id="Page 3444279080 - Control 2019015628 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pro-Rata VAT</source>
           <target>IVA pro-rata</target>
@@ -247,13 +251,25 @@
           <source>G/L Book</source>
           <target>Libro giornale</target>
         </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 2495401230 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Quart. VAT Settl. Interests Acc. No." field.</source>
+          <target>Specifica il valore del campo "Nr. conto interessi IVA trimestrale".</target>
+        </trans-unit>
         <trans-unit id="Page 3444279080 - Control 301418081 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Pro-Rata VAT Perc." field.</source>
           <target>Specifica il valore del campo "Percentuale IVA pro-rata".</target>
         </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 3983049857 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quarterly VAT Settl. Interests</source>
+          <target>Interessi IVA trimestrale</target>
+        </trans-unit>
         <trans-unit id="Page 3444279080 - Control 3988060958 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption</source>
           <target>Dich. d'intento</target>
+        </trans-unit>
+        <trans-unit id="Page 3444279080 - Control 4016821108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Quart. VAT Settl. Interests Perc." field.</source>
+          <target>Specifica il valore del campo "Percentuale interessi IVA trimestrale".</target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Setup (VMI)</source>
@@ -383,14 +399,6 @@
           <source>VAT Exemptions</source>
           <target>Dich. d'intento</target>
         </trans-unit>
-        <trans-unit id="PageExtension 2611469389 - Control 2137654546 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Pro-Rata VAT Perc." field.</source>
-          <target>Specifica il valore del campo "Percentuale IVA pro-rata".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2611469389 - Control 2642997644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Pro-Rata VAT Amount" field.</source>
-          <target>Specifica il valore del campo "Importo IVA pro-rata".</target>
-        </trans-unit>
         <trans-unit id="PageExtension 2616890552 - Action 4148988817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Verify VAT Exemptions</source>
           <target>Verifica dichiarazioni d'intento</target>
@@ -406,14 +414,6 @@
         <trans-unit id="PageExtension 3045535844 - Action 960421677 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemptions</source>
           <target>Dich. d'intento</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3249166006 - Control 2137654546 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Pro-Rata VAT Perc." field.</source>
-          <target>Specifica il valore del campo "Percentuale IVA pro-rata".</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3249166006 - Control 2642997644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Pro-Rata VAT Amount" field.</source>
-          <target>Specifica il valore del campo "Importo IVA pro-rata".</target>
         </trans-unit>
         <trans-unit id="PageExtension 3254587169 - Action 4148988817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Verify VAT Exemptions</source>
@@ -823,14 +823,6 @@
           <source>Reprint</source>
           <target>Ristampa</target>
         </trans-unit>
-        <trans-unit id="Report 1810182298 - Method 1544076788 - NamedType 3519710442" translate="yes" size-unit="char" xml:space="preserve">
-          <source>(%1%2)</source>
-          <target>(%1%2)</target>
-        </trans-unit>
-        <trans-unit id="Report 1810182298 - Method 2757394554 - NamedType 3519710442" translate="yes" size-unit="char" xml:space="preserve">
-          <source>(%1%2)</source>
-          <target>(%1%2)</target>
-        </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 1010155901" translate="yes" size-unit="char" xml:space="preserve">
           <source>All amounts are in %1</source>
           <target>Tutti gli importi sono in %1</target>
@@ -947,6 +939,10 @@
           <source>Prior Period Output VAT</source>
           <target>IVA a debito periodo precedente</target>
         </trans-unit>
+        <trans-unit id="Report 1810182298 - NamedType 3519710442" translate="yes" size-unit="char" xml:space="preserve">
+          <source>(%1%2)</source>
+          <target>(%1%2)</target>
+        </trans-unit>
         <trans-unit id="Report 1810182298 - NamedType 353395043" translate="yes" size-unit="char" xml:space="preserve">
           <source>Input VAT (Rounded)</source>
           <target>IVA a credito (arrotondamento)</target>
@@ -1010,6 +1006,10 @@
         <trans-unit id="Report 1810182298 - ReportLabel 2020104417" translate="yes" size-unit="char" xml:space="preserve">
           <source>Used Plafond Amount (Previous Periods)</source>
           <target>Importo plafond usato (periodi precedenti)</target>
+        </trans-unit>
+        <trans-unit id="Report 1810182298 - ReportLabel 3249508661" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quarterly VAT Interests</source>
+          <target>Interessi IVA trimestrale</target>
         </trans-unit>
         <trans-unit id="Report 1810182298 - ReportLabel 3277582507" translate="yes" size-unit="char" xml:space="preserve">
           <source>Next Period Input VAT</source>
@@ -1851,6 +1851,10 @@
           <source>Primary Key</source>
           <target>Chiave primaria</target>
         </trans-unit>
+        <trans-unit id="Table 3444279080 - Field 19196629 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable VAT Settl. Interests</source>
+          <target>Abilita interessi IVA trimestrale</target>
+        </trans-unit>
         <trans-unit id="Table 3444279080 - Field 2038666630 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Appointment Code</source>
           <target>Codice carica</target>
@@ -1858,6 +1862,10 @@
         <trans-unit id="Table 3444279080 - Field 2270692045 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pro-Rata VAT Account No.</source>
           <target>Nr. conto C/G IVA pro-rata</target>
+        </trans-unit>
+        <trans-unit id="Table 3444279080 - Field 2495401230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quart. VAT Settl. Interests Acc. No.</source>
+          <target>Nr. conto interessi IVA trimestrale</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 262494645 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Signature 2 Code</source>
@@ -1874,6 +1882,10 @@
         <trans-unit id="Table 3444279080 - Field 301418081 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pro-Rata VAT Perc.</source>
           <target>Percentuale IVA pro-rata</target>
+        </trans-unit>
+        <trans-unit id="Table 3444279080 - Field 4016821108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quart. VAT Settl. Interests Perc.</source>
+          <target>Percentuale interessi IVA trimestrale</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 688637832 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Type</source>
@@ -2102,14 +2114,6 @@
         <trans-unit id="TableExtension 2299131932 - Field 3803707464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Exemption No.</source>
           <target>Nr. dich. d'intento</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2556270658 - Field 2137654546 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Pro-Rata VAT Perc.</source>
-          <target>Percentuale IVA pro-rata</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2556270658 - Field 2642997644 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Pro-Rata VAT Amount</source>
-          <target>Importo IVA pro-rata</target>
         </trans-unit>
         <trans-unit id="TableExtension 2936828549 - Field 3555836978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Force VAT Exemption</source>
