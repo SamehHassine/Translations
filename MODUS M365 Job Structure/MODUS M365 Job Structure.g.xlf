@@ -2468,6 +2468,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Disposition - Field Unit of Measure Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3932771532 - Field 2167869385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Job Structure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Disposition - Field Unit of Measure Job Struct - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3932771532 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variant Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3568,6 +3573,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Unit of Measure Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 2385270358 - Method 2126772001 - NamedType 1011672254" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A manual change of unit of measure isnt allowed for resource, workcenter and machine center here</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Unit of Measure Code - Method OnValidate - NamedType noChangeErr</note>
+        </trans-unit>
         <trans-unit id="Table 3790414227 - Field 2937233469 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unit Price</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4393,6 +4403,16 @@
           <note from="Developer" annotates="general" priority="2">%1 Job Structure No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Job Structure Mgt. - NamedType SpaceErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1471355777 - Method 2660908848 - NamedType 1118015822" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assignment done, please open disposition page again to refresh data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Job Structure Mgt. - Method AssignFreePurchlines - NamedType readyMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471355777 - Method 2660908848 - NamedType 1323390187" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cant assign from actual line because its already complete reserved.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Job Structure Mgt. - Method AssignFreePurchlines - NamedType noReservErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1471355777 - Method 3016158204 - NamedType 3364010393" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Job Structure Line %1, %2 has no check list.</source>
           <note from="Developer" annotates="general" priority="2">%1 Job Struct No %2 Entry no</note>
@@ -4599,7 +4619,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnItemOnAfterValidateEventReplenishmentSystem - NamedType policyErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 1323952009 - NamedType 3688029601" size-unit="char" translate="yes" xml:space="preserve">
-          <source>It is not possible to change to another Reordering Policy, because you have to uncheck "No Disposition" first</source>
+          <source>It is not possible to change to another Reordering Policy, because you have to uncheck "No Disposition (Job Str.)" first</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnItemOnBeforeValidateEventReorderingPolicy - NamedType noChangePossibleErr</note>
         </trans-unit>
@@ -5079,7 +5099,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Clip Job Struct Lines - Control JobNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1157891658 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Clip Job Struct Lines - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -6168,6 +6188,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Assembling Journal - Control JobNo - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2077999208 - Control 680348815 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This field shows the job planning line entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Assembling Journal - Control jobPlanningLineNo - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2077999208 - Control 1207394189 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the job task no..</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6879,7 +6904,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Sched Rel Subform - Control JobNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3622993470 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Sched Rel Subform - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -7884,7 +7909,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Schedule Relations - Control JobNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 207066054 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Schedule Relations - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -8894,7 +8919,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct Lines Arc - Control JobNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1842427164 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct Lines Arc - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -9659,7 +9684,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct Templ Subform - Control GrpLine - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2089987705 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct Templ Subform - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -10359,7 +10384,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Sub Arc - Control GroupingLine - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2919733939 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Sub Arc - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -10783,11 +10808,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - NamedType WorkCenterTypeErr</note>
         </trans-unit>
-        <trans-unit id="Page 278747505 - Method 926737723 - NamedType 833889217" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This line is not the first item in structure</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Method CheckFirstItem - NamedType notFirstItemInStructErr</note>
-        </trans-unit>
         <trans-unit id="Page 278747505 - Method 169069189 - NamedType 885919232" size-unit="char" translate="yes" xml:space="preserve">
           <source>The production order needs status = released</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10964,7 +10984,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Control IndirectCost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 278747505 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -11398,10 +11418,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Action Baugruppenterminierung - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 278747505 - Action 3407506786 - Method 1377591017 - NamedType 3495115830" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This action can only be activated on records of type item</source>
+        <trans-unit id="Page 278747505 - Action 3407506786 - Method 1377591017 - NamedType 869280556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Forward,Backward</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Action Baugruppenterminierung - Method OnAction - NamedType noCorrectTypeErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Action Baugruppenterminierung - Method OnAction - NamedType forwardBackwardTxt</note>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 2093150661 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>This action commits the planning dates of this grouping line</source>
@@ -11863,10 +11883,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Action UpdateWithProdOrder - Method OnAction - NamedType fullOutputErr</note>
         </trans-unit>
-        <trans-unit id="Page 278747505 - Action 4186258856 - Method 1377591017 - NamedType 1569938312" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Page 278747505 - Action 4186258856 - Method 1377591017 - NamedType 1621951272" size-unit="char" translate="yes" xml:space="preserve">
           <source>The process was finished.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Action UpdateWithProdOrder - Method OnAction - NamedType ProcFinishMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Action UpdateWithProdOrder - Method OnAction - NamedType procFinishMsg</note>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 2315137949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sale</source>
@@ -12674,7 +12694,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control JobNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -12854,9 +12874,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 848733486 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the unit of measure code</source>
+          <source>This field shows the base unit of measure code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control UnitofMeasureCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Control 3888619438 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This field shows the unit of measure code of the job structure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control UnitofMeasureCodeJobStruct - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 3798681774 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>This field shows the variant code</source>
@@ -12889,7 +12914,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control FilterEndingDateTo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 4167846798 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Filter a job replenishment system</source>
+          <source>Filter a Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control FilterJobRepMethode - Property ToolTip</note>
         </trans-unit>
@@ -13139,7 +13164,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Line Card - Control JobNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 985716615 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Line Card - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -13804,7 +13829,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Lines - Control JobNo - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 976813502 - Control 1778558710 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the job replenishment system</source>
+          <source>This field shows the Job Replenishment System</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Lines - Control JobReplenishmentSystem - Property ToolTip</note>
         </trans-unit>
@@ -16553,45 +16578,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 765709425" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Requirement Line List</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType ArtikelBedarfZeilenuebersichtCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 2848464296" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item No.:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType Artikelnr__CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2277564066 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType CurrReport_PAGENOCaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType CurrReportPageNoCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 1780848491" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Date Filter:</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType Datumsfilter_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 3414900841" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2277564066 - NamedType 2425761872" size-unit="char" translate="yes" xml:space="preserve">
           <source>Deb./ Vend.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType Deb___Kred_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType CustVendCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 3318574433" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2277564066 - NamedType 2042868916" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType DatefilterCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2277564066 - NamedType 581024604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType ItemNoCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2277564066 - NamedType 3228201837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Requirement Line List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType ItemReqLineListCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2277564066 - NamedType 2135703800" size-unit="char" translate="yes" xml:space="preserve">
           <source>Location Filter:</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType Lagerortfilter_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType LocationcodefilterCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 4168306170" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2277564066 - NamedType 35790250" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType PlanningComponent__Due_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType PlanningComponentDueDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 2277564066 - NamedType 3946955662" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2277564066 - NamedType 2816417746" size-unit="char" translate="yes" xml:space="preserve">
           <source>Variant Code:</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType Variantencode_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Item Requmnt. Line List - NamedType VariantCodeCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 1331951767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Plan - Plan. Wksh.</source>
@@ -17103,230 +17128,230 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1857347439" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3573702543" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Capacity_Ledger_Entry__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType CapacityLedgerEntryPostingDateCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 104360111 - NamedType 286059987" size-unit="char" translate="yes" xml:space="preserve">
           <source>Creation Date:</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType CreationTxt</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType CurrReport_PAGENOCaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType CurrReportPageNoCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2061164298" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3133216154" size-unit="char" translate="yes" xml:space="preserve">
           <source>No. of Records</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType DocEntry__No__of_Records_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType DocEntryNoofRecordsCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3902838843" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3880121763" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType DocEntry__Table_Name_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType DocEntryTableNameCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 104360111 - NamedType 1638025467" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No. : </source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType DocNoTxt</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 398593544" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 725086040" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Item_Ledger_Entry__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ItemLedgerEntryPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2987348282" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Ledger_Entry__Posting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1599407301" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Job Navigate</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_NavigateCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 924923851" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Planning Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Planning_Line__Planning_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 936273481" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ending Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Header_Archive__Ending_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3589853124" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Header_Archive__Starting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 775940422" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ending Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Header__Ending_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 220529607" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Header__Starting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1210909874" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ending Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Line_Archive__Ending_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1568885179" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Line_Archive__Starting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3021355053" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Ending Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Line__Ending_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3136488992" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job_Structure_Line__Starting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1497228058" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 1204649386" size-unit="char" translate="yes" xml:space="preserve">
           <source>Creation Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job__Creation_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobCreationDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 96253996" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3641130364" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job__Ending_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobEndingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2147621473" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2762825834" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobLedgerEntryPostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 98828288" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Navigate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobNavigateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1162943627" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobPlanningLinePlanningDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3555386097" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Job__Starting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStartingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3599406497" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2349940028" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureHeaderArchiveEndingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2019431089" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureHeaderArchiveStartingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2601519470" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureHeaderEndingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2924512191" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureHeaderStartingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3479387755" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureLineArchiveEndingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3001314914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureLineArchiveStartingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 391068181" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureLineEndingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1445758776" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType JobStructureLineStartingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 4135378844" size-unit="char" translate="yes" xml:space="preserve">
           <source>Navigate Filters</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Navigate_FiltersCaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType NavigateFiltersCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2056924278" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2347269207" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Production_Order__Starting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ProductionOrderStartingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2789310797" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 1501802632" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Time</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Production_Order__Starting_Time_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ProductionOrderStartingTimeCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1974199650" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 1744256226" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Purchase_Header_Archive__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType PurchaseHeaderArchivePostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1755523067" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3412890491" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Purch__Cr__Memo_Hdr___Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType PurchCrMemoHdrPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 136007174" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3389798310" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Purch__Inv__Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType PurchInvHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2099188821" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2878859701" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Purch__Inv__Line__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType PurchInvLinePostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3680986" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2893267674" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Purch__Rcpt__Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType PurchRcptHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 112841609" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 748241257" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Purch__Rcpt__Line__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType PurchRcptLinePostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2589246723" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 1677909139" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Return_Receipt_Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ReturnReceiptHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3734399396" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 507253828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ReturnReceiptLinePostingDateCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 4118299620" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipment Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Return_Receipt_Line__Shipment_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ReturnReceiptLineShipmentDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2183731985" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 358755175" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Return_Receipt_Line___Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ReturnShipmentHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3644203999" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 4252168936" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Return_Shipment_Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesCrMemoHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3692156213" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Cr_Memo_Header__Posting_Date_CaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1149672390" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3275032623" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipment Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Cr_Memo_Line__Shipment_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesCrMemoLineShipmentDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 4041581533" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3919163341" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Header_Archive__Order_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesHeaderArchiveOrderDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2659523370" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2147686651" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Header__Order_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesHeaderOrderDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3632282346" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2126763250" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Invoice_Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesInvoiceHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 769224313" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3098451297" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Invoice_Line__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesInvoiceLinePostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1104530537" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 3118124273" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Shipment_Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesShipmentHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 757046426" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 2611748898" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Sales_Shipment_Line__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType SalesShipmentLinePostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3550410063" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 1858084798" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Service_Header__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ServiceHeaderPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 751244392" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 714052408" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Service_Ledger_Entry__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ServiceLedgerEntryPostingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 3237072640" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 104360111 - NamedType 68067725" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType Service_Line__Posting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ServiceLinePostingDateCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 104360111 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
@@ -17628,55 +17653,55 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 1987762555" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 684809554" size-unit="char" translate="yes" xml:space="preserve">
           <source>Page</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType CurrReport_PAGENOCaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType CurrReportPageNoCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 2785410819" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp_DescriptionCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 2339995126" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 678100422" size-unit="char" translate="yes" xml:space="preserve">
           <source>Base Unit of Measure</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp__Base_Unit_of_Measure_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpBaseUnitofMeasureCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 2782798656" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 3682003528" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Description 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp__Description_2_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpDescription2CaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 968084209" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 2515212962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpDescriptionCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 3941476380" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Category Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp__Item_Category_Code_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpItemCategoryCodeCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 3276703590" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 2521346398" size-unit="char" translate="yes" xml:space="preserve">
           <source>Manufacturer Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp__Manufacturer_Code_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpManufacturerCodeCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 2979050627" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 3631015043" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp__No__CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpNoCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 2120656189" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 1430198461" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unit Price</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmp__Unit_Price_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType ItemTmpUnitPriceCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 2140840596" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 718503396" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ending Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType PageLoop__Ending_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType PageLoopEndingDateCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 585046009 - NamedType 709866105" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 585046009 - NamedType 1516760969" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType PageLoop__Starting_Date_CaptionLbl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Spare Parts Catalog - NamedType PageLoopStartingDateCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 585046009 - NamedType 3405320530" size-unit="char" translate="yes" xml:space="preserve">
           <source>Spare Parts Catalog</source>
@@ -17774,7 +17799,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 MEB Item Card - Control M365 No Disposition - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2245591138 - Control 2899819573 - Method 2126772001 - NamedType 842150501" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 2245591138">
-          <source>It is not possible to change "No Disposition", because Reorder Policy isnt BLANK</source>
+          <source>It is not possible to change "No Disposition (Job Str.)", because Reorder Policy isnt BLANK</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 MEB Item Card - Control M365 No Disposition - Method OnValidate - NamedType notPossibleChangeErr</note>
         </trans-unit>
@@ -18648,6 +18673,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 MEB Sales Ret. Order - Action M365MEBCreateRetRelDocJob - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1283248090 - Control 3341892776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1435832953">
+          <source>Shows the Reorder Policy of this SKU</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 MEB Stockk. Unit List - Control M365ReorderingPolicy - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3445453581 - Control 2412278780 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1305077998">
           <source>Specifies the number for the associated job structure entry no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -18794,7 +18824,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 MEB Item - Field M365 Last Unit Cost Calc. From - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3939542790 - Field 2899819573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
-          <source>No Disposition</source>
+          <source>No Disposition (Job Str.)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 MEB Item - Field M365 No Disposition - Property Caption</note>
         </trans-unit>
@@ -19573,25 +19603,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Report Selection - EnumValue Spare Parts Catalog - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 2819112643 - EnumValue 3899382222 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 337701178">
+        <trans-unit id="EnumExtension 2819112643 - EnumValue 4004474601 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 337701178">
           <source>Job Structure</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB Attachment Document Type - EnumValue Job Structure - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB Attachment Document Type - EnumValue M365 Job Structure - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 2819112643 - EnumValue 495001976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 337701178">
+        <trans-unit id="EnumExtension 2819112643 - EnumValue 3790414227 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 337701178">
           <source>Job Structure Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB Attachment Document Type - EnumValue Job Structure Line - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB Attachment Document Type - EnumValue M365 Job Structure Line - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 4120894345 - EnumValue 981246535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 217418544">
+        <trans-unit id="EnumExtension 4120894345 - EnumValue 3660888260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 217418544">
           <source>Project Code = Job No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB JobStruct. Cost Object - EnumValue Project Code = Job No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB JobStruct. Cost Object - EnumValue M365 Project Code = Job No. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 4120894345 - EnumValue 3000301148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 217418544">
+        <trans-unit id="EnumExtension 4120894345 - EnumValue 151627647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 217418544">
           <source>Project Code = Job No. + Index</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB JobStruct. Cost Object - EnumValue Project Code = Job No. + Index - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension M365 MEB JobStruct. Cost Object - EnumValue M365 Project Code = Job No. + Index - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 1030296054 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MEB Permission Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet M365-MEB - Property Caption</note>
         </trans-unit>
       </group>
     </body>
