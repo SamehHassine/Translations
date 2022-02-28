@@ -248,20 +248,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Authorization Tenant - Field Token Endpoint - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4267971023 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Configuration Data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Configuration Data - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Entity Link</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Method 511434699 - NamedType 2538070731" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unique Links only allow one link to another Entity in %1 (System ID: %2).</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Existing Record Identifier; %2 = New System Id</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Method CheckForDuplicateUniqueLink - NamedType uniqueLinksOnlyAllowOneLinkToAnotherEntityInXSystemIdYErr</note>
+        <trans-unit id="Table 1071073578 - Method 574424193 - NamedType 2231451690" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 functionality has been moved to M365 Base. Do not use!</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table Identifier</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Method ObsoleteTable - NamedType xFunctionalityHasBeenMovedToBaseDoNotUseErr</note>
         </trans-unit>
         <trans-unit id="Table 1071073578 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
@@ -269,7 +259,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1071073578 - Field 2263966853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Link Table ID</source>
+          <source>Link Table Id</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Link Table Id - Property Caption</note>
         </trans-unit>
@@ -284,12 +274,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Primary - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1071073578 - Field 2007641260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>System ID</source>
+          <source>System Id</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field System Id - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1071073578 - Field 2066789741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table ID</source>
+          <source>Table Id</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Table Id - Property Caption</note>
         </trans-unit>
@@ -438,70 +428,70 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Temporary Stream - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1516392556 - NamedType 228478701" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1516392556 - Method 301744323 - NamedType 3928866573" size-unit="char" translate="yes" xml:space="preserve">
           <source>Cannot find requested Configuration Package %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Config. Package Code</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - NamedType CannotFindRequestedConfigurationPackageXErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1516392556 - NamedType 2455124700" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import Setup Package...</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - NamedType ImportSetupPackageTitleTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1516392556 - NamedType 2743536236" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The App %1, %2 cannot be upgraded to Version %3.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = App Name; %2 = App Publisher; %3 = App Version</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - NamedType TheAppXYIsCannotBeUpgradesToVersionZErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1516392556 - NamedType 3696401943" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The %1 %2 for %3 could not be found. Please contact the publisher %4 to get an updated setup package if necessary or import an existing Configuration Package manually.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Configuration Data Table Identifier; %2 = Configuration Data Code; %3 = App Name; %4 = App Publisher</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - NamedType TheXYForZCouldNotBeFoundPleaseContactThePublisherAMsg</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1516392556 - NamedType 3094049176" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You have already completed the Assisted Setup for %1. Do you want to run it again?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = App Name</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - NamedType YouHaveAlreadyCompletedTheAssistedSetupQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method BuildPackageCode - NamedType cannotFindRequestedConfigurationPackageXErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1516392556 - Method 1207513016 - NamedType 4093886363" size-unit="char" translate="yes" xml:space="preserve">
           <source>No Application Prefix has been set for App %1 (ID: %2).</source>
           <note from="Developer" annotates="general" priority="2">%1 = App Name; %2 = App Id</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method BuildUpgradeTag - NamedType noApplicationPrefixHasBeenSetForAppXYErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1516392556 - Method 2707662630 - NamedType 1930591820" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The App %1, %2 cannot be upgraded to Version %3.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = App Name; %2 = App Publisher; %3 = App Version</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method CheckUpgradeMinimumVersion - NamedType theAppXYIsCannotBeUpgradesToVersionZErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1516392556 - Method 825316825 - NamedType 135903268" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set up %1 from %2</source>
           <note from="Developer" annotates="general" priority="2">%1 = App Name; %2 = Publisher</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method GetSetupAppName - NamedType setUpXFromYTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2513007583 - NamedType 1885927251" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Existing %1 will be deleted. Proceed?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Field Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - NamedType ExistingXWillBeDeletedQst</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2513007583 - NamedType 3437385054" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Export file...</source>
+        <trans-unit id="Codeunit 1516392556 - Method 2078049062 - NamedType 3391089340" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Setup Package...</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - NamedType ExportFileTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method ImportLocalConfigurationPackage - NamedType importSetupPackageTitleTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2513007583 - NamedType 2442496597" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Import file...</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - NamedType ImportFileTxt</note>
+        <trans-unit id="Codeunit 1516392556 - Method 2940051517 - NamedType 123183160" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You have already completed the Assisted Setup for %1. Do you want to run it again?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = App Name</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method ReRunOfCompletedAssistedSetup - NamedType youHaveAlreadyCompletedTheAssistedSetupQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2513007583 - NamedType 338867989" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1516392556 - Method 216511158 - NamedType 3141924407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 for %3 could not be found. Please contact the publisher %4 to get an updated setup package if necessary or import an existing Configuration Package manually.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Configuration Data Table Identifier; %2 = Configuration Data Code; %3 = App Name; %4 = App Publisher</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 App Setup Management - Method RunWizard - NamedType theXYForZCouldNotBeFoundPleaseContactThePublisherAMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2513007583 - Method 2271586694 - NamedType 1601296245" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archive file (*.zip)|*.zip</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - NamedType ZipFileDescriptionTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - Method ArchiveFilter - NamedType zipFileDescriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3045605213 - NamedType 650004133" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The path %1 is invalid.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = File Path</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Common Management - NamedType PathXIsInvalidErr</note>
+        <trans-unit id="Codeunit 2513007583 - Method 3088931430 - NamedType 4119135027" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Existing %1 will be deleted. Proceed?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Identifier</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - Method ConfirmOverwriteBlob - NamedType existingXWillBeDeletedQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3045605213 - NamedType 3750647286" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2513007583 - Method 427195836 - NamedType 113335285" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import file...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - Method EnrichDialogTitleAndFilter - NamedType importFileTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2513007583 - Method 427195836 - NamedType 403752958" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export file...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Blob Management - Method EnrichDialogTitleAndFilter - NamedType exportFileTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3045605213 - Method 2953249625 - NamedType 3093138454" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 contains illegal characters.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Text or phrase</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Common Management - NamedType XContainsIllegalCharactersErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Common Management - Method ContainsIllegalCharacters - NamedType xContainsIllegalCharactersErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3045605213 - Method 843669772 - NamedType 2279875141" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The path %1 is invalid.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = File Path</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Common Management - Method IsPathRooted - NamedType pathXIsInvalidErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3045605213 - Method 3177373137 - NamedType 1036033566" size-unit="char" translate="yes" xml:space="preserve">
           <source>For %1 to work, MODUS M365 OnPrem Foundation must be installed.</source>
@@ -513,15 +503,15 @@
           <note from="Developer" annotates="general" priority="2">%1 = Credential Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Credential Storage - NamedType CredentialXCouldNotBeFoundInTheStorageErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2777046209 - NamedType 2241140295" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Credential Store is empty. Would you like to add a new Credential?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Credential Storage - NamedType TheCredentialStoreIsEmptyWouldYouLikeToAddANewCredentialQst</note>
-        </trans-unit>
         <trans-unit id="Codeunit 2777046209 - Method 2654324295 - NamedType 1764709117" size-unit="char" translate="yes" xml:space="preserve">
           <source>Existing %1 have been removed from %2 in Company %3 and must be re-entered for the authorization process to work.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Field Identifier; %2 = Table Identifier; %3 = Company Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Credential Storage - Method ClearClientSecrets - NamedType existingXHaveBeenRemovedFromYInCompanyZMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2777046209 - Method 783307698 - NamedType 833640615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Credential Store is empty. Would you like to add a new Credential?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Credential Storage - Method LookupCredentialName - NamedType theCredentialStoreIsEmptyWouldYouLikeToAddANewCredentialQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 377934790 - NamedType 3827927491" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1, %2 (%3)</source>
@@ -578,55 +568,60 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Entitlement Mgt. Impl. - NamedType YourLicenseIsOutsideOfTheLimitedLicensePeriodAndDoesNotFunctionAnymoreErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3448623343 - NamedType 99871734" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You need at least 2 path parts to use this function. You have specified %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Json Path</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Dictionary - NamedType YouNeedAtLeast2PathPartsToUseThisFunctionYouHaveSpecifiedXErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3908720805 - NamedType 1042814332" size-unit="char" translate="yes" xml:space="preserve">
-          <source>JsonObject does not contain %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Key Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Helper - NamedType JsonObjectDoesNotContainXErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3908720805 - NamedType 3600468223" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Not all fields could be matched into %1. Remaining: %2</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Record Identifier; %2 = Key Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Helper - NamedType NotAllFieldsCouldBeMatchedIntoXRemainingYErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 2030207806 - NamedType 180380182" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All files (*.*)|*.*</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Media Management - NamedType AllFilesDescriptionTxt</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1457610605 - NamedType 2585633053" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Composing of a Record ID requires to start with a Table ID. The provided initial value was %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = First passed Value to ComposeRecordId()</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - NamedType ComposingOfRecordIdRequiresToStartWithTableIdValueWasXErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1457610605 - NamedType 740891869" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Field References do not refer to the same Table Instance (Record %1: Field %2, Record %3: Field %4).</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Record Identifier 1; %2 = Field Identifier 1; %3 = Record Identifier 2; %4 = Field Identifier 2</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - NamedType FieldReferencesDoNotReferToSameTableInstanceXYZAErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1457610605 - NamedType 3165674955" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Field Reference Types are not equal (%1, %2).</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Field Reference Type 1; %2 = Field Reference Type 2</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - NamedType FieldReferenceTypesAreNotEqualXYErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1457610605 - NamedType 1168356320" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Field %1 must be Numeric.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Field Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - NamedType FieldXMustBeNumericErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1457610605 - NamedType 16281015" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Relation for %1, field %2 could not be determined.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Table Identifier; %2 = Field Title</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - NamedType TheRelationForXFieldYCouldNotBeDetermindErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1457610605 - NamedType 990179121" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3448623343 - Method 1150594224 - NamedType 1149854929" size-unit="char" translate="yes" xml:space="preserve">
           <source>&lt;Uninitialized&gt;</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - NamedType UninitializedTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Dictionary - Method Dump - NamedType uninitializedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3448623343 - Method 3412390243 - NamedType 516343702" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You need at least 2 path parts to use this function. You have specified %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Json Path</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Dictionary - Method NavigateToPath - NamedType youNeedAtLeast2PathPartsToUseThisFunctionYouHaveSpecifiedXErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3908720805 - Method 816029031 - NamedType 777691100" size-unit="char" translate="yes" xml:space="preserve">
+          <source>JsonObject does not contain %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Key Identifier</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Helper - Method GetJsonToken - NamedType jsonObjectDoesNotContainXErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3908720805 - Method 3586542537 - NamedType 703362783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not all fields could be matched into %1. Remaining: %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Record Identifier; %2 = Key Value</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Helper - Method MapObjectToRecord - NamedType notAllFieldsCouldBeMatchedIntoXRemainingYErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2030207806 - Method 4198150208 - NamedType 284030774" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All files (*.*)|*.*</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Media Management - Method AllFilesFilter - NamedType allFilesDescriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1457610605 - Method 1554581396 - NamedType 561265789" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Composing of a Record ID requires to start with a Table ID. The provided initial value was %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = First passed Value to ComposeRecordId()</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method ComposeRecordId - NamedType composingOfRecordIdRequiresToStartWithTableIdValueWasXErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1457610605 - Method 1022007664 - NamedType 1561576253" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field References do not refer to the same Table Instance (Record %1: Field %2, Record %3: Field %4).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Record Identifier 1; %2 = Field Identifier 1; %3 = Record Identifier 2; %4 = Field Identifier 2</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method FieldReferencesReferToSameInstance - NamedType fieldReferencesDoNotReferToSameTableInstanceXYZAErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1457610605 - Method 3713835508 - NamedType 2523491691" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field Reference Types are not equal (%1, %2).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Reference Type 1; %2 = Field Reference Type 2</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method FieldReferenceTypesAreEqual - NamedType fieldReferenceTypesAreNotEqualXYErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1457610605 - Method 1981194917 - NamedType 1149854929" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Uninitialized&gt;</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method FormatRecordId - NamedType uninitializedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1457610605 - Method 2919223090 - NamedType 101852631" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Relation for %1, field %2 could not be determined.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Table Identifier; %2 = Field Title</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method GetRelationTable - NamedType theRelationForXFieldYCouldNotBeDetermindErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1457610605 - Method 4088056429 - NamedType 1241969792" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Field %1 must be Numeric.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Field Identifier</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method IsNumericField - NamedType fieldXMustBeNumericErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1457610605 - Method 2976164530 - NamedType 2400395762" size-unit="char" translate="yes" xml:space="preserve">
           <source>No,Yes</source>
@@ -638,55 +633,55 @@
           <note from="Developer" annotates="general" priority="2">%1 = Number of key fields; %2 = Record Identifier</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Record Management - Method RenameRecordReference - NamedType unsupportedNumberOfKeyFieldsXInRenameRecordReferenceForYErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1942084434 - NamedType 682416585" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Authentication %1 is not supported over an insecure connection.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Authentication Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - NamedType AuthenticationXIsNotSupportedOverAnUnsecureConnectionErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1942084434 - NamedType 1396263935" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Rest Management must be initialized before using %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Procedure Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - NamedType RestManagementMustBeInitializedBeforeUsingXErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 1942084434 - NamedType 2847494089" size-unit="char" translate="yes" xml:space="preserve">
           <source>REST Windows Authentication</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - NamedType RestWindowsAuthenticationTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1942084434 - NamedType 4067051694" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1942084434 - Method 688950263 - NamedType 1066124255" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rest Management must be initialized before using %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Procedure Identifier</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - Method CheckIfInitialized - NamedType restManagementMustBeInitializedBeforeUsingXErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1942084434 - Method 947032591 - NamedType 177703913" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Authentication %1 is not supported over an insecure connection.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Authentication Identifier</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - Method EnsureSecureAuthentication - NamedType authenticationXIsNotSupportedOverAnUnsecureConnectionErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1942084434 - Method 4174539456 - NamedType 325819790" size-unit="char" translate="yes" xml:space="preserve">
           <source>The call to web service %1 failed: %2</source>
           <note from="Developer" annotates="general" priority="2">%1 = Desitination Identifier; %2 = Error Message</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - NamedType TheCallToWebServiceXFailedYErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - Method Send - NamedType theCallToWebServiceXFailedYErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1942084434 - NamedType 3004302599" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 1942084434 - Method 4174539456 - NamedType 418181799" size-unit="char" translate="yes" xml:space="preserve">
           <source>The web service %1 returned an error message: Status Code: %2, Description: %3</source>
           <note from="Developer" annotates="general" priority="2">%1 = Destination Identifier; %2 = HTTP Status Code; %3 = Status Description</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - NamedType TheWebServiceXReturnedAnErrorMessageYZErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Rest Management - Method Send - NamedType theWebServiceXReturnedAnErrorMessageYZErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3631986561 - NamedType 633307968" size-unit="char" translate="yes" xml:space="preserve">
           <source>Requested Storage Key %1 not found in function %2.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Storage Key; %2 = Procedure Name</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Value Storage - NamedType RequestedStorageKeyXNotFoundInFunctionYErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3631986561 - NamedType 2822134945" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3631986561 - Method 2371516914 - NamedType 648629825" size-unit="char" translate="yes" xml:space="preserve">
           <source>Storage Value %1 has already been assigned (Old Value: %2, New Value: %3).</source>
           <note from="Developer" annotates="general" priority="2">%1 = Storage Key; %2 = Old Value; %3 = New Value</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Value Storage - NamedType StorageValueXHasAlreadyBeenAssignedOldValueYNewValueZErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Value Storage - Method InternalSetValue - NamedType storageValueXHasAlreadyBeenAssignedOldValueYNewValueZErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 35610146 - NamedType 180380182" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 35610146 - Method 4198150208 - NamedType 284030774" size-unit="char" translate="yes" xml:space="preserve">
           <source>All files (*.*)|*.*</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 XmlPort Management - NamedType AllFilesDescriptionTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 XmlPort Management - Method AllFilesFilter - NamedType allFilesDescriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 35610146 - NamedType 2765274524" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 35610146 - Method 2967477580 - NamedType 1007805575" size-unit="char" translate="yes" xml:space="preserve">
           <source>Text file (*.txt;*.csv)|*.txt;*.csv</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 XmlPort Management - NamedType TxtFileDescriptionTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 XmlPort Management - Method XmlPortTxtFilter - NamedType textFileDescriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 35610146 - NamedType 881520763" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 35610146 - Method 1633481307 - NamedType 2050404315" size-unit="char" translate="yes" xml:space="preserve">
           <source>XML file (*.xml)|*.xml</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 XmlPort Management - NamedType XmlFileDescriptionTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 XmlPort Management - Method XmlPortXmlFilter - NamedType xmlFileDescriptionTxt</note>
         </trans-unit>
         <trans-unit id="Page 3136701805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Application Commands</source>
@@ -1642,16 +1637,6 @@
           <source>Cache or Authority</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Authorization Origin - EnumValue CacheOrAuthority - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 2680761210 - EnumValue 51463044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Multiple</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Entity Link Type - EnumValue Multiple - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 2680761210 - EnumValue 3958331253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Unique</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Entity Link Type - EnumValue Unique - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2007149855 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error</source>
