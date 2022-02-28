@@ -43,6 +43,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Base Setup - Field Generate Autom. Cost Object - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 412677047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Item Variant Description for References</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Base Setup - Field Get Item Variant Descr for Ref - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2948439809 - Field 1062583496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note for multiple Ship Addr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Base Setup - Field Note for multiple Ship Addr. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2948439809 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Primary Key</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1133,25 +1143,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 760407550 - NamedType 2180242556" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 760407550 - Method 3336137532 - NamedType 651083612" size-unit="char" translate="yes" xml:space="preserve">
           <source>Found a circular reference: %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = circularTableNames</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - NamedType FoundACircularReferenceXErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - Method HasCircularReference - NamedType foundACircularReferenceXErr</note>
         </trans-unit>
-        <trans-unit id="Table 760407550 - NamedType 457398618" size-unit="char" translate="yes" xml:space="preserve">
-          <source>must be different from %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = FieldCaption(Table)</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - NamedType MustBeDifferentFromXErr</note>
-        </trans-unit>
-        <trans-unit id="Table 760407550 - NamedType 2793470839" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 760407550 - Method 1874569285 - NamedType 2877369527" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 %2 is used as Relation and cannot be deleted.</source>
           <note from="Developer" annotates="general" priority="2">%1 = FieldCaption(Table), %2 = Table</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - NamedType XYIsUsedAsRelationAndCannotBeDeletedErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - Method IsTableUsed - NamedType xyIsUsedAsRelationAndCannotBeDeletedErr</note>
         </trans-unit>
-        <trans-unit id="Table 760407550 - NamedType 2158856529" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 %2 not found. Should it be created?</source>
+        <trans-unit id="Table 760407550 - Method 529884770 - NamedType 1050482874" size-unit="char" translate="yes" xml:space="preserve">
+          <source>must be different from %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = FieldCaption(Table)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - Method ValidateRelationTable - NamedType mustBeDifferentFromXErr</note>
+        </trans-unit>
+        <trans-unit id="Table 760407550 - Method 529884770 - NamedType 1475778914" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An entry for %1 %2 could not found. Should it be created?</source>
           <note from="Developer" annotates="general" priority="2">%1 = indicatorTable.FieldCaption(Table), %2 = "Relation Table"</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - NamedType XYNotFoundShouldItBeCreatedQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Indicator Table - Method ValidateRelationTable - NamedType anEntryForXYCouldNotFoundShouldItBeCreatedQst</note>
         </trans-unit>
         <trans-unit id="Table 760407550 - Field 3779449648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Indicator Code</source>
@@ -1618,15 +1628,15 @@
           <note from="Developer" annotates="general" priority="2">%1 = StrSubstNo(DimCodeLbl, salesHeader."No."), %2 = StrSubstNo(DimLastLbl, salesHeader."No.")</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Autom. Cost Object Mgt. - NamedType DimTotalingLbl</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3600583934 - Method 4210113768 - NamedType 2047573738" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3600583934 - Method 2661486968 - NamedType 2047573738" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup the MODUS Base extension</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 BAS Setup - Method OnM365AppSetupManagementOnRegisterManualSetup - NamedType descriptionTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 BAS Setup - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType descriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3600583934 - Method 4210113768 - NamedType 716329142" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3600583934 - Method 2661486968 - NamedType 716329142" size-unit="char" translate="yes" xml:space="preserve">
           <source>Position No., Statistics, Production Output, Checklists, Batch Quotes</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 BAS Setup - Method OnM365AppSetupManagementOnRegisterManualSetup - NamedType keywordsTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 BAS Setup - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType keywordsTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2848876749 - NamedType 3041396054" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are existing documents. Do you want to create these documents again?</source>
@@ -1797,6 +1807,16 @@
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Base Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 929871471 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether the item variant description and translation should be found if an item reference with no description is used in sales and purchase lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Base Setup - Control GetItemVariantDescrForRef - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2948439809 - Control 3900405974 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a note should be displayed for multiple shipping addresses.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Base Setup - Control NoteForMultipleShipAddr - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2948439809 - Control 2773143106 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether for multilevel production orders the end date should be updated for all levels when the end date is changed.</source>
@@ -2898,6 +2918,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Control OpenMandEnterServQuoteRelease - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1033761563 - Action 3883212549 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Documents where this Checklist is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Action NavigateCheckList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Action 3883212549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Action NavigateCheckList - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1033761563 - Action 3783046578 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inserts lines of another template into this checklist.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3062,6 +3092,16 @@
           <source>Specifies the no.series which is used for checklists.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Control NoSeries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1583083781 - Action 3883212549 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Documents where this Checklist is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Action NavigateCheckList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1583083781 - Action 3883212549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Action NavigateCheckList - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1583083781 - Action 66898572 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Checks for orphaned checklists and deletes them if not linked in any record.</source>
@@ -4338,6 +4378,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Production Order List - Control M365SalesOrderNo - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2009702854 - Control 1898865511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2286131593">
+          <source>Specifies the sell-to customer name of the related sales order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Production Order List - Control M365SalesOrderSelltoCustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2009702854 - Control 2210451541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2286131593">
+          <source>Specifies the sell-to customer no. of the related sales order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Production Order List - Control M365SalesOrderSelltoCustomerNo - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2992149165 - Action 3496314516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3195034673">
           <source>Extended Data (M365)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4524,7 +4574,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchaseOrderSubform - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 849695750 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 526152577">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchaseOrderSubform - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -4544,7 +4594,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchCrMemoSub - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 129465586 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchCrMemoSub - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -4594,7 +4644,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchInvoiceSubform - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 273180326 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchInvoiceSubform - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -4714,7 +4764,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchQuoteSub - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1624550017 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 997943925">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS PurchQuoteSub - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -4809,7 +4859,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesCrMemoSub - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3216435526 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesCrMemoSub - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -4817,6 +4867,11 @@
           <source>Specifies the sales price of price unit.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesCrMemoSub - Control M365 Price Unit Sales Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3216435526 - Control 3905189469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1056066689">
+          <source>Shows the Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesCrMemoSub - Control M365DefaultPrice - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1195525490 - Action 3496314516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
           <source>Extended Data (M365)</source>
@@ -4924,7 +4979,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesOrderSubform - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3157124563 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesOrderSubform - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -5004,7 +5059,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesReturnOrderSub - Control M365Description 2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2867940807 - Control 3162578918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
-          <source>Specifies the price unit code.</source>
+          <source>Specifies the price unit code. If this value is changed, the line amount is calculated with the new factor. The price unit price is not changed automatically.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesReturnOrderSub - Control M365 Price Code Unit of Measure - Property ToolTip</note>
         </trans-unit>
@@ -5012,6 +5067,11 @@
           <source>Specifies the sales price of price unit.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesReturnOrderSub - Control M365 Price Unit Sales Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2867940807 - Control 3905189469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3053760138">
+          <source>Shows the Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS SalesReturnOrderSub - Control M365DefaultPrice - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 3455772766 - Action 3496314516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1511989657">
           <source>Extended Data (M365)</source>
@@ -5162,6 +5222,26 @@
           <source>Specifies the address VAT registration number for address in EU countries/regions.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS ShipToAddressList - Control M365 VAT Registration No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 70527639 - Control 547676304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2043225920">
+          <source>Specifies the line number of the related sales order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Simulated Prod.Orders - Control M365SalesOrderLineNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 70527639 - Control 2427092398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2043225920">
+          <source>Specifies the number of the related sales order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Simulated Prod.Orders - Control M365SalesOrderNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 70527639 - Control 1898865511 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2043225920">
+          <source>Specifies the sell-to customer name of the related sales order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Simulated Prod.Orders - Control M365SalesOrderSelltoCustomerName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 70527639 - Control 2210451541 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2043225920">
+          <source>Specifies the sell-to customer no. of the related sales order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 BAS Simulated Prod.Orders - Control M365SalesOrderSelltoCustomerNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1310182693 - Control 1073676874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2250812146">
           <source>Specifies the term timing device time</source>
@@ -5342,6 +5422,16 @@
           <source>Sales Order No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Production Order - Field M365 Sales Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1929425588 - Field 1920596802 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2308244223">
+          <source>Sell-to Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Production Order - Field M365 Sell-to Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1929425588 - Field 1083063146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2308244223">
+          <source>Sell-to Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Production Order - Field M365 Sell-to Customer No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1929425588 - Field 28750897 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2308244223">
           <source>M365 Variant Code</source>
@@ -5653,6 +5743,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Return Receipt Line - Field M365 Customer Item No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1874378983 - Field 1224233861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1173465396">
+          <source>Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Return Receipt Line - Field M365 Default Price - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1874378983 - Field 3330318283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1173465396">
           <source>GTIN</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5717,6 +5812,11 @@
           <source>Customer Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Cr.Memo Line - Field M365 Customer Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2061890210 - Field 1224233861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Cr.Memo Line - Field M365 Default Price - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2061890210 - Field 3330318283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
           <source>GTIN</source>
@@ -5813,6 +5913,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Invoice Line - Field M365 Customer Item No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2383255046 - Field 1224233861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Invoice Line - Field M365 Default Price - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2383255046 - Field 3330318283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
           <source>GTIN</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5862,6 +5967,11 @@
           <source>Customer Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Line Archive - Field M365 Customer Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1487957891 - Field 1224233861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2903552224">
+          <source>Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Line Archive - Field M365 Default Price - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1487957891 - Field 3330318283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2903552224">
           <source>GTIN</source>
@@ -5943,6 +6053,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Price Worksheet - Field M365 Price Unit Factor - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 692980934 - Field 157321286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Check Combine Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Setup - Field M365 Check Combine Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 692980934 - Field 2827130522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Price Source for Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Setup - Field M365 Default Price Source - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 692980934 - Field 1448227860 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Inquiry Nos.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Setup - Field M365 Inquiry Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 692980934 - Field 422285670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4145206282">
+          <source>Inquiry Response Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Setup - Field M365 Inquiry Response Time - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3461149030 - Field 3100836944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>Check List Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5972,6 +6102,11 @@
           <source>Customer Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Shipment Line - Field M365 Customer Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 379238061 - Field 1224233861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1114148978">
+          <source>Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Shipment Line - Field M365 Default Price - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 379238061 - Field 3330318283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1114148978">
           <source>GTIN</source>
@@ -6013,6 +6148,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS SalesLine - Field M365 Check List Code - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1601314997 - Field 1224233861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Default Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS SalesLine - Field M365 Default Price - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1601314997 - Field 1139700778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
           <source>Price Code Unit of Measure</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6027,11 +6167,6 @@
           <source>Price Unit Sales Price</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS SalesLine - Field M365 Price Unit Sales Price - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 1601314997 - Field 3298063120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
-          <source>Sales Position Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS SalesLine - Field M365 Sales Position Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4030484436 - Field 3100836944 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3117283677">
           <source>Check List Code</source>
@@ -6222,6 +6357,11 @@
           <source>RegEx Match</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Comparision Type - EnumValue RegExMatch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2827130522 - EnumValue 3276313895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item - Sales Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Default Price Source - EnumValue Item - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 3644186883 - EnumValue 2695837343 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Const</source>
