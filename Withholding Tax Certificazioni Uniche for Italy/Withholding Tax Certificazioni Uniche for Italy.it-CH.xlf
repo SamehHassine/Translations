@@ -803,6 +803,26 @@
           <source>Withholding Tax Export (ECU)</source>
           <target>Esportazione ritenuta d'acconto (ECU)</target>
         </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 1746157303 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Non-Income Amount" field.</source>
+          <target>Specifica il valore del campo "Importo non reddituale".</target>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 1746157303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Non-Income Amount</source>
+          <target>Importo non reddituale</target>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 4005526578 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Non-Taxable Income Type" field.</source>
+          <target>Specifica il valore del campo "Tipo di reddito non imponibile".</target>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 4005526578 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Non-Taxable Income Type</source>
+          <target>Tipo di reddito non imponibile</target>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Withholding Non-Taxable Amounts</source>
+          <target>Importi ritenuta non imponibili</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1971852027 - Action 3362253805 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Update Non-Taxable Income Type" action</source>
           <target>Esegue l'azione "Aggiorna tipo di reddito non imponibile"</target>
@@ -821,7 +841,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3380489494 - Control 2474908025 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extend the standard Non-Taxable Income Type</source>
-          <target>Estendere il tipo di reddito non imponibile standard</target>
+          <target>Estende il "Codice Altre somme non soggette a Ritenuta (ECU)"</target>
         </trans-unit>
         <trans-unit id="PageExtension 3380489494 - Control 851494481 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the list of non Income Amounts</source>
@@ -855,6 +875,10 @@
           <source>Update field %1 with new value "%2" for %3 selected record?</source>
           <target>Aggiorna il campo %1 con il nuovo valore "%2" per %3 record selezionato?</target>
         </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Opzioni</target>
+        </trans-unit>
         <trans-unit id="Report 3868230693 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
@@ -867,13 +891,29 @@
           <source>New Non-Taxable Income Type</source>
           <target>Nuovo Tipo di reddito non imponibile</target>
         </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 3429595685 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Update Non-Taxable Income Type for:" field.</source>
+          <target>Specifica il valore del campo "Aggiorna Tipo reddito non imponibile" (Codice Altre somme non soggette a Ritenuta).</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 3429595685 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Non-Taxable Income Type for:</source>
+          <target>Aggiorna "Tipo reddito non imponibile":</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 3429595685 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Witholding Tax, Withholding Tax Amount</source>
+          <target>Ritenute, Importi ritenuta non imponibili</target>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - NamedType 3366217384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed.</source>
+          <target>Operazione completata.</target>
+        </trans-unit>
         <trans-unit id="Report 3868230693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Non-Taxable Income Type (ECU)</source>
           <target>Aggiorna Tipo di reddito non imponibile (ECU)</target>
         </trans-unit>
-        <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 3715240 - NamedType 3366217384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Operation completed.</source>
-          <target>Operazione completata.</target>
+        <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 3715240 - NamedType 3214224415" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There is more than one Non-Taxable Income Amount in one or more Witholding Taxes defined by the filters.  The Non-Taxable Income Types were not updated in these cases.</source>
+          <target>Esiste più di un importo non soggetto a ritenuta per il filtro impostato. Il tipo reddito non imponibile in questo caso non verrà aggiornato</target>
         </trans-unit>
         <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 72583909 - NamedType 3646957145" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update field %1 with new value "%2" for %3 selected record?</source>
@@ -954,6 +994,10 @@
         <trans-unit id="Table 2053444145 - Method 3348174507 - NamedType 1308299696" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Base Excluded Amount does not match with the sum of the Amounts</source>
           <target>L'importo di base escluso non corrisponde alla somma degli Importi</target>
+        </trans-unit>
+        <trans-unit id="Table 2053444145 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Withholding Non-taxable Amounts</source>
+          <target>Importi ritenuta non imponibili</target>
         </trans-unit>
         <trans-unit id="Table 3198030552 - Field 1038659666 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fiscal code</source>
