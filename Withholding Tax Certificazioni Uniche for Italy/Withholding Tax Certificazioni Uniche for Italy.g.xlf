@@ -3,6 +3,11 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="Withholding Tax Certificazioni Uniche for Italy">
     <body>
       <group id="body">
+        <trans-unit id="Table 2053444145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Withholding Non-taxable Amounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Withh. Non-taxable Amounts - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2053444145 - Method 3348174507 - NamedType 1308299696" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Base Excluded Amount does not match with the sum of the Amounts</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -863,6 +868,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withh. Non-taxable Amounts - Control Non-Taxable Income Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4290388107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Withholding Non-Taxable Amounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withh. Tax Card FactBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 1746157303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Non-Income Amount" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withh. Tax Card FactBox - Control Non-Income Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 1746157303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Income Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withh. Tax Card FactBox - Control Non-Income Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 4005526578 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Non-Taxable Income Type" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withh. Tax Card FactBox - Control Non-Taxable Income Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4290388107 - Control 4005526578 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Non-Taxable Income Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Withh. Tax Card FactBox - Control Non-Taxable Income Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2793139844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Withholding Tax Export Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1513,10 +1543,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 3715240 - NamedType 3366217384" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3868230693 - NamedType 3366217384" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operation completed.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - ReportDataItem Withholding Tax - Method OnPostDataItem - NamedType CompletedMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - NamedType CompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 3715240 - NamedType 3214224415" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is more than one Non-Taxable Income Amount in one or more Witholding Taxes defined by the filters.  The Non-Taxable Income Types were not updated in these cases.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - ReportDataItem Withholding Tax - Method OnPostDataItem - NamedType MoreThanOneRecordLbl</note>
         </trans-unit>
         <trans-unit id="Report 3868230693 - ReportDataItem 1984731700 - Method 72583909 - NamedType 3646957145" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update field %1 with new value "%2" for %3 selected record?</source>
@@ -1537,6 +1572,26 @@
           <source>New Non-Taxable Income Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - Control NewNonTaxableIncomeTypeFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 3429595685 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Update Non-Taxable Income Type for:" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - Control WitholdTaxOrWithhodTaxAmountFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 3429595685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Non-Taxable Income Type for:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - Control WitholdTaxOrWithhodTaxAmountFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3868230693 - Control 3429595685 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Witholding Tax, Withholding Tax Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOSUpdateNonTaxableIncomeType - Control WitholdTaxOrWithhodTaxAmountFld - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1971852027 - Action 3362253805 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2780398918">
           <source>Executes the "Update Non-Taxable Income Type" action</source>
