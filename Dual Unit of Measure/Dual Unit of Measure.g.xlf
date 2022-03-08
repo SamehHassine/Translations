@@ -28,6 +28,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS051 Dual UoM Setup - Field Sales Price Rounding Precision - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 719846944 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Quantity per unit of measure must be defined.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Calculation Mgt. - NamedType Text001</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1294361828 - Method 2803885058 - NamedType 2811567805" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculated values on existing lines will not be updated until an involved field is validated. Do you want to continue?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -147,6 +152,36 @@
           <source>You cannot invoice more than you have shipped for order %1.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Order No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Sales Post Mgt. - Method C80_OnBeforeCheckSalesLineInvoiceMoreThanShipped - NamedType InvoiceMoreThanShippedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1435110066 - NamedType 1772493744" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Free Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Subscription - NamedType FreeVersLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1435110066 - NamedType 3269160490" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No subscription for DUM present! - Action not allowed!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Subscription - NamedType NoSubscriptCULbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1435110066 - NamedType 4128705988" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No subscription for DUM present! - this page cannot be edited!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Subscription - NamedType NoSubscriptLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1435110066 - NamedType 1625896033" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No subscription for DUM present! - this report cannot be generated!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Subscription - NamedType NoSubscriptRepLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1435110066 - NamedType 3560163384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set up a subscription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Subscription - NamedType SetUpSubscriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1435110066 - NamedType 4205745040" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Subscribe for an activation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Subscription - NamedType SubscribeActivationTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 467158526 - Method 1710443233 - NamedType 3797758196" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possibile to modify %1 field because %2 is not set.</source>
@@ -277,6 +312,556 @@
           <source>Specifies the rounding precision that will be used when converting sales prices from a unit of measure to the other.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Dual UoM Setup - Control Sales Price Rounding Precision - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Availability by Location (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 2495610112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how amounts are displayed. Net Change: The net change in the balance for the selected period. Balance at Date: The balance as of the last day in the selected period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control AmountType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 2495610112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View as</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control AmountType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 539546824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the dates that will be used to filter the amounts in the window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control DateFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 539546824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control DateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 391651744 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies by which period amounts are displayed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control ItemPeriodLength - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Control 391651744 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Control ItemPeriodLength - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 4247615141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action &amp;Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 1327594867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item Availability by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action &amp;Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 2882465090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View availability figures for items on bills of materials that show how many units of a parent item you can make based on the availability of child items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action BOM Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 3310733264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View how the actual and the projected available balance of an item will develop over time according to supply and demand events.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action Event - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 912261439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the projected quantity of the item over time according to time periods, such as day, week, or month.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 112710097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the item's variants. Instead of setting up each color of an item as a separate item, you can set up the various colors as variants of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action Variant - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 1639220638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the information based on the next period. If you set the View by field to Day, the date filter changes to the day before.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action NextPeriod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 1639220638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action NextPeriod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 477982176 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the information based on the previous period. If you set the View by field to Day, the date filter changes to the day before.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action PreviousPeriod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3077290021 - Action 477982176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Location - Action PreviousPeriod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Availability by Lot No. (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 1553686271 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item for which to show availability.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control ItemFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 1553686271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control ItemFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 3267737623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location that availability is shown for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control LocationFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 3267737623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control LocationFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 3606212952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control Period1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 2495610112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how amounts are displayed. Net Change: The net change in the balance for the selected period. Balance at Date: The balance as of the last day in the selected period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control AmountType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 2495610112 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View as</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control AmountType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 539546824 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the dates that will be used to filter the amounts in the window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control DateFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 539546824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control DateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 43593927 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies by which period amounts are displayed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control PeriodType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 43593927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control PeriodType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 355498089 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the item variant you want to show availability for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control VariantFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Control 355498089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Control VariantFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 4247615141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action &amp;Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 1327594867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item Availability by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action &amp;Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 2882465090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View availability figures for items on bills of materials that show how many units of a parent item you can make based on the availability of child items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action BOM Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 3310733264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View how the actual and the projected available balance of an item will develop over time according to supply and demand events.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Event - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the actual and projected quantity of the item per location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 912261439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the projected quantity of the item over time according to time periods, such as day, week, or month.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 112710097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the item's variants. Instead of setting up each color of an item as a separate item, you can set up the various colors as variants of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Variant - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 1639220638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the information based on the next period. If you set the View by field to Day, the date filter changes to the day before.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action NextPeriod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 1639220638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action NextPeriod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 477982176 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the information based on the previous period. If you set the View by field to Day, the date filter changes to the day before.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action PreviousPeriod - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2442269522 - Action 477982176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail. by Lot No. - Action PreviousPeriod - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 39415292 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a location code for the warehouse or distribution center where your items are handled and stored before being sold.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control LocationCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 39415292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control LocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name or address of the location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 3149534435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the inventory level of an item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 3149534435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inventory (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 1929567966 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the net change in the inventory of the item during the period entered in the Date Filter field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Net Change - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 1929567966 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sec. Net Change</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Net Change - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 1169976723 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the items that are currently in transit.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Qty. in Transit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 1169976723 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sec. Qty. in Transit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Qty. in Transit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 256193592 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many units of the item are inbound on purchase orders, meaning listed on outstanding purchase order lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Qty. on Purch. Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 256193592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sec. Qty. on Purch. Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Qty. on Purch. Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 2768985978 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how many units of the item are allocated to sales orders, meaning listed on outstanding sales orders lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Qty. on Sales Order - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 2768985978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sec. Qty. on Sales Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Sec. Qty. on Sales Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 2865999228 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the items that remain to be received but are not yet shipped. The program calculates this quantity as the difference between the Quantity and the Quantity Shipped fields. It automatically updates the field each time you either update the Quantity or Quantity Shipped field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Trans. Ord. Rcpt. (Sec. Qty.) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 2865999228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trans. Ord. Receipt (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Trans. Ord. Rcpt. (Sec. Qty.) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 4239993448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity of the items that remains to be shipped. The program calculates this quantity as the difference between the Quantity and the Quantity Shipped fields. It automatically updates the field each time you either update the Quantity or Quantity Shipped field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Trans. Ord. Shpt (Sec. Qty.) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2643000631 - Control 4239993448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trans. Ord. Shipment (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Loc.Lines - Control Trans. Ord. Shpt (Sec. Qty.) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 668159658 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the certificate number of the specified lot.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control CertificateNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 668159658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Certificate Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control CertificateNumber - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 3361401265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies expiration date for the specified lot.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control ExpirationDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 3361401265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expiration Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control ExpirationDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 2105307182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the inventory level of an item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control Inventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 2105307182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sec. Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control Inventory - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 3523677570 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a location code for the warehouse or distribution center where your items are handled and stored before being sold.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control LotNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 3523677570 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control LotNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 1483341903 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the test quality of the specified lot.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control Quality - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 614032520 - Control 1483341903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quality</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Item Avail.by Lot Lines - Control Quality - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items by Location Matrix</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 4247615141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action &amp;Item - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 1327594867 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Item Availability by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action &amp;Item Availability by - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 3101858065 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View how the actual and the projected available balance of an item will develop over time according to supply and demand events.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action &lt;Action3&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 3101858065 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action &lt;Action3&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 2882465090 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View availability figures for items on bills of materials that show how many units of a parent item you can make based on the availability of child items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action BOM Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 2882465090 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action BOM Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 3891454143 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the actual and projected quantity of the item per location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action Location - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 3891454143 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 912261439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show the projected quantity of the item over time according to time periods, such as day, week, or month.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 112710097 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the item's variants. Instead of setting up each color of an item as a separate item, you can set up the various colors as variants of the item.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action Variant - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 771013311 - Action 112710097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Loc. Matrix - Action Variant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items by Location (Sec. Qty)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - NamedType 2319794283" size-unit="char" translate="yes" xml:space="preserve">
+          <source>UNSPECIFIED</source>
+          <note from="Developer" annotates="general" priority="2">Code for unspecified location</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - NamedType UnspecifiedLocationCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2256364535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the range of values that are displayed in the matrix window, for example, the total period. To change the contents of the field, choose Next Set or Previous Set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control MATRIX_CaptionRange - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2256364535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Column Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control MATRIX_CaptionRange - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2216507070 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that the names of columns are shown in the matrix window.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control ShowColumnName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2216507070 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Column Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control ShowColumnName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2178760581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the items in transit between locations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control ShowInTransit - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Control 2178760581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Items in Transit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Control ShowInTransit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Action 1734268175 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to the next set of data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Action Next Set - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Action 1734268175 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Action Next Set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Action 3697385181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Go to the previous set of data.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Action Previous Set - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 603455351 - Action 3697385181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Set</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Action Previous Set - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3901495163 - Control 435205998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
           <source>Specifies the value of the "Price UoM Code" field. This UoM code wull be used to query price lists.</source>
@@ -1128,6 +1713,46 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624475 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 3601770180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>By Secondary Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSAvailBySecQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 1697800448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>View the actual and projected quantity of the item per location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSAvailByLocation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 1697800448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Avail. by Location (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSAvailByLocation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 2462422690 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>View the current and projected quantity of the item in each lot.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSAvailByLot - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 2462422690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Avail. by Lot (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSAvailByLot - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 1900091344 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Show a list of items grouped by location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSSecItemsByLocation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Action 1900091344 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Items by Location (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Action EOSSecItemsByLocation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 181034193 - Control 2030280550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
+          <source>Specifies the Quantity Calc. Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Control EOS051 Quantity Calc. Method - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 181034193 - Control 3594858348 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Specifies the value of the "Sec. Quantity Calc. Method" field. "No Default": no automatic conversion will be applied; "Default": Sec. quantity will be automatically calculated when Quantity is modified only if it has no value. And viceversa; "Fixed": Quantity and Sec. Quantity will be always recalculated when one of them change.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1147,6 +1772,41 @@
           <source>Specifies the value of the "Purchase Price Calc. Method" field. "Line UoM": standard behaviuor, price lists are queried by UoM code; "Sec. UoM": price lists are queried by Sec. UoM code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624430 - Control EOS051 Purch. Pr. Calc. Method - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 3601770180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>By Secondary Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSAvailBySecQty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 1697800448 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>View the actual and projected quantity of the item per location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSAvailByLocation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 1697800448 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Avail. by Location (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSAvailByLocation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 2462422690 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>View the current and projected quantity of the item in each lot.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSAvailByLot - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 2462422690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Avail. by Lot (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSAvailByLot - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 1900091344 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Show a list of items grouped by location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSSecItemsByLocation - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 818730810 - Action 1900091344 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
+          <source>Items by Location (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624431 - Action EOSSecItemsByLocation - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 818730810 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4178721393">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
@@ -1347,6 +2007,11 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624472 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 573587718 - Control 1796304545 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2821932955">
+          <source>Specifies the value of the Reverse Qty. per Unit of Measure field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624479 - Control EOS051 Reverse Qty. per Unit of Measure - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1844391515 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225830225">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
