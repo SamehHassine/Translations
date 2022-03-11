@@ -1583,6 +1583,10 @@
           <source>Specifies the type of operation.</source>
           <target>Specifica il tipo di operazione.</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1947107075 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Processed Quantity field.</source>
+          <target>Specifica il valore del campo quantità prodotta.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 204752539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Routing Unit Cost.</source>
           <target>Specifica il costo unitario</target>
@@ -1678,6 +1682,10 @@
         <trans-unit id="Page 2748615199 - Control 3930431329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item lot size.</source>
           <target>Specifica la dimensione lotto articolo.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3942194131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Operation Output Quantity field.</source>
+          <target>Specifica il valore del campo Quantità output operazione.</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 4065966391 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the work center to assign this machine center to.</source>
@@ -2508,8 +2516,8 @@
           <target>Specifica una descrizione per il setup costi articoli</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3618579379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how to evaluate consumption, if the flag is active that the consumption of production orders are evaluated by competence (in the same period of recording the output), while in the opposite case they are evaluated by registration date.</source>
-          <target>Specifica se il flag è attivo che i consumi degli ordini di produzione vengono valutati per competenza (nello stesso periodo di registrazione dell’Output), mentre nel caso opposto vengono valutati per data di registrazione.</target>
+          <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
+          <target>Se un OdP è stato prodotto parzialmente (Quantità finita &lt; Quantità) il sistema calcola i consumi dei materiali ed i tempi da costificare come rapporto tra le 2 quantità. Se invece l'OdP è stato completamento prodotto (Quantità finita &gt;= Quantità), indipendentemente dallo Stato dell'OdP stesso, il sistema costifica solo i materiali ed tempi effettivi registrati (non effettua alcun ricalcolo). Questa logica determina anche il calcolo degli Importi consuntivi e dei Costi unitari consuntivi presenti nello Storico cicli.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3653967604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the same setup for WAC calculation. To be enable in case of multiple item costing setup.</source>
@@ -4830,10 +4838,6 @@
         <trans-unit id="Report 2281176656 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
           <target>Pagina</target>
-        </trans-unit>
-        <trans-unit id="Report 2281176656 - NamedType 2544294627" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reprocessed</source>
-          <target>Riprodotta</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3482827127" translate="yes" size-unit="char" xml:space="preserve">
           <source>not inv.</source>
@@ -7478,6 +7482,10 @@
         <trans-unit id="Table 2459082793 - Field 3930431329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Lot Size</source>
           <target>Dim. lotto articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 2459082793 - Field 3942194131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Output Quantity</source>
+          <target>Quantità di output dell'operazione</target>
         </trans-unit>
         <trans-unit id="Table 2459082793 - Field 4065966391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center No.</source>
