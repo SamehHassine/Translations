@@ -1563,6 +1563,10 @@
           <source>Specifies the type of operation.</source>
           <target>Angiver operationstypen.</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1947107075 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Processed Quantity field.</source>
+          <target>Angiver værdien af feltet Bearbejdet mængde.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 204752539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Routing Unit Cost.</source>
           <target>Specificerer routingsenhedsomkostningerne.</target>
@@ -1658,6 +1662,10 @@
         <trans-unit id="Page 2748615199 - Control 3930431329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item lot size.</source>
           <target>Specificerer varens partistørrelse.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3942194131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Operation Output Quantity field.</source>
+          <target>Angiver værdien af feltet Operation Output Quantity.</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 4065966391 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the work center to assign this machine center to.</source>
@@ -2488,8 +2496,8 @@
           <target>Angiver en beskrivelse af vareberegningsopsætningen</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3618579379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how to evaluate consumption, if the flag is active that the consumption of production orders are evaluated by competence (in the same period of recording the output), while in the opposite case they are evaluated by registration date.</source>
-          <target>Angiver, hvordan forbruget skal evalueres, hvis flaget er aktivt, at forbruget af produktionsordrer evalueres efter kompetence (i samme periode til registrering af afgangen), mens de i det modsatte tilfælde evalueres efter registreringsdato.</target>
+          <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
+          <target>Hvis en PO er delvist produceret (færdig mængde &lt;Mængde) beregner systemet forbruget af materialer og de tider, der skal beregnes som et forhold mellem de 2 mængder. Hvis PO'en derimod er færdigproduceret (Færdig mængde&gt; = Antal), uanset status på selve PO'en, koster systemet kun de materialer og faktisk registrerede tider (det foretager ingen genberegning). Denne logik bestemmer også beregningen af ​​de endelige beløb og de endelige enhedsomkostninger, der er til stede i cyklushistorien.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3653967604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the same setup for WAC calculation. To be enable in case of multiple item costing setup.</source>
@@ -7454,6 +7462,10 @@
         <trans-unit id="Table 2459082793 - Field 3930431329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Lot Size</source>
           <target>Varepartistørrelse</target>
+        </trans-unit>
+        <trans-unit id="Table 2459082793 - Field 3942194131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Output Quantity</source>
+          <target>Operation Udgangsmængde</target>
         </trans-unit>
         <trans-unit id="Table 2459082793 - Field 4065966391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center No.</source>

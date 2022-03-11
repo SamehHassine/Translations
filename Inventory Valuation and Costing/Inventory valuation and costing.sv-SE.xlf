@@ -1563,6 +1563,10 @@
           <source>Specifies the type of operation.</source>
           <target>Anger typ av åtgärd.</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1947107075 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Processed Quantity field.</source>
+          <target>Anger värdet för fältet Bearbetad kvantitet.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 204752539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Routing Unit Cost.</source>
           <target>Anger kostnaden för routningsenhet.</target>
@@ -1658,6 +1662,10 @@
         <trans-unit id="Page 2748615199 - Control 3930431329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item lot size.</source>
           <target>Anger partiets storlek.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3942194131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Operation Output Quantity field.</source>
+          <target>Anger värdet för fältet Operation Output Quantity.</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 4065966391 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the work center to assign this machine center to.</source>
@@ -2488,8 +2496,8 @@
           <target>Anger en beskrivning av artikelkostnadsinställningarna</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3618579379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how to evaluate consumption, if the flag is active that the consumption of production orders are evaluated by competence (in the same period of recording the output), while in the opposite case they are evaluated by registration date.</source>
-          <target>Anger hur förbrukningen ska utvärderas om flaggan är aktiv om att förbrukningen av produktionsorder utvärderas efter kompetens (i samma period som utdatabokföringen registrerars), medan de i motsatt fall utvärderas efter registreringsdatum.</target>
+          <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
+          <target>Om en PO har producerats delvis (Färdig kvantitet &lt;Antal) beräknar systemet materialförbrukningen och de tider som ska kostnadsberäknas som ett förhållande mellan de 2 kvantiteterna. Om däremot inköpsordern har producerats färdigt (Färdig kvantitet&gt; = Kvantitet), oavsett status för själva inköpsordern, kostar systemet endast de material och faktiska tider som registrerats (det gör ingen omräkning). Denna logik bestämmer också beräkningen av de slutliga beloppen och de slutliga enhetskostnaderna som finns i cykelhistoriken.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3653967604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the same setup for WAC calculation. To be enable in case of multiple item costing setup.</source>
@@ -7470,6 +7478,10 @@
         <trans-unit id="Table 2459082793 - Field 3930431329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Lot Size</source>
           <target>Objektets storlek</target>
+        </trans-unit>
+        <trans-unit id="Table 2459082793 - Field 3942194131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Output Quantity</source>
+          <target>Operation Output Quantity</target>
         </trans-unit>
         <trans-unit id="Table 2459082793 - Field 4065966391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center No.</source>
