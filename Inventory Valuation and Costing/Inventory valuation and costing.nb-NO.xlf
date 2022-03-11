@@ -1563,6 +1563,10 @@
           <source>Specifies the type of operation.</source>
           <target>Angir type operasjon.</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1947107075 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Processed Quantity field.</source>
+          <target>Angir verdien til feltet Behandlet antall.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 204752539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Routing Unit Cost.</source>
           <target>Spesifiserer rutingskostnad.</target>
@@ -1658,6 +1662,10 @@
         <trans-unit id="Page 2748615199 - Control 3930431329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item lot size.</source>
           <target>Spesifiserer varestørrelsen på varen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3942194131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Operation Output Quantity field.</source>
+          <target>Spesifiserer verdien for feltet Operation Output Quantity.</target>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 4065966391 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the work center to assign this machine center to.</source>
@@ -2488,8 +2496,8 @@
           <target>Angir en beskrivelse av varekostoppsettet</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3618579379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how to evaluate consumption, if the flag is active that the consumption of production orders are evaluated by competence (in the same period of recording the output), while in the opposite case they are evaluated by registration date.</source>
-          <target>Angir hvordan forbruk skal evalueres hvis flagget er aktivt, at forbruket av produksjonsordrer evalueres etter kompetanse (i samme periode som avgangen registreres), mens de i motsatt tilfelle evalueres etter registreringsdato.</target>
+          <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
+          <target>Hvis en PO er delvis produsert (Ferdig mengde &lt;Antall) beregner systemet forbruket av materialer og tidene som skal kostnadsberegnes som et forhold mellom de 2 mengdene. Hvis derimot PO er ferdig produsert (Ferdig mengde&gt; = Mengde), uavhengig av status på selve PO, koster systemet kun materialene og faktisk registrerte tider (det gjennomfører ingen omberegning). Denne logikken bestemmer også beregningen av de endelige beløpene og de endelige enhetskostnadene som er tilstede i syklushistorien.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3653967604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the same setup for WAC calculation. To be enable in case of multiple item costing setup.</source>
@@ -4822,10 +4830,6 @@
         <trans-unit id="Report 2281176656 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
           <target>Side</target>
-        </trans-unit>
-        <trans-unit id="Report 2281176656 - NamedType 2544294627" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reprocessed</source>
-          <target>reprosessert</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 3482827127" translate="yes" size-unit="char" xml:space="preserve">
           <source>not inv.</source>
@@ -7470,6 +7474,10 @@
         <trans-unit id="Table 2459082793 - Field 3930431329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Lot Size</source>
           <target>Objektstørrelse</target>
+        </trans-unit>
+        <trans-unit id="Table 2459082793 - Field 3942194131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Output Quantity</source>
+          <target>Drift Utgangsmengde</target>
         </trans-unit>
         <trans-unit id="Table 2459082793 - Field 4065966391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center No.</source>

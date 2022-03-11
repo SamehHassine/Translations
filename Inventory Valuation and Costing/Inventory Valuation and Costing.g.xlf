@@ -3333,6 +3333,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Routing History - Field Operation No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2459082793 - Field 3942194131 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Output Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Routing History - Field Operation Output Quantity - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2459082793 - Field 2598133084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Period Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5779,7 +5784,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Enable Initial Custom Add.Cost - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3618579379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies how to evaluate consumption, if the flag is active that the consumption of production orders are evaluated by competence (in the same period of recording the output), while in the opposite case they are evaluated by registration date.</source>
+          <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Estimated WIP Consumption - Property ToolTip</note>
         </trans-unit>
@@ -8593,10 +8598,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Operation No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 3942194131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Operation Output Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Operation Output Quantity - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 2598133084 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the item costing period code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Period Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 1947107075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Processed Quantity field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Processed Quantity - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2748615199 - Control 703574062 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Work Center Specific Unit Cost.</source>
@@ -11282,11 +11297,6 @@
           <source>not inv.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Variant Cost Detail - NamedType NotInventoryLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 2281176656 - NamedType 2544294627" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reprocessed</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Variant Cost Detail - NamedType ReprocessedCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 2110149605" size-unit="char" translate="yes" xml:space="preserve">
           <source>Actual Quantity</source>
