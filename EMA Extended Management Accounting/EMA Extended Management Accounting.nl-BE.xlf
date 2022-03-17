@@ -899,8 +899,8 @@
           <target>Hiermee geeft u op dat de totalen voor zowel debet als credit worden weergegeven in het matrixvenster.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 2779398797 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Debit &amp;&amp; Credit Totals</source>
-          <target>Debet- en credittotalen</target>
+          <source>Debit &amp; Credit Totals</source>
+          <target>totaal geven en nemen</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 3128184946 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the cost account.</source>
@@ -2412,9 +2412,11 @@
         </trans-unit>
         <trans-unit id="Page 2486623423 - Action 1395436244 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Export the information in the analysis report to Excel.</source>
+          <target>Exporteer de informatie in het analyserapport naar Excel.</target>
         </trans-unit>
         <trans-unit id="Page 2486623423 - Action 1395436244 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Export to Excel</source>
+          <target>Exporteren naar Excel</target>
         </trans-unit>
         <trans-unit id="Page 2486623423 - Action 732012919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actions</source>
@@ -3264,6 +3266,14 @@
           <source>General</source>
           <target>Algemeen</target>
         </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 2785251287 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the analysis net change in the account balance during the time period in the Date Filter field.</source>
+          <target>Hiermee geeft u de analyse-mutatie in het rekeningsaldo op tijdens de periode in het veld Datumfilter.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 2785251287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Analysis Net Change</source>
+          <target>Analyse Mutatie</target>
+        </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3012167030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type.</source>
           <target>Hiermee geeft u het kostentype op.</target>
@@ -3311,6 +3321,14 @@
         <trans-unit id="Page 2911426993 - Control 4008552393 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type by variability.</source>
           <target>Hiermee geeft u het kostentype op door variabiliteit.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 442643548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field.</source>
+          <target>Hiermee geeft u de mutatie in het rekeningsaldo op tijdens de periode in het veld Datumfilter.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 442643548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Change</source>
+          <target>Mutatie</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 581050965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the user who last modified the cost account.</source>
@@ -8221,8 +8239,8 @@
           <target>Beschrijving</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 3050295096" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exists Entries for %1. Delete All?</source>
-          <target>Bestaat posten voor %1. Alles verwijderen?</target>
+          <source>Exists %1 for %2. Delete All?</source>
+          <target>Bestaat %1 voor %2. Verwijder alles?</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 4229426589" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
@@ -9683,6 +9701,10 @@
         <trans-unit id="Table 4136911758 - Field 2785083732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Regelnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 4136911758 - Field 2803531008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Source</source>
+          <target>Toewijzingsbron</target>
         </trans-unit>
         <trans-unit id="Table 4136911758 - Field 2850360688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Code</source>

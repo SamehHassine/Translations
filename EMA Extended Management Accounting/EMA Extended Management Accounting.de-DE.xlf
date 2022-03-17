@@ -812,8 +812,8 @@
           <target>Gibt an, dass die Summen für Lastschrift und Gutschrift im Matrixfenster angezeigt werden.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 2779398797 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Debit &amp;&amp; Credit Totals</source>
-          <target>Debit &amp;&amp; Credit Summen</target>
+          <source>Debit &amp; Credit Totals</source>
+          <target>totales geben und nehmen</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 3128184946 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the cost account.</source>
@@ -1869,7 +1869,7 @@
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1267408499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account</source>
-          <target>Kostenart</target>
+          <target>Konto</target>
         </trans-unit>
         <trans-unit id="Page 1941093679 - Action 1987749257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transfer all income statement accounts from the chart of accounts to the chart of cost account.</source>
@@ -2322,6 +2322,14 @@
         <trans-unit id="Page 2288435576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Lines</source>
           <target>Zuweisungszeilen</target>
+        </trans-unit>
+        <trans-unit id="Page 2486623423 - Action 1395436244 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export the information in the analysis report to Excel.</source>
+          <target>Exportieren Sie die Informationen im Analysebericht nach Excel.</target>
+        </trans-unit>
+        <trans-unit id="Page 2486623423 - Action 1395436244 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Export to Excel</source>
+          <target>In Excel exportieren</target>
         </trans-unit>
         <trans-unit id="Page 2486623423 - Action 732012919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actions</source>
@@ -3171,6 +3179,14 @@
           <source>General</source>
           <target>Allgemein</target>
         </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 2785251287 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the analysis net change in the account balance during the time period in the Date Filter field.</source>
+          <target>Gibt die Analyse-Nettoveränderung des Kontostands während des Zeitraums im Feld Datumsfilter an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 2785251287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Analysis Net Change</source>
+          <target>Analyse Nettoveränderung</target>
+        </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3012167030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type.</source>
           <target>Gibt die Kostenart an.</target>
@@ -3218,6 +3234,14 @@
         <trans-unit id="Page 2911426993 - Control 4008552393 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type by variability.</source>
           <target>Gibt den Kostentyp nach Variabilität an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 442643548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field.</source>
+          <target>Gibt die Nettoveränderung des Kontostands während des Zeitraums im Feld Datumsfilter an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 442643548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Change</source>
+          <target>Bewegung</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 581050965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the user who last modified the cost account.</source>
@@ -8128,8 +8152,8 @@
           <target>Beschreibung</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 3050295096" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exists Entries for %1. Delete All?</source>
-          <target>Es existieren verbundene Analyseposten für %1. Löschen?</target>
+          <source>Exists %1 for %2. Delete All?</source>
+          <target>Existiert %1 für %2. Alles löschen?</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 4229426589" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
@@ -9590,6 +9614,10 @@
         <trans-unit id="Table 4136911758 - Field 2785083732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Zeilennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 4136911758 - Field 2803531008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Source</source>
+          <target>Zuweisungsquelle</target>
         </trans-unit>
         <trans-unit id="Table 4136911758 - Field 2850360688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Code</source>
