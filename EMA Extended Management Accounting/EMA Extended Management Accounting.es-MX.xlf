@@ -529,12 +529,15 @@
         </trans-unit>
         <trans-unit id="EnumExtension 2326033059 - EnumValue 1949747571 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EMA-C/A</source>
+          <target>EMA-C/A</target>
         </trans-unit>
         <trans-unit id="EnumExtension 3430570480 - EnumValue 2012075949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Accounts</source>
+          <target>Cuentas de costes</target>
         </trans-unit>
         <trans-unit id="EnumExtension 3430570480 - EnumValue 4261134374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Account Totals</source>
+          <target>Totales de cuentas de coste</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Action 1735507514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line</source>
@@ -777,8 +780,8 @@
           <target>Especifica que los totales de débito y crédito se muestran en la ventana de matriz.</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 2779398797 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Debit &amp;&amp; Credit Totals</source>
-          <target>Totals de débito y crédito</target>
+          <source>Debit &amp; Credit Totals</source>
+          <target>toma y daca total</target>
         </trans-unit>
         <trans-unit id="Page 1134776175 - Control 3128184946 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the cost account.</source>
@@ -3156,6 +3159,14 @@
           <source>General</source>
           <target>General</target>
         </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 2785251287 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the analysis net change in the account balance during the time period in the Date Filter field.</source>
+          <target>Especifica el cambio neto de análisis en el saldo de la cuenta durante el período de tiempo en el campo Filtro de fecha.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 2785251287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Analysis Net Change</source>
+          <target>Análisis Cambio neto</target>
+        </trans-unit>
         <trans-unit id="Page 2911426993 - Control 3012167030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type.</source>
           <target>Especifica el tipo de coste.</target>
@@ -3203,6 +3214,14 @@
         <trans-unit id="Page 2911426993 - Control 4008552393 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type by variability.</source>
           <target>Especifica el tipo de coste por variabilidad.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 442643548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the net change in the account balance during the time period in the Date Filter field.</source>
+          <target>Especifica el cambio neto en el saldo de la cuenta durante el período de tiempo en el campo Filtro de fecha.</target>
+        </trans-unit>
+        <trans-unit id="Page 2911426993 - Control 442643548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Change</source>
+          <target>Cambio neto</target>
         </trans-unit>
         <trans-unit id="Page 2911426993 - Control 581050965 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the user who last modified the cost account.</source>
@@ -8105,8 +8124,8 @@
           <target>Descripción</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 3050295096" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exists Entries for %1. Delete All?</source>
-          <target>Existen entradas para %1. ¿Eliminar todo?</target>
+          <source>Exists %1 for %2. Delete All?</source>
+          <target>Existe %1 para %2. ¿Eliminar todos?</target>
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 4229426589" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
@@ -9571,6 +9590,10 @@
         <trans-unit id="Table 4136911758 - Field 2785083732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Línea No.</target>
+        </trans-unit>
+        <trans-unit id="Table 4136911758 - Field 2803531008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Source</source>
+          <target>Fuente de asignación</target>
         </trans-unit>
         <trans-unit id="Table 4136911758 - Field 2850360688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Code</source>
