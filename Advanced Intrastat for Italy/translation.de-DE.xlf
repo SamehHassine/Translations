@@ -63,9 +63,17 @@
           <source>Specifies the value of the "External Location Filter Type" field. Include EU: only locations with country having "Intrastat Code" populated will be processed; Filter: system will process locations included in custom specified filter.</source>
           <target>Gibt den Wert des Felds "Filtertyp für externe Positionen" an.</target>
         </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 1563455416 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Suggest Call off stock lines" field.</source>
+          <target>Gibt den Wert des Felds "Aufruf von Lagerpositionen vorschlagen" an.</target>
+        </trans-unit>
         <trans-unit id="Page 1933852584 - Control 1671868336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Intrastat Grouping field</source>
           <target>Gibt den Wert des Feldes Intrastat-Gruppierung an</target>
+        </trans-unit>
+        <trans-unit id="Page 1933852584 - Control 2014687919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call off stock</source>
+          <target>Lagerbestand abrufen</target>
         </trans-unit>
         <trans-unit id="Page 1933852584 - Control 2359762377 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
@@ -74,14 +82,6 @@
         <trans-unit id="Page 1933852584 - Control 335545441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Intrastat Declaration Nos. field</source>
           <target>Gibt den Wert der Intrastat-Deklarations-Nren an. Feld</target>
-        </trans-unit>
-        <trans-unit id="Page 1933852584 - Control 3725792533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Call off stock</source>
-          <target>Abruf auf Lager</target>
-        </trans-unit>
-        <trans-unit id="Page 1933852584 - Control 4214987070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Suggest Call off stock lines" field.</source>
-          <target>Gibt den Wert des Felds "Aufruf von Lagerbestandspositionen vorschlagen" an.</target>
         </trans-unit>
         <trans-unit id="Page 1933852584 - Control 493657227 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Internal Location Filter Type" field. Include local country: only locations with country equal to company info country will be processed; Filter: system will process locations included in custom specified filter.</source>
@@ -211,10 +211,6 @@
           <source>Restore Default</source>
           <target>Standard wiederherstellen</target>
         </trans-unit>
-        <trans-unit id="Page 3753874738 - Control 1383905037 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Default" field. Default records cannot be deleted by users.</source>
-          <target>Gibt den Wert des Felds "Standard" an. Standarddatensätze können von Benutzern nicht gelöscht werden.</target>
-        </trans-unit>
         <trans-unit id="Page 3753874738 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Code" field.</source>
           <target>Gibt den Wert für das Feld Code an</target>
@@ -234,6 +230,10 @@
         <trans-unit id="Report 2149405262 - Control 3218214083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Regulation %</source>
           <target>Kosten Zu-/Abschlag %</target>
+        </trans-unit>
+        <trans-unit id="Report 2149405262 - Method 564553213 - NamedType 704260146" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Obsolete Procedure</source>
+          <target>Veraltetes Verfahren</target>
         </trans-unit>
         <trans-unit id="Report 2149405262 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Suggest Intrastat Lines (ITR)</source>
@@ -571,10 +571,6 @@
           <source>Intrastat Header</source>
           <target>Intrastatkopf</target>
         </trans-unit>
-        <trans-unit id="Table 1168148295 - Field 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Default</source>
-          <target>Default</target>
-        </trans-unit>
         <trans-unit id="Table 1168148295 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
           <target>Code</target>
@@ -855,6 +851,10 @@
           <source>Intrastat Line</source>
           <target>Intrastat Zeile</target>
         </trans-unit>
+        <trans-unit id="Table 1933852584 - Field 1563455416 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggest Call off stock lines</source>
+          <target>Call off Stock Lines vorschlagen</target>
+        </trans-unit>
         <trans-unit id="Table 1933852584 - Field 1671868336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Intrastat Grouping</source>
           <target>Gruppierung Intrastat</target>
@@ -878,10 +878,6 @@
         <trans-unit id="Table 1933852584 - Field 3508657765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>External Location Filter Type</source>
           <target>Filtertyp für externe Positionen</target>
-        </trans-unit>
-        <trans-unit id="Table 1933852584 - Field 4214987070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Suggest Call off stock lines</source>
-          <target>Call off stock-Linien vorschlagen</target>
         </trans-unit>
         <trans-unit id="Table 1933852584 - Field 493657227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Internal Location Filter Type</source>
