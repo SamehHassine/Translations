@@ -55,6 +55,14 @@
           <source>Item Reordering Policy has to be BLANK to use this function</source>
           <target>Per utilizzare questa funzione, i criteri di riordino degli elementi devono essere VUOTI</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1471355777 - Method 2660908848 - NamedType 1118015822" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assignment done, please open disposition page again to refresh data.</source>
+          <target>Assegnazione completata, aprire nuovamente la pagina di disposizione per aggiornare i dati.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1471355777 - Method 2660908848 - NamedType 1323390187" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cant assign from actual line because its already complete reserved.</source>
+          <target>Non è possibile assegnare dalla riga effettiva perché è già completamente riservato.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1471355777 - Method 3016158204 - NamedType 333461967" translate="yes" size-unit="char" xml:space="preserve">
           <source>The archived Job Structure Line %1, %2, %3 has no check list.</source>
           <target>La riga della struttura commessa archiviata %1, %2, %3 non dispone di una Checklist.</target>
@@ -489,7 +497,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 1523750133 - NamedType 1247693670" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are actual relations to job structure. If you want to do this action the relations are lost. Are you sure you want to do this?</source>
-          <target>Esistono relazioni effettive con la struttura del lavoro. Se si desidera eseguire questa azione, le relazioni vengono perse. Sei sicuro di voler lo fare?</target>
+          <target>Esistono relazioni effettive con la struttura commessa. Se si desidera eseguire questa azione, le relazioni vengono perse. Sei sicuro di voler lo fare?</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 1523750133 - NamedType 4049303793" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exit function</source>
@@ -501,7 +509,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 1617389084 - NamedType 1247693670" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are actual relations to job structure. If you want to do this action the relations are lost. Are you sure you want to do this?</source>
-          <target>Esistono relazioni effettive con la struttura del lavoro. Se si desidera eseguire questa azione, le relazioni vengono perse. Sei sicuro di voler lo fare?</target>
+          <target>Esistono relazioni effettive con la struttura commessa. Se si desidera eseguire questa azione, le relazioni vengono perse. Sei sicuro di voler lo fare?</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 1617389084 - NamedType 4049303793" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exit function</source>
@@ -569,7 +577,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 4210113768 - NamedType 716329142" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jobs, Jobmanagement</source>
-          <target>Posti di lavoro, Jobmanagement</target>
+          <target>Commessa, Gestione commessa</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 438144446 - NamedType 2100292232" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a Job!</source>
@@ -709,7 +717,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 708519695 - Method 1421851118 - NamedType 215040994" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Production</source>
-          <target>Produzione di posti di lavoro</target>
+          <target>Produzione commessa</target>
         </trans-unit>
         <trans-unit id="Codeunit 708519695 - Method 1421851118 - NamedType 2335030263" translate="yes" size-unit="char" xml:space="preserve">
           <source>You have to enter a filter for job structure!</source>
@@ -737,7 +745,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 708519695 - Method 1855092335 - NamedType 2777879761" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Production</source>
-          <target>Produzione di posti di lavoro</target>
+          <target>Produzione commessa</target>
         </trans-unit>
         <trans-unit id="Codeunit 708519695 - NamedType 3467259515" translate="yes" size-unit="char" xml:space="preserve">
           <source>You can't delete this line! Production order %1 exists.</source>
@@ -793,7 +801,7 @@
         </trans-unit>
         <trans-unit id="Page 1079552110 - Action 1156291096 - Method 1377591017 - NamedType 980472969" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are relations to the jobstructure</source>
-          <target>Ci sono relazioni con la struttura del lavoro</target>
+          <target>Ci sono relazioni con la struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 1079552110 - Action 1156291096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action copies jobstructureschedulelines into the schedule lines</source>
@@ -805,7 +813,7 @@
         </trans-unit>
         <trans-unit id="Page 1079552110 - Action 2341284508 - Method 1377591017 - NamedType 980472969" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are relations to the jobstructure</source>
-          <target>Ci sono relazioni con la struttura del lavoro</target>
+          <target>Ci sono relazioni con la struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 1079552110 - Action 2341284508 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gets a standard task schedule</source>
@@ -1433,7 +1441,7 @@
         </trans-unit>
         <trans-unit id="Page 1538295355 - Action 940846981 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the job which is related to the job contact</source>
-          <target>Questa azione mostra il lavoro correlato al contatto di lavoro</target>
+          <target>Questa azione mostra la commessa correlato al contatto di commessa</target>
         </trans-unit>
         <trans-unit id="Page 1538295355 - Action 940846981 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Card</source>
@@ -1449,7 +1457,7 @@
         </trans-unit>
         <trans-unit id="Page 1538295355 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 1538295355 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the description</source>
@@ -1669,7 +1677,7 @@
         </trans-unit>
         <trans-unit id="Page 161037437 - Control 2874841180 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Here you can enter the No. Series for the job structures</source>
-          <target>Qui è possibile inserire il n. Serie per le strutture del lavoro</target>
+          <target>Qui è possibile inserire il n. Serie per le strutture commessa</target>
         </trans-unit>
         <trans-unit id="Page 161037437 - Control 2915211272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If you call up the function "Job structure disposition", you can use an appropriate name for the order proposal. </source>
@@ -2875,6 +2883,10 @@
           <source>Specifies the job posting type.</source>
           <target>Specifica il tipo di registrazione commessa.</target>
         </trans-unit>
+        <trans-unit id="Page 2077999208 - Control 680348815 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field shows the job planning line entry</source>
+          <target>Questo campo mostra la voce della riga di pianificazione della commessa</target>
+        </trans-unit>
         <trans-unit id="Page 2077999208 - Control 697060706 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line type.</source>
           <target>Specifica il tipo di riga.</target>
@@ -3481,7 +3493,7 @@
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 1470302379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the list of job structures</source>
-          <target>Questa azione mostra l'elenco delle strutture del lavoro</target>
+          <target>Questa azione mostra l'elenco delle strutture commessa</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 1470302379 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Structures</source>
@@ -3693,7 +3705,7 @@
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 2953931725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the list of completed job structures</source>
-          <target>Questa azione mostra l'elenco delle strutture di lavoro completate</target>
+          <target>Questa azione mostra l'elenco delle strutture commessa completate</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 2953931725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Completed Job Structures</source>
@@ -3733,7 +3745,7 @@
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 3030837875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the list of completed jobs</source>
-          <target>Questa azione mostra l'elenco dei processi completati</target>
+          <target>Questa azione mostra l'elenco delle commesse completate</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 3030837875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Completed Jobs</source>
@@ -3905,7 +3917,7 @@
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 3661919152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the list of jobs</source>
-          <target>Questa azione mostra l'elenco dei processi</target>
+          <target>Questa azione mostra l'elenco delle commesse</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 3661919152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jobs</source>
@@ -4009,11 +4021,11 @@
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 4108978755 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the list of completed jobs</source>
-          <target>Questa azione mostra l'elenco dei processi completati</target>
+          <target>Questa azione mostra l'elenco delle commesse completate</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 4108978755 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jobs - Completed</source>
-          <target>Processi - Completato</target>
+          <target>Commesse - Completato</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 4122362082 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the engineering setup</source>
@@ -4125,7 +4137,7 @@
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 881805001 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the list of completed job structures</source>
-          <target>Questa azione mostra l'elenco delle strutture di lavoro completate</target>
+          <target>Questa azione mostra l'elenco delle strutture commessa completate</target>
         </trans-unit>
         <trans-unit id="Page 2409736532 - Action 881805001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Structure Completed</source>
@@ -4261,7 +4273,7 @@
         </trans-unit>
         <trans-unit id="Page 2429657013 - Action 284241613 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action generates a spare part quote of the job structure</source>
-          <target>Questa azione genera un preventivo di ricambio della struttura del lavoro</target>
+          <target>Questa azione genera un preventivo di ricambio della struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Action 284241613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Spare Parts Quote</source>
@@ -4405,7 +4417,7 @@
         </trans-unit>
         <trans-unit id="Page 2429657013 - Control 1605194043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description of the job</source>
-          <target>Descrizione del lavoro</target>
+          <target>Descrizione della commessa</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Control 1639973585 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field is the planned ending date which is used for calculating of the job structure</source>
@@ -4453,7 +4465,7 @@
         </trans-unit>
         <trans-unit id="Page 2429657013 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Number of the job where the job structure belongs to</source>
-          <target>Numero del lavoro a cui appartiene la struttura del lavoro</target>
+          <target>Numero commessa a cui la struttura commessa appartiene</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description of the job structure</source>
@@ -4493,7 +4505,7 @@
         </trans-unit>
         <trans-unit id="Page 2429657013 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Here you can choose different status of the job structure or it is given automatically</source>
-          <target>Qui è possibile scegliere diverso stato della struttura del lavoro o viene dato automaticamente</target>
+          <target>Qui è possibile scegliere diverso stato della struttura commessa o viene dato automaticamente</target>
         </trans-unit>
         <trans-unit id="Page 2429657013 - Control 543275552 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field is the template for the starting date field of job lines</source>
@@ -4589,7 +4601,7 @@
         </trans-unit>
         <trans-unit id="Page 2540690811 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 2540690811 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the description</source>
@@ -4617,7 +4629,7 @@
         </trans-unit>
         <trans-unit id="Page 2588905306 - Action 3168257924 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts to this job</source>
-          <target>Questa azione mostra tutti i post correlati a questo lavoro</target>
+          <target>Questa azione mostra tutti i post correlati a questa commessa</target>
         </trans-unit>
         <trans-unit id="Page 2588905306 - Action 3168257924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Navigate Job</source>
@@ -4705,7 +4717,7 @@
         </trans-unit>
         <trans-unit id="Page 2588905306 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 2588905306 - Control 33942004 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the posting type</source>
@@ -5601,7 +5613,7 @@
         </trans-unit>
         <trans-unit id="Page 278747505 - Control 4151128311 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows a related job schedule no.</source>
-          <target>In questo campo viene visualizzato un n.</target>
+          <target>In questo campo viene visualizzato il nr schedulazione commessa</target>
         </trans-unit>
         <trans-unit id="Page 278747505 - Control 4164594072 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reordering significant.</source>
@@ -6697,7 +6709,7 @@
         </trans-unit>
         <trans-unit id="Page 3462539755 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 3462539755 - Control 3436336283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the planning date</source>
@@ -6781,7 +6793,7 @@
         </trans-unit>
         <trans-unit id="Page 3553616683 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 3553616683 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the description</source>
@@ -6845,7 +6857,7 @@
         </trans-unit>
         <trans-unit id="Page 3585675234 - Action 207783834 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assigning free qty to receive to the jobstructureline</source>
-          <target>Assegnazione di qtà libera da ricevere alla riga della struttura del lavoro</target>
+          <target>Assegnazione di qtà libera da ricevere alla riga della struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 3585675234 - Action 207783834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assign free qty to receive</source>
@@ -7341,7 +7353,7 @@
         </trans-unit>
         <trans-unit id="Page 3691235047 - Control 3130456699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job structure no. If this field is green, the document line is already related to this job structure line</source>
-          <target>In questo campo viene visualizzato il n. Se questo campo è verde, la riga del documento è già correlata a questa riga della struttura del processo</target>
+          <target>In questo campo viene visualizzato il n. Se questo campo è verde, la riga del documento è già correlata a questa riga della struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 3691235047 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the description of the line</source>
@@ -7473,7 +7485,7 @@
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 3830313486 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Store the basic calendar here, to which the Schedules of the job structures belongs.</source>
-          <target>Archiviare qui il calendario di base, a cui appartengono le pianificazioni delle strutture dei processi.</target>
+          <target>Archiviare qui il calendario di base, a cui appartengono le pianificazioni delle strutture commessa.</target>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 3870696911 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Here you can specify to use position numbers also for heading lines.</source>
@@ -7509,7 +7521,7 @@
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 748069455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The No. Series for explicit job structure locations. Must have a length of 10 characters only.</source>
-          <target>Il no. Serie per posizioni esplicite della struttura del lavoro. Deve avere solo una lunghezza di 10 caratteri.</target>
+          <target>Il no. Serie per posizioni esplicite della struttura del lavoro. Deve avecommessare solo una lunghezza di 10 caratteri.</target>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 760673710 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The project location is a mandatory field if the parameter "Engineering WIP active" is set. Here, a storage location must be entered, which has the storage type project location.</source>
@@ -7665,7 +7677,7 @@
         </trans-unit>
         <trans-unit id="Page 3919239135 - Action 1109115838 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the related job schedule</source>
-          <target>Questa azione mostra la pianificazione dei processi correlata</target>
+          <target>Questa azione mostra la pianificazione di commessa</target>
         </trans-unit>
         <trans-unit id="Page 3919239135 - Action 1109115838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Schedule</source>
@@ -7749,7 +7761,7 @@
         </trans-unit>
         <trans-unit id="Page 3919239135 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 3919239135 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the description</source>
@@ -8074,6 +8086,10 @@
         <trans-unit id="Page 3932771532 - Control 3851953830 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant</source>
           <target>Variante</target>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Control 3888619438 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This field shows the unit of measure code of the job structure</source>
+          <target>Questo campo mostra il codice dell'unità di misura della struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 39415292 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the location</source>
@@ -8525,7 +8541,7 @@
         </trans-unit>
         <trans-unit id="Page 563885149 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 563885149 - Control 33942004 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the posting type</source>
@@ -8869,7 +8885,7 @@
         </trans-unit>
         <trans-unit id="Page 914266993 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Page 914266993 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the description</source>
@@ -9857,7 +9873,7 @@
         </trans-unit>
         <trans-unit id="Page 99558139 - Action 59861814 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action copies the job structure</source>
-          <target>Questa azione copia la struttura del lavoro</target>
+          <target>Questa azione copia la struttura commessa</target>
         </trans-unit>
         <trans-unit id="Page 99558139 - Action 59861814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Document</source>
@@ -9921,7 +9937,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1102749615 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 1129172929 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -9946,6 +9962,10 @@
         <trans-unit id="PageExtension 1256900755 - Control 3806596380 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor No.</source>
           <target>Nr. fornitore</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1283248090 - Control 3341892776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows the Reorder Policy of this SKU</source>
+          <target>Mostra i criteri di riordino di questa SKU</target>
         </trans-unit>
         <trans-unit id="PageExtension 149938326 - Action 521200152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Saves purchase prices at the actual workdate</source>
@@ -10001,7 +10021,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1899031194 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2116257263 - Action 683675343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Links a line with a job structure line, which must have the same location code. Only applicable for items with replenishment policy = BLANK</source>
@@ -10037,7 +10057,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2175416911 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2210509580 - Action 683675343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Links a line with a job structure line, which must have the same location code. Only applicable for items with replenishment policy = BLANK</source>
@@ -10073,7 +10093,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2654786772 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 266989378 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -10085,7 +10105,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 266989378 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2722852163 - Action 3273339814 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the schedule of the job, if there is no job schedule it creates a new one based on the information from the Salesheader</source>
@@ -10097,7 +10117,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2722852163 - Action 3493793521 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the attached job. If there is no job, it creates a job based on the information from here</source>
-          <target>Mostra la commessa collegata. Se non c'è la commessa, crea un lavoro basato sulle informazioni da qui</target>
+          <target>Mostra la commessa collegata. Se non c'è la commessa, crea una commessa basata sulle informazioni da qui</target>
         </trans-unit>
         <trans-unit id="PageExtension 2722852163 - Action 3493793521 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Job</source>
@@ -10117,7 +10137,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2722852163 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2748952201 - Action 482116854 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action opens a possible jobstructure</source>
@@ -10177,7 +10197,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Action 3966972049 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows the related job schedule</source>
-          <target>Questa azione mostra la pianificazione dei processi correlata</target>
+          <target>Questa azione mostra la pianificazione di commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Action 3966972049 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Schedule</source>
@@ -10209,7 +10229,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 1535595898 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the name of the customer to which you want to ship the job</source>
-          <target>In questo campo viene visualizzato il nome del cliente a cui si desidera spedire il processo</target>
+          <target>In questo campo viene visualizzato il nome del cliente a cui si desidera spedire la commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 1814719067 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the address 2 of the customer to which you sell the job</source>
@@ -10217,7 +10237,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 2057365898 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the no. of the customer to which you sell the job</source>
-          <target>Questo campo mostra il n. del cliente a cui si vende il lavoro</target>
+          <target>Questo campo mostra il n. del cliente a cui si vende la commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 2182412038 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the city of the customer to which you sell the job</source>
@@ -10225,7 +10245,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 2445590984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the name 2 of the customer to which you want to ship the job</source>
-          <target>In questo campo viene visualizzato il nome 2 del cliente a cui si desidera spedire il processo</target>
+          <target>In questo campo viene visualizzato il nome 2 del cliente a cui si desidera spedire la commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 2776713018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the country of the customer to which you want to ship the job</source>
@@ -10245,11 +10265,11 @@
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 3285917560 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the no. of the contact to which you sell the job</source>
-          <target>Questo campo mostra il n. del contatto a cui si vende il lavoro</target>
+          <target>Questo campo mostra il n. del contatto a cui si vende la commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 3569469611 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the contact to which you want to ship the job</source>
-          <target>In questo campo viene visualizzato il contatto a cui si desidera spedire il processo</target>
+          <target>In questo campo viene visualizzato il contatto a cui si desidera spedire la commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 3733002294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the country code of the customer to which you sell the job</source>
@@ -10285,7 +10305,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 841361152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the post code of the customer to which you want to ship the job</source>
-          <target>In questo campo viene visualizzato il codice postale del cliente a cui si desidera spedire il processo</target>
+          <target>In questo campo viene visualizzato il codice postale del cliente a cui si desidera spedire la commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 2851555976 - Control 900890410 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the user to which this project is assigned to. It will be shown on the activity panel on the cues</source>
@@ -10337,11 +10357,11 @@
         </trans-unit>
         <trans-unit id="PageExtension 3097153837 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 309766000 - Action 2408139032 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action creates return related documents with relation to job</source>
-          <target>Questa azione crea documenti correlati al reso in relazione al lavoro</target>
+          <target>Questa azione crea documenti correlati al reso in relazione alla commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 309766000 - Action 2408139032 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Ret. Rel. Documents Job</source>
@@ -10377,7 +10397,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3294091583 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 330898631 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -10409,7 +10429,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3397009166 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 3445453581 - Control 2412278780 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number for the associated job structure entry no.</source>
@@ -10429,7 +10449,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3732465853 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 3846565990 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -10445,7 +10465,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3846565990 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 3885777678 - Action 1346682369 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the availability of the resourcegroups</source>
@@ -10521,7 +10541,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3885777678 - Control 1676306371 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the no. of the contact to which this job will be selled</source>
-          <target>Mostra il no. del contatto a cui questo lavoro sarà venduto</target>
+          <target>Mostra il no. del contatto a cui questa commessa sarà venduta</target>
         </trans-unit>
         <trans-unit id="PageExtension 3885777678 - Control 199411179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the no. of the customer template to which this job will be selled</source>
@@ -10545,7 +10565,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3885777678 - Control 4209912679 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows the no. of the customer to which this job will be selled</source>
-          <target>Mostra il no. del cliente a cui questo lavoro sarà venduto</target>
+          <target>Mostra il no. del cliente a cui questa commessa sarà venduta</target>
         </trans-unit>
         <trans-unit id="PageExtension 3897360584 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -10557,7 +10577,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3897360584 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 3950806793 - Action 4055892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action generates an item requirement list</source>
@@ -10585,7 +10605,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 4060623840 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 4107044442 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -10597,7 +10617,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 4107044442 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 4254312625 - Action 683675343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Links a line with a job structure line, which must have the same location code. Only applicable for items with replenishment policy = BLANK</source>
@@ -10621,7 +10641,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 505622036 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 525140279 - Action 187110540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action shows all related posts of the job</source>
@@ -10633,7 +10653,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 525140279 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="PageExtension 774125484 - NamedType 2000863410" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you really want to manually delete or modify a record with connection to job structure?</source>
@@ -10649,7 +10669,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 833359561 - Control 2593274047 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field shows the job no.</source>
-          <target>In questo campo viene visualizzato il n.</target>
+          <target>In questo campo viene visualizzato il nr. commessa</target>
         </trans-unit>
         <trans-unit id="Profile 2409736532 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Engineering Process Planner</source>
@@ -11091,6 +11111,10 @@
           <source>Job No.</source>
           <target>Nr. commessa</target>
         </trans-unit>
+        <trans-unit id="Report 2158012782 - Control 1947108690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Job Structure Line Status</source>
+          <target>Copia stato riga struttura processo</target>
+        </trans-unit>
         <trans-unit id="Report 2158012782 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Opzioni</target>
@@ -11198,6 +11222,10 @@
         <trans-unit id="Report 2277564066 - NamedType 2135703800" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Filter:</source>
           <target>Filtro ubicazione:</target>
+        </trans-unit>
+        <trans-unit id="Report 2277564066 - NamedType 2425761872" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deb./ Vend.</source>
+          <target>Cliente/Forn.</target>
         </trans-unit>
         <trans-unit id="Report 2277564066 - NamedType 2816417746" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code:</source>
@@ -11823,6 +11851,10 @@
           <source>Item Description</source>
           <target>Descrizione articolo</target>
         </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 2521346398" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manufacturer Code</source>
+          <target>Codice produttore</target>
+        </trans-unit>
         <trans-unit id="Report 585046009 - NamedType 3405320530" translate="yes" size-unit="char" xml:space="preserve">
           <source>Spare Parts Catalog</source>
           <target>Catalogo ricambi</target>
@@ -11941,7 +11973,7 @@
         </trans-unit>
         <trans-unit id="Table 1377852410 - Field 206185186 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,,,,,,,Production Order Created,Partial Job Usage,Full Job Usage,Partial Output,Full Output,Sales Quote Created,Sales Order Created,Partially Shipped,Completely Shipped,Partially Invoiced,Completely Invoiced,Partially on Inventory,Completely on Inventory,Sales Return Order Created</source>
-          <target> ,,,,,,,Odato di produzione creato,Utilizzo parziale processo,Utilizzo processo completo,Output parziale,Output completo,Offerta di vendita creata,Ordine cliente creato,Parzialmente spedito,Completamente spedito,Parzialmente fatturato,Completamente fatturato,Parzialmente in magazzino,Completamente in magazzino,Ordine reso vendita creato</target>
+          <target>,,,,,,,Creato ordine di produzione,Utilizzo parziale commessa,Utilizzo completo commessa,Output parziale,Output completo,Creata offerta di vendita,Creato ordine di vendita,Spedito parzialmente,Spedito completamente,Fatturato parzialmente,Fatturato completamente,Parzialmente a magazzino,Completamente a magazzino,Ordine di reso creato</target>
         </trans-unit>
         <trans-unit id="Table 1377852410 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
@@ -12961,7 +12993,7 @@
         </trans-unit>
         <trans-unit id="Table 2903504393 - Field 349761244 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>,green,lightgreen,yellow, orange,red,black</source>
-          <target>,verde,verde chiaro,giallo, arancione, rosso,nero</target>
+          <target>,verde,verde chiaro,giallo,arancione,rosso,nero</target>
         </trans-unit>
         <trans-unit id="Table 2903504393 - Field 3512234762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap %</source>
@@ -13803,6 +13835,10 @@
           <source>Sales Currency Factor</source>
           <target>Fattore valuta vend.</target>
         </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 2385270358 - Method 2126772001 - NamedType 1011672254" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A manual change of unit of measure isnt allowed for resource, workcenter and machine center here</source>
+          <target>Un cambio manuale dell'unità di misura non è consentito per le risorse, il centro di lavoro e il centro macchine qui</target>
+        </trans-unit>
         <trans-unit id="Table 3790414227 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit of Measure Code</source>
           <target>Cod. unità di misura</target>
@@ -14134,6 +14170,10 @@
         <trans-unit id="Table 3790414227 - Field 513339096 - Method 2126772001 - NamedType 61787289" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are purchase order lines, manual status change not allowed</source>
           <target>Ci sono righe ordine fornitore, modifica dello stato manuale non consentita</target>
+        </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 513339096 - Method 2126772001 - NamedType 737934291" translate="yes" size-unit="char" xml:space="preserve">
+          <source>When configuring a template you can only use states with %1 blank.</source>
+          <target>Quando si configura un template, è possibile utilizzare solo gli stati con %1 vuoto.</target>
         </trans-unit>
         <trans-unit id="Table 3790414227 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
@@ -14641,7 +14681,7 @@
         </trans-unit>
         <trans-unit id="Table 533062073 - Field 3241996152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jobs - Planning</source>
-          <target>Offerte di lavoro - Pianificazione</target>
+          <target>Commesse - Pianificazione</target>
         </trans-unit>
         <trans-unit id="Table 533062073 - Field 3324042560 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routings under Development</source>
@@ -14653,7 +14693,7 @@
         </trans-unit>
         <trans-unit id="Table 533062073 - Field 3969998021 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jobs - Quote</source>
-          <target>Offerte di lavoro - Preventivo</target>
+          <target>Commesse - Preventivo</target>
         </trans-unit>
         <trans-unit id="Table 533062073 - Field 842481210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked Items</source>
@@ -14721,7 +14761,7 @@
         </trans-unit>
         <trans-unit id="Table 765724320 - Field 1171137197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Kundenname</source>
-          <target>Nome Kunden</target>
+          <target>Nome del cliente</target>
         </trans-unit>
         <trans-unit id="Table 765724320 - Field 1461660111 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rech. an Deb.-Nr.</source>
@@ -15285,7 +15325,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 3694177046 - Field 3459039253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Automatic Job Handling</source>
-          <target>Gestione automatica dei posti di lavoro</target>
+          <target>Gestione automatica commessa</target>
         </trans-unit>
         <trans-unit id="TableExtension 3815047825 - Field 1685763487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job No.</source>
