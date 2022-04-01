@@ -31,6 +31,10 @@
           <source>Contribution entries cannot be recreated because are posted to G/L.</source>
           <target>Beitragsposten können nicht neu erstellt werden, da sie in Sachz/A gebucht werden.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2633708544 - Method 2733281824 - NamedType 1909791277" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All %1 related to document %2 %3 will be deleted and will be recalculated considering only lines not excluded on release or opening related page. Do you want to proceed?</source>
+          <target>Alle %1, die sich auf das Dokument %2 %3 beziehen, werden gelöscht und neu berechnet, wobei nur Zeilen berücksichtigt werden, die bei der Freigabe oder dem Öffnen der zugehörigen Seite nicht ausgeschlossen sind. Möchten Sie fortfahren?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2633708544 - Method 2733281824 - NamedType 4230299487" translate="yes" size-unit="char" xml:space="preserve">
           <source>All %1 related to document %2 %3 will be deleted and will not be calculated on release or posting. Do you want to proceed?</source>
           <target>Alle %1 im Zusammenhang mit Dokument %2 %3 werden gelöscht und nicht bei Freigabe oder Buchung berechnet. Möchten Sie fortfahren?</target>
@@ -2331,6 +2335,10 @@
           <source>Enasarco</source>
           <target>Enasarco</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4085091121 - Control 1400825657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Do Not Handled Enasarco" field.</source>
+          <target>Gibt den Wert des Felds "Do Not Handled Enasarco" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 4203478076 - Control 117621844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specicies F.I.S.C. debit G/L account no..</source>
           <target>Specicies F.I.S.C. Debit G/L Konto Nr.</target>
@@ -2422,6 +2430,10 @@
         <trans-unit id="PageExtension 4203478076 - Control 961548567 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specicies F.I.R.R. cost G/L account no..</source>
           <target>Specicies F.I.R.R. Kosten Sachkonto Nr.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 427820442 - Control 1400825657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Do Not Handled Enasarco" field.</source>
+          <target>Gibt den Wert des Felds "Do Not Handled Enasarco" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 546207397 - Control 1156774689 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specicies type of society for the salesperson.</source>
@@ -3556,7 +3568,7 @@
           <target>Einkaufsbelegtyp</target>
         </trans-unit>
         <trans-unit id="Table 3194081686 - Field 2495027912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Amount (LCY)</source>
+          <source>Doc. Amount Subject to Enasarco (LCY)</source>
           <target>Belegbetrag (LCY)</target>
         </trans-unit>
         <trans-unit id="Table 3194081686 - Field 2589125879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -4087,6 +4099,10 @@
           <source>F.I.R.R. Cost G/L Account No.</source>
           <target>F.I.R.R. Kosten Sachkonto-Nr.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do Not Handled Enasarco</source>
+          <target>Nicht behandelt Enasarco</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3380840888 - Field 1186134123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Integration/Recovery</source>
           <target>Integration/Recovery</target>
@@ -4094,6 +4110,10 @@
         <trans-unit id="TableExtension 3380840888 - Field 1400825657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do Not Handled Enasarco</source>
           <target>Nicht behandelt Enasarco</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3380840888 - Field 26928936 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount subject to Enasarco</source>
+          <target>Betrag vorbehaltlich Enasarco</target>
         </trans-unit>
         <trans-unit id="TableExtension 361266826 - Field 1056298725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Collaboration Ending Date</source>
