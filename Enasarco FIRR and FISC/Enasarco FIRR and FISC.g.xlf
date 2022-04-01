@@ -304,7 +304,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS011 Contr. Ledger Entry - Field Dimension Set ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3194081686 - Field 2495027912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Document Amount (LCY)</source>
+          <source>Doc. Amount Subject to Enasarco (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS011 Contr. Ledger Entry - Field Document Amount (LCY) - Property Caption</note>
         </trans-unit>
@@ -927,6 +927,11 @@
           <source>All %1 related to document %2 %3 will be deleted and will not be calculated on release or posting. Do you want to proceed?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS011 Enasarco Calc. - Method DeleteEnasarcoEntriesFromDocument - NamedType DeleteDocEntriesQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2633708544 - Method 2733281824 - NamedType 1909791277" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All %1 related to document %2 %3 will be deleted and will be recalculated considering only lines not excluded on release or opening related page. Do you want to proceed?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS011 Enasarco Calc. - Method DeleteEnasarcoEntriesFromDocument - NamedType DeleteLineDocEntriesQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 2633708544 - Method 1117678105 - NamedType 791959107" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document has already calculated contr. entries not posted to G/L. Do you want to recalculate them?</source>
@@ -4263,6 +4268,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS011 Suggest Contr. Entries - Control GroupName - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4085091121 - Control 1400825657 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
+          <source>Specifies the value of the "Do Not Handled Enasarco" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008360 - Control EOS Do Not Handled Enasarco - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 427820442 - Control 1400825657 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1521900543">
+          <source>Specifies the value of the "Do Not Handled Enasarco" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18008361 - Control EOS Do Not Handled Enasarco - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3565781459 - Action 1347877825 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
           <source>Opens related contributions ledger entries list.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4887,6 +4902,16 @@
           <source>Specifies if entries with this reason code should be excluded from F.I.S.C. and F.I.R.R. base calculation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS011 PageExt18008388 - Control EOS Exclude from FIRR/FISC - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848564694 - Field 1400825657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1519909599">
+          <source>Do Not Handled Enasarco</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS011 TableExt18008360 - Field EOS Do Not Handled Enasarco - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3380840888 - Field 26928936 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
+          <source>Amount subject to Enasarco</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS011 TableExt18008380 - Field EOS Amount subject to Enasarco - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3380840888 - Field 1400825657 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2072992664">
           <source>Do Not Handled Enasarco</source>
