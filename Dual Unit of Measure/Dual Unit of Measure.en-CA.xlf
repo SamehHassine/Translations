@@ -167,18 +167,6 @@
           <source>It is not possibile to modify %1 field because %2 is not set.</source>
           <target>It is not possibile to modify %1 field because %2 is not set.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3706319538 - Method 1592302772 - NamedType 2364520756" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You cannot receive more than %1 units.</source>
-          <target>You cannot receive more than %1 units.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3706319538 - Method 2253962147 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You cannot ship more than %1 units.</source>
-          <target>You cannot ship more than %1 units.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3706319538 - Method 2595081393 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
-          <source>must not be less than %1</source>
-          <target>must not be less than %1</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3706319538 - Method 888560924 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
           <source>It is not possibile to modify %1 field because %2 is not set.</source>
           <target>It is not possibile to modify %1 field because %2 is not set.</target>
@@ -206,6 +194,18 @@
         <trans-unit id="Codeunit 719846944 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Quantity per unit of measure must be defined.</source>
           <target>Reverse Quantity per unit of measure must be defined.</target>
+        </trans-unit>
+        <trans-unit id="Enum 3526979612 - EnumValue 374497366 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Never</source>
+          <target>Never</target>
+        </trans-unit>
+        <trans-unit id="Enum 3526979612 - EnumValue 796359223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Automatically</source>
+          <target>Automatically</target>
+        </trans-unit>
+        <trans-unit id="Enum 3526979612 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggest Sec. Qty.</source>
+          <target>Suggest Sec. Qty.</target>
         </trans-unit>
         <trans-unit id="Page 2442269522 - Action 112710097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit the item's variants. Instead of setting up each color of an item as a separate item, you can set up the various colors as variants of the item.</source>
@@ -506,6 +506,14 @@
         <trans-unit id="Page 3985256499 - Control 3453557664 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Lists</source>
           <target>Price Lists</target>
+        </trans-unit>
+        <trans-unit id="Page 3985256499 - Control 3562266984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Suggest Sec. Qty. to Handle</source>
+          <target>Specifies the value for the field Suggest Sec. Qty. to Handle</target>
+        </trans-unit>
+        <trans-unit id="Page 3985256499 - Control 3562266984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggest Sec. Qty. to Handle</source>
+          <target>Suggest Sec. Qty. to Handle</target>
         </trans-unit>
         <trans-unit id="Page 3985256499 - Control 387300661 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the rounding precision that will be used when converting purchase prices from a unit of measure to the other.</source>
@@ -1642,6 +1650,10 @@
         <trans-unit id="Table 3985256499 - Field 264001531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Price Rounding Precision</source>
           <target>Sales Price Rounding Precision</target>
+        </trans-unit>
+        <trans-unit id="Table 3985256499 - Field 3562266984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Suggest Sec. Qty. to Handle</source>
+          <target>Suggest Sec. Qty. to Handle</target>
         </trans-unit>
         <trans-unit id="Table 3985256499 - Field 387300661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch.Price Rounding Precision</source>
