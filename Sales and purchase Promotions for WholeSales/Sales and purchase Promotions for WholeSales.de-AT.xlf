@@ -235,10 +235,6 @@
           <source>There are %1 linked to %2, do you want to continue?</source>
           <target>Es gibt %1, das mit %2 verknüpft ist, möchten Sie fortfahren?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3957473106 - Method 1751346435 - NamedType 4004541573" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Are you sure to enable this feature? With this Sales and purchase Promotions for WholeSales will be using a beta feature</source>
-          <target>Sind Sie sicher, dass Sie diese Funktion aktivieren? Mit diesem Verkaufs- und Kaufaktionen für WholeSales wird eine Beta-Funktion verwendet</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3957473106 - Method 1878372125 - NamedType 2372783403" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot delete Item %1! Used by %2</source>
           <target>Artikel %1 kann nicht gelöscht werden! Verwendet von %2</target>
@@ -246,6 +242,18 @@
         <trans-unit id="Codeunit 3957473106 - Method 2517783625 - NamedType 1551985684" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are discount codes, to edit the discounts open the detail page</source>
           <target>Es gibt Rabattcodes, um die Rabatte zu bearbeiten öffnen Sie die Detailseite</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 411364763 - Method 1276461206 - NamedType 1821882869" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete manual and recalculate,Keep manual and recalculate,Do not recalculate</source>
+          <target>Manuell löschen und neu berechnen,Manuell beibehalten und neu berechnen,Nicht neu berechnen</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 411364763 - Method 1276461206 - NamedType 2178194061" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Choose the discount recalculation method:</source>
+          <target>Wählen Sie die Methode zur Neuberechnung von Rabatten:</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 411364763 - Method 1276461206 - NamedType 634653880" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You need to choose the discount recalculation method</source>
+          <target>Sie müssen die Methode zur Neuberechnung des Rabatts auswählen</target>
         </trans-unit>
         <trans-unit id="Codeunit 411364763 - Method 4111934011 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
           <source>You have selected %1 %2 with %3 %4.\Selected discounts have not been applied.</source>
@@ -651,6 +659,22 @@
           <source>Discount</source>
           <target>Rabatt</target>
         </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 1514282299 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Keep manual and recalculate</source>
+          <target>Manuell aufbewahren und neu berechnen</target>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 2170762157 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete manual and recalculate</source>
+          <target>Manuell löschen und neu berechnen</target>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 270840260 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ask always</source>
+          <target>Fragen Sie immer</target>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 2930982159 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do not recalculate</source>
+          <target>Nicht neu berechnen</target>
+        </trans-unit>
         <trans-unit id="Enum 3424383937 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
           <target> </target>
@@ -964,12 +988,12 @@
           <target>Aktiongruppenselemente</target>
         </trans-unit>
         <trans-unit id="Page 1236462650 - Action 3635338911 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Price</source>
-          <target>Preis</target>
+          <source>Discount</source>
+          <target>Rabatt</target>
         </trans-unit>
         <trans-unit id="Page 1236462650 - Action 3635338911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Price</source>
-          <target>Preis</target>
+          <source>Discount</source>
+          <target>Rabatt</target>
         </trans-unit>
         <trans-unit id="Page 1236462650 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value</source>
@@ -3515,13 +3539,13 @@
           <source>Specifies the value of the "Price Sorting 2" field</source>
           <target>Gibt den Wert des Felds "Preissortierung 2" an</target>
         </trans-unit>
+        <trans-unit id="Page 284821828 - Control 3823202604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Discount Recalculation Method" field</source>
+          <target>Gibt den Wert des Felds "Rabatt-Neuberechnungsmethode" an.</target>
+        </trans-unit>
         <trans-unit id="Page 284821828 - Control 3933827518 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Price Sorting 2" field</source>
           <target>Gibt den Wert des Felds "Preissortierung 2" an</target>
-        </trans-unit>
-        <trans-unit id="Page 284821828 - Control 753406659 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Enable New Price List (BETA)" field</source>
-          <target>Gibt den Wert des Felds "Neue Preisliste aktivieren (BETA)" an.</target>
         </trans-unit>
         <trans-unit id="Page 284821828 - Control 91764962 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Invoice Extra</source>
@@ -8455,17 +8479,13 @@
           <source>Price Sorting 2</source>
           <target>Preissortierung 2</target>
         </trans-unit>
+        <trans-unit id="Table 284821828 - Field 3823202604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Recalculation Method</source>
+          <target>Methode zur Neuberechnung von Rabatten</target>
+        </trans-unit>
         <trans-unit id="Table 284821828 - Field 3933827518 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Sorting 5</source>
           <target>Preissortierung 2</target>
-        </trans-unit>
-        <trans-unit id="Table 284821828 - Field 753406659 - Method 2126772001 - NamedType 4004541573" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Are you sure to enable this feature? This is currently in BETA</source>
-          <target>Sind Sie sicher, dass Sie diese Funktion aktivieren? Dies befindet sich derzeit in der BETA</target>
-        </trans-unit>
-        <trans-unit id="Table 284821828 - Field 753406659 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enable New Price List (BETA)</source>
-          <target>Neue Preisliste aktivieren (BETA)</target>
         </trans-unit>
         <trans-unit id="Table 284821828 - Field 91764962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Invoice Extra</source>
