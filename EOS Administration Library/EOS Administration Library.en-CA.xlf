@@ -75,6 +75,10 @@
           <source>You need to call the initialize method first</source>
           <target>You need to call the initialize method first</target>
         </trans-unit>
+        <trans-unit id="Codeunit 421553356 - Method 1024226327 - NamedType 1915816412" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The column '%1' does not exist in the dataset.</source>
+          <target>The column '%1' does not exist in the dataset.</target>
+        </trans-unit>
         <trans-unit id="Enum 1977147216 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
           <target> </target>
@@ -82,6 +86,10 @@
         <trans-unit id="Enum 1977147216 - EnumValue 1523944866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Azure FileStorage</source>
           <target>Azure FileStorage</target>
+        </trans-unit>
+        <trans-unit id="Enum 1977147216 - EnumValue 3071698501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS FunctionApi</source>
+          <target>EOS FunctionApi</target>
         </trans-unit>
         <trans-unit id="Enum 4141036094 - EnumValue 1530796102 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prefer Cache</source>
@@ -263,6 +271,14 @@
           <source>Upload</source>
           <target>Upload</target>
         </trans-unit>
+        <trans-unit id="Page 136020747 - Control 1987941387 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Entry Type" field.</source>
+          <target>Specifies the value of the "Entry Type" field.</target>
+        </trans-unit>
+        <trans-unit id="Page 136020747 - Control 2702644459 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Service Configuration" field.</source>
+          <target>Specifies the value of the "Service Configuration" field.</target>
+        </trans-unit>
         <trans-unit id="Page 136020747 - Control 2702644459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Service Configuration</source>
           <target>Service Configuration</target>
@@ -283,9 +299,17 @@
           <source>AzFileShare Browser</source>
           <target>AzFileShare Browser</target>
         </trans-unit>
+        <trans-unit id="Page 1557268532 - Action 3398598583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Downloads the response payload.</source>
+          <target>Downloads the response payload.</target>
+        </trans-unit>
         <trans-unit id="Page 1557268532 - Action 3398598583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Response Data</source>
           <target>Response Data</target>
+        </trans-unit>
+        <trans-unit id="Page 1557268532 - Action 834443137 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Downloads the request payload.</source>
+          <target>Downloads the request payload.</target>
         </trans-unit>
         <trans-unit id="Page 1557268532 - Action 834443137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Request Data</source>
@@ -578,6 +602,14 @@
         <trans-unit id="Page 1820702909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Configuration</source>
           <target>Configuration</target>
+        </trans-unit>
+        <trans-unit id="Page 1974463259 - Control 139241664 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Result</source>
+          <target>Result</target>
+        </trans-unit>
+        <trans-unit id="Page 1974463259 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EAL FunctionApi Test</source>
+          <target>EAL FunctionApi Test</target>
         </trans-unit>
         <trans-unit id="Page 218545441 - Control 1090808402 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "URI" field.</source>
@@ -1175,6 +1207,10 @@
           <source>Available Import Handlers</source>
           <target>Available Import Handlers</target>
         </trans-unit>
+        <trans-unit id="Page 3124467794 - Action 3876018767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows all logged requests for this service configuration.</source>
+          <target>Shows all logged requests for this service configuration.</target>
+        </trans-unit>
         <trans-unit id="Page 3124467794 - Action 3876018767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Request Log</source>
           <target>Request Log</target>
@@ -1199,9 +1235,17 @@
           <source>Service Configuration List (EAL)</source>
           <target>Service Configuration List (EAL)</target>
         </trans-unit>
+        <trans-unit id="Page 324356450 - Control 1841348248 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Directory Name" field.</source>
+          <target>Specifies the value of the "Directory Name" field.</target>
+        </trans-unit>
         <trans-unit id="Page 324356450 - Control 1841348248 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Directory Name</source>
           <target>Directory Name</target>
+        </trans-unit>
+        <trans-unit id="Page 324356450 - Control 2093199745 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Filename" field.</source>
+          <target>Specifies the value of the "New Filename" field.</target>
         </trans-unit>
         <trans-unit id="Page 324356450 - Control 2093199745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Filename</source>
@@ -1210,6 +1254,10 @@
         <trans-unit id="Page 324356450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy File</source>
           <target>Copy File</target>
+        </trans-unit>
+        <trans-unit id="Page 345584352 - Action 3876018767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows all logged requests for this service configuration.</source>
+          <target>Shows all logged requests for this service configuration.</target>
         </trans-unit>
         <trans-unit id="Page 345584352 - Action 3876018767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Request Log</source>
@@ -1558,6 +1606,62 @@
         <trans-unit id="Page 508247371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Text Editor</source>
           <target>Text Editor</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 1547372878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitAssembleDocument" field</source>
+          <target>Specifies the value of the "PermitAssembleDocument" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 1600130735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitFormsFill" field</source>
+          <target>Specifies the value of the "PermitFormsFill" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 1754191946 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "UserPassword" field</source>
+          <target>Specifies the value of the "UserPassword" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 1792849445 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitExtractContent" field</source>
+          <target>Specifies the value of the "PermitExtractContent" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 2427251212 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitFullQualityPrint" field</source>
+          <target>Specifies the value of the "PermitFullQualityPrint" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 2652333354 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitPrint" field</source>
+          <target>Specifies the value of the "PermitPrint" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 2783289970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "OwnerPassword" field</source>
+          <target>Specifies the value of the "OwnerPassword" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Code" field</source>
+          <target>Specifies the value of the "Code" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Specifies the value of the "Description" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 3838890157 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitAnnotations" field</source>
+          <target>Specifies the value of the "PermitAnnotations" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 4099634048 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitAccessibilityExtractContent" field</source>
+          <target>Specifies the value of the "PermitAccessibilityExtractContent" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 4203934876 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "PermitModifyDocument" field</source>
+          <target>Specifies the value of the "PermitModifyDocument" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Control 760654531 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EncryptionLevel" field</source>
+          <target>Specifies the value of the "EncryptionLevel" field</target>
+        </trans-unit>
+        <trans-unit id="Page 976378563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>PDF Protect Settings (EAL)</source>
+          <target>PDF Protect Settings (EAL)</target>
         </trans-unit>
         <trans-unit id="Report 835935855 - Control 1371075560 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies on (optional) username you want to include in the mail being sent.</source>
@@ -2082,6 +2186,66 @@
         <trans-unit id="Table 9447464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>App Subscription Key</source>
           <target>App Subscription Key</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 1547372878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Assemble Document</source>
+          <target>Permit Assemble Document</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 1600130735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Forms Fill</source>
+          <target>Permit Forms Fill</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 1754191946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>User Password</source>
+          <target>User Password</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 1792849445 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Extract Content</source>
+          <target>Permit Extract Content</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 2427251212 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Full Quality Print</source>
+          <target>Permit Full Quality Print</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 2652333354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Print</source>
+          <target>Permit Print</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 2783289970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Owner Password</source>
+          <target>Owner Password</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 3838890157 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Annotations</source>
+          <target>Permit Annotations</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 4099634048 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Accessibility Extract Content</source>
+          <target>Permit Accessibility Extract Content</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 4203934876 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Permit Modify Document</source>
+          <target>Permit Modify Document</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Field 760654531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Encryption Level</source>
+          <target>Encryption Level</target>
+        </trans-unit>
+        <trans-unit id="Table 976378563 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS PDF Protect Settings</source>
+          <target>EOS PDF Protect Settings</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3494373056 - Method 2628296008 - NamedType 2024709530" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The record must be temporary.</source>
+          <target>The record must be temporary.</target>
         </trans-unit>
       </group>
     </body>
