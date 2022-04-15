@@ -105,7 +105,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2669425375 - NamedType 1485212386" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor</source>
-          <target>Verkäufer</target>
+          <target>Kreditor</target>
         </trans-unit>
         <trans-unit id="Codeunit 2669425375 - NamedType 2607354379" translate="yes" size-unit="char" xml:space="preserve">
           <source>Address Code</source>
@@ -113,7 +113,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2669425375 - NamedType 3629245473" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location</source>
-          <target>Lage</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Codeunit 2669425375 - NamedType 3940383577" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 No.</source>
@@ -125,7 +125,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2669425375 - NamedType 76061626" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer</source>
-          <target>Kunde</target>
+          <target>Debitor</target>
         </trans-unit>
         <trans-unit id="Codeunit 2685528051 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for CWS present! - this report cannot be generated!</source>
@@ -405,11 +405,11 @@
         </trans-unit>
         <trans-unit id="Enum 3207813406 - EnumValue 1936001480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor</source>
-          <target>Verkäufer</target>
+          <target>Kreditor</target>
         </trans-unit>
         <trans-unit id="Enum 3207813406 - EnumValue 1994964448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer</source>
-          <target>Kunde</target>
+          <target>Debitor</target>
         </trans-unit>
         <trans-unit id="Enum 3207813406 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item</source>
@@ -417,7 +417,7 @@
         </trans-unit>
         <trans-unit id="Enum 3207813406 - EnumValue 3891454143 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location</source>
-          <target>Lage</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Enum 3207813406 - EnumValue 633051610 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Family</source>
@@ -573,7 +573,7 @@
         </trans-unit>
         <trans-unit id="Page 1066988386 - Control 2205104606 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipment method code of the source document that the entry originates from.</source>
-          <target>Gibt den Versandmethodencode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
+          <target>Gibt den Lieferbdingungscode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
         </trans-unit>
         <trans-unit id="Page 1066988386 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the unit of measure code in the source document line.</source>
@@ -641,7 +641,7 @@
         </trans-unit>
         <trans-unit id="Page 1066988386 - Control 3877781200 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Customer,Vendor,Location</source>
-          <target> ,Kunde,Kreditor,Standort</target>
+          <target> ,Debitor,Kreditor,Standort</target>
         </trans-unit>
         <trans-unit id="Page 1066988386 - Control 3947555914 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if to show the lines for the filtered documents.</source>
@@ -653,7 +653,7 @@
         </trans-unit>
         <trans-unit id="Page 1066988386 - Control 4045368290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipping agent code of the source document that the entry originates from.</source>
-          <target>Gibt den Spediteurcode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
+          <target>Gibt den Zusteller des Herkunftsbelegs an, aus dem der Posten stammt.</target>
         </trans-unit>
         <trans-unit id="Page 1066988386 - Control 4085727052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Due Date" field.</source>
@@ -1285,7 +1285,7 @@
         </trans-unit>
         <trans-unit id="Page 1676407343 - Control 1753508619 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>-, ,Vendor,Contact</source>
-          <target>-, ,Verkäufer,Kontakt</target>
+          <target>-, ,Kreditor,Kontakt</target>
         </trans-unit>
         <trans-unit id="Page 1676407343 - Control 1787409580 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the group for combined source documents.</source>
@@ -1317,7 +1317,7 @@
         </trans-unit>
         <trans-unit id="Page 1676407343 - Control 2205104606 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipment method code of the source document that the entry originates from.</source>
-          <target>Gibt den Versandmethodencode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
+          <target>Gibt den Lieferbdingungscode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
         </trans-unit>
         <trans-unit id="Page 1676407343 - Control 2264810032 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipping agent's package number.</source>
@@ -1389,7 +1389,7 @@
         </trans-unit>
         <trans-unit id="Page 1676407343 - Control 4045368290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipping agent code of the source document that the entry originates from.</source>
-          <target>Gibt den Spediteurcode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
+          <target>Gibt den Zusteller des Herkunftsbelegs an, aus dem der Posten stammt.</target>
         </trans-unit>
         <trans-unit id="Page 1676407343 - Control 4239513174 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the gross weight.</source>
@@ -1445,7 +1445,7 @@
         </trans-unit>
         <trans-unit id="Page 1853056806 - Control 1474036805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer</source>
-          <target>Kunde</target>
+          <target>Debitor</target>
         </trans-unit>
         <trans-unit id="Page 1853056806 - Control 1570730336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the extended address for returned items.</source>
@@ -1673,7 +1673,7 @@
         </trans-unit>
         <trans-unit id="Page 2257669735 - Control 1847286443 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code Filter</source>
-          <target>Standortcodefilter</target>
+          <target>Lagerortfilter</target>
         </trans-unit>
         <trans-unit id="Page 2257669735 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the direction which the criteria applies to.</source>
@@ -1689,7 +1689,7 @@
         </trans-unit>
         <trans-unit id="Page 2257669735 - Control 212217008 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Customers,Customer,All Vendors,Vendor,All Locations,Location,None</source>
-          <target>Alle Kunden,Kunden,Alle Kreditoren, Kreditoren,Alle Standorte,Standort,Keine</target>
+          <target>Alle Debitoren,Kunden,Alle Kreditoren, Kreditoren,Alle Standorte,Standort,Keine</target>
         </trans-unit>
         <trans-unit id="Page 2257669735 - Control 2161572060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipment location code which the criteria applies to.</source>
@@ -1765,7 +1765,7 @@
         </trans-unit>
         <trans-unit id="Page 2257669735 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Customers</source>
-          <target>Alle Kunden</target>
+          <target>Alle Debitoren</target>
         </trans-unit>
         <trans-unit id="Page 2257669735 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Locations</source>
@@ -1853,7 +1853,7 @@
         </trans-unit>
         <trans-unit id="Page 2852744761 - Control 2205104606 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipment method code of the source document that the entry originates from.</source>
-          <target>Gibt den Versandmethodencode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
+          <target>Gibt den Lieferbdingungscode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
         </trans-unit>
         <trans-unit id="Page 2852744761 - Control 2306852000 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the address 2 to which the items should be shipped.</source>
@@ -1901,7 +1901,7 @@
         </trans-unit>
         <trans-unit id="Page 2852744761 - Control 4045368290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipping agent code of the source document that the entry originates from.</source>
-          <target>Gibt den Spediteurcode des Herkunftsbelegs an, aus dem der Posten stammt.</target>
+          <target>Gibt den Zusteller des Herkunftsbelegs an, aus dem der Posten stammt.</target>
         </trans-unit>
         <trans-unit id="Page 2852744761 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the customer, vendor, or location to which the items should be shipped.</source>
@@ -1997,7 +1997,7 @@
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 1225278069 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer No.</source>
-          <target>Kunden-Nr.</target>
+          <target>Debitor-Nr.</target>
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 1474036805 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the customer.</source>
@@ -2005,7 +2005,7 @@
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 1474036805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Name</source>
-          <target>Kundenname</target>
+          <target>Debitorname</target>
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 1527563463 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a document number that refers to the customer's or vendor's numbering system.</source>
@@ -2045,7 +2045,7 @@
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 2205104606 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the delivery conditions of the related shipment, such as free on board (FOB).</source>
@@ -2141,7 +2141,7 @@
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 4045368290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipping Agent Code</source>
-          <target>Spediteurcode</target>
+          <target>Zusteller</target>
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 4064815791 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the contact person at the customer's billing address.</source>
@@ -2189,7 +2189,7 @@
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 553464652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Code</source>
-          <target>Verkäufercode</target>
+          <target>Kreditorcode</target>
         </trans-unit>
         <trans-unit id="Page 3026148160 - Control 580412389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date when the related document was created.</source>
@@ -2377,7 +2377,7 @@
         </trans-unit>
         <trans-unit id="Page 3360196501 - Control 1753508619 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>-, ,Vendor,Contact</source>
-          <target>-, ,Verkäufer,Kontakt</target>
+          <target>-, ,Kreditor,Kontakt</target>
         </trans-unit>
         <trans-unit id="Page 3360196501 - Control 1814529864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies additional notes that are needed for this shipment.</source>
@@ -2553,7 +2553,7 @@
         </trans-unit>
         <trans-unit id="Page 3920918521 - Control 1847286443 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code Filter</source>
-          <target>Standortcodefilter</target>
+          <target>Lagerortfilter</target>
         </trans-unit>
         <trans-unit id="Page 3920918521 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the direction which the criteria applies to.</source>
@@ -2569,7 +2569,7 @@
         </trans-unit>
         <trans-unit id="Page 3920918521 - Control 212217008 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Customers,Customer,All Vendors,Vendor,All Locations,Location,None</source>
-          <target>Alle Kunden,Kunden,Alle Kreditoren, Kreditoren,Alle Standorte,Standort,Keine</target>
+          <target>Alle Debitoren,Debitor,Alle Kreditoren, Kreditoren,Alle Standorte,Standort,Keine</target>
         </trans-unit>
         <trans-unit id="Page 3920918521 - Control 2161572060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the shipment location code which the criteria applies to.</source>
@@ -2641,7 +2641,7 @@
         </trans-unit>
         <trans-unit id="Page 3920918521 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Customers</source>
-          <target>Alle Kunden</target>
+          <target>Alle Debitoren</target>
         </trans-unit>
         <trans-unit id="Page 3920918521 - NamedType 1327832897" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Locations</source>
@@ -3145,7 +3145,7 @@
         </trans-unit>
         <trans-unit id="Page 3957688898 - Control 3660300303 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the postal code of the customer's,vendor or location main address.</source>
-          <target>Gibt die Postleitzahl der Hauptadresse des Debitors, Desverkäufers oder Standorts an.</target>
+          <target>Gibt die Postleitzahl der Hauptadresse des Debitors, DesKreditors oder Standorts an.</target>
         </trans-unit>
         <trans-unit id="Page 3957688898 - Control 3660300303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post Code</source>
@@ -3261,7 +3261,7 @@
         </trans-unit>
         <trans-unit id="Page 3957688898 - Control 553464652 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which salesperson is associated with the shipment.</source>
-          <target>Gibt an, welcher Verkäufer der Lieferung zugeordnet ist.</target>
+          <target>Gibt an, welcher Kreditor der Lieferung zugeordnet ist.</target>
         </trans-unit>
         <trans-unit id="Page 3957688898 - Control 580412389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document date of the document.</source>
@@ -3353,7 +3353,7 @@
         </trans-unit>
         <trans-unit id="Page 4029234814 - Control 1753508619 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>-, ,Vendor,Contact</source>
-          <target>-, ,Verkäufer,Kontakt</target>
+          <target>-, ,Kreditor,Kontakt</target>
         </trans-unit>
         <trans-unit id="Page 4029234814 - Control 1814529864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies additional notes that are needed for this shipment.</source>
@@ -4601,7 +4601,7 @@
         </trans-unit>
         <trans-unit id="Report 331131604 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer No.    #1##########\</source>
-          <target>Kunden-Nr.    #1##########\</target>
+          <target>Debitor-Nr.    #1##########\</target>
         </trans-unit>
         <trans-unit id="Report 331131604 - NamedType 3797269194" translate="yes" size-unit="char" xml:space="preserve">
           <source>The shipments are now combined and the number of invoices created is %1.</source>
@@ -5029,7 +5029,7 @@
         </trans-unit>
         <trans-unit id="Table 2257669735 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 2257669735 - Field 2163457152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Type</source>
@@ -5037,7 +5037,7 @@
         </trans-unit>
         <trans-unit id="Table 2257669735 - Field 2163457152 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,All Customers,Customer,All Vendors,Vendor,All Locations,Location</source>
-          <target> ,Alle Kunden,Kunden,Alle Kreditoren,Kreditoren,Alle Standorte,Standort</target>
+          <target> ,Alle Debitoren,Debitor,Alle Kreditoren,Kreditoren,Alle Standorte,Standort</target>
         </trans-unit>
         <trans-unit id="Table 2257669735 - Field 266313003 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoicing Code</source>
@@ -5221,7 +5221,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 1908046867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Code</source>
-          <target>Begründungskodex</target>
+          <target>Ursachencode</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 192230326 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Notes</source>
@@ -5237,7 +5237,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 2163457152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Type</source>
@@ -5309,7 +5309,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 2730811709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipping Agent Service Code</source>
-          <target>Spediteur-Servicecode</target>
+          <target>Zustellertransportart</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 2743501653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ship-to Name</source>
@@ -5345,7 +5345,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 3043611838 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Vendor,Contact</source>
-          <target> ,Verkäufer,Kontakt</target>
+          <target> ,Kreditor,Kontakt</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 3088522385 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Net Weight</source>
@@ -5501,7 +5501,7 @@
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 553464652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Salesperson Code</source>
-          <target>Verkäufercode</target>
+          <target>Kreditorcode</target>
         </trans-unit>
         <trans-unit id="Table 2712100075 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
@@ -5649,7 +5649,7 @@
         </trans-unit>
         <trans-unit id="Table 2882937579 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 2882937579 - Field 2163457152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Type</source>
@@ -5677,7 +5677,7 @@
         </trans-unit>
         <trans-unit id="Table 2882937579 - Field 2730811709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipping Agent Service Code</source>
-          <target>Spediteur-Servicecode</target>
+          <target>Zustellertransportart</target>
         </trans-unit>
         <trans-unit id="Table 2882937579 - Field 2743501653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ship-to Name</source>
@@ -5885,7 +5885,7 @@
         </trans-unit>
         <trans-unit id="Table 3492267972 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 3492267972 - Field 2163457152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Type</source>
@@ -6121,11 +6121,11 @@
         </trans-unit>
         <trans-unit id="Table 3503909257 - Method 3056580049 - NamedType 1485212386" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor</source>
-          <target>Verkäufer</target>
+          <target>Kreditor</target>
         </trans-unit>
         <trans-unit id="Table 3503909257 - Method 3056580049 - NamedType 3629245473" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location</source>
-          <target>Lage</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 3503909257 - Method 3056580049 - NamedType 76061626" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer</source>
@@ -6213,7 +6213,7 @@
         </trans-unit>
         <trans-unit id="Table 3920918521 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 3920918521 - Field 2163457152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Type</source>
@@ -6221,7 +6221,7 @@
         </trans-unit>
         <trans-unit id="Table 3920918521 - Field 2163457152 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,All Customers,Customer,All Vendors,Vendor,All Locations,Location</source>
-          <target> ,Alle Kunden,Kunden,Alle Kreditoren,Kreditoren,Alle Standorte,Standort</target>
+          <target> ,Alle Debitoren,Debitor,Alle Kreditoren,Kreditoren,Alle Standorte,Standort</target>
         </trans-unit>
         <trans-unit id="Table 3920918521 - Field 2680873021 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination No.</source>
@@ -6333,7 +6333,7 @@
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location Code</source>
-          <target>Standortcode</target>
+          <target>Lagerort</target>
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 2163457152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Destination Type</source>
@@ -6369,7 +6369,7 @@
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 2613939104 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Vendor,Contact,,,,,Null</source>
-          <target> ,Verkäufer,Kontakt,,,,,Null</target>
+          <target> ,Kreditor,Kontakt,,,,,Null</target>
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 2637652840 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gross Weight</source>
@@ -6385,7 +6385,7 @@
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 2730811709 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipping Agent Service Code</source>
-          <target>Spediteur-Servicecode</target>
+          <target>Zustellertransportart</target>
         </trans-unit>
         <trans-unit id="Table 4156029917 - Field 2799143148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Goods Appearance</source>
