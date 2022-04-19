@@ -775,6 +775,14 @@
           <source>Job Structure Archive</source>
           <target>Archivierte Projektstruktur</target>
         </trans-unit>
+        <trans-unit id="EnumExtension 2819112643 - EnumValue 3790414227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Structure Line</source>
+          <target>Projektstrukturzeile</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2819112643 - EnumValue 4004474601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Structure</source>
+          <target>Projektstruktur</target>
+        </trans-unit>
         <trans-unit id="Page 1079552110 - Action 1059583194 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creates a skeleton job structure based on the schedule</source>
           <target>Erstellt eine Basisprojektstruktur aus diesem Terminplan</target>
@@ -4194,6 +4202,10 @@ Es werden erst Beträge angezeigt, wenn die Position verbraucht wurde, d.h. übe
           <source>Change Status</source>
           <target>Status ändern</target>
         </trans-unit>
+        <trans-unit id="Page 2429657013 - Action 1255503984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>&amp;Spare Parts Catalog</source>
+          <target>&amp;Ersatzteilkatalog</target>
+        </trans-unit>
         <trans-unit id="Page 2429657013 - Action 1281577543 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View of dimensions which are connected with this job structure</source>
           <target>Diese Aktion zeigt die mit der Projektstruktur verknüpften Dimensionen an.</target>
@@ -5080,6 +5092,10 @@ Sollte eine der Bedingungen nicht zutreffen, wird eine entsprechende Fehlermeldu
         <trans-unit id="Page 278747505 - Action 3352379330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>by Period</source>
           <target>Periode</target>
+        </trans-unit>
+        <trans-unit id="Page 278747505 - Action 3407506786 - Method 1377591017 - NamedType 869280556" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Forward,Backward</source>
+          <target>Vorwärts,Rückwärts</target>
         </trans-unit>
         <trans-unit id="Page 278747505 - Action 3407506786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This action calculates the dates of this grouping line</source>
@@ -10721,13 +10737,149 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>Date Filter</source>
           <target>Date Filter</target>
         </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1162943627" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Planning Date</source>
+          <target>Planungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1445758776" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1501802632" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Time</source>
+          <target>Soll Startzeit</target>
+        </trans-unit>
         <trans-unit id="Report 104360111 - NamedType 1638025467" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document No. : </source>
           <target>Belegnr.: </target>
         </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1677909139" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1744256226" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 1858084798" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2019431089" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2126763250" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2347269207" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2349940028" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2601519470" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2611748898" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2762825834" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
         <trans-unit id="Report 104360111 - NamedType 286059987" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creation Date:</source>
           <target>Errichtungsdatum:</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2878859701" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2893267674" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 2924512191" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3001314914" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3098451297" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3118124273" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3389798310" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3412890491" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3479387755" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3555386097" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3573702543" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 358755175" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 3641130364" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 391068181" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 4252168936" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 507253828" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 68067725" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 714052408" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 725086040" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 748241257" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 104360111 - NamedType 98828288" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Job Navigate</source>
+          <target>Projekt Navigate</target>
         </trans-unit>
         <trans-unit id="Report 104360111 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Navigate</source>
@@ -11064,6 +11216,10 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
         <trans-unit id="Report 2249886553 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Update Batch</source>
           <target>Projekt aktualisieren</target>
+        </trans-unit>
+        <trans-unit id="Report 2277564066 - NamedType 3228201837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Requirement Line List</source>
+          <target>Artieklverfügbarkeit Liste</target>
         </trans-unit>
         <trans-unit id="Report 2277564066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Requirement Line List</source>
@@ -11653,13 +11809,45 @@ Es werden bei der Belegerstellung keine Mengen kumuliert. Sollte also ein Ersatz
           <source>,Spare Part,Wearing Part,Spare + Wearing Part</source>
           <target>,Ersatzteil,Verschleißteil,Ersatz- + Verschleißteil</target>
         </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 1430198461" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit Price</source>
+          <target>VK-Preis</target>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 1516760969" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Startdatum</target>
+        </trans-unit>
         <trans-unit id="Report 585046009 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>COPY</source>
           <target>Kopieren</target>
         </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 2515212962" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Description</source>
+          <target>Artikelbeschreibung</target>
+        </trans-unit>
         <trans-unit id="Report 585046009 - NamedType 3405320530" translate="yes" size-unit="char" xml:space="preserve">
           <source>Spare Parts Catalog</source>
           <target>Ersatzteilkatalog</target>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 3631015043" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 3682003528" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Description 2</source>
+          <target>Artikelbeschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 3941476380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Category Code</source>
+          <target>Artikelkategoriencode</target>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 678100422" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Base Unit of Measure</source>
+          <target>Basiseinheitencode</target>
+        </trans-unit>
+        <trans-unit id="Report 585046009 - NamedType 718503396" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Enddatum</target>
         </trans-unit>
         <trans-unit id="Report 585046009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Spare Parts Catalog</source>
