@@ -71,10 +71,6 @@
           <source>Syhchronization in progess...\</source>
           <target>Syhchronización en progess...\</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3637856474 - Method 2991251750 - NamedType 3158492200" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The field %1 in the Vendor List is not visibile.</source>
-          <target>El campo %1 de la lista de proveedores no es visible.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 4082503734 - Method 125516161 - NamedType 2196498190" translate="yes" size-unit="char" xml:space="preserve">
           <source>You do not have the change status permissions. (EDS)\If you want to access to the page, you need the permission set "EOS EX003 EDS USR".</source>
           <target>No tiene los permisos de estado de cambio. (EDS)\Si desea acceder a la página necesita el conjunto de permisos "EOS EX003 EDS USR"</target>
@@ -122,6 +118,10 @@
         <trans-unit id="Codeunit 474459753 - NamedType 1190092648" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Registration check warning</source>
           <target>Advertencia de comprobación de registro de IVA</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 474459753 - NamedType 1208314119" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Unblock Item</source>
+          <target>Desbloqueo de ventas del artículo</target>
         </trans-unit>
         <trans-unit id="Codeunit 474459753 - NamedType 1322494233" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Registration check block</source>
@@ -215,6 +215,10 @@
           <source>Reopen Service Quote</source>
           <target>Volver a abrir la cotización de servicio</target>
         </trans-unit>
+        <trans-unit id="Codeunit 474459753 - NamedType 3090705485" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchasing Unblock Item</source>
+          <target>Comprar desbloquear artículo</target>
+        </trans-unit>
         <trans-unit id="Codeunit 474459753 - NamedType 3412055045" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check Vendor Dimensions</source>
           <target>Comprobar las dimensiones del proveedor</target>
@@ -283,9 +287,17 @@
           <source>Release Purchase Return Order</source>
           <target>Liberar pedido de devolución de compra</target>
         </trans-unit>
+        <trans-unit id="Codeunit 474459753 - NamedType 70492516" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchasing Block Item</source>
+          <target>Comprar artículo de bloque</target>
+        </trans-unit>
         <trans-unit id="Codeunit 474459753 - NamedType 712896632" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reopen Sales Blanket Order</source>
           <target>Volver a abrir el pedido de manta de ventas</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 474459753 - NamedType 784120546" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Block Item</source>
+          <target>Artículo de bloque de ventas</target>
         </trans-unit>
         <trans-unit id="Codeunit 474459753 - NamedType 808042327" translate="yes" size-unit="char" xml:space="preserve">
           <source>Release Purchase Invoice</source>
@@ -696,35 +708,35 @@
           <target>Líneas de texto de notificación EDS</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 1184412181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Value 2 field</source>
+          <source>Specifies the value of the "Value 2" field</source>
           <target>Especifica el valor del campo Valor 2</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 1334313545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the To Status field</source>
+          <source>Specifies the value of the "To Status" field</source>
           <target>Especifica el valor del campo Para estado</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 1682702926 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the From Status field</source>
+          <source>Specifies the value of the "From Status" field</source>
           <target>Especifica el valor del campo Desde estado</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Table ID field</source>
+          <source>Specifies the value of the "Table ID" field</source>
           <target>Especifica el valor del campo ID de tabla</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 3165189583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Table Option Type field</source>
+          <source>Specifies the value of the "Table Option Type" field</source>
           <target>Especifica el valor del campo Tipo de opción de tabla</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 3461589025 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the No of Preconditions field</source>
+          <source>Specifies the value of the "No of Preconditions" field</source>
           <target>Especifica el valor del campo No de condiciones previas</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 3531868071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Field No. field</source>
+          <source>Specifies the value of the "Field No." field</source>
           <target>Especifica el valor del campo No. Campo</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 546715564 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Value 1 field</source>
+          <source>Specifies the value of the "Value 1" field</source>
           <target>Especifica el valor del campo Valor 1</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 696389717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -732,7 +744,7 @@
           <target>Todas las comprobaciones se realizan en el valor del campo, no en la longitud.</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Control 823559016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Field Caption field</source>
+          <source>Specifies the value of the "Field Caption" field</source>
           <target>Especifica el valor del campo Título de campo</target>
         </trans-unit>
         <trans-unit id="Page 2136114817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
