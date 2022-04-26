@@ -95,6 +95,30 @@
           <source>Undefined</source>
           <target>Undefiniert</target>
         </trans-unit>
+        <trans-unit id="Enum 2475017878 - EnumValue 1187003046 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <target>Lieferadresse</target>
+        </trans-unit>
+        <trans-unit id="Enum 2475017878 - EnumValue 1936001480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor</source>
+          <target>Verkäufer</target>
+        </trans-unit>
+        <trans-unit id="Enum 2475017878 - EnumValue 1994964448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer</source>
+          <target>Kunde</target>
+        </trans-unit>
+        <trans-unit id="Enum 2475017878 - EnumValue 216800468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Order Address</source>
+          <target>Bestelladresse</target>
+        </trans-unit>
+        <trans-unit id="Enum 2475017878 - EnumValue 3891454143 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location</source>
+          <target>Ort</target>
+        </trans-unit>
+        <trans-unit id="Enum 2475017878 - EnumValue 3993128796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contact</source>
+          <target>Kontakt</target>
+        </trans-unit>
         <trans-unit id="Enum 2846614056 - EnumValue 178842400 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary unit of measure</source>
           <target>Sekundäre Maßeinheit</target>
@@ -647,10 +671,6 @@
           <source>Initialize Setup</source>
           <target>Einrichtung initialisieren</target>
         </trans-unit>
-        <trans-unit id="Page 15448575 - Control 2629609442 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Inv. Discount" field.</source>
-          <target>Gibt den Wert des Felds "Customer Inv. Discount" an.</target>
-        </trans-unit>
         <trans-unit id="Page 15448575 - Control 3072328793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Duty Stamp Source Code" field.</source>
           <target>Gibt den Wert für das Feld Duty Stamp Source Code an.</target>
@@ -861,7 +881,7 @@
         </trans-unit>
         <trans-unit id="Page 1561476091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Document Summary (PSU)</source>
-          <target>Einkaufsbelegzusammenfassung (PSU)</target>
+          <target>Zusammenfassung der Einkaufsbelegzeilen (PSU)</target>
         </trans-unit>
         <trans-unit id="Page 1637673556 - Control 1414214786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the account in a consolidated company to which to transfer credit balances on this account.</source>
@@ -1173,7 +1193,7 @@
         </trans-unit>
         <trans-unit id="Page 1741686471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Arch Document Summary (SSU)</source>
-          <target>Zusammenfassung des Sales Arch-Dokuments (SSU)</target>
+          <target>Zusammenfassung der Verkaufsarchivzeilen (SSU)</target>
         </trans-unit>
         <trans-unit id="Page 1790199920 - Action 1419059538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Load Defaults</source>
@@ -1465,7 +1485,7 @@
         </trans-unit>
         <trans-unit id="Page 2117260046 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Posted Credit Memo Summary (SSU)</source>
-          <target>Zusammenfassung der gebuchten Gutschrift (SSU)</target>
+          <target>Zusammenfasung der gebuchten Verkaufsgutschriften (SSU)</target>
         </trans-unit>
         <trans-unit id="Page 2452281662 - Action 1419059538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Load Defaults</source>
@@ -1651,6 +1671,46 @@
           <source>Sales Posted Invoice Summary (SSU)</source>
           <target>Zusammenfassung der gebuchten Verkaufsrechnung (SSU)</target>
         </trans-unit>
+        <trans-unit id="Page 269157571 - Control 1266564 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Latitude field.</source>
+          <target>Gibt den Wert des Felds Breitengrad an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 1270796821 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Longitude field.</source>
+          <target>Gibt den Wert des Felds Längengrad an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <target>Gibt den Wert des Felds Type an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 284764054 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Country/Region Code field.</source>
+          <target>Gibt den Wert des Felds Länder-/Regionscode an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <target>Gibt den Wert des Felds Code an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 3168444338 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Address field.</source>
+          <target>Gibt den Wert des Felds Adresse an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target>Gibt den Wert des Felds Beschreibung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 3660300303 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Post Code field.</source>
+          <target>Gibt den Wert des Felds Postleitzahl an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Control 714791889 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the City field.</source>
+          <target>Gibt den Wert des Felds Ort an.</target>
+        </trans-unit>
+        <trans-unit id="Page 269157571 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>GeoLocations</source>
+          <target>GeoLocations</target>
+        </trans-unit>
         <trans-unit id="Page 2702943228 - Control 1702594735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "ISTAT County Code" field.</source>
           <target>Gibt den Wert für das Feld EOS ISTAT County Code an.</target>
@@ -1797,7 +1857,7 @@
         </trans-unit>
         <trans-unit id="Page 2777301944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Return Receipt Summary (SSU)</source>
-          <target>Veröffentlichter Umsatz ausgesch. Rec. Zusammenfassung (SSU)</target>
+          <target>Zusammenfassung der gebuchten Verkaufsretourlieferungen (SSU)</target>
         </trans-unit>
         <trans-unit id="Page 2942866872 - Action 519512464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creates a new document using class document type and code.</source>
@@ -2097,7 +2157,7 @@
         </trans-unit>
         <trans-unit id="Page 344518480 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch. Rcpt. Summary (PSU)</source>
-          <target>Schnurren. Rcpt. Zusammenfassung (PSU)</target>
+          <target>Zusammenfassung der gebuchten Einkaufslieferungen (PSU)</target>
         </trans-unit>
         <trans-unit id="Page 35400042 - Action 1107476520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Show Document</source>
@@ -2361,7 +2421,7 @@
         </trans-unit>
         <trans-unit id="Page 3698745250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Ret. Ship. Summary (PSU)</source>
-          <target>Kaufen Ausf. Schiff. Zusammenfassung (PSU)</target>
+          <target>Zusammenfassung der gebuchten Einkaufsretourlieferungen (PSU)</target>
         </trans-unit>
         <trans-unit id="Page 3735106643 - Action 3432668166 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens list of related reason codes.</source>
@@ -2669,7 +2729,7 @@
         </trans-unit>
         <trans-unit id="Page 4201023086 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Cr. Memo Summary (PSU)</source>
-          <target>Cr. Memo Summary (PSU) kaufen</target>
+          <target>Zusammenfassung der Einkaufsgutschriften (PSU)</target>
         </trans-unit>
         <trans-unit id="Page 4249078977 - Action 3432668166 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens list of related reason codes.</source>
@@ -2981,7 +3041,7 @@
         </trans-unit>
         <trans-unit id="Page 869056148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Archive Summary (PSU)</source>
-          <target>Einkaufsarchivübersicht (PSU)</target>
+          <target>Zusammenfassung der Einkaufsarchivzeilen (PSU)</target>
         </trans-unit>
         <trans-unit id="Page 88782849 - Control 1526897239 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Direct Posting" field.</source>
@@ -4771,6 +4831,50 @@
           <source>Master Dimension Value</source>
           <target>Masterdimensionswert</target>
         </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 1266564 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Latitude</source>
+          <target>Breite</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 1270796821 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Longitude</source>
+          <target>Länge</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Art</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 2847409975 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source System Id</source>
+          <target>Quellsystem-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 284764054 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <target>Länder-/Regionscode</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 3168444338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Address</source>
+          <target>Adresse</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 3660300303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post Code</source>
+          <target>Postleitzahl</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Field 714791889 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>City</source>
+          <target>Stadt</target>
+        </trans-unit>
+        <trans-unit id="Table 4166884950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>GeoLocation</source>
+          <target>Geolokalisierung</target>
+        </trans-unit>
         <trans-unit id="Table 496572579 - Field 1426701159 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>User ID</source>
           <target>Benutzer-ID</target>
@@ -5035,21 +5139,9 @@
           <source>Secondary Unit of Measure Code</source>
           <target>Sekundär-Einheitencode</target>
         </trans-unit>
-        <trans-unit id="TableExtension 1159802225 - Field 1535078277 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Trans. Ord. Receipt (Sec.Qty.)</source>
-        </trans-unit>
-        <trans-unit id="TableExtension 1159802225 - Field 1627071528 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sec. Qty. in Transit</source>
-        </trans-unit>
         <trans-unit id="TableExtension 1159802225 - Field 1662612225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Price Calc. Method</source>
           <target>Kaufpreis Calc. Methode</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1159802225 - Field 2030280550 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity Calc. Method</source>
-        </trans-unit>
-        <trans-unit id="TableExtension 1159802225 - Field 2790915331 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Trans. Ord. Shipment (Sec.Qty.)</source>
         </trans-unit>
         <trans-unit id="TableExtension 1159802225 - Field 2857212653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Conai</source>
@@ -5058,12 +5150,6 @@
         <trans-unit id="TableExtension 1159802225 - Field 3594858348 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary Qty. Calc. Method</source>
           <target>Sekundäre Menge. Calc. Methode</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 1159802225 - Field 3691318733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sec. Qty. on Sales Order</source>
-        </trans-unit>
-        <trans-unit id="TableExtension 1159802225 - Field 69965763 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sec. Qty. on Purch. Order</source>
         </trans-unit>
         <trans-unit id="TableExtension 1159802225 - Field 816696135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Price Calc. Method</source>
