@@ -351,6 +351,10 @@
           <source>G/L entry no.          #1######## \</source>
           <target>Nr. movimento C/G.     #1######## \</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 1569402885" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update cancelled</source>
+          <target>Aggiornamento annullato</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
           <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <target>I conti economici verranno trasferiti alla contabilità analitica.\</target>
@@ -386,6 +390,10 @@
         <trans-unit id="Codeunit 3933426754 - NamedType 4058166956" translate="yes" size-unit="char" xml:space="preserve">
           <source>First, the link between cost type and G/L account will be checked.\\</source>
           <target>Verrà prima controllato il collegamento tra conto C/A e conto C/G.\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 4197248894" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Some G/L accounts are not linked to CA Accounts. Continue?</source>
+          <target>Alcuni conti CG non sono collegati ai conti CA. Continuare?</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 443342567" translate="yes" size-unit="char" xml:space="preserve">
           <source>Combined entries per day </source>
@@ -1781,6 +1789,10 @@
         <trans-unit id="Page 1807575381 - Control 460052557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use to combine entries. Then combine method avaliable are Balance and Sign</source>
           <target>Specifica il metodo da utilizzare per cumulare i movimenti. I metodi disponibili sono saldo e segno</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 820251883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the G/L account alignment is automatically executed when running G/L entries synchronization to C/A</source>
+          <target>Specifica se l'allineamento del conto CG viene eseguito automaticamente durante l'esecuzione della sincronizzazione dei movimenti CG con CA</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 867948701 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Cost Accounting Dimension</source>
@@ -6749,6 +6761,10 @@
         <trans-unit id="Table 1807575381 - Field 729024097 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch,On Line</source>
           <target>Batch,In linea</target>
+        </trans-unit>
+        <trans-unit id="Table 1807575381 - Field 820251883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Aligns accounts on G/L-C/A synchronization</source>
+          <target>Allinea i conti sulla sincronizzazione C/G-C/A</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 867948701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Accounting Dimension</source>

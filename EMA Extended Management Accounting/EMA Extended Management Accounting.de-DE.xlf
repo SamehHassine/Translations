@@ -351,6 +351,10 @@
           <source>G/L entry no.          #1######## \</source>
           <target>Fibuposten Laufnr.     #1######## \</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 1569402885" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update cancelled</source>
+          <target>Aktualisierung abgebrochen</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
           <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <target>Erfolgsrechnungsk. mit Kostenstelle oder Kostenträger werden in die Kostenrechnung übertragen.\</target>
@@ -386,6 +390,10 @@
         <trans-unit id="Codeunit 3933426754 - NamedType 4058166956" translate="yes" size-unit="char" xml:space="preserve">
           <source>First, the link between cost type and G/L account will be checked.\\</source>
           <target>Zuerst wird der Link zwischen der Kostenart und dem Fibukonto überprüft.\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 4197248894" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Some G/L accounts are not linked to CA Accounts. Continue?</source>
+          <target>Einige Sachkonten sind nicht mit CA-Konten verknüpft. Fortsetzen?</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 443342567" translate="yes" size-unit="char" xml:space="preserve">
           <source>Combined entries per day </source>
@@ -1694,6 +1702,10 @@
         <trans-unit id="Page 1807575381 - Control 460052557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use to combine entries. Then combine method avaliable are Balance and Sign</source>
           <target>Gibt an, welche Methode zum Kombinieren von Einträgen verwendet werden soll. Die verfügbaren Kombinationsmethoden sind Balance und Sign</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 820251883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the G/L account alignment is automatically executed when running G/L entries synchronization to C/A</source>
+          <target>Gibt an, ob der Sachkontenabgleich automatisch ausgeführt wird, wenn die Synchronisierung der Sachkonten mit C/A ausgeführt wird</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 867948701 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Cost Accounting Dimension</source>
@@ -6662,6 +6674,10 @@
         <trans-unit id="Table 1807575381 - Field 729024097 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch,On Line</source>
           <target>Batch,Online</target>
+        </trans-unit>
+        <trans-unit id="Table 1807575381 - Field 820251883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Aligns accounts on G/L-C/A synchronization</source>
+          <target>Richtet Konten auf G/L-C/A-Synchronisation aus</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 867948701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Accounting Dimension</source>
