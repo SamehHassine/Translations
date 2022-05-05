@@ -2243,6 +2243,10 @@
           <source>Specifies reason code related to advances.</source>
           <target>Gibt Ursachencode im Zusammenhang mit Vorschüssen an.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
+          <target>Gibt an, ob der Benutzer erzwingen kann, fortzufahren, wenn ein Fälligkeitsdatum in einem Debitorenbucheintrag geändert wird, der mit der Abrechnungsmethode "Fakturiert" behandelt wird.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Gibt an, wie Zeilen aktualisiert werden, wenn ein Verkäufer in der gelöschten Kopfseite. Zeilenwert beibehalten: Verkäufer in Zeilen wird nicht gelöscht. Aktualisierungszeilenwert: Verkäufer für eine bestimmte Rolle wird in der Belegzeile gelöscht. Kein Update: Verkäufer in Zeilen werden in keinem Fall aktualisiert.</target>
@@ -5271,6 +5275,14 @@
           <source>Year,Semester,Four Months,Quarter,Two Months,Month</source>
           <target>Jahr,Halbjahr,Vier Monaten,Quartal,Zwei Monaten,Monat</target>
         </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Periods will be generated starting from the chosen Starting Date day.</source>
+          <target>Zeiträume werden ab dem Startdatumstag generiert.</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Force Start Date</source>
+          <target>Startdatum erzwingen</target>
+        </trans-unit>
         <trans-unit id="Report 3348620094 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies date from which periods will be generated. It is always normalized to the first day of the period.</source>
           <target>Gibt das Datum an, ab dem Perioden generiert werden. Es wird immer bis zum ersten Tag der Periode normalisiert.</target>
@@ -6266,6 +6278,10 @@
         <trans-unit id="Table 3431204148 - Field 721514944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prepayment Reason Code</source>
           <target>Vorzahlungsgrundcode</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 757193492 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Due Date mod. on Settled Entries by Invoiced</source>
+          <target>Duldungsdatum mod. bei abgerechneten Buchungen durch fakturiert</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 763749129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Delete</source>
