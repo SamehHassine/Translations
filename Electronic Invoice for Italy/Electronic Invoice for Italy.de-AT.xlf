@@ -3899,6 +3899,10 @@
           <source>Specifies last file ID used (with AssisEdit you can simulate field increment)</source>
           <target>Gibt die letzte verwendete Datei-ID an (mit AssisEdit können Sie Feldinkremente simulieren)</target>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Control 1388030211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If checked, StabileOrganizzazione tag group will be exported taking data rom reference document customer.</source>
+          <target>Wenn diese Option aktiviert ist, wird die StabileOrganizzazione-Tag-Gruppe mit Daten aus dem Referenzdokumentkunden exportiert.</target>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Control 1767460216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies existing vendor which data will be used in DatiTrasmissione tags value</source>
           <target>Gibt den vorhandenen Kreditor an, welche Daten im Wert von DatiTrasmissione-Tags verwendet werden sollen.</target>
@@ -3958,6 +3962,10 @@
         <trans-unit id="Page 326399071 - Control 3221209962 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies from what date export will be only available in 1.6 format.</source>
           <target>Gibt an, ab welchem Datum der Export nur im 1.6-Format verfügbar ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 3301120062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If checked, StabileOrganizzazione tag group will be exported taking data rom reference document vendor.</source>
+          <target>Wenn diese Option aktiviert ist, wird die StabileOrganizzazione-Tag-Gruppe mit Daten aus dem Referenzdokumenthersteller exportiert.</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 3431188821 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which document header's field will be exported as Data tag</source>
@@ -5313,9 +5321,11 @@
         </trans-unit>
         <trans-unit id="Page 807332812 - Action 1812554682 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Imports from a file storage folder.</source>
+          <target>Importiert aus einem Dateispeicherordner.</target>
         </trans-unit>
         <trans-unit id="Page 807332812 - Action 1812554682 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import Folder</source>
+          <target>Dateiimportpfad</target>
         </trans-unit>
         <trans-unit id="Page 807332812 - Action 1979318928 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the import log page</source>
@@ -6464,6 +6474,10 @@
         <trans-unit id="PageExtension 1978659690 - Control 188824747 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if customer won't be included in electr. invoicing</source>
           <target>Gibt an, ob der Kunde nicht in elektr aufgenommen wird. Rechnungsstellung</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1978659690 - Control 2944953055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Direct VAT identification" field.</source>
+          <target>Gibt den Wert des Felds "Direkte Umsatzsteueridentifikation" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1978659690 - Control 4094955275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
@@ -10857,6 +10871,10 @@
           <source>Last File ID Used</source>
           <target>Letzte datei-ID verwendet</target>
         </trans-unit>
+        <trans-unit id="Table 326399071 - Field 1388030211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add StabileOrganizzazione tag (Sales)</source>
+          <target>StabileOrganizzazione-Tag (Sales) hinzufügen</target>
+        </trans-unit>
         <trans-unit id="Table 326399071 - Field 1767460216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transmitter Subject</source>
           <target>SoggettoEmittente</target>
@@ -10936,6 +10954,10 @@
         <trans-unit id="Table 326399071 - Field 3284030870 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Phone No.</source>
           <target>Telefonnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 3301120062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Add StabileOrganizzazione tag (Purchase)</source>
+          <target>Tag "StabileOrganizzazione" hinzufügen (Kauf)</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3424858131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fax No.</source>
@@ -11571,6 +11593,7 @@
         </trans-unit>
         <trans-unit id="Table 4260823758 - Field 4124557667 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ref. Line No</source>
+          <target>Ref. Zeile Nr.</target>
         </trans-unit>
         <trans-unit id="Table 4260823758 - Field 422810026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Importo</source>
@@ -12339,6 +12362,10 @@
         <trans-unit id="TableExtension 224321661 - Field 188824747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Electr. Doc. Management</source>
           <target>Kein Elektr. Doc. Management</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 224321661 - Field 2944953055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Direct VAT identification</source>
+          <target>Direkte Umsatzsteuer-Identifikation</target>
         </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 766113513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document Format</source>
