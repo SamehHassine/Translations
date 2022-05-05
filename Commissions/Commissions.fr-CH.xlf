@@ -2047,6 +2047,10 @@
           <source>Specifies if sales network management in enabled. If not, you will be able to insert salespersons directly on customers and documents.</source>
           <target>Spécifie si la gestion du réseau de vente est activée. Si ce n’est pas le cas, vous pourrez insérer des vendeurs directement sur les clients et les documents.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1181343548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation</source>
+          <target>Ventilation</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 134968084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to incentives.</source>
           <target>Spécifie le code de raison lié aux incitations.</target>
@@ -2131,6 +2135,10 @@
           <source>Specifies if handle cost allocation for salesperson with settlement method Invoiced.</source>
           <target>Spécifie si gérer l’allocation des coûts pour le vendeur avec la méthode de règlement facturée.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3143121453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Batch Name" field.</source>
+          <target>Spécifie la valeur du champ « Nom du lot d’allocation ».</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3145626574 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Spécifie comment mettre à jour les lignes lorsqu’un vendeur du côté de l’en-tête inséré ou modifié. Conserver la valeur de la ligne : si un rôle spécifique existe déjà, aucune mise à jour ; s’il n’existe pas, un nouveau rôle sera inséré pour la ligne. Valeur de la ligne de mise à jour : le vendeur pour un rôle spécifique sera mis à jour sur la ligne de document. Pas de mise à jour : les vendeurs sur les lignes ne seront pas mis à jour dans tous les cas.</target>
@@ -2178,6 +2186,10 @@
         <trans-unit id="Page 3431204148 - Control 3732922845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the number series that will be used when creating settlement purchase invoices.</source>
           <target>Spécifie le code de la série de numéros qui sera utilisé lors de la création de factures d’achat de règlement.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3739791073 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Template Name" field.</source>
+          <target>Spécifie la valeur du champ « Nom du modèle d’allocation ».</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3752409441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to advance corrections.</source>
@@ -2242,6 +2254,10 @@
         <trans-unit id="Page 3431204148 - Control 721514944 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to advances.</source>
           <target>Spécifie le code de raison lié aux avances.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
+          <target>Spécifie si lorsqu’une date d’échéance est modifiée sur une entrée du grand livre client liée à une entrée de commission de règlement réglée/en cours qui est gérée avec la méthode de règlement « Facturé », l’utilisateur peut forcer à continuer.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
@@ -4995,6 +5011,14 @@
           <source>Customer No.</source>
           <target>Numéro du client</target>
         </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if cost allocation will be done in simulated.</source>
+          <target>Spécifie si la répartition des coûts sera effectuée en simulation.</target>
+        </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Simulated</source>
+          <target>Simulé</target>
+        </trans-unit>
         <trans-unit id="Report 2202383737 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
           <target>Spécifie si une page récapitulative avec journal d’exécution doit être ouverte à la fin du processus.</target>
@@ -5072,11 +5096,11 @@
           <target>%1 Lignes de journal créées. Voulez-vous ouvrir la page batch ?</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3223221533" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1, reason code %2</source>
+          <source>Commission cost allocation at %3: salesperson %1, reason code %2</source>
           <target>Répartition des coûts de la Commission : vendeur %1, code de raison %2</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3316647387" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1</source>
+          <source>Commission cost allocation at %2: salesperson %1</source>
           <target>Répartition des coûts de la Commission : vendeur %1</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - NamedType 1979758965" translate="yes" size-unit="char" xml:space="preserve">
@@ -5270,6 +5294,14 @@
         <trans-unit id="Report 3348620094 - Control 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Year,Semester,Four Months,Quarter,Two Months,Month</source>
           <target>Année, Semestre, Quatre Mois, Trimestre, Deux Mois, Mois</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Periods will be generated starting from the chosen Starting Date day.</source>
+          <target>Les périodes seront générées à partir du jour de la date de début.</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Force Start Date</source>
+          <target>Date de début de la force</target>
         </trans-unit>
         <trans-unit id="Report 3348620094 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies date from which periods will be generated. It is always normalized to the first day of the period.</source>
@@ -6191,6 +6223,10 @@
           <source>Cost Allocation on Invoiced</source>
           <target>Répartition des coûts sur facture</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3143121453 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Batch Name</source>
+          <target>Nom du lot d’allocation</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3145626574 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Insert</source>
           <target>Mise à jour à partir de l’en-tête de commande - Insérer</target>
@@ -6231,6 +6267,10 @@
           <source>Settlem. Invoice Nos.</source>
           <target>Le calme. Numéro de facture.</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3739791073 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Template Name</source>
+          <target>Nom du modèle d’allocation</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3752409441 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Correction Prepayment Reason Code</source>
           <target>Correction Code de raison de remboursement anticipé</target>
@@ -6266,6 +6306,10 @@
         <trans-unit id="Table 3431204148 - Field 721514944 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prepayment Reason Code</source>
           <target>Code de raison de paiement anticipé</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 757193492 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Due Date mod. on Settled Entries by Invoiced</source>
+          <target>Autoriser le mod de date d’échéance. sur les entrées réglées par Invoiced</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 763749129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Delete</source>
@@ -6508,8 +6552,8 @@
           <target>Affichage datetime</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1603722892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal DateTime</source>
-          <target>Journal DateTime</target>
+          <source>Journal User</source>
+          <target>Utilisateur du journal</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1606787976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Entry No. To</source>
