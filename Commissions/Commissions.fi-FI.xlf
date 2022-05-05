@@ -2243,6 +2243,10 @@
           <source>Specifies reason code related to advances.</source>
           <target>Määrittää ennakkomaksuihin liittyvän syykoodin.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
+          <target>Määrittää, voiko käyttäjä pakottaa jatkamaan, kun eräpäivää muokataan asiakastapahtumassa, joka liittyy tilitettyyn tilitys- tai tilitysprovisiotapahtumaan, jota käsitellään Laskutettu-tilitysmenetelmällä.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Määrittää, miten rivit päivitetään, kun myyjä on poistettu otsikkopuolella. Säilytä rivin arvo: rivien myyjää ei poisteta. Päivitä rivin arvo: tietyn roolin myyjä poistetaan asiakirjariviltä. Ei päivitystä: rivien myyjää ei päivitetä missään tapauksessa.</target>
@@ -4995,6 +4999,14 @@
           <source>Customer No.</source>
           <target>Asiakkaan nro</target>
         </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if cost allocation will be done in simulated.</source>
+          <target>Määrittää, tehdäänkö kustannusten kohdistus simuloituna.</target>
+        </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Simulated</source>
+          <target>Simuloitu</target>
+        </trans-unit>
         <trans-unit id="Report 2202383737 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
           <target>Määrittää, onko yhteenvetosivu, jossa on suoritusloki, avattava prosessin lopussa.</target>
@@ -5270,6 +5282,14 @@
         <trans-unit id="Report 3348620094 - Control 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Year,Semester,Four Months,Quarter,Two Months,Month</source>
           <target>Vuosi,Lukukausi,Neljä kuukautta,Neljännes,Kaksi kuukautta,Kuukausi</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Periods will be generated starting from the chosen Starting Date day.</source>
+          <target>Kaudet luodaan aloituspvm-päivästä alkaen.</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Force Start Date</source>
+          <target>Pakota alkamispäivä</target>
         </trans-unit>
         <trans-unit id="Report 3348620094 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies date from which periods will be generated. It is always normalized to the first day of the period.</source>
@@ -6267,6 +6287,10 @@
           <source>Prepayment Reason Code</source>
           <target>Ennakkomaksun syykoodi</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 757193492 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Due Date mod. on Settled Entries by Invoiced</source>
+          <target>Salli eräpäivä -mod. selvitetyissä tapahtumissa laskutetun mukaan</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 763749129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Delete</source>
           <target>Päivitä tilauksen otsikosta - Poista</target>
@@ -6508,8 +6532,8 @@
           <target>KirjausPvmTime</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1603722892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal DateTime</source>
-          <target>Kirjauskansion datetime</target>
+          <source>Journal User</source>
+          <target>Kirjauskansion käyttäjä</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1606787976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Entry No. To</source>

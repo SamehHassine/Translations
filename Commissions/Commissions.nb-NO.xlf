@@ -2243,6 +2243,10 @@
           <source>Specifies reason code related to advances.</source>
           <target>Angir årsakskode knyttet til forskudd.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
+          <target>Angir om brukeren kan tvinge til å fortsette når en forfallsdato endres i en kundepost som er knyttet til en utlignet/i utligningsprovisjonspost som håndteres med utligningsmetoden Fakturert.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Angir hvordan du oppdaterer linjer når en selger i slettet topptekstside. Behold linjeverdi: selger på linjer slettes ikke. Oppdater linjeverdi: selger for bestemt rolle slettes på dokumentlinjen. Ingen oppdatering: selgere på linjer oppdateres ikke i alle fall.</target>
@@ -4995,6 +4999,14 @@
           <source>Customer No.</source>
           <target>Kundenr.</target>
         </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if cost allocation will be done in simulated.</source>
+          <target>Angir om kostnadsfordelingen skal utføres i simulert.</target>
+        </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Simulated</source>
+          <target>Simulert</target>
+        </trans-unit>
         <trans-unit id="Report 2202383737 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
           <target>Angir om en sammendragsside med kjørelogg må åpnes på slutten av prosessen.</target>
@@ -5270,6 +5282,14 @@
         <trans-unit id="Report 3348620094 - Control 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Year,Semester,Four Months,Quarter,Two Months,Month</source>
           <target>År, semester, fire måneder, kvartal, to måneder,måned</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Periods will be generated starting from the chosen Starting Date day.</source>
+          <target>Perioder genereres fra og med startdatodagen.</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Force Start Date</source>
+          <target>Fremtving startdato</target>
         </trans-unit>
         <trans-unit id="Report 3348620094 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies date from which periods will be generated. It is always normalized to the first day of the period.</source>
@@ -6267,6 +6287,10 @@
           <source>Prepayment Reason Code</source>
           <target>Årsakskode for forskuddsbetaling</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 757193492 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Due Date mod. on Settled Entries by Invoiced</source>
+          <target>Tillat forfallsdato mod. i utlignede poster etter fakturert</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 763749129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Delete</source>
           <target>Oppdater fra ordrehode - Slett</target>
@@ -6508,8 +6532,8 @@
           <target>Bokføring av datetime</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1603722892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal DateTime</source>
-          <target>Journal DateTime</target>
+          <source>Journal User</source>
+          <target>Logg bruker</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1606787976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Entry No. To</source>

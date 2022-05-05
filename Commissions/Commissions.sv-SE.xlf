@@ -2243,6 +2243,10 @@
           <source>Specifies reason code related to advances.</source>
           <target>Anger orsakskod som är relaterad till förskott.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
+          <target>Anger om när ett förfallodatum ändras på en kundreskontratransaktion relaterad till en kvittningstransaktion/i kvittningsprovisionstransaktion som hanteras med "Fakturerad" kvittningsmetod, kan användaren tvinga till att fortsätta.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 763749129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in deleted header side. Keep line value: saleperson on lines will not be deleted. Update Line value: salesperson for specific role will be deleted on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Anger hur du uppdaterar rader när en säljare i borttaget huvudsida. Behåll radvärde: säljare på rader tas inte bort. Uppdateringsradens värde: säljare för specifik roll tas bort på dokumentraden. Ingen uppdatering: säljare på rader uppdateras inte i alla fall.</target>
@@ -4995,6 +4999,14 @@
           <source>Customer No.</source>
           <target>Kundnr</target>
         </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if cost allocation will be done in simulated.</source>
+          <target>Anger om kostnadsallokering ska göras i simulerad.</target>
+        </trans-unit>
+        <trans-unit id="Report 2202383737 - Control 1900508061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Simulated</source>
+          <target>Simulerade</target>
+        </trans-unit>
         <trans-unit id="Report 2202383737 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
           <target>Anger om en sammanfattningssida med körningsloggen måste öppnas i slutet av processen.</target>
@@ -5270,6 +5282,14 @@
         <trans-unit id="Report 3348620094 - Control 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Year,Semester,Four Months,Quarter,Two Months,Month</source>
           <target>År,Termin,Fyra månader,Kvartal,Två månader,Månad</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Periods will be generated starting from the chosen Starting Date day.</source>
+          <target>Perioder genereras från och med startdatumet.</target>
+        </trans-unit>
+        <trans-unit id="Report 3348620094 - Control 4089668197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Force Start Date</source>
+          <target>Startdatum för tvinga</target>
         </trans-unit>
         <trans-unit id="Report 3348620094 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies date from which periods will be generated. It is always normalized to the first day of the period.</source>
@@ -6267,6 +6287,10 @@
           <source>Prepayment Reason Code</source>
           <target>Orsakskod för förskottsbetalning</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 757193492 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allow Due Date mod. on Settled Entries by Invoiced</source>
+          <target>Tillåt modden förfallodatum. på kvittade transaktioner efter fakturerad</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 763749129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Delete</source>
           <target>Uppdatera från orderhuvudet - Ta bort</target>
@@ -6508,8 +6532,8 @@
           <target>Bokföring av DateTime</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1603722892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Journal DateTime</source>
-          <target>Journal DateTime</target>
+          <source>Journal User</source>
+          <target>Journalanvändare</target>
         </trans-unit>
         <trans-unit id="Table 374655194 - Field 1606787976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Entry No. To</source>
