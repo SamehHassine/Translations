@@ -2343,6 +2343,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - NamedType CalculationPriorityErr</note>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3143121453 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allocation Batch Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Allocation Batch Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3739791073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allocation Template Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Allocation Template Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 2064834118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Priority 1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2417,6 +2427,11 @@
           <source>Allow Due Date mod. on Settled Advance Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Mod. on Settl. Adv. Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 757193492 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Due Date mod. on Settled Entries by Invoiced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Mod. on Settl. Entries Inv. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 4098063865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No Sales Comm. Calc. on Release/Posting</source>
@@ -6763,6 +6778,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Mod. on Settl. Adv. Entries - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 757193492 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement commission entry that is handled with "Invoiced" settlement method, user can force to proceed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Mod. on Settl. Entries Inv. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 2036521682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>When salesperson is changed on document header</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6927,6 +6947,21 @@
           <source>Sales</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Sales - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1181343548 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allocation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Allocation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3143121453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Batch Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Allocation Batch Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3739791073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Template Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Allocation Template Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3026111617 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if handle cost allocation for salesperson with settlement method Invoiced.</source>
@@ -8049,12 +8084,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method OnPreReport - NamedType NotEmpryJnlQst</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3223221533" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1, reason code %2</source>
+          <source>Commission cost allocation at %3: salesperson %1, reason code %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method WrtiteTMPJnlLine - NamedType DescrTxt</note>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3316647387" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1</source>
+          <source>Commission cost allocation at %2: salesperson %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Cost Allocation - Method WrtiteTMPJnlLine - NamedType Descr2Txt</note>
         </trans-unit>

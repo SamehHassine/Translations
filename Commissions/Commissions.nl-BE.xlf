@@ -2047,6 +2047,10 @@
           <source>Specifies if sales network management in enabled. If not, you will be able to insert salespersons directly on customers and documents.</source>
           <target>Hiermee geeft u op of verkoopnetwerkbeheer is ingeschakeld. Zo niet, dan u verkopers rechtstreeks op klanten en documenten invoegen.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1181343548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation</source>
+          <target>Verdeelsleutel</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 134968084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to incentives.</source>
           <target>Hiermee geeft u redencode op die betrekking heeft op incentives.</target>
@@ -2131,6 +2135,10 @@
           <source>Specifies if handle cost allocation for salesperson with settlement method Invoiced.</source>
           <target>Hiermee geeft u op of de kostentoewijzing voor verkopers met de gefactureerde vereffeningsmethode worden verwerkt.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3143121453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Batch Name" field.</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Batchnaam toewijzen'.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3145626574 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Hiermee geeft u op hoe u regels bijwerkt wanneer een verkoper in ingevoegde of gewijzigde koptekstzijde wordt ingevoegd. Regelwaarde behouden: als er al een specifieke rol bestaat, is er geen update; als dit niet bestaat, wordt er een nieuwe rol ingevoegd voor de regel. Regelwaarde bijwerken: verkoper voor specifieke rol wordt bijgewerkt op documentregel. Geen update: verkopers op regels worden in ieder geval niet bijgewerkt.</target>
@@ -2178,6 +2186,10 @@
         <trans-unit id="Page 3431204148 - Control 3732922845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the number series that will be used when creating settlement purchase invoices.</source>
           <target>Hiermee geeft u de code op van de nummerreeks die wordt gebruikt bij het maken van inkoopfacturen voor vereffeningsgegevens.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3739791073 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Template Name" field.</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Naam toewijzingssjabloon'.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3752409441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to advance corrections.</source>
@@ -5084,11 +5096,11 @@
           <target>%1 Journaalregels gemaakt. Wilt u batchpagina openen?</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3223221533" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1, reason code %2</source>
+          <source>Commission cost allocation at %3: salesperson %1, reason code %2</source>
           <target>Kostentoerekening commissie: verkoper %1, redencode %2</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3316647387" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1</source>
+          <source>Commission cost allocation at %2: salesperson %1</source>
           <target>Kostentoerekening commissie: verkoper %1</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - NamedType 1979758965" translate="yes" size-unit="char" xml:space="preserve">
@@ -6211,6 +6223,10 @@
           <source>Cost Allocation on Invoiced</source>
           <target>Kostentoewijzing op gefactureerd</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3143121453 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Batch Name</source>
+          <target>Batchnaam toewijzen</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3145626574 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Insert</source>
           <target>Update van orderheader - Invoegen</target>
@@ -6250,6 +6266,10 @@
         <trans-unit id="Table 3431204148 - Field 3732922845 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlem. Invoice Nos.</source>
           <target>Settlem. Factuur nos.</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3739791073 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Template Name</source>
+          <target>Naam toewijzingssjabloon</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3752409441 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Correction Prepayment Reason Code</source>

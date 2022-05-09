@@ -2047,6 +2047,10 @@
           <source>Specifies if sales network management in enabled. If not, you will be able to insert salespersons directly on customers and documents.</source>
           <target>Gibt an, ob die Vertriebsnetzwerkverwaltung aktiviert ist. Ist dies nicht der Fall, können Sie Verkäufer direkt auf Debitoren und Belege einfügen.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 1181343548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation</source>
+          <target>Verteilung</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 134968084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to incentives.</source>
           <target>Gibt den Ursachencode für Incentives an.</target>
@@ -2131,6 +2135,10 @@
           <source>Specifies if handle cost allocation for salesperson with settlement method Invoiced.</source>
           <target>Gibt an, ob die Kostenzuordnung für Verkäufer mit der Ausgleichsmethode Fakturiert behandelt wird.</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3143121453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Batch Name" field.</source>
+          <target>Gibt den Wert des Felds "Zuordnungsbatchname" an.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3145626574 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to update lines when a salesperson in inserted or modified header side. Keep line value: if specific role already exists, no update; if does not exists, new role will be inserted for the line. Update Line value: salesperson for specific role will be updated on document line. No Update: salespersons on lines won't be updated in any case.</source>
           <target>Gibt an, wie Zeilen aktualisiert werden, wenn ein Verkäufer in der eingefügten oder geänderten Kopfseite ist. Zeilenwert beibehalten: Wenn eine bestimmte Rolle bereits vorhanden ist, keine Aktualisierung; Wenn nicht vorhanden ist, wird eine neue Rolle für die Zeile eingefügt. Aktualisierungszeilenwert: Verkäufer für eine bestimmte Rolle wird in der Belegzeile aktualisiert. Kein Update: Verkäufer in Zeilen werden in keinem Fall aktualisiert.</target>
@@ -2178,6 +2186,10 @@
         <trans-unit id="Page 3431204148 - Control 3732922845 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the number series that will be used when creating settlement purchase invoices.</source>
           <target>Gibt den Code der Nummernserie an, die beim Erstellen von Ausgleichseinkaufsrechnungen verwendet wird.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3739791073 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Allocation Template Name" field.</source>
+          <target>Gibt den Wert des Felds "Zuordnungsvorlagenname" an.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3752409441 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies reason code related to advance corrections.</source>
@@ -5001,9 +5013,11 @@
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 1900508061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if cost allocation will be done in simulated.</source>
+          <target>Gibt an, ob die Kostenzuordnung simuliert erfolgen soll.</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 1900508061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Simulated</source>
+          <target>Simuliert</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
@@ -5082,11 +5096,11 @@
           <target>%1 Journalzeilen erstellt. Möchten Sie die Stapelseite öffnen?</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3223221533" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1, reason code %2</source>
+          <source>Commission cost allocation at %3: salesperson %1, reason code %2</source>
           <target>Kostenzuweisung der Kommission: Verkäufer %1, Ursachencode %2</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - Method 665435082 - NamedType 3316647387" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commission cost allocation: salesperson %1</source>
+          <source>Commission cost allocation at %2: salesperson %1</source>
           <target>Kostenverteilung der Kommission: Verkäufer %1</target>
         </trans-unit>
         <trans-unit id="Report 2202383737 - NamedType 1979758965" translate="yes" size-unit="char" xml:space="preserve">
@@ -6209,6 +6223,10 @@
           <source>Cost Allocation on Invoiced</source>
           <target>Kostenzuordnung für Fakturierte</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3143121453 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Batch Name</source>
+          <target>Name des Zuordnungsstapels</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3145626574 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update From Order Header - Insert</source>
           <target>Aktualisieren aus Auftragskopf - Einfügen</target>
@@ -6248,6 +6266,10 @@
         <trans-unit id="Table 3431204148 - Field 3732922845 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlem. Invoice Nos.</source>
           <target>EK-Abrechnungsrechnungsnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3739791073 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocation Template Name</source>
+          <target>Name der Zuordnungsvorlage</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3752409441 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Correction Prepayment Reason Code</source>
