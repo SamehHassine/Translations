@@ -15,6 +15,10 @@
           <source>Generate all plafond movements for this VAT identifier (%1)?</source>
           <target>Wolle Sie alle Plafond-Posten für MwSt.-Id (%1) generieren?</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2317004690 - NamedType 1080791398" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Entry Analysis in progress\@1@@@@@@@@@@@@@@</source>
+          <target>Analyse der Umsatzsteuererfassung in Arbeit\@1 @@@@@@@@@@@@@@</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2488446996 - Method 2595010497 - NamedType 593697739" translate="yes" size-unit="char" xml:space="preserve">
           <source>The %1 must have a %2 because at least one other line on this document has a %2.</source>
           <target>%1 muss eine %2 haben, da mindestens eine andere Zeile auf diesem Beleg eine %2 hat.</target>
@@ -223,6 +227,118 @@
           <source>Select VAT Exemption</source>
           <target>Dich. d'Intento auswählen</target>
         </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 1592581304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Amounts</source>
+          <target>Beträge berechnen</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 3602709280 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Clear Lines</source>
+          <target>Klare Linien</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 587448222 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show VAT Entries</source>
+          <target>Umsatzsteuer-Einträge anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1037401361 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Base from VAT Settlement</source>
+          <target>Nicht abzugsfähige Basis von der Mehrwertsteuerabrechnung</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1076509073 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Code</source>
+          <target>MwSt.-Register-Code</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1246077090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT %</source>
+          <target>MwSt. %</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1278430807 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Amount from VAT Register</source>
+          <target>abzugsfähiger Betrag aus dem Umsatzsteuerregister</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1316195450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Amount from VAT Settlement</source>
+          <target>Nicht abzugsfähiger Betrag von der Mehrwertsteuerabrechnung</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1589386854 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Type Filter</source>
+          <target>Filter für den Typ des Mehrwertsteuerregisters</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1589386854 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase,Sale, </source>
+          <target>Kauf, Verkauf, </target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2534656220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <target>Umsatzsteuer-ID</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2593905520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Description</source>
+          <target>Beschreibung des Umsatzsteuerregisters</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2625850675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Amount from VAT Settlement</source>
+          <target>Abzugsfähiger Betrag von der Mehrwertsteuerabrechnung</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filter</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2977475786 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Identifier Description</source>
+          <target>Beschreibung der Umsatzsteuer-ID</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3000963108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible %</source>
+          <target>Selbstbehalt %</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3072134294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Amount from VAT Register</source>
+          <target>Nicht abzugsfähiger Betrag aus dem Umsatzsteuerregister</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3161596229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End Date Filter</source>
+          <target>Enddatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3182922080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start Date Filter</source>
+          <target>Filter für Startdatum</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3187484028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Base from VAT Settlement</source>
+          <target>abzugsfähige Bemessungsgrundlage von der Mehrwertsteuerabrechnung</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3573676582 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Type</source>
+          <target>Art des MwSt.-Registers</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 4151075965 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Base from VAT Register</source>
+          <target>Nicht abzugsfähige Bemessungsgrundlage aus dem Mehrwertsteuerregister</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 4262959878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Filter</source>
+          <target>Filter für Umsatzsteuerregister</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 475914988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Identifier Filter</source>
+          <target>Filter für Umsatzsteuer-IDs</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 971814160 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Base from VAT Register</source>
+          <target>abzugsfähige Bemessungsgrundlage aus dem MwSt.-Register</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - NamedType 1577297050" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Both Date filter fields must be filled.</source>
+          <target>Beide Datumsfilterfelder müssen ausgefüllt werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - NamedType 2149120301" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Type Filter must be filled before VAT Register Filter</source>
+          <target>MwSt.-Register-Typfilter muss vor dem MwSt.-Register-Filter gefüllt sein</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Settlement (VMI)</source>
+          <target>Umsatzsteuerabrechnung (VMI)</target>
+        </trans-unit>
         <trans-unit id="Page 2638965362 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Navigate</source>
           <target>Navigate</target>
@@ -230,6 +346,10 @@
         <trans-unit id="Page 2638965362 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Plafond Entries</source>
           <target>MwSt.-Plafondposten</target>
+        </trans-unit>
+        <trans-unit id="Page 2881598899 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settlement VAT Entry Lookup</source>
+          <target>Abrechnung der Mehrwertsteuererfassung</target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 1080201040 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enable Pro-Rata" field.</source>
@@ -1826,6 +1946,70 @@
         <trans-unit id="Table 2050529027 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Plafond Period</source>
           <target>MwSt.-Plafond Periode</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1352985018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Register Code</source>
+          <target>EOS Umsatzsteuer-Identifikationsnummer</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1533255961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT %</source>
+          <target>EOS MwSt. %</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1755748607 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Base from VAT Settl.</source>
+          <target>Abziehen. Bemessungsgrundlage aus MwSt.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1964878052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDed. Base from VAT Settl.</source>
+          <target>Nicht Ded. Bemessungsgrundlage aus MwSt.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 2732440041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Identifier Description</source>
+          <target>EOS VAT Identifier Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 3265550843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Identifier</source>
+          <target>EOS Umsatzsteuer-Identifikationsnummer</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 3386168223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Register Description</source>
+          <target>EOS Umsatzsteuerregister Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 3808370428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeduct. Base from VAT Reg.</source>
+          <target>Ohne Abzug. Bemessungsgrundlage aus der MwSt.-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 4216960531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Deductible %</source>
+          <target>EOS Selbstbehalt %</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 4228984834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Amount from VAT Reg.</source>
+          <target>Abziehen. Betrag aus der USt-IdNr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 550728845 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Register Type</source>
+          <target>EOS Umsatzsteuer-Register-Typ</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 624081208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Amount from VAT Settl.</source>
+          <target>Abziehen. Betrag aus MwSt.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 702221205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDed. Amount from VAT Reg.</source>
+          <target>Nicht Ded. Betrag aus der USt-IdNr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 938985001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Base from VAT Reg.</source>
+          <target>Abziehen. Bemessungsgrundlage aus der MwSt.-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 946490043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDed. Amount from VAT Settl.</source>
+          <target>Nicht Ded. Betrag aus MwSt.</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Settlement</source>
+          <target>EOS Umsatzsteuerabrechnung</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 1066680167 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Book Progressive No.</source>
