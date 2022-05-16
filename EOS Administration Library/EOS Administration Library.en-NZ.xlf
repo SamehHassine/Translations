@@ -3,6 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="en-NZ" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1168058614 - NamedType 2059604429" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Failed to convert value %1 to type %2</source>
+          <target>Failed to convert value %1 to type %2</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1745136382 - NamedType 132209800" translate="yes" size-unit="char" xml:space="preserve">
           <source>The import ID '%1' is not valid.</source>
           <target>The import ID '%1' is not valid.</target>
@@ -603,14 +607,6 @@
           <source>Configuration</source>
           <target>Configuration</target>
         </trans-unit>
-        <trans-unit id="Page 1974463259 - Control 139241664 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Result</source>
-          <target>Result</target>
-        </trans-unit>
-        <trans-unit id="Page 1974463259 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EAL FunctionApi Test</source>
-          <target>EAL FunctionApi Test</target>
-        </trans-unit>
         <trans-unit id="Page 218545441 - Control 1090808402 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "URI" field.</source>
           <target>Specifies the value of the "URI" field.</target>
@@ -1166,6 +1162,46 @@
         <trans-unit id="Page 2722091032 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Environment data</source>
           <target>Environment data</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Action 1207395983 - Method 1377591017 - NamedType 1430361714" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This feature is already enabled!</source>
+          <target>This feature is already enabled!</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Action 1207395983 - Method 1377591017 - NamedType 1661310742" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want enable this feature? This cannot be undone!\Feature Description: %1</source>
+          <target>Do you want enable this feature? This cannot be undone!\Feature Description: %1</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Action 1207395983 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Execute the action Enable Feature</source>
+          <target>Execute the action Enable Feature</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Action 1207395983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Feature</source>
+          <target>Enable Feature</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Control 2453272523 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SystemModifiedAt" field</source>
+          <target>Specifies the value of the "SystemModifiedAt" field</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Control 2891538263 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Enabled" field</source>
+          <target>Specifies the value of the "Enabled" field</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Description" field</source>
+          <target>Specifies the value of the "Description" field</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Control 596019230 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "SystemModifiedBy" field</source>
+          <target>Specifies the value of the "SystemModifiedBy" field</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Control 596019230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Modified By</source>
+          <target>Modified By</target>
+        </trans-unit>
+        <trans-unit id="Page 2957385406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Feature Management (EAL)</source>
+          <target>Feature Management (EAL)</target>
         </trans-unit>
         <trans-unit id="Page 3028492883 - Control 2217932318 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Name" field.</source>
@@ -1970,6 +2006,18 @@
         <trans-unit id="Table 2616482008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>JSON Import Buffer</source>
           <target>JSON Import Buffer</target>
+        </trans-unit>
+        <trans-unit id="Table 2957385406 - Field 2891538263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enabled</source>
+          <target>Enabled</target>
+        </trans-unit>
+        <trans-unit id="Table 2957385406 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 2957385406 - Field 415504711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Id</source>
+          <target>Id</target>
         </trans-unit>
         <trans-unit id="Table 345584352 - Field 1878130204 - Method 2126772001 - NamedType 568271540" translate="yes" size-unit="char" xml:space="preserve">
           <source>If you change '%1', all existing settings will be lost.\Continue?</source>
