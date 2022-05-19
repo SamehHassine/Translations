@@ -2225,7 +2225,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 4041734053 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how to behave when a due date is modified on a customer ledger entry related to a commission entry.</source>
-          <target>Specifica come comportarsi quando una data di scadenza è modificata in un movimento contabile cliente correlato a un movimento provvigione non liquidato/in liquidazione. Se il movimento correlato è liquidato/in liquidazione la modifica è sempre inibita.</target>
+          <target>Specifica come comportarsi quando una data di scadenza è modificata in un movimento contabile cliente correlato a un movimento provvigione non liquidato/in liquidazione. Se il movimento correlato è liquidato/in liquidazione la modifica è sempre inibita se il metodo di liquidazione è diverso da Fatturato. In caso di fatturato, la modifica deve essere espressamente abilitata tramite relativo flag in questa sezione.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 4098063865 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the commission does not be calculated on posting.</source>
