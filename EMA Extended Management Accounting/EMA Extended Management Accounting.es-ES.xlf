@@ -351,6 +351,10 @@
           <source>G/L entry no.          #1######## \</source>
           <target>Entrada de mayor no.          #1######## \</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 1569402885" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update cancelled</source>
+          <target>Actualización cancelada</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" translate="yes" size-unit="char" xml:space="preserve">
           <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
           <target>Las cuentas de estado de cuenta con centro de coste u objeto de coste se transferirán a la contabilidad de costes.\</target>
@@ -386,6 +390,10 @@
         <trans-unit id="Codeunit 3933426754 - NamedType 4058166956" translate="yes" size-unit="char" xml:space="preserve">
           <source>First, the link between cost type and G/L account will be checked.\\</source>
           <target>En primer lugar, se comprobará el vínculo entre el tipo de coste y la cuenta de mayor.\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 4197248894" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Some G/L accounts are not linked to CA Accounts. Continue?</source>
+          <target>Algunas cuentas de mayor no están vinculadas a cuentas de CA. ¿Continuar?</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 443342567" translate="yes" size-unit="char" xml:space="preserve">
           <source>Combined entries per day </source>
@@ -1694,6 +1702,10 @@
         <trans-unit id="Page 1807575381 - Control 460052557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use to combine entries. Then combine method avaliable are Balance and Sign</source>
           <target>Especifica qué método utilizar para combinar entradas. A continuación, combine el método avalable son Balance y Sign</target>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 820251883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if the G/L account alignment is automatically executed when running G/L entries synchronization to C/A</source>
+          <target>Especifica si la alineación de la cuenta del L/M se ejecuta automáticamente cuando se ejecuta la sincronización de entradas del L/M con C/A.</target>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 867948701 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Cost Accounting Dimension</source>
@@ -4411,10 +4423,6 @@
           <source>Transfer unit cost from C/A analysis tariff</source>
           <target>Actualizar el costo unitario de la tarifa de análisis de C/A</target>
         </trans-unit>
-        <trans-unit id="PageExtension 1643684395 - Control 986416288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
-          <target>Especifica un número de clase de coste para establecer a qué tipo de coste pertenece una cuenta de contabilidad general.</target>
-        </trans-unit>
         <trans-unit id="PageExtension 1774700381 - Control 1422467687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies an account that you can use as a filter to define what is displayed in the Analysis by Dimensions window.</source>
           <target>Especifica una cuenta que puede usar como filtro para definir lo que se muestra en la ventana Análisis por dimensiones.</target>
@@ -4430,10 +4438,6 @@
         <trans-unit id="PageExtension 1774700381 - Control 719917558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the last c/a ledger entry you posted, prior to updating the analysis view.</source>
           <target>Especifica el número del último movimiento c/a registrado, antes de actualizar la vista de análisis.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 1783004618 - Control 986416288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
-          <target>Especifica un número de clase de coste para establecer a qué tipo de coste pertenece una cuenta de contabilidad general.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3225531796 - Action 337701643 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Production Volumes</source>
@@ -6662,6 +6666,10 @@
         <trans-unit id="Table 1807575381 - Field 729024097 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch,On Line</source>
           <target>Lote, en línea</target>
+        </trans-unit>
+        <trans-unit id="Table 1807575381 - Field 820251883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Aligns accounts on G/L-C/A synchronization</source>
+          <target>Alinea cuentas en sincronización G/L-C/A</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 867948701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Accounting Dimension</source>
@@ -9739,10 +9747,6 @@
           <source>C/A Budget Filter</source>
           <target>Filtro de presupuesto de C/A</target>
         </trans-unit>
-        <trans-unit id="TableExtension 2210345071 - Field 986416288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>C/A Account No.</source>
-          <target>Cuenta de C/A No.</target>
-        </trans-unit>
         <trans-unit id="TableExtension 2316993817 - Field 1422467687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Account Source</source>
           <target>Fuente de la cuenta de EOS</target>
@@ -9778,10 +9782,6 @@
         <trans-unit id="TableExtension 2316993817 - Method 4118242957 - NamedType 225200001" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not applicable for source type %2.</source>
           <target>%1 no es aplicable para el tipo de fuente %2.</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 2880424959 - Field 986416288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>C/A Account No.</source>
-          <target>Cuenta de C/A No.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2995621085 - Field 1510001031 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Analysis Entry</source>

@@ -3578,6 +3578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - NamedType Text018Lbl</note>
         </trans-unit>
+        <trans-unit id="Table 1807575381 - Field 820251883 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Aligns accounts on G/L-C/A synchronization</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - Field EOS Align acc. on GL-CA synch - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1651282235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Align G/L Account</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5357,6 +5362,16 @@
           <source>The raised message is not the expected one. The actual message is: [%1], while the expected message is: [%2].</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType UnexpectedMessageError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 1569402885" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Transfer Entries To C/A - NamedType ErrCancel</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3933426754 - NamedType 4197248894" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Some G/L accounts are not linked to CA Accounts. Continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Transfer Entries To C/A - NamedType GLCASyncConf</note>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1745287229" size-unit="char" translate="yes" xml:space="preserve">
           <source>Income statement accounts with cost center or cost object will be transferred to cost accounting.\</source>
@@ -8612,6 +8627,11 @@
           <source>General</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Setup - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1807575381 - Control 820251883 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if the G/L account alignment is automatically executed when running G/L entries synchronization to C/A</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Setup - Control EOS Align acc. on GL-CA synch - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1807575381 - Control 1651282235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies how changes in the chart of accounts are carried over to the chart of cost account.</source>
@@ -12208,16 +12228,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS Machine Center Card 2 EXT - Action EOS Standard Production Volume - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1783004618 - Control 986416288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1637673556">
-          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS MDI GL Account Card EXT - Control EOS Cost Account No. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1643684395 - Control 986416288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 88782849">
-          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS MDI GL Accounts EXT - Control EOS Cost Account No. - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3339316080 - Action 337701643 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2250812146">
           <source>Standard Production Volumes</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12313,11 +12323,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS Column Layout EXT - Field EOS C/A Analisys Code - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 2210345071 - Field 986416288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4274826855">
-          <source>C/A Account No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS G/L Account EXT - Field EOS Cost Account No. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 1522630467 - Field 731633520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2081973434">
           <source>C/A Budgeted Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12332,11 +12337,6 @@
           <source>C/A Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS GL Entry EXT - Field EOS CA Entry No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 2880424959 - Field 986416288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 990077888">
-          <source>C/A Account No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS MDI G/L Account EXT - Field EOS Cost Account No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4085879451 - Field 3082526597 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1014327116">
           <source>C/A No.</source>
