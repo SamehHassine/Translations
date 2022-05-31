@@ -1628,6 +1628,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - NamedType PricePriorityEqErr</note>
         </trans-unit>
+        <trans-unit id="Table 284821828 - Field 3823202604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Recalculation Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - Field Disc. Recalc. Method - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 284821828 - Field 2492814959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount Invoice 1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1647,16 +1652,6 @@
           <source>Enable Application Unc. Canvass Discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - Field En. Applic. Unc. Canv. Disc. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 284821828 - Field 753406659 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enable New Price List (BETA)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - Field Enable New Price List (BETA) - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 284821828 - Field 753406659 - Method 2126772001 - NamedType 4004541573" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Are you sure to enable this feature? This is currently in BETA</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Promotion Setup - Field Enable New Price List (BETA) - Method OnValidate - NamedType SureLbl</note>
         </trans-unit>
         <trans-unit id="Table 284821828 - Field 2554314332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable SFA Discount</source>
@@ -3713,6 +3708,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Sales Price Line - Item - Field User ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2617200809 - Field 3450651614 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS049 Sales Price Line - Item - Field Variant Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2115244942 - NamedType 1772493744" size-unit="char" translate="yes" xml:space="preserve">
           <source>Free Version</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4017,6 +4017,21 @@
           <source>%1 %2 is greater than %3 and was adjusted to %4.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Sales Pr. SFA Calc. Mgt - NamedType Text018Lbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 411364763 - Method 1276461206 - NamedType 1821882869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete manual and recalculate,Keep manual and recalculate,Do not recalculate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Sales Pr. SFA Calc. Mgt - Method CalculateDiscounts - NamedType RecalcMenuLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 411364763 - Method 1276461206 - NamedType 2178194061" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Choose the discount recalculation method:</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Sales Pr. SFA Calc. Mgt - Method CalculateDiscounts - NamedType RecalcMenuTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 411364763 - Method 1276461206 - NamedType 634653880" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You need to choose the discount recalculation method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS049 Sales Pr. SFA Calc. Mgt - Method CalculateDiscounts - NamedType RecalcMenuErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 411364763 - Method 4111934011 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have selected %1 %2 with %3 %4.\Selected discounts have not been applied.</source>
@@ -6618,6 +6633,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Promotion Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 284821828 - Control 3823202604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Discount Recalculation Method" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Promotion Setup - Control Disc. Recalc. Method - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 284821828 - Control 2492814959 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discount Invoice 1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6637,11 +6657,6 @@
           <source>En. Applic. Unc. Canv. Disc.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Promotion Setup - Control En. Applic. Unc. Canv. Disc. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 284821828 - Control 753406659 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Enable New Price List (BETA)" field</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Promotion Setup - Control Enable New Price List (BETA) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 284821828 - Control 2554314332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable SFA Discount</source>
@@ -9234,12 +9249,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Sales Discounts SFA - Control StartingDateFilter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1236462650 - Action 3635338911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Price</source>
+          <source>Discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Sales Discounts SFA - Action Price - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1236462650 - Action 3635338911 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Price</source>
+          <source>Discount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Sales Discounts SFA - Action Price - Property Caption</note>
         </trans-unit>
@@ -10232,6 +10247,11 @@
           <source>User ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Sales Price Item Subf. - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3106472444 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS049 Sales Price Item Subf. - Control Variant Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3106472444 - Action 4247615141 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item</source>
@@ -11647,6 +11667,26 @@
           <source>Item Promotion Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Discount Item Type - EnumValue Item Promotion Group - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 270840260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ask always</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Discount Recalc. Method - EnumValue Ask always - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 2170762157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete manual and recalculate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Discount Recalc. Method - EnumValue Delete manual and recalculate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 2930982159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do not recalculate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Discount Recalc. Method - EnumValue Do not recalculate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3376439878 - EnumValue 1514282299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Keep manual and recalculate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS049 Discount Recalc. Method - EnumValue Keep manual and recalculate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1559735206 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
