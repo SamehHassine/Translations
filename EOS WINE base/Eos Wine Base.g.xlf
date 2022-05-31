@@ -493,6 +493,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Sales Ass. Mgt. - Method ApplySalesAssEntry - NamedType NotEnoughQtyError</note>
         </trans-unit>
+        <trans-unit id="Codeunit 354055094 - Method 3631810962 - NamedType 3259705315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous outputs already used.\Please adjust the quantity.\Quantity to revert: %1\Remaining quantity: %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method CanRevertPosting - NamedType PartialOutputErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 354055094 - Method 3631810962 - NamedType 753022568" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must post output before revert it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method CanRevertPosting - NamedType EntriesNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 354055094 - Method 3631810962 - NamedType 2796254828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to do.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method CanRevertPosting - NamedType NothingToDoErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 354055094 - Method 2861102497 - NamedType 1526044065" size-unit="char" translate="yes" xml:space="preserve">
           <source>Not enough qty. in inventory for component %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -502,6 +517,21 @@
           <source>Sum of %1 is greather than 100</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method CheckWineTreatment - NamedType ProdCostAssError</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 354055094 - Method 3873191438 - NamedType 2059966479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Treatment already posted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method NotifyIfWineTreatmentCannotBePosted - NamedType AlreadyPostedLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 354055094 - Method 3873191438 - NamedType 3617865962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Treatment posted and can not be reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method NotifyIfWineTreatmentCannotBePosted - NamedType AlreadyPostedCannotRevertLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 354055094 - Method 3873191438 - NamedType 1617535272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This treatment can not be posted because one or more adjustment followed by an output reverse exists.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method NotifyIfWineTreatmentCannotBePosted - NamedType AlreadyPostedCannotPostLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 354055094 - Method 1145172291 - NamedType 2851643857" size-unit="char" translate="yes" xml:space="preserve">
           <source>It is not possible to do multiple posting operation for a wine treatment. You have to create a new one.</source>
