@@ -248,40 +248,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Authorization Tenant - Field Token Endpoint - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1071073578 - Method 574424193 - NamedType 2231451690" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 functionality has been moved to M365 Base. Do not use!</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Table Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Method ObsoleteTable - NamedType xFunctionalityHasBeenMovedToBaseDoNotUseErr</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Entry No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Entry No. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Field 2263966853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Link Table Id</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Link Table Id - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Field 2530295428 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Link Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Link Type - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Field 2104648824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Primary</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Primary - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Field 2007641260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>System Id</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field System Id - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1071073578 - Field 2066789741 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Table Id</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Field Table Id - Property Caption</note>
+        <trans-unit id="Table 1071073578 - Method 511434699 - NamedType 2538070731" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique Links only allow one link to another Entity in %1 (System ID: %2).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Existing Record Identifier; %2 = New System Id</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Entity Link - Method CheckForDuplicateUniqueLink - NamedType uniqueLinksOnlyAllowOneLinkToAnotherEntityInXSystemIdYErr</note>
         </trans-unit>
         <trans-unit id="Table 3905825255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entity Page Link</source>
@@ -367,6 +337,156 @@
           <source>User ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 General Log Buffer - Field User Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 73012638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 73012638 - Field 1256520770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Log - Field App Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 73012638 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Log - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 73012638 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Log - Field Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 73012638 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Log - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Register</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>City</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Company Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 1372465934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Name 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Company Name 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 243748095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact Person</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Contact Person - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Country/Region Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Country/Region Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 499448942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>County</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field County - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 1541011875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field E-Mail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 2495133697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Phone Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 3660300303 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 1668694013 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field Primary key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4140671585 - Field 617267791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Register - Field VAT Registration No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 973508248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Trial</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Trial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 973508248 - Field 3834798520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Trial - Field App Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 973508248 - Field 1256520770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Trial - Field App Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 973508248 - Field 1516002245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial Available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Trial - Field Trial Available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 973508248 - Field 199697538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial Days Left</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 License Trial - Field Trial Days Left - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Feature</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Field 3834798520 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Field App Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Field 3543273187 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feature Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Field Feature Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Field 3673444989 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Field License Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Field 876870234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Licenses</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Field No. of Licenses - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Field 1958442700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valid from</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Field Valid from - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2002835490 - Field 2479044655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Valid to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Licensed Feature - Field Valid to - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1476074695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Temp Media</source>
@@ -513,11 +633,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Credential Storage - Method LookupCredentialName - NamedType theCredentialStoreIsEmptyWouldYouLikeToAddANewCredentialQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 377934790 - NamedType 3827927491" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1, %2 (%3)</source>
-          <note from="Developer" annotates="general" priority="2">%1 = App Name; %2 = App Publisher; %3 = App Version</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Entitlement Mgt. Impl. - NamedType AppTitleTxt</note>
-        </trans-unit>
         <trans-unit id="Codeunit 377934790 - NamedType 544433905" size-unit="char" translate="yes" xml:space="preserve">
           <source>Contact Support</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -587,6 +702,171 @@
           <source>Not all fields could be matched into %1. Remaining: %2</source>
           <note from="Developer" annotates="general" priority="2">%1 = Record Identifier; %2 = Key Value</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Json Helper - Method MapObjectToRecord - NamedType notAllFieldsCouldBeMatchedIntoXRemainingYErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1752607402 - NamedType 2966779086" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your demo license for this app will expire in %1 days.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of license days left</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckDemoLicense - NamedType demoLicenseExpiresLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1085497765 - NamedType 195725185" size-unit="char" translate="yes" xml:space="preserve">
+          <source>An App with the specified id could not be found,</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckIsLicensed - NamedType appNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1085497765 - NamedType 3366268575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The license for feature %1 of has expired %2 days ago. You are currently in the grace period. Please get an updated license.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Feature, %2 = Number of days</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckIsLicensed - NamedType gracePeriodLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1085497765 - NamedType 3351972643" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The license for feature %1 will expire in %2 days. Make sure to get an updated license in time.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Feature, %2 = Days Left</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckIsLicensed - NamedType licenseExpiresLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2271820079 - NamedType 4162252192" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tenant id hash does not match client %1, license %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Client Hash, %2 = License Hash</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckLicense - NamedType tenantIdErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2271820079 - NamedType 4294212121" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License number hash does not match client %1, license %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Client Hash, %2 = License Hash</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckLicense - NamedType licenseNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2271820079 - NamedType 4265844548" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to validate the signature of passed license.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CheckLicense - NamedType invalidSignatureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2296950834 - NamedType 610468619" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error mapping license register data to json.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CreateCustomerInfoJson - NamedType mappingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2296950834 - NamedType 1453662637" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not all mandatory fields for registration are filled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method CreateCustomerInfoJson - NamedType mandatoryFieldsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1923465887 - NamedType 3949163753" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Feature %1 is not licensed.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Feature Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method IsLicensed - NamedType errorTextLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1923465887 - NamedType 1141652378" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to gather a current license</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method IsLicensed - NamedType noCurrentLicenseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3380864385 - NamedType 3352467393" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No feature key found in the license.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method ReadLicenseFromJson - NamedType noFeatureKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3380864385 - NamedType 2666842040" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No warning period found in the license.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method ReadLicenseFromJson - NamedType noWarningPeriodKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3380864385 - NamedType 1481765072" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No grace period found in the license.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method ReadLicenseFromJson - NamedType noGracePeriodKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3380864385 - NamedType 3659555596" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No features in feature array in the license.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method ReadLicenseFromJson - NamedType noFeatureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3380864385 - NamedType 3157271780" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error mapping feature array to licensed feature table.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method ReadLicenseFromJson - NamedType mapArrayErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 1834834463 - NamedType 3625783106" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Registration Flag found in Isolated Storage. The customer is not registered.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method RefreshLicenseFromServer - NamedType noPasswordInISErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 4149417275 - NamedType 670212850" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request failed with code %1. Function Register</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Error Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method Register - NamedType requestRegisterFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 4149417275 - NamedType 4000474801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request Register failed with code %1. Reason: %2, Response %3</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Http-Code, %2 = Reason, %3 = Response</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method Register - NamedType requestFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2582700646 - NamedType 3625783106" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Register flag found in Isolated Storage. Most likely the registeration is not completed. Function RequestLicense</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method RequestLicense - NamedType noPasswordInISErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2582700646 - NamedType 1480667089" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error trying to execute Post Request. Function RequestLicense</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method RequestLicense - NamedType execPostRequestErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2582700646 - NamedType 4000474801" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request failed with code %1. Function RequestLicense</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Error Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method RequestLicense - NamedType requestFailedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 2582700646 - NamedType 2029339496" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error getting content off the response</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method RequestLicense - NamedType contentErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3283066691 - NamedType 533196220" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open License Registration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method SendNotification - NamedType licenseRegistrationLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3362064884 - NamedType 1081627246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload License...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method UploadLicense - NamedType titleLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3362064884 - NamedType 518938498" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error importing file %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Filename</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method UploadLicense - NamedType fileImportErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3362064884 - NamedType 1623822393" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid license %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Filename</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method UploadLicense - NamedType invalidLicenseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3362064884 - NamedType 1509513584" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error reading license %1</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Filename</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method UploadLicense - NamedType readLicenseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3035480039 - Method 3362064884 - NamedType 2895591099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License uploaded successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Management - Method UploadLicense - NamedType successLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1692808361 - Method 2055744627 - NamedType 1119028135" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error trying to remove old license.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Storage - Method SetLicense - NamedType removeLicErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 687449654 - Method 2802319835 - NamedType 2199743948" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no transactions left for feature %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Feature Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Type Transaction - Method IsEntryLicensed - NamedType noTransactionsLeftErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 687449654 - Method 2802319835 - NamedType 750731078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are only %1 transactions left in your license for feature %2..</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Number of remaining transactions, %2 = Feature Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 License Type Transaction - Method IsEntryLicensed - NamedType fewTransactionsLeftLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2723234543 - Method 2802319835 - NamedType 1829660127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The license type %1 is not implemented in this version of the Foundation app. Please update your Foundation app or contact us about your license.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = License Type</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 LicenseType Not Impl. - Method IsEntryLicensed - NamedType licenseTypeNotImplementedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2030207806 - Method 4198150208 - NamedType 284030774" size-unit="char" translate="yes" xml:space="preserve">
           <source>All files (*.*)|*.*</source>
@@ -1308,6 +1588,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Html Preview - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1591981828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integers</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Integers - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1591981828 - Control 2272340397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>The Integer number.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1563,6 +1848,286 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Json Object Matrix - Action ShowRawData - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 73012638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Log - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 73012638 - Control 1683930818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the referenced App if available.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Log - Control AppName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 73012638 - Control 404483104 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of the log entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Log - Control EntryType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 73012638 - Control 3080618677 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the logged message.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Log - Control Message - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 73012638 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specified when the log entry was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Log - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>M365 MODUS License Register</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 3168444338 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the address of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 714791889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the city of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 552006252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control CompanyName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 2365107958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the second name of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control CompanyName2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 3184179895 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the person of the company to contact for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control ContactPerson - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 2292808279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country or region code of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control CountryRegionCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 499448942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the country of the company to register for licensing purposes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control County - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 1472620112 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the e-mail of the person to contact for licensing purposes</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control EMail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 3188453662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the license number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control LicenseNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 3188453662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control LicenseNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 555300569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the phone number of the person to contact for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control PhoneNumber - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 3374398455 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the post code of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control PostCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 1789995035 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the tenant id.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control TenantId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 1789995035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tenant Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control TenantId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Control 258288245 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vat registration number of the company to register for licensing purposes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Control VATRegistrationNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 3458465836 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows all MODUS Consult Apps and enables the user to start a trial period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action AvailableTrials - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 3458465836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Available Trials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action AvailableTrials - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 3383355275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open a list to view the license entries.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action LicenseEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 3383355275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action LicenseEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 455269300 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the log entries for licensing.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action OpenLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 455269300 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action OpenLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 2773988818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retrieves a new license from the license server.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action RefreshLicense - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 2773988818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh License</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action RefreshLicense - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 2773988818 - Method 1377591017 - NamedType 2895591099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The license was refreshed successfully.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action RefreshLicense - Method OnAction - NamedType successLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 2773988818 - Method 1377591017 - NamedType 3764247823" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The license could not be refreshed. Check the log for additional information.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action RefreshLicense - Method OnAction - NamedType failureErr</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 2773988818 - Method 1377591017 - NamedType 124198609" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currently a manual uploaded license is used. Do you want to dismiss the manual license and get a license from the server?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action RefreshLicense - Method OnAction - NamedType manualLicenseQst</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 4149417275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uses the specified customer data to register the customer.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action Register - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 4149417275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action Register - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 4149417275 - Method 1377591017 - NamedType 930724788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration successfull!</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action Register - Method OnAction - NamedType registerSuccessLbl</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 4149417275 - Method 1377591017 - NamedType 1809377464" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You are currently in an OnPrem installation of Business Central.\Registering for a license will activate licensechecks.\Are you sure you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action Register - Method OnAction - NamedType registerOnPremQst</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 3362064884 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload a manual license to use for license checks.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action UploadLicense - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4140671585 - Action 3362064884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload Manual License</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Register - Action UploadLicense - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>License Trial List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Method 716454850 - NamedType 3945678036" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No MODUS Consult apps found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Method OnOpenPage - NamedType noAppsFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Control 1683930818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the App Name.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Control AppName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Control 1899059165 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a trial is available for this app.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Control TrialAvailable - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Control 3838616458 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of days left for in demo.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Control TrialDaysLeft - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Action 3582260286 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start the trial for the selected app.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Action StartTrial - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Action 3582260286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Trial</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Action StartTrial - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Action 3582260286 - Method 1377591017 - NamedType 699436104" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to start the trial period for app %1?</source>
+          <note from="Developer" annotates="general" priority="2">%1=AppName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Action StartTrial - Method OnAction - NamedType startTrialQst</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Action 3582260286 - Method 1377591017 - NamedType 1526919238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial for app %1 started.</source>
+          <note from="Developer" annotates="general" priority="2">%1=AppName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Action StartTrial - Method OnAction - NamedType trialStartedMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 2062177930 - Action 3582260286 - Method 1377591017 - NamedType 2179678756" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The trial period for app %1 was already started.</source>
+          <note from="Developer" annotates="general" priority="2">%1=AppName</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 License Trial List - Action StartTrial - Method OnAction - NamedType trialAlreadyStartedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Licensed Features</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 1683930818 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Name of the App.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control AppName - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 1683930818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control AppName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 991284075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code of the licensed feature.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control FeatureCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 358483277 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the license type of the licensed feature.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control LicenseType - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 823384700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the how many licenses of the feature are licensed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control NoOfLicenses - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 2693359412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date the license becomes valid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control ValidFrom - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2926500047 - Control 298279303 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date until the license is valid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Licensed Features - Control ValidTo - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3989370274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Memo Editor</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1638,6 +2203,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Authorization Origin - EnumValue CacheOrAuthority - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 2680761210 - EnumValue 51463044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Multiple</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Entity Link Type - EnumValue Multiple - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2680761210 - EnumValue 3958331253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 Entity Link Type - EnumValue Unique - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1667710955 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Error Style - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1667710955 - EnumValue 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Error Style - EnumValue Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1667710955 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Error Style - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1667710955 - EnumValue 342756159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Notification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Error Style - EnumValue Notification - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 2007149855 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Error</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1707,6 +2302,21 @@
           <source>Per User</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Type - EnumValue PerUser - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3517392482 - EnumValue 1579844176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tenant</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Type - EnumValue Tenant - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3517392482 - EnumValue 2178282664 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Type - EnumValue Transaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3517392482 - EnumValue 1814464443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum M365 License Type - EnumValue User - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1795612181 - EnumValue 2228523694 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App Logo</source>
