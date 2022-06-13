@@ -1628,6 +1628,16 @@
           <note from="Developer" annotates="general" priority="2">%1 = StrSubstNo(DimCodeLbl, salesHeader."No."), %2 = StrSubstNo(DimLastLbl, salesHeader."No.")</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Autom. Cost Object Mgt. - NamedType DimTotalingLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 722206537 - Method 3379892748 - NamedType 2397956094" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Autom. Cost Dimension does not work.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Autom. Cost Object Mgt. - Method LicensingCheck - NamedType automCostDimIsOnINSetupTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 722206537 - Method 3379892748 - NamedType 3200238221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Turn off autom. Cost Dimension in MODUS M365 Base Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Autom. Cost Object Mgt. - Method LicensingCheck - NamedType turnOffAutomCostDimTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3600583934 - Method 2661486968 - NamedType 2047573738" size-unit="char" translate="yes" xml:space="preserve">
           <source>Setup the MODUS Base extension</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2759,7 +2769,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 BatchQteVendAssgmtFactbox - Action Edit - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3261317592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Check Points</source>
+          <source>Check Points (MODUS M365 Base)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Check Points - Property Caption</note>
         </trans-unit>
@@ -2808,10 +2818,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Control DueDate - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 317369864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this checklist was created or modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Control ModifiedAt - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1033761563 - Control 1907234846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the user who created or modified this checklist.</source>
+          <source>Specifies by whom this checklist was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Control ModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1033761563 - Control 1907234846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist - Control ModifiedBy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1033761563 - Control 2247197532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the date when this checklist was created or modified.</source>
@@ -2999,14 +3019,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Lines - Control MandatoryQuoteRelease - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1378743752 - Control 317369864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the time of the last change.</source>
+          <source>Specifies when this checklist line was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Lines - Control ModifiedAt - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1378743752 - Control 1907234846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the modified by.</source>
+          <source>Specifies by whom this checklist line was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Lines - Control ModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1378743752 - Control 1907234846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Lines - Control ModifiedBy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1378743752 - Control 2247197532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the modified on.</source>
@@ -3078,10 +3103,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Control DueDate - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1583083781 - Control 317369864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this checklist was created or modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Control ModifiedAt - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1583083781 - Control 1907234846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the user who created or modified this checklist.</source>
+          <source>Specifies by whom this checklist was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Control ModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1583083781 - Control 1907234846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist List - Control ModifiedBy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1583083781 - Control 2247197532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the date when this checklist was created or modified.</source>
@@ -3239,14 +3274,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Subform - Control MandatoryServiceQuoteRelease - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 831434773 - Control 317369864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the modification time of this line.</source>
+          <source>Specifies when this checklist line was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Subform - Control ModifiedAt - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 831434773 - Control 1907234846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the user who created or modified this line.</source>
+          <source>Specifies by whom this checklist line was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Subform - Control ModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 831434773 - Control 1907234846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Subform - Control ModifiedBy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 831434773 - Control 2247197532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the modification date of this line.</source>
@@ -3313,10 +3353,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template - Control Description2 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3180959971 - Control 317369864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this checklist template was created or modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template - Control ModifiedAt - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3180959971 - Control 1907234846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the user who created or modified this checklist template.</source>
+          <source>Specifies by whom this checklist template was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template - Control ModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3180959971 - Control 1907234846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template - Control ModifiedBy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3180959971 - Control 2247197532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the date when this checklist  template was created or modified.</source>
@@ -3348,10 +3398,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template List - Control Description2 - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 317369864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when this checklist template was created or modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template List - Control ModifiedAt - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4150300429 - Control 1907234846 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies who has modified this record.</source>
+          <source>Specifies by whom this checklist template was created or modified.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template List - Control ModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4150300429 - Control 1907234846 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modified by</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Checklist Template List - Control ModifiedBy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4150300429 - Control 2247197532 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies when this record was modified.</source>
@@ -5927,6 +5987,11 @@
           <source>Level</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Invoice Line - Field M365 Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2383255046 - Field 684458089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Pos. Attached to Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension M365 BAS Sales Invoice Line - Field M365 Pos. Attached to Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2383255046 - Field 679776021 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
           <source>Position No.</source>
