@@ -753,6 +753,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Engineering Setup - Field Job Structure Template Nos. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3710421013 - Field 3103870731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Transfer Location</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Engineering Setup - Field Job Transfer Location - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3710421013 - Field 357229655 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Manufacturing Integration</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2414,7 +2419,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Disposition - Field Reordering Significant - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3932771532 - Field 859436952 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Manually,Planning</source>
+          <source> ,Manually,Planning,Dispopreview</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Disposition - Field Reordering Significant - Property OptionCaption</note>
         </trans-unit>
@@ -3158,6 +3163,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Next Operation No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 587519199 - Method 2126772001 - NamedType 1483480657" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please update production order, after changing this field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Next Operation No. - Method OnValidate - NamedType updateProdOrderMsg</note>
+        </trans-unit>
         <trans-unit id="Table 3790414227 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3222,6 +3232,11 @@
           <source>Previous Operation No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Previous Operation No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3790414227 - Field 3364019069 - Method 2126772001 - NamedType 1483480657" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please update production order, after changing this field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Previous Operation No. - Method OnValidate - NamedType updateProdOrderMsg</note>
         </trans-unit>
         <trans-unit id="Table 3790414227 - Field 2287818464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Production BOM No.</source>
@@ -3309,7 +3324,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Reordering Significant - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3790414227 - Field 859436952 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Manually,Planning</source>
+          <source> ,Manually,Planning,Dispopreview</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table M365 Job Structure Line - Field Reordering Significant - Property OptionCaption</note>
         </trans-unit>
@@ -4678,20 +4693,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnJobOnBeforeRenameEvent - NamedType noRenameErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 4210113768 - NamedType 2047573738" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Setup the engineering extension</source>
+        <trans-unit id="Codeunit 3869258156 - Method 2785112668 - NamedType 2047573738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup the MODUS M365 Job Structure extension</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualSetup - NamedType descriptionTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterAssistedGuidedExperienceSetup - NamedType descriptionTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 4210113768 - NamedType 716329142" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3869258156 - Method 2785112668 - NamedType 3224028340" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup MODUS M365 Job Structure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterAssistedGuidedExperienceSetup - NamedType titleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2785112668 - NamedType 3184923246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup MODUS M365 Job Structure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterAssistedGuidedExperienceSetup - NamedType shortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 2047573738" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup the MODUS Job Structure extension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType descriptionTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 716329142" size-unit="char" translate="yes" xml:space="preserve">
           <source>Jobs, Jobmanagement</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualSetup - NamedType keywordsTxt</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType keywordsTxt</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 1420165613 - NamedType 123183160" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 3224028340" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup engineering extension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType titleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 2661486968 - NamedType 3184923246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Engineering Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnRegisterManualGuidedExperienceSetup - NamedType shortTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3869258156 - Method 4198369197 - NamedType 123183160" size-unit="char" translate="yes" xml:space="preserve">
           <source>You have already completed the Assisted Setup for %1. Do you want to run it again?</source>
           <note from="Developer" annotates="general" priority="2">%1 = App Identifier</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnReRunOfCompletedAssistedSetup - NamedType youHaveAlreadyCompletedTheAssistedSetupQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 MEB Events - Method OnM365AppSetupManagementOnReRunOfCompletedGuidedExperienceAssistedSetup - NamedType youHaveAlreadyCompletedTheAssistedSetupQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 3582547292 - NamedType 1994016832" size-unit="char" translate="yes" xml:space="preserve">
           <source>No reservation allowed for lines with jobstructure connection</source>
@@ -4752,11 +4792,6 @@
           <source>Routing Calculation is not calculated</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Upd Prod Order Job Struct - Method AddProdOrderRtngBasedOnJobStr - NamedType notCalculatedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 1924531717 - Method 3550928611 - NamedType 1156810071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Updating Production Order. Please wait......</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit M365 Upd Prod Order Job Struct - Method InitCodeunit - NamedType windowMsg</note>
         </trans-unit>
         <trans-unit id="Page 2588905306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Arch. Detailed Job Cost Entries</source>
@@ -5683,6 +5718,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Engineering Setup - Control JobLocation - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3710421013 - Control 1440965347 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The project transfer location is used for reclassing items from one job structure line to another. Its only temporary used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Engineering Setup - Control JobTransferLocation - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3710421013 - Control 805330863 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Here its a mark for "Modus Engineering Active"</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5749,7 +5789,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Engineering Setup - Control StatusDisposition - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 2359280162 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The status "Manual" must be taken from the table "Project Status".</source>
+          <source>The status "Manual" must be taken from the table "Project Status". It is chosen when you want to see something in the disposition, without possibility to order anything yet.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Engineering Setup - Control StatusManual - Property ToolTip</note>
         </trans-unit>
@@ -9338,6 +9378,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct Link - Action LinkToLine - Method OnAction - NamedType lineSplitSuccessMsg</note>
         </trans-unit>
+        <trans-unit id="Page 3691235047 - Action 3472351511 - Method 1377591017 - NamedType 3497011449" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There is no planning line for this job structure line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct Link - Action LinkToLine - Method OnAction - NamedType noPlanningLineErr</note>
+        </trans-unit>
         <trans-unit id="Page 914266993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Structure List Archive</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10827,6 +10872,11 @@
           <source>The production order needs status = released</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Method CreateAssemblyJournal - NamedType prodOrderNotRelErr</note>
+        </trans-unit>
+        <trans-unit id="Page 278747505 - Method 169069189 - NamedType 3816312272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The production order is already finished, do you really want to create an additional production order?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Struct. Line Subform - Method CreateAssemblyJournal - NamedType prodOrderFinishedMsg</note>
         </trans-unit>
         <trans-unit id="Page 278747505 - Method 132530932 - NamedType 4132913433" size-unit="char" translate="yes" xml:space="preserve">
           <source>Only one Sales Return Order allowed per Line.</source>
@@ -12599,14 +12649,9 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - NamedType MissingPartsErr</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - NamedType 2720700291" size-unit="char" translate="yes" xml:space="preserve">
-          <source>At least one line has "Reordering Significant = Planning". No creation allowed!</source>
+          <source>At least one line has "Reordering Significant = Planning" or "Dispopreview". No creation allowed!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - NamedType PlanningCreationErr</note>
-        </trans-unit>
-        <trans-unit id="Page 3932771532 - NamedType 4036315414" size-unit="char" translate="yes" xml:space="preserve">
-          <source>At least one line is"Reordering Significant = Planning". Do you really want to create a document?</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - NamedType PlanningCreationQst</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - NamedType 3897085887" size-unit="char" translate="yes" xml:space="preserve">
           <source>There are %1 quantity from item %2 in quotelines. Create? </source>
@@ -12647,6 +12692,16 @@
           <source>Batch Quote has been created.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Method CreatePurchaseBatchQuote - NamedType batchQuoteCreationMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Method 2430212832 - NamedType 2396695906" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Method CreatePurchaseCrMemo - NamedType createSuccessMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3932771532 - Method 2430212832 - NamedType 668402577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account Type has to be Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Method CreatePurchaseCrMemo - NamedType wrongAccountTypeErr</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Method 68310296 - NamedType 3468721801" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Alle Positionen,Alle &amp;markierten Positionen</source>
@@ -12734,7 +12789,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control NextReceiptDate - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 949215307 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the no.</source>
+          <source>The number is green, when you can do any disposition, it is black, when this line is on dispopreview and you cant do any disposition with it.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control No - Property ToolTip</note>
         </trans-unit>
@@ -12899,7 +12954,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control UnitofMeasureCodeJobStruct - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 3798681774 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This field shows the variant code</source>
+          <source>This field shows the variant code.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page M365 Job Structure Disposition - Control VariantCode - Property ToolTip</note>
         </trans-unit>
@@ -17258,16 +17313,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType NavigateFiltersCaptionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 2347269207" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Date</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ProductionOrderStartingDateCaptionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 104360111 - NamedType 1501802632" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Starting Time</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report M365 Job Navigate - NamedType ProductionOrderStartingTimeCaptionLbl</note>
-        </trans-unit>
         <trans-unit id="Report 104360111 - NamedType 1744256226" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -17802,6 +17847,11 @@
           <source>This field shows the job structure no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 MEB Cap Ledger Entries - Control M365Job Structure No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 487021155 - Control 829789177 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4219821699">
+          <source>Sets the initial G/L Account Type at the job structure line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension M365 MEB GL Account Card - Control M365GLAccountType - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2245591138 - Control 1825782762 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>If you enter an exchange type you can use that item in a sparepart list</source>
