@@ -15,6 +15,18 @@
           <source>Generate all plafond movements for this VAT identifier (%1)?</source>
           <target>Generare tutti i movimenti plafond per questo identificativo IVA (%1)?</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2317004690 - NamedType 1080791398" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Entry Analysis in progress\@1@@@@@@@@@@@@@@</source>
+          <target>Analisi dei Movimenti IVA in corso\@1 @@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 1163297733" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No anomalies have been detected for this VAT Register.</source>
+          <target>Non sono state rilevate anomalie per questo Registro IVA.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2254031931 - Method 2770360761 - NamedType 2717171120" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Protocol Sequence anomaly detected in Document Nos: %1.</source>
+          <target>Rilevata anomalia sequenzialità protocollo nei seguenti Nr. Documento: %1.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2488446996 - Method 2595010497 - NamedType 593697739" translate="yes" size-unit="char" xml:space="preserve">
           <source>The %1 must have a %2 because at least one other line on this document has a %2.</source>
           <target>%1 deve avere una %2 perché almeno un'altra riga su questo documento ha una %2.</target>
@@ -223,6 +235,122 @@
           <source>Select VAT Exemption</source>
           <target>Seleziona dich. d'intento</target>
         </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 1592581304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Amounts</source>
+          <target>Calcola Importi</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 1968632624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Protocol Sequences</source>
+          <target>Verifica sequenzialità protocolli</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 3602709280 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Clear Lines</source>
+          <target>Cancella Righe</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Action 587448222 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show VAT Entries</source>
+          <target>Mostra Movimenti IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1037401361 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Base from VAT Settlement</source>
+          <target>Imponib. indetraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1076509073 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Code</source>
+          <target>Codice Registro IVA </target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1246077090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT %</source>
+          <target>% IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1278430807 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Amount from VAT Register</source>
+          <target>Imposta detraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1316195450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Amount from VAT Settlement</source>
+          <target>Imposta indetraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1589386854 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Type Filter</source>
+          <target>Tipo Registro IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 1589386854 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase,Sale, </source>
+          <target>Acquisto,Vendita, </target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2534656220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Identifier</source>
+          <target>Cod. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2593905520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Description</source>
+          <target>Descrizione Registro IVA </target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2625850675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Amount from VAT Settlement</source>
+          <target>Imposta detraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filters</source>
+          <target>Filtri</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 2977475786 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Identifier Description</source>
+          <target>Descrizione Codice IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3000963108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible %</source>
+          <target>% Detraibilità</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3072134294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Amount from VAT Register</source>
+          <target>Imposta indetraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3161596229 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End Date Filter</source>
+          <target>Data fine periodo</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3182922080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start Date Filter</source>
+          <target>Data inizio periodo</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3187484028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Base from VAT Settlement</source>
+          <target>Imponib. detraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 3573676582 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Type</source>
+          <target>Tipo Registro IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 4151075965 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeductible Base from VAT Register</source>
+          <target>Imponib. indetraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 4262959878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Filter</source>
+          <target>Registro IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 475914988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Identifier Filter</source>
+          <target>Cod. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Control 971814160 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deductible Base from VAT Register</source>
+          <target>Imponib. detraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - NamedType 1577297050" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Both Date filter fields must be filled.</source>
+          <target>Entrambi i campi filtro Data devono essere compilati.</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - NamedType 2149120301" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Register Type Filter must be filled before VAT Register Filter</source>
+          <target>Il filtro Tipo Registro IVA deve essere compilato prima del filtro Registro IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2554900007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Settlement (VMI)</source>
+          <target>Quadratura IVA (VMI)</target>
+        </trans-unit>
         <trans-unit id="Page 2638965362 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Navigate</source>
           <target>Naviga</target>
@@ -230,6 +358,10 @@
         <trans-unit id="Page 2638965362 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Plafond Entries</source>
           <target>Movimenti Plafond IVA</target>
+        </trans-unit>
+        <trans-unit id="Page 2881598899 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settlement VAT Entry Lookup</source>
+          <target>Quadratura lookup Movimenti IVA </target>
         </trans-unit>
         <trans-unit id="Page 3444279080 - Control 1080201040 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enable Pro-Rata" field.</source>
@@ -1826,6 +1958,70 @@
         <trans-unit id="Table 2050529027 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>VAT Plafond Period</source>
           <target>Periodo plafond IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1352985018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Register Code</source>
+          <target>EOS Codice Registro IVA </target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1533255961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT %</source>
+          <target>EOS % IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1755748607 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Base from VAT Settl.</source>
+          <target>Imponib. detraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 1964878052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDed. Base from VAT Settl.</source>
+          <target>Imponib. indetraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 2732440041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Identifier Description</source>
+          <target>EOS Descrizione Codice IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 3265550843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Identifier</source>
+          <target>EOS Cod. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 3386168223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Register Description</source>
+          <target>EOS Descrizione Registro IVA </target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 3808370428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDeduct. Base from VAT Reg.</source>
+          <target>Imponib. indetraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 4216960531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Deductible %</source>
+          <target>EOS % Detraibilità</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 4228984834 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Amount from VAT Reg.</source>
+          <target>Imposta detraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 550728845 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Register Type</source>
+          <target>EOS Tipo Registro IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 624081208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Amount from VAT Settl.</source>
+          <target>Imposta detraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 702221205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDed. Amount from VAT Reg.</source>
+          <target>Imposta indetraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 938985001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deduct. Base from VAT Reg.</source>
+          <target>Imponib. detraibile da Reg. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Field 946490043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>NonDed. Amount from VAT Settl.</source>
+          <target>Imposta indetraibile da Liquid. IVA</target>
+        </trans-unit>
+        <trans-unit id="Table 2554900007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS VAT Settlement</source>
+          <target>EOS Quadratura IVA</target>
         </trans-unit>
         <trans-unit id="Table 3444279080 - Field 1066680167 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Book Progressive No.</source>
