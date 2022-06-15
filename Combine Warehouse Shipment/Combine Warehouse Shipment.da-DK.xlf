@@ -1779,6 +1779,26 @@
           <source>Invoicing Setup</source>
           <target>Opsætning af fakturering</target>
         </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 1393533604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the table name for the ledger entry table that represents the relation.</source>
+          <target>Angiver tabelnavnet for den posttabel, der repræsenterer relationen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 2065755396 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the related entries.</source>
+          <target>Angiver antallet af relaterede bevægelser.</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 2065755396 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Records</source>
+          <target>Nr. bevægelser</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the ledger entry table that represents the relation.</source>
+          <target>Angiver den posttabel, der repræsenterer relationen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CWS Entry Relation</source>
+          <target>CWS-indgangsrelation</target>
+        </trans-unit>
         <trans-unit id="Page 2838417736 - Action 183296051 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set up combinations criteria to use.</source>
           <target>Konfigurer kombinationer, der skal bruges.</target>
@@ -2762,6 +2782,14 @@
         <trans-unit id="Page 3957688898 - Action 3912340234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Service Email &amp;Queue</source>
           <target>Tjenestemail og -kø</target>
+        </trans-unit>
+        <trans-unit id="Page 3957688898 - Action 4036771155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View entries related with the CWS Shipment.</source>
+          <target>Se de bevægelser, der er relateret til CWS-forsendelsen.</target>
+        </trans-unit>
+        <trans-unit id="Page 3957688898 - Action 4036771155 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entries Relations</source>
+          <target>Relaterede bevægelser</target>
         </trans-unit>
         <trans-unit id="Page 3957688898 - Action 4109784818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View all the job ledger entries that result from posting transactions in the service document that involve a job.</source>
@@ -3807,14 +3835,6 @@
           <source>You can view the Service Item Log only for service item lines with the specified Service Item No.</source>
           <target>Du kan kun få vist serviceartikelloggen for serviceartikellinjer med det angivne serviceartikelnr.</target>
         </trans-unit>
-        <trans-unit id="Page 625928904 - Method 3033910348 - NamedType 3822926778" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you really want to undo the selected Return Shipment lines?</source>
-          <target>Er du sikker på, at du vil annullere de valgte returvareleverancelinjer?</target>
-        </trans-unit>
-        <trans-unit id="Page 625928904 - Method 3033910348 - NamedType 4118026048" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you really want to undo the selected Shipment lines?</source>
-          <target>Er du sikker på, at du vil annullere de valgte leveringslinjer?</target>
-        </trans-unit>
         <trans-unit id="Page 625928904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines</source>
           <target>Linjer</target>
@@ -3946,10 +3966,6 @@
         <trans-unit id="Page 810238550 - Control 394042787 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line number of the posted source document.</source>
           <target>Angiver linjenummeret på det bogførte kildedokument.</target>
-        </trans-unit>
-        <trans-unit id="Page 810238550 - Control 3948462483 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the cross-referenced item number. If you enter a cross reference between yours and your vendor's or customer's item number, then this number will override the standard item number when you enter the cross-reference number on a sales or purchase document.</source>
-          <target>Angiver det krydsrefererede varenummer. Hvis du angiver en krydsreference mellem dit og kreditorens eller kundens varenummer, tilsidesætter dette nummer standardvarenummeret, når du angiver krydsreferencenummeret på et salgs- eller købsdokument.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 4034345114 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the volume of one unit of the item.</source>

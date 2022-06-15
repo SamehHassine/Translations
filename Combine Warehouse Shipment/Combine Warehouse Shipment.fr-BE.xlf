@@ -17,11 +17,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 2502111359 - NamedType 580820098" translate="yes" size-unit="char" xml:space="preserve">
           <source>Your %1 %2</source>
-          <target>Votre %1 %2</target>
+          <target>Votre commande %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 2502111359 - NamedType 712762521" translate="yes" size-unit="char" xml:space="preserve">
           <source>Our %1 %2</source>
-          <target>Notre %1 %2</target>
+          <target>Notre commande %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 581474840 - NamedType 712762521" translate="yes" size-unit="char" xml:space="preserve">
           <source>Our %1 %2</source>
@@ -1779,6 +1779,26 @@
           <source>Invoicing Setup</source>
           <target>Configuration de facturation</target>
         </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 1393533604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the table name for the ledger entry table that represents the relation.</source>
+          <target>Spécifie le nom de table de la table d’entrée du grand livre qui représente la relation.</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 2065755396 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the related entries.</source>
+          <target>Spécifie le nombre de mouvements associés.</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 2065755396 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Records</source>
+          <target>Nr. mouvements</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the ledger entry table that represents the relation.</source>
+          <target>Spécifie la table d’entrée du grand livre qui représente la relation.</target>
+        </trans-unit>
+        <trans-unit id="Page 2722742924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CWS Entry Relation</source>
+          <target>Relation d’entrée CWS</target>
+        </trans-unit>
         <trans-unit id="Page 2838417736 - Action 183296051 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set up combinations criteria to use.</source>
           <target>Configurer les critères de combinaisons à utiliser.</target>
@@ -2762,6 +2782,14 @@
         <trans-unit id="Page 3957688898 - Action 3912340234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Service Email &amp;Queue</source>
           <target>Courrier électronique de service &amp;File d’attente</target>
+        </trans-unit>
+        <trans-unit id="Page 3957688898 - Action 4036771155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View entries related with the CWS Shipment.</source>
+          <target>Voir les mouvements liés à l’expédition du SCF.</target>
+        </trans-unit>
+        <trans-unit id="Page 3957688898 - Action 4036771155 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entries Relations</source>
+          <target>Mouvements connexes</target>
         </trans-unit>
         <trans-unit id="Page 3957688898 - Action 4109784818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View all the job ledger entries that result from posting transactions in the service document that involve a job.</source>
@@ -3807,14 +3835,6 @@
           <source>You can view the Service Item Log only for service item lines with the specified Service Item No.</source>
           <target>Vous pouvez afficher le journal des éléments de service uniquement pour les lignes d’éléments de service avec l’élément de service no spécifié.</target>
         </trans-unit>
-        <trans-unit id="Page 625928904 - Method 3033910348 - NamedType 3822926778" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you really want to undo the selected Return Shipment lines?</source>
-          <target>Souhaitez-vous vraiment supprimer les lignes expédition retour sélectionnées ?</target>
-        </trans-unit>
-        <trans-unit id="Page 625928904 - Method 3033910348 - NamedType 4118026048" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Do you really want to undo the selected Shipment lines?</source>
-          <target>Souhaitez-vous vraiment supprimer les lignes expédition sélectionnées ?</target>
-        </trans-unit>
         <trans-unit id="Page 625928904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines</source>
           <target>Lignes</target>
@@ -3946,10 +3966,6 @@
         <trans-unit id="Page 810238550 - Control 394042787 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line number of the posted source document.</source>
           <target>Spécifie le numéro de ligne du document source publié.</target>
-        </trans-unit>
-        <trans-unit id="Page 810238550 - Control 3948462483 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the cross-referenced item number. If you enter a cross reference between yours and your vendor's or customer's item number, then this number will override the standard item number when you enter the cross-reference number on a sales or purchase document.</source>
-          <target>Spécifie le numéro de l’élément référencé en croix. Si vous croisez le vôtre et le numéro d’article de votre fournisseur ou client, ce numéro remplacera le numéro d’article standard lorsque vous entrez le numéro de référence croisée sur un document de vente ou d’achat.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 4034345114 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the volume of one unit of the item.</source>
