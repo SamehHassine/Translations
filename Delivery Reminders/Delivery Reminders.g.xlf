@@ -338,11 +338,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Delivery Reminder Level - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2679259083 - Field 3015332611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Due Date Calculation</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Delivery Reminder Level - Field Due Date Calculation - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 2679259083 - Field 3805087593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Grace Period</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -437,6 +432,11 @@
           <source>ReminderLine,Not Due,Beginning Text,Ending Text</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Delivery Reminder Line - Field Line Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 4271019427 - Field 339913254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Paragraph</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Delivery Reminder Line - Field New Paragraph - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4271019427 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
@@ -547,6 +547,11 @@
           <source>Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Delivery Reminder Text - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2886685470 - Field 339913254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Paragraph</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Delivery Reminder Text - Field New Paragraph - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2886685470 - Field 56735747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Position</source>
@@ -868,6 +873,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Issued Del. Rem. Line - Field Line Type - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 1711752483 - Field 339913254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Paragraph</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Issued Del. Rem. Line - Field New Paragraph - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1711752483 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -927,6 +937,16 @@
           <source>Vendor Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS048 Issued Del. Rem. Line - Field Vendor Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3638068196 - NamedType 840857479" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued Delivery Reminder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS048 ADR Delivery Reminder - NamedType IssReminderLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3638068196 - NamedType 480451696" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Reminder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS048 ADR Delivery Reminder - NamedType ReminderLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2533663301 - NamedType 2318817719" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is nothing to issue.</source>
@@ -1208,11 +1228,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Rem. Levels - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 236102868 - Control 3015332611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies a formula that determines how to calculate the due date on the reminder.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Rem. Levels - Control Due Date Calculation - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 236102868 - Control 3805087593 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the length of the grace period for this reminder level.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1297,6 +1312,16 @@
           <source>Specifies the value of the "Due Date" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Control Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Control 1234810003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Sending Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Control EOSEmailStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Control 1234810003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Control EOSEmailStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2741278649 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Name" field.</source>
@@ -1413,6 +1438,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Action Create Reminders - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2298103736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advanced Reporting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Action EOSAdvReporting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2981931732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the action Save</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Action EOS Advanced Reporting Save - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2981931732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Action EOS Advanced Reporting Save - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2015507087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the action Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Action EOS Advanced Reporting Send - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2015507087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder - Action EOS Advanced Reporting Send - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2741278649 - Action 2970081118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the "Update Reminder Text" action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1482,6 +1532,11 @@
           <source>Delivery Reminder Text</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2886685470 - Control 339913254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "New Paragraph" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Delivery Reminder Text - Control New Paragraph - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2886685470 - Control 56735747 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether the text will appear at the beginning or the end of the reminder.</source>
@@ -1663,6 +1718,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Control Due Date - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4200844982 - Control 1234810003 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Sending Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Control EOSEmailStatus - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Control 1234810003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Control EOSEmailStatus - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4200844982 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Name" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1763,6 +1828,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Action Print - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2298103736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Advanced Reporting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Action EOSAdvReporting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2981931732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the action Save</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Action EOS Advanced Reporting Save - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2981931732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Action EOS Advanced Reporting Save - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2015507087 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the action Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Action EOS Advanced Reporting Send - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2015507087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Issued Deliv. Reminder - Action EOS Advanced Reporting Send - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4177606243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Issued Deliv. Reminders (PDR)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1827,6 +1917,26 @@
           <source>Specifies a description of the email body layout that is used.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Report Sel. - Del. Rem. - Control Email Body Layout Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 1609917522 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Add to Email as ZIP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Report Sel. - Del. Rem. - Control EOS Add to Email as ZIP - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 732074012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Email File Format Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Report Sel. - Del. Rem. - Control EOS Email File Format Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 2179238008 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Email Filename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Report Sel. - Del. Rem. - Control EOS Email Filename - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 2900586655 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Report Setup Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS048 Report Sel. - Del. Rem. - Control EOS Report Setup Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3550467823 - Control 3046817188 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the display name of the report.</source>
@@ -1947,6 +2057,196 @@
           <source>Use Header Level</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Create Del. Reminders - Control UseHeaderLevel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Reminder Document (ADR)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - NamedType 280369314" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report %1 (%2): unable to recognize document to print</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - NamedType UnknowDocumentToPrintErr</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3501366054" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billing address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel BillToAddr_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3038315655" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel CustomerContact_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 4207719968" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel CustomerMail_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 434801944" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel CustomerNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2385736825" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel DocumentNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3883326266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel FiscalCode_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2162186408" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_Amount_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 460132802" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_Description_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3503222122" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_DocumentNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1976712716" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_DueDate_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 551540224" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_ItemNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2954414608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_PostingDate_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3576159209" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rec. Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_RecQuantity_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1984876362" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rem. Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_RemAmount_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3306913452" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_ReminderLevel_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2384040995" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rem. Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_RemQuantity_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 217266778" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_TotalAmount_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3222411603" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Line_TotalQuantity_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2667646931" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contact</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Operator_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3653912790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Page_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1173755671" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel PostingDate_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 4160264892" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchaser</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Purchaser_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1950496351" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transport reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Reason_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1958985411" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel ReminderLevel_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 241495872" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel Salesperson_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1915573129" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel TotalText</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1813042605" size-unit="char" translate="yes" xml:space="preserve">
+          <source>VAT Reg.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel VATRegNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3968435712" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - ReportLabel VendorNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 935261692 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Log Interaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control LogInteractionFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 935261692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Interaction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control LogInteractionFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 4071228079 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control NoofCopiesFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 4071228079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Copies</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control NoofCopiesFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 1274581094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value for the field Report Setup Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control ReportSetupCodeFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 1274581094 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Setup Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS048 Del. Reminder Document - Control ReportSetupCodeFld - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2741278649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delivery Reminder - Test</source>
@@ -2428,10 +2728,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS048 PageExt18122526 - Control EOS048 Delivery Reminder - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1435202300 - Control 2741278649 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1997869518">
+          <source>Specifies the value of the "Delivery Reminder" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS048 PageExt18122528 - Control EOS048 Delivery Reminder - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 108027142 - Field 2741278649 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2981049439">
           <source>Delivery Reminder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS048 TableExt18122527 - Field EOS048 Delivery Reminder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3427479775 - Field 2994575471 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3342212795">
+          <source>EOS Received Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS048 TableExt18122528 - Field EOS Received Quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1374688989 - EnumValue 1708238270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delivery Reminder</source>

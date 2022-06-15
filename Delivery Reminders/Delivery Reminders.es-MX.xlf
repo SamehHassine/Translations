@@ -59,6 +59,14 @@
           <source>There is not enough space to insert extended text lines.</source>
           <target>No hay suficiente espacio para insertar líneas de texto extendidas.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3638068196 - NamedType 480451696" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delivery Reminder</source>
+          <target>Recordatorio de entrega</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3638068196 - NamedType 840857479" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Issued Delivery Reminder</source>
+          <target>Recordatorio de entrega emitido</target>
+        </trans-unit>
         <trans-unit id="Enum 1374688989 - EnumValue 1708238270 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delivery Reminder</source>
           <target>Recordatorio de entrega</target>
@@ -247,10 +255,6 @@
           <source>Specifies the reminder terms code for the reminder.</source>
           <target>Especifica el código de términos de aviso para el aviso.</target>
         </trans-unit>
-        <trans-unit id="Page 236102868 - Control 3015332611 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a formula that determines how to calculate the due date on the reminder.</source>
-          <target>Especifica una fórmula que determina cómo calcular la fecha de vencimiento en el aviso.</target>
-        </trans-unit>
         <trans-unit id="Page 236102868 - Control 3805087593 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the length of the grace period for this reminder level.</source>
           <target>Especifica la duración del período de gracia para este nivel de aviso.</target>
@@ -291,6 +295,18 @@
           <source>&amp;Issuing</source>
           <target>&amp;Emisión</target>
         </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2015507087 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the action Send</source>
+          <target>Ejecuta la acción Enviar</target>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2015507087 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Send</source>
+          <target>Enviar</target>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2298103736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Advanced Reporting</source>
+          <target>Informes avanzados</target>
+        </trans-unit>
         <trans-unit id="Page 2741278649 - Action 2970081118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Update Reminder Text" action.</source>
           <target>Ejecuta la acción "Actualizar texto de recordatorio".</target>
@@ -298,6 +314,14 @@
         <trans-unit id="Page 2741278649 - Action 2970081118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Reminder Text</source>
           <target>Actualizar texto de recordatorio</target>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2981931732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the action Save</source>
+          <target>Ejecuta la acción Guardar</target>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Action 2981931732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save</source>
+          <target>Salvar</target>
         </trans-unit>
         <trans-unit id="Page 2741278649 - Action 3000180178 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Co&amp;mments" action.</source>
@@ -338,6 +362,14 @@
         <trans-unit id="Page 2741278649 - Action 879877139 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Reminders</source>
           <target>Crear recordatorios</target>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Control 1234810003 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Sending Status</source>
+          <target>Especifica el valor del campo Estado de envío</target>
+        </trans-unit>
+        <trans-unit id="Page 2741278649 - Control 1234810003 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sending Status</source>
+          <target>Estado de envío</target>
         </trans-unit>
         <trans-unit id="Page 2741278649 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Vendor No." field.</source>
@@ -423,6 +455,10 @@
           <source>Specifies the reminder terms code this text applies to.</source>
           <target>Especifica el código de términos de recordatorio al que se aplica este texto.</target>
         </trans-unit>
+        <trans-unit id="Page 2886685470 - Control 339913254 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Paragraph" field.</source>
+          <target>Especifica el valor del campo "Nuevo párrafo".</target>
+        </trans-unit>
         <trans-unit id="Page 2886685470 - Control 56735747 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether the text will appear at the beginning or the end of the reminder.</source>
           <target>Especifica si el texto aparecerá al principio o al final del aviso.</target>
@@ -443,9 +479,21 @@
           <source>Specifies the object ID of the report.</source>
           <target>Especifica el identificador de objeto del informe.</target>
         </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 1609917522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Add to Email as ZIP</source>
+          <target>Especifica el valor del campo Agregar al correo electrónico como ZIP</target>
+        </trans-unit>
         <trans-unit id="Page 3550467823 - Control 1794945120 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether to insert summarized information, such as invoice number, due date in the body of the email that you send.</source>
           <target>Especifica si se debe insertar información resumida, como el número de factura y la fecha de vencimiento en el cuerpo del correo electrónico que envía.</target>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 2179238008 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Email Filename</source>
+          <target>Especifica el valor del campo Nombre de archivo de correo electrónico</target>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 2900586655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Report Setup Code</source>
+          <target>Especifica el valor del campo Código de configuración del informe</target>
         </trans-unit>
         <trans-unit id="Page 3550467823 - Control 3004246684 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description of the email body layout that is used.</source>
@@ -462,6 +510,10 @@
         <trans-unit id="Page 3550467823 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a number that indicates where this report is in the printing order.</source>
           <target>Especifica un número que indica dónde se encuentra este informe en el orden de impresión.</target>
+        </trans-unit>
+        <trans-unit id="Page 3550467823 - Control 732074012 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Email File Format Type</source>
+          <target>Especifica el valor del campo Tipo de formato de archivo de correo electrónico</target>
         </trans-unit>
         <trans-unit id="Page 3550467823 - Control 887890843 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which type of document the report is used for.</source>
@@ -659,6 +711,26 @@
           <source>&amp;Navigate</source>
           <target>&amp;Gt; Navegar</target>
         </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2015507087 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the action Send</source>
+          <target>Ejecuta la acción Enviar</target>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2015507087 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Send</source>
+          <target>Enviar</target>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2298103736 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Advanced Reporting</source>
+          <target>Informes avanzados</target>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2981931732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the action Save</source>
+          <target>Ejecuta la acción Guardar</target>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Action 2981931732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Save</source>
+          <target>Salvar</target>
+        </trans-unit>
         <trans-unit id="Page 4200844982 - Action 3000180178 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Co&amp;mments" action.</source>
           <target>Ejecuta la acción "Co&amp;mments".</target>
@@ -678,6 +750,14 @@
         <trans-unit id="Page 4200844982 - Action 4092359732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Reminder</source>
           <target>&amp;Recordatorio</target>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Control 1234810003 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Sending Status</source>
+          <target>Especifica el valor del campo Estado de envío</target>
+        </trans-unit>
+        <trans-unit id="Page 4200844982 - Control 1234810003 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sending Status</source>
+          <target>Estado de envío</target>
         </trans-unit>
         <trans-unit id="Page 4200844982 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Vendor No." field.</source>
@@ -766,6 +846,10 @@
         <trans-unit id="Page 649430116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delivery Reminder Setup (PDR)</source>
           <target>Configuración de recordatorio de entrega (PDR)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1435202300 - Control 2741278649 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Delivery Reminder" field.</source>
+          <target>Especifica el valor del campo "Recordatorio de entrega".</target>
         </trans-unit>
         <trans-unit id="PageExtension 213644565 - Control 2747508862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS No VAT Reg. No." field.</source>
@@ -1050,6 +1134,158 @@
         <trans-unit id="Report 2741278649 - ReportDataItem 1837124963 - Property 1806354803" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reminder</source>
           <target>Recordatorio</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 1274581094 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Report Setup Code</source>
+          <target>Especifica el valor del campo Código de configuración del informe</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 1274581094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Report Setup Code</source>
+          <target>Código de configuración del informe</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Opciones</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 4071228079 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field No. of Copies</source>
+          <target>Especifica el valor del campo No. de copias</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 4071228079 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Copies</source>
+          <target>Nº de ejemplares</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 935261692 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value for the field Log Interaction</source>
+          <target>Especifica el valor del campo Interacción de registro</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Control 935261692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Log Interaction</source>
+          <target>Registro de interacción</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - NamedType 280369314" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Report %1 (%2): unable to recognize document to print</source>
+          <target>Informe %1 (%2): no se puede reconocer el documento que se va a imprimir</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delivery Reminder Document (ADR)</source>
+          <target>Documento de recordatorio de entrega (ADR)</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1173755671" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Date</source>
+          <target>Fecha</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1813042605" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Reg.</source>
+          <target>IVA</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1915573129" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total</source>
+          <target>Total</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1950496351" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Transport reason</source>
+          <target>Motivo del transporte</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1958985411" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+          <target>Nivel</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1976712716" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Due Date</source>
+          <target>Fecha de caducidad</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 1984876362" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rem. Amount</source>
+          <target>Importe restante</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2162186408" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importe</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 217266778" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Amount</source>
+          <target>Importe total</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2384040995" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rem. Quantity</source>
+          <target>Cantidad restante</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2385736825" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>No.</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 241495872" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Salesperson</source>
+          <target>Código del agente</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2667646931" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contact</source>
+          <target>Contacto</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 2954414608" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Doc. Date</source>
+          <target>Fecha doc.</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3038315655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contact</source>
+          <target>Contacto</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3222411603" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Quantity</source>
+          <target>Cantidad total</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3306913452" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+          <target>Nivel</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3501366054" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Billing address</source>
+          <target>Dirección de facturación</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3503222122" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Doc. No.</source>
+          <target>Doc. No.</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3576159209" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rec. Quantity</source>
+          <target>Cantidad recibida</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3653912790" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Page</source>
+          <target>Página</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3883326266" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fiscal code</source>
+          <target>Código Fiscal</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 3968435712" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor No.</source>
+          <target>No. Proveedor</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 4160264892" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchaser</source>
+          <target>Comprador</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 4207719968" translate="yes" size-unit="char" xml:space="preserve">
+          <source>E-Mail</source>
+          <target>Correo electrónico</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 434801944" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>No. Cliente</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 460132802" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Descripción</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - ReportLabel 551540224" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>No.</target>
+        </trans-unit>
+        <trans-unit id="Report 285699993 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Opciones</target>
         </trans-unit>
         <trans-unit id="Report 3790708295 - NamedType 1010155901" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total %1 Incl. VAT</source>
@@ -1419,6 +1655,10 @@
           <source>Line No.</source>
           <target>Línea No.</target>
         </trans-unit>
+        <trans-unit id="Table 1711752483 - Field 339913254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Paragraph</source>
+          <target>Nuevo párrafo</target>
+        </trans-unit>
         <trans-unit id="Table 1711752483 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
           <target>Código variante</target>
@@ -1571,10 +1811,6 @@
           <source>Reminder Terms Code</source>
           <target>Código de términos de recordatorio</target>
         </trans-unit>
-        <trans-unit id="Table 2679259083 - Field 3015332611 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Due Date Calculation</source>
-          <target>Cálculo de la fecha de vencimiento</target>
-        </trans-unit>
         <trans-unit id="Table 2679259083 - Field 3805087593 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Grace Period</source>
           <target>período de gracia</target>
@@ -1614,6 +1850,10 @@
         <trans-unit id="Table 2886685470 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Línea No.</target>
+        </trans-unit>
+        <trans-unit id="Table 2886685470 - Field 339913254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Paragraph</source>
+          <target>Nuevo párrafo</target>
         </trans-unit>
         <trans-unit id="Table 2886685470 - Field 56735747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Position</source>
@@ -1883,6 +2123,10 @@
           <source>Line No.</source>
           <target>Línea No.</target>
         </trans-unit>
+        <trans-unit id="Table 4271019427 - Field 339913254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Paragraph</source>
+          <target>Nuevo párrafo</target>
+        </trans-unit>
         <trans-unit id="Table 4271019427 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
           <target>Código variante</target>
@@ -1962,6 +2206,10 @@
         <trans-unit id="TableExtension 108027142 - Field 2741278649 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delivery Reminder</source>
           <target>Recordatorio de entrega</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3427479775 - Field 2994575471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Received Quantity</source>
+          <target>Cantidad recibida de EOS</target>
         </trans-unit>
       </group>
     </body>
