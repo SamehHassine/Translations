@@ -319,6 +319,10 @@
           <source>IC Time sheet. Is not possible modified.</source>
           <target>IC-Arbeitszeittabelle. Ist nicht möglich geändert.</target>
         </trans-unit>
+        <trans-unit id="Page 1635346363 - NamedType 879138011" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Is not possible approve travel day %1 for job %2 with internal time sheet page, because there are multiple detail lines for the same time sheet line. Use standard EOS time sheet page for approve.</source>
+          <target>Es ist nicht möglich, Reisetag %1 für Auftrag %2 mit interner Arbeitszeittabellenseite zu genehmigen, da es mehrere Detailzeilen für dieselbe Arbeitszeittabellenzeile gibt. Verwenden Sie die EOS-Standard-Arbeitszeittabellenseite für die Genehmigung.</target>
+        </trans-unit>
         <trans-unit id="Page 1635346363 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Internal Activity</source>
           <target>Interne Aktivitäten</target>
@@ -454,6 +458,58 @@
         <trans-unit id="Page 204289696 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Time Sheet Expense Subpage</source>
           <target>Spesen Arbeitszeittabelle</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 1727697630 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of time sheet hours for rejected time sheets.</source>
+          <target>Gibt die Summe der Stunden in Arbeitszeitnachweisen für abgelehnte Arbeitszeitnachweise an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 1727697630 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rejected</source>
+          <target>Abgelehnt</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 2712164961 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of time sheet hours for approved time sheets.</source>
+          <target>Gibt die Summe der Stunden in Arbeitszeitnachweisen für genehmigte Arbeitszeitnachweise an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 2712164961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Approved</source>
+          <target>Genehmigt</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 2790486453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a comment that applies to the time sheet status.</source>
+          <target>Gibt einen Kommentar an, der für den Arbeitszeitnachweisstatus gilt.</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 2790486453 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Comment</source>
+          <target>Bemerkung</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 3158932779 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of time sheet hours for time sheets of all statuses.</source>
+          <target>Gibt die Summe der Stunden in Arbeitszeitnachweisen für alle Status an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 3158932779 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total</source>
+          <target>Gesamt</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 3926809476 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of time sheet hours for open time sheets.</source>
+          <target>Gibt die Summe der Stunden in Arbeitszeitnachweisen für geöffnete Arbeitszeitnachweise an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 3926809476 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open</source>
+          <target>Öffnen</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 4197011135 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of time sheet hours for submitted time sheets.</source>
+          <target>Gibt die Summe der Stunden in Arbeitszeitnachweisen für eingereichte Arbeitszeitnachweise an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Control 4197011135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Submitted</source>
+          <target>Übermittelt</target>
+        </trans-unit>
+        <trans-unit id="Page 3167174174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Time Sheet Status</source>
+          <target>Arbeitszeitnachweisstatus</target>
         </trans-unit>
         <trans-unit id="Page 3447152436 - Action 113888489 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;To Reject</source>
@@ -603,6 +659,14 @@
           <source>Ledger Entries</source>
           <target>Posten</target>
         </trans-unit>
+        <trans-unit id="Page 930112253 - Action 1073240295 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Toggle visibility of the weekends</source>
+          <target>Sichtbarkeit der Wochenenden ein-/ausschalten</target>
+        </trans-unit>
+        <trans-unit id="Page 930112253 - Action 1073240295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WeekEnd Visible</source>
+          <target>WeekEnd sichtbar</target>
+        </trans-unit>
         <trans-unit id="Page 930112253 - Action 1639220638 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View information for the next period.</source>
           <target>Informationen für die nächste Periode anzeigen.</target>
@@ -658,6 +722,14 @@
         <trans-unit id="Page 930112253 - Action 2273534946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert new Line after current Line</source>
           <target>Neue Zeile nach aktueller Zeile einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 930112253 - Action 2444455621 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Toggle visibility of the comment line</source>
+          <target>Sichtbarkeit der Kommentarzeile umschalten</target>
+        </trans-unit>
+        <trans-unit id="Page 930112253 - Action 2444455621 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Comment Line Visible</source>
+          <target>Kommentarzeile sichtbar</target>
         </trans-unit>
         <trans-unit id="Page 930112253 - Action 257621583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reopen the time sheet to make corrects if there are some posting error messages. Reopen is possible only for non posted lines.</source>
@@ -1037,7 +1109,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1074918973 - Control 2930810483 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Toll</source>
-          <target> Maut</target>
+          <target> ,Maut</target>
         </trans-unit>
         <trans-unit id="PageExtension 1712615590 - Action 3828427660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource Expenses</source>
