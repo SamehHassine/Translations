@@ -35,6 +35,10 @@
           <source>Do you want to create the free-goods lines for %1 %2?</source>
           <target>¿Desea crear las líneas de mercancías libres para %1 %2?</target>
         </trans-unit>
+        <trans-unit id="Page 686465762 - Control 1114805354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Self-Invoice</source>
+          <target>Autofactura</target>
+        </trans-unit>
         <trans-unit id="Page 686465762 - Control 1621375044 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type of free gift for this line</source>
           <target>Especifica el tipo de regalo gratuito para esta línea</target>
@@ -51,13 +55,45 @@
           <source>Specifies the source code that will be applied to the lines</source>
           <target>Especifica el código fuente que se aplicará a las líneas</target>
         </trans-unit>
+        <trans-unit id="Page 686465762 - Control 2777590997 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer No." field.</source>
+          <target>Especifica el valor del campo "N° de cliente".</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 2777590997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>N° de cliente</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 2975084189 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Description" field.</source>
+          <target>Especifica el valor del campo "Descripción documento".</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 2975084189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Description</source>
+          <target>Descripción documento</target>
+        </trans-unit>
         <trans-unit id="Page 686465762 - Control 3298781935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code that identifies this line</source>
           <target>Especifica el código que identifica esta línea</target>
         </trans-unit>
+        <trans-unit id="Page 686465762 - Control 4016677251 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "VAT Prod. Posting Group" field.</source>
+          <target>Especifica el valor del campo "Grupo contable IVA Prod.".</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 4016677251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <target>Grupo contable IVA Prod.</target>
+        </trans-unit>
         <trans-unit id="Page 686465762 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The number of the resource</source>
           <target>El número del recurso</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 889320269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Account No." field.</source>
+          <target>Especifica el valor del campo "N° Cuenta".</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 889320269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Account No.</source>
+          <target>N° Cuenta</target>
         </trans-unit>
         <trans-unit id="Page 686465762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Setup (SFG)</source>
@@ -111,6 +147,34 @@
           <source>Insert Free Goods Lines</source>
           <target>Insertar líneas de mercancías libres</target>
         </trans-unit>
+        <trans-unit id="Report 919656616 - Control 1004985823 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Especifica el valor del campo "Fecha Registro".</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 1004985823 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Fecha Registro</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>General</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Method 1247233374 - NamedType 2011485611" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ref. Invoice %1 dated %2</source>
+          <target>Factura %1 con fecha %2</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Method 2736589801 - NamedType 2473234175" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 invoices have been created.</source>
+          <target>Se han creado %1 facturas.</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - NamedType 42648939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No invoices have been created</source>
+          <target>No se han creado facturas</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Self-Invoice (SFG)</source>
+          <target>Autofact. Automática (SFG)</target>
+        </trans-unit>
         <trans-unit id="Table 686465762 - Field 1621375044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Type</source>
           <target>Tipo de regalo gratuito</target>
@@ -135,19 +199,39 @@
           <source>Source Code</source>
           <target>Código fuente</target>
         </trans-unit>
+        <trans-unit id="Table 686465762 - Field 2777590997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Cliente N°</target>
+        </trans-unit>
+        <trans-unit id="Table 686465762 - Field 2975084189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Description</source>
+          <target>Descripción del documento</target>
+        </trans-unit>
         <trans-unit id="Table 686465762 - Field 3298781935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
           <target>Código de regalo gratuito</target>
         </trans-unit>
+        <trans-unit id="Table 686465762 - Field 4016677251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <target>Grupo contable IVA Prod.</target>
+        </trans-unit>
         <trans-unit id="Table 686465762 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
-          <target>No.</target>
+          <target>N°</target>
+        </trans-unit>
+        <trans-unit id="Table 686465762 - Field 889320269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Account No.</source>
+          <target>N° Cuenta</target>
         </trans-unit>
         <trans-unit id="TableExtension 1453927511 - Field 3283217056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
           <target>Código de regalo gratuito</target>
         </trans-unit>
         <trans-unit id="TableExtension 1453927511 - Field 3411797097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift linked to line no.</source>
+          <target>Regalo vinculado a la línea no.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1453927511 - Field 3858315858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gift linked to line no.</source>
           <target>Regalo vinculado a la línea no.</target>
         </trans-unit>
@@ -164,6 +248,10 @@
           <target>Código de regalo gratuito</target>
         </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3411797097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift linked to line no.</source>
+          <target>Regalo vinculado a la línea no.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2091624128 - Field 3858315858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gift linked to line no.</source>
           <target>Regalo vinculado a la línea no.</target>
         </trans-unit>
