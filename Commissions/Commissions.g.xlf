@@ -113,6 +113,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Enable Sales Network - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 6620776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Free Gift Calc. Method</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Free Gift Calc. Method - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 6620776 - Method 2126772001 - NamedType 3033718591" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No existing commission line will be updated automatically, you must update them manually if needed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Commissions Setup - Field Free Gift Calc. Method - Method OnValidate - NamedType ExistingDataQst</note>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 2905148671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Get Salesperson From</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6193,6 +6203,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Def. Base Incl. Line Disc. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 6620776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Free Gift Calc. Method" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Commissions Setup - Control Free Gift Calc. Method - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 4098063865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the commission does not be calculated on posting.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10768,8 +10783,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Due Date Modification Action - EnumValue Message - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 3509145891 - EnumValue 2641648435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Allow</source>
+        <trans-unit id="Enum 1242646279 - EnumValue 2621139259 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Linked Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Free Gift Calc. Method - EnumValue From Linked Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1242646279 - EnumValue 927541219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Free Gift Calc. Method - EnumValue From Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2246526461 - EnumValue 4143763818 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Keep existing salesperson/role</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Due Date Modification Action - EnumValue Allow - Property Caption</note>
         </trans-unit>
