@@ -35,6 +35,42 @@
           <source>Do you want to create the free-goods lines for %1 %2?</source>
           <target>Wilt u de free-goodslijnen voor %1 %2 aanleggen?</target>
         </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 2215612350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Self Invoice Setup</source>
+          <target>Zelf factureren</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 2777590997 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer No." field.</source>
+          <target>Hiermee geeft u de waarde van het veld 'Klantnummer' op.</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 2777590997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Klantnr.</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 2975084189 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Description" field.</source>
+          <target>Hiermee geeft u de waarde van het veld 'Documentbeschrijving' op.</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 2975084189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Description</source>
+          <target>Beschrijving van het document</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 4016677251 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "VAT Prod. Posting Group" field.</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Btw-prod. boekingsgroep'.</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 4016677251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <target>BTW Prod. Posting Group</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 889320269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Account No." field.</source>
+          <target>Hiermee geeft u de waarde van het veld 'Accountnummer' op.</target>
+        </trans-unit>
+        <trans-unit id="Page 3473766390 - Control 889320269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Account No.</source>
+          <target>Rekeningnummer.</target>
+        </trans-unit>
         <trans-unit id="Page 686465762 - Control 1114805354 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Self-Invoice</source>
           <target>Zelf factureren</target>
@@ -50,6 +86,10 @@
         <trans-unit id="Page 686465762 - Control 236064653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the VAT Product Posting Group</source>
           <target>Hiermee geeft u de code op van de groep btw-productboeking</target>
+        </trans-unit>
+        <trans-unit id="Page 686465762 - Control 264826159 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Self-Invoice</source>
+          <target>Zelf factureren</target>
         </trans-unit>
         <trans-unit id="Page 686465762 - Control 2720485332 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the source code that will be applied to the lines</source>
@@ -148,8 +188,8 @@
           <target>Gratis goederenlijnen invoegen</target>
         </trans-unit>
         <trans-unit id="Report 919656616 - Control 1004985823 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Hiermee geeft u de waarde op van het veld 'Boekingsdatum'.</target>
+          <source>Specifies the value of the "Posting Date" field that will be used to create the Self Invoice document.</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Boekingsdatum' dat wordt gebruikt om het document Zelffactuur te maken.</target>
         </trans-unit>
         <trans-unit id="Report 919656616 - Control 1004985823 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date</source>
@@ -159,21 +199,77 @@
           <source>General</source>
           <target>Algemeen</target>
         </trans-unit>
-        <trans-unit id="Report 919656616 - Method 1247233374 - NamedType 2011485611" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Ref. Invoice %1 dated %2</source>
-          <target>Ref. Factuur %1 d.d. %2</target>
+        <trans-unit id="Report 919656616 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Filter: Sales Documents</source>
+          <target>Filter: Verkoopdocumenten</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 3225706105 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the ending date in the timespan in which the Free Gift lines will be analyzed</source>
+          <target>Hiermee geeft u de einddatum op in de tijdspanne waarin de gratis cadeauregels worden geanalyseerd</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 3225706105 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting End Date</source>
+          <target>Einddatum boeken</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 3819359403 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Free Gift Code" field that will be used to filter Free Gift Lines.</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Gratis cadeaucode' dat wordt gebruikt om gratis cadeauregels te filteren.</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 3819359403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free Gift Code</source>
+          <target>Gratis cadeaucode</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 4112918428 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the starting date in the timespan in which the Free Gift lines will be analyzed</source>
+          <target>Hiermee geeft u de begindatum op in de tijdspanne waarin de gratis cadeauregels worden geanalyseerd</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Control 4112918428 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Start Date</source>
+          <target>Begindatum boeken</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Method 144228969 - NamedType 934251733" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ref. Credit Memo %1 dated %2</source>
+          <target>Creditnota %1 gedateerd %2</target>
         </trans-unit>
         <trans-unit id="Report 919656616 - Method 2736589801 - NamedType 2473234175" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 invoices have been created.</source>
-          <target>Er zijn %1 facturen aangemaakt.</target>
+          <source>%1 invoices have been created. Do you want to open the invoice?</source>
+          <target>Er zijn %1 facturen aangemaakt. Wilt u de factuur openen?</target>
+        </trans-unit>
+        <trans-unit id="Report 919656616 - Method 4192993743 - NamedType 2011485611" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ref. Invoice %1 dated %2</source>
+          <target>Ref. Factuur %1 d.d. %2</target>
         </trans-unit>
         <trans-unit id="Report 919656616 - NamedType 42648939" translate="yes" size-unit="char" xml:space="preserve">
           <source>No invoices have been created</source>
           <target>Er zijn geen facturen aangemaakt</target>
         </trans-unit>
+        <trans-unit id="Report 919656616 - NamedType 823404210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Self Invoice setup in Free Gift Setup does not exist.</source>
+          <target>Self Invoice setup in Free Gift Setup bestaat niet.</target>
+        </trans-unit>
         <trans-unit id="Report 919656616 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create Self-Invoice (SFG)</source>
-          <target>Zelffactuur maken (SFG)</target>
+          <source>Free Gift Self-Invoice Creation (SFG)</source>
+          <target>Gratis Gift Self-Invoice Creation (SFG)</target>
+        </trans-unit>
+        <trans-unit id="Table 3473766390 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Toegangsnummer.</target>
+        </trans-unit>
+        <trans-unit id="Table 3473766390 - Field 2777590997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Klantnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3473766390 - Field 2975084189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Description</source>
+          <target>Beschrijving van het document</target>
+        </trans-unit>
+        <trans-unit id="Table 3473766390 - Field 4016677251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VAT Prod. Posting Group</source>
+          <target>BTW Prod. Posting Group</target>
+        </trans-unit>
+        <trans-unit id="Table 3473766390 - Field 889320269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Account No.</source>
+          <target>Rekeningnummer.</target>
         </trans-unit>
         <trans-unit id="Table 686465762 - Field 1621375044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Type</source>
@@ -205,7 +301,7 @@
         </trans-unit>
         <trans-unit id="Table 686465762 - Field 2975084189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Description</source>
-          <target>Documentbeschrijving</target>
+          <target>Beschrijving van het document</target>
         </trans-unit>
         <trans-unit id="Table 686465762 - Field 3298781935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
@@ -231,9 +327,17 @@
           <source>Gift linked to line no.</source>
           <target>Cadeau gekoppeld aan lijn nr.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1453927511 - Field 3535933740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Self Invoice document no.</source>
+          <target>Cadeau zelf factuur document nr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1453927511 - Field 3819599521 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Self Invoice line no.</source>
+          <target>Gift Self Invoice regel nr.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1453927511 - Field 3858315858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Gift linked to line no.</source>
-          <target>Cadeau gekoppeld aan regelnr.</target>
+          <source>Gift Self Invoice line no.</source>
+          <target>Gift Self Invoice regel nr.</target>
         </trans-unit>
         <trans-unit id="TableExtension 1622836534 - Field 3283217056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
@@ -243,6 +347,14 @@
           <source>Gift linked to line no.</source>
           <target>Cadeau gekoppeld aan lijn nr.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1622836534 - Field 3535933740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Self Invoice Document no.</source>
+          <target>Cadeau zelffactuur Document nr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1622836534 - Field 3819599521 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Self Invoice line no.</source>
+          <target>Gift Self Invoice regel nr.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3283217056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
           <target>Gratis cadeaucode</target>
@@ -251,9 +363,17 @@
           <source>Gift linked to line no.</source>
           <target>Cadeau gekoppeld aan lijn nr.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2091624128 - Field 3535933740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Self Invoice Document no.</source>
+          <target>Cadeau zelffactuur Document nr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2091624128 - Field 3819599521 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Self Invoice line no.</source>
+          <target>Gift Self Invoice regel nr.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3858315858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Gift linked to line no.</source>
-          <target>Cadeau gekoppeld aan regelnr.</target>
+          <source>Gift Self Invoice line no.</source>
+          <target>Gift Self Invoice regel nr.</target>
         </trans-unit>
         <trans-unit id="TableExtension 347443300 - Field 3283217056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
