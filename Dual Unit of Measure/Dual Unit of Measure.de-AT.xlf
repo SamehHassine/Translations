@@ -43,6 +43,10 @@
           <source>Subscribe for an activation</source>
           <target>Eine Aktivierung beantragen</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1671876023 - Method 3350772873 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <target>Es ist nicht möglich, das Feld %1 zu ändern, da %2 nicht festgelegt ist.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 18673384 - Method 1762134851 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>must not be less than %1 units</source>
           <target>darf nicht weniger als %1 Einheiten sein</target>
@@ -175,6 +179,14 @@
           <source>You cannot invoice order %1 for more than you have received.</source>
           <target>Sie können aus Bestellung %1 nicht mehr berechnen als geliefert wurde.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 4113034785 - Method 3350772873 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <target>Es ist nicht möglich, das Feld %1 zu ändern, da %2 nicht festgelegt ist.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4161447240 - Method 3270003512 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <target>Es ist nicht möglich, das Feld %1 zu ändern, da %2 nicht festgelegt ist.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 467158526 - Method 1710443233 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
           <source>It is not possibile to modify %1 field because %2 is not set.</source>
           <target>Es ist nicht möglich, das Feld %1 zu ändern, da %2 nicht festgelegt ist.</target>
@@ -194,6 +206,10 @@
         <trans-unit id="Codeunit 719846944 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse Quantity per unit of measure must be defined.</source>
           <target>Umgekehrte Menge pro Mengeneinheit muss definiert werden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 819679418 - Method 1246561229 - NamedType 3797758196" translate="yes" size-unit="char" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <target>Es ist nicht möglich, das Feld %1 zu ändern, da %2 nicht festgelegt ist.</target>
         </trans-unit>
         <trans-unit id="Enum 3526979612 - EnumValue 374497366 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Never</source>
@@ -783,6 +799,26 @@
           <source>Specifies the value of the "Price UoM Code" field. This UoM code wull be used to query price lists.</source>
           <target>Gibt den Wert des Felds "Preis-UoM-Code" an. Dieser UoM-Code kann zum Abfragen von Preislisten verwendet werden.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 3982450142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Quantty. Handled" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1572505489 - Action 2313416739 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
           <target>Füllen Sie die sekundäre Menge aus Tracking-Zeileninformationen aus. Diese Aktion ist nur für Zeilen verfügbar, die ein Element enthalten.</target>
@@ -967,6 +1003,14 @@
           <source>Specifies the value of the "Sec. Quantity Shipped" field.</source>
           <target>Gibt den Wert des Felds "Sec. Quantity Shipped" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1852705310 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1852705310 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1872327250 - Action 2313416739 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
           <target>Füllen Sie die sekundäre Menge aus Tracking-Zeileninformationen aus. Diese Aktion ist nur für Zeilen verfügbar, die ein Element enthalten.</target>
@@ -1079,6 +1123,14 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 210277357 - Control 3472624690 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Put-away Sec. Qty." field.</source>
+          <target>Gibt den Wert des Felds "Einlagerung von Sek. Menge." an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 210277357 - Control 3539889597 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Put Away" field.</source>
+          <target>Gibt den Wert des Feldes "Sek. Menge. Einlegen" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2108774031 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
@@ -1100,6 +1152,14 @@
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 2148859523 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2157015555 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2157015555 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
@@ -1199,9 +1259,25 @@
           <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2379111129 - Control 4241592552 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Picked" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge ausgewählt" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2379111129 - Control 4246765329 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Qty. Shipped" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge, versandt" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2379111129 - Control 4267944911 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Pick Sec. Qty." field.</source>
+          <target>Gibt den Wert des Felds "Pick Sek. Menge." an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 243925704 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 243925704 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 244224484 - Action 2313416739 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
@@ -1343,6 +1419,50 @@
           <source>Specifies the value of the "Price UoM Code" field. This UoM code wull be used to query price lists.</source>
           <target>Gibt den Wert des Felds "Preis-UoM-Code" an. Dieser UoM-Code kann zum Abfragen von Preislisten verwendet werden.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 3982450142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Quantty. Handled" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2959189521 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2959189521 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 297112255 - Control 2560426839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Quantity Received not Invoiced" field.</source>
           <target>Gibt den Wert des Felds "Sek. erhaltene Menge nicht in Rechnung gestellt" an.</target>
@@ -1455,6 +1575,58 @@
           <source>Specifies the value of the "Sales Price Calc. Method" field. "Line UoM": standard behaviuor, price lists are queried by UoM code; "Sec. UoM": price lists are queried by Sec. UoM code</source>
           <target>Gibt den Wert des Felds "Verkaufspreisberechnungsmethode" an. "Line UoM": Standardverhalten, Preislisten werden per UoM-Code abgefragt; "§ UoM": Preislisten werden nach § UoM-Code abgefragt</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3432408789 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3432408789 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3596886138 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3596886138 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 3982450142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Quantty. Handled" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3717936153 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
@@ -1479,6 +1651,26 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 3982450142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Quantty. Handled" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3745331609 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
@@ -1498,6 +1690,14 @@
         <trans-unit id="PageExtension 3745331609 - Control 435205998 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Price UoM Code" field. This UoM code wull be used to query price lists.</source>
           <target>Gibt den Wert des Felds "Preis-UoM-Code" an. Dieser UoM-Code kann zum Abfragen von Preislisten verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3901196383 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3901196383 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3901495163 - Action 2313416739 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
@@ -1587,9 +1787,57 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4070105406 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4070105406 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 3982450142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Quantty. Handled" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 407340618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge. Ausstehend" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4234582755 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4234582755 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Action 2621613712 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Start the process of counting inventory by filling the journal with known quantities.</source>
+          <target>Starten Sie den Bestandszählungsprozess, indem Sie die Datensätze mit den bekannten Mengen ausfüllen.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Action 2621613712 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate &amp;Inventory for Serial/Lot No. (DUM)</source>
+          <target>Lager für Seriennummer/Losnummer (DUM) berechnen</target>
+        </trans-unit>
         <trans-unit id="PageExtension 4254204695 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 2165936838 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the expiration date</source>
+          <target>Angeben des Ablaufdatums</target>
         </trans-unit>
         <trans-unit id="PageExtension 4254204695 - Control 2838062703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Qty. (Calculated)" field.</source>
@@ -1599,13 +1847,37 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 3353698214 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial number associated with the entry.</source>
+          <target>Gibt die Seriennummer an, die dem Uhrwerk zugeordnet ist.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 4017790943 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot number of the item being handled for the associated document line.</source>
+          <target>Gibt die Losnummer des verwalteten Elements für die zugeordnete Belegposition an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 4254204695 - Control 949876770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Qty. (Phys. Inventory)" field.</source>
           <target>Gibt den Wert des Felds "Sec. Qty. (Phys. Inventory)" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 537609100 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Maßeinheit" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 537609100 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 573587718 - Control 1796304545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Reverse Qty. per Unit of Measure field.</source>
           <target>Gibt den Wert des Felds Umgekehrte Menge pro Mengeneinheit an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 577312076 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 577312076 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 596934016 - Action 2313416739 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
@@ -1759,6 +2031,22 @@
           <source>Specifies the value of the "Purch. Price Calc. Method" field. "Line UoM": standard behaviuor, price lists are queried by UoM code; "Sec. UoM": price lists are queried by Sec. UoM code</source>
           <target>Gibt den Wert des "Purch. Preis Calc. Methode" Feld. "Line UoM": Standardverhalten, Preislisten werden per UoM-Code abgefragt; "§ UoM": Preislisten werden nach § UoM-Code abgefragt</target>
         </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 16653775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <target>Gibt den Wert des Felds "Zu behandelnde Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 3100200479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <target>Gibt den Wert des Felds "Sek. Menge" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 3982450142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <target>Gibt den Wert des Felds "Sec. Quantty. Handled" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 934808872 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
@@ -1774,6 +2062,82 @@
         <trans-unit id="PageExtension 934808872 - Control 435205998 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Price UoM Code" field. This UoM code wull be used to query price lists.</source>
           <target>Gibt den Wert des Felds "Preis-UoM-Code" an. Dieser UoM-Code kann zum Abfragen von Preislisten verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 2810852820 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if journal lines should be created for items that are not on inventory, that is, items where the value in the Qty. (Calculated) field is 0.</source>
+          <target>Gibt an, ob Registrierungspositionen für Artikel erstellt werden sollen, die nicht auf Lager sind und nicht in Transaktionen verwendet werden.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 2810852820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items Not on Inventory.</source>
+          <target>Artikel nicht auf Lager.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the document that is processed by the report or batch job.</source>
+          <target>Gibt die Nummer des Dokuments an, das vom Bericht oder Batchauftrag verarbeitet wird.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3117834186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Dokument Nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3156263823 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the splitting by Serial or Lot No.</source>
+          <target>Gibt die Division nach Seriennummer oder Losnummer an.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3156263823 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split by Series or Lot No.</source>
+          <target>Teilen Sie nach Reihe oder Los-Nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3388546572 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the dimensions that you want the batch job to consider.</source>
+          <target>Gibt die Größe an, die im Batchauftrag verwendet werden soll.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3388546572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>By Dimensions</source>
+          <target>Nach Größe</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3485626991 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. By default, the working date is entered, but you can change it.</source>
+          <target>Gibt das Datum für den zu protokollierenden Batchauftrag an. Standardmäßig wird das Arbeitsdatum eingegeben, aber Sie können es ändern.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3485626991 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Datum der Registrierung</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 687726929 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if journal lines should be created for items that are not on inventory and are not used in any transactions.</source>
+          <target>Gibt an, ob Registrierungspositionen für Artikel erstellt werden sollen, die nicht auf Lager sind, bei denen es sich um Zeilen handelt, deren Wert im Feld Menge (berechnet) 0 ist.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 687726929 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include Item without Transactions</source>
+          <target>Artikel ohne Transaktionen einschließen</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the document no.</source>
+          <target>Geben Sie die Nr. Dokument.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 3833134354" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items Not on Inventory.</source>
+          <target>Artikel nicht auf Lager.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the posting date.</source>
+          <target>Geben Sie das Datum der Registrierung ein.</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 598315961" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing items    #1##########</source>
+          <target>Arbeiten. Artikel #1 ##########</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 672156893" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retain Dimensions</source>
+          <target>Größe beibehalten</target>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Inventory Serial Lot No. (DUM)</source>
+          <target>Serial Warehouse Number (DUM) berechnen</target>
         </trans-unit>
         <trans-unit id="Table 3985256499 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PK</source>
@@ -1802,6 +2166,10 @@
         <trans-unit id="Table 3985256499 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dual Unit of Measure Setup</source>
           <target>Dual Unit of Measure Setup</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2950264969 - Field 2165936838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Expiration Date</source>
+          <target>Verfallsdatum</target>
         </trans-unit>
         <trans-unit id="TableExtension 3587961586 - Field 1529229328 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sec. Whse. Outstanding Qty.</source>

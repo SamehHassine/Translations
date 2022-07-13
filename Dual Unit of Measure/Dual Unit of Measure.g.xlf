@@ -278,6 +278,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Warehouse Shipment Mgt. - Method OnValidate_WhseShipmentLine_DUM_SecQuantity - NamedType Text001Err</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4113034785 - Method 3350772873 - NamedType 3797758196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Whse. Activity Mgt. - Method OnValidate_WhseActivityLine_DUM_Fields - NamedType SecUoMNotSetErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 819679418 - Method 1246561229 - NamedType 3797758196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Whse. Entry Mgt. - Method OnValidate_WhseJournalLine_DUM_Fields - NamedType SecUoMNotSetErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1671876023 - Method 3350772873 - NamedType 3797758196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Whse. Tracking Mgt. - Method OnValidate_WhseActivityLine_DUM_Fields - NamedType SecUoMNotSetErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4161447240 - Method 3270003512 - NamedType 3797758196" size-unit="char" translate="yes" xml:space="preserve">
+          <source>It is not possibile to modify %1 field because %2 is not set.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS051 Whse. Worksheet Mgt. - Method OnValidate_WhseWorksheetLine_DUM_Fields - NamedType SecUoMNotSetErr</note>
+        </trans-unit>
         <trans-unit id="Page 3985256499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dual Unit of Measure Setup (DUM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -867,6 +887,101 @@
           <source>Previous Set</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Action Previous Set - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Inventory Serial Lot No. (DUM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 3833134354" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items Not on Inventory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - NamedType ItemNotOnInventoryErr</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - NamedType Text000Err</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the document no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - NamedType Text001Err</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 598315961" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing items    #1##########</source>
+          <note from="Developer" annotates="general" priority="2">#1= Standard dialog</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - NamedType Text002Txt</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - NamedType 672156893" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retain Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - NamedType Text003Err</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3388546572 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the dimensions that you want the batch job to consider.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control ByDimensions - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3388546572 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By Dimensions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control ByDimensions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3117834186 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the document that is processed by the report or batch job.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control DocumentNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3117834186 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control DocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 687726929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if journal lines should be created for items that are not on inventory and are not used in any transactions.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control EOSIncludeItemWithNoTransaction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 687726929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Item without Transactions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control EOSIncludeItemWithNoTransaction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3485626991 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. By default, the working date is entered, but you can change it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control EOSPostingDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3485626991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control EOSPostingDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3156263823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the splitting by Serial or Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control EOSSplitBySeriesLotNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 3156263823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split by Series or Lot No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control EOSSplitBySeriesLotNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 2810852820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if journal lines should be created for items that are not on inventory, that is, items where the value in the Qty. (Calculated) field is 0.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control ItemsNotOnInventory - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4193033777 - Control 2810852820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Items Not on Inventory.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calculate Inv SerialLot - Control ItemsNotOnInventory - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3901495163 - Action 2313416739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2026081320">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
@@ -1703,6 +1818,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624469 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2379111129 - Control 4267944911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
+          <source>Specifies the value of the "Pick Sec. Qty." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624469 - Control EOS051 Pick Sec. Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2379111129 - Control 4241592552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
+          <source>Specifies the value of the "Sec. Qty. Picked" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624469 - Control EOS051 Sec. Qty. Picked - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1954458185 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1647151174">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1777,6 +1902,16 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624474 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 210277357 - Control 3472624690 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 454122980">
+          <source>Specifies the value of the "Put-away Sec. Qty." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624474 - Control EOS051 Put-away Sec. Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 210277357 - Control 3539889597 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 454122980">
+          <source>Specifies the value of the "Sec. Qty. Put Away" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt70624474 - Control EOS051 Sec. Qty. Put Away - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 847973974 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 770987266">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
@@ -1948,6 +2083,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624444 - Control EOS051 Sec. Quantity - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Action 2621613712 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+          <source>Start the process of counting inventory by filling the journal with known quantities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624445 - Action EOSDUMCalculateInventorySerialLot - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Action 2621613712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+          <source>Calculate &amp;Inventory for Serial/Lot No. (DUM)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624445 - Action EOSDUMCalculateInventorySerialLot - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 4254204695 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1967,6 +2112,21 @@
           <source>Specifies the value of the "Sec. Qty. (Phys. Inventory)" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624445 - Control EOS051 Sec. Qty. (Phys. Inv.) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 2165936838 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+          <source>Specifies the expiration date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624445 - Control EOS051 Expiration Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 4017790943 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+          <source>Specifies the lot number of the item being handled for the associated document line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624445 - Control EOS051 Lot No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4254204695 - Control 3353698214 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2187133665">
+          <source>Specifies the serial number associated with the entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624445 - Control EOS051 Serial No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1872327250 - Action 2313416739 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2466464261">
           <source>Fill the secondary quantity from tracking lines information. This action is available only for lines that contain an item.</source>
@@ -2178,6 +2338,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624479 - Control EOS051 Reverse Qty. per Unit of Measure - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3596886138 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 520771611">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624482 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3596886138 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 520771611">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624482 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2959189521 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 176668909">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624483 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2959189521 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 176668909">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624483 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577312076 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3288470611">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624484 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 577312076 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3288470611">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624484 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4234582755 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1339370113">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624485 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4234582755 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1339370113">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624485 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1852705310 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3183467001">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624486 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1852705310 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3183467001">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051PageExt70624486 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 1844391515 - Action 3441943518 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225830225">
           <source>Fill the secondary quantity to ship from tracking lines information. This action is available only for lines that contain an item.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2237,6 +2447,251 @@
           <source>Specifies the value of the "Sec. Quantity" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624478 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3638292657">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624487 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3638292657">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624487 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3638292657">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624487 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 3982450142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3638292657">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624487 - Control EOS051 Sec. Qty. Handled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3726092185 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3638292657">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624487 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 537609100 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1236153948">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624488 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 537609100 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1236153948">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624488 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624489 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624489 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624489 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 3982450142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624489 - Control EOS051 Sec. Qty. Handled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4194879779 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 489589600">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624489 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2157015555 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2952916557">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624490 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2157015555 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2952916557">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624490 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 693800023">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624491 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 693800023">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624491 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 693800023">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624491 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 3982450142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 693800023">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624491 - Control EOS051 Sec. Qty. Handled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2794712172 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 693800023">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624491 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3432408789 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2222141889">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624492 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3432408789 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2222141889">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624492 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4070105406 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1692605088">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624493 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4070105406 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1692605088">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624493 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3901196383 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1971558487">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624494 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3901196383 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1971558487">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624494 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 243925704 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4260588318">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624495 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 243925704 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4260588318">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624495 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624496 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624496 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624496 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 881622321 - Control 3982450142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1730959964">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624496 - Control EOS051 Sec. Qty. Handled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105268119">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624497 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105268119">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624497 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105268119">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624497 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 3982450142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105268119">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624497 - Control EOS051 Sec. Qty. Handled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1519318938 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105268119">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624497 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3455385777">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624498 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3455385777">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624498 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3455385777">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624498 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2963621195 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3455385777">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624498 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1774058864">
+          <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624499 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1774058864">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624499 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1774058864">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624499 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 3982450142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1774058864">
+          <source>Specifies the value of the "Sec. Qty. Handled" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624499 - Control EOS051 Sec. Qty. Handled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3601317812 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1774058864">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624499 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1655387904">
+          <source>Specifies the value of the "Sec. Unit of Measure" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624500 - Control EOS051 Sec. UoM Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 3100200479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1655387904">
+          <source>Specifies the value of the "Sec. Quantity" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624500 - Control EOS051 Sec. Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 16653775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1655387904">
+          <source>Specifies the value of the "Sec. Qty. to Handle" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624500 - Control EOS051 Sec. Qty. to Handle - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3390788387 - Control 407340618 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1655387904">
+          <source>Specifies the value of the "Sec. Qty. Outstanding" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt70624500 - Control EOS051 Sec. Qty. Outstanding - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 3587961586 - Field 1529229328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
           <source>Sec. Whse. Outstanding Qty.</source>
