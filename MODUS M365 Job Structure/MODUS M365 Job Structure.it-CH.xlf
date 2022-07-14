@@ -167,10 +167,6 @@
           <source>Routing Calculation is not calculated</source>
           <target>Il calcolo del ciclo non viene calcolato</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1924531717 - Method 3550928611 - NamedType 1156810071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Updating Production Order. Please wait......</source>
-          <target>Aggiornamento ordine prod. Attendere ...</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2514999708 - NamedType 2336780101" translate="yes" size-unit="char" xml:space="preserve">
           <source>Because of Date restriction the Production BOM was only partially exploded.</source>
           <target>Per restrizioni di date la DB produzione è stata esplosa solo parzialmente.</target>
@@ -427,10 +423,6 @@
           <source>Contact %1 %2 is related to a different company than customer %3.</source>
           <target>Il contatto %1 %2 è collegato a una società diversa dal cliente %3.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 1420165613 - NamedType 123183160" translate="yes" size-unit="char" xml:space="preserve">
-          <source>You have already completed the Assisted Setup for %1. Do you want to run it again?</source>
-          <target>L'installazione assistita per %1 è già stata completata. Vuoi eseguito di nuovo?</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 151693248 - NamedType 2491527162" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot declare Item %1 as Job Item. There are already Item Ledger Entries for this Item.</source>
           <target>Impossibile dichiarare articolo %1 come articolo commessa. Esistono già mov. contabili articolo per questo articolo.</target>
@@ -498,14 +490,6 @@
         <trans-unit id="Codeunit 3869258156 - Method 4205393829 - NamedType 2650019643" translate="yes" size-unit="char" xml:space="preserve">
           <source>You can delete job relations only with return posting. Quantity must be negativ.</source>
           <target>Relazioni commessa possono essere cancellati con registrazione di storno. La quantità deve essere negativa.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 4210113768 - NamedType 2047573738" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Setup the engineering extension</source>
-          <target>Impostare l'estensione di progettazione</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3869258156 - Method 4210113768 - NamedType 716329142" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Jobs, Jobmanagement</source>
-          <target>Posti di lavoro, Jobmanagement</target>
         </trans-unit>
         <trans-unit id="Codeunit 3869258156 - Method 438144446 - NamedType 2100292232" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a Job!</source>
@@ -7016,7 +7000,7 @@
           <target>N. routing standard</target>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 2359280162 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The status "Manual" must be taken from the table "Project Status".</source>
+          <source>The status "Manual" must be taken from the table "Project Status". It is chosen when you want to see something in the disposition, without possibility to order anything yet.</source>
           <target>Lo stato "Manuale" deve essere preso dalla tabella "Stato progetto".</target>
         </trans-unit>
         <trans-unit id="Page 3710421013 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7648,7 +7632,7 @@
           <target>Nr.</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 3798681774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This field shows the variant code</source>
+          <source>This field shows the variant code.</source>
           <target>Questo campo mostra il codice variante</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 3851953830 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -7752,7 +7736,7 @@
           <target>Totale inventario</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Control 949215307 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>This field shows the no.</source>
+          <source>The number is green, when you can do any disposition, it is black, when this line is on dispopreview and you cant do any disposition with it.</source>
           <target>Questo campo mostra il n.</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - Method 3938953619 - NamedType 3421702474" translate="yes" size-unit="char" xml:space="preserve">
@@ -7784,7 +7768,7 @@
           <target>Non è possibile creare un documento perché le parti mancanti sono 0. </target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - NamedType 2720700291" translate="yes" size-unit="char" xml:space="preserve">
-          <source>At least one line has "Reordering Significant = Planning". No creation allowed!</source>
+          <source>At least one line has "Reordering Significant = Planning" or "Dispopreview". No creation allowed!</source>
           <target>Almeno una riga ha "Riordino significativo = Pianificazione". Nessuna creazione consentita!</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - NamedType 2854161056" translate="yes" size-unit="char" xml:space="preserve">
@@ -7802,10 +7786,6 @@
         <trans-unit id="Page 3932771532 - NamedType 3897085887" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are %1 quantity from item %2 in quotelines. Create? </source>
           <target>Quantità %1 dall'articolo %2 nelle linee di offerta. Creare? </target>
-        </trans-unit>
-        <trans-unit id="Page 3932771532 - NamedType 4036315414" translate="yes" size-unit="char" xml:space="preserve">
-          <source>At least one line is"Reordering Significant = Planning". Do you really want to create a document?</source>
-          <target>Almeno una riga è "Riordino significativo = Pianificazione". Creare davvero un documento?</target>
         </trans-unit>
         <trans-unit id="Page 3932771532 - NamedType 4156849473" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free quantity purchase order is sufficient, please assign the purchase order lines for item %1.</source>
@@ -13420,7 +13400,7 @@
           <target>Riordinamento significante</target>
         </trans-unit>
         <trans-unit id="Table 3790414227 - Field 859436952 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Manually,Planning</source>
+          <source> ,Manually,Planning,Dispopreview</source>
           <target> ,Manuale,Pianificazione</target>
         </trans-unit>
         <trans-unit id="Table 3790414227 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -13756,7 +13736,7 @@
           <target>Riordinamento significante</target>
         </trans-unit>
         <trans-unit id="Table 3932771532 - Field 859436952 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Manually,Planning</source>
+          <source> ,Manually,Planning,Dispopreview</source>
           <target> ,Manuale,Pianificazione</target>
         </trans-unit>
         <trans-unit id="Table 3932771532 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
