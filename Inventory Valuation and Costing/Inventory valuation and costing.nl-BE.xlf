@@ -31,6 +31,21 @@
           <source>Subscribe for an activation</source>
           <target>Het nemen van een activatie</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1419842816 - NamedType 254490904" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total purchased qty calculated for Item Purchased is not correct</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1419842816 - NamedType 2605295363" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average cost calculated for Item Mfg is not correct</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1419842816 - NamedType 2673009156" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average cost calculated for Item Purchased is not correct</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1419842816 - NamedType 2724177863" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total processed qty calculated for Item Mfg is not correct</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1419842816 - NamedType 407563136" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing cost calculated for Item Mfg is not correct</source>
+        </trans-unit>
         <trans-unit id="Codeunit 2264642385 - NamedType 2441914056" translate="yes" size-unit="char" xml:space="preserve">
           <source>Really delete all period data?</source>
           <target>Echt alle periodegegevens verwijderen?</target>
@@ -2991,6 +3006,10 @@
           <source>Specifies which items to consider when calculating</source>
           <target>Hiermee geeft u op met welke artikelen rekening moet worden gehouden bij het berekenen</target>
         </trans-unit>
+        <trans-unit id="Page 3627189799 - Control 650153640 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Specific Cost - Previous Period Code field.</source>
+          <target>Specificeert de waarde van het veld Specifieke kosten - Code vorige periode.</target>
+        </trans-unit>
         <trans-unit id="Page 3627189799 - Control 712839993 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the status of the costing period</source>
           <target>Hiermee geeft u de status van de kostprijsberekeningsperiode op</target>
@@ -4075,6 +4094,10 @@
           <source>Specifies which items to consider when calculating</source>
           <target>Hiermee geeft u op met welke artikelen rekening moet worden gehouden bij het berekenen</target>
         </trans-unit>
+        <trans-unit id="Page 796740416 - Control 650153640 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Specific Cost - Previous Period Code field.</source>
+          <target>Specificeert de waarde van het veld Specifieke kosten - Code vorige periode.</target>
+        </trans-unit>
         <trans-unit id="Page 796740416 - Control 712839993 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the status of the costing period</source>
           <target>Hiermee geeft u de status van de kostprijsberekeningsperiode op</target>
@@ -4756,19 +4779,23 @@
           <target>Opties</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 1571969600" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Wip Calculation ...</source>
+          <source>Calculating WIP costs ...</source>
           <target>Wip Berekening ...</target>
         </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 2244912787" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalc. items with circular references ...</source>
+          <target>Artikelen herberekenen met kringverwijzingen ...</target>
+        </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2792817358" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update Production Costs ...</source>
+          <source>Update production costs ...</source>
           <target>Productiekosten bijwerken ...</target>
         </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 337625846" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update Purchase Costs ...</source>
-          <target>Aankoopkosten bijwerken ...</target>
+        <trans-unit id="Report 2229818940 - NamedType 3624983459" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculating costs ...</source>
+          <target>Kosten berekenen...</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3750576847" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Low-Level Code Calculation ...</source>
+          <source>Calculating Low-Level code ...</source>
           <target>Codeberekening op laag niveau ...</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
@@ -5155,10 +5182,6 @@
           <source>Entry Type</source>
           <target>Invoertype</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1071540792" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1080533945" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Lot nr.</target>
@@ -5175,10 +5198,6 @@
           <source>Amount</source>
           <target>Bedrag</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 135786462" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1382784687" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>№.</target>
@@ -5190,10 +5209,6 @@
         <trans-unit id="Report 2560877370 - NamedType 1550754766" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry Type</source>
           <target>Invoertype</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1556753851" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1611568094" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Cost Overhead Routing Amount</source>
@@ -5235,10 +5250,6 @@
           <source>Prod. Order No.</source>
           <target>Prod. Bestel nr.</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2355309882" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2405504814" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Lot nr.</target>
@@ -5246,10 +5257,6 @@
         <trans-unit id="Report 2560877370 - NamedType 2525492244" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material No.</source>
           <target>Materiaal nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2537214714" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2544294627" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocessed</source>
@@ -5294,10 +5301,6 @@
         <trans-unit id="Report 2560877370 - NamedType 2931284797" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Lot nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2976447101" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3023594308" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order No.</source>
@@ -5490,10 +5493,6 @@
         <trans-unit id="Report 2560877370 - NamedType 902378879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order No.</source>
           <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 953034637" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 98015458" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Amount</source>
@@ -7122,6 +7121,10 @@
         <trans-unit id="Table 2251501785 - Field 3716110350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Cost</source>
           <target>Toeslag</target>
+        </trans-unit>
+        <trans-unit id="Table 2251501785 - Field 3867104561 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Additional Unit Cost %</source>
+          <target>Extra eenheidskosten %</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 4000617933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Type Rollup</source>
@@ -9386,6 +9389,10 @@
         <trans-unit id="Table 499962481 - Field 60453471 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Filter</source>
           <target>Objectfilter</target>
+        </trans-unit>
+        <trans-unit id="Table 499962481 - Field 650153640 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specific Cost - Previous Period Code</source>
+          <target>Specifieke kosten - Code vorige periode</target>
         </trans-unit>
         <trans-unit id="Table 499962481 - Field 712839993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Definitive</source>
