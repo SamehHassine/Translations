@@ -203,6 +203,10 @@
           <source>Document related to EOS.FE entry no. %1 %2 is rejected.</source>
           <target>Document related to EOS.FE entry no. %1 %2 is rejected.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1342986557 - Method 4187227669 - NamedType 776623209" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The file is corrupted</source>
+          <target>The file is corrupted</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1342986557 - Method 492774098 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Different %1 found for %2 %3.</source>
           <target>Different %1 found for %2 %3.</target>
@@ -778,6 +782,10 @@
         <trans-unit id="Codeunit 3218389941 - Method 3766525804 - NamedType 3578138118" translate="yes" size-unit="char" xml:space="preserve">
           <source>The file %1 were not found</source>
           <target>The file %1 were not found</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3218389941 - Method 3896158616 - NamedType 1877650050" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The ZIP file is corrupted. The contents cannot be read</source>
+          <target>The ZIP file is corrupted. The contents cannot be read</target>
         </trans-unit>
         <trans-unit id="Codeunit 3218389941 - Method 3896158616 - NamedType 2762497220" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processed records: %1\Accepted: %2\Rejected/Ignored: %3</source>
@@ -6479,10 +6487,6 @@
           <source>Specifies if customer won't be included in electr. invoicing</source>
           <target>Specifies if customer won't be included in electr. invoicing</target>
         </trans-unit>
-        <trans-unit id="PageExtension 1978659690 - Control 2944953055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Direct VAT identification" field.</source>
-          <target>Specifies the value of the "Direct VAT identification" field.</target>
-        </trans-unit>
         <trans-unit id="PageExtension 1978659690 - Control 4094955275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
           <target>Electronic Document</target>
@@ -7518,6 +7522,10 @@
         <trans-unit id="PageExtension 88916137 - Control 2556255346 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Status</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 88916137 - Control 2700095810 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "XML Document Lines Origin" field.</source>
+          <target>Specifies the value of the "XML Document Lines Origin" field.</target>
         </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
@@ -12367,10 +12375,6 @@
           <source>No Electr. Doc. Management</source>
           <target>No Electr. Doc. Management</target>
         </trans-unit>
-        <trans-unit id="TableExtension 224321661 - Field 2944953055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct VAT identification</source>
-          <target>Direct VAT identification</target>
-        </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 766113513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document Format</source>
           <target>Electronic Document Format</target>
@@ -12962,6 +12966,14 @@
         <trans-unit id="TableExtension 969641528 - Field 2232794015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Applies-to Document No.</source>
           <target>Applies-to Document No.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2700095810 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS XML Document Lines Origin</source>
+          <target>EOS XML Document Lines Origin</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2700095810 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,Applyed Document,Current Document</source>
+          <target> ,Applyed Document,Current Document</target>
         </trans-unit>
         <trans-unit id="TableExtension 969641528 - Field 2935461753 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Created</source>

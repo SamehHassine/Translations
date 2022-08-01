@@ -5903,6 +5903,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Inb. Electr. Doc. Mgt. - Method ImportXMLZip - NamedType fileNotValidLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1342986557 - Method 4187227669 - NamedType 776623209" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The file is corrupted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Inb. Electr. Doc. Mgt. - Method ImportXMLZipStream - NamedType fileNotValidLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1342986557 - Method 3178357801 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to link purchase document %1 %2 to current electr. document preview %3?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6342,6 +6347,11 @@
           <source>The p7m file is corrupted. Check the signature</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 File Storage Mgt. - Method ImportFileStorageFolder - NamedType P7mErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3218389941 - Method 3896158616 - NamedType 1877650050" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The ZIP file is corrupted. The contents cannot be read</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS063 File Storage Mgt. - Method ImportFileStorageFolder - NamedType ZipErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3218389941 - Method 2374715398 - NamedType 3578138118" size-unit="char" translate="yes" xml:space="preserve">
           <source>The file %1 were not found</source>
@@ -14223,11 +14233,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123048 - Control EOS No Electr. Doc. Mgt. - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1978659690 - Control 2944953055 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
-          <source>Specifies the value of the "Direct VAT identification" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123048 - Control EOS Direct VAT identification - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="PageExtension 1340963073 - Control 4094955275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Electronic Document</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -14843,6 +14848,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123058 - Control EOS Electr. Doc. Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 88916137 - Control 2700095810 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
+          <source>Specifies the value of the "XML Document Lines Origin" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18123058 - Control EOS XML Document Lines Origin - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2556255346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4048657685">
           <source>Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -15317,11 +15327,6 @@
           <source>Ecobonus</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123014 - Field EOS Ecobonus - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="TableExtension 224321661 - Field 2944953055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
-          <source>Direct VAT identification</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123040 - Field EOS Direct VAT identification - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 826312781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Electr. Document Recipient Code</source>
@@ -16137,6 +16142,16 @@
           <source>Electr. Document Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123056 - Field EOS Electr. Document Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2700095810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1592379974">
+          <source>EOS XML Document Lines Origin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123056 - Field EOS XML Document Lines Origin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 969641528 - Field 2700095810 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1592379974">
+          <source> ,Applyed Document,Current Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18123056 - Field EOS XML Document Lines Origin - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="TableExtension 331944911 - Field 2232794015 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2271228953">
           <source>Applies-to Document No.</source>
