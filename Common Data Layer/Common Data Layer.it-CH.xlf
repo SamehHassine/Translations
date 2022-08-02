@@ -3,6 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="it-CH" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1308764409 - Method 4254127607 - NamedType 3714006762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>''</source>
+          <target>''</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2359682165 - Method 874745641 - NamedType 1700642953" translate="yes" size-unit="char" xml:space="preserve">
           <source>The field %1 Code of table %2 contains a value (%3) that cannot be found in the related table (%4).</source>
           <target>ll campo %1 della tabella %2 contiene un valore (%3) non trovato nella tabella correlata (%4).</target>
@@ -614,10 +618,6 @@
         <trans-unit id="Page 15448575 - Action 3649698641 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Initialize Setup</source>
           <target>Inizializza setup</target>
-        </trans-unit>
-        <trans-unit id="Page 15448575 - Control 2629609442 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Inv. Discount" field.</source>
-          <target>Specifica il valore del campo "Sconto Fattura Cliente".</target>
         </trans-unit>
         <trans-unit id="Page 15448575 - Control 3072328793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Duty Stamp Source Code" field.</source>
@@ -1441,9 +1441,11 @@
         </trans-unit>
         <trans-unit id="Page 2452281662 - Control 1774139514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Table Shortcut Filter.</source>
+          <target>Specifica il filtro shortcut tabella.</target>
         </trans-unit>
         <trans-unit id="Page 2452281662 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Code.</source>
+          <target>Specifica il codice.</target>
         </trans-unit>
         <trans-unit id="Page 2452281662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table Groups (CDL)</source>
@@ -2478,8 +2480,8 @@
           <target>Specifica il codice della classe.</target>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 3846064220 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies specifies if this class provide shipment on invoice.</source>
-          <target>Specifica se la classe prevede la spedizione su fattura.</target>
+          <source>Specifies if this class forces the No. Series when an invoice is created through the "Shipment on Invoice" condition.</source>
+          <target>Specifica se questa classe forza il Nr. di Serie quando viene creata una fattura tramite la condizione "Spedizione su fattura".</target>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 443014380 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies shipping or receipt no. series of this class.</source>
@@ -4538,8 +4540,8 @@
           <target>Codice classe documento</target>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 3846064220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Shipment on Invoice</source>
-          <target>Spedizione su fattura</target>
+          <source>Force No. Series in Shipment on Invoice</source>
+          <target>Forza Nr. Serie in Spedizione su Fattura</target>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 536545983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prepmt. Invoice No. Series</source>
@@ -5444,6 +5446,10 @@
         <trans-unit id="TableExtension 768421055 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
           <target>ID set sconti</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 859923654 - Field 4259878591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ETC Skip Post Code Errors</source>
+          <target>ETC Salta errori di codice postale</target>
         </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 1468938721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Issued Delivery Reminder Level</source>

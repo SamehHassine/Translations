@@ -804,7 +804,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS066 Sales Document Class - Field Related Reason Codes - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 3846064220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shipment on Invoice</source>
+          <source>Force No. Series in Shipment on Invoice</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS066 Sales Document Class - Field Shipment on Invoice - Property Caption</note>
         </trans-unit>
@@ -877,6 +877,11 @@
           <source>The document has already been assigned to a specific no. serie. Proceed anyway? No. series won't be updated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS066 Document Class Mgt. - Method OnValidateSalesDocClass - NamedType SeriesAssignedQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1308764409 - Method 4254127607 - NamedType 3714006762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>''</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS066 Filter Mgt - Method ResolveGenericFilter - NamedType EmptyValueTxt</note>
         </trans-unit>
         <trans-unit id="Page 1887803943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Common Data Layer Setup</source>
@@ -1102,11 +1107,6 @@
           <source>Financial Management</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CDL Source Code Setup - Control FinancialManagement - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 15448575 - Control 2629609442 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Customer Inv. Discount" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CDL Source Code Setup - Control Customer Inv. Discount - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 15448575 - Control 3072328793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Duty Stamp Source Code" field.</source>
@@ -4224,7 +4224,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS066 Sales Doc. Class Card - Control No. of Documents - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 3846064220 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies specifies if this class provide shipment on invoice.</source>
+          <source>Specifies if this class forces the No. Series when an invoice is created through the "Shipment on Invoice" condition.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS066 Sales Doc. Class Card - Control Shipment on Invoice - Property ToolTip</note>
         </trans-unit>
@@ -5982,6 +5982,11 @@
           <source>Trip Hours</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122727 - Field EOS066 Trip Hours - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 859923654 - Field 4259878591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 4148176377">
+          <source>ETC Skip Post Code Errors</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18122729 - Field EOS038 Skip Post Code Errors - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 43889540 - Field 4101457638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>No VAT Reg. No.</source>

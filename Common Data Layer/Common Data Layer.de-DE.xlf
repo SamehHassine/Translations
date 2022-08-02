@@ -3,6 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1308764409 - Method 4254127607 - NamedType 3714006762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>''</source>
+          <target>''</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2359682165 - Method 874745641 - NamedType 1700642953" translate="yes" size-unit="char" xml:space="preserve">
           <source>The field %1 Code of table %2 contains a value (%3) that cannot be found in the related table (%4).</source>
           <target>Das Kodexfeld %1 der Tabelle %2 enthält einen Wert (%3), der in der Bezugstabelle (%4) nicht vorhanden ist.</target>
@@ -614,10 +618,6 @@
         <trans-unit id="Page 15448575 - Action 3649698641 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Initialize Setup</source>
           <target>Einrichtung initialisieren</target>
-        </trans-unit>
-        <trans-unit id="Page 15448575 - Control 2629609442 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Inv. Discount" field.</source>
-          <target>Gibt den Wert des Felds "Customer Inv. Discount" an.</target>
         </trans-unit>
         <trans-unit id="Page 15448575 - Control 3072328793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Duty Stamp Source Code" field.</source>
@@ -1438,6 +1438,14 @@
         <trans-unit id="Page 2452281662 - Action 1419059538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Load Defaults</source>
           <target>Führt die Aktion Load Defaults aus</target>
+        </trans-unit>
+        <trans-unit id="Page 2452281662 - Control 1774139514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table Shortcut Filter.</source>
+          <target>Gibt den Tabellenverknüpfungsfilter an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2452281662 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Code.</source>
+          <target>Gibt den Code an.</target>
         </trans-unit>
         <trans-unit id="Page 2452281662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table Groups (CDL)</source>
@@ -2472,8 +2480,8 @@
           <target>Gibt Dokumentcode dieser Klasse an</target>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 3846064220 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies specifies if this class provide shipment on invoice.</source>
-          <target>Gibt an, ob diese Klasse Lieferungen auf Rechnung bereitstellen.</target>
+          <source>Specifies if this class forces the No. Series when an invoice is created through the "Shipment on Invoice" condition.</source>
+          <target>Gibt an, ob diese Klasse das Nein erzwingt. -Serie, wenn eine Rechnung über die Bedingung "Versand/Empfang auf Rechnung/Cr. Memo" erstellt wird.</target>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 443014380 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies shipping or receipt no. series of this class.</source>
@@ -4532,8 +4540,8 @@
           <target>Dokumentklassencode</target>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 3846064220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Shipment on Invoice</source>
-          <target>Versand/Empfang auf Rechnung/Cr. Memo</target>
+          <source>Force No. Series in Shipment on Invoice</source>
+          <target>Force Nr. Serie im Versand/Empfang auf Rechnung/Cr. Memo</target>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 536545983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prepmt. Invoice No. Series</source>
@@ -5438,6 +5446,10 @@
         <trans-unit id="TableExtension 768421055 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
           <target>Rabattsatz-ID</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 859923654 - Field 4259878591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ETC Skip Post Code Errors</source>
+          <target>ETC Postleitzahlenfehler überspringen</target>
         </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 1468938721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Issued Delivery Reminder Level</source>

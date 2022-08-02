@@ -3,6 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="da-DK" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1308764409 - Method 4254127607 - NamedType 3714006762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>''</source>
+          <target>''</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2359682165 - Method 874745641 - NamedType 1700642953" translate="yes" size-unit="char" xml:space="preserve">
           <source>The field %1 Code of table %2 contains a value (%3) that cannot be found in the related table (%4).</source>
           <target>Feltet% 1 Etisk tabel% 2 indeholder en værdi (% 3), der ikke kan findes i tilhørende tabel (% 4).</target>
@@ -614,10 +618,6 @@
         <trans-unit id="Page 15448575 - Action 3649698641 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Initialize Setup</source>
           <target>Initialiser Opsætning</target>
-        </trans-unit>
-        <trans-unit id="Page 15448575 - Control 2629609442 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Customer Inv. Discount" field.</source>
-          <target>Angiver værdien i feltet "Debitorindv.rabat".</target>
         </trans-unit>
         <trans-unit id="Page 15448575 - Control 3072328793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Duty Stamp Source Code" field.</source>
@@ -1438,6 +1438,14 @@
         <trans-unit id="Page 2452281662 - Action 1419059538 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Load Defaults</source>
           <target>Udfører handlingen Indlæs standardindstillinger</target>
+        </trans-unit>
+        <trans-unit id="Page 2452281662 - Control 1774139514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Table Shortcut Filter.</source>
+          <target>Angiver filteret Tabelgenvej.</target>
+        </trans-unit>
+        <trans-unit id="Page 2452281662 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Code.</source>
+          <target>Angiver koden.</target>
         </trans-unit>
         <trans-unit id="Page 2452281662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table Groups (CDL)</source>
@@ -2472,8 +2480,8 @@
           <target>Angiver dokumentkoden for denne klasse</target>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 3846064220 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies specifies if this class provide shipment on invoice.</source>
-          <target>Angiver angiver, om denne klasse leverer leverance på fakturaen.</target>
+          <source>Specifies if this class forces the No. Series when an invoice is created through the "Shipment on Invoice" condition.</source>
+          <target>Angiver, om denne klasse tvinger Nej. serie, når der oprettes en faktura via betingelsen "Forsendelse på faktura".</target>
         </trans-unit>
         <trans-unit id="Page 4074035191 - Control 443014380 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies shipping or receipt no. series of this class.</source>
@@ -3167,6 +3175,14 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1597667380 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1597667380 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1606305975 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
           <target>Udfører handlingen Detaljerede rabatter</target>
@@ -3395,6 +3411,14 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2235363997 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2235363997 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2244002592 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
           <target>Udfører handlingen Detaljerede rabatter</target>
@@ -3559,6 +3583,14 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2590573759 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2590573759 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2669447925 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document class code.</source>
           <target>Angiver dokumentklassekode.</target>
@@ -3603,14 +3635,6 @@
           <source>Specifies document class code.</source>
           <target>Angiver dokumentklassekode.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 2859120877 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
-          <target>Angiver en rabatprocent, der udlignes med fakturaen, baseret på detaljerede rabatlinjer.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2859120877 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detailed Header Discount</source>
-          <target>Detaljeret headerrabat</target>
-        </trans-unit>
         <trans-unit id="PageExtension 2873060614 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
           <target>Udfører handlingen Detaljerede rabatter</target>
@@ -3626,6 +3650,14 @@
         <trans-unit id="PageExtension 2873060614 - Control 3504279004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2873060614 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2873060614 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 2881699209 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
@@ -3683,6 +3715,14 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3027376460 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3027376460 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3036015055 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
           <target>Udfører handlingen Detaljerede rabatter</target>
@@ -3702,6 +3742,14 @@
         <trans-unit id="PageExtension 3036015055 - Control 3504279004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3036015055 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3036015055 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 3083897371 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document class code.</source>
@@ -3751,17 +3799,17 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3228270376 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3228270376 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3307144542 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document class code.</source>
           <target>Angiver dokumentklassekode.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3327908471 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
-          <target>Angiver en rabatprocent, der udlignes med fakturaen, baseret på detaljerede rabatlinjer.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3327908471 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detailed Header Discount</source>
-          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 3341848208 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
@@ -3807,14 +3855,6 @@
           <source>Specifies document class code.</source>
           <target>Angiver dokumentklassekode.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 3496817494 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
-          <target>Angiver en rabatprocent, der udlignes med fakturaen, baseret på detaljerede rabatlinjer.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3496817494 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detailed Header Discount</source>
-          <target>Detaljeret headerrabat</target>
-        </trans-unit>
         <trans-unit id="PageExtension 3519395826 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
           <target>Udfører handlingen Detaljerede rabatter</target>
@@ -3855,6 +3895,14 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3566088422 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3566088422 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3665073077 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
           <target>Udfører handlingen Detaljerede rabatter</target>
@@ -3870,6 +3918,14 @@
         <trans-unit id="PageExtension 3665073077 - Control 3504279004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3665073077 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3665073077 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 3673711672 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
@@ -3890,6 +3946,14 @@
         <trans-unit id="PageExtension 3673711672 - Control 3504279004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3673711672 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3673711672 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 3721593988 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document class code.</source>
@@ -3926,14 +3990,6 @@
         <trans-unit id="PageExtension 3846368361 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document class code.</source>
           <target>Angiver dokumentklassekode.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3965605088 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
-          <target>Angiver en rabatprocent, der udlignes med fakturaen, baseret på detaljerede rabatlinjer.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3965605088 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Detailed Header Discount</source>
-          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 3979544825 - Control 2156377460 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the field EOS Tariff No.</source>
@@ -4059,6 +4115,14 @@
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
         </trans-unit>
+        <trans-unit id="PageExtension 654137610 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 654137610 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
+        </trans-unit>
         <trans-unit id="PageExtension 708873089 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document class code.</source>
           <target>Angiver dokumentklassekode.</target>
@@ -4082,6 +4146,14 @@
         <trans-unit id="PageExtension 7802398 - Control 3504279004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Line Discount</source>
           <target>Detaljeret linjerabat</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 7802398 - Control 689157651 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a discount percentage that is applied to the invoice, based on detailed discount lines.</source>
+          <target>Angiver en rabatprocent, der anvendes på fakturaen, baseret på detaljerede rabatlinjer.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 7802398 - Control 689157651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Detailed Header Discount</source>
+          <target>Detaljeret headerrabat</target>
         </trans-unit>
         <trans-unit id="PageExtension 791061740 - Action 1452095825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the action Detailed Discounts</source>
@@ -4468,8 +4540,8 @@
           <target>Dokumentklassekode</target>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 3846064220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Shipment on Invoice</source>
-          <target>Leverance/kvittering på faktura/faktura.</target>
+          <source>Force No. Series in Shipment on Invoice</source>
+          <target>Tving nr. Serie i forsendelse på faktura</target>
         </trans-unit>
         <trans-unit id="Table 304189212 - Field 536545983 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prepmt. Invoice No. Series</source>
@@ -5374,6 +5446,10 @@
         <trans-unit id="TableExtension 768421055 - Field 437955325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount Set ID</source>
           <target>Id for rabatsæt</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 859923654 - Field 4259878591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>ETC Skip Post Code Errors</source>
+          <target>ETC Spring postnummer fejl over</target>
         </trans-unit>
         <trans-unit id="TableExtension 883639036 - Field 1468938721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Issued Delivery Reminder Level</source>
