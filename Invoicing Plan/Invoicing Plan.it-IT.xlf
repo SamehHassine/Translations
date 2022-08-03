@@ -63,6 +63,14 @@
           <source>No subscription is active.</source>
           <target>Nessuna sottoscrizione è attiva.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2212158426 - Method 1502877167 - NamedType 1606529520" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Orders</source>
+          <target>Ordini di vendita</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2212158426 - Method 2380282056 - NamedType 1608145430" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 %2 %3</source>
+          <target>%1 %2 %3</target>
+        </trans-unit>
         <trans-unit id="Codeunit 479265699 - Method 2541890790 - NamedType 4153884925" translate="yes" size-unit="char" xml:space="preserve">
           <source>The %1 %2 is closed and registrations are no longer possible.</source>
           <target>%1 %2 è chiuso e le registrazioni non sono più possibili.</target>
@@ -70,6 +78,10 @@
         <trans-unit id="Codeunit 479265699 - Method 2701329477 - NamedType 2141140146" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post %1?</source>
           <target>Post %1?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 479265699 - Method 3412777090 - NamedType 799028103" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The line amount cannot be changed because it is linked to Invoice Plan %1. It must be changed in the Invoice Plan.</source>
+          <target>L'importo della riga non può essere modificato perché è collegato al piano di fatturazione %1. Deve essere modificato nel piano di fatturazione.</target>
         </trans-unit>
         <trans-unit id="Enum 1927322531 - EnumValue 1673401186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ordine di Vendita</source>
@@ -109,7 +121,7 @@
         </trans-unit>
         <trans-unit id="Page 1248415691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Setup (IPL)</source>
-          <target>Impostazione del piano fatture (IPL)</target>
+          <target>Setup piano fatturazione (IPL)</target>
         </trans-unit>
         <trans-unit id="Page 1251468788 - Control 1821279055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Text" field.</source>
@@ -152,8 +164,12 @@
           <target>Specifica il valore del campo "Codice".</target>
         </trans-unit>
         <trans-unit id="Page 1340942410 - Control 332748603 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Account AP Invoice" field.</source>
+          <source>Specifies the value of the "Anticipated Inv. Plan. Bal. Acc." field.</source>
           <target>Specifica il valore del campo "Fattura PA Conto".</target>
+        </trans-unit>
+        <trans-unit id="Page 1340942410 - Control 332748603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Anticipated Inv. Plan. Bal. Acc.</source>
+          <target>Conto fatt. pagamento anticipato</target>
         </trans-unit>
         <trans-unit id="Page 1340942410 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description" field.</source>
@@ -165,7 +181,7 @@
         </trans-unit>
         <trans-unit id="Page 1340942410 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Template List (IPL)</source>
-          <target>Elenco di modelli piano fatture (IPL)</target>
+          <target>Lista template piani fatturazione (IPL)</target>
         </trans-unit>
         <trans-unit id="Page 1850797918 - Control 1821279055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Text" field.</source>
@@ -180,12 +196,12 @@
           <target>Testi modello piano fatturazione</target>
         </trans-unit>
         <trans-unit id="Page 2162319592 - Action 1713033043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the Show Invoices action</source>
-          <target>Esegue l'azione Mostra fatture</target>
+          <source>Executes the Show Invoices/Credit Memo action</source>
+          <target>Esegue l'azione Mostra fatture/Note credito</target>
         </trans-unit>
         <trans-unit id="Page 2162319592 - Action 1713033043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show Invoices</source>
-          <target>Mostra fatture</target>
+          <source>Show Invoices/Credit Memo</source>
+          <target>Mostra fatture/note credito</target>
         </trans-unit>
         <trans-unit id="Page 2162319592 - Action 1735507514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Line</source>
@@ -260,8 +276,12 @@
           <target>Specifica il valore del campo "Codice unità di misura".</target>
         </trans-unit>
         <trans-unit id="Page 2162319592 - Control 2727365314 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Net Invoiced Amount" field.</source>
+          <source>Specifies the value of the "Deducted Anticipated Amount" field.</source>
           <target>Specifica il valore del campo "Importo netto fatturato".</target>
+        </trans-unit>
+        <trans-unit id="Page 2162319592 - Control 2727365314 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deducted Anticipated Amount</source>
+          <target>Importo anticipo Detratto</target>
         </trans-unit>
         <trans-unit id="Page 2162319592 - Control 2792486849 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Share in %" field.</source>
@@ -516,8 +536,12 @@
           <target>Specifica il valore del campo "Codice postale".</target>
         </trans-unit>
         <trans-unit id="Page 2986323648 - Control 3683519316 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Open Amount" field.</source>
-          <target>Specifica il valore del campo "Importo aperto".</target>
+          <source>Specifies the value of the "Total Closing Amount" field.</source>
+          <target>Specifica il valore del campo "Importo a chiusura da fatturare".</target>
+        </trans-unit>
+        <trans-unit id="Page 2986323648 - Control 3683519316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Closing Amount</source>
+          <target>Importo a chiusura da fatturare</target>
         </trans-unit>
         <trans-unit id="Page 2986323648 - Control 3692706522 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Total Amount" field.</source>
@@ -541,7 +565,7 @@
         </trans-unit>
         <trans-unit id="Page 2986323648 - Control 587489954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Invoice Plan Amount" field.</source>
-          <target>Specifica il valore del campo "Importo piano fatturazione".</target>
+          <target>Specifica il valore del campo "Importo totale anticipo".</target>
         </trans-unit>
         <trans-unit id="Page 2986323648 - Control 714791889 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "City" field.</source>
@@ -553,7 +577,7 @@
         </trans-unit>
         <trans-unit id="Page 2986323648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan List (IPL)</source>
-          <target>Elenco piani fatture (IPL)</target>
+          <target>Lista piani fatturazione (IPL)</target>
         </trans-unit>
         <trans-unit id="Page 3013480012 - Control 1735971558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Modified On/At" field.</source>
@@ -582,6 +606,10 @@
         <trans-unit id="Page 3013480012 - Control 332748603 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Account AP Invoice" field.</source>
           <target>Specifica il valore del campo "Fattura PA Conto".</target>
+        </trans-unit>
+        <trans-unit id="Page 3013480012 - Control 332748603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Anticipated Inv. Plan. Bal. Acc.</source>
+          <target>Conto fatt. pagamento anticipato</target>
         </trans-unit>
         <trans-unit id="Page 3013480012 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description" field.</source>
@@ -676,8 +704,8 @@
           <target>Specifica il valore del campo "Importo".</target>
         </trans-unit>
         <trans-unit id="Page 3402433590 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Line List</source>
-          <target>Lista righe pianificazione fatturazione</target>
+          <source>Invoice Plan Line List (IPL)</source>
+          <target>Lista righe pianificazione fatturazione (IPL)</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Action 1045917230 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Source &amp;Document action</source>
@@ -804,12 +832,20 @@
           <target>Specifica il valore del campo "Codice dimensione di collegamento 2".</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 1246454606 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Invoice Plan Remaining Amount" field.</source>
-          <target>Specifica il valore del campo "Importo residuo piano fatture".</target>
+          <source>Specifies the value of the "Posted Closing Amount" field.</source>
+          <target>Specifica il valore del campo "Importo a chiusura fatturato".</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 1577567912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Shortcut Dimension 1 Code" field.</source>
           <target>Specifica il valore del campo "Codice dimensione scorciatoia 1".</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 1583067800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Collected Amount" field.</source>
+          <target>Specifica il valore del campo "Importo Incassato (VL)".</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 1583067800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Collected Amount (LCY)</source>
+          <target>Importo Incassato (VL)</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 1778072510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Closed" field.</source>
@@ -855,6 +891,14 @@
           <source>Specifies the value of the "Completely Invoiced" field.</source>
           <target>Specifica il valore del campo "Completamente fatturato".</target>
         </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3067708397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Collected Amount" field.</source>
+          <target>Specifica il valore del campo "Importo Incassato".</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3067708397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Collected Amount</source>
+          <target>Importo Incassato</target>
+        </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3168444338 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Address" field.</source>
           <target>Specifica il valore del campo "Indirizzo".</target>
@@ -864,12 +908,16 @@
           <target>Specifica il valore del campo "Importo ordine".</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 332748603 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Account AP Invoice" field.</source>
+          <source>Specifies the value of the "Anticipated Inv. Plan. Bal. Acc." field.</source>
           <target>Specifica il valore del campo "Fattura PA Conto".</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3422214401 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Accounted for Amount" field.</source>
-          <target>Specifica il valore del campo "Importo contabilizzato".</target>
+          <source>Specifies the value of the "Posted Anticipated Amount" field.</source>
+          <target>Specifica il valore del campo "Importo Anticipo Fatturato".</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3422214401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posted Anticipated Amount</source>
+          <target>Importo Anticipo Fatturato</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description" field.</source>
@@ -884,8 +932,12 @@
           <target>CAP/Città</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3683519316 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Open Amount" field.</source>
-          <target>Specifica il valore del campo "Importo aperto".</target>
+          <source>Specifies the value of the "Total Closing Amount" field.</source>
+          <target>Specifica il valore del campo "Importo a chiusura da fatturare".</target>
+        </trans-unit>
+        <trans-unit id="Page 4257111714 - Control 3683519316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Closing Amount</source>
+          <target>Importo a chiusura da fatturare</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 3999266964 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sales Document No." field.</source>
@@ -913,7 +965,7 @@
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 587489954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Invoice Plan Amount" field.</source>
-          <target>Specifica il valore del campo "Importo piano fatturazione".</target>
+          <target>Specifica il valore del campo "Importo totale anticipo".</target>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 633819257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Gen. Bus. Posting Group" field.</source>
@@ -1003,6 +1055,10 @@
           <source>Specifies the value of the "EOS IPL Invoice Plan No." field.</source>
           <target>Specifica il valore del campo "Nr. piano fattura IPL EOS".</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1604556812 - Change 2937233469 - Method 3279464882 - NamedType 799028103" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The line amount cannot be changed because it is linked to Invoice Plan %1. It must be changed in the Invoice Plan.</source>
+          <target>L'importo della riga non può essere modificato perché è collegato al piano di fatturazione %1. Deve essere modificato nel piano di fatturazione.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1773465835 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan</source>
           <target>Piano fatturazione</target>
@@ -1043,9 +1099,21 @@
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
           <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3407579993 - Control 3905633698 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Anticipated Inv. Plan. Bal. Acc.</source>
+          <target>Specifica il valore del campo ""Importo totale chiusura"".</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3407579993 - Control 3905633698 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Anticipated Inv. Plan. Bal. Acc. (IPL)</source>
+          <target>Conto Bilancio di Anticipo (IPL)</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3686555686 - Control 3905633698 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "EOS IPL Ant. Balance Account" field.</source>
+          <source>Specifies the value of the "Anticipated Inv. Plan. Bal. Acc." field.</source>
           <target>Specifica il valore del campo "Conto di saldo IPL.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3686555686 - Control 3905633698 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Anticipated Inv. Plan. Bal. Acc. (IPL)</source>
+          <target>Conto fatt. pagamento anticipato (IPL)</target>
         </trans-unit>
         <trans-unit id="PageExtension 4155343280 - Control 1905982473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan</source>
@@ -1058,6 +1126,22 @@
         <trans-unit id="PageExtension 4155343280 - Control 624760173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS IPL Document Type" field.</source>
           <target>Specifica il valore del campo "Tipo di documento IPL EOS".</target>
+        </trans-unit>
+        <trans-unit id="Report 1715760692 - Control 2934981776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates a line for every VAT in the source document and proportionates the amount for each order line. </source>
+          <target>Crea una riga per ogni Codice IVA nel documento di origine e crea l'importo proporzionalmente a ogni riga dell'ordine collegato. </target>
+        </trans-unit>
+        <trans-unit id="Report 1715760692 - Control 2934981776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split Lines by VAT</source>
+          <target>Dividi righe per IVA</target>
+        </trans-unit>
+        <trans-unit id="Report 1715760692 - Control 2938581182 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date" field.</source>
+          <target>Specifica il valore del campo "Data di registrazione".</target>
+        </trans-unit>
+        <trans-unit id="Report 1715760692 - Control 2938581182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Data di Registrazione</target>
         </trans-unit>
         <trans-unit id="Report 1715760692 - NamedType 2635210138" translate="yes" size-unit="char" xml:space="preserve">
           <source>No documents have been created</source>
@@ -1087,9 +1171,17 @@
           <source>Create revert lines on Credit Memo</source>
           <target>Crea righe storno su nota credito</target>
         </trans-unit>
+        <trans-unit id="Report 1813802682 - Control 2934981776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates a line for every VAT in the source document and proportionates the amount for each order line. </source>
+          <target>Crea una riga per ogni Codice IVA nel documento di origine e crea l'importo proporzionalmente a ogni riga dell'ordine collegato. </target>
+        </trans-unit>
+        <trans-unit id="Report 1813802682 - Control 2934981776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split Lines by VAT</source>
+          <target>Dividi righe per IVA</target>
+        </trans-unit>
         <trans-unit id="Report 1813802682 - NamedType 1665990101" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exist record %1 %2 %3 for order %4 line %7 not marked with %5 %6./ Proceed with update %1?</source>
-          <target>Record di esistere %1 %2 %3 per la riga dell'ordine %4 non contrassegnata con %5 %6./ Procedere con l'aggiornamento %1?</target>
+          <target>Esiste record %1 %2 %3 per la riga dell'ordine %4 non contrassegnata con %5 %6./ Procedere con l'aggiornamento %1?</target>
         </trans-unit>
         <trans-unit id="Report 1813802682 - NamedType 2572553217" translate="yes" size-unit="char" xml:space="preserve">
           <source>The invoice type must be closing invoice or partial closing invoice.</source>
@@ -1147,6 +1239,14 @@
           <source>Posting Date</source>
           <target>Data di registrazione</target>
         </trans-unit>
+        <trans-unit id="Report 3256361168 - Control 2934981776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates a line for every VAT in the source document and proportionates the amount for each order line. </source>
+          <target>Crea una riga per ogni Codice IVA nel documento di origine e crea l'importo proporzionalmente a ogni riga dell'ordine collegato. </target>
+        </trans-unit>
+        <trans-unit id="Report 3256361168 - Control 2934981776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Split Lines by VAT</source>
+          <target>Dividi righe per IVA</target>
+        </trans-unit>
         <trans-unit id="Report 3256361168 - NamedType 2635210138" translate="yes" size-unit="char" xml:space="preserve">
           <source>No documents have been created</source>
           <target>Non sono stati creati documenti</target>
@@ -1185,7 +1285,7 @@
         </trans-unit>
         <trans-unit id="Table 1248415691 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
-          <target>MyField (informazioni in stato di</target>
+          <target>Codice</target>
         </trans-unit>
         <trans-unit id="Table 1248415691 - Field 4198853098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan No.</source>
@@ -1193,7 +1293,7 @@
         </trans-unit>
         <trans-unit id="Table 1248415691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Setup (IPL)</source>
-          <target>Impostazione del piano fatture (IPL)</target>
+          <target>Setup piano fatturazione (IPL)</target>
         </trans-unit>
         <trans-unit id="Table 2079028662 - Field 1225278069 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sell-to Customer No.</source>
@@ -1202,10 +1302,6 @@
         <trans-unit id="Table 2079028662 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
           <target>Tipo</target>
-        </trans-unit>
-        <trans-unit id="Table 2079028662 - Field 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,G/L Account,Item,Resource,Fixed Asset,Charge (Item)</source>
-          <target> ,Conto C/G,Articolo,Risorsa,Cespite,Addebito (Articolo)</target>
         </trans-unit>
         <trans-unit id="Table 2079028662 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Type</source>
@@ -1312,8 +1408,8 @@
           <target>Importo totale (IVA incl.)</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 1246454606 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Plan Remaining Amount</source>
-          <target>Importo residuo</target>
+          <source>Posted Closing Amount</source>
+          <target>Importo a chiusura fatturato</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 1351594800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. Series</source>
@@ -1322,6 +1418,10 @@
         <trans-unit id="Table 2492362187 - Field 1577567912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shortcut Dimension 1 Code</source>
           <target>Cod. colleg. dimen. 1</target>
+        </trans-unit>
+        <trans-unit id="Table 2492362187 - Field 1583067800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Collected Amount (LCY)</source>
+          <target>Importo Incassato (VL)</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 1753214751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Type</source>
@@ -1356,7 +1456,7 @@
           <target>Cat. reg. articolo/servizio</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 2193737767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posted Amount</source>
+          <source>Posted Anticipated Amount</source>
           <target>Importo anticipo registrato</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 2306852000 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1383,6 +1483,10 @@
           <source>Completely Invoiced</source>
           <target>Completamente fatturato</target>
         </trans-unit>
+        <trans-unit id="Table 2492362187 - Field 3067708397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Collected Amount</source>
+          <target>Importo Incassato</target>
+        </trans-unit>
         <trans-unit id="Table 2492362187 - Field 3168444338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Address</source>
           <target>Indirizzo</target>
@@ -1396,7 +1500,7 @@
           <target>ID set di dimensioni</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 332748603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Account AP Invoice</source>
+          <source>Anticipated Inv. Plan. Bal. Acc.</source>
           <target>Fattura Conto AP</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1405,15 +1509,15 @@
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 3653671558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining Amt. (LCY)</source>
-          <target>Importo Residuo Cliente (LCY)</target>
+          <target>Importo Residuo Cliente (VL)</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 3660300303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post Code</source>
           <target>CAP</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 3683519316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Open Amount</source>
-          <target>Importo da registrare</target>
+          <source>Total Closing Amount</source>
+          <target>Importo a chiusura da fatturare</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - Field 3692706522 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Amount</source>
@@ -1466,6 +1570,14 @@
         <trans-unit id="Table 2492362187 - Field 995090288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date Filter</source>
           <target>Filtro data</target>
+        </trans-unit>
+        <trans-unit id="Table 2492362187 - Method 1178925080 - NamedType 1039725315" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are pending Sales Invoices for Invoice Plan %1, delete them to change %2 according to %3</source>
+          <target>Ci sono fatture di vendita in sospeso per il piano di fatturazione %1, eliminarle per modificare %2 in base a %3</target>
+        </trans-unit>
+        <trans-unit id="Table 2492362187 - Method 1178925080 - NamedType 2684214778" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are Posted Invoices or Posted Credit Memos linked to Invoice Plan %1, the Template cannot been applied.</source>
+          <target>Ci sono fatture registrate o note di credito registrate collegate al piano di fatturazione %1, il Template non può essere applicato.</target>
         </trans-unit>
         <trans-unit id="Table 2492362187 - NamedType 1012799933" translate="yes" size-unit="char" xml:space="preserve">
           <source>No %1 line defined.</source>
@@ -1597,7 +1709,7 @@
         </trans-unit>
         <trans-unit id="Table 2624862372 - Field 2267598826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoiced Net Amount</source>
-          <target>Importo anticipo fatturato netto</target>
+          <target>Importo anticipo Detratto </target>
         </trans-unit>
         <trans-unit id="Table 2624862372 - Field 2280732258 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Credit Memo Line No.</source>
@@ -1661,7 +1773,7 @@
         </trans-unit>
         <trans-unit id="Table 2624862372 - Field 3888822604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Invoice</source>
-          <target>Fattura registrata</target>
+          <target>Fattura Registrata</target>
         </trans-unit>
         <trans-unit id="Table 2624862372 - Field 4095313195 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Type</source>
@@ -1693,7 +1805,7 @@
         </trans-unit>
         <trans-unit id="Table 2624862372 - Field 939084794 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Credit Memo</source>
-          <target>Nota credito registrata</target>
+          <target>Nota Credito registrata</target>
         </trans-unit>
         <trans-unit id="Table 2624862372 - Field 966740350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Terms Code</source>
@@ -1792,7 +1904,7 @@
           <target>Codice</target>
         </trans-unit>
         <trans-unit id="Table 4283608869 - Field 332748603 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Account AP Invoice</source>
+          <source>Anticipated Inv. Plan. Bal. Acc.</source>
           <target>Fattura Conto AP</target>
         </trans-unit>
         <trans-unit id="Table 4283608869 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -1801,11 +1913,11 @@
         </trans-unit>
         <trans-unit id="Table 4283608869 - Field 596019230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modified By</source>
-          <target>Modified By</target>
+          <target>Modificato Da:</target>
         </trans-unit>
         <trans-unit id="Table 4283608869 - Field 749447638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Last Modified Date Timet</source>
-          <target>Data data ultima modifica Timet</target>
+          <source>Last Modified Date Time</source>
+          <target>Data ultima modifica</target>
         </trans-unit>
         <trans-unit id="Table 4283608869 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice Plan Template Header</source>
@@ -1845,7 +1957,7 @@
         </trans-unit>
         <trans-unit id="Table 933085470 - Field 596019230 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modified By</source>
-          <target>Modified By</target>
+          <target>Modificato Da:</target>
         </trans-unit>
         <trans-unit id="Table 933085470 - Field 966740350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Terms Code</source>
