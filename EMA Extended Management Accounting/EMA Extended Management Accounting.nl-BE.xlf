@@ -272,8 +272,8 @@
           <target>Let op, geen waarde aanwezig in stuurprogramma %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 2080095568" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Remaining %1 must be 0</source>
-          <target>Resterende %1 moet 0 zijn</target>
+          <source>Remaining must be 0 in allocation %1</source>
+          <target>Resterend moet 0 zijn in toewijzing %1</target>
         </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 2398549187" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specify Variable Allocations Values Line %1</source>
@@ -4510,6 +4510,9 @@
           <source>Transfer unit cost from C/A analysis tariff</source>
           <target>Eenheidskosten bijwerken van C/A-analysetarief</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1643684395 - Control 986416288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
+        </trans-unit>
         <trans-unit id="PageExtension 1774700381 - Control 1422467687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies an account that you can use as a filter to define what is displayed in the Analysis by Dimensions window.</source>
           <target>Hiermee geeft u een account op dat u als filter gebruiken om te definiëren wat wordt weergegeven in het venster Analyse per dimensie.</target>
@@ -4525,6 +4528,9 @@
         <trans-unit id="PageExtension 1774700381 - Control 719917558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the last c/a ledger entry you posted, prior to updating the analysis view.</source>
           <target>Hiermee geeft u het nummer op van de laatste c/a-grootboekpost die u hebt geboekt, voordat u de analyseweergave bijwerkt.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1783004618 - Control 986416288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a cost type number to establish which cost type a general ledger account belongs to.</source>
         </trans-unit>
         <trans-unit id="PageExtension 3225531796 - Action 337701643 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Production Volumes</source>
@@ -9834,6 +9840,9 @@
           <source>C/A Budget Filter</source>
           <target>C/A-budgetfilter</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2210345071 - Field 986416288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Account No.</source>
+        </trans-unit>
         <trans-unit id="TableExtension 2316993817 - Field 1422467687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Account Source</source>
           <target>EOS-accountbron</target>
@@ -9869,6 +9878,9 @@
         <trans-unit id="TableExtension 2316993817 - Method 4118242957 - NamedType 225200001" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not applicable for source type %2.</source>
           <target>%1 is niet van toepassing op brontype %2.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2880424959 - Field 986416288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Account No.</source>
         </trans-unit>
         <trans-unit id="TableExtension 2995621085 - Field 1510001031 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Analysis Entry</source>
