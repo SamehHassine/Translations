@@ -8,6 +8,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Assignment - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1400980886 - NamedType 3123336986" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter a valid filter value for %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Assignment - NamedType ERRFilterValue</note>
+        </trans-unit>
         <trans-unit id="Table 1400980886 - Field 3843700349 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allocation Header Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -183,6 +188,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Header - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 133711482 - NamedType 3123336986" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter a valid filter value for %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Header - NamedType ERRFilterValue</note>
+        </trans-unit>
         <trans-unit id="Table 133711482 - Field 1194165126 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>% Balance Allocation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -304,9 +314,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Line - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2816380129 - NamedType 4163032315" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You need delete the Assignement Lines.</source>
+          <source>You need delete the Assignment Lines.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Line - NamedType ERR001Err</note>
+        </trans-unit>
+        <trans-unit id="Table 2816380129 - NamedType 3123336986" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Please enter a valid filter value for %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Allocation Line - NamedType ERRFilterValue</note>
         </trans-unit>
         <trans-unit id="Table 2816380129 - Field 1747217968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Allocation %</source>
@@ -890,7 +905,7 @@
         </trans-unit>
         <trans-unit id="Table 2660126533 - NamedType 4229426589" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot rename a %1.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = tablecaption</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Analysis Code - NamedType CIN002Err</note>
         </trans-unit>
         <trans-unit id="Table 2660126533 - Field 3141908059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -4724,7 +4739,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - NamedType CA001Err</note>
         </trans-unit>
         <trans-unit id="Codeunit 3429295233 - NamedType 2080095568" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Remaining %1 must be 0</source>
+          <source>Remaining must be 0 in allocation %1</source>
           <note from="Developer" annotates="general" priority="2"> %1 = AllocationHeader.Code </note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Allocation Management - NamedType CA003Err</note>
         </trans-unit>
