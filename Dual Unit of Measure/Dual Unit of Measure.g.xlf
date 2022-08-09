@@ -893,6 +893,56 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS051 Items by Location - Action Previous Set - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2815104794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calc. Whse. Adjustment (Sec. Qty.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 2932411483" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the posting date.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - ReportDataItem Item - Method OnPreDataItem - NamedType PostingDateErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 2978643029" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter the document no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - ReportDataItem Item - Method OnPreDataItem - NamedType NextDocNoErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 3686368837" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing items    #1##########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - ReportDataItem Item - Method OnPreDataItem - NamedType ProcessingTxt</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Inventory</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - RequestPage RequestOptionsPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - Control Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 1000702852 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a manually entered document number that will be entered in the Document No. field, on the journal lines created by the batch job.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - Control NextDocNoFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 1000702852 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - Control NextDocNoFld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2938581182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. The program automatically enters the work date in this field, but you can change it.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - Control PostingDateFld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2938581182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS051 Calc. Whse. Adjustment - Control PostingDateFld - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 4193033777 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Calculate Inventory Serial Lot No. (DUM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2082,6 +2132,16 @@
           <source>Fill Sec. Qty. from Tracking</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624444 - Action EOS051FillSecQtyToShipReceive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 596934016 - Action 3266269210 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Calculate adjustments only for the secondary quantity, based on the warehouse adjustment bin for each item in the journal when the quantity in the primary unit of measure is unchanged. New lines are added for negative and positive secondary quantities.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624444 - Action EOS051CalcWhseAdjmtSecQty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 596934016 - Action 3266269210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
+          <source>Calc. Whse. Adjustment (Sec. Qty. Only)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS051 PageExt70624444 - Action EOS051CalcWhseAdjmtSecQty - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 596934016 - Control 1421564688 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3940806096">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>

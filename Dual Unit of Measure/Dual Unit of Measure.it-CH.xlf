@@ -1939,6 +1939,14 @@
           <source>Fill Sec. Qty. from Tracking</source>
           <target>Compila qtà. sec. da tracciabilità</target>
         </trans-unit>
+        <trans-unit id="PageExtension 596934016 - Action 3266269210 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate adjustments only for the secondary quantity, based on the warehouse adjustment bin for each item in the journal when the quantity in the primary unit of measure is unchanged. New lines are added for negative and positive secondary quantities.</source>
+          <target>Calcolare le rettifiche della sola quantità secondaria in base alla collocazione di rettifica quando la quantità in unità di misura principale coincide. Vengono aggiunte nuove righe le quantità secondarie positive e negative.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 596934016 - Action 3266269210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Whse. Adjustment (Sec. Qty. Only)</source>
+          <target>Calcola rettifica whse. (solo qtà. sec.)</target>
+        </trans-unit>
         <trans-unit id="PageExtension 596934016 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Specifica il valore del campo "Codice unità di misura secondaria".</target>
@@ -2118,6 +2126,46 @@
         <trans-unit id="Query 2105980378 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot Numbers by Bin (Sec. Qty.)</source>
           <target>Numeri lotto per collocazione (qtà. sec.)</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 1000702852 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a manually entered document number that will be entered in the Document No. field, on the journal lines created by the batch job.</source>
+          <target>Specifica un numero di documento immesso manualmente che viene utilizzato nel campo Nr. documento delle righe di registrazione create dal processo batch.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 1000702852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nr. documento</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Opzioni</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2938581182 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. The program automatically enters the work date in this field, but you can change it.</source>
+          <target>Specifica la data per la registrazione del processo batch. La data di lavoro viene inserita nel campo automaticamente, ma è possibile modificarla.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2938581182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Data di registrazione</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Whse. Adjustment (Sec. Qty.)</source>
+          <target>Calcola rettifica whse. (qtà. sec.)</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 2932411483" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the posting date.</source>
+          <target>Inserire la data di registrazione.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 2978643029" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the document no.</source>
+          <target>Immettere il nr. documento.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 3686368837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing items    #1##########</source>
+          <target>Elabor. articoli    #1##########</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Inventory</source>
+          <target>Calcola giacenze</target>
         </trans-unit>
         <trans-unit id="Report 4193033777 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>

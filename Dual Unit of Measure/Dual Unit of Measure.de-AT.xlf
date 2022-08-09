@@ -1939,6 +1939,14 @@
           <source>Fill Sec. Qty. from Tracking</source>
           <target>Füllen Sek. Menge aus der Sendungsverfolgung</target>
         </trans-unit>
+        <trans-unit id="PageExtension 596934016 - Action 3266269210 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate adjustments only for the secondary quantity, based on the warehouse adjustment bin for each item in the journal when the quantity in the primary unit of measure is unchanged. New lines are added for negative and positive secondary quantities.</source>
+          <target>Berechnet Mengenanpassungen auf Grundlage des Ausgleichslagerplatzes für jeden Artikel im Buch.-Blatt. Neue Zeilen werden für negative und positive Mengen hinzugefügt.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 596934016 - Action 3266269210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Whse. Adjustment (Sec. Qty. Only)</source>
+          <target>Ausgleich berechnen (Nur Sek. Menge)</target>
+        </trans-unit>
         <trans-unit id="PageExtension 596934016 - Control 1421564688 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sec. Unit of Measure Code" field.</source>
           <target>Gibt den Wert des Felds "Sec. Unit of Measure Code" an.</target>
@@ -2118,6 +2126,46 @@
         <trans-unit id="Query 2105980378 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot Numbers by Bin (Sec. Qty.)</source>
           <target>Losnummern nach Standort (Sek. Menge)</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 1000702852 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a manually entered document number that will be entered in the Document No. field, on the journal lines created by the batch job.</source>
+          <target>Gibt eine manuell eingegebene Belegnummer an, die in das Feld "Belegnr." der von der Stapelverarbeitung erzeugten Buch.-Blattzeilen eingetragen wird.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 1000702852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Belegnr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2938581182 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the date for the posting of this batch job. The program automatically enters the work date in this field, but you can change it.</source>
+          <target>Gibt das Datum der Buchung dieser Stapelverarbeitung an. Das Programm trägt automatisch das Arbeitsdatum in dieses Feld ein, Sie können es jedoch ändern.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Control 2938581182 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calc. Whse. Adjustment (Sec. Qty.)</source>
+          <target>Ausgleich berechnen (Sek. Menge)</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 2932411483" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the posting date.</source>
+          <target>Geben Sie das Buchungsdatum ein.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 2978643029" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the document no.</source>
+          <target>Geben Sie die Belegnummer ein.</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - ReportDataItem 3276313895 - Method 72583909 - NamedType 3686368837" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processing items    #1##########</source>
+          <target>Artikel werden durchgelesen  #1##########</target>
+        </trans-unit>
+        <trans-unit id="Report 2815104794 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Inventory</source>
+          <target>Lagerbestand berechnen</target>
         </trans-unit>
         <trans-unit id="Report 4193033777 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
