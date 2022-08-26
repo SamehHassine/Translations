@@ -515,14 +515,6 @@
           <source>Purchase 3</source>
           <target>Einkauf 3</target>
         </trans-unit>
-        <trans-unit id="EnumExtension 1488200279 - EnumValue 1435255274 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>test</source>
-          <target>Test</target>
-        </trans-unit>
-        <trans-unit id="EnumExtension 1488200279 - EnumValue 3307878451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Secondo test</source>
-          <target>Secondo-Test</target>
-        </trans-unit>
         <trans-unit id="Page 1283734436 - Control 1334313545 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the To Status.</source>
           <target>Gibt den To-Status an.</target>
@@ -1143,6 +1135,14 @@
           <source>Lines</source>
           <target>Zeilen</target>
         </trans-unit>
+        <trans-unit id="Page 2416094138 - Action 40638401 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Child Tables" action</source>
+          <target>Führt die Aktion "Untergeordnete Tabellen" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 2416094138 - Action 40638401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Child Tables</source>
+          <target>Untergeordnete Tabellen</target>
+        </trans-unit>
         <trans-unit id="Page 2416094138 - Control 1722049654 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Document Release disabled" field</source>
           <target>Gibt den Wert des Feldes "Dokumentfreigabe deaktiviert" an.</target>
@@ -1546,14 +1546,6 @@
         <trans-unit id="Page 2598370398 - Action 1181470318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Change Status</source>
           <target>Status ändern</target>
-        </trans-unit>
-        <trans-unit id="Page 2598370398 - Action 215142402 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Show Mandatory Field" action</source>
-          <target>Führt die Aktion "Pflichtfeld anzeigen" aus.</target>
-        </trans-unit>
-        <trans-unit id="Page 2598370398 - Action 215142402 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show Mandatory Field</source>
-          <target>Pflichtfeld anzeigen</target>
         </trans-unit>
         <trans-unit id="Page 2598370398 - Control 777858465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Status" field</source>
@@ -2522,6 +2514,26 @@
         <trans-unit id="Page 2944593814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary EDS Custom 3</source>
           <target>Übersicht EDS Custom 3</target>
+        </trans-unit>
+        <trans-unit id="Page 3023211477 - Control 1168189374 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Disable Delete Control field.</source>
+          <target>Gibt den Wert des Felds Delete Control deaktivieren an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3023211477 - Control 1769842520 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table Name to Check field.</source>
+          <target>Gibt den Wert des Felds Zu überprüfender Tabellenname an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3023211477 - Control 2033273873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Disable Edit Control field.</source>
+          <target>Gibt den Wert des Felds Disable Edit Control an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3023211477 - Control 3102371810 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Table ID to Check field.</source>
+          <target>Gibt den Wert des Felds Zu überprüfende Tabellen-ID an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3023211477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Child Table Setup List</source>
+          <target>Einrichtungsliste für untergeordnete Tabellen</target>
         </trans-unit>
         <trans-unit id="Page 3044119923 - Action 366713437 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "&amp;Show" action</source>
@@ -4906,6 +4918,42 @@
         <trans-unit id="Table 2829684953 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Factbox Buffer</source>
           <target>EDS Factbox-Puffer</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 1168189374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Delete Control</source>
+          <target>Deaktivieren der Löschsteuerung</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 1769842520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table Name to Check</source>
+          <target>Zu überprüfender Tabellenname</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 2033273873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Edit Control</source>
+          <target>Deaktivieren der Bearbeitungssteuerung</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 2379948459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status Code</source>
+          <target>Statuscode</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 3102371810 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID to Check</source>
+          <target>Zu überprüfende Tabellen-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Table ID</source>
+          <target>Tabellen-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 3165189583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Belegart</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Field 3165189583 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</source>
+          <target>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19</target>
+        </trans-unit>
+        <trans-unit id="Table 2966951915 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Child Table Setup</source>
+          <target>Einrichtung der untergeordneten Tabelle</target>
         </trans-unit>
         <trans-unit id="Table 297536011 - Field 1131619133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value</source>
