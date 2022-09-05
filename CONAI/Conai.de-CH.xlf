@@ -39,6 +39,10 @@
           <source>This exception is not editable beacause exists a CONAI Exemption for this customer and material.</source>
           <target>Diese Ausnahme kann nicht bearbeitet werden, da eine CONAI-Ausnahme für diesen Debitor und dieses Material vorhanden ist.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 490782907 - Method 3546745754 - NamedType 3425271162" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Weight (Kg) %1 Exemption % %2</source>
+          <target>Gesamtgewicht (kg) %1 Befreiung % %2</target>
+        </trans-unit>
         <trans-unit id="Codeunit 490782907 - NamedType 1679553798" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to delete all CONAI lines of %1 %2?</source>
           <target>Möchtest du alle , ins Dok. %1 %2, eingetr.CONAI Zeilen löschen?</target>
@@ -355,6 +359,10 @@
           <source>Specifies the value of the Secondary/Tertiary Weight field</source>
           <target>Gibt den Wert des Feldes Sekundär-/Tertiäre Gewichtung an.</target>
         </trans-unit>
+        <trans-unit id="Page 2962054832 - Control 3155645754 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Contribution Weight field</source>
+          <target>Gibt den Wert des Felds "Beitragsgewicht" an.</target>
+        </trans-unit>
         <trans-unit id="Page 2962054832 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Line No. field</source>
           <target>Gibt den Wert der Zeile Nr. an. Feld</target>
@@ -422,6 +430,10 @@
         <trans-unit id="Page 3641692506 - Control 203361468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Nos. used for shipments that contains only CONAI lines</source>
           <target>Gibt die Nr. an. für Sendungen verwendet, die nur CONAI-Zeilen enthalten</target>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 2434920436 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Weight Exemption Calculation for Sales Lines.</source>
+          <target>Aktivieren Sie die Berechnung der Gewichtsbefreiung für Vertriebslinien.</target>
         </trans-unit>
         <trans-unit id="Page 3641692506 - Control 3651077253 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable the rounding of the CONAI calculation to kg.</source>
@@ -927,6 +939,10 @@
           <source>Table ID</source>
           <target>Tabellen-ID</target>
         </trans-unit>
+        <trans-unit id="Table 3012845177 - Field 3155645754 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contribution Weight</source>
+          <target>Beitragsgewicht</target>
+        </trans-unit>
         <trans-unit id="Table 3012845177 - Field 3355986598 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Contribution Amount</source>
           <target>Beitragshöhe</target>
@@ -1035,6 +1051,10 @@
           <source>Table ID</source>
           <target>Tabellen-ID</target>
         </trans-unit>
+        <trans-unit id="Table 3354552697 - Field 3155645754 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contribution Weight</source>
+          <target>Beitragsgewicht</target>
+        </trans-unit>
         <trans-unit id="Table 3354552697 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Zeilennr.</target>
@@ -1086,6 +1106,10 @@
         <trans-unit id="Table 3641692506 - Field 203361468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CONAI Lines Shipments Nos.</source>
           <target>CONAI Lines Sendungen Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 2434920436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CONAI Weight Exemption Calc.</source>
+          <target>Berechnung der CONAI-Gewichtsbefreiung</target>
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 3651077253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CONAI Rounding per Kg</source>
