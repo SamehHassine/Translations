@@ -27,24 +27,6 @@
           <source>The warehouse shipment was not created because an open warehouse shipment exists for %1 %2 and Shipping Advice is %3.\\You must add the item(s) as new line(s) to the existing warehouse shipment or change Shipping Advice to Partial.</source>
           <target>La spedizione warehouse non è stata creata perché è presente una spedizione warehouse aperta per %1 %2 e Avviso spedizione è %3.\\È necessario aggiungere gli articoli come nuove righe alla spedizione warehouse esistente o impostare Avviso spedizione su Parziale.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3368881787 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for DRP present! - this report cannot be generated!</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 3368881787 - NamedType 1772493744" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 3368881787 - NamedType 3269160490" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for DRP present! - Action not allowed!</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 3368881787 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a subscription</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 3368881787 - NamedType 4128705988" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for DRP present! - this page cannot be edited!</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 3368881787 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Subscribe for an activation</source>
-        </trans-unit>
         <trans-unit id="Enum 1259304304 - EnumValue 1778072510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Closed</source>
           <target>Chiuso</target>
@@ -569,6 +551,10 @@
           <source>Route Plan List (DRP)</source>
           <target>Giri di consegna (DRP)</target>
         </trans-unit>
+        <trans-unit id="Page 3245153306 - Control 202036913 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Contact No field.</source>
+          <target>Specifica il valore del campo Nr. Contatto.</target>
+        </trans-unit>
         <trans-unit id="Page 3245153306 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Name field.</source>
           <target>Specifica il valore del campo Nome.</target>
@@ -841,30 +827,6 @@
           <source>Specifies the value of the Periodic Tour Code field.</source>
           <target>Specifica il valore del campo Codice giro periodico.</target>
         </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 1298965759" translate="yes" size-unit="char" xml:space="preserve">
-          <source>State</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 1767680556" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Address Line 2</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 3417773150" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Route Plan %1</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 3646428542" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Geolocation Code</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 451751754" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Extra info (Optional)</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 552261855" translate="yes" size-unit="char" xml:space="preserve">
-          <source>City</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 716549086" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Postal Code</source>
-        </trans-unit>
-        <trans-unit id="Report 320333693 - NamedType 911956693" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Address Line 1</source>
-        </trans-unit>
         <trans-unit id="Report 320333693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Route Plan Excel</source>
           <target>Crea Giro di consegna Excel</target>
@@ -952,6 +914,10 @@
         <trans-unit id="Table 123578252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delivery Route Setup</source>
           <target>Setup Giri di Consegna</target>
+        </trans-unit>
+        <trans-unit id="Table 1971601192 - Field 202036913 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contact No.</source>
+          <target>Nr. Contatto</target>
         </trans-unit>
         <trans-unit id="Table 1971601192 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
