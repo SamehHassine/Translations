@@ -85,7 +85,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 4227792008 - NamedType 3457502012" translate="yes" size-unit="char" xml:space="preserve">
           <source>No inspection order was created because no inspection setup matches.</source>
-          <target>Non è stato creato un'ordine di controllo perché non è stato trovato un setup.</target>
+          <target>Non è stato creato un ordine di controllo perché non è stato trovato un setup.</target>
         </trans-unit>
         <trans-unit id="Codeunit 4227792008 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>The item %1 %2 %3 %4 is just blocked.</source>
@@ -674,6 +674,10 @@
         <trans-unit id="Page 1722468853 - Control 2161572060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Location Code filter</source>
           <target>Specifica il filtro Codice Ubicazione</target>
+        </trans-unit>
+        <trans-unit id="Page 1722468853 - Control 3032547857 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable manually creation of Inspection Order from Prod. Order Routing Lines. Inspection Type must be "In Progress" or "Output" in Inspection Matrix Setup.</source>
+          <target>Abilitare la creazione manuale dell'ordine di controllo dalle Righe Ciclo dell'ordine di Produzione. Il tipo di controllo deve essere "In corso" o "Output" in Setup matrice di controllo.</target>
         </trans-unit>
         <trans-unit id="Page 1722468853 - Control 3132203173 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if quality is active for subcontracting receipt</source>
@@ -3283,6 +3287,26 @@
           <source>Product Quality Assurance</source>
           <target>Qualità</target>
         </trans-unit>
+        <trans-unit id="PageExtension 238230539 - Action 2264061542 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="PageExtension 238230539 - Action 2264061542 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inspection Orders</source>
+          <target>Ordini di controllo</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 238230539 - Action 2846250316 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Product Quality Assurance</source>
+          <target>Qualità</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 238230539 - Action 420301319 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="PageExtension 238230539 - Action 420301319 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Inspection Order</source>
+          <target>Crea ordine di controllo</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2620107984 - Action 2651409462 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
           <target> </target>
@@ -4387,6 +4411,10 @@
           <source>Location Code</source>
           <target>Cod. ubicazione</target>
         </trans-unit>
+        <trans-unit id="Table 1722468853 - Field 3032547857 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Manually Inspection Order</source>
+          <target>Crea ordine di controllo manuale</target>
+        </trans-unit>
         <trans-unit id="Table 1722468853 - Field 3132203173 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>QA on Subcontracting Receipt</source>
           <target>CQ in Carichi Conto Lavoro</target>
@@ -5030,6 +5058,10 @@
         <trans-unit id="Table 3273771642 - Field 3863180630 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Cr.Memo No.</source>
           <target>Nr. Nota di Credito Reg.</target>
+        </trans-unit>
+        <trans-unit id="Table 3273771642 - Field 3978220210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manual Insp. Order</source>
+          <target>Ordine di controllo manuale</target>
         </trans-unit>
         <trans-unit id="Table 3273771642 - Field 4130293374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Priority</source>
