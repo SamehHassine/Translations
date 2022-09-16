@@ -7,10 +7,6 @@
           <source>XML,Ministerial Template,Alternative Template</source>
           <target>XML,Foglio di stile ministeriale,Foglio di stile, alternativo</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1263763223 - NamedType 829426495" translate="yes" size-unit="char" xml:space="preserve">
-          <source>@1@@@@@@@@@@@@@@@@@@@@</source>
-          <target>@1@@@@@@@@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1309890418 - Method 3805526482 - NamedType 92083653" translate="yes" size-unit="char" xml:space="preserve">
           <source>Function not supported in v3 version connetctor.</source>
           <target>Funzione non supportata in v3 versione connetctor.</target>
@@ -379,10 +375,6 @@
           <source>Downloaded %1 Documents\Downloaded %2 XML/P7M\Downloaded %3 Notifications.</source>
           <target>Scaricati %1 documenti\Scaricati %2 XML/P7M\Scaricate %3 Notifiche.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1803908874 - Method 1006508158 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All default setups needed for 1.6 format have been loaded</source>
-          <target>Tutti i setup di default per il formato 1.6 sono stati caricati</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1803908874 - Method 1374592053 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table %1 contains data. Do you want to continue?</source>
           <target>La tabella %1 contiene dei record. Procedere con la generazione?</target>
@@ -627,6 +619,10 @@
           <source>Could not download from the endpoint. Ensure you are connected to the internet</source>
           <target>Impossibile scaricare dall'endpoint. Assicurati di essere connesso a Internet</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1803908874 - Method 87355823 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All default setups needed for 1.7.1 format have been loaded</source>
+          <target>Tutti i setup di default per il formato 1.6 sono stati caricati</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2090274623 - NamedType 486867179" translate="yes" size-unit="char" xml:space="preserve">
           <source>The electr. document for %1 %2 has not been created.</source>
           <target>Non è stato creato il documento elettr. per %1 %2.</target>
@@ -670,6 +666,10 @@
         <trans-unit id="Codeunit 2684716203 - NamedType 2041511320" translate="yes" size-unit="char" xml:space="preserve">
           <source>Failed calling function: %1</source>
           <target>Errore nella chiamata della funzione: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3061851512 - Method 670824376 - NamedType 2294470471" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot install app %1 due to missing event %2: %3 - Ref. %4</source>
+          <target>Impossibile installare l'app %1 causa mancanza evento %2: %3 - Rif. %4</target>
         </trans-unit>
         <trans-unit id="Codeunit 3169348319 - Method 187627673 - NamedType 1082225881" translate="yes" size-unit="char" xml:space="preserve">
           <source>Errore invio in conservazione</source>
@@ -775,33 +775,17 @@
           <source>Unknow parameter "%1".</source>
           <target>Parametro "%1" sconosciuto.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 4008489439 - Method 670824376 - NamedType 2294470471" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cannot install app %1 due to missing event %2: %3 - Ref. %4</source>
-          <target>Impossibile installare l'app %1 causa mancanza evento %2: %3 - Rif. %4</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 248035163" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The field %1 were not found in table %2</source>
-          <target>Il campo %1 non è stato trovato nella tabella %2</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 3415447349" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1%2_%3.xml</source>
           <target>%1%2_%3.xml</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 234975533 - NamedType 917664755" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Missing setup: table %1</source>
-          <target>Setup mancante: tabella %1</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 274964249 - NamedType 1364195804" translate="yes" size-unit="char" xml:space="preserve">
-          <source>VAT transaction nature cannot be blank if VAT % is zero</source>
-          <target>Natura transazione IVA non può essere vuoto se aliquota IVA è zero</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3792775073 - Method 274964249 - NamedType 996716880" translate="yes" size-unit="char" xml:space="preserve">
-          <source>not compliant with the value set in outbound setup </source>
-          <target>non conforme col valore impostato nel setup in uscita </target>
-        </trans-unit>
         <trans-unit id="Codeunit 3842445359 - Method 4165217952 - NamedType 811335887" translate="yes" size-unit="char" xml:space="preserve">
           <source>If you need to specify Ecobonus you must mark at least one line as "Ecobonus" and add a Scontomaggiorazione record in %1 that has %2 equal to Ecobonus</source>
           <target>Se si desidera specificare un Ecobonus, è necessario contrassegnare almeno una riga come "Ecobonus" e aggiungere un record Scontomaggiorazione in %1 con %2 uguale a Ecobonus</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4008489439 - Method 670824376 - NamedType 2294470471" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot install app %1 due to missing event %2: %3 - Ref. %4</source>
+          <target>Impossibile installare l'app %1 causa mancanza evento %2: %3 - Rif. %4</target>
         </trans-unit>
         <trans-unit id="Codeunit 4074955917 - Method 1632451970 - NamedType 1639276128" translate="yes" size-unit="char" xml:space="preserve">
           <source>AMAZON: CodiceArticolo mandatory for document %1 line %2.</source>
@@ -1418,10 +1402,6 @@
         <trans-unit id="Page 1668318867 - Control 2687027117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Errors</source>
           <target>Errori</target>
-        </trans-unit>
-        <trans-unit id="Page 1668318867 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if new purchase documents should be initialized with a specific document class</source>
-          <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
         </trans-unit>
         <trans-unit id="Page 1668318867 - Control 3744893828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Summary Amount</source>
@@ -2175,13 +2155,49 @@
           <source>Query Download Periods</source>
           <target>Periodi di download delle query</target>
         </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1252223026 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each call for Outbound process.</source>
+          <target>Specifica i secondi di ritardo tra una chiamata e l'altra durante il processo in uscita.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1252223026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call delay secs.</source>
+          <target>Secondi ritardo chiamata</target>
+        </trans-unit>
         <trans-unit id="Page 2702337424 - Control 1336883856 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies number of notification that will be downloaded in a single call di IX-FE service. The default value is 100, is not recomended to use values greater than 1000. This affects performance</source>
           <target>Specifica il numero di notifiche che verranno scaricate in una singola chiamata del servizio IX-FE. Il valore predefinito è 100, non è consigliabile utilizzare valori maggiori di 1000. Ciò influisce sulle prestazioni</target>
         </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1639955949 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each attempt for authentication process.</source>
+          <target>Specifica i secondi di ritardo tra ogni tentativo per il processo di autenticazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1639955949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delay seconds each attempt</source>
+          <target>Secondi ritardo ogni tentativo</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1898774900 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each attempt for Inbound process.</source>
+          <target>Specifica i secondi di ritardo tra ogni tentativo per il processo in entrata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1898774900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delay seconds each attempt</source>
+          <target>Secondi ritardo ogni tentativo</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 1975224516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Authentication</source>
+          <target>Autenticazione</target>
+        </trans-unit>
         <trans-unit id="Page 2702337424 - Control 2007142981 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default false. Specifies if during notification download, specified polling range has to be used to investigate past notifications. If uncheked, system will read notifications using incremental method, thus only new notification will be read.</source>
           <target>Predefinito false. Specifica se durante il download delle notifiche è necessario utilizzare l'intervallo di recupero specificato per analizzare le notifiche passate. Se non attivato, sistema leggerà le notifiche utilizzando il metodo incrementale, quindi solo le nuove notifiche saranno lette. Intervallo massimo gestito dal connettore 90G.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2109929151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies maximun no. of attempts in case of error for Outbound process.</source>
+          <target>Specifica i secondi di ritardo tra ogni tentativo per il processo in uscita.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2109929151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Max no. of attempts</source>
+          <target>Nr. di tentativi</target>
         </trans-unit>
         <trans-unit id="Page 2702337424 - Control 2377467855 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enables operation log helpful during technical debug</source>
@@ -2195,6 +2211,38 @@
           <source>Specifies AOO (area organizzativa omogenea) to be used</source>
           <target>Specifica AOO (area omogenea) da utilizzare</target>
         </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2736439118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each document upload from user.</source>
+          <target>Specifica i secondi di ritardo tra un upload documento e l'altro.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2736439118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document delay secs. (User)</source>
+          <target>Secondi ritardo upload doc. (Utente)</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2757523496 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outbound</source>
+          <target>In uscita</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2774919417 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies maximun no. of attempts in case of error for authentication process.</source>
+          <target>Specifica il numero massimo di tentativi in caso di errore durante il processo di autenticazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2774919417 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Max no. of attempts</source>
+          <target>Nr. di tentativi</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2785450435 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each attempt for Outbound process.</source>
+          <target>Specifica il numero massimo di tentativi in caso di errore durante il processo in uscita.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 2785450435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delay seconds each attempt</source>
+          <target>Secondi ritardo ogni tentativo</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 3221732535 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inbound</source>
+          <target>In entrata</target>
+        </trans-unit>
         <trans-unit id="Page 2702337424 - Control 3270494056 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies IX-FE account user name</source>
           <target>Specifica il nome utente dell'account IX-FE</target>
@@ -2207,6 +2255,26 @@
           <source>Specifies a date formula (i.e. &lt;15D&gt;) used to force system to download notification from today to specified period in the past</source>
           <target>Specifica una formula di data (ad esempio &lt;15G&gt;) per forzare il sistema a scaricare le notifiche da oggi in un periodo specificato nel passato</target>
         </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 3984684024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each call for authentication process.</source>
+          <target>Specifica i secondi di ritardo tra una chiamata e l'altra durante il processo di autenticazione.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 3984684024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call delay secs.</source>
+          <target>Secondi ritardo chiamata</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 4081561353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each document upload from batch.</source>
+          <target>Specifica i secondi di ritardo tra un upload documento e l'altro.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 4081561353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document delay secs. (Batch)</source>
+          <target>Secondi ritardo upload doc. (Batch)</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 4270985946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Advanced</source>
+          <target>Avanzate</target>
+        </trans-unit>
         <trans-unit id="Page 2702337424 - Control 472356555 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies IX-FE service URL</source>
           <target>Specifica l'URL del servizio IX-FE</target>
@@ -2215,6 +2283,14 @@
           <source>Debug</source>
           <target>Debug</target>
         </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 710020304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies maximun no. of attempts in case of error for Inbound process.</source>
+          <target>Specifica il numero massimo di tentativi in caso di errore durante il processo in entrata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 710020304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Max no. of attempts</source>
+          <target>Nr. di tentativi</target>
+        </trans-unit>
         <trans-unit id="Page 2702337424 - Control 72942674 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>This field must be equal to Company Name to allow data trasnmission to/from IX-FE portal</source>
           <target>Questo campo deve essere uguale a Nome società per consentire la trasnmissione dei dati da/verso il portale IX-FE</target>
@@ -2222,6 +2298,14 @@
         <trans-unit id="Page 2702337424 - Control 787486575 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies IX-FE account password</source>
           <target>Specifica la password dell'account IX-FE</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 937744777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies optional delay between each call for Inbound process.</source>
+          <target>Specifica i secondi di ritardo tra una chiamata e l'altra durante il processo in entrata.</target>
+        </trans-unit>
+        <trans-unit id="Page 2702337424 - Control 937744777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Call delay secs.</source>
+          <target>Secondi ritardo chiamata</target>
         </trans-unit>
         <trans-unit id="Page 2702337424 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>IX-FE Setup (FTE)</source>
@@ -2255,10 +2339,6 @@
           <source>Specifies whether records are automatically validated when created</source>
           <target>Specifica se i record devono essere automaticamente validati quando creati</target>
         </trans-unit>
-        <trans-unit id="Page 2712102598 - Control 1130376447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if new purchase documents should be initialized with a specific document class</source>
-          <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
-        </trans-unit>
         <trans-unit id="Page 2712102598 - Control 1376106804 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the minimum rating value for a posted document to be automatically linked without warnings</source>
           <target>Specifica il punteggio minimo di riscontro per un documento registrato perchè sia associato in automatico senza avviso</target>
@@ -2275,17 +2355,9 @@
           <source>Specifies if only linking to existing documents is allowed and new documents cannot be created</source>
           <target>Specifica è permesso unicamente il collegamento a documenti esistenti, inibendo quindi la genezazione di nuovi</target>
         </trans-unit>
-        <trans-unit id="Page 2712102598 - Control 2524519963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if new purchase documents should be initialized with a specific document class</source>
-          <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
-        </trans-unit>
         <trans-unit id="Page 2712102598 - Control 2689469945 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reconcile Criteria</source>
           <target>Criteri di riconciliazione</target>
-        </trans-unit>
-        <trans-unit id="Page 2712102598 - Control 2798303980 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Classes</source>
-          <target>Classi documento</target>
         </trans-unit>
         <trans-unit id="Page 2712102598 - Control 3113378046 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the minimum rating value for a posted document to be automatically linked</source>
@@ -2574,10 +2646,6 @@
         <trans-unit id="Page 2883045121 - Control 358029708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Represents IX-FE receipt date</source>
           <target>Rappresenta la data di ricevimento IX-FE</target>
-        </trans-unit>
-        <trans-unit id="Page 2883045121 - Control 3687564975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if new purchase documents should be initialized with a specific document class</source>
-          <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
         </trans-unit>
         <trans-unit id="Page 2883045121 - Control 3971433691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Totals</source>
@@ -3595,6 +3663,14 @@
           <source>Job Queue - Purch. Doc.</source>
           <target>Coda processi - Doc. acquisto</target>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Action 3142028890 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit posted document data related to electronic document</source>
+          <target>Modifica dati relativi al documento elettronico sui documenti registrati</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Action 3142028890 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit posted purchase credit memo</source>
+          <target>Modifica note credito acquisto registrate</target>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Action 3268335381 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens transliteration terms list</source>
           <target>Apre l'elenco dei termini di traslitterazione</target>
@@ -3608,8 +3684,8 @@
           <target>Carica tutti i setup di default necessari per la gestione del formato 1.6</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Action 3334462500 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Load 1.6 Format Defaults</source>
-          <target>Carica defaults formato 1.6</target>
+          <source>Load 1.7.1 Format Defaults</source>
+          <target>Carica defaults formato 1.7.1</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Action 3370764583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Edit posted document data related to electronic document</source>
@@ -3627,13 +3703,13 @@
           <source>Job Queue - Sales Doc.</source>
           <target>Coda processi - Doc. vendita</target>
         </trans-unit>
-        <trans-unit id="Page 326399071 - Action 3865784523 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Migrate data from old version (not in extension)</source>
-          <target>Migra i dati dalle versioni vecchie (non extension)</target>
+        <trans-unit id="Page 326399071 - Action 4058018331 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit posted document data related to electronic document</source>
+          <target>Modifica dati relativi al documento elettronico sui documenti registrati</target>
         </trans-unit>
-        <trans-unit id="Page 326399071 - Action 3865784523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Migrate Data</source>
-          <target>Migrazione dei dati</target>
+        <trans-unit id="Page 326399071 - Action 4058018331 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit posted purchase invoice</source>
+          <target>Modifica fatture acquisto registrate</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Action 4229367892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Edit posted document data related to electronic document</source>
@@ -3662,10 +3738,6 @@
         <trans-unit id="Page 326399071 - Control 1360245513 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies last file ID used (with AssisEdit you can simulate field increment)</source>
           <target>Specifica l'ultimo ID file utilizzato (con AssisEdit è possibile simulare l'incremento del campo)</target>
-        </trans-unit>
-        <trans-unit id="Page 326399071 - Control 1388030211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If checked, StabileOrganizzazione tag group will be exported taking data rom reference document customer.</source>
-          <target>Se selezionato, stabileOrganizzazione tag group verrà esportato prendendo i dati rom documento di riferimento del cliente.</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 1767460216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies existing vendor which data will be used in DatiTrasmissione tags value</source>
@@ -3722,10 +3794,6 @@
         <trans-unit id="Page 326399071 - Control 3221209962 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies from what date export will be only available in 1.6 format.</source>
           <target>Specifica da che data i documenti esportati dovranno tassativamente essere prodotti in formato 1.6.</target>
-        </trans-unit>
-        <trans-unit id="Page 326399071 - Control 3301120062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If checked, StabileOrganizzazione tag group will be exported taking data rom reference document vendor.</source>
-          <target>Se selezionato, stabileOrganizzazione tag group verrà esportato prendendo dati rom documento di riferimento fornitore.</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 3431188821 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which document header's field will be exported as Data tag</source>
@@ -4927,10 +4995,6 @@
           <source>Restore Default Templates</source>
           <target>Ripristina modelli predefiniti</target>
         </trans-unit>
-        <trans-unit id="Page 695602600 - Control 1130376447 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if new purchase documents should be initialized with a specific document class</source>
-          <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
-        </trans-unit>
         <trans-unit id="Page 695602600 - Control 1137798592 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies an XSL template to be used when formatting an XML file</source>
           <target>Specifica il file template XSL da utilizzare per formattare il documento XML</target>
@@ -4946,14 +5010,6 @@
         <trans-unit id="Page 695602600 - Control 2401179333 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PA XSL Template Saved</source>
           <target>Modello XSL PA Salvato</target>
-        </trans-unit>
-        <trans-unit id="Page 695602600 - Control 2524519963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if new purchase documents should be initialized with a specific document class</source>
-          <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
-        </trans-unit>
-        <trans-unit id="Page 695602600 - Control 2798303980 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Classes</source>
-          <target>Classi documento</target>
         </trans-unit>
         <trans-unit id="Page 695602600 - Control 3321539345 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Header</source>
@@ -5050,14 +5106,6 @@
         <trans-unit id="Page 807332812 - Action 178436403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open XML File</source>
           <target>Apri file XML</target>
-        </trans-unit>
-        <trans-unit id="Page 807332812 - Action 1812554682 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Imports from a file storage folder.</source>
-          <target>Importa da una cartella specificata nel setup in ingresso.</target>
-        </trans-unit>
-        <trans-unit id="Page 807332812 - Action 1812554682 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Folder</source>
-          <target>Importa cartella</target>
         </trans-unit>
         <trans-unit id="Page 807332812 - Action 1979318928 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the import log page</source>
@@ -6195,10 +6243,6 @@
           <source>Specifies if customer won't be included in electr. invoicing</source>
           <target>Specifica se il cliente non verrà incluso nella fattura elettr.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 1978659690 - Control 2944953055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Direct VAT identification" field.</source>
-          <target>Specifica il valore del campo "Identificazione diretta ai fini IVA".</target>
-        </trans-unit>
         <trans-unit id="PageExtension 1978659690 - Control 4094955275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
           <target>Documento elettronico</target>
@@ -6483,6 +6527,10 @@
           <source>Specifies document recipient code to use during electronic sending</source>
           <target>Specifica il codice destinatario del documento da utilizzare durante l'invio elettronico</target>
         </trans-unit>
+        <trans-unit id="PageExtension 281171458 - Control 1490605252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies type of electronic document (TD) to export.</source>
+          <target>Specifica il tipo documento elettronico (TD) da esportare.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 281171458 - Control 705705510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Entry No.</source>
           <target>Nr. mov. documento elettr.</target>
@@ -6670,6 +6718,14 @@
         <trans-unit id="PageExtension 3332134701 - Control 913622389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if type of electronic document (TD) has been manually forced.</source>
           <target>Specifica se il tipo documento elettronico è stato manualmente forzato e non sarà quindi ricalcolato.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3355480999 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 335906937 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3422961947 - Action 2645228001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
@@ -7171,6 +7227,10 @@
           <source>Specifies type of electronic document (TD) to export.</source>
           <target>Specifica il tipo documento elettronico (TD) da esportare.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 872175479 - Control 4251852095 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>VALIDATION_ERROR: validazione formale/avanzata IX-FE fallita; SIGN_ERROR: errore firma; DELIVERY_RECEIPT_B2B: notifica ricevuta consegna; FAILED_DELIVERY_B2B: notifica impossibilità recapito; REJECTION_B2B: notifica scarto; DELIVERY_RECEIPT_PA: notifica ricevuta consegna; FAILED_DELIVERY_PA: notifica impossibilità recapito; REJECTION_PA: notifica scarto; OUTCOME_PA: notifica esito; DEADLINE_PASSED_PA: notifica decorrenza termini; PROOF_OF_TRASMISSION_PA: attestazione trasmissione con impossibilità di recapito; CONSERVATION_ERROR: errore invio in conservazione</source>
+          <target>VALIDATION_ERROR: validazione formale/avanzata IX-FE fallita; SIGN_ERROR: errore firma; DELIVERY_RECEIPT_B2B: notifica ricevuta consegna; FAILED_DELIVERY_B2B: notifica impossibilité recapito; REJECTION_B2B: notifica scarto; DELIVERY_RECEIPT_PA: notifica ricevuta consegna; FAILED_DELIVERY_PA: notifica impossibilité recapito; REJECTION_PA: notifica scarto; OUTCOME_PA: notifica esito; DEADLINE_PASSED_PA: notifica decorrenza termini; PROOF_OF_TRASMISSION_PA: attestazione trasmissione con impossibilité di recapito; CONSERVATION_ERROR: errore invio in conservazione</target>
+        </trans-unit>
         <trans-unit id="PageExtension 88916137 - Action 2645228001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
           <target>Documento elettronico</target>
@@ -7211,10 +7271,8 @@
           <source>Specifies type of electronic document (TD) to export.</source>
           <target>Specifica il tipo documento elettronico (TD) da esportare.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 872175479 - Control 4251852095 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <target>VALIDATION_ERROR: validazione formale/avanzata IX-FE fallita; SIGN_ERROR: errore firma; DELIVERY_RECEIPT_B2B: notifica ricevuta consegna; FAILED_DELIVERY_B2B: notifica impossibilité recapito; REJECTION_B2B: notifica scarto; DELIVERY_RECEIPT_PA: notifica ricevuta consegna; FAILED_DELIVERY_PA: notifica impossibilité recapito; REJECTION_PA: notifica scarto; OUTCOME_PA: notifica esito; DEADLINE_PASSED_PA: notifica decorrenza termini; PROOF_OF_TRASMISSION_PA: attestazione trasmissione con impossibilité di recapito; CONSERVATION_ERROR: errore invio in conservazione</target>
-        </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2113014639 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Name</source>
           <target>Nome file</target>
         </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2193032605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7260,6 +7318,10 @@
         <trans-unit id="PageExtension 88916137 - Control 810785768 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 973603554 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
         </trans-unit>
         <trans-unit id="Report 1263763223 - Control 1871873729 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document no. to export.</source>
@@ -9393,10 +9455,6 @@
           <source>Inbound Electr. Document Line Detail</source>
           <target>Dettaglio riga doc. elettr. in entrata</target>
         </trans-unit>
-        <trans-unit id="Table 1919818171 - Field 1130376447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Document Class Code</source>
-          <target>Classe documento fattura</target>
-        </trans-unit>
         <trans-unit id="Table 1919818171 - Field 1918943107 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Warning Rating Limit</source>
           <target>Limite punteggio avviso</target>
@@ -9412,10 +9470,6 @@
         <trans-unit id="Table 1919818171 - Field 2489696661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Link Rating Limit</source>
           <target>Limite punteggio associazione</target>
-        </trans-unit>
-        <trans-unit id="Table 1919818171 - Field 2524519963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cr. Memo Document Class Code</source>
-          <target>Classe documento nota credito</target>
         </trans-unit>
         <trans-unit id="Table 1919818171 - Field 3098183746 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Handle Document Header Only</source>
@@ -10089,13 +10143,33 @@
           <source>Restoring default settings present values will be overwritten. Do you want to proceed?</source>
           <target>Il ripristino delle impostazioni predefinite dei valori presenti verrà sovrascritto. Vuoi procedere?</target>
         </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 1252223026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outbound - Call delay secs.</source>
+          <target>Uscita - Secondi ritardo chiamata</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 1639955949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Authentication - Delay seconds each attempt</source>
+          <target>Autenticazione - Secondi ritardo ogni tentativo</target>
+        </trans-unit>
         <trans-unit id="Table 2702337424 - Field 164543344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Log</source>
           <target>Abilita log</target>
         </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 1898774900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inbound - Delay seconds each attempt</source>
+          <target>Entrata - Secondi ritardo ogni tentativo</target>
+        </trans-unit>
         <trans-unit id="Table 2702337424 - Field 2167168353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check Company Name</source>
           <target>Nome società conferma connessione</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 2492816208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inbound - Max no. of attempts</source>
+          <target>Entrata - Nr. di tentativi</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 2736439118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outbound - Document delay secs. (User)</source>
+          <target>Uscita - Secondi ritardo upload doc. (Utente)</target>
         </trans-unit>
         <trans-unit id="Table 2702337424 - Field 275983007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Username</source>
@@ -10104,6 +10178,10 @@
         <trans-unit id="Table 2702337424 - Field 2769354041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purch. Polling Range</source>
           <target>Periodo recupero acquisti</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 2785450435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outbound - Delay seconds each attempt</source>
+          <target>Uscita - Secondi ritardo ogni tentativo</target>
         </trans-unit>
         <trans-unit id="Table 2702337424 - Field 3357982044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>URL</source>
@@ -10117,6 +10195,10 @@
           <source>Notifications Download Cluster</source>
           <target>Cluster di download delle notifiche</target>
         </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 3618047103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outbound - Max no. of attempts</source>
+          <target>Uscita - Nr. di tentativi</target>
+        </trans-unit>
         <trans-unit id="Table 2702337424 - Field 3743211894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
           <target>Chiave primaria</target>
@@ -10129,9 +10211,25 @@
           <source>Password</source>
           <target>Password</target>
         </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 3984684024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Authentication - Call delay secs.</source>
+          <target>Autenticazione - Secondi ritardo chiamata</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 4081561353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Outbound - Document delay secs. (Batch)</source>
+          <target>Uscita - Secondi ritardo upload doc. (Batch)</target>
+        </trans-unit>
         <trans-unit id="Table 2702337424 - Field 4106608814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>AOO</source>
           <target>AOO</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 716897529 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Authentication - Max no. of attempts</source>
+          <target>Autenticazione - Nr. di tentativi</target>
+        </trans-unit>
+        <trans-unit id="Table 2702337424 - Field 937744777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inbound - Call delay secs.</source>
+          <target>Entrata - Secondi ritardo chiamata</target>
         </trans-unit>
         <trans-unit id="Table 2702337424 - NamedType 1725575904" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to run the IXFE Synchronization?</source>
@@ -10521,10 +10619,6 @@
           <source>Last File ID Used</source>
           <target>Ultimo ID file utilizzato</target>
         </trans-unit>
-        <trans-unit id="Table 326399071 - Field 1388030211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Add StabileOrganizzazione tag (Sales)</source>
-          <target>Aggiungi tag StabileOrganizzazione (Sales)</target>
-        </trans-unit>
         <trans-unit id="Table 326399071 - Field 1767460216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transmitter Subject</source>
           <target>Soggetto Emittente</target>
@@ -10600,10 +10694,6 @@
         <trans-unit id="Table 326399071 - Field 3284030870 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Phone No.</source>
           <target>Nr. di telefono</target>
-        </trans-unit>
-        <trans-unit id="Table 326399071 - Field 3301120062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Add StabileOrganizzazione tag (Purchase)</source>
-          <target>Aggiungi tag StabileOrganizzazione (Acquisto)</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 3424858131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fax No.</source>
@@ -10729,6 +10819,9 @@
           <source>Order No.</source>
           <target>Nr. ordine</target>
         </trans-unit>
+        <trans-unit id="Table 3341411733 - Field 4041479804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Internal Order No.</source>
+        </trans-unit>
         <trans-unit id="Table 3341411733 - Field 428616085 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Codice CIG</source>
           <target>Codice CIG</target>
@@ -10841,10 +10934,6 @@
           <source>IX-FE Outbound Doc. Notifications Detail</source>
           <target>Dettaglio notifiche Doc.</target>
         </trans-unit>
-        <trans-unit id="Table 3707401602 - Field 1130376447 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invoice Document Class Code</source>
-          <target>Classe documento fattura</target>
-        </trans-unit>
         <trans-unit id="Table 3707401602 - Field 1300792158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PA XSL Template File BLOB</source>
           <target>BLOB file modello XSL PA</target>
@@ -10860,10 +10949,6 @@
         <trans-unit id="Table 3707401602 - Field 2359202810 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PA XSL Template File Name</source>
           <target>Nome file modello XSL PA</target>
-        </trans-unit>
-        <trans-unit id="Table 3707401602 - Field 2524519963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cr. Memo Document Class Code</source>
-          <target>Classe documento nota credito</target>
         </trans-unit>
         <trans-unit id="Table 3707401602 - Field 3289087759 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>B2B XSL Template File Name</source>
@@ -11209,10 +11294,6 @@
           <source>Tipo</source>
           <target>Tipo</target>
         </trans-unit>
-        <trans-unit id="Table 4260823758 - Field 4124557667 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Ref. Line No</source>
-          <target>Rif. Codice Riga</target>
-        </trans-unit>
         <trans-unit id="Table 4260823758 - Field 422810026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Importo</source>
           <target>Importo</target>
@@ -11468,10 +11549,6 @@
         <trans-unit id="Table 626555448 - Field 3667701830 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Withholding Tax Details</source>
           <target>Dettagli ritenuta</target>
-        </trans-unit>
-        <trans-unit id="Table 626555448 - Field 3687564975 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Class Code</source>
-          <target>Codice classe documento</target>
         </trans-unit>
         <trans-unit id="Table 626555448 - Field 3692977422 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pay-to Post Code</source>
@@ -11977,13 +12054,13 @@
           <source>XML File</source>
           <target>File XML</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
+        </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 188824747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Electr. Doc. Management</source>
           <target>No fatturazione elettronica</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 224321661 - Field 2944953055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct VAT identification</source>
-          <target>Identificazione diretta ai fini IVA</target>
         </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 766113513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document Format</source>
@@ -11996,6 +12073,10 @@
         <trans-unit id="TableExtension 224321661 - Field 826312781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Recipient Code</source>
           <target>Cod. dest. doc. elettronico</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2379996658 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
         </trans-unit>
         <trans-unit id="TableExtension 2572251979 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Altri dati gestionali</source>
@@ -12064,6 +12145,10 @@
         <trans-unit id="TableExtension 2606199106 - Field 89066823 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>XML File</source>
           <target>File XML</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
         </trans-unit>
         <trans-unit id="TableExtension 2882731379 - Field 1123390653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Name</source>
@@ -12240,6 +12325,10 @@
         <trans-unit id="TableExtension 331944911 - Field 705705510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Entry No.</source>
           <target>Nr. mov. documento elettr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
         </trans-unit>
         <trans-unit id="TableExtension 3712683317 - Field 1123390653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Name</source>
