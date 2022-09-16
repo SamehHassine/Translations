@@ -383,10 +383,6 @@
           <source>All sheets, Sheet by sheet</source>
           <target>Tutti i fogli, Foglio per foglio</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1803908874 - Method 1006508158 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All default setups needed for 1.6 format have been loaded</source>
-          <target>Tutti i setup di default per il formato 1.6 sono stati caricati</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1803908874 - Method 1374592053 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table %1 contains data. Do you want to continue?</source>
           <target>La tabella %1 contiene dei record. Procedere con la generazione?</target>
@@ -631,6 +627,10 @@
           <source>Could not download from the endpoint. Ensure you are connected to the internet</source>
           <target>Impossibile scaricare dall'endpoint. Assicurati di essere connesso a Internet</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1803908874 - Method 87355823 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All default setups needed for 1.7.1 format have been loaded</source>
+          <target>Tutti i setup di default per il formato 1.6 sono stati caricati</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2090274623 - NamedType 486867179" translate="yes" size-unit="char" xml:space="preserve">
           <source>The electr. document for %1 %2 has not been created.</source>
           <target>Non è stato creato il documento elettr. per %1 %2.</target>
@@ -782,10 +782,6 @@
         <trans-unit id="Codeunit 3218389941 - Method 3766525804 - NamedType 3578138118" translate="yes" size-unit="char" xml:space="preserve">
           <source>The file %1 were not found</source>
           <target>File %1 non trovato</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3218389941 - Method 3896158616 - NamedType 1877650050" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The ZIP file is corrupted. The contents cannot be read</source>
-          <target>File zip corrotto. Non è possibile leggere il contenuto</target>
         </trans-unit>
         <trans-unit id="Codeunit 3218389941 - Method 3896158616 - NamedType 2762497220" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processed records: %1\Accepted: %2\Rejected/Ignored: %3</source>
@@ -3840,8 +3836,8 @@
           <target>Carica tutti i setup di default necessari per la gestione del formato 1.6</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Action 3334462500 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Load 1.6 Format Defaults</source>
-          <target>Carica defaults formato 1.6</target>
+          <source>Load 1.7.1 Format Defaults</source>
+          <target>Carica defaults formato 1.7.1</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Action 3370764583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Edit posted document data related to electronic document</source>
@@ -6335,6 +6331,10 @@
           <source>Specifies if type of electronic document (TD) has been manually forced.</source>
           <target>Specifica se il tipo documento elettronico è stato manualmente forzato e non sarà quindi ricalcolato.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1442391148 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1509872096 - Action 2645228001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
           <target>Documento elettronico</target>
@@ -6963,6 +6963,14 @@
           <source>Specifies if type of electronic document (TD) has been manually forced.</source>
           <target>Specifica se il tipo documento elettronico è stato manualmente forzato e non sarà quindi ricalcolato.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3355480999 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 335906937 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3422961947 - Action 2645228001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
           <target>Documento elettronico</target>
@@ -7170,6 +7178,10 @@
         <trans-unit id="PageExtension 3969831318 - Control 3899141698 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code that defines the company type.</source>
           <target>Specifica il codice che definisce il tipo di società.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3993177616 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
         </trans-unit>
         <trans-unit id="PageExtension 403387885 - Action 2645228001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electronic Document</source>
@@ -7523,9 +7535,6 @@
           <source>Status</source>
           <target>Stato</target>
         </trans-unit>
-        <trans-unit id="PageExtension 88916137 - Control 2700095810 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "XML Document Lines Origin" field.</source>
-        </trans-unit>
         <trans-unit id="PageExtension 88916137 - Control 2710226098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attachments</source>
           <target>Allegati</target>
@@ -7557,6 +7566,10 @@
         <trans-unit id="PageExtension 88916137 - Control 810785768 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 973603554 - Control 1970276420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "EOS EDoc. Related Docs." field.</source>
+          <target>Specifica il valore di "Documenti correlati.</target>
         </trans-unit>
         <trans-unit id="Report 1263763223 - Control 1871873729 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies document no. to export.</source>
@@ -12370,6 +12383,10 @@
           <source>XML File</source>
           <target>File XML</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2211087635 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
+        </trans-unit>
         <trans-unit id="TableExtension 224321661 - Field 188824747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Electr. Doc. Management</source>
           <target>No fatturazione elettronica</target>
@@ -12385,6 +12402,10 @@
         <trans-unit id="TableExtension 224321661 - Field 826312781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Recipient Code</source>
           <target>Cod. dest. doc. elettronico</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2379996658 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
         </trans-unit>
         <trans-unit id="TableExtension 2572251979 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Altri dati gestionali</source>
@@ -12453,6 +12474,10 @@
         <trans-unit id="TableExtension 2606199106 - Field 89066823 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>XML File</source>
           <target>File XML</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2848784252 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
         </trans-unit>
         <trans-unit id="TableExtension 2882731379 - Field 1123390653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Name</source>
@@ -12629,6 +12654,10 @@
         <trans-unit id="TableExtension 331944911 - Field 705705510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Entry No.</source>
           <target>Nr. mov. documento elettr.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3486480869 - Field 1970276420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Altri dati gestionali</source>
+          <target>Altri dati gestionali</target>
         </trans-unit>
         <trans-unit id="TableExtension 3712683317 - Field 1123390653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Name</source>
@@ -12965,12 +12994,6 @@
         <trans-unit id="TableExtension 969641528 - Field 2232794015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Applies-to Document No.</source>
           <target>Collega-a nr. documento</target>
-        </trans-unit>
-        <trans-unit id="TableExtension 969641528 - Field 2700095810 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EOS XML Document Lines Origin</source>
-        </trans-unit>
-        <trans-unit id="TableExtension 969641528 - Field 2700095810 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Applyed Document,Current Document</source>
         </trans-unit>
         <trans-unit id="TableExtension 969641528 - Field 2935461753 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Electr. Document Created</source>
