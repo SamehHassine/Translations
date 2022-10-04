@@ -151,6 +151,10 @@
           <source>Calculating Deductions</source>
           <target>Calcolo Detrazioni</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3350342113 - Method 1341108089 - NamedType 4050137628" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The bonus line %1 %2 cannot be calculated.</source>
+          <target>La riga bonus %1 %2 non può essere calcolata.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3350342113 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be greater than %2</source>
           <target>%1 deve essere maggiore di %2</target>
@@ -447,9 +451,8 @@
           <source>P&amp;osting</source>
           <target>Re&amp;gistrazione</target>
         </trans-unit>
-        <trans-unit id="Page 1295398334 - Action 2373765970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 1295398334 - Action 2373765970 - Property 2001309823" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
-          <target>Apri documento di origine</target>
         </trans-unit>
         <trans-unit id="Page 1295398334 - Action 2373765970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
@@ -1743,9 +1746,8 @@
           <source>Posting</source>
           <target>Registra</target>
         </trans-unit>
-        <trans-unit id="Page 180068439 - Action 2373765970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 180068439 - Action 2373765970 - Property 2001309823" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
-          <target>Apri documento di origine</target>
         </trans-unit>
         <trans-unit id="Page 180068439 - Action 2373765970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
@@ -1943,9 +1945,8 @@
           <source>Posting</source>
           <target>Registra</target>
         </trans-unit>
-        <trans-unit id="Page 1939217450 - Action 2373765970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 1939217450 - Action 2373765970 - Property 2001309823" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
-          <target>Apri documento di origine</target>
         </trans-unit>
         <trans-unit id="Page 1939217450 - Action 2373765970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
@@ -2146,6 +2147,9 @@
         <trans-unit id="Page 1975384163 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Item Buffer List</source>
           <target>Elenco buffer elementi bonus</target>
+        </trans-unit>
+        <trans-unit id="Page 2082762698 - Action 1090922218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
         </trans-unit>
         <trans-unit id="Page 2082762698 - Action 1613734570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Match to Posted Document</source>
@@ -4303,9 +4307,8 @@
           <source>P&amp;osting</source>
           <target>Re&amp;gistrazione</target>
         </trans-unit>
-        <trans-unit id="Page 40194054 - Action 2373765970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 40194054 - Action 2373765970 - Property 2001309823" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
-          <target>Apri documento di origine</target>
         </trans-unit>
         <trans-unit id="Page 40194054 - Action 2373765970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Source Document</source>
@@ -4927,10 +4930,6 @@
           <source>Specifies Def. Thresh. Incl. Line Disc..</source>
           <target>Specifica la soglia Incl. Sconto Riga predef.</target>
         </trans-unit>
-        <trans-unit id="Page 682335893 - Control 2067102111 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Sales Cr.Memo Doc. Class field</source>
-          <target>Specifica il valore del campo Classe Doc.</target>
-        </trans-unit>
         <trans-unit id="Page 682335893 - Control 2115948195 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Def. Base Incl. VAT.</source>
           <target>Specifica la base incl. IVA predef.</target>
@@ -4954,6 +4953,10 @@
         <trans-unit id="Page 682335893 - Control 2255983742 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Def. Vendor Settl. Batch Name field</source>
           <target>Specifica il valore del campo Def. Campo Nome batch</target>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 2312250764 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies "Enable Matching G/L Check"</source>
+          <target>Specifica "Abilita controllo G/L corrispondente"</target>
         </trans-unit>
         <trans-unit id="Page 682335893 - Control 2347893456 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the field Enable Bonus Allocation.</source>
@@ -5007,10 +5010,6 @@
           <source>Specifies Cust. Bonus Settl. Item Chg..</source>
           <target>Specifica l'art. di addebito di liquidazione del bonus cliente.</target>
         </trans-unit>
-        <trans-unit id="Page 682335893 - Control 3125149506 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Purchase Cr.Memo Doc. Class field</source>
-          <target>Specifica il valore del campo Classe Doc.</target>
-        </trans-unit>
         <trans-unit id="Page 682335893 - Control 3218587686 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Def. Thresh. Incl. VAT.</source>
           <target>Specifica la soglia incl. IVA predef.</target>
@@ -5055,10 +5054,6 @@
           <source>Specifies the default point item no.</source>
           <target>Specifica l'articolo punti di default.</target>
         </trans-unit>
-        <trans-unit id="Page 682335893 - Control 4171065795 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Class</source>
-          <target>Classe documento</target>
-        </trans-unit>
         <trans-unit id="Page 682335893 - Control 423022656 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Permit negative amount on bonus lines</source>
           <target>Consenti importo negativo sulle righe bonus</target>
@@ -5071,17 +5066,9 @@
           <source>Specifies the value of the Deposit Description field</source>
           <target>Specifica il valore del campo Descrizione deposito</target>
         </trans-unit>
-        <trans-unit id="Page 682335893 - Control 47368963 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Sales Invoice Doc. Class field</source>
-          <target>Specifica il valore del campo Classe Doc.</target>
-        </trans-unit>
         <trans-unit id="Page 682335893 - Control 488586875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Def. Cust. Settl. Batch Name field</source>
           <target>Specifica il valore del campo Def. Si è verificato un gruppo di lavoro. Campo Nome batch</target>
-        </trans-unit>
-        <trans-unit id="Page 682335893 - Control 830354502 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Purchase Invoice Doc. Class field</source>
-          <target>Specifica il valore del campo Classe Documento Fattura Acquisto</target>
         </trans-unit>
         <trans-unit id="Page 682335893 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Setup (SPB)</source>
@@ -6011,10 +5998,6 @@
           <source>Bonus Summary (SPB)</source>
           <target>Riepilogo bonus (SPB)</target>
         </trans-unit>
-        <trans-unit id="PageExtension 2725636575 - Control 2510243048 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Bonus</source>
-          <target>Bonus</target>
-        </trans-unit>
         <trans-unit id="PageExtension 2725636575 - Control 3256906083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Bus. Bonus Group.</source>
           <target>Specifica Bus. Gruppo Bonus.</target>
@@ -6086,10 +6069,6 @@
         <trans-unit id="PageExtension 3363333192 - Action 307165444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Summary (SPB)</source>
           <target>Riepilogo bonus (SPB)</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 3363333192 - Control 2510243048 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Bonus</source>
-          <target>Bonus</target>
         </trans-unit>
         <trans-unit id="PageExtension 3363333192 - Control 3256906083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Bus. Bonus Group.</source>
@@ -6307,13 +6286,25 @@
           <source>To Date</source>
           <target>A data</target>
         </trans-unit>
+        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Amount Type Field</source>
+          <target>Specifica il valore del campo Tipo di importo</target>
+        </trans-unit>
+        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount Type</source>
+          <target>Tipo importo</target>
+        </trans-unit>
+        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount (LCY), Remaining Amount (LCY)</source>
+          <target>Importo maturato (VL), Importo residuo(VL)</target>
+        </trans-unit>
         <trans-unit id="Report 1020202860 - Control 2887304775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Allocation Automatic Posting field</source>
           <target>Specifica il valore del campo Registrazione automatica allocazione</target>
         </trans-unit>
         <trans-unit id="Report 1020202860 - Control 2887304775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Automatic Posting</source>
-          <target>Registrazione automatica Stanziamenti</target>
+          <target>Registra</target>
         </trans-unit>
         <trans-unit id="Report 1020202860 - Control 3792384588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the Journals to write are simulated ones</source>
@@ -6343,9 +6334,13 @@
           <source>Bonus allocation for %1 no. %2</source>
           <target>Stanziamenti bonus per %1 n. %2</target>
         </trans-unit>
+        <trans-unit id="Report 1020202860 - NamedType 2164942842" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This report is no longer supported on this version. Please update to v19+.</source>
+          <target>Questo report non è più supportata in questa versione. Eseguire l'aggiornamento alla versione 19+.</target>
+        </trans-unit>
         <trans-unit id="Report 1020202860 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Calc. Allocation Entries (SPB)</source>
-          <target>Calcola stanziamenti bonus (SPB)</target>
+          <target>Stanziamenti costi bonus (SPB)</target>
         </trans-unit>
         <trans-unit id="Report 1133078386 - Control 1602546137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document No.</source>
@@ -6394,6 +6389,39 @@
         <trans-unit id="Report 116630963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Header Change Status (SPB)</source>
           <target>Modifica stato testata bonus (SPB)</target>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 1115394407 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Type</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 1602546137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source No.</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2021789196 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount to Settle</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 173658532" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New amount must be greater than the sum of neg. entries (%1)</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 2767418744" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New amount cannot be 0</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2416541386 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Doc Amout</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3065221024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Line No.</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3304492258 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Type</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 3617662748 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Bonus Code</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 698539839 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settings</source>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
         </trans-unit>
         <trans-unit id="Report 2765414523 - Control 1115394407 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Type</source>
@@ -6527,37 +6555,89 @@
           <source>Bonus Line</source>
           <target>Linea Bonus</target>
         </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 1602546137 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document No." field</source>
+          <target>Specifica il valore del campo "N. documento"</target>
+        </trans-unit>
         <trans-unit id="Report 3226906145 - Control 1602546137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document No.</source>
           <target>Nr. documento</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 1753214751 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Attached Document Type" field</source>
+          <target>Specifica il valore del campo "Tipo di documento allegato"</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 1753214751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attached Document Type</source>
+          <target>Tipo di documento collegato</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 1882905478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Attached Document Subtype" field</source>
+          <target>Specifica il valore del campo "Sottotipo documento allegato"</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 1882905478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attached Document Subtype</source>
+          <target>Sottotipo documento collegato</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 2021789196 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Settlement amount" field</source>
+          <target>Specifica il valore del campo "Importo di liquidazione"</target>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Control 2021789196 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlement amount</source>
           <target>Importo riga in liquidazione</target>
         </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 2554685567 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Match remaining amount to settle" field</source>
+          <target>Specifica il valore del campo "Corrispondenza importo rimanente da regolare"</target>
+        </trans-unit>
         <trans-unit id="Report 3226906145 - Control 2554685567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Match remaining amount to settle</source>
           <target>Abbina residuo da liquidare</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 2805843523 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Line No." field</source>
+          <target>Specifica il valore del campo "N. riga documento"</target>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Control 2805843523 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Line No.</source>
           <target>Nr. riga documento</target>
         </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 3065221024 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Bonus Line No." field</source>
+          <target>Specifica il valore del campo "Bonus Line No."</target>
+        </trans-unit>
         <trans-unit id="Report 3226906145 - Control 3065221024 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Line No.</source>
           <target>Nr. riga bonus</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 3304492258 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Type" field</source>
+          <target>Specifica il valore del campo "Tipo di documento"</target>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Control 3304492258 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Type</source>
           <target>Tipo di documento</target>
         </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 3617662748 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Bonus Code" field</source>
+          <target>Specifica il valore del campo "Codice bonus"</target>
+        </trans-unit>
         <trans-unit id="Report 3226906145 - Control 3617662748 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Code</source>
           <target>Codice bonus</target>
         </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 3857228014 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Amount to Match" field</source>
+          <target>Specifica il valore del campo "Importo da abbinare"</target>
+        </trans-unit>
         <trans-unit id="Report 3226906145 - Control 3857228014 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Amount to Match</source>
           <target>Importo da abbinare</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Control 3877896800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Matching Type" field</source>
+          <target>Specifica il valore del campo "Tipo corrispondente"</target>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Control 3877896800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Matching Type</source>
@@ -6574,6 +6654,14 @@
         <trans-unit id="Report 3226906145 - Method 3839134711 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
           <source>Selected %1 must be greater than %2</source>
           <target>%1 selezionato deve essere maggiore di %2</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Method 3839134711 - NamedType 2201725277" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The matching G/L Account does not correspond to the one in the Class</source>
+          <target>Il conto in abbinamento non corrisponde al conto liquidazione presente nella classe</target>
+        </trans-unit>
+        <trans-unit id="Report 3226906145 - Method 3839134711 - NamedType 2685700126" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The matching G/L Account does not correspond to the one in the Setup</source>
+          <target>Il conto in abbinamento non corrisponde al conto liquidazione presente nel setup</target>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Method 3916275527 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
           <source>Selected %1 must be greater than %2</source>
@@ -6615,13 +6703,12 @@
           <source>Specifies Group by Document.</source>
           <target>Specifica Raggruppa per documento.</target>
         </trans-unit>
+        <trans-unit id="Report 566729347 - Control 1204673872 - Property 2589162015" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,Bonus Line/Document/Dimesion,Bonus Line/Dimension</source>
+        </trans-unit>
         <trans-unit id="Report 566729347 - Control 1204673872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Group by Document</source>
           <target>Raggruppa per documento</target>
-        </trans-unit>
-        <trans-unit id="Report 566729347 - Control 1204673872 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>,Bonus Line/Document/Dimesion,Bonus Line/Dimension</source>
-          <target>,Riga bonus/Documento/Dimensione,Riga bonus/Dimensione</target>
         </trans-unit>
         <trans-unit id="Report 566729347 - Control 1290619913 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Ending Date (Posting).</source>
@@ -7804,8 +7891,8 @@
           <target>Filtro articolo</target>
         </trans-unit>
         <trans-unit id="Table 2314441710 - Field 67205030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Amount To Be Accrued (LCY)</source>
-          <target>mporto su Mov. in liquid. in Esubero (LCY)</target>
+          <source>Settlement Amount to be Accrued (LCY)</source>
+          <target>Importo su Mov. in liquid. in Esubero (LCY)</target>
         </trans-unit>
         <trans-unit id="Table 2314441710 - Field 702606859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level 5 Customer Hierarchy Code</source>
@@ -8058,6 +8145,9 @@
         <trans-unit id="Table 3461177407 - Field 3263329074 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Batch Name</source>
           <target>Nome batch origine</target>
+        </trans-unit>
+        <trans-unit id="Table 3461177407 - Field 3322554545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dimension Set ID</source>
         </trans-unit>
         <trans-unit id="Table 3461177407 - Field 345314420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source ID</source>
@@ -8731,10 +8821,6 @@
           <source>Def. Thresh. Incl. Line Disc.</source>
           <target>Soglia Incl. Sconto Riga predef.</target>
         </trans-unit>
-        <trans-unit id="Table 682335893 - Field 2067102111 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sales Cr.Memo Doc. Class</source>
-          <target>Nota di credito vendita</target>
-        </trans-unit>
         <trans-unit id="Table 682335893 - Field 2115948195 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Def. Base Incl. VAT</source>
           <target>Base incl. IVA predef.</target>
@@ -8750,6 +8836,10 @@
         <trans-unit id="Table 682335893 - Field 2255983742 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Vendor Settlement Journal Batch Name</source>
           <target>Nome batch giornale di registrazione liquidazione fornitore predefinito</target>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 2312250764 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Matching G/L Acc. Check</source>
+          <target>Attiva controllo conti C/G su abbinamento</target>
         </trans-unit>
         <trans-unit id="Table 682335893 - Field 2347893456 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Bonus Allocation</source>
@@ -8794,10 +8884,6 @@
         <trans-unit id="Table 682335893 - Field 3107463979 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cust. Bonus Settl. Item Chg.</source>
           <target>Add. Art. liq. bonus clienti</target>
-        </trans-unit>
-        <trans-unit id="Table 682335893 - Field 3125149506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Cr.Memo Doc. Class</source>
-          <target>Nota di credito acquisto</target>
         </trans-unit>
         <trans-unit id="Table 682335893 - Field 3218587686 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Def. Thresh. Incl. VAT</source>
@@ -8867,17 +8953,9 @@
           <source>Deposit Description</source>
           <target>Descrizione acconto piano liq.</target>
         </trans-unit>
-        <trans-unit id="Table 682335893 - Field 47368963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sales Invoice Doc. Class</source>
-          <target>Fattura di vendita</target>
-        </trans-unit>
         <trans-unit id="Table 682335893 - Field 488586875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Customer Settlement Journal Batch Name</source>
           <target>Nome batch giornale di registrazione liquidazione clienti predefinito</target>
-        </trans-unit>
-        <trans-unit id="Table 682335893 - Field 830354502 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Invoice Doc. Class</source>
-          <target>Fattura di acquisto</target>
         </trans-unit>
         <trans-unit id="Table 682335893 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be positive</source>
@@ -9035,6 +9113,9 @@
           <source>Exclude From Bonus</source>
           <target>Escludi dal bonus</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1902445783 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+        </trans-unit>
         <trans-unit id="TableExtension 1902445783 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
           <target>Disponibile per la liquidazione bonus</target>
@@ -9066,6 +9147,9 @@
         <trans-unit id="TableExtension 2178978056 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Escludi dal bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2178978056 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
         </trans-unit>
         <trans-unit id="TableExtension 2178978056 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
@@ -9107,6 +9191,9 @@
           <source>Exclude From Bonus</source>
           <target>Escludi dal bonus</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2540142400 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
+        </trans-unit>
         <trans-unit id="TableExtension 2540142400 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
           <target>Disponibile per la liquidazione bonus</target>
@@ -9126,6 +9213,9 @@
         <trans-unit id="TableExtension 2816674673 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Escludi dal bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2816674673 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
         </trans-unit>
         <trans-unit id="TableExtension 2816674673 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
@@ -9194,6 +9284,9 @@
         <trans-unit id="TableExtension 3454371290 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Escludi dal bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3454371290 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
         </trans-unit>
         <trans-unit id="TableExtension 3454371290 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
@@ -9282,6 +9375,9 @@
         <trans-unit id="TableExtension 627052549 - Field 1791709744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude From Bonus</source>
           <target>Escludi dal bonus</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 627052549 - Field 1906820934 - Method 2126772001 - NamedType 2792009875" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cannot proceed, there are Bonus Settlement linked to this record</source>
         </trans-unit>
         <trans-unit id="TableExtension 627052549 - Field 1906820934 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Available for Bonus Settlement</source>
