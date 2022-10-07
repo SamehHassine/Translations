@@ -1883,10 +1883,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Management - Method DeleteJournalRecord - NamedType ConfirmDeletionQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 1705600816" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There is an attached DocFinance line (ID: %1).\ All DocFinance lines and linked batches will be deleted</source>
+        <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 945603800" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are lines not linked to DocFinance selected. Those lines won't be deleted.\</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Management - Method DeleteJournalRecord - NamedType ConfirmDeletionAttachedLineQst</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Management - Method DeleteJournalRecord - NamedType ConfirmDeletionAttachedLine0Qst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 2279726695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DocFinance batches found (IDs: %1).\</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Management - Method DeleteJournalRecord - NamedType ConfirmDeletionAttachedLine1Qst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 2304524058" size-unit="char" translate="yes" xml:space="preserve">
+          <source>All DocFinance lines and linked batches will be deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Management - Method DeleteJournalRecord - NamedType ConfirmDeletionAttachedLine2Qst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2283227373 - Method 1040332735 - NamedType 831182295" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are no DocFinance lines in the selection.\Please use the standard action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Management - Method DeleteJournalRecord - NamedType NoDocFinanceLinesMsg</note>
         </trans-unit>
         <trans-unit id="Codeunit 2283227373 - Method 270241710 - NamedType 4250161676" size-unit="char" translate="yes" xml:space="preserve">
           <source>DCA:%1</source>
@@ -2573,6 +2588,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF MasterData Batches - Action OpenLines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1427793338 - Action 700596077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the page with error and call stack.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF MasterData Batches - Action Show Error - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1427793338 - Action 700596077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF MasterData Batches - Action Show Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1427793338 - Action 700596077 - Method 1377591017 - NamedType 2724188868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected record has no error to show.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF MasterData Batches - Action Show Error - Method OnAction - NamedType NoErrorMsg</note>
+        </trans-unit>
         <trans-unit id="Page 1571871162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>MasterData List</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2697,6 +2727,21 @@
           <source>Show detail</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payab Batches - Action OpenLines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2351867756 - Action 700596077 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Opens the page with error and call stack.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payab Batches - Action Show Error - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2351867756 - Action 700596077 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payab Batches - Action Show Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2351867756 - Action 700596077 - Method 1377591017 - NamedType 2724188868" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The selected record has no error to show.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Receiv/Payab Batches - Action Show Error - Method OnAction - NamedType NoErrorMsg</note>
         </trans-unit>
         <trans-unit id="Page 1691510685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>DocFinance Receivable/Payable</source>
