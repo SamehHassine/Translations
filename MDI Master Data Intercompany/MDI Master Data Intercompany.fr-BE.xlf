@@ -259,6 +259,14 @@
           <source>WaitingRemote</source>
           <target>WaitingRemote</target>
         </trans-unit>
+        <trans-unit id="Enum 3928322107 - EnumValue 1432853070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>v2.0</source>
+          <target>v2.0</target>
+        </trans-unit>
+        <trans-unit id="Enum 3928322107 - EnumValue 2191148659 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>v1.0</source>
+          <target>v1.0</target>
+        </trans-unit>
         <trans-unit id="Enum 3972507954 - EnumValue 3609077591 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Send after changes</source>
           <target>Envoyer après les modifications</target>
@@ -2039,6 +2047,14 @@
           <source>Open Job Queue</source>
           <target>Ouvrez la file d'attente d'emploi</target>
         </trans-unit>
+        <trans-unit id="Page 3001785898 - Action 3475559828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "EOS059 MDI Troubleshoot" action</source>
+          <target>Exécute l’action « EOS059 MDI Troubleshoot »</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Action 3475559828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Troubleshoot</source>
+          <target>Dépanner</target>
+        </trans-unit>
         <trans-unit id="Page 3001785898 - Action 3606309763 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Background Processes Status" action</source>
           <target>Exécute l’action « État des processus d’arrière-plan »</target>
@@ -2086,9 +2102,6 @@
         <trans-unit id="Page 3001785898 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Général</target>
-        </trans-unit>
-        <trans-unit id="Page 3001785898 - Control 2455730357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the default transport encoding to use for outbound messages, when no explicit encoding is specified on the single MDI company. This applies to WebService synchronization only. If nothing is specified, Windows is used.</source>
         </trans-unit>
         <trans-unit id="Page 3001785898 - Control 2529110793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Client Secret" field</source>
@@ -2201,9 +2214,6 @@
         <trans-unit id="Page 3138341804 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Code" field.</source>
           <target>Spécifie la valeur du champ « Code ».</target>
-        </trans-unit>
-        <trans-unit id="Page 3138341804 - Control 322131996 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the transport encoding to use for outbound messages. This applies to WebService synchronization only. If this is not specified, the default transport encoding from the MDI setup is used.</source>
         </trans-unit>
         <trans-unit id="Page 3138341804 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description" field.</source>
@@ -2525,6 +2535,34 @@
           <source>Master G/L Account Translation (MDI)</source>
           <target>Master G/L Account Translation (MDI)</target>
         </trans-unit>
+        <trans-unit id="Page 4188168271 - Action 3476118321 - Method 1377591017 - NamedType 2010057763" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You need to fill the Company Code</source>
+          <target>Vous devez remplir le code de la société</target>
+        </trans-unit>
+        <trans-unit id="Page 4188168271 - Control 1092037148 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Test Connection</source>
+          <target>Tester la connexion</target>
+        </trans-unit>
+        <trans-unit id="Page 4188168271 - Control 1977303359 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target>Conditions préalables</target>
+        </trans-unit>
+        <trans-unit id="Page 4188168271 - Control 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Company</source>
+          <target>Société MDI</target>
+        </trans-unit>
+        <trans-unit id="Page 4188168271 - Control 39275353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select MDI Company</source>
+          <target>Sélectionnez la société MDI</target>
+        </trans-unit>
+        <trans-unit id="Page 4188168271 - Control 486669812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Authentication</source>
+          <target>Authentication</target>
+        </trans-unit>
+        <trans-unit id="Page 4188168271 - Method 1975224516 - NamedType 3957798039" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No MDI Windows Authentication app found. You need to install it for using WebService Auth</source>
+          <target>Aucune application d’authentification Windows MDI trouvée. Vous devez l’installer pour utiliser WebService Auth</target>
+        </trans-unit>
         <trans-unit id="Page 678800490 - Action 3732224266 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Open Url" action</source>
           <target>Exécute l’action « Url ouverte »</target>
@@ -2636,12 +2674,6 @@
         <trans-unit id="Page 678800490 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Webservice Wizard (MDI)</source>
           <target>Assistant Webservice (MDI)</target>
-        </trans-unit>
-        <trans-unit id="Page 834824408 - Action 160823063 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Compress Message</source>
-        </trans-unit>
-        <trans-unit id="Page 834824408 - Action 2483650648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Decompress Message</source>
         </trans-unit>
         <trans-unit id="Page 834824408 - Action 3249290808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Execute</source>
@@ -3659,6 +3691,10 @@
           <source>Synch. Optimization</source>
           <target>Synchronisation Optimisation</target>
         </trans-unit>
+        <trans-unit id="Table 3001785898 - Field 2529110793 - Method 2126772001 - NamedType 1167773202" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Client Secret not correct! Be sure to have copied the value, not the id!</source>
+          <target>La clé secrète client n’est pas correcte ! Assurez-vous d’avoir copié la valeur, pas l’id !</target>
+        </trans-unit>
         <trans-unit id="Table 3001785898 - Field 2529110793 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Client Secret</source>
           <target>Clé secrète client</target>
@@ -3722,6 +3758,10 @@
         <trans-unit id="Table 3245887739 - Field 20272288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Endpoint URL</source>
           <target>URL de point de terminaison</target>
+        </trans-unit>
+        <trans-unit id="Table 3245887739 - Field 2107374504 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Protocol Version</source>
+          <target>Version du protocole</target>
         </trans-unit>
         <trans-unit id="Table 3245887739 - Field 2273653569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Language Code</source>
