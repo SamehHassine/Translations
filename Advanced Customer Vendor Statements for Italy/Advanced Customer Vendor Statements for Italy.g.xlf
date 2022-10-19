@@ -283,6 +283,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS AdvCustVendStat Setup EXT - Field EOS Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 426484522 - Field 1358896452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statement Reports in Currency</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS AdvCustVendStat Setup EXT - Field Statement Reports in Currency - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 426484522 - Field 1248849147 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Aging Column Report ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -983,6 +988,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS008 CVS Report Parameters - Field SalesPerson Table Filter 1 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1891603861 - Field 3805270836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Currency Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS008 CVS Report Parameters - Field Show Currency Summary - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1891603861 - Field 609808228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Linked Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1152,6 +1162,11 @@
           <source>Specifies the value of the "Enable detailed aging from" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvCustVendStat Setup - Control EOS Enable detailed aging from - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 380623817 - Control 1358896452 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Statement Reports in Currency" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS AdvCustVendStat Setup - Control Statement Reports in Currency - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 380623817 - Control 1248849147 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Vendor Aging Column Report ID" field.</source>
@@ -2623,6 +2638,356 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Control UseSalespersonFromCustomer - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1358067951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Statement - Currency (CVS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1401895046" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount by Currency summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType AmountByCurrencyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1245862610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType AmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 996333556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType AmountLCYLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 927919788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType AssetTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1432899376" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType BankReceiptStatusLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2212981588" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Curr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType CurrencyCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 873438131" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType CustomerNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2898685577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType CustomerNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2885439854" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType CustomerPhoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1568666896" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType CustomerTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 3569966352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1155328579" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DocumentDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1721277456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2496924529" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DocumentTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2636616999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 481445982" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DueDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2478862698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due by date summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType DueDateSummaryLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 138676843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exposure (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType ExposureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2930771099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType ExternalDocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2741096484" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType PageNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 4207761921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 2694455927" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType PaymentTermsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1027969698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType PostingDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 4094501430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType RemainingAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1458212656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amt. (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType RemainingAmountLCYLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 3040577680" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Account Statement at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType ReportTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 111725425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType SalesPersonLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 3357692024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Report Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType TotalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - NamedType 1382777333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>with exposure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - NamedType WithExposureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Method 1853117719 - NamedType 765115249" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Pmt,Inv,CrM,FinChrge,Rem,Ref,,,,Dish,,,,,PrevBal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Method GetDocumentTypeAbbreviation - NamedType AbreviationsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 630871526" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel AmountLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2462812288" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel AmountLCYLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 499688248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel AssetTotalLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 4124077124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel BankReceiptStatusLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3062893280" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Curr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel CurrencyCodeLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2035604559" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel CustomerNameLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 1760005613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel CustomerNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2440518330" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel CustomerPhoneLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3689852964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel CustomerTotalLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3093731364" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DescriptionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 328948191" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DocumentDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 1001047844" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DocumentNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 328445589" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DocumentTotalLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3847300491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DocumentTypeLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 4094371370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DueDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2718527550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due by date summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel DueDateSummaryLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2931322695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exposure (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel ExposureLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2881437613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel ExternalDocumentNo</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3606974320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel PageNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2858731109" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel PaymentMethodLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3672978075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel PaymentTermsLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 371689398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel PostingDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2446969282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel RemainingAmountLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 490122308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amt. (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel RemainingAmountLCYLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 2295386186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Account Statement at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel ReportTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 4260654741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel SalesPersonLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3605444172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Report Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel TotalAmountLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - ReportLabel 3939601041" size-unit="char" translate="yes" xml:space="preserve">
+          <source>with exposure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - ReportLabel WithExposureLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 313682892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control DueDateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 2632659660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Open Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control OnlyOpen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 2092947929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control Output Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 3039415211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control ReportOutput - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 3039415211 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print,Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control ReportOutput - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 3326239799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control PaymentMethodFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 447285968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control PostingDateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 17325836 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows"Amounts by Currency" summary in the report, this summary groups the amounts by currency showing totals for each one.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control ShowCurrencySummary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 17325836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show "Amounts by Currency" summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control ShowCurrencySummary - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 1787089116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Linked Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control ShowLinkedEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 79677288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Salesperson from Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Customer Statement - Curr. - Control UseSalespersonFromCustomer - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Send financial reports to customers (CVS)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2758,6 +3123,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Send fin. rpt to cust - Control ReportSetup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 17325836 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows"Amounts by Currency" summary in the statement report, this summary groups the amounts by currency showing totals for each one.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Send fin. rpt to cust - Control ShowCurrencySummary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 17325836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show "Amounts by Currency" summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Send fin. rpt to cust - Control ShowCurrencySummary - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 1787089116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Linked Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2882,6 +3257,16 @@
           <source>Report Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Send fin. rpt to salesp - Control ReportSetup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 17325836 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows"Amounts by Currency" summary in the statement report, this summary groups the amounts by currency showing totals for each one.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Send fin. rpt to salesp - Control ShowCurrencySummary - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 17325836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show "Amounts by Currency" summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Send fin. rpt to salesp - Control ShowCurrencySummary - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 1787089116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Linked Entries</source>
@@ -3762,6 +4147,351 @@
           <source>Use Salesperson from Vendor</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Control UseSalespersonFromVendor - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Statement - Currency (CVS)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1245862610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType AmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 996333556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType AmountLCYLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 927919788" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType AssetTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1432899376" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType BankReceiptStatusLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2212981588" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Curr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType CurrencyCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 3569966352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1155328579" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DocumentDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1721277456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2496924529" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DocumentTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2636616999" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DocumentTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 481445982" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DueDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2478862698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due by date summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType DueDateSummaryLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 138676843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exposure (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType ExposureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2930771099" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType ExternalDocumentNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2741096484" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType PageNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 4207761921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType PaymentMethodLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2694455927" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType PaymentTermsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1027969698" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType PostingDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 4094501430" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType RemainingAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1458212656" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amt. (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType RemainingAmountLCYLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 3040577680" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Account Statement at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType ReportTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 111725425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType SalesPersonLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 3357692024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Report Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType TotalAmountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1163969659" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType VendorNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2193582545" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType VendorNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 912130342" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType VendorPhoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 2042475576" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType VendorTotalLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - NamedType 1382777333" size-unit="char" translate="yes" xml:space="preserve">
+          <source>with exposure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - NamedType WithExposureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Method 1853117719 - NamedType 765115249" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Pmt,Inv,CrM,FinChrge,Rem,Ref,,,,Dish,,,,,PrevBal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Method GetDocumentTypeAbbreviation - NamedType AbreviationsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 630871526" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel AmountLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2462812288" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel AmountLCYLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 499688248" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel AssetTotalLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 4124077124" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel BankReceiptStatusLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3062893280" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Curr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel CurrencyCodeLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3093731364" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DescriptionLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 328948191" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Doc. Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DocumentDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 1001047844" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DocumentNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 328445589" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DocumentTotalLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3847300491" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DocumentTypeLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 4094371370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DueDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2718527550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due by date summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel DueDateSummaryLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2931322695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exposure (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel ExposureLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3324211511" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel ExternalDocumentNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3606974320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel PageNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2858731109" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel PaymentMethodLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3672978075" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel PaymentTermsLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 371689398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel PostingDateLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2446969282" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel RemainingAmountLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 490122308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Amt. (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel RemainingAmountLCYLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2295386186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Account Statement at</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel ReportTitle</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 4260654741" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel SalesPersonLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3605444172" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Report Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel TotalAmountLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 2680842263" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel VendorNameLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3847730677" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel VendorNoLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3150369202" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel VendorPhoneLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3983005964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel VendorTotalLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - ReportLabel 3939601041" size-unit="char" translate="yes" xml:space="preserve">
+          <source>with exposure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - ReportLabel WithExposureLabel</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 313682892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control DueDateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 2632659660 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Only Open Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control OnlyOpen - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 2092947929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Output Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control Output Options - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3039415211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control ReportOutput - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3039415211 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print,Preview</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control ReportOutput - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3326239799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control PaymentMethodFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 447285968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control PostingDateFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3635264487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Method column will be replaced by Remaining Amount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control PrintStatementCurrencyfromDocumentCurrency - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3635264487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print using the Currency from the Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control PrintStatementCurrencyfromDocumentCurrency - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 1787089116 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Linked Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control ShowLinkedEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 295436816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Salesperson from Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Vendor Statement - Curr. - Control UseSalespersonFromVendor - Property Caption</note>
         </trans-unit>
         <trans-unit id="Query 852780218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Dishonored CustLedgerEntry3</source>
