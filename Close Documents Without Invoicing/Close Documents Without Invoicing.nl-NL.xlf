@@ -3,9 +3,17 @@
   <file datatype="xml" source-language="en-US" target-language="nl-NL" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1023092076 - Method 2573594636 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 must not be equal to "%2".</source>
+          <target>%1 mag niet gelijk zijn aan "%2".</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1023092076 - NamedType 762899482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the %1 %2?</source>
           <target>Wilt u de %1 %2 posten?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1521180787 - NamedType 1107111778" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot use "%1" because the italian localization app is missing. Please install "%2"</source>
+          <target>U kunt "%1" niet gebruiken omdat de Italiaanse lokalisatie-app ontbreekt. Installeer "%2"</target>
         </trans-unit>
         <trans-unit id="Codeunit 2073913737 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for Close Documents without Invoicing present! - this report cannot be generated!</source>
@@ -39,6 +47,10 @@
           <source>The journal lines have been posted.</source>
           <target>De dagboekregels zijn geplaatst.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 4134785379 - Method 2342072140 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 must not be equal to "%2".</source>
+          <target>%1 mag niet gelijk zijn aan "%2".</target>
+        </trans-unit>
         <trans-unit id="Codeunit 4134785379 - NamedType 762899482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the %1 %2?</source>
           <target>Wilt u de %1 %2 posten?</target>
@@ -46,6 +58,14 @@
         <trans-unit id="Codeunit 479705392 - NamedType 3709114904" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Document Type not handled</source>
           <target>Brondocumenttype niet verwerkt</target>
+        </trans-unit>
+        <trans-unit id="Enum 1113628781 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 1113628781 - EnumValue 2109973162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No Item Entries</source>
+          <target>Geen objectitems</target>
         </trans-unit>
         <trans-unit id="Enum 2115411625 - EnumValue 3192368598 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Zero</source>
@@ -171,13 +191,73 @@
           <source>CDW Setup</source>
           <target>CDW-installatie</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1696580381 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1696580381 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1996458952 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1996458952 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3096747988 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3096747988 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3145741896 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3145741896 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3599069403 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3599069403 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3734444605 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3734444605 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 579495341 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 579495341 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Posting Policy" field</source>
           <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
         </trans-unit>
         <trans-unit id="PageExtension 77173926 - Action 4169247415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CDW Entries</source>
           <target>CDW-vermeldingen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 879373912 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'Beleid voor itemvermeldingen'</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 879373912 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Hiermee geeft u de waarde op van het veld Boekingsbeleid</target>
         </trans-unit>
         <trans-unit id="Table 2512296621 - Field 3009101675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order No.</source>
@@ -451,13 +531,25 @@
           <source>CDW Entry No.</source>
           <target>CDW Entry No.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1616158473 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1616158473 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>
           <target>Boekingsbeleid</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1808413794 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1808413794 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>
           <target>Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084946067 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
         </trans-unit>
         <trans-unit id="TableExtension 2084946067 - Field 1430697993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Posting Type</source>
@@ -466,6 +558,18 @@
         <trans-unit id="TableExtension 2084946067 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>
           <target>Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2253855090 - Field 1113628781 - Method 2126772001 - NamedType 4244331147" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Sales Lines are completely shipped.\The change in the Item Entries Policy will not delete the already created Item Ledger Entries nor create the missing ones of lines already posted.</source>
+          <target>Alle verkoopregels worden volledig verzonden.\De wijziging in het artikelpostenbeleid verwijdert niet de reeds gemaakte artikelposten en maakt ook niet de ontbrekende regels die al zijn geboekt.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2253855090 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2253855090 - Field 282191864 - Method 2126772001 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Posting Policy "%1" is not allowed in %2.</source>
+          <target>Het boekingsbeleid "%1" is niet toegestaan in %2.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2253855090 - Field 282191864 - Method 2126772001 - NamedType 4244331147" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Sales Lines are completely shipped.\The change in the posting policy will not allow to close the document lines without invoicing.\Use the %1.</source>
@@ -479,13 +583,33 @@
           <source>%1 is not allowed with No. Series %2, because it has been already used in %3.</source>
           <target>%1 is niet toegestaan met nr. Serie %2, omdat het al in %3 is gebruikt.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 3721503645 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
+        </trans-unit>
         <trans-unit id="TableExtension 3721503645 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>
           <target>Boekingsbeleid</target>
         </trans-unit>
+        <trans-unit id="TableExtension 4190291239 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
+        </trans-unit>
         <trans-unit id="TableExtension 4190291239 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>
           <target>Boekingsbeleid</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 533020560 - Field 1113628781 - Method 2126772001 - NamedType 4244331147" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Sales Lines are completely shipped.\The change in the Item Entries Policy will not delete the already created Item Ledger Entries nor create the missing ones of lines already posted.</source>
+          <target>Alle verkoopregels worden volledig verzonden.\De wijziging in het artikelpostenbeleid verwijdert niet de reeds gemaakte artikelposten en maakt ook niet de ontbrekende regels die al zijn geboekt.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 533020560 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Beleid voor itemitems</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 533020560 - Field 282191864 - Method 2126772001 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Posting Policy "%1" is not allowed in %2.</source>
+          <target>Het boekingsbeleid "%1" is niet toegestaan in %2.</target>
         </trans-unit>
         <trans-unit id="TableExtension 533020560 - Field 282191864 - Method 2126772001 - NamedType 4244331147" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Purchase Lines are completely received.\The change in the posting policy will not allow to close the document lines without invoicing.\Use the %1.</source>

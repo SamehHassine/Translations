@@ -38,6 +38,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Entry - Field Posting Policy - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2747478188 - Field 1230414700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Posting Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Entry - Field Posting Policy - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2747478188 - Field 3179217921 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity (Base)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -338,6 +343,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 Document Filter - Field Posting Date Filter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1521180787 - NamedType 1107111778" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot use "%1" because the italian localization app is missing. Please install "%2"</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 CDW Check Localization - NamedType NotCompliantAppErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3069543008 - Method 3324274913 - NamedType 70404680" size-unit="char" translate="yes" xml:space="preserve">
           <source>The journal lines have been posted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -358,10 +368,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 Purch. Event Handlers - NamedType PostSalesDocQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 4134785379 - Method 2342072140 - NamedType 1497386908" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be equal to "%2".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 Purch. Event Handlers - Method PurchPost_OnBeforePostPurchaseDoc - NamedType PostingPolicyNotAllowedErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1023092076 - NamedType 762899482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to post the %1 %2?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 Sales Events Handlers - NamedType PostSalesDocQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1023092076 - Method 2573594636 - NamedType 1497386908" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must not be equal to "%2".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 Sales Events Handlers - Method OnBeforePostSalesDoc - NamedType PostingPolicyNotAllowedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2073913737 - NamedType 1772493744" size-unit="char" translate="yes" xml:space="preserve">
           <source>Free Version</source>
@@ -523,15 +543,95 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 Document Lines - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3145741896 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt1809061 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3145741896 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1708100201">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt1809061 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3599069403 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4034894651">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090615 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 879373912 - Control 282191864 - Method 2126772001 - NamedType 1497386908" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 879373912">
+          <source>The Posting Policy "%1" is not allowed in %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090615 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 579495341 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090617 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 579495341 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2437096118">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090617 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 879373912 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090618 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 879373912 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4042331808">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090618 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1996458952 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090667 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1996458952 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090667 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1696580381 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090668 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1696580381 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1598289728">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090668 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 77173926 - Action 4169247415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2513602899">
           <source>CDW Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090670 - Action EOS041ShowCdwEntries - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090667 - Field EOS041 Posting Policy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084946067 - Field 1430697993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1908046867">
+          <source>Cost Posting Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090667 - Field EOS041 Cost Posting Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1170717177 - Field 612157889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>CDW Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090670 - Field EOS041 CDW Entry No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3734444605 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 387971303">
           <source>Specifies the value of the "Posting Policy" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090671 - Control EOS041 Posting Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3096747988 - Control 1113628781 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1555938241">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090672 - Control EOS041 Item Entries Policy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3096747988 - Control 282191864 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1555938241">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090672 - Control EOS041 Posting Policy - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 2084946067 - Field 1430697993 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1908046867">
           <source>Cost Posting Type</source>
@@ -547,6 +647,11 @@
           <source>%1 is not allowed with No. Series %2, because it has been already used in %3.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090668 - Method EOS041CheckSalesHeaderPostingNos - NamedType NoSeriesUsedErr</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1808413794 - Field 1113628781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Item Entries Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090671 - Field EOS041 Item Entries Policy - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2253855090 - Field 282191864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Posting Policy</source>
@@ -567,6 +672,16 @@
           <source>CDW Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090670 - Field EOS041 CDW Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1170717177 - Field 1113628781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 346005766">
+          <source>Item Entries Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090670 - Field EOS041 Item Entries Policy - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1808413794 - Field 1113628781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
+          <source>Item Entries Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090671 - Field EOS041 Item Entries Policy - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1808413794 - Field 282191864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3118382297">
           <source>Posting Policy</source>
@@ -607,6 +722,16 @@
           <source>Zero</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 CDW Cost Posting Type - EnumValue Zero - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1113628781 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 Item Entries Policy - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1113628781 - EnumValue 2109973162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Item Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 Item Entries Policy - EnumValue No Item Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source> </source>
