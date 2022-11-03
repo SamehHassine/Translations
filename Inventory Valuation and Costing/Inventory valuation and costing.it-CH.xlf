@@ -399,6 +399,10 @@
           <source>Specifies the Actual Routing Amount.</source>
           <target>Specifica l'importo del costo ciclo effettivo</target>
         </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2037375551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Posting Group field.</source>
+          <target>Specifica il valore del campo cat. reg. magazzino.</target>
+        </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2053932836 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the LIFO manufacturing amount.</source>
           <target>Specifica l'importo della produzione LIFO</target>
@@ -3043,6 +3047,10 @@
           <source>Specifies the budget cost</source>
           <target>Specifica il costo budget.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2037375551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Posting Group field.</source>
+          <target>Specifica il valore del campo cat. reg. magazzino.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2139693550 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup.</source>
           <target>Specifica il tipo di articolo per collegare le transazioni correlate eseguite al conto C/G appropriato in base al setup registrazioni COGE.</target>
@@ -4860,11 +4868,11 @@
           <target>Dettaglio costi specifici articolo</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 1152042207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing Average Cost Amount</source>
+          <source>Routing Cost Amount</source>
           <target>Importo ciclo a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 1152042207 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Average Cost Amount of Routing</source>
+          <source>Specifies if to show Cost Amount of Routing</source>
           <target>Specifica se mostrare il costo medio dei cicli di produzione</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -4888,19 +4896,19 @@
           <target>Specifica se mostrare le quantità acquistate</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 2802823758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Mat. Average Cost Amount</source>
+          <source>Material Cost Amount</source>
           <target>Importo componenti a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 2802823758 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Average Cost Amount of materials</source>
+          <source>Specifies if to show Cost Amount of materials</source>
           <target>Specifica se mostrare il costo medio dei componenti</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 640534498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Average Cost Amount</source>
+          <source>Purchase Cost Amount</source>
           <target>Importo acquisti a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 640534498 - Property 4226784671" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Average Cost Amount of purchase</source>
+          <source>Specifies if to show Cost Amount of purchase</source>
           <target>Specifica se mostrare il costo medio degli acquisti</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - NamedType 1415054886" translate="yes" size-unit="char" xml:space="preserve">
@@ -4950,6 +4958,10 @@
         <trans-unit id="Report 2670902002 - ReportLabel 1062466071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date</source>
           <target>Data registrazione</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - ReportLabel 1285865656" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Cod. variante</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 1316107868" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base U.M.</source>
@@ -5040,7 +5052,7 @@
           <target>Unità per collo</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3446150394" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Average Cost Amount</source>
+          <source>Purchase Cost Amount</source>
           <target>Importo acquisti a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3485063497" translate="yes" size-unit="char" xml:space="preserve">
@@ -5059,10 +5071,6 @@
           <source>Prod. Order No.</source>
           <target>Nr. ordine produzione</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - ReportLabel 3596600740" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item No.</source>
-          <target>Nr. articolo</target>
-        </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3599549071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No.</source>
           <target>Nr. risorsa</target>
@@ -5072,7 +5080,7 @@
           <target>Importo mov. risorse</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 4225930022" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Mat. Average Cost Amount</source>
+          <source>Material Cost Amount</source>
           <target>Importo componenti a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 489039429" translate="yes" size-unit="char" xml:space="preserve">
@@ -5083,10 +5091,6 @@
           <source>Quantity</source>
           <target>Quantità</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - ReportLabel 548536120" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
-        </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 581330056" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material No.</source>
           <target>Nr. componente</target>
@@ -5096,7 +5100,7 @@
           <target>Giacenza fine periodo</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 678162563" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing Average Cost Amount</source>
+          <source>Routing Cost Amount</source>
           <target>Importo ciclo a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 685375560" translate="yes" size-unit="char" xml:space="preserve">
