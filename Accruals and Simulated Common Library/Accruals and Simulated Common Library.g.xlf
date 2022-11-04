@@ -888,6 +888,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Accruals Management - NamedType PostJnlLinesQst</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3042290154 - Method 1220664153 - NamedType 3004821360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot post this entry on %1 because the period is closed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Accruals Management - Method TestPeriodOpen - NamedType PeriodMustBeOpenErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2638768161 - NamedType 3114477688" size-unit="char" translate="yes" xml:space="preserve">
           <source>The field %1 is not within your range of allowed posting dates (%2 .. %3)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1308,20 +1313,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Account Category - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 1351065535 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Structure the chart of accounts</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Account Subcategory Descript. - Property AboutTitle</note>
-        </trans-unit>
         <trans-unit id="Page 3750182059 - Control 1351065535 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the subcategory of the account category of the G/L account.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Account Subcategory Descript. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 1351065535 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Group your accounts into categories and subcategories to provide structure to the financial overview.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Account Subcategory Descript. - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 3750182059 - Control 1351065535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Subcategory</source>
@@ -1433,20 +1428,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Name - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 2304016699 - Property 1064389655" size-unit="char" translate="yes" xml:space="preserve">
-          <source>What is behind the numbers</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Net Change - Property AboutTitle</note>
-        </trans-unit>
         <trans-unit id="Page 3750182059 - Control 2304016699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the net change in the account balance during the time period in the Date Filter field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Net Change - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 2304016699 - Property 247559172" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Tap or click on amounts to drill down and see the underlying entries to learn what is behind the numbers for insight and troubleshooting.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS001 Acc. Bal. by Entry Type - Control Net Change - Property AboutText</note>
         </trans-unit>
         <trans-unit id="Page 3750182059 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
@@ -2953,8 +2938,8 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS_PageExt18004123 - Action EOS Balance by Entry Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 524942523 - Control 2558350243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
-          <source>Net Change (Total)</source>
+        <trans-unit id="PageExtension 524942523 - Control 964452530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3105459369">
+          <source>Balance (All)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS_PageExt18004123 - Control EOS BalanceAll - Property Caption</note>
         </trans-unit>

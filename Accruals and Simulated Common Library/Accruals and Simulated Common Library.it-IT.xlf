@@ -11,6 +11,10 @@
           <source>Configure ...</source>
           <target>Configura ...</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3042290154 - Method 1220664153 - NamedType 3004821360" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot post this entry on %1 because the period is closed.</source>
+          <target>Non è possibile registrare questo movimento in data %1 perché il periodo è chiuso.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3042290154 - NamedType 3024612521" translate="yes" size-unit="char" xml:space="preserve">
           <source>The fields '%1' and '%2' cannot be equal.</source>
           <target>I campi '%1' e '%2' non devono essere uguali.</target>
@@ -30,18 +34,6 @@
         <trans-unit id="Codeunit 3042290154 - NamedType 862005352" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unable to defer period %1 because all subsequent periods are blocked.</source>
           <target>Impossibile rinviare periodo %1 perché tutti periodi successivi sono bloccati.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3502325970 - Method 3283066691 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a Subscription</source>
-          <target>Imposta sottoscrizione</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3502325970 - Method 824146115 - NamedType 4149166460" translate="yes" size-unit="char" xml:space="preserve">
-          <source>( Trial expires on %1 )</source>
-          <target>( Versione prova scade il %1 )</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3573506712 - Method 4093351679 - NamedType 1211451746" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No shipment entry was found.</source>
-          <target>Non è stata trovata alcuna voce di spedizione.</target>
         </trans-unit>
         <trans-unit id="Enum 1395890412 - EnumValue 1383905037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L</source>
@@ -170,34 +162,6 @@
         <trans-unit id="Page 2829675669 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sim. G/L Entries (SGL)</source>
           <target>Mov. C/G sim. (SGL)</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the name of the record.</source>
-          <target>Specifica il nome del record.</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the code of the record.</source>
-          <target>Specifica il codice del record.</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - Control 588318770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the total value for the amount type that you select in the Show field.</source>
-          <target>Specifica il valore totale per il tipo di importo selezionato nel campo Mostra.</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - Control 588318770 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total Amount</source>
-          <target>Importo totale</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - Method 1250604559 - NamedType 275725031" translate="yes" size-unit="char" xml:space="preserve">
-          <source>&amp;G/L Entry,&amp;Sim. Entry</source>
-          <target>&amp;G/L Entry,&amp;Sim. Voce</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - NamedType 2627882007" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Period</source>
-          <target>Periodo</target>
-        </trans-unit>
-        <trans-unit id="Page 2932534431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>G/L Balance by Dim. Matrix (SGL)</source>
-          <target>Bilanciamento C/G di Matrice dim.</target>
         </trans-unit>
         <trans-unit id="Page 3039851477 - Action 2164057570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Recalculates the page contents.</source>
@@ -391,17 +355,9 @@
           <source>Dimensions-Single</source>
           <target>Dimensioni-Singolo</target>
         </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 1351065535 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Structure the chart of accounts</source>
-          <target>Strutturare il piano dei conti</target>
-        </trans-unit>
         <trans-unit id="Page 3750182059 - Control 1351065535 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the subcategory of the account category of the G/L account.</source>
           <target>Specifica la sottocategoria della categoria a cui appartiene il conto C/G.</target>
-        </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 1351065535 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Group your accounts into categories and subcategories to provide structure to the financial overview.</source>
-          <target>Raggruppa i tuoi account in categorie e sottocategorie per fornire una struttura alla panoramica finanziaria.</target>
         </trans-unit>
         <trans-unit id="Page 3750182059 - Control 1351065535 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Account Subcategory</source>
@@ -439,17 +395,9 @@
           <source>Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup.</source>
           <target>Specifica il tipo di articolo per collegare le transazioni correlate eseguite al conto C/G appropriato in base al setup registrazioni COGE.</target>
         </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 2304016699 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
-          <source>What is behind the numbers</source>
-          <target>Cosa c'è dietro i numeri</target>
-        </trans-unit>
         <trans-unit id="Page 3750182059 - Control 2304016699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net change in the account balance during the time period in the Date Filter field.</source>
           <target>Specifica il saldo periodo nel saldo del conto durante il periodo specificato nel campo Filtro data.</target>
-        </trans-unit>
-        <trans-unit id="Page 3750182059 - Control 2304016699 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Tap or click on amounts to drill down and see the underlying entries to learn what is behind the numbers for insight and troubleshooting.</source>
-          <target>Tocca o fai clic sugli importi per eseguire il drill-down e visualizzare le voci sottostanti per scoprire cosa c'è dietro i numeri per approfondimenti e risoluzione dei problemi.</target>
         </trans-unit>
         <trans-unit id="Page 3750182059 - Control 236064653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the VAT specification of the involved item or resource to link transactions made for this record with the appropriate general ledger account according to the VAT posting setup.</source>
@@ -730,174 +678,6 @@
         <trans-unit id="Page 585528344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Accrual Preview (SGL)</source>
           <target>Anteprima ratei/risconti (SGL)</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 1734268175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Go to the next set of data.</source>
-          <target>Passare al set di dati successivo.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 1734268175 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Next Set</source>
-          <target>Set successivo</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 2818082133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>&amp;Actions</source>
-          <target>&amp;Azioni</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 3498532973 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Change the display of the matrix by inverting the values in the Show as Lines and Show as Columns fields.</source>
-          <target>Modificare la visualizzazione della matrice invertendo i valori nei campi Mostra come linee e Mostra come colonne.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 3498532973 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reverse Lines and Columns</source>
-          <target>Righe e colonne invertite</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 3697385181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Go to the previous set of data.</source>
-          <target>Passare al set di dati precedente.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 3697385181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Previous Set</source>
-          <target>Set precedente</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 3772553852 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View the data overview according to the selected filters and options.</source>
-          <target>Visualizzare la sintesi dei dati in base alle opzioni e ai filtri selezionati.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Action 3772553852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>&amp;Show Matrix</source>
-          <target>&amp;Mostra matrice</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 1314708053 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which values you want to show as lines in the window. This allows you to see the same matrix window from various perspectives, especially when you use both the Show as Lines field and the Show as Columns field.</source>
-          <target>Specifica i valori che si desidera visualizzare come righe nella finestra. In questo modo è possibile visualizzare la stessa finestra matrice da varie prospettive, in particolare quando si utilizzano sia il campo Mostra come righe che il campo Mostra come colonne.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 1314708053 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show as Lines</source>
-          <target>Mostra come linee</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 1320314819 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if the selected value is shown in the window.</source>
-          <target>Specifica se il valore selezionato viene visualizzato nella finestra.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 1611443185 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether the balance shown will include closing entries. If you want to see the amounts on income statement accounts in closed years, you must exclude closing entries.</source>
-          <target>Specifica se il saldo visualizzato includerà i movimenti di chiusura. Se si desidera visualizzare gli importi nei conti conto economico negli anni chiusi, è necessario escludere i movimenti di chiusura.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 1611443185 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Closing Entries</source>
-          <target>Movimenti di chiusura</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 1611443185 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include,Exclude</source>
-          <target>Includi,Escludi</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2216507070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies that the names of columns are shown in the matrix window.</source>
-          <target>Specifica che i nomi delle colonne vengono visualizzati nella finestra matrice.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2216507070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show Column Name</source>
-          <target>Mostra nome colonna</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Options</source>
-          <target>Opzioni</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2401913325 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Matrix Options</source>
-          <target>Opzioni matrice</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>General</source>
-          <target>Generale</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2456222525 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which values you want to show as columns in the window. This allows you to see the same matrix window from various perspectives, especially when you use both the Show as Lines field and the Show as Columns field.</source>
-          <target>Specifica i valori che si desidera visualizzare come colonne nella finestra. In questo modo è possibile visualizzare la stessa finestra matrice da varie prospettive, in particolare quando si utilizzano sia il campo Mostra come righe che il campo Mostra come colonne.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2456222525 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show as Columns</source>
-          <target>Mostra come colonne</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2495610112 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how amounts are displayed. Net Change: The net change in the balance for the selected period. Balance at Date: The balance as of the last day in the selected period.</source>
-          <target>Specifica la modalità di visualizzazione degli importi. Variazione netta: la variazione netta del saldo per il periodo selezionato. Saldo alla data: saldo dell'ultimo giorno del periodo selezionato.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2495610112 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View as</source>
-          <target>Visualizza come</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2652483290 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the type of entries that will be included in the matrix window. The Amount options means that amounts that are the sum of debit and credit amounts are shown.</source>
-          <target>Specifica il tipo di movimenti che verranno inclusi nella finestra matrice. Le opzioni Importo significano che vengono visualizzati gli importi che sono la somma degli importi dare e avere.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 284195533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Filters</source>
-          <target>Filtri</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2856872373 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies whether to show the reported amounts in the additional reporting currency.</source>
-          <target>Specifica se visualizzare gli importi dichiarati nella valuta contabile addizionale.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2856872373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show Amounts in Add. Reporting Currency</source>
-          <target>Mostra importi in valuta contabile addizionale</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2996934007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the budget that information in the matrix is shown for.</source>
-          <target>Specifica il budget per cui vengono visualizzate le informazioni nella matrice.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 2996934007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Budget Filter</source>
-          <target>Filtro budget</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 3297953305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the factor that is used to round the amounts.</source>
-          <target>Specifica il fattore utilizzato per arrotondare gli importi.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 3297953305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rounding Factor</source>
-          <target>Fattore di arrotondamento</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 3932929510 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the G/L accounts for which you will see information in the window.</source>
-          <target>Specifica i conti C/G per i quali verranno visualizzata le informazioni nella finestra.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 3932929510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>G/L Account Filter</source>
-          <target>Filtro conto C/G</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 43593927 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies by which period amounts are displayed.</source>
-          <target>Specifica in base a quali importi del periodo vengono visualizzati.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 539546824 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the dates that will be used to filter the amounts in the window.</source>
-          <target>Specifica le date che verranno utilizzate per filtrare gli importi nella finestra.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 539546824 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Date Filter</source>
-          <target>Filtro data</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Control 754170148 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the range of values that are displayed in the matrix window, for example, the total period. To change the contents of the field, choose Next Set or Previous Set.</source>
-          <target>Specifica l'intervallo dei valori visualizzati nella finestra della matrice, ad esempio il periodo totale. Per modificare il contenuto di questo campo, scegliere Set successivo o Set precedente.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - NamedType 2627882007" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Period</source>
-          <target>Periodo</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - NamedType 381905313" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 is not a valid column definition.</source>
-          <target>%1 non è una definizione valida di colonna.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - NamedType 3877418729" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 is not a valid line definition.</source>
-          <target>%1 non è una definizione valida di riga.</target>
-        </trans-unit>
-        <trans-unit id="Page 587588164 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>G/L Balance by Dimension (SGL)</source>
-          <target>Saldo C/G per dimensione (SGL)</target>
         </trans-unit>
         <trans-unit id="Page 829772679 - Action 1592581304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculates documents to be invoiced as of now.</source>
