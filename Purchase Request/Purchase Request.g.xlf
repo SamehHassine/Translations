@@ -2028,11 +2028,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Purch. Request Header - Field EOS Status - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 4169734679 - Field 1291705767 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open,Awaiting Approval,Approved,Closed</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Purch. Request Header - Field EOS Status - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="Table 4169734679 - Field 1426701159 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>User ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2317,6 +2312,11 @@
           <source>Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Purch. Request Line - Field EOS Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3449405648 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Purch. Request Line - Field Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3922335703 - Field 4197460812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete Requisition Lines</source>
@@ -3403,6 +3403,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Purchase Req. Line List - Action Show Document - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3973948781 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Approval Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Purchase Request - Property PromotedActionCategories</note>
+        </trans-unit>
         <trans-unit id="Page 3973948781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Purchase Request</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4108,6 +4113,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS046 Purchase Req. Line List - Control Original Variant Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3894193984 - Control 2608386537 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Status" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS046 Purchase Req. Line List - Control PRQ Status - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3894193984 - Control 2808045203 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Purch. Request No." field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4787,6 +4797,26 @@
           <source>Never</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS PRQ Purch. Request Status Editable - EnumValue Never - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2051391961 - EnumValue 2913119229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS046 Status - EnumValue Approved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2051391961 - EnumValue 460653759 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Awaiting Approval</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS046 Status - EnumValue Awaiting Approval - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2051391961 - EnumValue 1778072510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Closed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS046 Status - EnumValue Closed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2051391961 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS046 Status - EnumValue Open - Property Caption</note>
         </trans-unit>
       </group>
     </body>
