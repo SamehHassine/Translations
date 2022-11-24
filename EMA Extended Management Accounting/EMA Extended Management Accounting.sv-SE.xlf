@@ -64,7 +64,7 @@
           <target>En dimension som används i %1 %2, %3, %4 har orsakat ett fel. %5</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 2971833686" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! All Sync from log %1 will be deleted.</source>
+          <source>Attention! All Sync from register %1 will be deleted.</source>
           <target>Uppmärksamhet! All synkronisering från loggen %1 tas bort.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 301512082" translate="yes" size-unit="char" xml:space="preserve">
@@ -2771,6 +2771,10 @@
           <source>Specifies the status of c/a allocation</source>
           <target>Anger status för c/a-allokering</target>
         </trans-unit>
+        <trans-unit id="Page 2773799606 - Control 3967410336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Monthly Allocation field.</source>
+          <target>Anger värdet för fältet Månadsfördelning.</target>
+        </trans-unit>
         <trans-unit id="Page 2773799606 - Control 3976847115 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies where to read the item cost</source>
           <target>Anger var artikelkostnaden ska läsas</target>
@@ -5084,11 +5088,11 @@
           <target>Kostnadskontodiagram (EMA)</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the log number when you want the report to end.</source>
+          <source>Specifies the Register you want the report to end.</source>
           <target>Anger loggnumret när du vill att rapporten ska avslutas.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>To Log No.</source>
+          <source>To Register No.</source>
           <target>Så här loggar du nr.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -5120,11 +5124,11 @@
           <target>Återförst datum</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the log number when you want the report to start.</source>
+          <source>Specifies the Register you want the report to start.</source>
           <target>Anger loggnumret när du vill att rapporten ska starta.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Log No.</source>
+          <source>From Register No.</source>
           <target>Från loggnr</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -5136,7 +5140,7 @@
           <target>Jnl. Sats</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All corresponding c/a entries will be permanently reversed. \Do you want to reverse log %1 to %2?</source>
+          <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
           <target>Alla motsvarande c/a-transaktioner kommer att återföras permanent. \Vill du återföra loggen %1 till %2?</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 2364520756" translate="yes" size-unit="char" xml:space="preserve">
@@ -5148,7 +5152,7 @@
           <target>Missat omvänd datum.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From log no. may not be higher than to log no.</source>
+          <source>From Register no. may not be higher than to Register no.</source>
           <target>Från loggnr får inte vara högre än att logga nr.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -5888,7 +5892,7 @@
           <target>Anger att det senast bokförda registernumret fylls i automatiskt. Du kan inte ändra innehållet i det här fältet.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2050118389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>To Log No.</source>
+          <source>To Register No.</source>
           <target>Så här loggar du nr.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -5900,7 +5904,7 @@
           <target>Anger det bokförda kassanumret för att fastställa startpunkten för radering av registernummer.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2872619066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Log No.</source>
+          <source>From Register No.</source>
           <target>Från loggnr</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1010155901" translate="yes" size-unit="char" xml:space="preserve">
@@ -5916,20 +5920,20 @@
           <target>En annan användare har ändrat kostnadsregistret. För att registrera nr måste vara lika med %1.\Kör batch-jobbet Ta bort kostnadstransaktioner igen.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 2747019836" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Delete cost register\</source>
+          <source>Delete c/a register\</source>
           <target>Ta bort kostnadsregister\</target>
         </trans-unit>
-        <trans-unit id="Report 819671009 - NamedType 3853470381" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Log %1 can no longer be deleted because it is marked as closed.</source>
-          <target>Log %1 kan inte längre tas bort eftersom den är markerad som stängd.</target>
-        </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All corresponding c/a entries and log entries will be irrevocably deleted. \Do you want to delete log %1 to %2?</source>
+          <source>All corresponding c/a entries and register entries will be deleted. \Do you want to delete register %1 to %2?</source>
           <target>Alla motsvarande c/a-poster och loggposter tas oåterkalleligen bort. \Vill du ta bort loggen %1 till %2?</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From log no. may not be higher than to log no.</source>
+          <source>From Register No. must not be higher than To Register No..</source>
           <target>Från loggnr får inte vara högre än att logga nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 819671009 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be deleted because it is marked as closed.</source>
+          <target>Registret %1 kan inte längre tas bort eftersom det är markerat som stängt.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete C/A Entries</source>
@@ -6812,7 +6816,7 @@
           <target>Pris för jobbenhet (BVA)</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Log No.</source>
+          <source>Register No.</source>
           <target>Logga nr</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2805943320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">

@@ -64,8 +64,8 @@
           <target>Una dimensione usata in %1 %2, %3, %4 ha causato un errore. %5</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 2971833686" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! All Sync from log %1 will be deleted.</source>
-          <target>Attenzione! Tutte le sincronizzazioni dal log %1 saranno cancellate.</target>
+          <source>Attention! All Sync from register %1 will be deleted.</source>
+          <target>Attenzione! Tutte le sincronizzazioni dal registro %1 saranno cancellate.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 301512082" translate="yes" size-unit="char" xml:space="preserve">
           <source>The balance of the entries on %1 is %2, but should be 0.</source>
@@ -2771,6 +2771,10 @@
           <source>Specifies the status of c/a allocation</source>
           <target>Specifica lo stato dell'allocazione c/a</target>
         </trans-unit>
+        <trans-unit id="Page 2773799606 - Control 3967410336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Monthly Allocation field.</source>
+          <target>Specifica il valore del campo Allocazione mensile.</target>
+        </trans-unit>
         <trans-unit id="Page 2773799606 - Control 3976847115 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies where to read the item cost</source>
           <target>Specifica dove leggere il costo dell'articolo</target>
@@ -5084,12 +5088,12 @@
           <target>Piano dei conti di analitica (EMA)</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the log number when you want the report to end.</source>
+          <source>Specifies the Register you want the report to end.</source>
           <target>Specifica il numero di registro quando si desidera che il report termini.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>To Log No.</source>
-          <target>A Nr. Log. </target>
+          <source>To Register No.</source>
+          <target>A nr. registro </target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal template</source>
@@ -5120,12 +5124,12 @@
           <target>Data storno</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the log number when you want the report to start.</source>
+          <source>Specifies the Register you want the report to start.</source>
           <target>Specifica il numero di registro quando si desidera avviare il report.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Log No.</source>
-          <target>Da Nr. Log</target>
+          <source>From Register No.</source>
+          <target>Da nr. registro</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal batch</source>
@@ -5136,7 +5140,7 @@
           <target>Batch registrazione</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All corresponding c/a entries will be permanently reversed. \Do you want to reverse log %1 to %2?</source>
+          <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
           <target>Tutti i corrispondenti movimenti c/a verranno definitivamente stornati. \Stornare i mov. dal registro %1 a %2?</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 2364520756" translate="yes" size-unit="char" xml:space="preserve">
@@ -5148,8 +5152,8 @@
           <target>Inserire data storno.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From log no. may not be higher than to log no.</source>
-          <target>Da log n. non può essere maggiore di A log n.</target>
+          <source>From Register no. may not be higher than to Register no.</source>
+          <target>Da registro nr. non può essere maggiore di A registro nr.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A Entries</source>
@@ -5437,7 +5441,7 @@
         </trans-unit>
         <trans-unit id="Report 3214539049 - Control 2845062350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Log No.</source>
-          <target>A nr. Log. </target>
+          <target>A nr. registro</target>
         </trans-unit>
         <trans-unit id="Report 3214539049 - Control 2875951789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the log number when you want the report to start.</source>
@@ -5445,7 +5449,7 @@
         </trans-unit>
         <trans-unit id="Report 3214539049 - Control 2875951789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Log No.</source>
-          <target>Da nr. Log</target>
+          <target>Da nr. registro</target>
         </trans-unit>
         <trans-unit id="Report 3214539049 - NamedType 1123266489" translate="yes" size-unit="char" xml:space="preserve">
           <source>Are you sure?</source>
@@ -5453,15 +5457,15 @@
         </trans-unit>
         <trans-unit id="Report 3214539049 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries and log entries will be irrevocably deleted. \Do you want to delete log %1 to %2?</source>
-          <target>Tutti i corrispondenti movimenti di %1 e movimenti log verranno definitivamente eliminati. \Eliminare il log da %1 a %2?</target>
+          <target>Tutti i corrispondenti movimenti di %1 verranno eliminati. \Eliminare il registro da %1 a %2?</target>
         </trans-unit>
         <trans-unit id="Report 3214539049 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From log no. may not be higher than to log no.</source>
-          <target>Da log n. non può essere maggiore di A log n.</target>
+          <target>Da registro nr. non può essere maggiore di A registro nr.</target>
         </trans-unit>
         <trans-unit id="Report 3214539049 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log %1 can no longer be deleted because it is marked as definite.</source>
-          <target>Non è più possibile eliminare il log %1 perché è contrassegnato come definito.</target>
+          <target>Non è più possibile eliminare il registro %1 perché è contrassegnato come definito.</target>
         </trans-unit>
         <trans-unit id="Report 3214539049 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete C/A Analisys Entries</source>
@@ -5888,7 +5892,7 @@
           <target>Specifica che il numero finale del registro annotato viene compilato automaticamente. Non è possibile modificare il contenuto di questo campo.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2050118389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>To Log No.</source>
+          <source>To Register No.</source>
           <target>A nr. registro</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -5900,7 +5904,7 @@
           <target>Specifica che il numero iniziale del registro annotato per determinare il punto di partenza dell'eliminazione dei numeri di registro.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2872619066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From Log No.</source>
+          <source>From Register No.</source>
           <target>Da nr. registro</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1010155901" translate="yes" size-unit="char" xml:space="preserve">
@@ -5916,20 +5920,20 @@
           <target>Un altro utente ha modificato il registro costi. Il valore del campo A nr. registro deve corrispondere a %1.\Eseguire nuovamente il processo batch Elimina movimenti di costi.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 2747019836" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Delete cost register\</source>
+          <source>Delete c/a register\</source>
           <target>Elimina registro cont. analitica\</target>
         </trans-unit>
-        <trans-unit id="Report 819671009 - NamedType 3853470381" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Log %1 can no longer be deleted because it is marked as closed.</source>
-          <target>Non è più possibile eliminare il log %1 perché è contrassegnato come definito.</target>
-        </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
-          <source>All corresponding c/a entries and log entries will be irrevocably deleted. \Do you want to delete log %1 to %2?</source>
+          <source>All corresponding c/a entries and register entries will be deleted. \Do you want to delete register %1 to %2?</source>
           <target>Tutti i movimenti di costo e i movimenti registro corrispondenti verranno eliminati. Eliminare il registro costi da %1 a %2?</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>From log no. may not be higher than to log no.</source>
+          <source>From Register No. must not be higher than To Register No..</source>
           <target>Il campo Da nr. registro non deve essere maggiore del campo A nr. registro.</target>
+        </trans-unit>
+        <trans-unit id="Report 819671009 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be deleted because it is marked as closed.</source>
+          <target>Il registro %1 non può più essere eliminato perché è contrassegnato come chiuso.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete C/A Entries</source>
@@ -6353,7 +6357,7 @@
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log No.</source>
-          <target>Nr. log</target>
+          <target>Nr. registro</target>
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2816380129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Line</source>
@@ -6812,8 +6816,8 @@
           <target>Prezzo unitario commessa (VL)</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Log No.</source>
-          <target>Nr. log</target>
+          <source>Register No.</source>
+          <target>Nr. registro</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2805943320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Unit Of Measure Code</source>
@@ -8509,11 +8513,11 @@
         </trans-unit>
         <trans-unit id="Table 2885933472 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>A closed log cannot be re-activated.</source>
-          <target>Impossibile riattivare un log chiuso.</target>
+          <target>Impossibile riattivare un registro chiuso.</target>
         </trans-unit>
         <trans-unit id="Table 2885933472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Register</source>
-          <target>Mov. Log C/A</target>
+          <target>Registro C/A</target>
         </trans-unit>
         <trans-unit id="Table 2896628240 - Field 1422934717 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fixed amount</source>

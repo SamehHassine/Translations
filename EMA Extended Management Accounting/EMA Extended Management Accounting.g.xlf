@@ -2259,7 +2259,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Entry - G/L Simulation - Field EOS Journal Template Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2711571526 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Log No.</source>
+          <source>Register No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Entry - G/L Simulation - Field EOS Log No. - Property Caption</note>
         </trans-unit>
@@ -2820,7 +2820,7 @@
         </trans-unit>
         <trans-unit id="Table 2885933472 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
           <source>All registers up to the current register %1 will be closed and can no longer be deleted.\\Do you want to close the registers?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = CA Log No.</note>
+          <note from="Developer" annotates="general" priority="2">%1 = C/A Register No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Log Entry - NamedType Text001Qst</note>
         </trans-unit>
         <trans-unit id="Table 2885933472 - Field 592178414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -5144,8 +5144,8 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Post C/A Account Journal - NamedType CA004Err</note>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 2971833686" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Attention! All Sync from log %1 will be deleted.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Log No.</note>
+          <source>Attention! All Sync from register %1 will be deleted.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Register No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Post C/A Account Journal - NamedType CA006Qst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 429308409" size-unit="char" translate="yes" xml:space="preserve">
@@ -5222,166 +5222,6 @@
           <source>A dimension used in %1 %2, %3, %4 has caused an error. %5</source>
           <note from="Developer" annotates="general" priority="2">%1 = TABLECAPTION ; %2 = Journal Template Name ; %3 = Batch Name ; %4 = Line No. ; %5 = DimMgt.GetDimCombErr</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Post C/A Account Journal - NamedType Text112Err</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 2797348904" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posted amount %1 is different from original amount %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType AmountsAreDifferent</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 672887685" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balance must be equal to '0'</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType BalanceEqualToZero</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 50463136" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The number of cost allocation targets is incorrect.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType CostAllocTargetCountError</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3696898422" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The number of cost entries is incorrect.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType CostEntriesCountError</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 4084603534" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Entries were not found.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType CostEntriesNotFound</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 176070702" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There is no Cost Entry within the filter: "G/L Entry No." = '%1'</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType CostEntryErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1981361193" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Cost Register entries were not closed.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType CostRegisterEntriesNotClosed</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1522840173" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The C/A Account number %1 was not deleted.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType CostTypeNotDeleted</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3593592346" size-unit="char" translate="yes" xml:space="preserve">
-          <source>You cannot delete a C/A Account with entries in an open fiscal year.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType EntriesWithinOpenFiscalYear</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 2925210262" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Expected value of %1 field is different than the actual one.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType ExpectedValueIsDifferentError</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3966906137" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1..%2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType GLAccountFilterDefinition</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1443104398" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The G/L Account No. %1 is aligned to Cost Account No. %2 although G/L Account No. %3 was expected.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType IncorrectGLAccountNo</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 4101069433" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Line Type must not be %1 in %2 %3='%4'.</source>
-          <note from="Developer" annotates="general" priority="2">%1:Field Value;%2:Table Caption;%3:Field Caption;%4:Field Value;</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType IncorrectLineTypeError</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1716902023" size-unit="char" translate="yes" xml:space="preserve">
-          <source>There are no records within the filters specified for table %1. The filters are: %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType NoRecordsInFilterErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3250133227" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must have a value</source>
-          <note from="Developer" annotates="general" priority="2">%1:FieldCaption</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType TestFieldErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 2476940767" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Field %1 on Table %2 is not %3 as expected.</source>
-          <note from="Developer" annotates="general" priority="2">%1=fieldcaption Entry No.;%2=tablecaption Cost Budget Entry;%3=integer or decimal</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text000</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A new record was not inserted in Table %1.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Register</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text001</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Field %1 was not updated to %2.</source>
-          <note from="Developer" annotates="general" priority="2">%1=fieldcaption Last Modified By User or fieldcaption Last Date Modified;%2=USERID or DATE</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text002</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GetCostBudgetRegNo did not return the value set.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text003</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
-          <source>This function must be started with a budget name.</source>
-          <note from="Developer" annotates="general" priority="2">error message from CompressBudgetEntries in Table Cost Budget Entry</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text005</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The compressed records in Table %1 were not deleted.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Entry</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text007</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The compressed entry does not have the correct sum.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text008</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The compressed %1 does not exist.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Entry</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text009</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The amount on the compressed %1 does not match the sum of the entries.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Entry</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text010</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The %1 to be compressed still exists.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Entry</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text011</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The %1 does not exist.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Register</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text012</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A closed register cannot be reactivated.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text014</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A %1 was not closed.</source>
-          <note from="Developer" annotates="general" priority="2">%1=tablecaption Cost Budget Register</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text015</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must be %2 or %3 in %4 %5.</source>
-          <note from="Developer" annotates="general" priority="2">%1=fieldcaption Line Type;%2=tablecaption Cost Center;@3= fieldvalue Line Type;@4=fieldvalue Line Type;@5=Line Type</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text016</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 557655741" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 must be equal to '%2'  in C/A Account: No.=%3. Current value is '%4'.</source>
-          <note from="Developer" annotates="general" priority="2">%1=fieldcaption Blocked;%2=format(boolean);@3= fieldcaption No.;@4=format(boolean)</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType Text017</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1366197332" size-unit="char" translate="yes" xml:space="preserve">
-          <source>An unexpected error was thrown.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType UnexpectedErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 892906146 - NamedType 1635302154" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The raised message is not the expected one. The actual message is: [%1], while the expected message is: [%2].</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Test EMA - NamedType UnexpectedMessageError</note>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1569402885" size-unit="char" translate="yes" xml:space="preserve">
           <source>Update cancelled</source>
@@ -6622,6 +6462,11 @@
           <source>Specifies the ending date of the c/a analysis.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Analysis Card - Control EOS Ending Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2773799606 - Control 3967410336 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Monthly Allocation field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/A Analysis Card - Control EOS Monthly Allocation - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2773799606 - Control 1132034911 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the starting date of the c/a analysis.</source>
@@ -11355,17 +11200,17 @@
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1398773668" size-unit="char" translate="yes" xml:space="preserve">
           <source>Another user has modified the cost register. The To Register No. field must be equal to %1.\Run the Delete Cost Entries batch job again.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Log No.</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Register No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType CostRegisterHasBeenModifiedErr</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From log no. may not be higher than to log no.</source>
+          <source>From Register No. must not be higher than To Register No..</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text000Err</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All corresponding c/a entries and log entries will be irrevocably deleted. \Do you want to delete log %1 to %2?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = First Log No. ; %2 = Last Log No.</note>
+          <source>All corresponding c/a entries and register entries will be deleted. \Do you want to delete register %1 to %2?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = First Register No. ; %2 = Last Register No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text001Qst</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1123266489" size-unit="char" translate="yes" xml:space="preserve">
@@ -11374,19 +11219,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text004Qst</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 2747019836" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Delete cost register\</source>
+          <source>Delete c/a register\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text005Txt</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1010155901" size-unit="char" translate="yes" xml:space="preserve">
           <source>Register no.      #1######</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Log No.</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Register No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text006Txt</note>
         </trans-unit>
-        <trans-unit id="Report 819671009 - NamedType 3853470381" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Log %1 can no longer be deleted because it is marked as closed.</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Log No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text007Msg</note>
+        <trans-unit id="Report 819671009 - NamedType 998548441" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Register %1 can no longer be deleted because it is marked as closed.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Register No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - NamedType Text007Err</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - RequestPage 2516438534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete cost entries</source>
@@ -11404,7 +11249,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - Control FromRegisterNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2872619066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From Log No.</source>
+          <source>From Register No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - Control FromRegisterNo - Property Caption</note>
         </trans-unit>
@@ -11414,7 +11259,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - Control ToRegisterNo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 819671009 - Control 2050118389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To Log No.</source>
+          <source>To Register No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Delete C/A Entries - Control ToRegisterNo - Property Caption</note>
         </trans-unit>
@@ -11764,13 +11609,13 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From log no. may not be higher than to log no.</source>
+          <source>From Register no. may not be higher than to Register no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - NamedType Text000Err</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" size-unit="char" translate="yes" xml:space="preserve">
-          <source>All corresponding c/a entries will be permanently reversed. \Do you want to reverse log %1 to %2?</source>
-          <note from="Developer" annotates="general" priority="2">%1 = First Log No.; %2 = Last Log No.</note>
+          <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = First Register No.; %2 = Last Register No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - NamedType Text001Msg</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 2364520756" size-unit="char" translate="yes" xml:space="preserve">
@@ -11819,12 +11664,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Control DefTmpl - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the log number when you want the report to start.</source>
+          <source>Specifies the Register you want the report to start.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Control FromLog - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2529486654 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>From Log No.</source>
+          <source>From Register No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Control FromLog - Property Caption</note>
         </trans-unit>
@@ -11839,12 +11684,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Control RevDate - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the log number when you want the report to end.</source>
+          <source>Specifies the Register you want the report to end.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Control ToLog - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>To Log No.</source>
+          <source>To Register No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Reverse C/A Entries - Control ToLog - Property Caption</note>
         </trans-unit>
