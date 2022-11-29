@@ -3459,9 +3459,17 @@
           <source>Item Variant Characteristics Factbox</source>
           <target>Nimikkeen variantin ominaisuuksien tietoruutu</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Control 1910760471 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the percentage to be applied to the price of the new sales order line after item configuration</source>
+          <target>Määrittää prosenttiosuuden, jota käytetään uuden myyntitilausrivin hintaan nimikkeen määrittämisen jälkeen.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 2315620118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Formula Code field</source>
           <target>Määrittää Kaavakoodi-kentän arvon</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Control 2576724139 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the percentage to be applied to the price of the new purchase order line after item configuration</source>
+          <target>Määrittää prosenttiosuuden, jota käytetään uuden ostotilausrivin hintaan nimikkeen määrittämisen jälkeen.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 2580563923 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Scrap % Formula Code field</source>
@@ -3471,9 +3479,17 @@
           <source>Specifies the value of the Routing Rule Code field</source>
           <target>Määrittää Reitityssääntökoodi-kentän arvon</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Control 3154636689 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enables the creation of a new purchase order line after item configuration</source>
+          <target>Luo uuden ostotilausrivin nimikkeen määrityksen jälkeen</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 3914839110 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rule Code field</source>
           <target>Määrittää Sääntökoodi-kentän arvon</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3169311248 - Control 4056426309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enables the creation of a new sales order line after item configuration</source>
+          <target>Luo uuden myyntitilausrivin nimikkeen määrityksen jälkeen</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 4212298309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Quantity Formula field</source>
@@ -4043,6 +4059,10 @@
           <source>Optional Amount</source>
           <target>Valinnainen summa</target>
         </trans-unit>
+        <trans-unit id="Table 127178702 - Field 1097222045 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Price Calc. %</source>
+          <target>Calc. Myyntihinta %</target>
+        </trans-unit>
         <trans-unit id="Table 127178702 - Field 1098819649 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM Version Code</source>
           <target>Tuoterakenteen versiokoodi</target>
@@ -4062,6 +4082,10 @@
         <trans-unit id="Table 127178702 - Field 1225278069 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sell-to Customer No.</source>
           <target>Tilausasiakkaan nro</target>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 143828174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Sales Line</source>
+          <target>Luo myyntirivi</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 158172202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Type</source>
@@ -4222,6 +4246,14 @@
         <trans-unit id="Table 127178702 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
           <target>Asiakirjan päivämäärä</target>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 610834219 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Price Calc. %</source>
+          <target>Calc. Ostohinta %</target>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 738509468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Purchase Line</source>
+          <target>Luo ostorivi</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 806193894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty. per Unit of Measure</source>
@@ -6755,6 +6787,10 @@
           <source>Condition Code</source>
           <target>Ehdon koodi</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1779575907 - Field 1428309435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Purchase Line</source>
+          <target>Luo ostorivi</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1779575907 - Field 2969728706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Neutral Item No.</source>
           <target>Neutraalin nimikkeen nro</target>
@@ -6762,6 +6798,10 @@
         <trans-unit id="TableExtension 1779575907 - Field 3193000000 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap % Formula Code</source>
           <target>Hävikki- % kaavakoodi</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1779575907 - Field 3327400150 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Price Calc. %</source>
+          <target>Calc. Myyntihinta %</target>
         </trans-unit>
         <trans-unit id="TableExtension 1779575907 - Field 3532825014 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rule Code</source>
@@ -6775,9 +6815,21 @@
           <source>Quantity Formula</source>
           <target>Määrän kaava</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1779575907 - Field 665915653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Sales Line</source>
+          <target>Luo myyntirivi</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1779575907 - Field 790281852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Price Calc. %</source>
+          <target>Calc. Ostohinta %</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 1178247282 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing &amp; Component Rule Code</source>
           <target>Reititys- ja komponenttisäännön koodi</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 1428309435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Purchase Line</source>
+          <target>Luo ostorivi</target>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 1554691341 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Main WBS No.</source>
@@ -6802,6 +6854,10 @@
         <trans-unit id="TableExtension 1992619580 - Field 3233245942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Position 2</source>
           <target>Asento 2</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 3327400150 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Price Calc. %</source>
+          <target>Calc. Myyntihinta %</target>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 3524559356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Link Code</source>
@@ -6834,6 +6890,14 @@
         <trans-unit id="TableExtension 1992619580 - Field 634411676 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM Line No.</source>
           <target>Tuoterakennerivin nro</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 665915653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Sales Line</source>
+          <target>Luo myyntirivi</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 790281852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Price Calc. %</source>
+          <target>Calc. Ostohinta %</target>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 825792617 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production BOM Line Type</source>
