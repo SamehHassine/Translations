@@ -31,21 +31,6 @@
           <source>Subscribe for an activation</source>
           <target>Richiedi un'attivazione</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 254490904" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total purchased qty calculated for Item Purchased is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2605295363" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average cost calculated for Item Mfg is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2673009156" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average cost calculated for Item Purchased is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2724177863" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total processed qty calculated for Item Mfg is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 407563136" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing cost calculated for Item Mfg is not correct</source>
-        </trans-unit>
         <trans-unit id="Codeunit 2264642385 - NamedType 2441914056" translate="yes" size-unit="char" xml:space="preserve">
           <source>Really delete all period data?</source>
           <target>Eliminare davvero tutti i dati del periodo?</target>
@@ -110,9 +95,6 @@
           <source>%1 type invalid in this function</source>
           <target>Tipo %1 non previsto per questa funzione</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3362265698 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Generating Tree @1@@@@@@@</source>
-        </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
           <target>Nr. #2################## @3@@@@@@@@@@@@@</target>
@@ -176,30 +158,6 @@
         <trans-unit id="Enum 2215512778 - EnumValue 3982294784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Entries</source>
           <target>Movimenti effettivi</target>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source> </source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item</source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 3433205814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Work Center</source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 3445929007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Subcontracting cost</source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 348912950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Resource</source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 3491850788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material cost</source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 423926106 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Machine Center</source>
-        </trans-unit>
-        <trans-unit id="Enum 3305052889 - EnumValue 744343241 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Capacity cost</source>
         </trans-unit>
         <trans-unit id="Enum 4031655884 - EnumValue 2704613478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Italian Civil Low Method</source>
@@ -326,8 +284,8 @@
           <target>Stampa le informazioni dettagliate sui costi</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 3000543364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
-          <target>Stampa dettagli costi</target>
+          <source>Ledger Entry Detail</source>
+          <target>Dettagli mov. contab.</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 3206730464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View WIP History</source>
@@ -476,6 +434,10 @@
         <trans-unit id="Page 1045935795 - Control 2016498506 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Actual Routing Amount.</source>
           <target>Specifica l'importo del costo ciclo effettivo</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2037375551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Posting Group field.</source>
+          <target>Specifica il valore del campo cat. reg. magazzino.</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2053932836 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the LIFO manufacturing amount.</source>
@@ -1978,8 +1940,8 @@
           <target>Visualizzare le informazioni dettagliate sulle varianti incluse quantità e importi</target>
         </trans-unit>
         <trans-unit id="Page 2868261092 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
-          <target>Dettagli quantità/importo</target>
+          <source>Ledger Entry Detail</source>
+          <target>Dettagli mov. contab.</target>
         </trans-unit>
         <trans-unit id="Page 2868261092 - Action 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the additional cost related to item variant</source>
@@ -2677,186 +2639,6 @@
           <source>Inventory Value Card (IVC)</source>
           <target>Scheda valore magazzino (IVC)</target>
         </trans-unit>
-        <trans-unit id="Page 332300109 - Action 3446176498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Recalculate data based on selected options.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Action 3446176498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Load data</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Action 3880895629 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show history card for the item of selected line</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Action 3880895629 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item History Card</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show card for the No. of selected line</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Card</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1245516462 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the unit of measure of the BOM item. </source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1350915204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show cost distribution</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1408207923 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the total material cost of all components on the parent item's BOM.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1553686271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item to explode in the Item Cost Card window.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1553686271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item Filter</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1628624548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1852021844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's processed qty.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1852021844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>D: Processed Qty.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 1953313348 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the rolled-up manufacturing overhead cost of the item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2013433829 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the item on the BOM line.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2052971837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the top item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2052971837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>E: Qty. per Top Item</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2082968347 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the cost of material at this BOM level that will eventually be scrapped in order to produce the parent item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2115629424 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's overhead rate.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2287818464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the number of the production BOM that the item represents.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2567283642 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the rolled-up additional cost of the item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2605679551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the single-level manufacturing overhead cost.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2611207985 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how the cost of the resource on the assembly BOM is allocated during assembly.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2655551271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's purchased qty.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2655551271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>B: Purchased Qty.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2805819452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's purchase cost.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2805819452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>A: Purchased Cost</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2847550804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Show cost type</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 2919920005 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the single-level capacity overhead cost.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3024818368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the cost of all component material that will eventually be scrapped to produce the parent item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3105812678 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how many units of the item are scrapped to output the top item quantity.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3123169861 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the number of the item's production order routing.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3209146096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the material cost of all items at all levels of the parent item's BOM, added to the material cost of the item itself.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3221928107 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how many units of the component are required to assemble or produce one unit of the parent.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3299657368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3386962071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the costing period to analyse</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3386962071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Period filter</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3433119822 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's lot size. The value is copied from the Lot Size field on the item card.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3454684932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how many units of the item are scrapped to output the parent item quantity.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's description.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3500504311 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's replenishment system.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3512234762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the percentage of the item that you expect to be scrapped in the production process.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 353239997 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the single-level additional cost of the item.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 381961415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the cost of one unit of the item</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3953897364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's purchase cost.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3953897364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>C: Production cost</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3975523020 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the item's overhead capacity cost rolled up from underlying item levels.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 3996842083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the sum of all cost at this BOM level.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 4235170772 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 6957098 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the capacity costs related to the item's parent item only.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 739346273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lines</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 828292189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Option</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Control 856716861 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
-          <source>None of the items in the filter have a BOM.</source>
-        </trans-unit>
-        <trans-unit id="Page 332300109 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EOS Item Cost Card</source>
-        </trans-unit>
         <trans-unit id="Page 3457658548 - Action 1002420131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print</source>
           <target>Stampa</target>
@@ -2866,8 +2648,8 @@
           <target>Visualizzare le informazioni dettagliate sulle varianti incluse quantità e importi</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity / Amount Detail</source>
-          <target>Dettagli quantità/importi</target>
+          <source>Ledger Entry Detail</source>
+          <target>Dettagli mov. contab.</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Action 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the additional cost related to item variant</source>
@@ -3825,12 +3607,6 @@
           <source>Specific Cost</source>
           <target>Costo specifico</target>
         </trans-unit>
-        <trans-unit id="Page 4157661377 - Action 1408869118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>View item cost card</source>
-        </trans-unit>
-        <trans-unit id="Page 4157661377 - Action 1408869118 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item Cost Card</source>
-        </trans-unit>
         <trans-unit id="Page 4157661377 - Action 1978564894 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View BOM History</source>
           <target>Visualizzare lo storico DB</target>
@@ -3844,8 +3620,8 @@
           <target>Stampa le informazioni dettagliate sui costi</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 3000543364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
-          <target>Stampa dettaglio costi</target>
+          <source>Ledger Entry Detail</source>
+          <target>Dettagli mov. contab.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 3206730464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View WIP History</source>
@@ -3918,6 +3694,10 @@
         <trans-unit id="Page 4157661377 - Control 1870275618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the budget cost</source>
           <target>Specifica il costo budget.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2037375551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Posting Group field.</source>
+          <target>Specifica il valore del campo cat. reg. magazzino.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2074198146 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Overhead Cap. WAC.</source>
@@ -4340,8 +4120,8 @@
           <target>Stampa la scheda con costi dettagliati incluse quantità e importi</target>
         </trans-unit>
         <trans-unit id="Page 848244484 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
-          <target>Dettagli quantità/importo</target>
+          <source>Ledger Entry Detail</source>
+          <target>Dettagli mov. contab.</target>
         </trans-unit>
         <trans-unit id="Page 848244484 - Action 2115994922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print the item specific cost</source>
@@ -5029,7 +4809,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 1152042207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Cost Amount</source>
-          <target>Importo ciclo a costo medio</target>
+          <target>Importo ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
@@ -5065,7 +4845,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 2802823758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost Amount</source>
-          <target>Importo componenti a costo medio</target>
+          <target>Importo componenti</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 640534498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specify if show Purchase Cost Amount</source>
@@ -5073,7 +4853,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 640534498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Cost Amount</source>
-          <target>Importo acquisto a costo medio</target>
+          <target>Importo acquisto</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
@@ -5113,7 +4893,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 1819427902" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Materials Amount</source>
-          <target>Importo componenti a costo medio</target>
+          <target>Importo componenti</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 1924075859" translate="yes" size-unit="char" xml:space="preserve">
           <source>Start Period Inventory</source>
@@ -5173,7 +4953,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 3945220922" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Routing Amount</source>
-          <target>Importo ciclo a costo medio</target>
+          <target>Importo ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 3977061221" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order Routing Amount</source>
@@ -5209,7 +4989,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 596740243" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Purchase Amount</source>
-          <target>Importo acquisto a costo medio</target>
+          <target>Importo acquisto</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 726147148" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocessed Quantity</source>
@@ -5343,349 +5123,97 @@
           <source>Calculate Inventory Value Lines</source>
           <target>Calcolo righe valore di magazzino</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 1152042207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Routing Average Cost Amount</source>
-          <target>Specifica se mostrare l'importo del costo medio dei cicli di produzione</target>
+        <trans-unit id="Report 2560877370 - Control 18633268 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Purchased Quantity</source>
+          <target>Specifica se mostrare la quantità acquistata</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 1152042207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing Average Cost Amount</source>
-          <target>Importo ciclo a costo medio</target>
+        <trans-unit id="Report 2560877370 - Control 18633268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Quantity</source>
+          <target>Quantità acquisti</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Opzioni</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2570694800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2560877370 - Control 3182987134 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if to show Processed Quantity</source>
-          <target>Specifica se mostrare le quantità prodotte</target>
+          <target>Specifica se mostrare la quantità prodotta</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2570694800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2560877370 - Control 3182987134 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processed Quantity</source>
           <target>Quantità prodotta</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2723419482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Purchased Quantity</source>
-          <target>Specifica se mostrare le quantità acquistate</target>
+        <trans-unit id="Report 2560877370 - Control 507677216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Material Cost Amount</source>
+          <target>Specifica se visualizzare l'importo del costo materiale</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2723419482 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Quantità acquisti</target>
+        <trans-unit id="Report 2560877370 - Control 507677216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Material Cost Amount</source>
+          <target>Importo componenti</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2802823758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Material Average Cost Amount</source>
-          <target>Specifica se mostrare l'importo del costo medio dei componenti</target>
+        <trans-unit id="Report 2560877370 - Control 569721485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Routing Cost Amount</source>
+          <target>Specifica se visualizzare l'importo del costo di ciclo</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2802823758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Mat. Average Cost Amount</source>
-          <target>Importo componenti a costo medio</target>
+        <trans-unit id="Report 2560877370 - Control 569721485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing Cost Amount</source>
+          <target>Importo ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - Control 640534498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Purchase Average Cost Amount</source>
+          <source>Specifies if to show Purchase Cost Amount</source>
           <target>Specifica se mostrare l'importo del costo medio degli acquisti</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - Control 640534498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Average Cost Amount</source>
-          <target>Importo acquisto a costo medio</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1048444555" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Data registrazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1062544513" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Tipo mov.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1080533945" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Nr. lotto</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1102524870" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1149028482" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Quantità acquisti</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1338586891" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1382784687" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.</source>
-          <target>Nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1483379058" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1550754766" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Tipo mov.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1611568094" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Overhead Routing Amount</source>
-          <target>Importo costi gen. cap. ciclo a costo medio</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1626387296" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Cod. ubicazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1746174755" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1842453736" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Amount</source>
+          <source>Purchase Cost Amount</source>
           <target>Importo acquisto</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1955173785" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
+        <trans-unit id="Report 2560877370 - NamedType 1611568094" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Overhead Routing Amount</source>
+          <target>Importo costi gen. cap. ciclo a costo medio</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
           <target>Pagina</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2108750285" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-          <target>Tipo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2124006630" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2131581743" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2346304544" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2405504814" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Nr. lotto</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2525492244" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material No.</source>
-          <target>Nr. componente</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2544294627" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocessed</source>
           <target>Riprodotta</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2564460717" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Routing Amount</source>
-          <target>Importo ciclo a costo medio</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2573569198" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Quantity</source>
-          <target>Quantità prodotta</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2611339490" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Data registrazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 262284932" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2693609264" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2734856009" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material No.</source>
-          <target>Nr. componente</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2804442990" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Theoretical Quantity</source>
-          <target>Quantità teorica</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2822721255" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2927484117" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Theoretical Quantity</source>
-          <target>Quantità teorica</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2931284797" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Nr. lotto</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3023594308" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3031559293" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3037263873" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3050033708" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Nr. lotto</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3156546981" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Cod. ubicazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 319180578" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material No.</source>
-          <target>Nr. componente</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3211442742" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.</source>
-          <target>Nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3246368361" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity</source>
-          <target>Quantità</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3285233284" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3352389142" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Cod. ubicazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3442133647" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Tipo mov.</target>
+          <source>Routing Amount</source>
+          <target>Importo ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3457149779" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculated Unit Cost</source>
           <target>Costo unitario calcolato</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3479248116" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3482827127" translate="yes" size-unit="char" xml:space="preserve">
           <source>not inv.</source>
           <target>non fatt.</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3550452115" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Tipo mov.</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3557188201" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Materials Amount</source>
-          <target>Importo componenti a costo medio</target>
+          <source>Materials Amount</source>
+          <target>Importo componenti</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3601312715" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discrepancies Allocation Amount</source>
           <target>Importo allocato discrepanze</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 360314807" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Nr. lotto</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3612048762" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Quantity</source>
-          <target>Quantità effettiva</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3735137285" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3837754263" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3894280044" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Nr. lotto</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3898024882" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Entries Amount</source>
           <target>Importo mov. capacità</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3988621108" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 401385225" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Quantity</source>
-          <target>Quantità effettiva</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4028706753" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Quantità acquisti</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4050512863" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Cod. ubicazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4064494484" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Data registrazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4070829040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Purchase Amount</source>
-          <target>Importo acquisto a costo medio</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4132496198" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Data registrazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4142165084" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity (Base)</source>
-          <target>Quantità (base)</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 4149762740" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoiced Qty (Base)</source>
           <target>Qta fatturata (Base)</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4203737879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity (Base)</source>
-          <target>Quantità (base)</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4282932932" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity</source>
-          <target>Quantità</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4285769331" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Overhead Amount</source>
-          <target>Importo costi gen.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 449695264" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-          <target>Tipo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 456138450" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Cod. ubicazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 523212313" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 539189699" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Cod. ubicazione</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 549524850" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order Routing Amount</source>
           <target>Importo ciclo odp</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 563000946" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Quantity</source>
-          <target>Quantità prodotta</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 625828999" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Data registrazione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 638740601" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Data registrazione</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 679427999" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocessed Quantity</source>
@@ -5699,18 +5227,6 @@
           <source>Ledger Entries Detail</source>
           <target>Dettaglio mov. contab.</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 835476918" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Importo</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 902378879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Nr. ordine produzione</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 98015458" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Overhead Amount</source>
-          <target>Importo costi gen.</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 983904627" translate="yes" size-unit="char" xml:space="preserve">
           <source>Consumptions Amount</source>
           <target>Importo consumi</target>
@@ -5719,49 +5235,117 @@
           <source>Item Specific Cost Detail</source>
           <target>Dettaglio costi specifici articolo</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 1152042207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Cost Amount of Routing</source>
-          <target>Specifica se mostrare il costo medio dei cicli di produzione</target>
+        <trans-unit id="Report 2560877370 - ReportLabel 1062544513" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Type</source>
+          <target>Tipo mov.</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 1152042207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing Cost Amount</source>
-          <target>Importo ciclo a costo medio</target>
+        <trans-unit id="Report 2560877370 - ReportLabel 1102524870" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Order No.</source>
+          <target>Nr. ordine produzione</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 1524552335" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target>Quantità (base)</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 1842453736" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Amount</source>
+          <target>Importo acquisto</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 2124006630" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Nr. documento</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 2573569198" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed Quantity</source>
+          <target>Quantità prodotta</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 2804442990" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theoretical Quantity</source>
+          <target>Quantità teorica</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3156546981" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Cod. ubicazione</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 319180578" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Material No.</source>
+          <target>Nr. componente</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3211442742" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3246368361" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantità</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3285233284" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importo</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3612048762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actual Quantity</source>
+          <target>Quantità effettiva</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 4028706753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Quantity</source>
+          <target>Quantità acquisti</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 4285769331" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Overhead Amount</source>
+          <target>Importo costi gen.</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 449695264" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 638740601" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Data registrazione</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 1557968223 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show processed quantity</source>
+          <target>Specifica se mostrare la quantità prodotta</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 1557968223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed Quantity</source>
+          <target>Quantità prodotta</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 18633268 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show purchased quantity</source>
+          <target>Specifica se mostrare la quantità acquistata</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 18633268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Quantity</source>
+          <target>Quantità acquisti</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Opzioni</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 239887613 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show processed quantity</source>
-          <target>Specifica se mostrare le quantità prodotte</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 239887613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Quantity</source>
-          <target>Quantità prodotta</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2723419482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show purchased quantity</source>
-          <target>Specifica se mostrare le quantità acquistate</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2723419482 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Quantità acquisti</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2802823758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Cost Amount of materials</source>
-          <target>Specifica se mostrare il costo medio dei componenti</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2802823758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material Cost Amount</source>
-          <target>Importo componenti a costo medio</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 640534498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2670902002 - Control 4106896860 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if to show Cost Amount of purchase</source>
-          <target>Specifica se mostrare il costo medio degli acquisti</target>
+          <target>Specifica se mostrare l'importo del costo dell'acquisto</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 640534498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2670902002 - Control 4106896860 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Cost Amount</source>
-          <target>Importo acquisto a costo medio</target>
+          <target>Importo acquisto</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 507677216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Cost Amount of materials</source>
+          <target>Specifica se mostrare l'importo dei costi materiali</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 507677216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Material Cost Amount</source>
+          <target>Importo componenti</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 569721485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Cost Amount of Routing</source>
+          <target>Specifica se mostrare l'importo del costo del ciclo</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 569721485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing Cost Amount</source>
+          <target>Importo ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - NamedType 1415054886" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attention. Average Cost Material Amount calculated value\</source>
@@ -5905,7 +5489,7 @@
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3446150394" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Cost Amount</source>
-          <target>Importo acquisto a costo medio</target>
+          <target>Importo acquisto</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3485063497" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity (Base)</source>
@@ -5933,7 +5517,7 @@
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 4225930022" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost Amount</source>
-          <target>Importo componenti a costo medio</target>
+          <target>Importo componenti</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 489039429" translate="yes" size-unit="char" xml:space="preserve">
           <source>Consumptions Amount</source>
@@ -5953,7 +5537,7 @@
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 678162563" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Cost Amount</source>
-          <target>Importo ciclo a costo medio</target>
+          <target>Importo ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 685375560" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
@@ -5966,10 +5550,6 @@
         <trans-unit id="Report 2670902002 - ReportLabel 846126275" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Cost</source>
           <target>Costo medio</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity Detail / Cost Amounts</source>
-          <target>Dettagli quantità/importi</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - Control 1117091898 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type to use.</source>
@@ -8154,186 +7734,6 @@
         <trans-unit id="Table 3070548092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Line WIP</source>
           <target>Righe ordini prod. WIP</target>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1191506180 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unit Cost Source</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1191506180 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Standard,Average,Weighted Average,Fixed,Budget,Formula C/E,Formula [(A*B+C*D)/(B+D)/E]</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1245516462 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>BOM Unit of Measure Code</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1408207923 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level Material Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1628624548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level Subcontrd. Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1852021844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Qty</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 1953313348 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Capacity Ovhd. Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2013433829 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Qty. per BOM Line</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2052971837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Qty. per Top Item</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2082968347 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level Scrap Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2115629424 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Overhead Rate</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2200046723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indentation</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2287818464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Production BOM No.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unit of Measure Code</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2556434784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rounding Precision</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2567283642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-Up additional Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Period Code</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2605679551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level Mfg. Ovhd Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2611207985 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Resource Usage Type</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2611207985 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct,Fixed</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2655551271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Qty</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2659380520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Is Leaf</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 2919920005 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level Cap. Ovhd Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3024818368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Scrap Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3031031638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Low-Level Code</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3105812678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Scrap Qty. per Parent</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3123169861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing No.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3209146096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Material Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3221928107 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Qty. per Parent</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indirect Cost %</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3433119822 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot Size</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Variant Code</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3454684932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Scrap Qty. per Top Item</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3500504311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Replenishment System</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3512234762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Scrap %</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 353239997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level additional Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3781582636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inventoriable</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3802096367 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Safety Lead Time</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 381961415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unit Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3964271423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Lead-Time Offset</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3975523020 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Mfg. Ovhd Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3977833617 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Amount</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 3996842083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 4235170772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Subcontracted Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 6957098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Single-Level Capacity Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 856716861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rolled-up Capacity Cost</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry No.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 1370456556" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item %1 is not a BOM. Therefore, the Replenishment System field must be set to Purchase.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 2008153173" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Replenishment System for Item %1 is Assembly, but the item is not an assembly BOM. Verify that this is correct.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 2645849790" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Replenishment System for Item %1 is Prod. Order, but the item does not have a production BOM. Verify that this is correct.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Low-level Code for Item %1 has not been calculated.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 3283546407" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item %1 is a BOM, but the Replenishment System field is not set to Assembly or Prod. Order. Verify that the value is correct.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 3752334001" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Quantity per. field in the BOM for Item %1 has not been set.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 732759939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Production BOM %1 has not been certified.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - NamedType 95063322" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing %1 has not been certified.</source>
-        </trans-unit>
-        <trans-unit id="Table 3101680879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>EOS Item History Cost Buffer</source>
         </trans-unit>
         <trans-unit id="Table 3433563251 - Field 107958094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Capacity Ovhd. Cost</source>
