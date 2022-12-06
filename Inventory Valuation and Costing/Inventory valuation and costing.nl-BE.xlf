@@ -31,21 +31,6 @@
           <source>Subscribe for an activation</source>
           <target>Het nemen van een activatie</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 254490904" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total purchased qty calculated for Item Purchased is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2605295363" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average cost calculated for Item Mfg is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2673009156" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average cost calculated for Item Purchased is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 2724177863" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total processed qty calculated for Item Mfg is not correct</source>
-        </trans-unit>
-        <trans-unit id="Codeunit 1419842816 - NamedType 407563136" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing cost calculated for Item Mfg is not correct</source>
-        </trans-unit>
         <trans-unit id="Codeunit 2264642385 - NamedType 2441914056" translate="yes" size-unit="char" xml:space="preserve">
           <source>Really delete all period data?</source>
           <target>Echt alle periodegegevens verwijderen?</target>
@@ -299,7 +284,7 @@
           <target>Gedetailleerde informatie over artikelkosten afdrukken</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 3000543364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
+          <source>Ledger Entry Detail</source>
           <target>Detail van afdrukgegevens</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 3206730464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -449,6 +434,10 @@
         <trans-unit id="Page 1045935795 - Control 2016498506 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Actual Routing Amount.</source>
           <target>Hiermee geeft u het werkelijke routeringsbedrag op.</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2037375551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Posting Group field.</source>
+          <target>Specificeert de waarde van het veld Voorraadboekingsgroep.</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2053932836 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the LIFO manufacturing amount.</source>
@@ -1951,7 +1940,7 @@
           <target>Gedetailleerde informatie over variant weergeven, inclusief hoeveelheid en bedrag.</target>
         </trans-unit>
         <trans-unit id="Page 2868261092 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
+          <source>Ledger Entry Detail</source>
           <target>Hoeveelheid / hoeveelheid detail</target>
         </trans-unit>
         <trans-unit id="Page 2868261092 - Action 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -2659,7 +2648,7 @@
           <target>Gedetailleerde informatie over variant weergeven, inclusief hoeveelheid en bedrag.</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity / Amount Detail</source>
+          <source>Ledger Entry Detail</source>
           <target>Hoeveelheid / hoeveelheid detail</target>
         </trans-unit>
         <trans-unit id="Page 3457658548 - Action 3716110350 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3631,7 +3620,7 @@
           <target>Gedetailleerde informatie over artikelkosten afdrukken</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 3000543364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
+          <source>Ledger Entry Detail</source>
           <target>Detail van afdrukgegevens</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 3206730464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3705,6 +3694,10 @@
         <trans-unit id="Page 4157661377 - Control 1870275618 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the budget cost</source>
           <target>Hiermee geeft u de budgetkosten op</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2037375551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Posting Group field.</source>
+          <target>Specificeert de waarde van het veld Voorraadboekingsgroep.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2074198146 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Overhead Cap. WAC.</source>
@@ -4127,7 +4120,7 @@
           <target>De gedetailleerde informatie over hoeveelheid en bedrag afdrukken.</target>
         </trans-unit>
         <trans-unit id="Page 848244484 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Print Data Detail</source>
+          <source>Ledger Entry Detail</source>
           <target>Hoeveelheid / hoeveelheid detail</target>
         </trans-unit>
         <trans-unit id="Page 848244484 - Action 2115994922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -5130,373 +5123,97 @@
           <source>Calculate Inventory Value Lines</source>
           <target>Voorraadwaarderegels berekenen</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 1152042207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Routing Average Cost Amount</source>
-          <target>Hiermee geeft u op of u het gemiddelde kostenbedrag van routering wilt weergeven</target>
+        <trans-unit id="Report 2560877370 - Control 18633268 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Purchased Quantity</source>
+          <target>Geeft aan of de gekochte hoeveelheid moet worden weergegeven</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 1152042207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing Average Cost Amount</source>
-          <target>Routering Gemiddelde kostenbedrag</target>
+        <trans-unit id="Report 2560877370 - Control 18633268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Quantity</source>
+          <target>Gekochte hoeveelheid</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Opties</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2570694800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2560877370 - Control 3182987134 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if to show Processed Quantity</source>
-          <target>Hiermee geeft u op of u verwerkte hoeveelheid wilt weergeven</target>
+          <target>Geeft aan of de verwerkte hoeveelheid moet worden weergegeven</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2570694800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2560877370 - Control 3182987134 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processed Quantity</source>
           <target>Verwerkte hoeveelheid</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2723419482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Purchased Quantity</source>
-          <target>Geeft op of gekochte hoeveelheid moet worden weergegeven</target>
+        <trans-unit id="Report 2560877370 - Control 507677216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Material Cost Amount</source>
+          <target>Geeft aan of het materiaalkostenbedrag moet worden weergegeven</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2723419482 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Gekochte hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2802823758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Material Average Cost Amount</source>
-          <target>Hiermee geeft u op of het gemiddelde kostenbedrag van materiaal moet worden weergegeven</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - Control 2802823758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Mat. Average Cost Amount</source>
+        <trans-unit id="Report 2560877370 - Control 507677216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Material Cost Amount</source>
           <target>Matteüs. Gemiddelde kostenbedrag</target>
         </trans-unit>
+        <trans-unit id="Report 2560877370 - Control 569721485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Routing Cost Amount</source>
+          <target>Geeft aan of het bedrag van de routeringskosten moet worden weergegeven</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - Control 569721485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing Cost Amount</source>
+          <target>Routering Gemiddelde kostenbedrag</target>
+        </trans-unit>
         <trans-unit id="Report 2560877370 - Control 640534498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Purchase Average Cost Amount</source>
+          <source>Specifies if to show Purchase Cost Amount</source>
           <target>Hiermee geeft u op of de gemiddelde kosten van aankoop moeten worden weergegeven</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - Control 640534498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Average Cost Amount</source>
+          <source>Purchase Cost Amount</source>
           <target>Aankoop gemiddelde kostenbedrag</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1048444555" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Boekingsdatum</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1062544513" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Invoertype</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1071540792" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1080533945" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Lot nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1102524870" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1149028482" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Gekochte hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1338586891" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 135786462" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1382784687" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.</source>
-          <target>№.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1483379058" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1550754766" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Invoertype</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1556753851" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1611568094" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Overhead Routing Amount</source>
+          <source>Overhead Routing Amount</source>
           <target>Gemiddelde kosten overheadrouteringsbedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1626387296" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Locatiecode</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1746174755" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1842453736" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Amount</source>
-          <target>Aankoopbedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 1955173785" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
           <target>Pagina</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2108750285" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-          <target>Type</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2124006630" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2131581743" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2346304544" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2355309882" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2405504814" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Lot nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2525492244" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material No.</source>
-          <target>Materiaal nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2537214714" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2544294627" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocessed</source>
           <target>Verwerkt</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 2564460717" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Routing Amount</source>
+          <source>Routing Amount</source>
           <target>Routeringsbedrag voor gemiddelde kosten</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2573569198" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Quantity</source>
-          <target>Verwerkte hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2611339490" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Boekingsdatum</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 262284932" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2693609264" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2734856009" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material No.</source>
-          <target>Materiaal nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2804442990" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Theoretical Quantity</source>
-          <target>Theoretische hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2822721255" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2927484117" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Theoretical Quantity</source>
-          <target>Theoretische hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2931284797" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Lot nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 2976447101" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3023594308" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3031559293" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3037263873" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3050033708" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Lot nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3156546981" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Locatiecode</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 319180578" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material No.</source>
-          <target>Materiaal nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3211442742" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.</source>
-          <target>№.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3246368361" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity</source>
-          <target>Hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3285233284" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3352389142" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Locatiecode</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3442133647" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Invoertype</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3457149779" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculated Unit Cost</source>
           <target>Berekende eenheidskosten</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3479248116" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3482827127" translate="yes" size-unit="char" xml:space="preserve">
           <source>not inv.</source>
           <target>niet inv.</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3550452115" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry Type</source>
-          <target>Invoertype</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3557188201" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Materials Amount</source>
+          <source>Materials Amount</source>
           <target>Gemiddelde kosten materialen bedrag</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3601312715" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discrepancies Allocation Amount</source>
           <target>Aantal discrepanties</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 360314807" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Lot nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3612048762" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Quantity</source>
-          <target>Werkelijke hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3735137285" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3837754263" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3894280044" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lot No.</source>
-          <target>Lot nr.</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 3898024882" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Entries Amount</source>
           <target>Bedrag van capaciteitsinzendingen</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 3988621108" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 401385225" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Actual Quantity</source>
-          <target>Werkelijke hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4028706753" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Gekochte hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4050512863" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Locatiecode</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4064494484" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Boekingsdatum</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4070829040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Average Cost Purchase Amount</source>
-          <target>Aankoopbedrag voor gemiddelde kosten</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4132496198" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Boekingsdatum</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4142165084" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity (Base)</source>
-          <target>Hoeveelheid (basis)</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 4149762740" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoiced Qty (Base)</source>
           <target>Gefactureerde Qty (basis)</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4203737879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity (Base)</source>
-          <target>Hoeveelheid (basis)</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4282932932" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity</source>
-          <target>Hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 4285769331" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Overhead Amount</source>
-          <target>Overheadbedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 449695264" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-          <target>Type</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 456138450" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Locatiecode</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 523212313" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Document nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 539189699" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Location Code</source>
-          <target>Locatiecode</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 549524850" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order Routing Amount</source>
           <target>Routeringsbedrag voor productieorders</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 563000946" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Quantity</source>
-          <target>Verwerkte hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 625828999" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Boekingsdatum</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 638740601" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posting Date</source>
-          <target>Boekingsdatum</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 679427999" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reprocessed Quantity</source>
@@ -5510,22 +5227,6 @@
           <source>Ledger Entries Detail</source>
           <target>Detail in grootboekinzendingen</target>
         </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 835476918" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount</source>
-          <target>Bedrag</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 902378879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Prod. Order No.</source>
-          <target>Prod. Bestel nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 953034637" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Global Dimension 1 Code</source>
-          <target>Globale Dimensie 1-code</target>
-        </trans-unit>
-        <trans-unit id="Report 2560877370 - NamedType 98015458" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Overhead Amount</source>
-          <target>Overheadbedrag</target>
-        </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 983904627" translate="yes" size-unit="char" xml:space="preserve">
           <source>Consumptions Amount</source>
           <target>Verbruiksbedrag</target>
@@ -5534,49 +5235,117 @@
           <source>Item Specific Cost Detail</source>
           <target>Specifice kosten voor objecten</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 1152042207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Cost Amount of Routing</source>
-          <target>Hiermee geeft u op of het gemiddelde kostenbedrag van de routering moet worden weergegeven</target>
+        <trans-unit id="Report 2560877370 - ReportLabel 1062544513" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry Type</source>
+          <target>Invoertype</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 1152042207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing Cost Amount</source>
-          <target>Routering Gemiddelde kostenbedrag</target>
+        <trans-unit id="Report 2560877370 - ReportLabel 1102524870" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Order No.</source>
+          <target>Prod. Bestel nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 1524552335" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity (Base)</source>
+          <target>Hoeveelheid (basis)</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 1842453736" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Amount</source>
+          <target>Aankoopbedrag</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 2124006630" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document No.</source>
+          <target>Document nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 2573569198" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed Quantity</source>
+          <target>Verwerkte hoeveelheid</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 2804442990" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Theoretical Quantity</source>
+          <target>Theoretische hoeveelheid</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3156546981" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Locatiecode</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 319180578" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Material No.</source>
+          <target>Materiaal nr.</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3211442742" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>№.</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3246368361" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Hoeveelheid</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3285233284" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Bedrag</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 3612048762" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actual Quantity</source>
+          <target>Werkelijke hoeveelheid</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 4028706753" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Quantity</source>
+          <target>Gekochte hoeveelheid</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 4285769331" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Overhead Amount</source>
+          <target>Overheadbedrag</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 449695264" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Report 2560877370 - ReportLabel 638740601" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Boekingsdatum</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 1557968223 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show processed quantity</source>
+          <target>Geeft aan of de verwerkte hoeveelheid moet worden weergegeven</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 1557968223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed Quantity</source>
+          <target>Verwerkte hoeveelheid</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 18633268 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show purchased quantity</source>
+          <target>Geeft aan of de gekochte hoeveelheid moet worden weergegeven</target>
+        </trans-unit>
+        <trans-unit id="Report 2670902002 - Control 18633268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Quantity</source>
+          <target>Gekochte hoeveelheid</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Opties</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 239887613 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show processed quantity</source>
-          <target>Hiermee geeft u op of u verwerkte hoeveelheid wilt weergeven</target>
+        <trans-unit id="Report 2670902002 - Control 4106896860 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Cost Amount of purchase</source>
+          <target>Geeft aan of de kostprijs van de aankoop moet worden weergegeven</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 239887613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Processed Quantity</source>
-          <target>Verwerkte hoeveelheid</target>
+        <trans-unit id="Report 2670902002 - Control 4106896860 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Cost Amount</source>
+          <target>Aankoop gemiddelde kostenbedrag</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2723419482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show purchased quantity</source>
-          <target>Geeft op of gekochte hoeveelheid moet worden weergegeven</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2723419482 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchased Quantity</source>
-          <target>Gekochte hoeveelheid</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2802823758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2670902002 - Control 507677216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if to show Cost Amount of materials</source>
-          <target>Hiermee geeft u op of de gemiddelde kostenhoeveelheid materialen moet worden weergegeven</target>
+          <target>Geeft aan of de kostprijs van materialen moet worden weergegeven</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 2802823758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Report 2670902002 - Control 507677216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Cost Amount</source>
           <target>Matteüs. Gemiddelde kostenbedrag</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 640534498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies if to show Cost Amount of purchase</source>
-          <target>Hiermee geeft u op of het gemiddelde aankoopbedrag moet worden weergegeven</target>
+        <trans-unit id="Report 2670902002 - Control 569721485 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to show Cost Amount of Routing</source>
+          <target>Geeft aan of kostenbedrag van routering moet worden weergegeven</target>
         </trans-unit>
-        <trans-unit id="Report 2670902002 - Control 640534498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Purchase Cost Amount</source>
-          <target>Aankoop gemiddelde kostenbedrag</target>
+        <trans-unit id="Report 2670902002 - Control 569721485 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing Cost Amount</source>
+          <target>Routering Gemiddelde kostenbedrag</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - NamedType 1415054886" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attention. Average Cost Material Amount calculated value\</source>
@@ -5781,10 +5550,6 @@
         <trans-unit id="Report 2670902002 - ReportLabel 846126275" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Cost</source>
           <target>Gemiddelde kosten</target>
-        </trans-unit>
-        <trans-unit id="Report 2670902002 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Quantity Detail / Cost Amounts</source>
-          <target>Hoeveelheid detail / kostenbedragen</target>
         </trans-unit>
         <trans-unit id="Report 2880494308 - Control 1117091898 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cost type to use.</source>
