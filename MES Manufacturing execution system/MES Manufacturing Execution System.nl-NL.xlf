@@ -188,7 +188,7 @@
           <target>Onmogelijk om een rework te maken als er geen record is met Prod. order %1, regel %2, operatie %3 zonder schroothoeveelheid</target>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3487161493 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 %2 non è abilitato per %3 %4.</source>
+          <source>%1 %2 not allowed for %3 %4.</source>
           <target>%1 %2 niet è abilitato per %3 %4.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3570776638 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
@@ -267,6 +267,10 @@
           <source>Stapling</source>
           <target>Nieten</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2503755138 - Method 4114427160 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
+          <target>Aandacht! MES Setup is niet correct. Controleren of de lege redencode of dubbele redencode</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
           <target>Er zijn open %1 gerelateerd aan %2 %3.</target>
@@ -278,10 +282,6 @@
         <trans-unit id="Codeunit 500799860 - Method 3097575078 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not enabled with barcode method %2</source>
           <target>%1 is niet ingeschakeld met streepjescodemethode %2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 500799860 - Method 4209375023 - NamedType 1743254385" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1%4%2%4%3</source>
-          <target>%1%4%2%4%3</target>
         </trans-unit>
         <trans-unit id="Enum 1360883003 - EnumValue 1270866090 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>QRCode</source>
@@ -354,6 +354,10 @@
         <trans-unit id="Enum 1600276351 - EnumValue 915332364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Stop</source>
           <target>Stoppen</target>
+        </trans-unit>
+        <trans-unit id="Enum 1847307580 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
         </trans-unit>
         <trans-unit id="Enum 2016811298 - EnumValue 1438292092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Font Demo</source>
@@ -436,11 +440,11 @@
           <target>Schroot Reden</target>
         </trans-unit>
         <trans-unit id="Enum 503752710 - EnumValue 3156524383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reason Code</source>
+          <source>Operation Type</source>
           <target>Redencode</target>
         </trans-unit>
         <trans-unit id="Enum 503752710 - EnumValue 3429581248 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reason Type</source>
+          <source>Stop Reason</source>
           <target>Redentype</target>
         </trans-unit>
         <trans-unit id="Enum 503752710 - EnumValue 3433205814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -583,17 +587,9 @@
           <source>Barcode Text Indicator</source>
           <target>Tekstindicator streepjescode</target>
         </trans-unit>
-        <trans-unit id="Page 1121645954 - Method 1268913252 - NamedType 1743254385" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1%4%2%4%3</source>
-          <target>%1%4%2%4%3</target>
-        </trans-unit>
         <trans-unit id="Page 1121645954 - Method 4177352842 - NamedType 2294662597" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Page?</source>
           <target>Pagina sluiten?</target>
-        </trans-unit>
-        <trans-unit id="Page 1121645954 - Method 716454850 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
-          <target>Aandacht! MES Setup is niet correct. Controleren of de lege redencode of dubbele redencode</target>
         </trans-unit>
         <trans-unit id="Page 1121645954 - NamedType 1168670400" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reading Barcode</source>
@@ -771,6 +767,14 @@
           <source>MES Cue</source>
           <target>MES Cue</target>
         </trans-unit>
+        <trans-unit id="Page 1413335261 - Action 1514883969 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup</source>
+          <target>Instellingen</target>
+        </trans-unit>
+        <trans-unit id="Page 1419194666 - Control 1350184481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Device ID</source>
+          <target>ID-apparaat</target>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Action 1692444235 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Navigate</source>
           <target>&amp;Navigeren</target>
@@ -870,6 +874,10 @@
         <trans-unit id="Page 1920932823 - Control 3123849465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Entry No.</source>
           <target>Toegangspunt capaciteit.</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Control 3133794015 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicate Status Detail</source>
+          <target>Statusdetails aangeven</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Control 3149087179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Exported Date</source>
@@ -1047,6 +1055,10 @@
           <source>Posting Type</source>
           <target>Boekingssoort</target>
         </trans-unit>
+        <trans-unit id="Page 2252130505 - Control 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Soort</target>
+        </trans-unit>
         <trans-unit id="Page 2252130505 - Control 1964419135 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Employee No.</source>
           <target>Geef werknemer nr.</target>
@@ -1135,6 +1147,10 @@
           <source>Duration Ms.</source>
           <target>Duur Ms.</target>
         </trans-unit>
+        <trans-unit id="Page 2252130505 - Control 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
         <trans-unit id="Page 2252130505 - Control 4227951391 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Stapling No.</source>
           <target>Geef nieten nr.</target>
@@ -1207,6 +1223,14 @@
           <source>MES Role Center</source>
           <target>MES Role Center</target>
         </trans-unit>
+        <trans-unit id="Page 2647740909 - Control 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Soort</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Control 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
         <trans-unit id="Page 2773314375 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a code to identify why an item has been reworked.</source>
           <target>Hiermee geeft u een code op om te bepalen waarom een item is herwerkt.</target>
@@ -1216,7 +1240,7 @@
           <target>Hiermee geeft u een beschrijving op voor de reworkcode.</target>
         </trans-unit>
         <trans-unit id="Page 2773314375 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Rework Codes</source>
+          <source>Rework Codes (MES)</source>
           <target>Codes opnieuw werken</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Action 1811344935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1254,6 +1278,14 @@
         <trans-unit id="Page 2865843814 - Control 1305313817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Stapling</source>
           <target>Nieten</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1347615962 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the codes of the various operations to be performed so that the system can recognize them.</source>
+          <target>Voer de codes in van de verschillende bewerkingen die moeten worden uitgevoerd, zodat het systeem ze kan herkennen.</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1347615962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output Only Text</source>
+          <target>Uitvoertekst</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1683178722 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set / Choose a specific serial number for stapling</source>
@@ -1414,6 +1446,10 @@
         <trans-unit id="Page 2865843814 - Control 754948606 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Service Config Code" field</source>
           <target>Hiermee geeft u de waarde op van het veld "Barcode Encoder"</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 986472234 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enter the codes of the various operations to be performed so that the system can recognize them.</source>
+          <target>Voer de codes in van de verschillende bewerkingen die moeten worden uitgevoerd, zodat het systeem ze kan herkennen.</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 986868605 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enter the codes of the various operations to be performed so that the system can recognize them. P.S. Stapling is used to group different phases</source>
@@ -1598,6 +1634,18 @@
         <trans-unit id="Page 3009655385 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Select Production Lines</source>
           <target>Productielijnen selecteren</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Action 1514883969 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup</source>
+          <target>Instellingen</target>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Algemeen</target>
+        </trans-unit>
+        <trans-unit id="Page 3462139089 - Method 2621557374 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
+          <target>Aandacht! MES Setup is niet correct. Controleren of de lege redencode of dubbele redencode</target>
         </trans-unit>
         <trans-unit id="Page 3605165294 - Action 1646142540 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modify Employee Entries</source>
@@ -1807,6 +1855,10 @@
           <source>Allow you to modify or create a starling of an Employee Entry</source>
           <target>U een spreeuw van een werknemersvermelding wijzigen of maken</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3954112672 - Control 1084989812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Entry No.</source>
+          <target>Toegangs nr.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3954112672 - Control 1380724566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Rework Code</source>
           <target>Rework-code aangeven</target>
@@ -1983,9 +2035,17 @@
           <source>Scrap Code</source>
           <target>Uitvalcode</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 1489664975 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity Type</source>
+          <target>Activiteitssoort</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 149522872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry Type</source>
           <target>Boekingssoort</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 1535069405 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Description</source>
+          <target>Beschrijving van de bewerking</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 1637095154 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Duration</source>
@@ -2167,6 +2227,14 @@
           <source>Employee Entry</source>
           <target>Werknemersvermelding</target>
         </trans-unit>
+        <trans-unit id="Table 191024244 - Field 1753214751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Bronsoort</target>
+        </trans-unit>
+        <trans-unit id="Table 191024244 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Volgnummer</target>
+        </trans-unit>
         <trans-unit id="Table 2019290016 - Field 102453891 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>ReasonText</source>
           <target>ReasonText</target>
@@ -2311,6 +2379,10 @@
           <source>Family Barcode</source>
           <target>Familiebarcode</target>
         </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
         <trans-unit id="Table 2019290016 - Field 3977046019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Employee Entry No.</source>
           <target>Toegangs nr.</target>
@@ -2358,6 +2430,14 @@
         <trans-unit id="Table 2427368581 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rework</source>
           <target>Herwerken</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Soort</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
         </trans-unit>
         <trans-unit id="Table 2776929114 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
@@ -2463,6 +2543,90 @@
           <source>MES Setup</source>
           <target>MES-installatie</target>
         </trans-unit>
+        <trans-unit id="Table 2917659488 - Field 1389588618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scrap Code</source>
+          <target>Uitvalcode</target>
+        </trans-unit>
+        <trans-unit id="Table 2917659488 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Soort</target>
+        </trans-unit>
+        <trans-unit id="Table 2917659488 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3005577696 - Field 1656283413 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Device ID</source>
+          <target>ID-apparaat</target>
+        </trans-unit>
+        <trans-unit id="Table 3005577696 - Field 2345168718 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Status</source>
+          <target>Verbindingsstatus</target>
+        </trans-unit>
+        <trans-unit id="Table 3005577696 - Field 2681758783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Device ID</source>
+          <target>ID-apparaat</target>
+        </trans-unit>
+        <trans-unit id="Table 3005577696 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Table 3005577696 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Device</source>
+          <target>IoT-apparaat</target>
+        </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 2681758783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Device ID</source>
+          <target>ID-apparaat</target>
+        </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Volgnummer</target>
+        </trans-unit>
+        <trans-unit id="Table 3315350589 - Field 2681758783 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Device ID</source>
+          <target>ID-apparaat</target>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Omschrijving</target>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3726761159 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Soort</target>
+        </trans-unit>
+        <trans-unit id="Table 4063490916 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Soort</target>
+        </trans-unit>
+        <trans-unit id="Table 4063490916 - Field 1964419135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee No.</source>
+          <target>Werknemer</target>
+        </trans-unit>
+        <trans-unit id="Table 4063490916 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Omschrijving</target>
+        </trans-unit>
+        <trans-unit id="Table 4063490916 - Field 4171342510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Badge No.</source>
+          <target>Badge nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 4279585036 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 934556774 - Field 1964419135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee No.</source>
+          <target>Werknemer</target>
+        </trans-unit>
+        <trans-unit id="Table 934556774 - Field 4171342510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Badge No.</source>
+          <target>Badge nr.</target>
+        </trans-unit>
         <trans-unit id="TableExtension 2023799527 - Field 2081051893 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Badge No.</source>
           <target>Badge nr.</target>
@@ -2482,6 +2646,10 @@
         <trans-unit id="TableExtension 2192708550 - Field 2312762588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single User Station</source>
           <target>Station voor één gebruiker</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2601907357 - Field 1084989812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Entry No.</source>
+          <target>Toegangs nr.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2601907357 - Field 1380724566 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rework Code</source>
