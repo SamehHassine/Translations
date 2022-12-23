@@ -227,6 +227,10 @@
           <source>%1 %2 not allowed for %3 %4.</source>
           <target>%1 %2 non abilitato pro %3 %4.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 349524102 - NamedType 631769430" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
+          <target>Aufmerksamkeit! MES Setup ist nicht korrekt. Überprüfen Sie, ob es sich um einen leeren Ursachencode oder einen doppelten Ursachencode handelt.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3570776638 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>Phase is open</source>
           <target>Phase ist offen</target>
@@ -246,6 +250,10 @@
         <trans-unit id="Codeunit 1423286042 - Method 4231892286 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting</source>
           <target>Buchung</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 591452386 - NamedType 682558229" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Order %1 is not a Family Order. Please set a valid Operation No.</source>
+          <target>Produktionsauftrag %1 ist kein Familienauftrag. Bitte legen Sie eine gültige Vorgangsnummer fest.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 757935147 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting %1</source>
@@ -331,21 +339,9 @@
           <source>Action %1 not found</source>
           <target>Aktion %1 nicht gefunden</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2503755138 - Method 3538512747 - NamedType 682558229" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Production Order %1 is not a Family Order. Please set a valid Operation No.</source>
-          <target>Produktionsauftrag %1 ist kein Familienauftrag. Bitte legen Sie eine gültige Vorgangsnummer fest.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2503755138 - Method 3593995465 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
-          <target>Aufmerksamkeit! MES Setup ist nicht korrekt. Überprüfen Sie, ob es sich um einen leeren Ursachencode oder einen doppelten Ursachencode handelt.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2503755138 - Method 3798285420 - NamedType 2897091413" translate="yes" size-unit="char" xml:space="preserve">
           <source>Action %1 not managed yet</source>
           <target>Aktion %1 noch nicht verwaltet</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 2503755138 - Method 4114427160 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
-          <target>Aufmerksamkeit! MES Setup ist nicht korrekt. Überprüfen Sie, ob es sich um einen leeren Ursachencode oder einen doppelten Ursachencode handelt.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
@@ -834,10 +830,6 @@
         <trans-unit id="Page 1121645954 - Method 4177352842 - NamedType 2294662597" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Page?</source>
           <target>Seite schließen?</target>
-        </trans-unit>
-        <trans-unit id="Page 1121645954 - Method 4287919995 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
-          <target>Aufmerksamkeit! MES Setup ist nicht korrekt. Überprüfen Sie, ob es sich um einen leeren Ursachencode oder einen doppelten Ursachencode handelt.</target>
         </trans-unit>
         <trans-unit id="Page 1121645954 - NamedType 1168670400" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reading Barcode</source>
@@ -1979,6 +1971,14 @@
           <source>Job Journal Batch Name</source>
           <target>Name des Auftragsjournal-Batches</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1664334992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If selected, on Operation List will be used the calculated Remaining Quantity as Quantity</source>
+          <target>Wenn ausgewählt, wird in der Vorgangsliste die berechnete Restmenge als Menge verwendet.</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1664334992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Remaining Quantity</source>
+          <target>Restmenge verwenden</target>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1683178722 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set / Choose a specific serial number for stapling</source>
           <target>Festlegen / Auswählen einer bestimmten Seriennummer für das Heften</target>
@@ -2646,10 +2646,6 @@
         <trans-unit id="Page 3462139089 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Sequence" field</source>
           <target>Gibt den Wert des Felds "Sequenz" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3462139089 - Method 2621557374 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Attention! MES Setup is not Correct. Check if the are blank reason code or duplicate reason Code</source>
-          <target>Aufmerksamkeit! MES Setup ist nicht korrekt. Überprüfen Sie, ob es sich um einen leeren Ursachencode oder einen doppelten Ursachencode handelt.</target>
         </trans-unit>
         <trans-unit id="Page 3462139089 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reason Codes (MES)</source>
@@ -3798,6 +3794,10 @@
         <trans-unit id="Table 2865843814 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
           <target>Primärschlüssel</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 1664334992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Remaining Quantity</source>
+          <target>Restmenge verwenden</target>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 1683178722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Stapling Nos.</source>
