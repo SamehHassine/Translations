@@ -3,6 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1509680049 - Method 1905791958 - NamedType 611326923" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS DCS File Cleaner</source>
+          <target>EOS DCS Dateibereinigung</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1509680049 - Method 2365052298 - NamedType 2738920518" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to overwrite existing setup with defaults ones?</source>
           <target>Möchten Sie vorhandene Setups mit Standardeinstellungen überschreiben?</target>
@@ -18,6 +22,14 @@
         <trans-unit id="Codeunit 1509680049 - Method 446010542 - NamedType 64258721" translate="yes" size-unit="char" xml:space="preserve">
           <source>You do not have permission to %1 the library '%2'.</source>
           <target>Sie besitzen keine Berechtigung für %1 auf der Library '%2'.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3282079385 - Method 1654854710 - NamedType 597266185" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The metadata (%1) must have a value</source>
+          <target>Die Metadaten (%1) müssen einen Wert haben</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3282079385 - Method 1739108896 - NamedType 2179263437" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The file size (%1 MB) exceeded the limit (%2 MB) set in library (%3)</source>
+          <target>Die Dateigröße (%1 MB) hat den in der Bibliothek festgelegten Grenzwert (%2 MB) überschritten (%3)</target>
         </trans-unit>
         <trans-unit id="Enum 4049169857 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
@@ -74,6 +86,10 @@
         <trans-unit id="Page 1414148249 - Action 4051412891 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Libraries</source>
           <target>Libraries</target>
+        </trans-unit>
+        <trans-unit id="Page 1414148249 - Action 4272594318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Job Queue</source>
+          <target>Offene Auftragswarteschlange</target>
         </trans-unit>
         <trans-unit id="Page 1414148249 - Control 1574164578 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If true the factbox will be visible also in the List page</source>
@@ -271,6 +287,10 @@
           <source>Factbox</source>
           <target>Factbox</target>
         </trans-unit>
+        <trans-unit id="Page 2513218693 - Control 888856788 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Delete Attachment on Rec Delete" field</source>
+          <target>Gibt den Wert des Felds "Anlage beim erneuten Löschen löschen" an.</target>
+        </trans-unit>
         <trans-unit id="Page 2598793597 - Action 934338943 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set the Library code to the default ones declared in the table setup</source>
           <target>Festlegen des Bibliothekscodes auf die in der Tabelleneinrichtung deklarierten Standardcodes</target>
@@ -314,6 +334,10 @@
         <trans-unit id="Page 2704839719 - Control 1109300786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>The description for this setup</source>
           <target>Die Beschreibung für dieses Setup</target>
+        </trans-unit>
+        <trans-unit id="Page 2704839719 - Control 1416069908 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "File size limit (MB)" field</source>
+          <target>Gibt den Wert des Felds "Dateigrößenbeschränkung (MB)" an.</target>
         </trans-unit>
         <trans-unit id="Page 2704839719 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
@@ -370,6 +394,10 @@
         <trans-unit id="Page 3031960461 - Action 1034300564 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Values</source>
           <target>Werte</target>
+        </trans-unit>
+        <trans-unit id="Page 3031960461 - Control 1513426459 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Required" field</source>
+          <target>Gibt den Wert des Felds "Erforderlich" an.</target>
         </trans-unit>
         <trans-unit id="Page 3031960461 - Control 2207473174 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Visible on Upload field</source>
@@ -979,6 +1007,10 @@
           <source>Table Name</source>
           <target>Tabellenname</target>
         </trans-unit>
+        <trans-unit id="Table 1414148249 - Field 888856788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Attachment on Rec Delete</source>
+          <target>Anhang beim Rec Delete löschen</target>
+        </trans-unit>
         <trans-unit id="Table 1414148249 - Method 1080453686 - NamedType 2259512085" translate="yes" size-unit="char" xml:space="preserve">
           <source>No library associated. Cannot enable the table.</source>
           <target>Keine Bibliothek zugeordnet. Die Tabelle kann nicht aktiviert werden.</target>
@@ -1027,6 +1059,10 @@
           <source>Description</source>
           <target>Beschreibung</target>
         </trans-unit>
+        <trans-unit id="Table 2283061939 - Field 1416069908 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File size limit (MB)</source>
+          <target>Dateigrößenbeschränkung (MB)</target>
+        </trans-unit>
         <trans-unit id="Table 2283061939 - Field 2891538263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enabled</source>
           <target>Aktiviert</target>
@@ -1050,6 +1086,42 @@
         <trans-unit id="Table 2283061939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>DocSolutions DocLibrary</source>
           <target>DocSolutions DocLibrary</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 1753214751 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Type</source>
+          <target>Herkunftsart</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 205345179 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Subtype</source>
+          <target>Herkunftsunterart</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 205345179 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>0,1,2,3,4,5,6,7,8,9,10</source>
+          <target>0,1,2,3,4,5,6,7,8,9,10</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 3076185996 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source ID</source>
+          <target>Herkunfts-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 3277130020 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Record Deleted</source>
+          <target>Datensatz gelöscht</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 3988387256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Directory Path</source>
+          <target>Verzeichnispfad</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 4050115245 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DCS Library</source>
+          <target>DCS-Bibliothek</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 689635933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Path</source>
+          <target>Dateipfad</target>
+        </trans-unit>
+        <trans-unit id="Table 2358999354 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Lfd. Nr.</target>
         </trans-unit>
         <trans-unit id="Table 2761641414 - Field 2458840750 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Library Code</source>
@@ -1078,6 +1150,10 @@
         <trans-unit id="Table 2761641414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Library Permission</source>
           <target>Bibliotheksberechtigung</target>
+        </trans-unit>
+        <trans-unit id="Table 3031960461 - Field 1513426459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Required</source>
+          <target>Pflicht</target>
         </trans-unit>
         <trans-unit id="Table 3031960461 - Field 2207473174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Visible on Upload</source>
