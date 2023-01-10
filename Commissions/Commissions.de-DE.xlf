@@ -203,6 +203,14 @@
           <source>Subscribe for a free trial or a full activation</source>
           <target>Kostenlose Testversion oder Voll-Abonnement beantragen</target>
         </trans-unit>
+        <trans-unit id="Enum 1150297326 - EnumValue 2448168655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Workdate</source>
+          <target>Arbeitsdatum</target>
+        </trans-unit>
+        <trans-unit id="Enum 1150297326 - EnumValue 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Belegdatum</target>
+        </trans-unit>
         <trans-unit id="Enum 1242646279 - EnumValue 2621139259 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Linked Line</source>
           <target>Von der verknüpften Linie</target>
@@ -2170,6 +2178,10 @@
         <trans-unit id="Page 3431204148 - Control 3289733327 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the primary salesperson role</source>
           <target>Gibt die primäre Verkäuferrolle an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3342573389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Commissions Calculation Date field.</source>
+          <target>Gibt den Wert des Felds Provisionsberechnungsdatum an.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3431023670 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement advance commission entry, user can force to proceed.</source>
@@ -4431,6 +4443,34 @@
           <source>Specifies if the line must be excluded from commission calculation</source>
           <target>Gibt an, ob die Position von der Provisionsberechnung ausgeschlossen werden muss</target>
         </trans-unit>
+        <trans-unit id="Query 1600194900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Product Commission Group Code</source>
+          <target>Query Product Commission Group Code</target>
+        </trans-unit>
+        <trans-unit id="Query 1751777690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Sales Person</source>
+          <target>Query Sales Person</target>
+        </trans-unit>
+        <trans-unit id="Query 3079749465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Salesperson Role</source>
+          <target>Query Salesperson Role</target>
+        </trans-unit>
+        <trans-unit id="Query 4009777844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Customer Commission Group Code</source>
+          <target>Query Customer Commission Group Code</target>
+        </trans-unit>
+        <trans-unit id="Query 665623871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Sales Network</source>
+          <target>Query Sales Network</target>
+        </trans-unit>
+        <trans-unit id="Query 730208778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Customer No</source>
+          <target>Query Customer No</target>
+        </trans-unit>
+        <trans-unit id="Query 876824755 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Product No</source>
+          <target>Query Product No</target>
+        </trans-unit>
         <trans-unit id="Report 1343196591 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
           <target>Gibt an, ob am Ende des Prozesses eine Zusammenfassungsseite mit Ausführungsprotokoll geöffnet werden muss.</target>
@@ -6263,6 +6303,10 @@
           <source>Primary Salesperson Role</source>
           <target>Primäre Verkäuferrolle</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3342573389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions Calculation Date</source>
+          <target>Datum der Berechnung der Provisionen</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3431023670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allow Due Date mod. on Settled Advance Entries</source>
           <target>Due Date mod zulassen. auf Settled Advance Entries</target>
@@ -6310,10 +6354,6 @@
         <trans-unit id="Table 3431204148 - Field 535303886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlem. Invoice Doc. Class</source>
           <target>Settlem. Rechnungs-Doc.-Klasse</target>
-        </trans-unit>
-        <trans-unit id="Table 3431204148 - Field 6620776 - Method 2126772001 - NamedType 3033718591" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No existing commission line will be updated automatically, you must update them manually if needed.</source>
-          <target>Keine bestehende Provisionslinie wird automatisch aktualisiert, Sie müssen sie bei Bedarf manuell aktualisieren.</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 6620776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Calc. Method</source>
