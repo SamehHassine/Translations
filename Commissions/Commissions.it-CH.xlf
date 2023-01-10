@@ -203,6 +203,14 @@
           <source>Subscribe for a free trial or a full activation</source>
           <target>Richiedere versione trial gratuita o sottoscrizione completa</target>
         </trans-unit>
+        <trans-unit id="Enum 1150297326 - EnumValue 2448168655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Workdate</source>
+          <target>Data di lavoro</target>
+        </trans-unit>
+        <trans-unit id="Enum 1150297326 - EnumValue 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Data documento</target>
+        </trans-unit>
         <trans-unit id="Enum 1242646279 - EnumValue 2621139259 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Linked Line</source>
           <target>Da riga collegata</target>
@@ -2171,6 +2179,10 @@
           <source>Specifies the primary salesperson role</source>
           <target>Specifica il ruolo agente principale</target>
         </trans-unit>
+        <trans-unit id="Page 3431204148 - Control 3342573389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Commissions Calculation Date field.</source>
+          <target>Specifica il valore del campo Data calcolo provvigioni.</target>
+        </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3431023670 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement advance commission entry, user can force to proceed.</source>
           <target>Specifica se è consentito modificare data di scadenza in un movimento contabile cliente correlato a un movimento di provvigione con anticipo in liquidazione/liquidato.</target>
@@ -3433,7 +3445,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1677353130 - Control 2989374672 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies settlement type. This handles when document commission amount will be payable (Invoiced,Paid (Partially),Paid (Entry),Paid (Document)).</source>
-          <target>Specifica il tipo di liquidazione. Questo determina quando l'importo della commissione del documento sarà pagabile (Fatturato,Pagato (parzialmente), Pagato (movimento),Pagato (documento)).</target>
+          <target>Specifica il tipo di liquidazione. Questo determina quando l'importo della provvigione del documento sarà pagabile (Fatturato,Pagato (parzialmente), Pagato (movimento),Pagato (documento)).</target>
         </trans-unit>
         <trans-unit id="PageExtension 1677353130 - Control 3719530891 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies percentage of advance to give to salesperson/purchaser. Amount is calculated on commission ledger entry values.</source>
@@ -3797,7 +3809,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3012554037 - Control 2989374672 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies settlement type. This handles when document commission amount will be payable (Invoiced,Paid (Partially),Paid (Entry),Paid (Document)).</source>
-          <target>Specifica il tipo di liquidazione. Questo determina quando l'importo della commissione del documento sarà pagabile (Fatturato,Pagato (parzialmente), Pagato (movimento),Pagato (documento)).</target>
+          <target>Specifica il tipo di liquidazione. Questo determina quando l'importo della provvigione del documento sarà pagabile (Fatturato,Pagato (parzialmente), Pagato (movimento),Pagato (documento)).</target>
         </trans-unit>
         <trans-unit id="PageExtension 3012554037 - Control 3719530891 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies percentage of advance to give to salesperson/purchaser. Amount is calculated on commission ledger entry values.</source>
@@ -4430,6 +4442,34 @@
         <trans-unit id="PageExtension 998036111 - Control 466366624 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the line must be excluded from commission calculation</source>
           <target>Specifica se la riga deve essere esclusa dal calcolo della provvigione</target>
+        </trans-unit>
+        <trans-unit id="Query 1600194900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Product Commission Group Code</source>
+          <target>Query Product Commission Group Code</target>
+        </trans-unit>
+        <trans-unit id="Query 1751777690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Sales Person</source>
+          <target>Query Sales Person</target>
+        </trans-unit>
+        <trans-unit id="Query 3079749465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Salesperson Role</source>
+          <target>Query Salesperson Role</target>
+        </trans-unit>
+        <trans-unit id="Query 4009777844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Customer Commission Group Code</source>
+          <target>Query Customer Commission Group Code</target>
+        </trans-unit>
+        <trans-unit id="Query 665623871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Sales Network</source>
+          <target>Query Sales Network</target>
+        </trans-unit>
+        <trans-unit id="Query 730208778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Customer No</source>
+          <target>Query Customer No</target>
+        </trans-unit>
+        <trans-unit id="Query 876824755 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Query Product No</source>
+          <target>Query Product No</target>
         </trans-unit>
         <trans-unit id="Report 1343196591 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
@@ -5965,7 +6005,7 @@
         </trans-unit>
         <trans-unit id="Table 3056093914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS Commission Threshold Lines</source>
-          <target>Linee di soglia della Commissione EOS</target>
+          <target>Linee di soglia della Provvigioni</target>
         </trans-unit>
         <trans-unit id="Table 3091491843 - Field 102903639 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlement Type</source>
@@ -6263,6 +6303,10 @@
           <source>Primary Salesperson Role</source>
           <target>Ruolo agente primario</target>
         </trans-unit>
+        <trans-unit id="Table 3431204148 - Field 3342573389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commissions Calculation Date</source>
+          <target>Data calcolo provvigioni</target>
+        </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3431023670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allow Due Date mod. on Settled Advance Entries</source>
           <target>Consenti mod. data scad. mov. provv. anticipo liq./in liq.</target>
@@ -6311,9 +6355,8 @@
           <source>Settlem. Invoice Doc. Class</source>
           <target>Classe doc. fattura liq.</target>
         </trans-unit>
-        <trans-unit id="Table 3431204148 - Field 6620776 - Method 2126772001 - NamedType 3033718591" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 3431204148 - Field 6620776 - Method 2126772001 - NamedType 3382506742" translate="yes" size-unit="char" xml:space="preserve">
           <source>No existing commission line will be updated automatically, you must update them manually if needed.</source>
-          <target>Nessuna riga di provvigione esistente verrà aggiornata automaticamente, è necessario aggiornarle manualmente se necessario.</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 6620776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Calc. Method</source>
