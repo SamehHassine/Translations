@@ -203,6 +203,9 @@
           <source>Insert a valid reason code</source>
           <target>Een geldige redencode invoegen</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 2623620220 - NamedType 857300266" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Order %1 is not a Family Order. Please set a valid Operation No.</source>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 3122041058 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Employee Entries created for family production order %1 with Operation No. %2. Records already exists</source>
           <target>Er zijn geen werknemersposten gemaakt voor gezinsproductieorder %1 met operatie nr. Records bestaan al</target>
@@ -326,6 +329,9 @@
         </trans-unit>
         <trans-unit id="Codeunit 2503755138 - Method 3798285420 - NamedType 2897091413" translate="yes" size-unit="char" xml:space="preserve">
           <source>Action %1 not managed yet</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 2503755138 - Method 964694333 - NamedType 1166100223" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open employee entries exists. You must close them before close operation.</source>
         </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
@@ -1809,7 +1815,7 @@
           <source>Job Journal Batch Name</source>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1664334992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If selected, on Operation List will be used the calculated Remaining Quantity as Quantity</source>
+          <source>If selected, on operation list will be used the calculated remaining quantity as quantity</source>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1664334992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Remaining Quantity</source>
@@ -1827,6 +1833,12 @@
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1730043648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Force SN Information</source>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1760230646 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If selected, quantities for family orders are recalculated using the ratio between the sum of line quantities and the Prod. Order quantity</source>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1760230646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1764121663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enter the codes of the various operations to be performed so that the system can recognize them.</source>
@@ -2322,11 +2334,29 @@
         <trans-unit id="Page 3448781404 - Control 1106023765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Multi Resource</source>
         </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 1664334992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If selected, on Operation List will be used the calculated Remaining Quantity as Quantity</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 1664334992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Remaining Quantity</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 1760230646 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If selected, quantities for family orders are recalculated using the ratio between the sum of line quantities and the Prod. Order quantity</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 1760230646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+        </trans-unit>
         <trans-unit id="Page 3448781404 - Control 185872391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Contacts</source>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 2026913255 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set the time (in seconds) for the refresh of Power App</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2326660151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, calculation of Prod. Order Remaining Quantity will consider expected output and scrap not posted yet</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2326660151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remaining Quantity With Employee Entries</source>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 237102728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Count of production responsibles</source>
@@ -2963,6 +2993,9 @@
           <source>Scrap Quantity</source>
           <target>Uitvalaantal</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 223365581 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Id</source>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 2283884360 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>System-Created Entry</source>
         </trans-unit>
@@ -3004,6 +3037,9 @@
         <trans-unit id="Table 1859070565 - Field 3123849465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Entry No.</source>
           <target>Toegangspunt capaciteit.</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3128688872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Setup Id</source>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3133794015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status Detail</source>
@@ -3506,6 +3542,9 @@
         <trans-unit id="Table 2865843814 - Field 1730043648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Force SN Information</source>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 1760230646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 1764121663 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Start Text</source>
           <target>Tekst starten</target>
@@ -3761,8 +3800,17 @@
         <trans-unit id="Table 3448781404 - Field 1351594800 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. Series</source>
         </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 1664334992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Remaining Quantity</source>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 1760230646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+        </trans-unit>
         <trans-unit id="Table 3448781404 - Field 2026913255 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Refresh</source>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 2326660151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Remaining Qty. With Reads</source>
         </trans-unit>
         <trans-unit id="Table 3448781404 - Field 237102728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Responsibles</source>
@@ -3941,6 +3989,9 @@
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 663672673 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Scrap Quantity</source>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 709297253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Order Quantity</source>
         </trans-unit>
         <trans-unit id="TableExtension 2016269434 - Field 4239937703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Indirect Task</source>
