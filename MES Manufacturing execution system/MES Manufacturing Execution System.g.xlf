@@ -1078,10 +1078,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Production Panel - Field Quality Responsibles - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 1760230646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Production Panel - Field Recalculate Family Orders Qty. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3448781404 - Field 2026913255 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Refresh</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Production Panel - Field Refresh - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 2326660151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Qty. With Reads</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Production Panel - Field Remaining Qty. With Reads - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3448781404 - Field 994103151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Session Time Out</source>
@@ -1307,6 +1317,11 @@
           <source>Production Panel Nos.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Production Panel Nos. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 1760230646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Recalculate Family Orders Qty. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 2326660151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Remaining Qty. With Reads</source>
@@ -1557,6 +1572,11 @@
           <source>There are open %1 related to %2 %3.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Event Handler - Method OnBeforeChangeStatusOnProdOrder - NamedType POHasEmployeeEntryErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2503755138 - Method 964694333 - NamedType 1166100223" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open employee entries exists. You must close them before close operation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Interface Mgt - Method CloseOperation - NamedType OpenEntriesFoundErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2503755138 - Method 3798285420 - NamedType 2897091413" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action %1 not managed yet</source>
@@ -3253,10 +3273,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Panel Theme - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 1760230646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If selected, quantities for family orders are recalculated using the ratio between the sum of line quantities and the Prod. Order quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Recalculate Family Orders Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 1760230646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Recalculate Family Orders Qty. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3448781404 - Control 2026913255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set the time (in seconds) for the refresh of Power App</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Refresh - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2326660151 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, calculation of Prod. Order Remaining Quantity will consider expected output and scrap not posted yet</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Remaining Qty. With Reads - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2326660151 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remaining Quantity With Employee Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Remaining Qty. With Reads - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 994103151 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set the time (in seconds) after that the selected Operation Follow Up is executed</source>
@@ -3918,16 +3958,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Production Panel Nos. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2865843814 - Control 1664334992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If selected, on Operation List will be used the calculated Remaining Quantity as Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Use Remaining Quantity - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2865843814 - Control 1664334992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Use Remaining Quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Use Remaining Quantity - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 3152348650 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>If enabled, the output quantity proposed in the PowerMes for Item Prod. Orders will be 0</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4008,6 +4038,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Prod. Order No. As Lot No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1760230646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If selected, quantities for family orders are recalculated using the ratio between the sum of line quantities and the Prod. Order quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Recalculate Family Orders Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1760230646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Recalculate Family Orders Qty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Recalculate Family Orders Qty. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2326660151 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>If enabled, calculation of Prod. Order Remaining Quantity will consider expected output and scrap not posted yet</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4017,6 +4057,16 @@
           <source>Remaining Quantity With Employee Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Remaining Qty. With Reads - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1664334992 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If selected, on operation list will be used the calculated remaining quantity as quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Use Remaining Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 1664334992 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Remaining Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Use Remaining Quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2839050074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Texts</source>
@@ -5167,6 +5217,11 @@
           <source>Panel ID Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Panel ID Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 709297253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
+          <source>Prod. Order Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS070Tableext70623870 - Field EOS Prod. Order Quantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 2545546799 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 803582013">
           <source>Prod. Order Source Type</source>
