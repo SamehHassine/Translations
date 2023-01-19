@@ -531,6 +531,22 @@
           <source>%1 income statement accounts processed. %2 Cost Account created.</source>
           <target>%1 resultatopgørelseskonti er behandlet. %2 Omkostningskonto oprettet.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CA_SIM</source>
+          <target>CA_SIM</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CA Journal</source>
+          <target>Nøglecenterjournal</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 3752334001" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DEFAULT</source>
+          <target>Standard</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 95063322" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Journal</source>
+          <target>Standardkladde</target>
+        </trans-unit>
         <trans-unit id="Enum 2803531008 - EnumValue 2493508126 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Final Balance</source>
           <target>Endelig balance</target>
@@ -686,6 +702,10 @@
         <trans-unit id="Page 1007494575 - Control 3875326323 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Balance</source>
           <target>Balance</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 592178414 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Comment field.</source>
+          <target>Angiver værdien af feltet Kommentar.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Control 777301097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bal. Account Name</source>
@@ -1303,6 +1323,14 @@
           <source>Specifies the code for the location that the entry is linked to.</source>
           <target>Angiver koden for den lokation, som posten er knyttet til.</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 2711388939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 4, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 2765633070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 7, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Control 2807718267 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a lot number if the posted item carries such a number.</source>
           <target>Angiver et lotnummer, hvis den bogførte vare indeholder et sådant nummer.</target>
@@ -1339,9 +1367,17 @@
           <source>Specifies the number of the line on the posted document that corresponds to the item ledger entry.</source>
           <target>Angiver nummeret på den linje på det bogførte dokument, der svarer til vareposten.</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 405681708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 5, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Control 4059098133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the sales amount, in LCY.</source>
           <target>Angiver salgsbeløbet i RV.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 4126842061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 6, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 696737231 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the posting date of this entry.</source>
@@ -1354,6 +1390,14 @@
         <trans-unit id="Page 1453782444 - Control 706630203 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the quantity of the produced item that can be posted as output on the journal line.</source>
           <target>Angiver det antal af den producerede vare, der kan bogføres som afgang på kladdelinjen.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 781257514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 3, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 785667711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 8, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 899329330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.</source>
@@ -1463,9 +1507,17 @@
           <source>Specifies the code of c/a analysis</source>
           <target>Angiver koden for c/a-analyse</target>
         </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2711388939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 4, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
         <trans-unit id="Page 1470967848 - Control 2711571526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the log number.</source>
           <target>Angiver lognummeret.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2765633070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 7, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
         </trans-unit>
         <trans-unit id="Page 1470967848 - Control 2816380129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the allocation line number of the analysis.</source>
@@ -1495,6 +1547,14 @@
           <source>Specifies the level of the analysis.</source>
           <target>Angiver analyseniveauet.</target>
         </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 405681708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 5, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 4126842061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 6, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
         <trans-unit id="Page 1470967848 - Control 517430892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the amount of the analysis entry.</source>
           <target>Angiver beløbet for analyseposten.</target>
@@ -1502,6 +1562,18 @@
         <trans-unit id="Page 1470967848 - Control 538067452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
           <target>Angiver årsagskoden, som er et supplerende kildespor, der giver dig mulighed for at spore posten.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 781257514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 3, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 785667711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 8, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 899329330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.</source>
+          <target>Angiver en reference til en kombination af dimensionsværdier. De faktiske værdier gemmes i tabellen Dimensionsopsætningspost.</target>
         </trans-unit>
         <trans-unit id="Page 1470967848 - Control 949770657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description of the entry.</source>
@@ -2511,6 +2583,38 @@
           <source>Analysis by Dimensions Matrix</source>
           <target>Matrix for dimensionsanalyse</target>
         </trans-unit>
+        <trans-unit id="Page 2612414225 - Action 210935239 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open a journal based on the journal batch.</source>
+          <target>Åbn en kladde baseret på kladdenavnet.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Action 210935239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Journal</source>
+          <target>Rediger kladde</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1351594800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number series from which entry or record numbers are assigned to new entries or records.</source>
+          <target>Angiver den nummerserie, hvorfra postnumre tildeles nye poster eller poster.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1891586249 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases.</source>
+          <target>Angiver det finanskonto-, debitor-, kreditor- eller bankkontonummer, som udligningsposten bogføres til, f.eks. en kassekonto ved kontantkøb.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
+          <target>Angiver årsagskoden, som er et supplerende kildespor, der giver dig mulighed for at spore posten.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the journal you are creating.</source>
+          <target>Angiver navnet på den kladde, du er ved at oprette.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a brief description of the journal batch you are creating.</source>
+          <target>Angiver en kort beskrivelse af det kladdenavn, du er ved at oprette.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Journal Batches</source>
+          <target>Batchomkostningsregnskabsposteringer</target>
+        </trans-unit>
         <trans-unit id="Page 266345121 - Action 1267694758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create the drivers with dimension filters</source>
           <target>Oprette driverne med dimensionsfiltre</target>
@@ -3519,6 +3623,14 @@
           <source>Specifies the G/L account that the cost entry applies to.</source>
           <target>Angiver den finanskonto, som omkostningsposten gælder for.</target>
         </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 2711388939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 4, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 2765633070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 7, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
         <trans-unit id="Page 3387697026 - Control 3167276750 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the cost account.</source>
           <target>Angiver nummeret på omkostningskontoen.</target>
@@ -3543,6 +3655,14 @@
           <source>Specifies the ID of the allocation key that the cost budget entry comes from.</source>
           <target>Angiver id'et for den fordelingsnøgle, som omkostningsbudgetposten stammer fra.</target>
         </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 405681708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 5, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 4126842061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 6, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
         <trans-unit id="Page 3387697026 - Control 4216439155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the amount of the general ledger entry.</source>
           <target>Angiver beløbet for finansposten.</target>
@@ -3554,6 +3674,14 @@
         <trans-unit id="Page 3387697026 - Control 538067452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
           <target>Angiver årsagskoden, som er et supplerende kildespor, der giver dig mulighed for at spore posten.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 781257514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 3, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 785667711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Angiver koden for Genvejsdimension 8, der er en af de to globale dimensionskoder, du konfigurerer i vinduet Opsætning af Finans.</target>
         </trans-unit>
         <trans-unit id="Page 3387697026 - Control 949770657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description of the cost entry.</source>
@@ -5091,6 +5219,14 @@
           <source>Cost Account Chart (EMA)</source>
           <target>Diagram over omkostningskonto (EMA)</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the documento no. of reversal</source>
+          <target>Angiver dokumentnr. af tilbageførsel</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document No.</source>
+          <target>Omvendt dokumentnr.</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Register you want the report to end.</source>
           <target>Angiver lognummeret, når rapporten skal slutte.</target>
@@ -5098,26 +5234,6 @@
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Register No.</source>
           <target>Hvis du vil logge nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the c/a journal template</source>
-          <target>Angiver c/a-kladdetypen</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Def. Template</source>
-          <target>Skabelon til def.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of entry to reverse</source>
-          <target>Angiver, hvilken type post der skal tilbageføres</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source</source>
-          <target>Kilde</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,,,G/L Simulation,C/A Journal, </source>
-          <target> ,,,G/L Simulering,C/A Journal, </target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2482135175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date of reversal</source>
@@ -5135,6 +5251,14 @@
           <source>From Register No.</source>
           <target>Fra lognr.</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal template</source>
+          <target>Angiver c/a-journalskabelonen</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal Template</source>
+          <target>journal skabelon</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal batch</source>
           <target>Angiver c/a-kladdenavnet</target>
@@ -5142,6 +5266,10 @@
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jnl. Batch</source>
           <target>Jnl. Batch</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 1504301347" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missed Reverse Document No.</source>
+          <target>Glemt omvendt dokumentnr.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
@@ -5158,6 +5286,10 @@
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Register no. may not be higher than to Register no.</source>
           <target>Fra lognr. må ikke være højere end at logge nej.</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be reversed because it is marked as closed.</source>
+          <target>Registeret %1 kan ikke længere tilbageføres, fordi det er markeret som lukket.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A Entries</source>
@@ -6355,9 +6487,17 @@
           <source>C/A Analysis Code</source>
           <target>C/A-analysekode</target>
         </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 2711388939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 4 Code</source>
+          <target>Genvejsdimension 4-kode</target>
+        </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log No.</source>
           <target>Lognr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 7 Code</source>
+          <target>Genvejsdimension 7-kode</target>
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2816380129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Line</source>
@@ -6407,6 +6547,14 @@
           <source>Level</source>
           <target>Niveau</target>
         </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 405681708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 5 Code</source>
+          <target>Genvejsdimension 5-kode</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 6 Code</source>
+          <target>Genvejsdimension 6-kode</target>
+        </trans-unit>
         <trans-unit id="Table 1354272278 - Field 517430892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Amount</source>
           <target>C/A-beløb</target>
@@ -6422,6 +6570,14 @@
         <trans-unit id="Table 1354272278 - Field 760114760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Business Unit Code</source>
           <target>Koncernvirksomhedskode</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 781257514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 3 Code</source>
+          <target>Genvejsdimension 3-kode</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 785667711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 8 Code</source>
+          <target>Genvejsdimension 8-kode</target>
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 899329330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>
@@ -6815,9 +6971,17 @@
           <source>Job Unit Price (LCY)</source>
           <target>Salgspris for sag (RV)</target>
         </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 2711388939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 4 Code</source>
+          <target>Genvejsdimension 4-kode</target>
+        </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Register No.</source>
           <target>Lognr.</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 7 Code</source>
+          <target>Genvejsdimension 7-kode</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2805943320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Unit Of Measure Code</source>
@@ -6895,6 +7059,14 @@
           <source>Allocation ID</source>
           <target>Fordelings-id</target>
         </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 405681708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 5 Code</source>
+          <target>Genvejsdimension 5-kode</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 6 Code</source>
+          <target>Genvejsdimension 6-kode</target>
+        </trans-unit>
         <trans-unit id="Table 1935598646 - Field 4216439155 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Amount</source>
           <target>Finansbeløb</target>
@@ -6926,6 +7098,14 @@
         <trans-unit id="Table 1935598646 - Field 760114760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Business Unit Code</source>
           <target>Koncernvirksomhedskode</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 781257514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 3 Code</source>
+          <target>Genvejsdimension 3-kode</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 785667711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 8 Code</source>
+          <target>Genvejsdimension 8-kode</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 899329330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>
@@ -9339,6 +9519,14 @@
           <source>Sell Customer No.</source>
           <target>Sælg debitornr.</target>
         </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2711388939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 4 Code</source>
+          <target>Genvejsdimension 4-kode</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 7 Code</source>
+          <target>Genvejsdimension 7-kode</target>
+        </trans-unit>
         <trans-unit id="Table 3353917842 - Field 2807718267 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Lotnr.</target>
@@ -9379,9 +9567,17 @@
           <source>Document Line No.</source>
           <target>Bilagslinjenr.</target>
         </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 405681708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 5 Code</source>
+          <target>Genvejsdimension 5-kode</target>
+        </trans-unit>
         <trans-unit id="Table 3353917842 - Field 4059098133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Amount</source>
           <target>Linjebeløb</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 6 Code</source>
+          <target>Genvejsdimension 6-kode</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 518034290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Of Measure</source>
@@ -9402,6 +9598,14 @@
         <trans-unit id="Table 3353917842 - Field 706630203 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Output Quantity (Base)</source>
           <target>Afgangsantal (basis)</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 781257514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 3 Code</source>
+          <target>Genvejsdimension 3-kode</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 785667711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 8 Code</source>
+          <target>Genvejsdimension 8-kode</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 899329330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>

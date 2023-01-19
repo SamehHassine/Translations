@@ -531,6 +531,22 @@
           <source>%1 income statement accounts processed. %2 Cost Account created.</source>
           <target>%1 comptes d’état des revenus traités. %2 Compte de coût créé.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CA_SIM</source>
+          <target>CA_SIM</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CA Journal</source>
+          <target>CA Journal</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 3752334001" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DEFAULT</source>
+          <target>Par défaut</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 95063322" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Journal</source>
+          <target>Journal par défaut</target>
+        </trans-unit>
         <trans-unit id="Enum 2803531008 - EnumValue 2493508126 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Final Balance</source>
           <target>Solde final</target>
@@ -686,6 +702,10 @@
         <trans-unit id="Page 1007494575 - Control 3875326323 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Balance</source>
           <target>Ballance</target>
+        </trans-unit>
+        <trans-unit id="Page 1007494575 - Control 592178414 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Comment field.</source>
+          <target>Spécifie la valeur du champ Commentaire.</target>
         </trans-unit>
         <trans-unit id="Page 1007494575 - Control 777301097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bal. Account Name</source>
@@ -1303,6 +1323,14 @@
           <source>Specifies the code for the location that the entry is linked to.</source>
           <target>Spécifie le code pour l’emplacement à qui l’entrée est liée.</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 2711388939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 4 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 2765633070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 7 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Control 2807718267 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a lot number if the posted item carries such a number.</source>
           <target>Spécifie un numéro de lot si l’élément affiché porte un tel numéro.</target>
@@ -1339,9 +1367,17 @@
           <source>Specifies the number of the line on the posted document that corresponds to the item ledger entry.</source>
           <target>Spécifie le numéro de la ligne sur le document affiché qui correspond à l’entrée du grand livre d’éléments.</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 405681708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 5 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Control 4059098133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the sales amount, in LCY.</source>
           <target>Spécifie le montant des ventes, dans LCY.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 4126842061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 6 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 696737231 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the posting date of this entry.</source>
@@ -1354,6 +1390,14 @@
         <trans-unit id="Page 1453782444 - Control 706630203 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the quantity of the produced item that can be posted as output on the journal line.</source>
           <target>Spécifie la quantité de l’élément produit qui peut être affiché sous forme de sortie sur la ligne de journal.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 781257514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 3 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 785667711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 8 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 899329330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.</source>
@@ -1463,9 +1507,17 @@
           <source>Specifies the code of c/a analysis</source>
           <target>Spécifie le code d’analyse c/a</target>
         </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2711388939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 4 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
         <trans-unit id="Page 1470967848 - Control 2711571526 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the log number.</source>
           <target>Spécifie le numéro de journal.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 2765633070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 7 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
         </trans-unit>
         <trans-unit id="Page 1470967848 - Control 2816380129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the allocation line number of the analysis.</source>
@@ -1495,6 +1547,14 @@
           <source>Specifies the level of the analysis.</source>
           <target>Spécifie le niveau de l’analyse.</target>
         </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 405681708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 5 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 4126842061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 6 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
         <trans-unit id="Page 1470967848 - Control 517430892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the amount of the analysis entry.</source>
           <target>Spécifie le montant de la saisie de l’analyse.</target>
@@ -1502,6 +1562,18 @@
         <trans-unit id="Page 1470967848 - Control 538067452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
           <target>Spécifie le code de raison, un code source supplémentaire qui vous permet de retracer l’entrée.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 781257514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 3 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 785667711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 8 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 1470967848 - Control 899329330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.</source>
+          <target>Spécifie une référence à une combinaison de valeurs de dimension. Les valeurs réelles sont stockées dans la table d’entrée dimension définie.</target>
         </trans-unit>
         <trans-unit id="Page 1470967848 - Control 949770657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description of the entry.</source>
@@ -2511,6 +2583,38 @@
           <source>Analysis by Dimensions Matrix</source>
           <target>Analyse par Dimensions Matrix</target>
         </trans-unit>
+        <trans-unit id="Page 2612414225 - Action 210935239 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open a journal based on the journal batch.</source>
+          <target>Ouvrez un journal basé sur le lot de la revue.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Action 210935239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Journal</source>
+          <target>Modifier le journal</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1351594800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number series from which entry or record numbers are assigned to new entries or records.</source>
+          <target>Spécifie la série de nombres à partir de laquelle les numéros d’entrée ou d’enregistrement sont attribués à de nouvelles entrées ou enregistrements.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1891586249 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases.</source>
+          <target>Spécifie le numéro du compte général, client, fournisseur ou bancaire sur lequel l'écriture contrepartie est validée, par exemple, un compte caisse pour les achats.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
+          <target>Spécifie le code de raison, un code source supplémentaire qui vous permet de retracer l’entrée.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the journal you are creating.</source>
+          <target>Spécifie le nom du journal que vous créez.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a brief description of the journal batch you are creating.</source>
+          <target>Spécifie une brève description du lot de journal que vous créez.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Journal Batches</source>
+          <target>Écritures en comptabilité analytique par lots</target>
+        </trans-unit>
         <trans-unit id="Page 266345121 - Action 1267694758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create the drivers with dimension filters</source>
           <target>Créer les pilotes avec des filtres de dimension</target>
@@ -3519,6 +3623,14 @@
           <source>Specifies the G/L account that the cost entry applies to.</source>
           <target>Spécifie le compte G/L à qui s’applique l’entrée de coûts.</target>
         </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 2711388939 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 4, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 4 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 2765633070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 7, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 7 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
         <trans-unit id="Page 3387697026 - Control 3167276750 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the cost account.</source>
           <target>Spécifie le numéro du compte de coût.</target>
@@ -3543,6 +3655,14 @@
           <source>Specifies the ID of the allocation key that the cost budget entry comes from.</source>
           <target>Spécifie l’ID de la clé d’allocation dont provient l’entrée dans le budget de coût.</target>
         </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 405681708 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 5, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 5 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 4126842061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 6, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 6 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
         <trans-unit id="Page 3387697026 - Control 4216439155 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the amount of the general ledger entry.</source>
           <target>Spécifie le montant de l’entrée générale du grand livre.</target>
@@ -3554,6 +3674,14 @@
         <trans-unit id="Page 3387697026 - Control 538067452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
           <target>Spécifie le code de raison, un code source supplémentaire qui vous permet de retracer l’entrée.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 781257514 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 3, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 3 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
+        </trans-unit>
+        <trans-unit id="Page 3387697026 - Control 785667711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the code for Shortcut Dimension 8, which is one of dimension codes that you set up in the General Ledger Setup window.</source>
+          <target>Spécifie le code du raccourci axe 8 qui est l’un des codes axe que vous configurez dans la fenêtre Paramètres comptabilité.</target>
         </trans-unit>
         <trans-unit id="Page 3387697026 - Control 949770657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description of the cost entry.</source>
@@ -5091,6 +5219,14 @@
           <source>Cost Account Chart (EMA)</source>
           <target>Tableau des comptes de coûts (EMA)</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the documento no. of reversal</source>
+          <target>Spécifie le numéro de document. de renversement</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document No.</source>
+          <target>Inverser le numéro de document</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Register you want the report to end.</source>
           <target>Spécifie le numéro de journal lorsque vous souhaitez que le rapport se termine.</target>
@@ -5098,26 +5234,6 @@
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Register No.</source>
           <target>Pour enregistrer no.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the c/a journal template</source>
-          <target>Spécifie le modèle c/a journal</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Def. Template</source>
-          <target>Modèle Def.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of entry to reverse</source>
-          <target>Spécifie le type d’entrée à inverser</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source</source>
-          <target>Source</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,,,G/L Simulation,C/A Journal, </source>
-          <target> ,,,G/L Simulation,C/A Journal, </target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2482135175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date of reversal</source>
@@ -5135,6 +5251,14 @@
           <source>From Register No.</source>
           <target>De Log No.</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal template</source>
+          <target>Spécifie le modèle de journal c/a</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal Template</source>
+          <target>modèle de journal</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal batch</source>
           <target>Spécifie le lot c/a journal</target>
@@ -5142,6 +5266,10 @@
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jnl. Batch</source>
           <target>Jnl. Lot</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 1504301347" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missed Reverse Document No.</source>
+          <target>Numéro de document inversé manqué</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
@@ -5158,6 +5286,10 @@
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Register no. may not be higher than to Register no.</source>
           <target>Du journal no. peut ne pas être plus élevé que de se connecter non.</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be reversed because it is marked as closed.</source>
+          <target>Le registre %1 ne peut plus être annulé car il est marqué comme fermé.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A Entries</source>
@@ -6355,9 +6487,17 @@
           <source>C/A Analysis Code</source>
           <target>Code d’analyse C/A</target>
         </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 2711388939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 4 Code</source>
+          <target>Code raccourci axe 4</target>
+        </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log No.</source>
           <target>Journal No.</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 7 Code</source>
+          <target>Code raccourci axe 7</target>
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 2816380129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allocation Line</source>
@@ -6407,6 +6547,14 @@
           <source>Level</source>
           <target>Niveau</target>
         </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 405681708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 5 Code</source>
+          <target>Code raccourci axe 5</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 6 Code</source>
+          <target>Code raccourci axe 6</target>
+        </trans-unit>
         <trans-unit id="Table 1354272278 - Field 517430892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Amount</source>
           <target>Montant C/A</target>
@@ -6422,6 +6570,14 @@
         <trans-unit id="Table 1354272278 - Field 760114760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Business Unit Code</source>
           <target>Code des unités d’affaires</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 781257514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 3 Code</source>
+          <target>Code raccourci axe 3</target>
+        </trans-unit>
+        <trans-unit id="Table 1354272278 - Field 785667711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 8 Code</source>
+          <target>Code raccourci axe 8</target>
         </trans-unit>
         <trans-unit id="Table 1354272278 - Field 899329330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>
@@ -6815,9 +6971,17 @@
           <source>Job Unit Price (LCY)</source>
           <target>Prix unitaire de l’emploi (LCY)</target>
         </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 2711388939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 4 Code</source>
+          <target>Code raccourci axe 4</target>
+        </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2711571526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Register No.</source>
           <target>Journal No.</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 7 Code</source>
+          <target>Code raccourci axe 7</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 2805943320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Unit Of Measure Code</source>
@@ -6895,6 +7059,14 @@
           <source>Allocation ID</source>
           <target>ID d’allocation</target>
         </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 405681708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 5 Code</source>
+          <target>Code raccourci axe 5</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 6 Code</source>
+          <target>Code raccourci axe 6</target>
+        </trans-unit>
         <trans-unit id="Table 1935598646 - Field 4216439155 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Amount</source>
           <target>Montant G/L</target>
@@ -6926,6 +7098,14 @@
         <trans-unit id="Table 1935598646 - Field 760114760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Business Unit Code</source>
           <target>Code des unités d’affaires</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 781257514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 3 Code</source>
+          <target>Code raccourci axe 3</target>
+        </trans-unit>
+        <trans-unit id="Table 1935598646 - Field 785667711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 8 Code</source>
+          <target>Code raccourci axe 8</target>
         </trans-unit>
         <trans-unit id="Table 1935598646 - Field 899329330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>
@@ -9339,6 +9519,14 @@
           <source>Sell Customer No.</source>
           <target>Vendre le client no.</target>
         </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2711388939 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 4 Code</source>
+          <target>Code raccourci axe 4</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 2765633070 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 7 Code</source>
+          <target>Code raccourci axe 7</target>
+        </trans-unit>
         <trans-unit id="Table 3353917842 - Field 2807718267 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Lot No.</target>
@@ -9379,9 +9567,17 @@
           <source>Document Line No.</source>
           <target>Ligne de document no.</target>
         </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 405681708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 5 Code</source>
+          <target>Code raccourci axe 5</target>
+        </trans-unit>
         <trans-unit id="Table 3353917842 - Field 4059098133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Amount</source>
           <target>Montant de la ligne</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 6 Code</source>
+          <target>Code raccourci axe 6</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 518034290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Of Measure</source>
@@ -9402,6 +9598,14 @@
         <trans-unit id="Table 3353917842 - Field 706630203 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Output Quantity (Base)</source>
           <target>Quantité de sortie (Base)</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 781257514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 3 Code</source>
+          <target>Code raccourci axe 3</target>
+        </trans-unit>
+        <trans-unit id="Table 3353917842 - Field 785667711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shortcut Dimension 8 Code</source>
+          <target>Code raccourci axe 8</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 899329330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Dimension Set ID</source>
