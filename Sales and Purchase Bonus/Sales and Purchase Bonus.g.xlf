@@ -1408,6 +1408,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Remaining Amount (LCY) - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 559801399 - Field 3744289816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Reversed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Field 1956996216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed By Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Reversed By Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Field 4022792525 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reversed By User Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Ledger Entry - Field Reversed By User Id - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 559801399 - Field 3596011399 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sell-to/Buy-from Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2227,6 +2242,11 @@
           <source>Applies-to Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Settlement Entry - Field Applies-to Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3461177407 - Field 2147029023 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies To Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Settlement Entry - Field Applies-To Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3461177407 - Field 3617662748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Code</source>
@@ -3063,6 +3083,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method MatchDocumentLines - NamedType Text003Err</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1294261829 - Method 3861049316 - NamedType 1034882455" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot modify this document because it is connected to a %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Settl. Management - Method TestNoSettlementEntries - NamedType ConnectedToBonusSettlementEntryErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1026167938 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
           <source>Trial subscription for SPB found - day %1 of %2</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3097,6 +3122,26 @@
           <source>Subscribe for an activation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX075 Subscriptions - NamedType SubscribeActivationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 2626561907" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document %1 was created. Do you want to open it?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - NamedType OpenNewDocumentQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 417816387" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The operation was completed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - NamedType OperationCompletedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 3158364080" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to reverse the selected %1 entries?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - NamedType ReverseEntriesQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - Method 892462309 - NamedType 883549673" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This is a reversed entry and cannot be reversed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS075 Bonus Reversal - Method ReverseSingleSettlementEntry - NamedType AlreadyReversedErr</note>
         </trans-unit>
         <trans-unit id="Page 4172002110 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Alloc. G/L Register</source>
@@ -3538,6 +3583,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Applied Entries - Action &amp;Navigate - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Applied Entries - Action ReverseSettlementEntryAction - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3234068464 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Classes (SPB)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3769,7 +3819,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Dimension Filters - Control Line No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1643836735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posted document lines</source>
+          <source>Posted Document Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Doc. Matching Subf. - Property Caption</note>
         </trans-unit>
@@ -4582,6 +4632,11 @@
           <source>Journal</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Action ReverseSettlementEntryAction - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2248036170 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Line Card (SPB)</source>
@@ -5463,6 +5518,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Control Applies-to Entry - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 531766781 - Control 2147029023 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Applies To Line No." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Control Applies-To Line No. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 531766781 - Control 2148514616 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the bonus settlement plan line no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5552,6 +5612,16 @@
           <source>Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Action 3015475257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Reverse Settlement Entry" action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action ReverseSettlementEntryAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Action 3015475257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Settlement Entries - Action ReverseSettlementEntryAction - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1402264100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Settlement Plan List (SPB)</source>
@@ -10497,6 +10567,96 @@
           <source>Attached Document Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Proport. Bonus Matching - Control Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Settlement</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1423652785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control OptionsGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1648730711 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Amount to Reverse" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control AmountToReverseField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1648730711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount to Reverse</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control AmountToReverseField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 4024502501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control CustomerGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1799957115 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Customer Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control CustomerNameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1799957115 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control CustomerNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 328206769 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Customer No." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control CustomerNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 328206769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control CustomerNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2488229775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Document Type" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control DocumentTypeField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2488229775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control DocumentTypeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 127016515 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "External Document No." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control ExternalDocumentNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 127016515 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control ExternalDocumentNoField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2624112765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control VendorGroup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 225977891 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Vendor Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control VendorNameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 225977891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control VendorNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 3359756889 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Vendor No." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control VendorNoField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 3359756889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Reverse Settlement - Control VendorNoField - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 151503809 - Control 353333288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 200707616">
           <source>Specifies Prod. Bonus Group.</source>
