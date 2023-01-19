@@ -55,6 +55,10 @@
           <source>%1 must not be %2 in %3 if %4 is %5 in %6.</source>
           <target>%1 darf nicht %2 in %3 sein, wenn %4 %5 in %6 ist.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1294261829 - Method 3861049316 - NamedType 1034882455" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot modify this document because it is connected to a %1.</source>
+          <target>Sie können diesen Beleg nicht ändern, da er mit einem %1 verbunden ist.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1294261829 - Method 662211176 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
           <source>Created documents:\%1 Sales Invoices %2\%3 Purchase Credit Memos %4</source>
           <target>Erstellte Belege:%1 Verkaufsrechnungen %2-%3 Einkaufsgutschriften %4</target>
@@ -178,6 +182,22 @@
         <trans-unit id="Codeunit 3350342113 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be %2</source>
           <target>%1 muss %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - Method 892462309 - NamedType 883549673" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This is a reversed entry and cannot be reversed.</source>
+          <target>Dies ist ein stornierter Posten und kann nicht storniert werden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 2626561907" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document %1 was created. Do you want to open it?</source>
+          <target>Der Beleg %1 wurde erstellt. Möchten Sie ihn öffnen?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 3158364080" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to reverse the selected %1 entries?</source>
+          <target>Möchten Sie die %1 ausgewählten Einträge stornieren?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The operation was completed.</source>
+          <target>Die Operation wurde abgeschlossen.</target>
         </trans-unit>
         <trans-unit id="Codeunit 4075839539 - Method 2148587536 - NamedType 3797269194" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to delete also lines posted from journal for line %1?</source>
@@ -1496,7 +1516,7 @@
           <target>Gibt den Wert des Feldes "Übereinstimmender Betrag" an.</target>
         </trans-unit>
         <trans-unit id="Page 1643836735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posted document lines</source>
+          <source>Posted Document Lines</source>
           <target>Liste der übereinstimmenden Dokumentzeilen</target>
         </trans-unit>
         <trans-unit id="Page 1654135468 - Action 1402615620 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -3939,6 +3959,10 @@
           <source>Ent&amp;ry</source>
           <target>&amp;Posten</target>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+          <target>Abrechnungsposten stornieren</target>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter</source>
           <target>Filter</target>
@@ -4767,6 +4791,14 @@
           <source>&amp;Line</source>
           <target>&amp;Zeile</target>
         </trans-unit>
+        <trans-unit id="Page 531766781 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Reverse Settlement Entry" action.</source>
+          <target>Führt die Aktion "Abrechnungsposten stornieren" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+          <target>Abrechnungsposten stornieren</target>
+        </trans-unit>
         <trans-unit id="Page 531766781 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Card.</source>
           <target>Öffnen Sie die Karte.</target>
@@ -4798,6 +4830,10 @@
         <trans-unit id="Page 531766781 - Control 205345179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Subtype.</source>
           <target>Gibt den Untertyp "Quelle" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Control 2147029023 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Applies To Line No." field.</source>
+          <target>Gibt den Wert des Felds "Verbunden mit Zeilennr." an.</target>
         </trans-unit>
         <trans-unit id="Page 531766781 - Control 2148514616 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the bonus settlement plan line no.</source>
@@ -5194,6 +5230,10 @@
         <trans-unit id="Page 905483125 - Action 2256583518 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ent&amp;ry</source>
           <target>&amp;Posten</target>
+        </trans-unit>
+        <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+          <target>Abrechnungsposten stornieren</target>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3705837455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Detail Entries.</source>
@@ -6722,6 +6762,78 @@
         <trans-unit id="Report 2981225386 - ReportDataItem 3170062157 - Property 1806354803" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Line</source>
           <target>Bonus-Linie</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 127016515 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "External Document No." field.</source>
+          <target>Gibt den Wert des Felds "Externe Belegnr." an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 127016515 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Document No.</source>
+          <target>Externe Belegnummer</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1423652785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1648730711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Amount to Reverse" field.</source>
+          <target>Gibt den Wert des Felds "Zu stornierender Betrag" an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1648730711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount to Reverse</source>
+          <target>Zu stornierender Betrag</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1799957115 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer Name" field.</source>
+          <target>Gibt den Wert des Felds "Debitorenname" an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1799957115 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Nome fornitore</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 225977891 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor Name" field.</source>
+          <target>Gibt den Wert des Felds "Kreditorenname" an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 225977891 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor Name</source>
+          <target>Kreditorenname</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2488229775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Type" field.</source>
+          <target>Gibt den Wert des Felds "Belegart" an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2488229775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+          <target>Belegart</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2624112765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor</source>
+          <target>Kreditor</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 328206769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer No." field.</source>
+          <target>Gibt den Wert des Felds "Debitorennr." an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 328206769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Nr. fornitore</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 3359756889 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor No." field.</source>
+          <target>Gibt den Wert des Felds "Kreditorennr." an.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 3359756889 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor No.</source>
+          <target>Kreditorennr.</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 4024502501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer</source>
+          <target>Debitor</target>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement</source>
+          <target>Abrechnung stornieren</target>
         </trans-unit>
         <trans-unit id="Report 3226906145 - Control 1602546137 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Document No." field</source>
@@ -8291,6 +8403,10 @@
           <source>Source Subtype</source>
           <target>Herkunftsunterart</target>
         </trans-unit>
+        <trans-unit id="Table 3461177407 - Field 2147029023 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Applies To Line No.</source>
+          <target>Verbunden mit Zeilennr.</target>
+        </trans-unit>
         <trans-unit id="Table 3461177407 - Field 2148514616 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Settlement Plan</source>
           <target>Bonus-Abrechnungsplan</target>
@@ -8583,6 +8699,10 @@
           <source>G/L Register no.</source>
           <target>Fibujournalnr.</target>
         </trans-unit>
+        <trans-unit id="Table 559801399 - Field 1956996216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed By Entry No.</source>
+          <target>Storniert durch Lfd.-Nr.</target>
+        </trans-unit>
         <trans-unit id="Table 559801399 - Field 2037375551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inventory Posting Group</source>
           <target>Lagerbuchungsgruppe</target>
@@ -8787,6 +8907,10 @@
           <source>Settlement Exclusion</source>
           <target>Abrechnungsausschluss</target>
         </trans-unit>
+        <trans-unit id="Table 559801399 - Field 3744289816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed</source>
+          <target>Storniert</target>
+        </trans-unit>
         <trans-unit id="Table 559801399 - Field 3746683098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted from Line No.</source>
           <target>Gebucht aus Zeilennr.</target>
@@ -8806,6 +8930,10 @@
         <trans-unit id="Table 559801399 - Field 401773189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value Type</source>
           <target>Wertart</target>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Field 4022792525 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed By User Id</source>
+          <target>Storniert durch Benutzer-ID</target>
         </trans-unit>
         <trans-unit id="Table 559801399 - Field 4162822152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Header Batch Name</source>
