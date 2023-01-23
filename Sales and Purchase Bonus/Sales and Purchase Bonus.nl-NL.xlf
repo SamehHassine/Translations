@@ -121,7 +121,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2981225386 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processing...\\Line #1###### #2##################\\#3################################\\@4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</source>
-          <target>Verwerking...\\Line #1###########2#####################3############################################################################################################################################################################################################################################################################################ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</target>
+          <target>Verwerking...\\Line #1###### #2##################\\#3################################\\@4@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\\@5@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Codeunit 2981225386 - NamedType 1225457715" translate="yes" size-unit="char" xml:space="preserve">
           <source>Double table %1.</source>
@@ -213,7 +213,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 525723200 - NamedType 1486929738" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deleting #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</source>
-          <target>Verwijderen #1#################################2########## @@@@@@@@@@@@@@@@@</target>
+          <target>Verwijderen #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Enum 1989287314 - EnumValue 1778072510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Closed</source>
@@ -274,6 +274,38 @@
         <trans-unit id="Enum 2797286411 - EnumValue 3120492303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Closing Balance</source>
           <target>Eindsaldo</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 2039729766 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Wednesday</source>
+          <target>Woensdag</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 2259593336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Thursday</source>
+          <target>Donderdag</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 2643887984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sunday</source>
+          <target>Zondag</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 2850047899 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Friday</source>
+          <target>Vrijdag</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 3612571044 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Monday</source>
+          <target>Maandag</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 3693365919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Saturday</source>
+          <target>Zaterdag</target>
+        </trans-unit>
+        <trans-unit id="Enum 357580981 - EnumValue 4237472533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tuesday</source>
+          <target>Dinsdag</target>
         </trans-unit>
         <trans-unit id="Enum 3655328789 - EnumValue 2319331012 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity (Base) Increase Value</source>
@@ -990,6 +1022,10 @@
         <trans-unit id="Page 1348237060 - Control 4152991091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Level 5 Vend. Hier. Code.</source>
           <target>Hiermee geeft u de vend van niveau 5 op. Hier. Code.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Control 416475293 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "WeekDay Start Periodicity" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'WeekDay Start Periodicity'</target>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies No..</source>
@@ -3442,6 +3478,10 @@
         <trans-unit id="Page 2565869148 - Control 4146310912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Thresh. Comp. Period.</source>
           <target>Hiermee geeft u Dors- en plasjes op. Comp. Periode.</target>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Control 416475293 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "WeekDay Start Periodicity" field</source>
+          <target>Hiermee geeft u de waarde op van het veld 'WeekDay Start Periodicity'</target>
         </trans-unit>
         <trans-unit id="Page 2565869148 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies No..</source>
@@ -6913,7 +6953,7 @@
         </trans-unit>
         <trans-unit id="Report 566729347 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Creating documents...\\#1#######################\\@2@@@@@@@@@@@@@@@@@@@@@@@</source>
-          <target>Documenten maken...\\#1#######################\\@2 @@@@@@@@@@@@@@@@@@@@@@@</target>
+          <target>Documenten maken...\\#1#######################\\@2@@@@@@@@@@@@@@@@@@@@@@@</target>
         </trans-unit>
         <trans-unit id="Report 566729347 - NamedType 3692079570" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlement completed with errors, please consult the settlement plan</source>
@@ -8018,6 +8058,10 @@
         <trans-unit id="Table 2314441710 - Field 4152991091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level 5 Vendor Hierarchy Code</source>
           <target>Code voor leveranciershiërarchie niveau 5</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Field 416475293 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>WeekDay Start Periodicity</source>
+          <target>WeekDag Start Periodiciteit</target>
         </trans-unit>
         <trans-unit id="Table 2314441710 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
