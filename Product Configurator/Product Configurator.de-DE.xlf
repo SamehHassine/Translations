@@ -199,6 +199,10 @@
           <source>Item No. filter must not be blank.</source>
           <target>Der Artikelfilter darf nicht leer sein.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3564740454 - Method 2517526044 - NamedType 3273366311" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing already exists</source>
+          <target>Routing ist bereits vorhanden</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3564740454 - Method 2636731129 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generate configurations?</source>
           <target>Konfigurationen generieren?</target>
@@ -210,6 +214,10 @@
         <trans-unit id="Codeunit 3564740454 - Method 2736244284 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update characteristics for %1 filter?</source>
           <target>Aktualisierungsmerkmale für %1-Filter?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3564740454 - Method 3825020936 - NamedType 1725758124" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production BOM Already exists</source>
+          <target>Produktionsstückliste ist bereits vorhanden</target>
         </trans-unit>
         <trans-unit id="Codeunit 3564740454 - NamedType 662969517" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processing... #1#%</source>
@@ -293,15 +301,15 @@
         </trans-unit>
         <trans-unit id="Enum 2848756816 - EnumValue 2572667290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Customers</source>
-          <target>Alle Kunden</target>
+          <target>Alle Debitoren</target>
         </trans-unit>
         <trans-unit id="Enum 2848756816 - EnumValue 2611991338 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Campaign</source>
-          <target>Feldzug</target>
+          <target>Kampange</target>
         </trans-unit>
         <trans-unit id="Enum 2848756816 - EnumValue 2725149570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Price Group</source>
-          <target>Debitorprisgruppe</target>
+          <target>Debitorenpreisgruppe</target>
         </trans-unit>
         <trans-unit id="Enum 2848756816 - EnumValue 4269609330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>All Vendors</source>
@@ -413,7 +421,7 @@
         </trans-unit>
         <trans-unit id="Page 107975625 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 107975625 - Control 692831658 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Condition Code field</source>
@@ -461,7 +469,7 @@
         </trans-unit>
         <trans-unit id="Page 1148806827 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 1148806827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Optional Item Specifications</source>
@@ -517,7 +525,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 1365656393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Unit Price</source>
-          <target>Neuer Stückpreis</target>
+          <target>Neuer VK-Preis</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 1456738300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the To Characteristic Value 4 field.</source>
@@ -525,7 +533,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 1456738300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 4</source>
-          <target>Zum Merkmalswert 4</target>
+          <target>Bis Merkmalswert 4</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 1529725464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 3 field.</source>
@@ -541,7 +549,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 181345066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 2</source>
-          <target>Zum Merkmalswert 2</target>
+          <target>Bis Merkmalswert 2</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Price Code field.</source>
@@ -549,7 +557,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
-          <target>Typ</target>
+          <target>Verkaufscode</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2094434917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the To Characteristic Value 7 field.</source>
@@ -557,7 +565,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2094434917 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 7</source>
-          <target>Zum Merkmalswert 7</target>
+          <target>Bis Merkmalswert 7</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Unit of Measure Code field.</source>
@@ -573,7 +581,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2457921172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 10</source>
-          <target>Merkmalscode 10</target>
+          <target>Merkmal Code 10</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2563222511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the To Characteristic Value 1 field.</source>
@@ -581,7 +589,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2563222511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 1</source>
-          <target>Zum Merkmalswert 1</target>
+          <target>Bis Merkmalswert 1</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2589773180 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 1 field.</source>
@@ -597,7 +605,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2732131534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 6</source>
-          <target>Zum Merkmalswert 6</target>
+          <target>Bis Merkmalswert 6</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2758682203 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 8 field.</source>
@@ -621,7 +629,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2839474623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 10</source>
-          <target>Zum Merkmalswert 10</target>
+          <target>Bis Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2930204114 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 10 field.</source>
@@ -629,7 +637,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2930204114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 10</source>
-          <target>Kennwert 10</target>
+          <target>Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2937233469 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Unit Price field.</source>
@@ -637,7 +645,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2937233469 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Price</source>
-          <target>Stückpreis</target>
+          <target>VK-Preis</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 2974027721 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 8 field.</source>
@@ -661,7 +669,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 3369828151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 9</source>
-          <target>Zum Merkmalswert 9</target>
+          <target>Bis Merkmalswert 9</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 3396378820 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 9 field.</source>
@@ -669,7 +677,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 3396378820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 9</source>
-          <target>MerkmalScode 9</target>
+          <target>Merkmal Code 9</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 3442815315 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 6 field.</source>
@@ -701,7 +709,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 3838615745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 3</source>
-          <target>Zum Merkmalswert 3</target>
+          <target>Bis Merkmalswert 3</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 3865166414 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 3 field.</source>
@@ -725,7 +733,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 4007524768 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 8</source>
-          <target>Zum Merkmalswert 8</target>
+          <target>Bis Merkmalswert 8</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 4080511932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 7 field.</source>
@@ -773,7 +781,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 67248183 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Minimum Quantity field.</source>
@@ -797,7 +805,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 730569223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Type</source>
-          <target>Preistyp</target>
+          <target>Verkaufsart</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 819041683 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the To Characteristic Value 5 field.</source>
@@ -805,7 +813,7 @@
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 819041683 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Charac. Value 5</source>
-          <target>Zum Merkmalswert 5</target>
+          <target>Bis Merkmalswert 5</target>
         </trans-unit>
         <trans-unit id="Page 1485848535 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Entry No. field.</source>
@@ -883,6 +891,14 @@
           <source>New Setup Wizard</source>
           <target>Neuer Setup-Assistent</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 4130025558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Recalculate Neutral Rules action</source>
+          <target>Führt die Aktion "Neutrale Regeln neu berechnen" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 4130025558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate Neutral Rules</source>
+          <target>Neutrale Regeln neu berechnen</target>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 1074719753 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Enable Purchase Item field</source>
           <target>Gibt den Wert des Felds Einkaufsartikel aktivieren an</target>
@@ -903,9 +919,13 @@
           <source>Specifies whether to retrieve prices for the Sell-to or the Bill-to customer.</source>
           <target>Gibt an, ob Preise für den Sell-to- oder den Bill-to-Kunden abgerufen werden sollen.</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 1365229884 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Changes to comment the Document Line of Configured Item, after the creation of document lines from BOM lines.</source>
+          <target>Auskommentiert die Belegposition des konfigurierten Artikels, nachdem Belegpositionen aus Stücklistenpositionen angelegt wurden.</target>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 143828174 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enables the creation of sales order lines from Production BOM lines after item configuration.</source>
-          <target>Ermöglicht die Erstellung von Kundenauftragspositionen aus Produktionsstücklistenpositionen nach der Artikelkonfiguration.</target>
+          <source>Enables the creation of sales document lines from Production BOM lines after item configuration.</source>
+          <target>Ermöglicht die Erstellung von Vertriebsbelegpositionen aus Produktionsstücklistenpositionen nach der Artikelkonfiguration.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 1512255190 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Enable Surcharge Lines field</source>
@@ -977,15 +997,23 @@
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 2931809105 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Use Purchase Item Nos field</source>
-          <target>Gibt den Wert des Felds Einkaufsartikel-Nr. verwenden an</target>
+          <target>Gibt den Wert des Felds Einkaufartikelnr. verwenden an</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 311292324 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Routing Status field</source>
           <target>Gibt den Wert des Feldes Routingstatus an</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 3177375966 - Method 2126772001 - NamedType 1733435941" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Please use the 'Recalculate Neutral Rules' function</source>
+          <target>Bitte nutzen Sie die Funktion "Neutrale Regeln neu berechnen"</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 3177375966 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Enable Advanced Neutral Rules Management field</source>
+          <target>Gibt den Wert des Felds Erweiterte neutrale Verwaltungsregeln aktivieren an.</target>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 327330691 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Separator Purchase Item Nos field</source>
-          <target>Gibt den Wert des Feldes Separator-Einkaufsartikel-Nr. an</target>
+          <target>Gibt den Wert des Feldes Separator-Einkaufartikelnr. an</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 3327076881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Standard Nos. field</source>
@@ -1052,8 +1080,8 @@
           <target>Gibt den Wert des Feldes Standardkundenpreisgruppe an.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 594324803 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies how to set the Unit Price on Order lines, created from Production BOM Lines.</source>
-          <target>Gibt an, wie der Einzelpreis für Auftragspositionen festgelegt wird, die aus Produktionsstücklistenpositionen erstellt werden.</target>
+          <source>Specifies how to set the Unit Price on document lines, created from Production BOM Lines.</source>
+          <target>Gibt an, wie der Einzelpreis für Belegpositionen festgelegt wird, die aus Produktionsstücklistenpositionen erstellt werden.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 597556736 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use the drilldown to select the correct site</source>
@@ -1080,8 +1108,8 @@
           <target>Gibt den Wert des Felds Configurator aktivieren an</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 738509468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enables the creation of purchase order lines from Production BOM lines after item configuration.</source>
-          <target>Ermöglicht die Erstellung von Bestellpositionen aus Produktionsstücklistenpositionen nach der Artikelkonfiguration.</target>
+          <source>Enables the creation of purchase document lines from Production BOM lines after item configuration.</source>
+          <target>Ermöglicht die Erstellung von Einkaufsbelegpositionen aus Produktionsstücklistenpositionen nach der Artikelkonfiguration.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 754437362 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use the drilldown to select the correct collection</source>
@@ -1137,7 +1165,7 @@
         </trans-unit>
         <trans-unit id="Page 1773325548 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 1773325548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Characteristics</source>
@@ -1157,7 +1185,7 @@
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 2519890942 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 2 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 2 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 2 an</target>
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 2621988904 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Enable Charac. Set Code field</source>
@@ -1189,7 +1217,7 @@
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 606801091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 1 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 1 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 1 an</target>
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 672138789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rule Code field</source>
@@ -1265,7 +1293,7 @@
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2793404423 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Acronym field</source>
-          <target>Gibt den Wert des Akronymfeldfelds an.</target>
+          <target>Gibt den Wert des Abkürzungfelds an.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2854340050 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Use Code field</source>
@@ -1285,7 +1313,7 @@
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3160886077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Value Posting field</source>
-          <target>Gibt den Wert des Feldes Wertbuchung an.</target>
+          <target>Gibt den Wert des Feldes Dimensionswertbuchung an.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3387829703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Use Description field</source>
@@ -1337,7 +1365,7 @@
         </trans-unit>
         <trans-unit id="Page 1978308798 - Control 214740259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item No. field</source>
-          <target>Gibt den Wert der Neutralartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Neutral-Artikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="Page 1978308798 - Control 3117834186 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Document No. field</source>
@@ -1365,7 +1393,7 @@
         </trans-unit>
         <trans-unit id="Page 1978308798 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 1978308798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Neutral Rule Requests</source>
@@ -1409,7 +1437,7 @@
         </trans-unit>
         <trans-unit id="Page 2070516047 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 2070516047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Line Characteristics</source>
@@ -1537,7 +1565,7 @@
         </trans-unit>
         <trans-unit id="Page 256656973 - Action 236450219 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import Characteristic Values</source>
-          <target>Import-Merkmalswerte</target>
+          <target>Import-Merkmalswerte (ausgewählte)</target>
         </trans-unit>
         <trans-unit id="Page 256656973 - Action 3473142100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Import All Characteristic Values action</source>
@@ -1545,7 +1573,7 @@
         </trans-unit>
         <trans-unit id="Page 256656973 - Action 3473142100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import All Characteristic Values</source>
-          <target>Import-Merkmalswerte</target>
+          <target>Import-Merkmalswerte (alle)</target>
         </trans-unit>
         <trans-unit id="Page 256656973 - Control 1067433626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value field</source>
@@ -1561,11 +1589,11 @@
         </trans-unit>
         <trans-unit id="Page 256656973 - Control 3160886077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Value Posting field</source>
-          <target>Gibt den Wert des Feldes Wertbuchung an.</target>
+          <target>Gibt den Wert des Feldes Dimensionswertbuchung an.</target>
         </trans-unit>
         <trans-unit id="Page 256656973 - Control 3543129988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Blocked field</source>
-          <target>Gibt den Wert des Feldes Blockiert an.</target>
+          <target>Gibt den Wert des Feldes Gesperrt an.</target>
         </trans-unit>
         <trans-unit id="Page 256656973 - Control 3614475802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Dimension Value Code field</source>
@@ -1581,7 +1609,7 @@
         </trans-unit>
         <trans-unit id="Page 256656973 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 256656973 - Control 4265973721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Picture</source>
@@ -1749,7 +1777,7 @@
         </trans-unit>
         <trans-unit id="Page 2708377501 - Control 370327047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Page 2708377501 - Control 3798681774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Variant Code field</source>
@@ -1761,7 +1789,7 @@
         </trans-unit>
         <trans-unit id="Page 2708377501 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 2708377501 - Control 78013347 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the New Lower Numeric Value field</source>
@@ -1769,7 +1797,7 @@
         </trans-unit>
         <trans-unit id="Page 2708377501 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No. must not be blank.</source>
-          <target>Artikel-Nr. darf nicht leer sein.</target>
+          <target>Artikelnr. darf nicht leer sein.</target>
         </trans-unit>
         <trans-unit id="Page 2708377501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Generate Batch Configurations (CFG)</source>
@@ -1797,7 +1825,7 @@
         </trans-unit>
         <trans-unit id="Page 2775621722 - Control 3543129988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Blocked field</source>
-          <target>Gibt den Wert des Feldes Blockiert an.</target>
+          <target>Gibt den Wert des Feldes Gesperrt an.</target>
         </trans-unit>
         <trans-unit id="Page 2775621722 - Control 3676588670 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Rule Charac. Value field</source>
@@ -1817,7 +1845,7 @@
         </trans-unit>
         <trans-unit id="Page 2775621722 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 2775621722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Included Item Characteristics Values</source>
@@ -1837,7 +1865,7 @@
         </trans-unit>
         <trans-unit id="Page 2783159410 - Control 3543129988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Blocked field</source>
-          <target>Gibt den Wert des Feldes Blockiert an.</target>
+          <target>Gibt den Wert des Feldes Gesperrt an.</target>
         </trans-unit>
         <trans-unit id="Page 2783159410 - Control 4066289460 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Document Line No. field</source>
@@ -1853,7 +1881,7 @@
         </trans-unit>
         <trans-unit id="Page 2783159410 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 2783159410 - Control 553823825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the WBS No. field</source>
@@ -1877,19 +1905,27 @@
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 1413406731 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 9 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 9 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 9 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 1456738300 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 4 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 4 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 1690150644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 6 field</source>
           <target>Gibt den Wert des Feldes Merkmalswert 6 an</target>
         </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 181345066 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 2 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 2 an.</target>
+        </trans-unit>
         <trans-unit id="Page 2952374931 - Control 1871723261 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Fix Item No. field</source>
-          <target>Gibt den Wert der Fixartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Fix-Artikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 1882194325 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 3 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 3 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 3 an</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 1953408808 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Fix Item Description field</source>
@@ -1897,11 +1933,15 @@
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2051103348 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 8 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 8 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 8 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 2094434917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 7 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 7 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 214740259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item No. field</source>
-          <target>Gibt den Wert der Neutralartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Neutral-Artikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2160117478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Key Code field</source>
@@ -1913,19 +1953,31 @@
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2350981919 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 5 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 5 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 5 an</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2519890942 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 2 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 2 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 2 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 2563222511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 1 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 1 an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 2732131534 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 6 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 6 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2796634855 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 3 field</source>
           <target>Gibt den Wert des Feldes Merkmalswert 3 an</target>
         </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 2839474623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 10 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 10 an.</target>
+        </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2881263635 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 10 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 10 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 10 an</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2965543878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 4 field</source>
@@ -1933,11 +1985,15 @@
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 2988678536 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 4 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 4 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 4 an</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 3265422449 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 9 field</source>
           <target>Gibt den Wert des Feldes Merkmalswert 9 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 3369828151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 9 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 9 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 3434331472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 2 field</source>
@@ -1949,11 +2005,19 @@
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 3626375153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 7 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 7 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 7 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 3838615745 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 3 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 3 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 3903119066 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 8 field</source>
           <target>Gibt den Wert des Feldes Merkmalswert 8 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 4007524768 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 8 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 8 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 4072028089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value 1 field</source>
@@ -1961,11 +2025,15 @@
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 4264071770 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 6 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 6 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 6 an</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Control 606801091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 1 field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode 1 an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code 1 an</target>
+        </trans-unit>
+        <trans-unit id="Page 2952374931 - Control 819041683 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the To Characteristic Value 5 field.</source>
+          <target>Gibt den Wert des Felds Bis Merkmalswert 5 an.</target>
         </trans-unit>
         <trans-unit id="Page 2952374931 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Neutral Rules</source>
@@ -2061,7 +2129,7 @@
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4288020487 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Exclude From Releations Calc. field.</source>
@@ -2459,6 +2527,14 @@
           <source>Processing Logics (CFG)</source>
           <target>Verarbeitungslogiken (CFG)</target>
         </trans-unit>
+        <trans-unit id="Page 3452687169 - Action 2689876268 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Conditions action</source>
+          <target>Führt die Aktion "Bedingungen" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 3452687169 - Action 2689876268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Conditions</source>
+          <target>Bedingungen</target>
+        </trans-unit>
         <trans-unit id="Page 3452687169 - Action 3732224266 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Test action</source>
           <target>Führt die Testaktion aus</target>
@@ -2506,6 +2582,10 @@
         <trans-unit id="Page 3452687169 - Control 3801928269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Formula Code field</source>
           <target>Gibt den Wert des Feldes Formelcode an</target>
+        </trans-unit>
+        <trans-unit id="Page 3452687169 - Control 696389717 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Condition Code field</source>
+          <target>Gibt den Wert des Feldes Konditionscode an</target>
         </trans-unit>
         <trans-unit id="Page 3452687169 - Control 92170848 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Short Description field</source>
@@ -2667,6 +2747,10 @@
           <source>Specifies the value of the Format Code field</source>
           <target>Gibt den Wert des Feldes Formatcode an.</target>
         </trans-unit>
+        <trans-unit id="Page 3757971336 - Control 558439158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Use Neutral Routing field.</source>
+          <target>Gibt den Wert des Felds Standardzyklus verwenden an.</target>
+        </trans-unit>
         <trans-unit id="Page 3757971336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rules (CFG)</source>
           <target>Regeln (CFG)</target>
@@ -2685,7 +2769,7 @@
         </trans-unit>
         <trans-unit id="Page 3854042679 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 3854042679 - Control 616205043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Decoding Type field</source>
@@ -2733,7 +2817,7 @@
         </trans-unit>
         <trans-unit id="Page 3887293630 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 3887293630 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Translations</source>
@@ -2865,7 +2949,7 @@
         </trans-unit>
         <trans-unit id="Page 4082809855 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 4082809855 - Control 553823825 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the WBS No. field</source>
@@ -2913,7 +2997,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1862012067 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Linked Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Verknüpfter Merkmalscode an.</target>
+          <target>Gibt den Wert des Feldes Verknüpfter Merkmal Code an.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1900957152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Source No. field</source>
@@ -2921,7 +3005,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1995709449 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Purchase Item No. field</source>
-          <target>Gibt den Wert der Einkaufsartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Einkaufartikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 211001564 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Optional Item Quantity field</source>
@@ -2929,7 +3013,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 214740259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item No. field</source>
-          <target>Gibt den Wert der Neutralartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Neutral-Artikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2420880357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Standard Task Code field</source>
@@ -2945,7 +3029,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2793404423 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Acronym field</source>
-          <target>Gibt den Wert des Akronymfeldfelds an.</target>
+          <target>Gibt den Wert des Abkürzungfelds an.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2854340050 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Use Code field</source>
@@ -2961,7 +3045,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3160886077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Value Posting field</source>
-          <target>Gibt den Wert des Feldes Wertbuchung an.</target>
+          <target>Gibt den Wert des Feldes Dimensionswertbuchung an.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 331289299 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Run Time Factor field</source>
@@ -2981,7 +3065,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3543129988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Blocked field</source>
-          <target>Gibt den Wert des Feldes Blockiert an.</target>
+          <target>Gibt den Wert des Feldes Gesperrt an.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3614475802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Dimension Value Code field</source>
@@ -3005,7 +3089,7 @@
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 4265973721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Picture</source>
@@ -3035,6 +3119,34 @@
           <source>Characteristics Set</source>
           <target>Eigenschaften Satz</target>
         </trans-unit>
+        <trans-unit id="Page 4266014202 - Action 3471137671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Lines action</source>
+          <target>Führt die Lines-Aktion aus</target>
+        </trans-unit>
+        <trans-unit id="Page 4266014202 - Action 3471137671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Linien</target>
+        </trans-unit>
+        <trans-unit id="Page 4266014202 - Control 1165969121 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Line No. field</source>
+          <target>Gibt den Wert der Zeile Nr. an. Feld</target>
+        </trans-unit>
+        <trans-unit id="Page 4266014202 - Control 1986097501 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Formula Text field.</source>
+          <target>Gibt den Wert des Felds Formeltext an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266014202 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Sequence field.</source>
+          <target>Gibt den Wert des Felds Sequenz an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4266014202 - Control 692831658 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Condition Code field</source>
+          <target>Gibt den Wert des Feldes Konditionscode an</target>
+        </trans-unit>
+        <trans-unit id="Page 4266014202 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Conditions</source>
+          <target>Bedingungen</target>
+        </trans-unit>
         <trans-unit id="Page 528138627 - Control 1067433626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Value field</source>
           <target>Gibt den Wert des Feldes "Merkmalswert" an.</target>
@@ -3045,7 +3157,7 @@
         </trans-unit>
         <trans-unit id="Page 528138627 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 528138627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Variant Charac. Factbox</source>
@@ -3197,7 +3309,7 @@
         </trans-unit>
         <trans-unit id="Page 658236784 - Control 2215912159 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No. Filter</source>
-          <target>Artikel-Nr. Filter</target>
+          <target>Artikelnr. Filter</target>
         </trans-unit>
         <trans-unit id="Page 658236784 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
@@ -3225,7 +3337,7 @@
         </trans-unit>
         <trans-unit id="Page 658236784 - Control 370327047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Page 658236784 - Control 3798681774 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Variant Code field</source>
@@ -3241,11 +3353,11 @@
         </trans-unit>
         <trans-unit id="Page 658236784 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 658236784 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No. must not be blank.</source>
-          <target>Artikel-Nr. darf nicht leer sein.</target>
+          <target>Artikelnr. darf nicht leer sein.</target>
         </trans-unit>
         <trans-unit id="Page 658236784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Characteristics (CFG)</source>
@@ -3259,6 +3371,10 @@
           <source>Specifies the value of the Line No. field</source>
           <target>Gibt den Wert der Zeile Nr. an. Feld</target>
         </trans-unit>
+        <trans-unit id="Page 659773391 - Control 13618793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Rounding Direction field.</source>
+          <target>Gibt den Wert des Felds Rundungsrichtung an.</target>
+        </trans-unit>
         <trans-unit id="Page 659773391 - Control 2183437288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rounding Precision field</source>
           <target>Gibt den Wert des Feldes Rundungsgenauigkeit an.</target>
@@ -3269,7 +3385,7 @@
         </trans-unit>
         <trans-unit id="Page 659773391 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 659773391 - Control 707698490 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Transfer Value Formula field</source>
@@ -3421,7 +3537,7 @@
         </trans-unit>
         <trans-unit id="Page 961492661 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="Page 961492661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Variant Characteristic</source>
@@ -3526,6 +3642,30 @@
         <trans-unit id="PageExtension 149737186 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error %1 in item %2 reconfiguration variant code %3</source>
           <target>Fehler %1 in Punkt %2 Neukonfigurationsvariantencode %3</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1539032187 - Control 2175242516 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Copy Routing field.</source>
+          <target>Gibt den Wert des Felds Routing kopieren an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1539032187 - Control 3214334976 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Configurator</source>
+          <target>Konfigurator</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1539032187 - Control 3348138245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the New Description field.</source>
+          <target>Gibt den Wert des Felds Neue Beschreibung an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1539032187 - Control 3383377015 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Copy Production BOM field.</source>
+          <target>Gibt den Wert des Felds Produktionsstückliste kopieren an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1539032187 - Control 3579018398 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Copy Characteristics field.</source>
+          <target>Gibt den Wert des Felds Kopiermerkmale an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1539032187 - Control 3880753539 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Copy Matrix Prices field.</source>
+          <target>Gibt den Wert des Felds Kopiermatrixpreise an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1617385741 - Control 2804847381 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Variant Code field</source>
@@ -3717,7 +3857,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2176728804 - Control 3333159683 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="PageExtension 2176728804 - Control 973860288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Proc. Logic Code field</source>
@@ -3845,7 +3985,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2814425421 - Control 476117660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item No. field</source>
-          <target>Gibt den Wert der Neutralartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Neutral-Artikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="PageExtension 2977055927 - Action 2114518676 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Document Line Characteristics action</source>
@@ -3892,8 +4032,8 @@
           <target>Artikel-Varianten-Eigenschaften Factbox</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 1910760471 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the percentage to be applied to the price of the new sales order line after item configuration</source>
-          <target>Gibt den Prozentsatz an, der nach der Artikeleinrichtung auf den Preis der neuen Auftragsposition angewendet werden soll.</target>
+          <source>Specifies the percentage to be applied to the price of the new sales document line after item configuration</source>
+          <target>Gibt den Prozentsatz an, der nach der Artikelkonfiguration auf den Preis der neuen Vertriebsbelegposition angewendet werden soll.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 2315620118 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Formula Code field</source>
@@ -3912,16 +4052,16 @@
           <target>Gibt den Wert des Feldes Routingregelcode an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 3154636689 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enables the creation of a new purchase order line after item configuration</source>
-          <target>Erstellt eine neue Bestellposition nach der Artikelkonfiguration</target>
+          <source>Enables the creation of a new purchase document line after item configuration</source>
+          <target>Ermöglicht die Erstellung einer neuen Einkaufsbelegposition nach der Artikelkonfiguration</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 3914839110 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rule Code field</source>
           <target>Gibt den Wert des Feldes Regelcode an</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 4056426309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enables the creation of a new sales order line after item configuration</source>
-          <target>Erstellt nach der Artikelkonfiguration eine neue Kundenauftragsposition</target>
+          <source>Enables the creation of a new sales document line after item configuration</source>
+          <target>Ermöglicht das Anlegen einer neuen Vertriebsbelegposition nach der Positionskonfiguration</target>
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 4212298309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Quantity Formula field</source>
@@ -3929,7 +4069,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3169311248 - Control 476117660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item No. field</source>
-          <target>Gibt den Wert der Neutralartikel-Nr. an. Feld</target>
+          <target>Gibt den Wert der Neutral-Artikelnr. an. Feld</target>
         </trans-unit>
         <trans-unit id="PageExtension 3283213015 - Control 2246414297 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Variant Characteristics Factbox</source>
@@ -4001,7 +4141,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 3807007865 - Control 3333159683 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
-          <target>Gibt den Wert des Feldes Merkmalscode an</target>
+          <target>Gibt den Wert des Feldes Merkmal Code an</target>
         </trans-unit>
         <trans-unit id="PageExtension 3807007865 - Control 973860288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Proc. Logic Code field</source>
@@ -4193,11 +4333,11 @@
         </trans-unit>
         <trans-unit id="Report 1543147117 - Control 1750271460 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Type</source>
-          <target>Preistyp</target>
+          <target>Verkaufsart</target>
         </trans-unit>
         <trans-unit id="Report 1543147117 - Control 1750271460 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Price Group,Customer</source>
-          <target>Kundenpreisgruppe,Kunde</target>
+          <target>Debitorenpreisgruppe,Kunde</target>
         </trans-unit>
         <trans-unit id="Report 1543147117 - Control 2135639287 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Customer Price Group field</source>
@@ -4205,7 +4345,7 @@
         </trans-unit>
         <trans-unit id="Report 1543147117 - Control 2135639287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Price Group</source>
-          <target>Kundenpreisgruppe</target>
+          <target>Debitorenpreisgruppe</target>
         </trans-unit>
         <trans-unit id="Report 1543147117 - Control 2702136867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Starting Date field</source>
@@ -4309,15 +4449,15 @@
         </trans-unit>
         <trans-unit id="Report 1902888075 - Control 3342880952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Routing</source>
-          <target>Kopieren des Routings</target>
+          <target>Arbeitsplan</target>
         </trans-unit>
         <trans-unit id="Report 1902888075 - Control 4162931082 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the New Item Code field</source>
-          <target>Gibt den Wert des Feldes "Neuer Artikelcode" an.</target>
+          <target>Gibt den Wert des Feldes "Neue Artikelnr." an.</target>
         </trans-unit>
         <trans-unit id="Report 1902888075 - Control 4162931082 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Item Code</source>
-          <target>Neuer Artikelcode</target>
+          <target>Neue Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Report 1902888075 - Control 48244078 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the New Description 2 field</source>
@@ -4333,7 +4473,7 @@
         </trans-unit>
         <trans-unit id="Report 1902888075 - Control 976058436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Production BOM</source>
-          <target>Kopierfertigungsstückliste</target>
+          <target>Fert.-Stückliste</target>
         </trans-unit>
         <trans-unit id="Report 1902888075 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production BOM already exist</source>
@@ -4345,7 +4485,7 @@
         </trans-unit>
         <trans-unit id="Report 1902888075 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Item Code Must Be Not Blank</source>
-          <target>Neuer Artikelcode darf nicht leer sein</target>
+          <target>Neue Artikelnr. darf nicht leer sein</target>
         </trans-unit>
         <trans-unit id="Report 1902888075 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item %1 successfully created</source>
@@ -4393,7 +4533,7 @@
         </trans-unit>
         <trans-unit id="Report 2639534200 - NamedType 473370626" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.               #1##########\</source>
-          <target>Artikel-Nr. #1#####\</target>
+          <target>Artikelnr.               #1##########\</target>
         </trans-unit>
         <trans-unit id="Report 2639534200 - NamedType 589868335" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting Date          #5######</source>
@@ -4505,7 +4645,7 @@
         </trans-unit>
         <trans-unit id="Report 345960589 - Control 805748455 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Type</source>
-          <target>Preistyp</target>
+          <target>Verkaufsart</target>
         </trans-unit>
         <trans-unit id="Report 345960589 - Control 930661600 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a code for the rounding method that you want applied to prices.</source>
@@ -4547,6 +4687,10 @@
           <source>Create Rule Excel</source>
           <target>Erstellen von Regel Excel</target>
         </trans-unit>
+        <trans-unit id="Report 3943180488 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate Neutral Rules</source>
+          <target>Neutrale Regeln neu berechnen</target>
+        </trans-unit>
         <trans-unit id="Table 1148806827 - Field 1928073332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Optional Item Quantity</source>
           <target>Optionale Artikelmenge</target>
@@ -4573,11 +4717,15 @@
         </trans-unit>
         <trans-unit id="Table 1148806827 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 1148806827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Optional Item Spec.</source>
           <target>Optionale Artikelspezifikation.</target>
+        </trans-unit>
+        <trans-unit id="Table 1237716355 - Field 13618793 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rounding Direction</source>
+          <target>Rundende Richtung</target>
         </trans-unit>
         <trans-unit id="Table 1237716355 - Field 1676948843 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristics Set Code</source>
@@ -4729,7 +4877,7 @@
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 2725149570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Price Group</source>
-          <target>Kundenpreisgruppe</target>
+          <target>Debitorenpreisgruppe</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 2799275567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap % Formula Code</source>
@@ -4737,11 +4885,11 @@
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 2865284978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Item No.</source>
-          <target>Neuer Artikel Nr.</target>
+          <target>Neue Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 3048556483 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Campaign</source>
-          <target>Feldzug</target>
+          <target>Kampange</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 3195828558 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Position 3</source>
@@ -4809,7 +4957,7 @@
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
@@ -4841,7 +4989,7 @@
         </trans-unit>
         <trans-unit id="Table 127178702 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No. already exists.</source>
-          <target>Artikel-Nr. bereits vorhanden sind.</target>
+          <target>Artikelnr. bereits vorhanden sind.</target>
         </trans-unit>
         <trans-unit id="Table 127178702 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Configurator Line</source>
@@ -4937,7 +5085,7 @@
         </trans-unit>
         <trans-unit id="Table 1386108352 - Field 2793404423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Acronym</source>
-          <target>Akronym</target>
+          <target>Abkürzung</target>
         </trans-unit>
         <trans-unit id="Table 1386108352 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
@@ -4973,11 +5121,11 @@
         </trans-unit>
         <trans-unit id="Table 1386108352 - Field 448954477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value Posting</source>
-          <target>Wertbuchung</target>
+          <target>Dimensionswertbuchung</target>
         </trans-unit>
         <trans-unit id="Table 1386108352 - Field 448954477 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Code Mandatory,Same Code,No Code</source>
-          <target> ,Code Obligatorisch,Gleicher Code,Kein Code</target>
+          <target> ,Code notwendig,Gleicher Code,Kein Code</target>
         </trans-unit>
         <trans-unit id="Table 1386108352 - Field 906199256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disable Linked Characteristic Copy</source>
@@ -5045,7 +5193,7 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 1365656393 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Unit Price</source>
-          <target>Neuer Stückpreis</target>
+          <target>Neuer VK-Preis</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 1456738300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 4</source>
@@ -5117,7 +5265,7 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 2457921172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 10</source>
-          <target>Merkmalscode 10</target>
+          <target>Merkmal Code 10</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 2563222511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 1</source>
@@ -5173,11 +5321,11 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 2930204114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 10</source>
-          <target>Kennwert 10</target>
+          <target>Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 2937233469 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Price</source>
-          <target>Stückpreis</target>
+          <target>VK-Preis</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 2974027721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 8</source>
@@ -5221,7 +5369,7 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 3396378820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 9</source>
-          <target>MerkmalScode 9</target>
+          <target>Merkmal Code 9</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 3414663803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 2</source>
@@ -5329,7 +5477,7 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 67248183 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Minimum Quantity</source>
@@ -5341,7 +5489,7 @@
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 730569223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Type</source>
-          <target>Preistyp</target>
+          <target>Verkaufsart</target>
         </trans-unit>
         <trans-unit id="Table 1485848535 - Field 819041683 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 5</source>
@@ -5397,7 +5545,7 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1040590990 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Surcharge Description (Positive)</source>
-          <target>Zuschlagbeschreibung (Positiv)</target>
+          <target>Zuschlagsbeschreibung (Positiv)</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1061746732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Library</source>
@@ -5405,7 +5553,7 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1175723985 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production BOM Status</source>
-          <target>Produktionsstücklistenstatus</target>
+          <target>Status Fert.Stückliste</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1175723985 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,Certified,Under Development</source>
@@ -5415,17 +5563,25 @@
           <source>Get Prices for Customer</source>
           <target>Preise für Kunden abrufen</target>
         </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 1365229884 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Change to Comment Line</source>
+          <target>In Kommentarzeile ändern</target>
+        </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1387003678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disable Optional/Surcharge Modify</source>
-          <target>Deaktivieren optional/zuschlager ändern</target>
+          <target>Optional deaktivieren / Aufpreis ändern</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 143828174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create Sales Line</source>
-          <target>Verkaufslinie erstellen</target>
+          <source>Create BOM Lines On Sales Document</source>
+          <target>Stücklistenpositionen im Verkaufsbeleg anlegen</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1447896382 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Token Expiration UTC</source>
           <target>Token Ablauf UTC</target>
+        </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 1488992588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Advanced Neutral Rules Management</source>
+          <target>Erweiterte neutrale Regelverwaltung aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1656975091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Directory (tenant) ID</source>
@@ -5445,11 +5601,11 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1817569387 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy Routing Comments</source>
-          <target>Routing-Kommentare kopieren</target>
+          <target>Arbeitsgang-Kommentare kopieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1838094466 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Variant Management</source>
-          <target>Aktivieren der Variantenverwaltung</target>
+          <target>Variantenverwaltung aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1848368890 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Attributes Management</source>
@@ -5469,7 +5625,7 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 2580823852 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Status</source>
-          <target>Routingstatus</target>
+          <target>Status Arbeitsplan</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 2580823852 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,Certified,Under Development</source>
@@ -5485,7 +5641,7 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 26668977 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Separator Purchase Item Nos.</source>
-          <target>Separator-Einkaufsartikel-Nr.</target>
+          <target>Separator-Einkaufartikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 2766545372 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Latest Token</source>
@@ -5497,7 +5653,7 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 281024570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable BOM Reconfiguration</source>
-          <target>Bomtinneukonfiguration aktivieren</target>
+          <target>Neukonfiguration der Fert.-Stückliste aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 2899959871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Neutral Rule Request</source>
@@ -5505,15 +5661,15 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 2958977208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Disable Discount Surcharge Lines</source>
-          <target>Deaktivieren von Rabattzuschlagspositionen</target>
+          <target>Rabatt-Zuschlagszeilen deaktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3327076881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Nos.</source>
-          <target>Standard-Nr.</target>
+          <target>Artikel-/Versionsnr.</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3413613615 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy BOM Comments</source>
-          <target>Kommentar zur Stückliste kopieren</target>
+          <target>Stücklistenkommentare kopieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3516141544 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>View Configured Item</source>
@@ -5533,7 +5689,7 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3619302886 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Surcharge Lines</source>
-          <target>Aktivieren von Zuschlagslinien</target>
+          <target>Zuschlagszeilen aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3661646937 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Purchase Price</source>
@@ -5541,11 +5697,11 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 3874449767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Customer Price Group</source>
-          <target>Standardkundenpreisgruppe</target>
+          <target>Debitorenpreisgruppe</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 4042949782 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Weight Calculation &amp; Volume</source>
-          <target>Aktivieren der Gewichtsberechnung &amp; des Volumens</target>
+          <target>Gewichts- und Volumenberechnung aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 4155537764 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Surcharge Description (Negative)</source>
@@ -5553,11 +5709,11 @@
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 436090760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Configurator</source>
-          <target>Enable Configurator</target>
+          <target>Konfigurator aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 548491779 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Purchase Item Nos.</source>
-          <target>Verwenden Sie Einkaufsartikel-Nr.</target>
+          <target>Verwenden Sie Einkaufartikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 594324803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Calc. Method</source>
@@ -5576,16 +5732,16 @@
           <target>Suchen Sie Charac. für Sublev. Stückliste</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 738509468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create Purchase Line</source>
-          <target>Einkaufsposition anlegen</target>
+          <source>Create BOM Lines On Purchase Document</source>
+          <target>Stücklistenpositionen im Einkaufsbeleg anlegen</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 804376568 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production BOM/Routing Nos.</source>
-          <target>Fertigungsstückliste/Routing-Nr.</target>
+          <target>Fert.Stücklisten-/Arbeitsplannr.</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 858949448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Rule Condition</source>
-          <target>Rule-Bedingung aktivieren</target>
+          <target>Regelbedingung aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 1762500533 - Field 97555144 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Excel</source>
@@ -5685,7 +5841,7 @@
         </trans-unit>
         <trans-unit id="Table 2070516047 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 2070516047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Line Characteristic</source>
@@ -5713,7 +5869,7 @@
         </trans-unit>
         <trans-unit id="Table 2218277012 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 2218277012 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Item From Conf.</source>
@@ -5749,7 +5905,7 @@
         </trans-unit>
         <trans-unit id="Table 2380840556 - Field 3543129988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
-          <target>Blockiert</target>
+          <target>Gesperrt</target>
         </trans-unit>
         <trans-unit id="Table 2380840556 - Field 3679347252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code</source>
@@ -5773,11 +5929,11 @@
         </trans-unit>
         <trans-unit id="Table 2380840556 - Field 448954477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value Posting</source>
-          <target>Wertbuchung</target>
+          <target>Dimensionswertbuchung</target>
         </trans-unit>
         <trans-unit id="Table 2380840556 - Field 448954477 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Code Mandatory,Same Code,No Code</source>
-          <target> ,Code Obligatorisch,Gleicher Code,Kein Code</target>
+          <target> ,Code notwendig,Gleicher Code,Kein Code</target>
         </trans-unit>
         <trans-unit id="Table 2380840556 - Field 593418812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rule Description</source>
@@ -5835,6 +5991,10 @@
           <source>Format Code</source>
           <target>Formatcode</target>
         </trans-unit>
+        <trans-unit id="Table 2543833169 - Field 558439158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Neutral Routing</source>
+          <target>Verwenden Sie den Standardzyklus</target>
+        </trans-unit>
         <trans-unit id="Table 2543833169 - Field 720415109 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Certification Date Time</source>
           <target>Uhrzeit des Datums der letzten Zertifizierung</target>
@@ -5889,7 +6049,7 @@
         </trans-unit>
         <trans-unit id="Table 2775621722 - Field 3543129988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
-          <target>Blockiert</target>
+          <target>Gesperrt</target>
         </trans-unit>
         <trans-unit id="Table 2775621722 - Field 3679347252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code</source>
@@ -5901,7 +6061,7 @@
         </trans-unit>
         <trans-unit id="Table 2775621722 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 2775621722 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Included Item Characteristics Value</source>
@@ -6081,7 +6241,7 @@
         </trans-unit>
         <trans-unit id="Table 2946418531 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 2946418531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Characteristics</source>
@@ -6092,7 +6252,7 @@
           <target>Zieltyp</target>
         </trans-unit>
         <trans-unit id="Table 3058821282 - Field 2163457152 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Routing,BOM Component,Rules Relations,All Applications</source>
+          <source>Routing,BOM Component,Rules Relations,All Applications,Formulas</source>
           <target>Routing,Stückstückkomponente,Regeln Beziehungen,Alle Anwendungen</target>
         </trans-unit>
         <trans-unit id="Table 3058821282 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6129,7 +6289,7 @@
         </trans-unit>
         <trans-unit id="Table 3120670915 - Field 1753214751 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center,Machine Center</source>
-          <target>Arbeitsplatz,Maschinenzentrum</target>
+          <target>Arbeitsplatz,Arbeitsplatzgruppe</target>
         </trans-unit>
         <trans-unit id="Table 3120670915 - Field 1882905478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source No.</source>
@@ -6305,7 +6465,7 @@
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 2725149570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Price Group</source>
-          <target>Kundenpreisgruppe</target>
+          <target>Debitorenpreisgruppe</target>
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 2806747465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Linked Characteristic Value</source>
@@ -6337,7 +6497,7 @@
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 3618491835 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Linked Characteristic Code</source>
-          <target>Verknüpfter Merkmalscode</target>
+          <target>Verknüpfter Merkmal Code</target>
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 3635338911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price</source>
@@ -6401,7 +6561,7 @@
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 3246210835 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
@@ -6439,9 +6599,13 @@
           <source>Configurator Characteristics</source>
           <target>Eigenschaften des Konfigurators</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 1032786358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 1</source>
+          <target>Bis numerischen Merkmalswert 1</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1149076538 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Decoding Type 2</source>
-          <target>Dekodierung Typ 2</target>
+          <source>Decoding Type 7</source>
+          <target>Decodierung Typ 7</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1149076538 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Structure,Measure</source>
@@ -6449,23 +6613,43 @@
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1342506819 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 9</source>
-          <target>MerkmalScode 9</target>
+          <target>Merkmal Code 9</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 1456738300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 4</source>
+          <target>Bis Merkmalswert 4</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 1501573952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 7</source>
+          <target>Bis numerischen Merkmalswert 7</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1511415842 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 6</source>
           <target>Merkmal Code 6</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 1542970701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 3</source>
+          <target>Numerischer Merkmalswert 3</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1590166321 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 1</source>
           <target>Merkmalswert 1</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 1710063403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 10</source>
+          <target>Numerischer Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1786836950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Key Code</source>
           <target>Schlüsselcode</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 181345066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 2</source>
+          <target>Bis Merkmalswert 2</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1942277124 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Decoding Type 5</source>
-          <target>Dekodierung Typ 5</target>
+          <source>Decoding Type 10</source>
+          <target>Dekodierung Typ 10</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 1942277124 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Structure,Measure</source>
@@ -6479,13 +6663,33 @@
           <source>Characteristic Code 8</source>
           <target>Merkmal Code 8</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2011758295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 5</source>
+          <target>Numerischer Merkmalswert 5</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2094434917 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 7</source>
+          <target>Bis Merkmalswert 7</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2139270569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 4</source>
+          <target>Bis numerischen Merkmalswert 4</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 2149112459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 1</source>
           <target>Merkmal Code 1</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2180667318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 2</source>
+          <target>Numerischer Merkmalswert 2</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 2205954001 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 10</source>
-          <target>Kennwert 10</target>
+          <target>Merkmalswert 10</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 226180718 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 9</source>
+          <target>Bis numerischen Merkmalswert 9</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 236022608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 4</source>
@@ -6503,9 +6707,13 @@
           <source>Structure,Measure</source>
           <target>Struktur,Maßnahme</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2563222511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 1</source>
+          <target>Bis Merkmalswert 1</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 2593378795 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Decoding Type 3</source>
-          <target>Dekodierung Typ 3</target>
+          <source>Decoding Type 8</source>
+          <target>Dekodierung Typ 8</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 2593378795 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Structure,Measure</source>
@@ -6514,6 +6722,30 @@
         <trans-unit id="Table 3271834374 - Field 2601276131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Description</source>
           <target>Variantenbeschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2601944670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 10</source>
+          <target>Bis numerischen Merkmalswert 10</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2649454912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 4</source>
+          <target>Numerischer Merkmalswert 4</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 267577467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 1</source>
+          <target>Numerischer Merkmalswert 1</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2732131534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 6</source>
+          <target>Bis Merkmalswert 6</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2776967186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 5</source>
+          <target>Bis numerischen Merkmalswert 5</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 2839474623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 10</source>
+          <target>Bis Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 2865559555 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 7</source>
@@ -6536,12 +6768,24 @@
           <target>Merkmalswert 3</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 3231075412 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Decoding Type 4</source>
-          <target>Dekodierung Typ 4</target>
+          <source>Decoding Type 9</source>
+          <target>Decodierung Typ 9</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 3231075412 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Structure,Measure</source>
           <target>Struktur,Maßnahme</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3287151529 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 7</source>
+          <target>Numerischer Merkmalswert 7</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3369828151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 9</source>
+          <target>Bis Merkmalswert 9</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3414663803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 2</source>
+          <target>Bis numerischen Merkmalswert 2</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 3424505693 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 3</source>
@@ -6567,13 +6811,37 @@
           <source>Structure,Measure</source>
           <target>Struktur,Maßnahme</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3755939123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 9</source>
+          <target>Numerischer Merkmalswert 9</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3838615745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 3</source>
+          <target>Bis Merkmalswert 3</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 3863124912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fix Item Description</source>
           <target>Fix-Artikel-Beschreibung</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3883451397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 8</source>
+          <target>Bis numerischen Merkmalswert 8</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 3893293287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 5</source>
           <target>Merkmal Code 5</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 3924848146 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 6</source>
+          <target>Numerischer Merkmalswert 6</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 4007524768 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 8</source>
+          <target>Bis Merkmalswert 8</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 4052360420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 3</source>
+          <target>Bis numerischen Merkmalswert 3</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 4062202310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 2</source>
@@ -6593,7 +6861,7 @@
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 4293349147 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 10</source>
-          <target>Merkmalscode 10</target>
+          <target>Merkmal Code 10</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 441508487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fix Item No.</source>
@@ -6604,8 +6872,8 @@
           <target>Merkmalswert 4</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 511379921 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Decoding Type 1</source>
-          <target>Dekodierung Typ 1</target>
+          <source>Decoding Type 6</source>
+          <target>Dekodierung Typ 6</target>
         </trans-unit>
         <trans-unit id="Table 3271834374 - Field 511379921 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Structure,Measure</source>
@@ -6615,6 +6883,14 @@
           <source>Neutral Item Description</source>
           <target>Neutrale Artikelbeschreibung</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 819041683 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Characteristic Value 5</source>
+          <target>Bis Merkmalswert 5</target>
+        </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 863877335 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>To Numeric Characteristic Value 6</source>
+          <target>Bis numerischen Merkmalswert 6</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Field 873719225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 7</source>
           <target>Merkmal Code 7</target>
@@ -6623,13 +6899,17 @@
           <source>Characteristic Value 2</source>
           <target>Merkmalswert 2</target>
         </trans-unit>
+        <trans-unit id="Table 3271834374 - Field 98668444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Characteristic Value 8</source>
+          <target>Numerischer Merkmalswert 8</target>
+        </trans-unit>
         <trans-unit id="Table 3271834374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Neutral Rule</source>
           <target>Neutrale Regel</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 1032786358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 1</source>
-          <target>Zum numerischen Merkmalswert 1</target>
+          <target>Bis numerischen Merkmalswert 1</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 1060937870 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 5</source>
@@ -6653,11 +6933,11 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 1456738300 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 4</source>
-          <target>Zum Merkmalswert 4</target>
+          <target>Bis Merkmalswert 4</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 1501573952 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 7</source>
-          <target>Zum numerischen Merkmalswert 7</target>
+          <target>Bis numerischen Merkmalswert 7</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 1529725464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 3</source>
@@ -6677,7 +6957,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 181345066 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 2</source>
-          <target>Zum Merkmalswert 2</target>
+          <target>Bis Merkmalswert 2</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 1942277124 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Decoding Type 10</source>
@@ -6693,11 +6973,11 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2094434917 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 7</source>
-          <target>Zum Merkmalswert 7</target>
+          <target>Bis Merkmalswert 7</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2139270569 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 4</source>
-          <target>Zum numerischen Merkmalswert 4</target>
+          <target>Bis numerischen Merkmalswert 4</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2180667318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Numeric Characteristic Value 2</source>
@@ -6705,7 +6985,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 226180718 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 9</source>
-          <target>Zum numerischen Merkmalswert 9</target>
+          <target>Bis numerischen Merkmalswert 9</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit of Measure Code</source>
@@ -6721,11 +7001,11 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2457921172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 10</source>
-          <target>Merkmalscode 10</target>
+          <target>Merkmal Code 10</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2563222511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 1</source>
-          <target>Zum Merkmalswert 1</target>
+          <target>Bis Merkmalswert 1</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2589773180 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 1</source>
@@ -6741,7 +7021,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2601944670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 10</source>
-          <target>Zum numerischen Merkmalswert 10</target>
+          <target>Bis numerischen Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2649454912 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Numeric Characteristic Value 4</source>
@@ -6753,7 +7033,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2732131534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 6</source>
-          <target>Zum Merkmalswert 6</target>
+          <target>Bis Merkmalswert 6</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2758682203 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 8</source>
@@ -6761,7 +7041,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2776967186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 5</source>
-          <target>Zum numerischen Merkmalswert 5</target>
+          <target>Bis numerischen Merkmalswert 5</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2805118698 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 1</source>
@@ -6769,7 +7049,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2839474623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 10</source>
-          <target>Zum Merkmalswert 10</target>
+          <target>Bis Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2842094365 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Description</source>
@@ -6777,11 +7057,11 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2930204114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 10</source>
-          <target>Kennwert 10</target>
+          <target>Merkmalswert 10</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2937233469 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Price</source>
-          <target>Stückpreis</target>
+          <target>VK-Preis</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 2974027721 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 8</source>
@@ -6809,7 +7089,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3232837564 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
-          <target>Typ</target>
+          <target>Verkaufscode</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3287151529 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Numeric Characteristic Value 7</source>
@@ -6821,15 +7101,15 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3369828151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 9</source>
-          <target>Zum Merkmalswert 9</target>
+          <target>Bis Merkmalswert 9</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3396378820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 9</source>
-          <target>MerkmalScode 9</target>
+          <target>Merkmal Code 9</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3414663803 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 2</source>
-          <target>Zum numerischen Merkmalswert 2</target>
+          <target>Bis numerischen Merkmalswert 2</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3442815315 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 6</source>
@@ -6865,7 +7145,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3838615745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 3</source>
-          <target>Zum Merkmalswert 3</target>
+          <target>Bis Merkmalswert 3</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3865166414 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 3</source>
@@ -6873,7 +7153,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 3883451397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 8</source>
-          <target>Zum numerischen Merkmalswert 8</target>
+          <target>Bis numerischen Merkmalswert 8</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 38986712 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code 5</source>
@@ -6889,11 +7169,11 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 4007524768 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 8</source>
-          <target>Zum Merkmalswert 8</target>
+          <target>Bis Merkmalswert 8</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 4052360420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 3</source>
-          <target>Zum numerischen Merkmalswert 3</target>
+          <target>Bis numerischen Merkmalswert 3</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 4080511932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 7</source>
@@ -6933,7 +7213,7 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 67248183 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Minimum Quantity</source>
@@ -6945,15 +7225,15 @@
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 730569223 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price Type</source>
-          <target>Preistyp</target>
+          <target>Verkaufsart</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 819041683 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Characteristic Value 5</source>
-          <target>Zum Merkmalswert 5</target>
+          <target>Bis Merkmalswert 5</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 863877335 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Numeric Characteristic Value 6</source>
-          <target>Zum numerischen Merkmalswert 6</target>
+          <target>Bis numerischen Merkmalswert 6</target>
         </trans-unit>
         <trans-unit id="Table 3285384992 - Field 892028847 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value 2</source>
@@ -6997,7 +7277,7 @@
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 1753214751 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center,Machine Center</source>
-          <target>Arbeitsplatz,Maschinenzentrum</target>
+          <target>Arbeitsplatz,Arbeitsplatzgruppe</target>
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 1882905478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source No.</source>
@@ -7033,7 +7313,7 @@
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 2793404423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Acronym</source>
-          <target>Akronym</target>
+          <target>Abkürzung</target>
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 2806747465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Linked Characteristic Value</source>
@@ -7057,11 +7337,11 @@
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 3543129988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
-          <target>Blockiert</target>
+          <target>Gesperrt</target>
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 3618491835 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Linked Characteristic Code</source>
-          <target>Verknüpfter Merkmalscode</target>
+          <target>Verknüpfter Merkmal Code</target>
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 3679347252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code</source>
@@ -7093,11 +7373,11 @@
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 448954477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value Posting</source>
-          <target>Wertbuchung</target>
+          <target>Dimensionswertbuchung</target>
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 448954477 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Code Mandatory,Same Code,No Code</source>
-          <target> ,Code Obligatorisch,Gleicher Code,Kein Code</target>
+          <target> ,Code notwendig,Gleicher Code,Kein Code</target>
         </trans-unit>
         <trans-unit id="Table 3321250850 - Field 662368029 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Task Code</source>
@@ -7229,7 +7509,7 @@
         </trans-unit>
         <trans-unit id="Table 3764698913 - Field 2865284978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Item No.</source>
-          <target>Neuer Artikel Nr.</target>
+          <target>Neue Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 3764698913 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
@@ -7245,7 +7525,7 @@
         </trans-unit>
         <trans-unit id="Table 3764698913 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 3764698913 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Config. Key</source>
@@ -7262,6 +7542,10 @@
         <trans-unit id="Table 3812383764 - Field 1986097501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Formula</source>
           <target>Formel</target>
+        </trans-unit>
+        <trans-unit id="Table 3812383764 - Field 2252917571 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Conditions</source>
+          <target>Bedingungen aktivieren</target>
         </trans-unit>
         <trans-unit id="Table 3812383764 - Field 2556434784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rounding Precision</source>
@@ -7327,6 +7611,26 @@
           <source>Characteristics Buffer</source>
           <target>Eigenschaften Puffer</target>
         </trans-unit>
+        <trans-unit id="Table 3899933881 - Field 1986097501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Formula Text</source>
+          <target>Formeltext</target>
+        </trans-unit>
+        <trans-unit id="Table 3899933881 - Field 2561924922 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Condition Code</source>
+          <target>Konditionscode</target>
+        </trans-unit>
+        <trans-unit id="Table 3899933881 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeile Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3899933881 - Field 360567701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Formula Code</source>
+          <target>Formelcode</target>
+        </trans-unit>
+        <trans-unit id="Table 3899933881 - Field 4154341761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence</source>
+          <target>Sequenz</target>
+        </trans-unit>
         <trans-unit id="Table 405664564 - Field 1225278069 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sell-to Customer No.</source>
           <target>Sell-to-Kunde-Nr.</target>
@@ -7357,7 +7661,7 @@
         </trans-unit>
         <trans-unit id="Table 405664564 - Field 2725149570 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Price Group</source>
-          <target>Kundenpreisgruppe</target>
+          <target>Debitorenpreisgruppe</target>
         </trans-unit>
         <trans-unit id="Table 405664564 - Field 3048556483 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Campaign No.</source>
@@ -7481,7 +7785,7 @@
         </trans-unit>
         <trans-unit id="Table 702556827 - Field 2149112459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Characteristic Code</source>
-          <target>Primärer Merkmalscode</target>
+          <target>Primärer Merkmal Code</target>
         </trans-unit>
         <trans-unit id="Table 702556827 - Field 2556434784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rounding Precision</source>
@@ -7513,7 +7817,7 @@
         </trans-unit>
         <trans-unit id="Table 702556827 - Field 4062202310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary Characteristic Code / Characteristics Set Code</source>
-          <target>Sekundärer Merkmalscode</target>
+          <target>Sekundärer Merkmal Code</target>
         </trans-unit>
         <trans-unit id="Table 702556827 - Field 526938458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Relation Type</source>
@@ -7573,7 +7877,7 @@
         </trans-unit>
         <trans-unit id="Table 763113879 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 763113879 - Field 581017290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Neutral Item Description</source>
@@ -7681,7 +7985,7 @@
         </trans-unit>
         <trans-unit id="Table 961492661 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
-          <target>Artikel-Nr.</target>
+          <target>Artikelnr.</target>
         </trans-unit>
         <trans-unit id="Table 961492661 - Method 3899786181 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must not be greater than %2.</source>
@@ -7717,7 +8021,7 @@
         </trans-unit>
         <trans-unit id="Table 968799168 - Field 3543129988 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Blocked</source>
-          <target>Blockiert</target>
+          <target>Gesperrt</target>
         </trans-unit>
         <trans-unit id="Table 968799168 - Field 3679347252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Code</source>
@@ -7734,6 +8038,30 @@
         <trans-unit id="Table 968799168 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Configurator Charac. Value</source>
           <target>Konfigurator Charac. Wert</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1116299013 - Field 1489291749 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Description</source>
+          <target>Neue Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1116299013 - Field 1950693283 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Description 2</source>
+          <target>Neue Beschreibung 2</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1116299013 - Field 2175242516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Routing</source>
+          <target>Arbeitsplan</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1116299013 - Field 3383377015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Production BOM</source>
+          <target>Fert.-Stückliste</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1116299013 - Field 3579018398 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Characteristics</source>
+          <target>Kopiereigenschaften</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1116299013 - Field 3880753539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Matrix Prices</source>
+          <target>Matrix-Preise kopieren</target>
         </trans-unit>
         <trans-unit id="TableExtension 1354922963 - Field 4030400643 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reference Surcharge Line No.</source>
@@ -7902,6 +8230,10 @@
         <trans-unit id="TableExtension 2799225220 - Field 3777800003 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fix,Neutral to Fix,Neutral to Configuration</source>
           <target>Fix,Neutral to Fix,Neutral to Configuration</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3436921837 - Field 2728414104 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity BOM Line</source>
+          <target>Mengenstücklistenposition</target>
         </trans-unit>
         <trans-unit id="TableExtension 3436921837 - Field 3755875919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unconfirmed Characteristics</source>
