@@ -3576,8 +3576,8 @@
           <target>Busque todas las entradas y documentos que existan para el número de documento y la fecha de contabilización en la entrada o documento seleccionado.</target>
         </trans-unit>
         <trans-unit id="Page 3387697026 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Navigate</source>
-          <target>Navegar</target>
+          <source>Find entries...</source>
+          <target>Encuentra movimientos</target>
         </trans-unit>
         <trans-unit id="Page 3387697026 - Action 881177948 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
@@ -5219,6 +5219,14 @@
           <source>Cost Account Chart (EMA)</source>
           <target>Tabla de cuentas de coste (EMA)</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the documento no. of reversal</source>
+          <target>Especifica el documento no. de inversión</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document No.</source>
+          <target>Documento de reverso No.</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Register you want the report to end.</source>
           <target>Especifica el número de registro cuando desea que finalice el informe.</target>
@@ -5226,26 +5234,6 @@
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Register No.</source>
           <target>Para registrar el No.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the c/a journal template</source>
-          <target>Especifica la plantilla de diario c/a</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Def. Template</source>
-          <target>Plantilla def.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of entry to reverse</source>
-          <target>Especifica qué tipo de entrada invertir</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source</source>
-          <target>Fuente</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,,,G/L Simulation,C/A Journal, </source>
-          <target> ,,,G/L Simulation,C/A Journal, </target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2482135175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date of reversal</source>
@@ -5263,6 +5251,14 @@
           <source>From Register No.</source>
           <target>Desde el registro No.</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal template</source>
+          <target>Especifica la plantilla de diario c/a</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal Template</source>
+          <target>plantilla de diario</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal batch</source>
           <target>Especifica el lote de c/a journal</target>
@@ -5270,6 +5266,10 @@
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jnl. Batch</source>
           <target>Jnl. Lote</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 1504301347" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missed Reverse Document No.</source>
+          <target>No. de documento inverso perdido</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
@@ -5286,6 +5286,10 @@
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Register no. may not be higher than to Register no.</source>
           <target>Del registro no. puede que no sea mayor que registrar el no.</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be reversed because it is marked as closed.</source>
+          <target>El registro %1 ya no se puede revertir porque está marcado como cerrado.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A Entries</source>
@@ -6046,10 +6050,6 @@
         <trans-unit id="Report 819671009 - NamedType 1123266489" translate="yes" size-unit="char" xml:space="preserve">
           <source>Are you sure?</source>
           <target>¿Estás seguro?</target>
-        </trans-unit>
-        <trans-unit id="Report 819671009 - NamedType 1398773668" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Another user has modified the cost register. The To Register No. field must be equal to %1.\Run the Delete Cost Entries batch job again.</source>
-          <target>Otro usuario ha modificado el registro de costes. El Para Registrar No. campo debe ser igual a %1.\Ejecutar el trabajo por lotes Eliminar entradas de coste de nuevo.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 2747019836" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete c/a register\</source>

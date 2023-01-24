@@ -3576,8 +3576,8 @@
           <target>Etsi kaikki tapahtumat ja asiakirjat, jotka ovat olemassa valitun tapahtuman tai asiakirjan asiakirjanumerolle ja kirjauspäivämäärälle.</target>
         </trans-unit>
         <trans-unit id="Page 3387697026 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Navigate</source>
-          <target>Navigoida</target>
+          <source>Find entries...</source>
+          <target>Etsi liikkeitä</target>
         </trans-unit>
         <trans-unit id="Page 3387697026 - Action 881177948 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
@@ -5219,6 +5219,14 @@
           <source>Cost Account Chart (EMA)</source>
           <target>Kustannustilikaavio (EMA)</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the documento no. of reversal</source>
+          <target>Määrittää asiakirjan nro. kääntymisestä</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document No.</source>
+          <target>Käänteinen asiakirja nro.</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Register you want the report to end.</source>
           <target>Määrittää lokin numeron, kun haluat raportin päättyvän.</target>
@@ -5226,26 +5234,6 @@
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Register No.</source>
           <target>Kirjausn nro</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the c/a journal template</source>
-          <target>Määrittää päiväkirjan mallin</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Def. Template</source>
-          <target>Def. malli</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of entry to reverse</source>
-          <target>Määrittää peruutettavan merkinnän tyypin</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source</source>
-          <target>Lähde</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,,,G/L Simulation,C/A Journal, </source>
-          <target> ,,,G/L-simulointi,C/A-päiväkirja, </target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2482135175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date of reversal</source>
@@ -5263,6 +5251,14 @@
           <source>From Register No.</source>
           <target>Lokin nro -sta</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal template</source>
+          <target>Määrittää c/a-päiväkirjamallin</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal Template</source>
+          <target>päiväkirjan malli</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal batch</source>
           <target>Määrittää päiväkirjan erän</target>
@@ -5270,6 +5266,10 @@
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jnl. Batch</source>
           <target>Jnl. Erä</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 1504301347" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missed Reverse Document No.</source>
+          <target>Unohtunut käänteinen asiakirja nro.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
@@ -5286,6 +5286,10 @@
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Register no. may not be higher than to Register no.</source>
           <target>Lokin numerosta ei saa olla suurempi kuin kirjata nro.</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be reversed because it is marked as closed.</source>
+          <target>Rekisteriä %1 ei voi enää peruuttaa, koska se on merkitty suljetuksi.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A Entries</source>
@@ -6046,10 +6050,6 @@
         <trans-unit id="Report 819671009 - NamedType 1123266489" translate="yes" size-unit="char" xml:space="preserve">
           <source>Are you sure?</source>
           <target>Oletko varma?</target>
-        </trans-unit>
-        <trans-unit id="Report 819671009 - NamedType 1398773668" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Another user has modified the cost register. The To Register No. field must be equal to %1.\Run the Delete Cost Entries batch job again.</source>
-          <target>Toinen käyttäjä on muokannut kustannusrekisteriä. Rekisteröitävä nro -1000 -kentän on oltava yhtä suuri kuin %1.\Suorita Poista kustannustapahtumat -eräajo uudelleen.</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 2747019836" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete c/a register\</source>
