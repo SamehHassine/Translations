@@ -531,6 +531,22 @@
           <source>%1 income statement accounts processed. %2 Cost Account created.</source>
           <target>%1 resultatregnskap behandlet. %2 Kostnadskonto opprettet.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 2476940767" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CA_SIM</source>
+          <target>CA_SIM</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>CA Journal</source>
+          <target>CA-journal</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 3752334001" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DEFAULT</source>
+          <target>Standard</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 985244087 - NamedType 95063322" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Journal</source>
+          <target>Standard journal</target>
+        </trans-unit>
         <trans-unit id="Enum 2803531008 - EnumValue 2493508126 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Final Balance</source>
           <target>Endelig balanse</target>
@@ -1246,6 +1262,10 @@
         <trans-unit id="Page 144125232 - Control 3852983238 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the G/L account</source>
           <target>Angir nummeret på finanskontoen</target>
+        </trans-unit>
+        <trans-unit id="Page 144125232 - Control 3852983238 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Account No.</source>
+          <target>Finanskontonr.</target>
         </trans-unit>
         <trans-unit id="Page 144125232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Account Association (EMA)</source>
@@ -2506,6 +2526,38 @@
         <trans-unit id="Page 2486623423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Analysis by Dimensions Matrix</source>
           <target>Matrise for analyse etter dimensjoner</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Action 210935239 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open a journal based on the journal batch.</source>
+          <target>Åpne en journal basert på kladden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Action 210935239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Journal</source>
+          <target>Rediger journal</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1351594800 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number series from which entry or record numbers are assigned to new entries or records.</source>
+          <target>Angir nummerserien som postnumrene eller postnumrene skal tilordnes til nye oppføringer eller oppføringer fra.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1891586249 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the general ledger, customer, vendor, or bank account that the balancing entry is posted to, such as a cash account for cash purchases.</source>
+          <target>Angir nummeret på finans-, kunde-, leverandør- eller bankkontoen som motposten bokføres til, for eksempel en kassakonto for kontantkjøp.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the reason code, a supplementary source code that enables you to trace the entry.</source>
+          <target>Angir årsakskoden, en supplerende kildekode som lar deg spore posten.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the journal you are creating.</source>
+          <target>Angir navnet på journalen du oppretter.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a brief description of the journal batch you are creating.</source>
+          <target>Angir en kort beskrivelse av kladden du oppretter.</target>
+        </trans-unit>
+        <trans-unit id="Page 2612414225 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Journal Batches</source>
+          <target>Konteringer for batchkostnadsregnskap</target>
         </trans-unit>
         <trans-unit id="Page 266345121 - Action 1267694758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create the drivers with dimension filters</source>
@@ -5087,6 +5139,14 @@
           <source>Cost Account Chart (EMA)</source>
           <target>Kostnadskontodiagram (EMA)</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the documento no. of reversal</source>
+          <target>Spesifiserer dokumentnr. av reversering</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 1260597371 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Document No.</source>
+          <target>Omvendt dokumentnr.</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Register you want the report to end.</source>
           <target>Angir loggnummeret når du vil at rapporten skal avsluttes.</target>
@@ -5094,26 +5154,6 @@
         <trans-unit id="Report 2549178234 - Control 1724499305 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Register No.</source>
           <target>For å logge nr.</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the c/a journal template</source>
-          <target>Angir c/a-kladdemalen</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2115621878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Def. Template</source>
-          <target>Def. Mal</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which type of entry to reverse</source>
-          <target>Angir hvilken type oppføring som skal reverseres</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Source</source>
-          <target>Kilde</target>
-        </trans-unit>
-        <trans-unit id="Report 2549178234 - Control 2230062041 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,,,G/L Simulation,C/A Journal, </source>
-          <target> ,,,G/L-simulering,C/A Journal, </target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Control 2482135175 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date of reversal</source>
@@ -5131,6 +5171,14 @@
           <source>From Register No.</source>
           <target>Fra loggnr.</target>
         </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the c/a journal template</source>
+          <target>Angir c/a-journalmalen</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - Control 2575925511 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Journal Template</source>
+          <target>journalmal</target>
+        </trans-unit>
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the c/a journal batch</source>
           <target>Angir c/a-kladden</target>
@@ -5138,6 +5186,10 @@
         <trans-unit id="Report 2549178234 - Control 389241264 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Jnl. Batch</source>
           <target>Jnl. Satsvis</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 1504301347" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Missed Reverse Document No.</source>
+          <target>Tapt omvendt dokumentnr.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>All corresponding c/a entries will be reversed. \Do you want to reverse Register %1 to %2?</source>
@@ -5154,6 +5206,10 @@
         <trans-unit id="Report 2549178234 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Register no. may not be higher than to Register no.</source>
           <target>Fra loggnr. kan ikke være høyere enn å logge nei.</target>
+        </trans-unit>
+        <trans-unit id="Report 2549178234 - NamedType 998548441" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Register %1 can no longer be reversed because it is marked as closed.</source>
+          <target>Register %1 kan ikke lenger reverseres fordi det er merket som lukket.</target>
         </trans-unit>
         <trans-unit id="Report 2549178234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reverse C/A Entries</source>
