@@ -8,12 +8,12 @@
           <target>Nr. spedizione %1 del %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 1591845207 - NamedType 3582497746" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Your </source>
-          <target>Vs. </target>
+          <source>Your %1 %2</source>
+          <target>Vs. %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 1591845207 - NamedType 834959089" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Our </source>
-          <target>Ns. </target>
+          <source>Our %1 %2</source>
+          <target>Ns. %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1213197687 - Method 2502111359 - NamedType 580820098" translate="yes" size-unit="char" xml:space="preserve">
           <source>Your %1 %2</source>
@@ -36,12 +36,12 @@
           <target>Nr. spedizione %1 del %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1583451121 - Method 1876623372 - NamedType 3582497746" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Your </source>
-          <target>Vs. </target>
+          <source>Your %1 %2</source>
+          <target>Vs. %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1583451121 - Method 1876623372 - NamedType 834959089" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Our </source>
-          <target>Ns. </target>
+          <source>Our %1 %2</source>
+          <target>Ns. %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1583451121 - Method 2502111359 - NamedType 580820098" translate="yes" size-unit="char" xml:space="preserve">
           <source>Your %1 %2</source>
@@ -164,12 +164,12 @@
           <target>Nr. spedizione %1 del %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 3074535964 - Method 1591845207 - NamedType 3582497746" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Your </source>
-          <target>Vs. </target>
+          <source>Your %1 %2</source>
+          <target>Vs. %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 3074535964 - Method 1591845207 - NamedType 834959089" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Our </source>
-          <target>Ns. </target>
+          <source>Our %1 %2</source>
+          <target>Ns. %1 %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 3074535964 - Method 2502111359 - NamedType 580820098" translate="yes" size-unit="char" xml:space="preserve">
           <source>Your %1 %2</source>
@@ -3881,7 +3881,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Action 521227458 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the posted source document such as Posted Sales Shipment,Posted Transfer Shipment,Posted Return Receipt or Posted Service Order.</source>
-          <target>Visualizza il documento di origine registrato, ad esempio Spedizione di vendita pubblicata, Spedizione di trasferimento pubblicata, Ricevuta di ritorno pubblicata o Ordine di servizio pubblicato.</target>
+          <target>Visualizza il documento origine registrato, ad esempio Spedizione vendita registrata, Spedizione di trasferimento registrata, Carico reso registrato o Ordine assistenza registrato.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Action 521227458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Source Document</source>
@@ -3893,11 +3893,11 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 1576505637 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code explaining why the item was returned.</source>
-          <target>Specifica il codice che spiega perché l'elemento è stato restituito.</target>
+          <target>Specifica il codice che spiega perché l'articolo è stato restituito.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 1631894181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of parcels of the item.</source>
-          <target>Specifica il numero di pacchi dell'articolo.</target>
+          <target>Specifica il numero di colli dell'articolo.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 1631894181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Units per Parcel</source>
@@ -3909,11 +3909,11 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line type.</source>
-          <target>Specifica il tipo di linea.</target>
+          <target>Specifica il tipo di riga.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 1920046521 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the name of the item or resource's unit of measure, such as piece or hour.</source>
-          <target>Specifica il nome dell'unità di misura dell'elemento o della risorsa, ad esempio pezzo o ora.</target>
+          <target>Specifica il nome dell'unità di misura dell'articolo o della risorsa, ad esempio pezzo o ora.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 2161572060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the location from where inventory items are to be shipped.</source>
@@ -3929,7 +3929,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
-          <target>Specifica come viene misurata ogni unità dell'elemento o della risorsa, ad esempio in pezzi o ore. Per impostazione predefinita, viene inserito il valore nel campo Unità di misura di base dell'elemento o della scheda risorsa.</target>
+          <target>Specifica come viene misurata ogni unità dell'articolo o della risorsa, ad esempio in pezzi o ore. Per impostazione predefinita, viene inserito il valore nel campo Unità di misura di base dell'elemento o della scheda risorsa.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 2680873021 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the customer, vendor, or location.</source>
@@ -3937,7 +3937,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of units of the item specified on the line.</source>
-          <target>Specifica il numero di unità dell'elemento specificato nella riga.</target>
+          <target>Specifica il numero di unità dell'articolo specificato nella riga.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 2721142765 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type of transaction that was posted with the line.</source>
@@ -3957,7 +3957,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 3088522385 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net weight of the item.</source>
-          <target>Specifica il peso netto dell'elemento.</target>
+          <target>Specifica il peso netto dell'articolo.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 3088522385 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Net Weight</source>
@@ -3969,7 +3969,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the variant of the item on the line.</source>
-          <target>Specifica la variante dell'elemento sulla riga.</target>
+          <target>Specifica la variante dell'articolo sulla riga.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a description of the record.</source>
@@ -3977,15 +3977,15 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 394042787 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line number of the posted source document.</source>
-          <target>Specifica il numero di riga del documento di origine pubblicato.</target>
+          <target>Specifica il numero di riga del documento di origine registrato.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 3948462483 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the cross-referenced item number. If you enter a cross reference between yours and your vendor's or customer's item number, then this number will override the standard item number when you enter the cross-reference number on a sales or purchase document.</source>
-          <target>Specifica il numero dell'elemento con riferimenti incrociati. Se inserisci un riferimento incrociato tra il tuo e il numero dell'articolo del tuo fornitore o cliente, questo numero sostituirà il numero di articolo standard quando inserisci il numero di riferimento incrociato su un documento di vendita o acquisto.</target>
+          <target>Specifica il numero dell'articolo con riferimenti incrociati. Se inserisci un riferimento incrociato tra il tuo e il numero dell'articolo del tuo fornitore o cliente, questo numero sostituirà il numero di articolo standard quando inserisci il numero di riferimento incrociato su un documento di vendita o acquisto.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 4034345114 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the volume of one unit of the item.</source>
-          <target>Specifica il volume di un'unità dell'elemento.</target>
+          <target>Specifica il volume di un'unità dell'articolo.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 4034345114 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Volume</source>
@@ -4005,7 +4005,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 4239513174 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the gross weight of the item.</source>
-          <target>Specifica il peso lordo dell'elemento.</target>
+          <target>Specifica il peso lordo dell'articolo.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 4239513174 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gross Weight</source>
@@ -4025,7 +4025,7 @@
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 64970433 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the posted source document.</source>
-          <target>Specifica il numero del documento di origine pubblicato.</target>
+          <target>Specifica il numero del documento di origine registrato.</target>
         </trans-unit>
         <trans-unit id="Page 810238550 - Control 763268384 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the line number of the source Blanket Order.</source>
@@ -4429,7 +4429,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 691287138 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CWS-Combine Warehouse Shipment</source>
-          <target>Spedizioni warehouse  cumulate CWS</target>
+          <target>Spedizioni warehouse cumulate CWS</target>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 70532756 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if post not inventory lines on source document while post warehouse shipment from a specific location.</source>
@@ -4921,7 +4921,7 @@
         </trans-unit>
         <trans-unit id="Report 4173981726 - Control 410905636 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if new CWS shipment has to be created using standard source document no. (i.e. standard posted sales shipment No.) or using a new no. from CWS nos. setup.</source>
-          <target>Specfica se le nuove spedizioni CWS saranno create utilizzando il nr. del documento originale (es. spedizione di vendita registrata standard) o utilizzando un nuovo nr. ricavato dal setup nr. serie CWS.</target>
+          <target>Specifica se le nuove spedizioni CWS saranno create utilizzando il nr. del documento originale (es. spedizione di vendita registrata standard) o utilizzando un nuovo nr. ricavato dal setup nr. serie CWS.</target>
         </trans-unit>
         <trans-unit id="Report 4173981726 - Control 410905636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Source Document No.</source>
@@ -4937,7 +4937,7 @@
         </trans-unit>
         <trans-unit id="Report 4173981726 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create CWS Shipment</source>
-          <target>Crea spedizione (CWS ) da documento origine</target>
+          <target>Crea spedizione (CWS) da documento origine</target>
         </trans-unit>
         <trans-unit id="Report 4173981726 - ReportDataItem 1340367376 - Property 1806354803" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Transfer Shipment</source>
