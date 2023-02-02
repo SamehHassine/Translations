@@ -179,6 +179,10 @@
           <source>Over-/Underdelivery Setup</source>
           <target>Setup consegne per eccesso/difetto</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1580237547 - Control 2924721467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this flag is active, the next ship/receive posting will reduce the outstanding quantity to zero.</source>
+          <target>Se questo flag è attivo, la successiva spedizione/ricezione ridurrà la quantità residua a zero.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1702453974 - Control 2924721467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If this flag is active, the next ship/receive posting will reduce the outstanding quantity to zero.</source>
           <target>Se questo flag è attivo, la successiva spedizione/ricezione ridurrà tutte le quantità residue a zero.</target>
@@ -222,6 +226,10 @@
         <trans-unit id="PageExtension 2855630781 - Action 1516721060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Over-/Underdelivery Setup</source>
           <target>Setup consegne per eccesso/difetto</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2855630781 - Control 2924721467 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this flag is active, the next ship/receive posting will reduce the outstanding quantity to zero.</source>
+          <target>Se questo flag è attivo, la successiva spedizione/ricezione ridurrà la quantità residua a zero.</target>
         </trans-unit>
         <trans-unit id="PageExtension 304844313 - Action 2727351743 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows all currently configured over-/underdelivery setup lines that are applicable to the selected document line.</source>
@@ -449,11 +457,11 @@
         </trans-unit>
         <trans-unit id="TableExtension 1315120984 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 1484030007 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 1484030007 - Field 30164623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Closed</source>
@@ -461,7 +469,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 2121726624 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 2121726624 - Field 30164623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Closed</source>
@@ -473,11 +481,19 @@
         </trans-unit>
         <trans-unit id="TableExtension 2759423241 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2759423241 - NamedType 2928641300" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Purchase Lines will be modified accordingly. Do you want to proceed?</source>
+          <target>Tutte le righe d'acquisto saranno modificate di conseguenza. Vuoi procedere?</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2759423241 - NamedType 4158711813" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Ignore Outstanding Quantity field was not updated</source>
+          <target>Il campo Ignora quantità residua non è stato aggiornato</target>
         </trans-unit>
         <trans-unit id="TableExtension 2913739087 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 2913739087 - Field 30164623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Closed</source>
@@ -485,7 +501,7 @@
         </trans-unit>
         <trans-unit id="TableExtension 3130061604 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 3130061604 - Field 30164623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Closed</source>
@@ -493,19 +509,27 @@
         </trans-unit>
         <trans-unit id="TableExtension 3397119858 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3397119858 - NamedType 2928641300" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Sales Lines will be modified accordingly. Do you want to proceed?</source>
+          <target>Tutte le righe di vendita saranno modificate di conseguenza. Vuoi procedere?</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3397119858 - NamedType 4158711813" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Ignore Outstanding Quantity field was not updated</source>
+          <target>Il campo Ignora quantità residua non è stato aggiornato</target>
         </trans-unit>
         <trans-unit id="TableExtension 377545796 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 4034816475 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 677424367 - Field 2924721467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ignore Outstanding Qty.</source>
-          <target>Ignora qtà. residua</target>
+          <target>Ignora quantità residua</target>
         </trans-unit>
         <trans-unit id="TableExtension 677424367 - Field 30164623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Closed</source>
