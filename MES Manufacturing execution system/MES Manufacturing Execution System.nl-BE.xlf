@@ -357,6 +357,9 @@
           <source>%1 is not enabled with barcode method %2</source>
           <target>%1 is niet ingeschakeld met streepjescodemethode %2</target>
         </trans-unit>
+        <trans-unit id="Codeunit 76897458 - Method 1776634238 - NamedType 1322428513" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code %1 not valid</source>
+        </trans-unit>
         <trans-unit id="Codeunit 840142135 - NamedType 159499448" translate="yes" size-unit="char" xml:space="preserve">
           <source>The entries were deleted from the log.</source>
         </trans-unit>
@@ -1844,6 +1847,12 @@
           <source>Load Default</source>
           <target>Standaard laden</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 2133361386 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>One Shot - Fix Panels</source>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Action 2133361386 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>One Shot - Fix Panels</source>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Action 2881010978 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Badge Barcode for Employee</source>
           <target>Badge-streepjescode afdrukken voor werknemer</target>
@@ -1931,7 +1940,7 @@
           <source>Force SN Information</source>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1760230646 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>If selected, quantities for family orders are recalculated using the ratio between the sum of line quantities and the Prod. Order quantity</source>
+          <source>If enabled, quantities for family orders are recalculated using the ratio between the sum of line quantities and the Prod. Order quantity</source>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1760230646 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Recalculate Family Orders Qty.</source>
@@ -2170,6 +2179,12 @@
         <trans-unit id="Page 2865843814 - Control 4087289332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Time Unit of Measure</source>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 4142499780 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, only one activity entry for family order will be available in activities list in Power Mes.</source>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 4142499780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show One Entry For Family Orders</source>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 414822867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set / Choose a specific series number for production panels</source>
         </trans-unit>
@@ -2402,6 +2417,9 @@
           <source>Select Production Lines</source>
           <target>Productielijnen selecteren</target>
         </trans-unit>
+        <trans-unit id="Page 3093956008 - Method 1738908163 - NamedType 1026168854" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MACHINE TIME</source>
+        </trans-unit>
         <trans-unit id="Page 3180221969 - Control 1541011875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "E-Mail" field</source>
         </trans-unit>
@@ -2526,6 +2544,12 @@
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 3891454143 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Location" field</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 4142499780 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, only one activity entry for family order will be available in activities list in Power Mes.</source>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 4142499780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show One Entry For Family Orders</source>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "No." field</source>
@@ -2864,6 +2888,9 @@
         <trans-unit id="PageExtension 3632576327 - Action 240434608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Scrap Codes</source>
         </trans-unit>
+        <trans-unit id="PageExtension 3632576327 - Control 3486481600 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage man time entries with MES</source>
+        </trans-unit>
         <trans-unit id="PageExtension 3632576327 - Control 3764818929 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>IoT Hub Name</source>
         </trans-unit>
@@ -3190,6 +3217,12 @@
           <source>Output Quantity</source>
           <target>Outputaantal</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2442639448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Man Time Management Type</source>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2442639448 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>None,Machine Time,Man Time</source>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 2542071172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Reference No.</source>
         </trans-unit>
@@ -3203,6 +3236,9 @@
         <trans-unit id="Table 1859070565 - Field 2703452831 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Undoed</source>
           <target>Ongedaan gemaakt</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2715611625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Work Center No.</source>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 2937233469 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit Price</source>
@@ -3258,6 +3294,9 @@
         <trans-unit id="Table 1859070565 - Field 385872691 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting DateTime</source>
           <target>Datum plaatsen</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3949660550 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hidden</source>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 4004740007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exported</source>
@@ -3336,6 +3375,9 @@
         <trans-unit id="Table 1859070565 - Field 582094086 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Weight</source>
           <target>Totaal gewicht</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 624614613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Time Entry No.</source>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 627218761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Closed-By Entry No.</source>
@@ -3502,6 +3544,12 @@
           <source>InputQty</source>
           <target>InputQty</target>
         </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 2442639448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Man Time Management Type</source>
+        </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 2442639448 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>None,Machine Time,Man Time</source>
+        </trans-unit>
         <trans-unit id="Table 2019290016 - Field 2449785275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Power-Mes</source>
         </trans-unit>
@@ -3518,9 +3566,15 @@
         <trans-unit id="Table 2019290016 - Field 270816758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource Type</source>
         </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 2715611625 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employee Work Center No.</source>
+        </trans-unit>
         <trans-unit id="Table 2019290016 - Field 2984834536 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Linked Entry No</source>
           <target>Gekoppelde invoer nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 3038992696 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Man Time Management</source>
         </trans-unit>
         <trans-unit id="Table 2019290016 - Field 3078778617 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>OutputType</source>
@@ -3580,6 +3634,9 @@
           <source>Family Barcode</source>
           <target>Familiebarcode</target>
         </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 3949660550 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Hidden</source>
+        </trans-unit>
         <trans-unit id="Table 2019290016 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>Nr.</target>
@@ -3619,6 +3676,9 @@
           <source>ProdOrderNo</source>
           <target>ProdOrderNo</target>
         </trans-unit>
+        <trans-unit id="Table 2019290016 - Field 624614613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Time Entry No.</source>
+        </trans-unit>
         <trans-unit id="Table 2019290016 - Field 629330946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Session Activity Id</source>
         </trans-unit>
@@ -3647,6 +3707,9 @@
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 237102728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Responsibles</source>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2505668655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Link Id</source>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 2544235875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Panel No.</source>
@@ -3835,6 +3898,9 @@
         <trans-unit id="Table 2865843814 - Field 4087289332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Time Unit of Measure</source>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 4142499780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>One Entry For Family Orders</source>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 414822867 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Panel Nos.</source>
         </trans-unit>
@@ -4001,6 +4067,9 @@
         <trans-unit id="Table 3448781404 - Field 2455516878 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assigned Resources Count</source>
         </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 2505668655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Link Id</source>
+        </trans-unit>
         <trans-unit id="Table 3448781404 - Field 2708250016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>User ID</source>
         </trans-unit>
@@ -4025,6 +4094,9 @@
         </trans-unit>
         <trans-unit id="Table 3448781404 - Field 3891454143 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Location</source>
+        </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 4142499780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>One Entry For Family Orders</source>
         </trans-unit>
         <trans-unit id="Table 3448781404 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
@@ -4228,6 +4300,9 @@
         </trans-unit>
         <trans-unit id="Table 934556774 - Field 3014885516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sequence No.</source>
+        </trans-unit>
+        <trans-unit id="Table 934556774 - Field 3676903573 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Badge MD5 Hash</source>
         </trans-unit>
         <trans-unit id="Table 934556774 - Field 4171342510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Badge No.</source>
