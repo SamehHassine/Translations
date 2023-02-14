@@ -1847,6 +1847,10 @@
           <source>Recalculate Line</source>
           <target>Linie neu berechnen</target>
         </trans-unit>
+        <trans-unit id="Page 180068439 - Action 4236135242 - Method 1377591017 - NamedType 3318682924" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post selected entries?</source>
+          <target>Ausgewählte Einträge posten?</target>
+        </trans-unit>
         <trans-unit id="Page 180068439 - Action 4236135242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Run Post.</source>
           <target>Run Post.</target>
@@ -3783,9 +3787,21 @@
           <source>Bonus Dimension Filters (SPB)</source>
           <target>Bonusdimensionsfilter (SPB)</target>
         </trans-unit>
+        <trans-unit id="Page 3199425634 - Action 3079681960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Show G/L Entry" action.</source>
+          <target>Führt die Aktion "Sachposten anzeigen" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Action 3079681960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show G/L Entry</source>
+          <target>Sachposten anzeigen</target>
+        </trans-unit>
         <trans-unit id="Page 3199425634 - Control 1211269503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value for the field Attached G/L Entry No.</source>
+          <source>Specifies the value for the field "Attached G/L Entry No."</source>
           <target>Gibt den Wert für das Feld Angefügter Sachposten Nr. an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 1470647195 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "G/L Entry Table No." field.</source>
+          <target>Gibt den Wert des Felds "Sachposten-Tabellennr." an.</target>
         </trans-unit>
         <trans-unit id="Page 3199425634 - Control 2353753992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the field Attached Sim. G/L Entry No.</source>
@@ -3842,6 +3858,14 @@
         <trans-unit id="Page 3234068464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Classes (SPB)</source>
           <target>Bonusklassen (SPB)</target>
+        </trans-unit>
+        <trans-unit id="Page 3463441495 - Action 1090922218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Edit Doc. Amount" action</source>
+          <target>Führt die Aktion "Dokument bearbeiten" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 3463441495 - Action 1090922218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
+          <target>Dokumentbetrag bearbeiten</target>
         </trans-unit>
         <trans-unit id="Page 3463441495 - Action 1613734570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Match to Posted Document" action</source>
@@ -4135,6 +4159,14 @@
           <source>Specifies Point Remaining Quantity</source>
           <target>Gibt Punkt restliche Menge an</target>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 2052575901 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "No. of G/L Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Anzahl FiBu-Posten" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 2052575901 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of G/L Entries</source>
+          <target>Anzahl FiBu-Posten</target>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Control 205345179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Subtype.</source>
           <target>Gibt den Untertyp "Quelle" an.</target>
@@ -4362,6 +4394,14 @@
         <trans-unit id="Page 3822340309 - Control 592951229 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Amount (LCY).</source>
           <target>Gibt Betrag (LCY) an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 624733304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "No. of Gen. Journal Lines" field.</source>
+          <target>Gibt den Wert des Feldes "Anzahl FiBu.-Buch.-Blattzeilen" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 624733304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Gen. Journal Lines</source>
+          <target>Anzahl FiBu.-Buch.-Blattzeilen</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 627063663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Ref. No..</source>
@@ -6455,14 +6495,6 @@
           <source>Specifies the value of the Amount Type Field</source>
           <target>Gibt den Wert des Felds "Betragstyp" an.</target>
         </trans-unit>
-        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount Type</source>
-          <target>Betragsart</target>
-        </trans-unit>
-        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount (LCY), Remaining Amount (LCY)</source>
-          <target>Betrag (LCY), Restbetrag (LCY)</target>
-        </trans-unit>
         <trans-unit id="Report 1020202860 - Control 2887304775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Allocation Automatic Posting field</source>
           <target>Gibt den Wert des Felds "Automatische Buchung" an.</target>
@@ -7166,10 +7198,6 @@
         <trans-unit id="Table 1179069124 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
           <target>Belegdatum</target>
-        </trans-unit>
-        <trans-unit id="Table 1179069124 - Field 844264456 - Method 2126772001 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 cannot be greater than %2.</source>
-          <target>%1 kann nicht größer als %2 sein.</target>
         </trans-unit>
         <trans-unit id="Table 1179069124 - Field 844264456 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Amount to Match</source>
@@ -8618,6 +8646,10 @@
         <trans-unit id="Table 548237356 - Field 1211269503 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attached G/L Entry No.</source>
           <target>Angefügte Sacheingangsnummer.</target>
+        </trans-unit>
+        <trans-unit id="Table 548237356 - Field 1470647195 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Entry Table No.</source>
+          <target>Sachposten-Tabellennr.</target>
         </trans-unit>
         <trans-unit id="Table 548237356 - Field 2353753992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attached Sim. G/L Entry No.</source>

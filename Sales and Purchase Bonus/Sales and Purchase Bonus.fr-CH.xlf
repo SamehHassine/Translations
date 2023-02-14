@@ -55,6 +55,9 @@
           <source>%1 must not be %2 in %3 if %4 is %5 in %6.</source>
           <target>%1 ne doit pas être %2 en %3 si %4 est %5 en %6.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1294261829 - Method 3861049316 - NamedType 1034882455" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot modify this document because it is connected to a %1.</source>
+        </trans-unit>
         <trans-unit id="Codeunit 1294261829 - Method 662211176 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
           <source>Created documents:\%1 Sales Invoices %2\%3 Purchase Credit Memos %4</source>
           <target>Documents créés:\%1 Factures de vente %2\%3 Mémos de crédit d’achat %4</target>
@@ -178,6 +181,18 @@
         <trans-unit id="Codeunit 3350342113 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be %2</source>
           <target>%1 doit être %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - Method 892462309 - NamedType 883549673" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This is a reversed entry and cannot be reversed.</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 2626561907" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document %1 was created. Do you want to open it?</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 3158364080" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to reverse the selected %1 entries?</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 4064944010 - NamedType 417816387" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The operation was completed.</source>
         </trans-unit>
         <trans-unit id="Codeunit 4075839539 - Method 2148587536 - NamedType 3797269194" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to delete also lines posted from journal for line %1?</source>
@@ -1826,6 +1841,9 @@
         <trans-unit id="Page 180068439 - Action 3464210735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Recalculate Line</source>
           <target>Ligne de recalcule</target>
+        </trans-unit>
+        <trans-unit id="Page 180068439 - Action 4236135242 - Method 1377591017 - NamedType 3318682924" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Post selected entries?</source>
         </trans-unit>
         <trans-unit id="Page 180068439 - Action 4236135242 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Run Post.</source>
@@ -3763,9 +3781,18 @@
           <source>Bonus Dimension Filters (SPB)</source>
           <target>Filtres Dimension Bonus (SPB)</target>
         </trans-unit>
+        <trans-unit id="Page 3199425634 - Action 3079681960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Show G/L Entry" action.</source>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Action 3079681960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show G/L Entry</source>
+        </trans-unit>
         <trans-unit id="Page 3199425634 - Control 1211269503 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value for the field Attached G/L Entry No.</source>
+          <source>Specifies the value for the field "Attached G/L Entry No."</source>
           <target>Spécifie la valeur du champ Numéro d’entrée G/L attaché.</target>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 1470647195 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "G/L Entry Table No." field.</source>
         </trans-unit>
         <trans-unit id="Page 3199425634 - Control 2353753992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value for the field Attached Sim. G/L Entry No.</source>
@@ -3822,6 +3849,12 @@
         <trans-unit id="Page 3234068464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Classes (SPB)</source>
           <target>Classes bonus (SPB)</target>
+        </trans-unit>
+        <trans-unit id="Page 3463441495 - Action 1090922218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Edit Doc. Amount" action</source>
+        </trans-unit>
+        <trans-unit id="Page 3463441495 - Action 1090922218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
         </trans-unit>
         <trans-unit id="Page 3463441495 - Action 1613734570 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Match to Posted Document" action</source>
@@ -3979,6 +4012,9 @@
           <source>Ent&amp;ry</source>
           <target>É&amp;criture</target>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Action 3090661100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter</source>
           <target>Filtre</target>
@@ -4110,6 +4146,12 @@
         <trans-unit id="Page 3822340309 - Control 2037393182 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Point Remaining Quantity</source>
           <target>Spécifie la quantité restante de point</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 2052575901 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "No. of G/L Entries" field.</source>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 2052575901 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of G/L Entries</source>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 205345179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Subtype.</source>
@@ -4338,6 +4380,12 @@
         <trans-unit id="Page 3822340309 - Control 592951229 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Amount (LCY).</source>
           <target>Spécifie le montant (LCY).</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 624733304 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "No. of Gen. Journal Lines" field.</source>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 624733304 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Gen. Journal Lines</source>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 627063663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Ref. No..</source>
@@ -4807,6 +4855,12 @@
           <source>&amp;Line</source>
           <target>&amp;Ligne</target>
         </trans-unit>
+        <trans-unit id="Page 531766781 - Action 3015475257 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Reverse Settlement Entry" action.</source>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
+        </trans-unit>
         <trans-unit id="Page 531766781 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Card.</source>
           <target>Carte ouverte.</target>
@@ -4838,6 +4892,9 @@
         <trans-unit id="Page 531766781 - Control 205345179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Subtype.</source>
           <target>Specifie Source Subtype.</target>
+        </trans-unit>
+        <trans-unit id="Page 531766781 - Control 2147029023 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Applies To Line No." field.</source>
         </trans-unit>
         <trans-unit id="Page 531766781 - Control 2148514616 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the bonus settlement plan line no.</source>
@@ -5234,6 +5291,9 @@
         <trans-unit id="Page 905483125 - Action 2256583518 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ent&amp;ry</source>
           <target>É&amp;criture</target>
+        </trans-unit>
+        <trans-unit id="Page 905483125 - Action 3015475257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement Entry</source>
         </trans-unit>
         <trans-unit id="Page 905483125 - Action 3705837455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Detail Entries.</source>
@@ -6415,14 +6475,6 @@
           <source>Specifies the value of the Amount Type Field</source>
           <target>Spécifie la valeur du champ Type de montant</target>
         </trans-unit>
-        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount Type</source>
-          <target>Type montant</target>
-        </trans-unit>
-        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Amount (LCY), Remaining Amount (LCY)</source>
-          <target>Montant (LCY), Montant restant (LCY)</target>
-        </trans-unit>
         <trans-unit id="Report 1020202860 - Control 2887304775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Allocation Automatic Posting field</source>
           <target>Spécifie la valeur du champ Affectation automatique de validation</target>
@@ -6763,6 +6815,60 @@
           <source>Bonus Line</source>
           <target>Ligne Bonus</target>
         </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 127016515 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "External Document No." field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 127016515 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>External Document No.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1423652785 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1648730711 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Amount to Reverse" field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1648730711 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount to Reverse</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1799957115 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer Name" field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 1799957115 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Name</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 225977891 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor Name" field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 225977891 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor Name</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2488229775 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Document Type" field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2488229775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 2624112765 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 328206769 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Customer No." field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 328206769 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer No.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 3359756889 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Vendor No." field.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 3359756889 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vendor No.</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Control 4024502501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer</source>
+        </trans-unit>
+        <trans-unit id="Report 3145614162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reverse Settlement</source>
+        </trans-unit>
         <trans-unit id="Report 3226906145 - Control 1602546137 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Document No." field</source>
           <target>Spécifie la valeur du champ « Numéro de document ».</target>
@@ -7054,10 +7160,6 @@
         <trans-unit id="Table 1179069124 - Field 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
           <target>Date document</target>
-        </trans-unit>
-        <trans-unit id="Table 1179069124 - Field 844264456 - Method 2126772001 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 cannot be greater than %2.</source>
-          <target>L'%1 ne peut pas être supérieur à l'%2.</target>
         </trans-unit>
         <trans-unit id="Table 1179069124 - Field 844264456 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Amount to Match</source>
@@ -8335,6 +8437,9 @@
           <source>Source Subtype</source>
           <target>Sous-type origine</target>
         </trans-unit>
+        <trans-unit id="Table 3461177407 - Field 2147029023 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Applies To Line No.</source>
+        </trans-unit>
         <trans-unit id="Table 3461177407 - Field 2148514616 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Settlement Plan</source>
           <target>Plan de règlement bonus</target>
@@ -8503,6 +8608,9 @@
           <source>Attached G/L Entry No.</source>
           <target>Joint G/L Entrée No.</target>
         </trans-unit>
+        <trans-unit id="Table 548237356 - Field 1470647195 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>G/L Entry Table No.</source>
+        </trans-unit>
         <trans-unit id="Table 548237356 - Field 2353753992 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attached Sim. G/L Entry No.</source>
           <target>Sim attaché. G/L Numéro d’entrée</target>
@@ -8626,6 +8734,9 @@
         <trans-unit id="Table 559801399 - Field 1932217774 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>G/L Register no.</source>
           <target>N° hist. transaction compta.</target>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Field 1956996216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed By Entry No.</source>
         </trans-unit>
         <trans-unit id="Table 559801399 - Field 2037375551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inventory Posting Group</source>
@@ -8831,6 +8942,9 @@
           <source>Settlement Exclusion</source>
           <target>Exclusion de règlement</target>
         </trans-unit>
+        <trans-unit id="Table 559801399 - Field 3744289816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed</source>
+        </trans-unit>
         <trans-unit id="Table 559801399 - Field 3746683098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted from Line No.</source>
           <target>Publié à partir de la ligne No.</target>
@@ -8850,6 +8964,9 @@
         <trans-unit id="Table 559801399 - Field 401773189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value Type</source>
           <target>Type de valeur</target>
+        </trans-unit>
+        <trans-unit id="Table 559801399 - Field 4022792525 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reversed By User Id</source>
         </trans-unit>
         <trans-unit id="Table 559801399 - Field 4162822152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Header Batch Name</source>

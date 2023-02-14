@@ -43,6 +43,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Allocation Entry - Field Entry No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 548237356 - Field 1470647195 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Entry Table No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Allocation Entry - Field G/L Entry Table No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 548237356 - Field 2704330142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Journal Batch Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -167,11 +172,6 @@
           <source>Amount to Match</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Document Matching - Field Amount to Match - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1179069124 - Field 844264456 - Method 2126772001 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1 cannot be greater than %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Document Matching - Field Amount to Match - Method OnValidate - NamedType Text001Err</note>
         </trans-unit>
         <trans-unit id="Table 1179069124 - Field 477910301 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bill-to/Pay-to Name</source>
@@ -3179,7 +3179,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Attached Bonus Entry No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3199425634 - Control 1211269503 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value for the field Attached G/L Entry No.</source>
+          <source>Specifies the value for the field "Attached G/L Entry No."</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Attached G/L Entry No. - Property ToolTip</note>
         </trans-unit>
@@ -3192,6 +3192,11 @@
           <source>Specifies the value for the field Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Control 1470647195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "G/L Entry Table No." field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control G/L Entry Table No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3199425634 - Control 2704330142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value for the field Journal Batch Name.</source>
@@ -3207,6 +3212,16 @@
           <source>Specifies the value for the field Journal Template Name.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Control Journal Template Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Action 3079681960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Show G/L Entry" action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Action ShowGlEntry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3199425634 - Action 3079681960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show G/L Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Allocation Entries - Action ShowGlEntry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 905483125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Applied Ledger Entries (SPB)</source>
@@ -4372,6 +4387,26 @@
           <source>Specifies No..</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 624733304 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "No. of Gen. Journal Lines" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control NoOfGGenJnlLinesField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 624733304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Gen. Journal Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control NoOfGGenJnlLinesField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 2052575901 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "No. of G/L Entries" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control NoOfGlEntriesField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 2052575901 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of G/L Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control NoOfGlEntriesField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 4259830144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Open.</source>
@@ -8583,6 +8618,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Doc. Matching - Control Starting Date Filter - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3463441495 - Action 1090922218 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Edit Doc. Amount" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Doc. Matching - Action Edit Doc. Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3463441495 - Action 1090922218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Doc. Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Doc. Matching - Action Edit Doc. Amount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3463441495 - Action 3742662789 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Match action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9137,6 +9182,11 @@
           <source>Post</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action P&amp;ost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 180068439 - Action 4236135242 - Method 1377591017 - NamedType 3318682924" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post selected entries?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Journal Subf. - Action P&amp;ost - Method OnAction - NamedType confirmLbl</note>
         </trans-unit>
         <trans-unit id="Page 180068439 - Action 2748363056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Run Post Source Order.</source>
@@ -9902,16 +9952,6 @@
           <source>Specifies the value of the Amount Type Field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Calc. Alloc. Entry - Control Amount Type - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amount Type</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Calc. Alloc. Entry - Control Amount Type - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1020202860 - Control 2638546648 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Amount (LCY), Remaining Amount (LCY)</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Bonus Calc. Alloc. Entry - Control Amount Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Report 1020202860 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies document no. to use for generated journal lines. If not specified, standard no. series on batch will be used.</source>
