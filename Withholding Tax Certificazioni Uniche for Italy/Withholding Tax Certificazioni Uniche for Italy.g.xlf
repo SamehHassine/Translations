@@ -423,6 +423,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Withh. Tax Export Data - Field Reason - Property OptionCaption</note>
         </trans-unit>
+        <trans-unit id="Table 3198030552 - Field 564897961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Withh. Tax Export Data - Field ReasonEnum - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3198030552 - Field 2618029887 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Record Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -612,6 +617,11 @@
           <source>Vendor with No. = %1 must have a value in either %2 or %3.</source>
           <note from="Developer" annotates="general" priority="2">%1 = Vendor No., %2 = Fiscal Code, %3 = VAT Reg. No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Withholding Tax Export - NamedType VendorMustHaveFiscalCodeOrVatRegNoErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3692669087 - Method 1910891892 - NamedType 818158922" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CUR%1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Withholding Tax Export - Method CreateRecordA - NamedType CURLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 826558659 - Method 3437387899 - NamedType 1221256377" size-unit="char" translate="yes" xml:space="preserve">
           <source>Modello sintetico_CUR%1_%2_%3.pdf</source>
@@ -1523,6 +1533,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Update Withh. Reason - Control General - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 1731137292 - Control 590385086 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "New Reason" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Update Withh. Reason - Control NewReasonField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 1731137292 - Control 590385086 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Update Withh. Reason - Control NewReasonField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 1731137292 - Control 4145702666 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "New Reason" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1623,6 +1643,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095815 - Control EOS Non-Taxable Income Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3380489494 - Control 4142233311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2395238464">
+          <source>Extends the standard Reason field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095815 - Control EOS Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3680368065 - Control 4142233311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2506045401">
+          <source>Extends the standard Reason field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095818 - Control EOS Reason - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 23097386 - Control 4142233311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1145118290">
+          <source>Extends the standard Reason field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18095819 - Control EOS Reason - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="TableExtension 811221289 - Field 851494481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1984731700">
           <source>Non-Income Amounts</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1633,10 +1668,30 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059815 - Field EOS Non-Taxable Income Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 811221289 - Field 4142233311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1984731700">
+          <source>Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059815 - Field EOS Reason - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 811221289 - Field 965653479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1984731700">
           <source>System-Created Entry</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059815 - Field EOS System-Created Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 811221289 - Field 3535096486 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1984731700">
+          <source>UpgradeInstall Tag</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059815 - Field EOS UpgradeInstall Tag - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3830795351 - Field 4142233311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1183804702">
+          <source>Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059817 - Field EOS Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3193098734 - Field 4142233311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1577214137">
+          <source>Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18059818 - Field EOS Reason - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2016970217 - EnumValue 4256659720 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Modello Sintetico 2017</source>
@@ -1668,10 +1723,175 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS PDF Cert. Unica Version - EnumValue 2022 - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Enum 2016970217 - EnumValue 3511339853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Modello Sintetico 2023</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS PDF Cert. Unica Version - EnumValue 2023 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 2016970217 - EnumValue 3431463797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Modello Sintetico Utente</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS PDF Cert. Unica Version - EnumValue Custom - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3939861283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>A</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue A - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1557983838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>B</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue B - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 920287221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue C - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2026771432 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>D</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue D - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1389074815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue E - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2664468049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue G - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1089196244 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>H</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue H - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 451499627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>I</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue I - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2364589478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>J</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue J - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1726892861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>K</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue K - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2833377072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>L</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue L - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3132997375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>L1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue L1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2195680455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>M</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue M - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 4152646688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>M1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue M1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 495376009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>M2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue M2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 4108770306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>N</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue N - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3471073689 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>O</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue O - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3616378146 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>O1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue O1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1895801884 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>P</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue P - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 1258105267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Q</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue Q - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3171195118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>R</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue R - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2533498501 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>S</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue S - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3639982712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>T</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue T - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 3002286095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>U</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue U - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 620408650 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>V</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue V - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 493231369 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>V1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue V1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 4150502048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>V2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue V2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 4277679329 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>W</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue W - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2702407524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>X</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue X - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2064710907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Y</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue Y - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 684429084 - EnumValue 2342890807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ZO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS036 Reason - EnumValue ZO - Property Caption</note>
         </trans-unit>
       </group>
     </body>
