@@ -733,7 +733,7 @@
         </trans-unit>
         <trans-unit id="Page 111427551 - Action 1092155627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity / Amount Detail</source>
-          <target>Dettagli quantità/importo</target>
+          <target>Dettagli mov. contab.</target>
         </trans-unit>
         <trans-unit id="Page 111427551 - Action 2115994922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print the item specific cost</source>
@@ -2466,6 +2466,10 @@
         <trans-unit id="Page 3119941560 - Control 2765545487 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if calculate costs for lot no. and serial no.</source>
           <target>Specifica se calcolare i costi anche per specifici numeri lotti e seriali</target>
+        </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 2816710344 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Average Cost - Include Purch. Cr. Memo field.</source>
+          <target>Specifica il valore del campo Costo medio - Includi nota di credito di acquisto.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2960043152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use for third level of subcontracting cost</source>
@@ -4929,7 +4933,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 2726524116" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Overhead Routing Amount</source>
-          <target>Importo costi gen. cap. ciclo a costo medio</target>
+          <target>Importo costi gen. cap. ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 3208035963" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Amount</source>
@@ -4957,7 +4961,7 @@
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 3992551010" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order Comp. Amount</source>
-          <target>Importo produz. a costo medio</target>
+          <target>Importo produzione</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - ReportLabel 4174051284" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order No.</source>
@@ -5165,7 +5169,7 @@
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1611568094" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Routing Amount</source>
-          <target>Importo costi gen. cap. ciclo a costo medio</target>
+          <target>Importo costi gen. cap. ciclo</target>
         </trans-unit>
         <trans-unit id="Report 2560877370 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
@@ -5497,7 +5501,7 @@
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3557152938" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order Comp. Amount</source>
-          <target>Importo produz. a costo medio</target>
+          <target>Importo produzione</target>
         </trans-unit>
         <trans-unit id="Report 2670902002 - ReportLabel 3579684748" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order No.</source>
@@ -6679,6 +6683,10 @@
           <source>Inventory,Amount</source>
           <target>Giacenza,Valori progressivi</target>
         </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 2816710344 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average Cost - Include Purch. Cr. Memo</source>
+          <target>Costo medio - Includi nota di credito di acquisto</target>
+        </trans-unit>
         <trans-unit id="Table 1573099788 - Field 2960043152 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subcontracting Cost Priority 3</source>
           <target>Costo conto lavoro priorità 3</target>
@@ -6753,7 +6761,7 @@
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 450511103 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cap. Add. Cost Code</source>
-          <target>Cod. capacità diretta costo agg.</target>
+          <target>Cod. natura di costo capacità diretta</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 451902762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cap. Default Add. Cost Code</source>
@@ -6809,7 +6817,7 @@
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Other Cost</source>
-          <target>Costo aggiuntivo medio</target>
+          <target>Altri costi a costo medio</target>
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -6825,7 +6833,7 @@
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Average Other Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Altri costi a costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 3680588356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Overhead Material Cost</source>
@@ -6865,7 +6873,7 @@
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 1251760580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Single-Level Add. Cost</source>
-          <target>Costo agg. standard - Livello sing.</target>
+          <target>Costo standard - Livello sing.</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 1684693817 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Amount</source>
@@ -6877,19 +6885,19 @@
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 1863996567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WAC Rolled-up Add. Cost</source>
-          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
+          <target>Costo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 1963077604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WAC Single-Level Add. Cost</source>
-          <target>Costo aggiuntivo medio pond. - livello singolo</target>
+          <target>Costo medio pond. - livello singolo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 2076179703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Rolled-up Add. Cost</source>
-          <target>Costo agg. standard - Ricalcolo</target>
+          <target>Costo standard - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 2209660349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Rolled-up Add. Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -6901,7 +6909,7 @@
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 3003759186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Single-Level Add. Cost</source>
-          <target>Costo aggiuntivo medio - livello singolo</target>
+          <target>Costo medio - livello singolo</target>
         </trans-unit>
         <trans-unit id="Table 2251501785 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
@@ -7937,7 +7945,7 @@
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 1251760580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Single-Level Add. Cost</source>
-          <target>Costo agg. standard - Livello sing.</target>
+          <target>Costo standard - Livello sing.</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
@@ -7953,19 +7961,19 @@
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 1863996567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WAC Rolled-up Add. Cost</source>
-          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
+          <target>Costo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 1963077604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WAC Single-Level Add. Cost</source>
-          <target>Costo aggiuntivo medio pond. - livello singolo</target>
+          <target>Costo medio pond. - livello singolo</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 2076179703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Rolled-up Add. Cost</source>
-          <target>Costo agg. standard - Ricalcolo</target>
+          <target>Costo standard - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 2209660349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Rolled-up Add. Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -7977,7 +7985,7 @@
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 3003759186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Single-Level Add. Cost</source>
-          <target>Costo aggiuntivo medio - livello singolo</target>
+          <target>Costo medio - livello singolo</target>
         </trans-unit>
         <trans-unit id="Table 3589614359 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
@@ -8129,7 +8137,7 @@
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 1251760580 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Single-Level Add. Cost</source>
-          <target>Costo agg. standard - Livello sing.</target>
+          <target>Costo standard - Livello sing.</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
@@ -8145,19 +8153,19 @@
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 1863996567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WAC Rolled-up Add. Cost</source>
-          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
+          <target>Costo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 1963077604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>WAC Single-Level Add. Cost</source>
-          <target>Costo aggiuntivo medio pond. - livello singolo</target>
+          <target>Costo medio pond. - livello singolo</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 2076179703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Rolled-up Add. Cost</source>
-          <target>Costo agg. standard - Ricalcolo</target>
+          <target>Costo standard - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 2209660349 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Rolled-up Add. Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -8169,7 +8177,7 @@
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 3003759186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Single-Level Add. Cost</source>
-          <target>Costo aggiuntivo medio - livello singolo</target>
+          <target>Costo medio - livello singolo</target>
         </trans-unit>
         <trans-unit id="Table 4087155669 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant Code</source>
@@ -8269,7 +8277,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Other Cost</source>
-          <target>Costo aggiuntivo medio</target>
+          <target>Altri costi a costo medio</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 2554411924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Material WAC</source>
@@ -8317,7 +8325,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 3483968494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Other Cost WAC</source>
-          <target>Costo aggiuntivo medio pond.</target>
+          <target>Altri costi a costo medio pond.</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 3501167128 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Direct Capacity WAC</source>
@@ -8329,7 +8337,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Average Other Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Altri costi a costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 3590891415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Subcontracted Amount</source>
@@ -8345,7 +8353,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 4038061973 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Other Cost WAC</source>
-          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
+          <target>Altri costi a costo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 4149096017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Capacity WAC</source>
@@ -8645,7 +8653,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2143919915 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,WAC,Standard,Prev. Year Last Cost,Budget Cost</source>
-          <target> ,Costo medio ponderato,Standard,Ultimo costo anno precedente,Costo budget</target>
+          <target> ,Costo medio ponderato,Standard,Ultimo costo precedente,Costo budget</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2191539452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Routing Overhead Amount</source>
@@ -8677,7 +8685,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Average Other Cost</source>
-          <target>Costo aggiuntivo medio - Liv. sing.</target>
+          <target>Costo medio - Liv. sing.</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2554411924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Mfg. Ovhd. WAC</source>
@@ -8705,7 +8713,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2639665725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-Up Other Cost</source>
-          <target>Costi agg. - Ricalcolo</target>
+          <target>Altri costi a costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2655807025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Start Period Inventory</source>
@@ -8757,7 +8765,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3281262850 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Other Cost</source>
-          <target>Costi agg. - Liv. singolo</target>
+          <target>Altri costi a costo medio - Liv. singolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
@@ -8797,7 +8805,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3483968494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Other Cost WAC</source>
-          <target>Costo aggiuntivo medio pond. - Liv. sing.</target>
+          <target>Costo medio pond. - Liv. sing.</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3500504311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Replenishment System</source>
@@ -8829,7 +8837,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Average Other Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3585864286 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Routing Cost</source>
@@ -8869,7 +8877,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 4038061973 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Other Cost WAC</source>
-          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
+          <target>Altri costi a costo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 411531942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Unit of Measure</source>
@@ -8993,7 +9001,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 881301062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>LIFO Mfg. Ovhd. Cost</source>
-          <target>Costo. gen. prod. LIFO</target>
+          <target>Costo gen. prod. LIFO</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 935904887 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>A.C. Purchase Amount</source>
@@ -9201,7 +9209,7 @@
         </trans-unit>
         <trans-unit id="Table 499962481 - NamedType 314242174" translate="yes" size-unit="char" xml:space="preserve">
           <source>Check fiscal period sequence continuous !</source>
-          <target>Controllare la sequenza del periodo fiscale continuo !</target>
+          <target>Controllare la sequenza del periodo fiscale!</target>
         </trans-unit>
         <trans-unit id="Table 499962481 - NamedType 430254759" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename records in table %1!</source>
@@ -9389,7 +9397,7 @@
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Other Cost</source>
-          <target>Costo aggiuntivo medio</target>
+          <target>Altri costi a costo medio</target>
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -9405,7 +9413,7 @@
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Average Other Cost</source>
-          <target>Costo aggiuntivo medio - Ricalcolo</target>
+          <target>Altri costi a costo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 3680588356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Overhead Material Cost</source>
