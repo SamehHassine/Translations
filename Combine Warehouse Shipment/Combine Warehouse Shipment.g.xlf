@@ -603,18 +603,28 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Order Line in Shpt.-Service - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 3836831252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive Not-Inventory Lines (Purchase)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Post Not-Item Lines-P. Rcpt. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 2394335473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Not-Inventory Lines (Purchase)</source>
+          <source>Ship Not-Inventory Lines (Purchase)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Post Not-Item Lines-Purch. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 1168481589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive Not-Inventory Lines (Sales)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Post Not-Item Lines-S. Rcpt. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 3108228119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Not-Inventory Lines (Sales)</source>
+          <source>Ship Not-Inventory Lines (Sales)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Post Not-Item Lines-Sales - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1137884171 - Field 3887078708 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Not-Item Lines (Service)</source>
+          <source>Ship Not-Inventory Lines (Service)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Post Not-Item Lines-Service - Property Caption</note>
         </trans-unit>
@@ -3989,14 +3999,24 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Purchase - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 922601005 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if post not inventory lines on source document while post warehouse receipt or warehouse shipment.</source>
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines (Purch.) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 922601005 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Not Item Lines</source>
+          <source>Ship Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines (Purch.) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 3836831252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse receipts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines-P. Rcpt. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 3836831252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive Not Inventory Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines-P. Rcpt. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 3625411083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if add a description line with order No. on credit memo document.</source>
@@ -4069,14 +4089,24 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Order Line in Shpt.-Sales - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 2540983019 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if post not inventory lines on source document while post warehouse shipment.</source>
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines (Sales) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 2540983019 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Not Item Lines</source>
+          <source>Ship Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines (Sales) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 1168481589 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse receipts.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines-S. Rcpt. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 1168481589 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receive Not Inventory Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines-S. Rcpt. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service</source>
@@ -4104,12 +4134,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Order Line in Shpt.-Service. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 1316418968 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies if post not item lines on source document while post warehouse shipment.</source>
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines (Service) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 1316418968 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post Not Item Lines</source>
+          <source>Ship Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines (Service) - Property Caption</note>
         </trans-unit>
@@ -7949,14 +7979,24 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOSPurchase - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 4059949182 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
-          <source>Specifies if post not inventory lines on source document while post warehouse receipt  or warehouse shipment from a specific location.</source>
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments from a specific location.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item Lines (Purch.) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 4059949182 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
-          <source>Post Not Item Lines</source>
+          <source>Ship Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item Lines (Purch.) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2774593727 - Control 957589768 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse receipts from a specific location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item-P. Rcpt. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2774593727 - Control 957589768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Receive Not Inventory Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item-P. Rcpt. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 253490651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
           <source>Sales</source>
@@ -7964,14 +8004,24 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOSSales - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 70532756 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
-          <source>Specifies if post not inventory lines on source document while post warehouse shipment from a specific location.</source>
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments from a specific location.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item Lines (Sales) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 70532756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
-          <source>Post Not Item Lines</source>
+          <source>Ship Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item Lines (Sales) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2774593727 - Control 3712109865 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse receipts from a specific location.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item-S. Rcpt. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2774593727 - Control 3712109865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
+          <source>Receive Not Inventory Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item-S. Rcpt. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 2075983088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
           <source>Service</source>
@@ -7979,12 +8029,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOSService - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 1629729839 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
-          <source>Specifies if post not item lines on source document while post warehouse shipment from a specific location.</source>
+          <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments from a specific location.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item Lines (Service) - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 2774593727 - Control 1629729839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3870787835">
-          <source>Post Not Item Lines</source>
+          <source>Ship Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122394 - Control EOS Post Not-Item Lines (Service) - Property Caption</note>
         </trans-unit>
@@ -8454,24 +8504,29 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Combine Shipments - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 428288927 - Field 1772062450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
-          <source>Post Not-Inventory Lines (Purchase)</source>
+          <source>Ship Not-Inventory Lines (Purchase)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Post Not-Item Lines-Purch. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 428288927 - Field 1772062450 - Method 2126772001 - NamedType 4284026763" size-unit="char" translate="yes" xml:space="preserve" al-object-target="TableExtension 428288927">
-          <source>%1 or %2 must be %3.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Post Not-Item Lines-Purch. - Method OnValidate - NamedType Text0001Err</note>
-        </trans-unit>
         <trans-unit id="TableExtension 428288927 - Field 2209296672 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
-          <source>Post Not-Inventory Lines (Sales)</source>
+          <source>Ship Not-Inventory Lines (Sales)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Post Not-Item Lines-Sales - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 428288927 - Field 1972997644 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
-          <source>Post Not-Item Lines (Service)</source>
+          <source>Ship Not-Inventory Lines (Service)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Post Not-Item Lines-Serv. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 428288927 - Field 957589768 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
+          <source>Receive Not-Inventory Lines (Purchase)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Post Not-Item-P. Rcpt. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 428288927 - Field 3712109865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
+          <source>Receive Not-Inventory Lines (Sales)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18123381 - Field EOS Post Not-Item-S. Rcpt. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 428288927 - Field 2100728561 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3891454143">
           <source>Ship Nos.</source>
