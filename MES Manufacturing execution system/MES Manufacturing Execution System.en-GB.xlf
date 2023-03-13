@@ -1318,6 +1318,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Production Panel - Field Assigned Resources Count - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3448781404 - Field 2568706979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Single Output For Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Production Panel - Field Block Single Output For Family - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3448781404 - Field 3568476593 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Connected</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1512,6 +1517,11 @@
           <source>Blank Output Quantity For Family</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Blank Output Quantity Family - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 2568706979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Single Output For Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS 070 MES Setup - Field Block Single Output For Family - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 986472234 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Change Activity Text</source>
@@ -1917,6 +1927,11 @@
           <source>Open employee entries exists. You must close them before close operation.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Interface Mgt - Method CloseOperation - NamedType OpenEntriesFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2503755138 - Method 964694333 - NamedType 1227823353" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open stapling entries exists. You must close them before close operation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES Interface Mgt - Method CloseOperation - NamedType OpenStaplingEntriesFoundErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2503755138 - Method 3798285420 - NamedType 2897091413" size-unit="char" translate="yes" xml:space="preserve">
           <source>Action %1 not managed yet</source>
@@ -3783,6 +3798,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Allow Over Output - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2568706979 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, single output operation is blocked for family production orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Block Single Output For Family - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3448781404 - Control 2568706979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Single Output For Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Production Panel - Control Block Single Output For Family - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3448781404 - Control 1672913011 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>If compiled, a new button will appear in Power MES with specified code. Then you can subscribe event for custom action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4318,16 +4343,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control General - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2865843814 - Control 3461854716 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>If enabled, allows to declare output quantities greater than the prod. order line quantity</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Allow Over Output - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2865843814 - Control 3461854716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Allow Over Output</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Allow Over Output - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 1786338833 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name of the Font</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4583,6 +4598,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control PowerMesOutput - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3461854716 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, allows to declare output quantities greater than the prod. order line quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Allow Over Output - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 3461854716 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow Over Output</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Allow Over Output - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 3152348650 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>If enabled, the output quantity proposed in the PowerMes for Item Prod. Orders will be 0</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4602,6 +4627,16 @@
           <source>Blank Output Quantity For Family</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Blank Output Quantity Family - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2568706979 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, single output operation is blocked for family production orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Block Single Output For Family - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2568706979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Single Output For Family</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS 070 MES Setup - Control Block Single Output For Family - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 777594522 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Lot No. Information despite Tracking Setup</source>
