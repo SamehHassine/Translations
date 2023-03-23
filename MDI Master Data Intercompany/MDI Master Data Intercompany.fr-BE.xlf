@@ -39,6 +39,54 @@
           <source>Cannot find a valid Tenant ID for Authorization. Check MDI Company: %1</source>
           <target>Impossible de trouver un ID de locataire valide pour l’autorisation. Vérifier la société MDI: %1</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 1182413170" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Setup</source>
+          <target>Configuration MDI</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 2093592446" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AAD Setup</source>
+          <target>Configuration d’AAD</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 2232770848" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you need to specify the permissions that the installed app must have within Business Central.</source>
+          <target>Ici, vous devez spécifier les autorisations que l’application installée doit avoir dans Business Central.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 2270306401" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you can setup your Master Data Intercompany.</source>
+          <target>Ici, vous pouvez configurer votre Master Data Intercompany.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 2851136560" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Companies MDI Setup</source>
+          <target>Configuration MDI des entreprises</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 3320915381" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synch. Profiles MDI Setup</source>
+          <target>Synchronisation. Configuration MDI des profils</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 334609903" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AAD Setup</source>
+          <target>Configuration d’AAD</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 3477968061" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Companies MDI Setup</source>
+          <target>Configuration MDI des entreprises</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 3959433119" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you will define the target companies to which you want to synchronize data.</source>
+          <target>Ici, vous allez définir les entreprises cibles avec lesquelles vous souhaitez synchroniser les données.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 4123411512" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synch. Profiles MDI Setup</source>
+          <target>Synchronisation. Configuration MDI des profils</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 903502523" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Setup</source>
+          <target>Configuration MDI</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2668321552 - Method 911905906 - NamedType 924109030" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you will define which data you want to synchronize to which company.</source>
+          <target>Ici, vous allez définir les données que vous souhaitez synchroniser avec quelle entreprise.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2754770448 - Method 3795892919 - NamedType 611326923" translate="yes" size-unit="char" xml:space="preserve">
           <source>EOS MDI Intercompany</source>
           <target>Intersociété EOS MDI</target>
@@ -286,6 +334,10 @@
         <trans-unit id="Enum 4231902886 - EnumValue 452419543 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Local</source>
           <target>LOCAL</target>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3863986830 - EnumValue 859372943 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>EOS Get started with Master Data Intercompany (MDI)</source>
+          <target>EOS Prise en main de Master Data Intercompany (MDI)</target>
         </trans-unit>
         <trans-unit id="Page 101652775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Company Dimensions Matrix (MDI)</source>
@@ -927,6 +979,118 @@
           <source>Company Selection (MDI)</source>
           <target>Sélection d’entreprise (MDI)</target>
         </trans-unit>
+        <trans-unit id="Page 1599776963 - Action 1235620153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procede with the next step</source>
+          <target>Procéder à l’étape suivante</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Action 1235620153 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next</source>
+          <target>Prochain</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Action 2667510389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish this guide</source>
+          <target>Terminer ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Action 2667510389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish</source>
+          <target>Finir</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Action 742034285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <target>Revenir à l’étape précédente</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Action 742034285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Back</source>
+          <target>Précédent</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 1582707694 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>In order for MDI to work correctly you have to create a job queue</source>
+          <target>Pour que MDI fonctionne correctement, vous devez créer une file d’attente de tâches</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 1582707694 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup Job Queue MDI</source>
+          <target>Configurer MDI de file d’attente de tâches</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 1617280233 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click on the Guide link to create your Azure tokens.</source>
+          <target>Cliquez sur le lien Guide pour créer vos jetons Azure.</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 1740172191 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checkout this other video</source>
+          <target>Regardez cette autre vidéo</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 1905791958 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Job Queue</source>
+          <target>Créer une file d’attente de tâches</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 2160774281 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Azure Tokens</source>
+          <target>Insérer des jetons Azure</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 2529110793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Azure application Client Secret</source>
+          <target>Clé secrète client de l’application Azure</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 2859305099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Let's go!</source>
+          <target>Allons-y!</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 341886999 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert the "Directory (tenant) ID" and the "Client Secret". Make sure to copy the value, not the id. After that click on "Open Job Queue" in order to create the job queue.</source>
+          <target>Insérez l’ID du répertoire (locataire) » et la clé secrète client ». Veillez à copier la valeur, pas l’id. Après cela, cliquez sur « Ouvrir la file d’attente des tâches » afin de créer la file d’attente des tâches.</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 3455530055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow this guide</source>
+          <target>Suivez ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 3653262042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checkout this video</source>
+          <target>Regardez cette vidéo</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 3800514526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to the Master Data Intercompany Assisted Setup (MDI)</source>
+          <target>Bienvenue dans Master Data Intercompany Assisted Setup (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 4168066701 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You finished the MDI setup! Click on the Finish button to complete this guide and follow the rest of the guides in order to use Master Data Intercompany.</source>
+          <target>Vous avez terminé la configuration du MDI ! Cliquez sur le bouton Terminer pour compléter ce guide et suivez le reste des guides afin d’utiliser Master Data Intercompany.</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 4168066701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Congrats!</source>
+          <target>Félicitations!</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 452419543 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If you are using local remember to create a job queue in every destination company as well.</source>
+          <target>Si vous utilisez local, n’oubliez pas de créer également une file d’attente de tâches dans chaque entreprise de destination.</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 652819368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Azure application client ID</source>
+          <target>ID client d’application Azure</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Control 979583616 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Once you have finished the guide, select Next to continue.</source>
+          <target>Une fois que vous avez terminé le guide, sélectionnez Suivant pour continuer.</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - NamedType 1838025207" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checkout this other video</source>
+          <target>Regardez cette autre vidéo</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - NamedType 2306957882" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Checkout this video</source>
+          <target>Regardez cette vidéo</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - NamedType 2847157583" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow this guide</source>
+          <target>Suivez ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - NamedType 512996262" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Job Queue</source>
+          <target>Créer une file d’attente de tâches</target>
+        </trans-unit>
+        <trans-unit id="Page 1599776963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Setup</source>
+          <target>Configuration MDI</target>
+        </trans-unit>
         <trans-unit id="Page 1618589859 - Control 108136482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Matrix_CellData[20]" field.</source>
           <target>Spécifie la valeur du champ « Matrix_CellData[20] ».</target>
@@ -1086,6 +1250,78 @@
         <trans-unit id="Page 1666149162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Master G/L Accounts - Companies (MDI)</source>
           <target>Master G/L Comptes - Sociétés (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Action 1235620153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procede with the next step</source>
+          <target>Procéder à l’étape suivante</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Action 1235620153 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next</source>
+          <target>Prochain</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Action 2667510389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish this guide</source>
+          <target>Terminer ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Action 2667510389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish</source>
+          <target>Finir</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Action 742034285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <target>Revenir à l’étape précédente</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Action 742034285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Back</source>
+          <target>Précédent</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 2365623617 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Synchronizazion Profiles List Page</source>
+          <target>Ouvrir la page de liste des profils de synchronisation</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 2859305099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Let's go!</source>
+          <target>Allons-y!</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 3455530055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow this guide</source>
+          <target>Suivez ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 3800514526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to the Synchronization Profile Assisted Setup (MDI)</source>
+          <target>Bienvenue dans la configuration assistée de profil de synchronisation (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 4168066701 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You finished Master Data Intercompany Setup! Click on the Finish button to complete this guide.</source>
+          <target>Vous avez terminé la configuration de Master Data Intercompany ! Cliquez sur le bouton Terminer pour compléter ce guide.</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 4168066701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Congratulations!</source>
+          <target>Félicitations!</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 510796022 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click on Open Synchronizazion Profiles List Page to open the Synch. Profile List, after that click on New and create a profile by choosing which field of which tables you want to be interlinked between the companies.</source>
+          <target>Cliquez sur Ouvrir la page de liste des profils de synchronisation pour ouvrir la synchronisation. Liste des profils, puis cliquez sur Nouveau et créez un profil en choisissant le champ des tables que vous souhaitez relier entre les entreprises.</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 510796022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synch. Profile MDI Setup</source>
+          <target>Synchronisation. Configuration MDI du profil</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Control 979583616 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Once you are ready, select Next to continue.</source>
+          <target>Une fois que vous êtes prêt, sélectionnez Suivant pour continuer.</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - NamedType 1260523113" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Synchronizazion Profiles List Page</source>
+          <target>Ouvrir la page de liste des profils de synchronisation</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - NamedType 2847157583" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Follow this guide</source>
+          <target>Suivez ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 1828042240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Synch. Profile Setup</source>
+          <target>Synic MDI. Configuration du profil</target>
         </trans-unit>
         <trans-unit id="Page 1883119703 - Action 2149061062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Calculate" action</source>
@@ -1522,6 +1758,14 @@
         <trans-unit id="Page 2361455339 - Control 4005701527 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table Filter</source>
           <target>Filtre table</target>
+        </trans-unit>
+        <trans-unit id="Page 2361455339 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synchronizazion Profiles</source>
+          <target>Profils Synchronizazion</target>
+        </trans-unit>
+        <trans-unit id="Page 2361455339 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you can synchronize your different profiles in order to use Master Data Intercompany</source>
+          <target>Ici, vous pouvez synchroniser vos différents profils afin d’utiliser Master Data Intercompany</target>
         </trans-unit>
         <trans-unit id="Page 2361455339 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Synchronization Profiles (MDI)</source>
@@ -2039,9 +2283,17 @@
           <source>Synchronization Profile (MDI)</source>
           <target>Profil de synchronisation (MDI)</target>
         </trans-unit>
+        <trans-unit id="Page 3001785898 - Action 1905791958 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Job Queue</source>
+          <target>Créer une file d’attente de tâches</target>
+        </trans-unit>
         <trans-unit id="Page 3001785898 - Action 1905791958 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Open Job Queue" action</source>
           <target>Exécute l’action « Open Job Queue »</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Action 1905791958 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click here to create the job queue after you have filled in the Client ID and Client Secret.</source>
+          <target>Cliquez ici pour créer la file d’attente des tâches après avoir rempli l’ID client et la clé secrète client.</target>
         </trans-unit>
         <trans-unit id="Page 3001785898 - Action 1905791958 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Job Queue</source>
@@ -2103,9 +2355,17 @@
           <source>General</source>
           <target>Général</target>
         </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 2529110793 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Client Secret</source>
+          <target>Clé secrète client</target>
+        </trans-unit>
         <trans-unit id="Page 3001785898 - Control 2529110793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Client Secret" field</source>
           <target>Spécifie la valeur du champ « Clé secrète client »</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 2529110793 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert here your Client Secret, make sure to copy the value and not the ID.</source>
+          <target>Insérez ici votre clé secrète client, assurez-vous de copier la valeur et non l’ID.</target>
         </trans-unit>
         <trans-unit id="Page 3001785898 - Control 2591755506 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Thread per Company" field.</source>
@@ -2123,9 +2383,17 @@
           <source>Specifies the value of the "Batch Deletion Mode" field.</source>
           <target>Spécifie la valeur du champ "Mode de suppression par lots".</target>
         </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 3879241928 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Client ID</source>
+          <target>Client ID</target>
+        </trans-unit>
         <trans-unit id="Page 3001785898 - Control 3879241928 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Client ID" field</source>
           <target>Spécifie la valeur du champ « ID client »</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Control 3879241928 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert here your Client ID.</source>
+          <target>Insérez ici votre ID client.</target>
         </trans-unit>
         <trans-unit id="Page 3001785898 - Control 3991167028 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Log Retention</source>
@@ -2134,6 +2402,14 @@
         <trans-unit id="Page 3001785898 - Control 655597566 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Deletion Chunk Size" field.</source>
           <target>Spécifie la valeur du champ "Deletion Chunk Size".</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Setup</source>
+          <target>Configuration MDI</target>
+        </trans-unit>
+        <trans-unit id="Page 3001785898 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you can setup your Master Data Intercompany.</source>
+          <target>Ici, vous pouvez configurer votre Master Data Intercompany.</target>
         </trans-unit>
         <trans-unit id="Page 3001785898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Setup (MDI)</source>
@@ -2159,17 +2435,33 @@
           <source>Table Limitation Subpage (MDI)</source>
           <target>Sous-page de limitation de table (MDI)</target>
         </trans-unit>
+        <trans-unit id="Page 3138341804 - Action 2037211007 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Wizard</source>
+          <target>Assistant de connexion</target>
+        </trans-unit>
         <trans-unit id="Page 3138341804 - Action 2037211007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Connection Wizard" action</source>
           <target>Exécute l’action « Assistant de connexion »</target>
+        </trans-unit>
+        <trans-unit id="Page 3138341804 - Action 2037211007 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click this button and follow the steps to establish a connection.</source>
+          <target>Cliquez sur ce bouton et suivez les étapes pour établir une connexion.</target>
         </trans-unit>
         <trans-unit id="Page 3138341804 - Action 2037211007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Connection Wizard</source>
           <target>Assistant de connexion</target>
         </trans-unit>
+        <trans-unit id="Page 3138341804 - Action 3804453244 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Test</source>
+          <target>Test de connexion</target>
+        </trans-unit>
         <trans-unit id="Page 3138341804 - Action 3804453244 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Connection Test" action</source>
           <target>Exécute l’action « Connection Test »</target>
+        </trans-unit>
+        <trans-unit id="Page 3138341804 - Action 3804453244 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click here to see if you've established a connection successfully.</source>
+          <target>Cliquez ici pour voir si vous avez établi une connexion avec succès.</target>
         </trans-unit>
         <trans-unit id="Page 3138341804 - Action 3804453244 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Connection Test</source>
@@ -2223,9 +2515,97 @@
           <source>Specifies the value of the "Active Company" field.</source>
           <target>Spécifie la valeur du champ « Société active ».</target>
         </trans-unit>
+        <trans-unit id="Page 3138341804 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Companies (MDI)</source>
+          <target>Entreprises (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 3138341804 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you can create, modify or delete your companies (MDI)</source>
+          <target>Ici, vous pouvez créer, modifier ou supprimer vos sociétés (MDI)</target>
+        </trans-unit>
         <trans-unit id="Page 3138341804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Companies (MDI)</source>
           <target>Sociétés (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Action 1235620153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procede with the next step</source>
+          <target>Procéder à l’étape suivante</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Action 1235620153 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next</source>
+          <target>Prochain</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Action 2667510389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish this guide</source>
+          <target>Terminer ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Action 2667510389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish</source>
+          <target>Finir</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Action 742034285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <target>Revenir à l’étape précédente</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Action 742034285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Back</source>
+          <target>Précédent</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The type of your company</source>
+          <target>Le type de votre entreprise</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 2660962087 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Wizard</source>
+          <target>Assistant de connexion</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 2859305099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Let's go!</source>
+          <target>Allons-y!</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The OAuth Code of your company</source>
+          <target>Le code OAuth de votre entreprise</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 3674931332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Test</source>
+          <target>Test de connexion</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 3800514526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to the Companies Assisted Setup (MDI)</source>
+          <target>Bienvenue dans la configuration assistée par les entreprises (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 4168066701 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You finished the Companies (MDI) setup! Click on the Finish button to complete this guide and follow the rest of the guides in order to use Master Data Intercompany.</source>
+          <target>Vous avez terminé la configuration des entreprises (MDI) ! Cliquez sur le bouton Terminer pour compléter ce guide et suivez le reste des guides afin d’utiliser Master Data Intercompany.</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 4168066701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Congrats!</source>
+          <target>Félicitations!</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 510796022 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fill in the Code of the company you want to link and after that click on Connection Wizard to create the connection. After all that try clicking on Connection Test to see if the connection was succesful.</source>
+          <target>Remplissez le code de la société que vous souhaitez lier et cliquez ensuite sur Assistant de connexion pour créer la connexion. Après tout cela, essayez de cliquer sur Test de connexion pour voir si la connexion a réussi.</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 510796022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Companies MDI Setup</source>
+          <target>Configuration MDI des entreprises</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Control 979583616 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Once you are ready, select Next to continue.</source>
+          <target>Une fois que vous êtes prêt, sélectionnez Suivant pour continuer.</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - NamedType 2467256239" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Wizard</source>
+          <target>Assistant de connexion</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - NamedType 3871688740" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Connection Test</source>
+          <target>Test de connexion</target>
+        </trans-unit>
+        <trans-unit id="Page 3390553356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>MDI Companies Setup</source>
+          <target>Création de sociétés MDI</target>
         </trans-unit>
         <trans-unit id="Page 3447865946 - Action 2882280672 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Batch Selection" action</source>
@@ -2442,6 +2822,70 @@
         <trans-unit id="Page 3508125534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MDI Select Company</source>
           <target>Société MDI Select</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Action 1235620153 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Procede with the next step</source>
+          <target>Procéder à l’étape suivante</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Action 1235620153 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next</source>
+          <target>Prochain</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Action 2667510389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish this guide</source>
+          <target>Terminer ce guide</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Action 2667510389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Finish</source>
+          <target>Finir</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Action 742034285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Go back to the previous step</source>
+          <target>Revenir à l’étape précédente</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Action 742034285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Back</source>
+          <target>Précédent</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 2365623617 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Page</source>
+          <target>Ouvrir la page</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 2859305099 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Let's go!</source>
+          <target>Allons-y!</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 3800514526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Welcome to the Azure Active Directory Assisted Setup (MDI)</source>
+          <target>Bienvenue dans l’installation assistée Azure Active Directory (MDI)</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 4168066701 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You finished the AAD Application setup! Click on the Finish button to complete this guide and follow the rest of the guides in order to use Master Data Intercompany.</source>
+          <target>Vous avez terminé la configuration de l’application AAD ! Cliquez sur le bouton Terminer pour compléter ce guide et suivez le reste des guides afin d’utiliser Master Data Intercompany.</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 4168066701 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Congrats!</source>
+          <target>Félicitations!</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 510796022 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click on Open Page to open the AAD Application List page and then click on New to create a new record and fill in the Client ID you have created in the previous guide. After that click on Grant Permissions and follow along to grant the base permissions for this app.</source>
+          <target>Cliquez sur Ouvrir la page pour ouvrir la page Liste des applications AAD, puis cliquez sur Nouveau pour créer un nouvel enregistrement et remplissez l’ID client que vous avez créé dans le guide précédent. Après cela, cliquez sur Accorder des autorisations et suivez pour accorder les autorisations de base pour cette application.</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 510796022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Azure Active Directory Setup</source>
+          <target>Installation d’Azure Active Directory</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Control 979583616 - Property 1968111052" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Once you are ready, select Next to continue.</source>
+          <target>Une fois que vous êtes prêt, sélectionnez Suivant pour continuer.</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - NamedType 1260523113" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Open Page</source>
+          <target>Ouvrir la page</target>
+        </trans-unit>
+        <trans-unit id="Page 3592559303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Azure Active Directory Setup</source>
+          <target>Installation d’Azure Active Directory</target>
         </trans-unit>
         <trans-unit id="Page 3930502672 - Action 2183601355 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Profile" action</source>
@@ -2695,6 +3139,22 @@
           <source>MDI Intercompany</source>
           <target>MDI Intersociété</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2743325431 - Change 2030691464 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New</source>
+          <target>Nouveau</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2743325431 - Change 2030691464 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click here to add a new application</source>
+          <target>Cliquez ici pour ajouter une nouvelle application</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2743325431 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AAD Application List</source>
+          <target>Liste des applications AAD</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2743325431 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Here you can add, modify or delete the Azure Active Directory Applications.</source>
+          <target>Ici, vous pouvez ajouter, modifier ou supprimer les applications Azure Active Directory.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2912234454 - Control 1774663854 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MDI Intercompany</source>
           <target>MDI Intersociété</target>
@@ -2726,6 +3186,30 @@
         <trans-unit id="PageExtension 3107183229 - Action 4288914127 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indent Dimension Values</source>
           <target>Indenter sections analytiques</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3381022048 - Change 1733759026 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Grant Permissions (MDI)</source>
+          <target>Accorder des autorisations (MDI)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3381022048 - Change 1733759026 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Click here once you've filled in the Client ID</source>
+          <target>Cliquez ici une fois que vous avez rempli l’ID client</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3381022048 - Change 3879241928 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Client ID (MDI)</source>
+          <target>ID client (MDI)</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3381022048 - Change 3879241928 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fill in the Client ID you have created in the previous step here</source>
+          <target>Remplissez l’ID client que vous avez créé à l’étape précédente ici</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3381022048 - Property 1064389655" translate="yes" size-unit="char" xml:space="preserve">
+          <source>AAD Application Card</source>
+          <target>Carte de demande AAD</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3381022048 - Property 247559172" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert your Client ID and your Secret ID</source>
+          <target>Insérez votre ID client et votre ID secret</target>
         </trans-unit>
         <trans-unit id="PageExtension 3575970823 - Action 1164086715 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Translations" action</source>
