@@ -143,6 +143,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS012 DDM Due Dates Buffer - Field Closing Interest Calculated - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4060419088 - Field 2986106623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Correction Mode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS012 DDM Due Dates Buffer - Field Correction Mode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4060419088 - Field 2556136339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Credit Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -302,6 +307,11 @@
           <source>New Due Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS012 DDM Due Dates Buffer - Field New Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4060419088 - Field 1644190403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Issued Reminder Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS012 DDM Due Dates Buffer - Field New Issued Reminder Level - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4060419088 - Field 1351594800 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No. Series</source>
@@ -618,6 +628,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS012 DDM Setup - Field Primary key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1090366364 - Field 315411468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder Level Policy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS012 DDM Setup - Field Reminder Level Policy - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1090366364 - Field 197274790 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Renegotiation Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -657,6 +672,11 @@
           <source>Previous %1 (%2) must be equal to the new %1 (%3)</source>
           <note from="Developer" annotates="general" priority="2">%1 is field caption, %2 previous amount, %3 new amount.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS012 DDM Management - NamedType ChangedAmountErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3160321536 - NamedType 4218313635" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 %2 can only have Detailed Entries of Type %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS012 DDM Management - NamedType DetailedEntriesCheckErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3160321536 - NamedType 417816387" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operation Completed</source>
@@ -797,6 +817,16 @@
           <source>Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS012 DDM Cust. Occurrences - Control OrgCustLedgEntryEntryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1078094288 - Control 3149448505 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Last Issued Reminder Level field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS012 DDM Cust. Occurrences - Control Last Issued Reminder Level - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1078094288 - Control 1644190403 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the New Issued Reminder Level field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS012 DDM Cust. Occurrences - Control New Issued Reminder Level - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1078094288 - Action 2536200118 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Add Occurrency</source>
@@ -1202,6 +1232,21 @@
           <source>Reversal Movements</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS012 DDM Correction Type - EnumValue Reversal Movements - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1637984678 - EnumValue 3170651635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Block Posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS012 Reminder Level Policy - EnumValue Block Posting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1637984678 - EnumValue 1221565251 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Keep Same Last Issued Reminder Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS012 Reminder Level Policy - EnumValue Keep Same Reminder Level - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1637984678 - EnumValue 2942502055 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reset Last Issued Reminder Level</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS012 Reminder Level Policy - EnumValue Reset Reminder Level - Property Caption</note>
         </trans-unit>
       </group>
     </body>

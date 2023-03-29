@@ -55,6 +55,10 @@
           <source>Operation Completed</source>
           <target>Operazione completata</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3160321536 - NamedType 4218313635" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The %1 %2 can only have Detailed Entries of Type %3</source>
+          <target>%1 %2 può contenere solo movimenti dettagliati di tipo %3</target>
+        </trans-unit>
         <trans-unit id="Codeunit 875075310 - NamedType 1470390318" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be %2</source>
           <target>%1 deve essere %2</target>
@@ -66,6 +70,18 @@
         <trans-unit id="Codeunit 875075310 - NamedType 3771412260" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is %2</source>
           <target>%1 è %2</target>
+        </trans-unit>
+        <trans-unit id="Enum 1637984678 - EnumValue 1221565251 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Keep Same Last Issued Reminder Level</source>
+          <target>Mantieni lo stesso livello di sollecito emesso</target>
+        </trans-unit>
+        <trans-unit id="Enum 1637984678 - EnumValue 2942502055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reset Last Issued Reminder Level</source>
+          <target>Reimposta il livello sollecito emesso</target>
+        </trans-unit>
+        <trans-unit id="Enum 1637984678 - EnumValue 3170651635 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Block Posting</source>
+          <target>Blocca registrazione</target>
         </trans-unit>
         <trans-unit id="Enum 2469834451 - EnumValue 2962360220 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reversal Movements</source>
@@ -91,6 +107,10 @@
           <source>&amp;Add Occurrency</source>
           <target>&amp;Aggiungi Scadenza</target>
         </trans-unit>
+        <trans-unit id="Page 1078094288 - Control 1644190403 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the New Issued Reminder Level field.</source>
+          <target>Specifica il valore del campo Nuovo livello sollecito emesso.</target>
+        </trans-unit>
         <trans-unit id="Page 1078094288 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
@@ -102,6 +122,10 @@
         <trans-unit id="Page 1078094288 - Control 2715397653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Remaining Amount</source>
           <target>Nuovo importo residuo</target>
+        </trans-unit>
+        <trans-unit id="Page 1078094288 - Control 3149448505 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Last Issued Reminder Level field.</source>
+          <target>Specifica il valore del campo Livello ultimo sollecito emesso.</target>
         </trans-unit>
         <trans-unit id="Page 1078094288 - Control 315351479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Remaining Amount (LCY)</source>
@@ -397,7 +421,7 @@
         </trans-unit>
         <trans-unit id="Page 4118390136 - Control 315351479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Remaining Amount (LCY)</source>
-          <target>Importo Nuovo (VL)</target>
+          <target>Nuovo Importo (VL)</target>
         </trans-unit>
         <trans-unit id="Page 4118390136 - Control 3353094270 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Balance</source>
@@ -466,6 +490,10 @@
         <trans-unit id="Table 1090366364 - Field 2986106623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Correction Mode</source>
           <target>Modalità di correzione</target>
+        </trans-unit>
+        <trans-unit id="Table 1090366364 - Field 315411468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reminder Level Policy</source>
+          <target>Criteri livello di sollecito</target>
         </trans-unit>
         <trans-unit id="Table 1090366364 - Field 63946589 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Renegotiation Jnl. Templ. Name</source>
@@ -621,7 +649,7 @@
         </trans-unit>
         <trans-unit id="Table 4060419088 - Field 1225791401 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Amount (LCY)</source>
-          <target>Importo Nuovo (VL)</target>
+          <target>Nuovo Importo (VL)</target>
         </trans-unit>
         <trans-unit id="Table 4060419088 - Field 1303377601 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Global Dimension 1 Code</source>
@@ -666,6 +694,10 @@
         <trans-unit id="Table 4060419088 - Field 1639344207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining Pmt. Disc. Possible</source>
           <target>Sc. pagam. residuo possibile</target>
+        </trans-unit>
+        <trans-unit id="Table 4060419088 - Field 1644190403 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Issued Reminder Level</source>
+          <target>Nuovo livello di sollecito emesso</target>
         </trans-unit>
         <trans-unit id="Table 4060419088 - Field 1737583157 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processing Type</source>
@@ -790,6 +822,10 @@
         <trans-unit id="Table 4060419088 - Field 2975378708 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining Amount</source>
           <target>Importo residuo</target>
+        </trans-unit>
+        <trans-unit id="Table 4060419088 - Field 2986106623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Correction Mode</source>
+          <target>Modalità di correzione</target>
         </trans-unit>
         <trans-unit id="Table 4060419088 - Field 3017471043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table No.</source>
