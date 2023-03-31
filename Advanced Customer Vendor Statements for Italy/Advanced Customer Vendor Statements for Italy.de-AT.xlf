@@ -27,9 +27,25 @@
           <source>Export Customer debug,Export Vendor debug</source>
           <target>Export Customer debug,Export Vendor debug</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3409537986 - NamedType 3064276853" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unhandled %1 value: %2. Please implement a proper logic.</source>
+          <target>Nicht behandelter %1-Wert: %2. Bitte implementieren Sie eine geeignete Logik.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3409537986 - NamedType 599890354" translate="yes" size-unit="char" xml:space="preserve">
           <source>Balance at %1 (%2)</source>
           <target>Saldo zum %1 (%2)</target>
+        </trans-unit>
+        <trans-unit id="Enum 1349862385 - EnumValue 1037431910 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Company Display Name</source>
+          <target>Anzeigename des Unternehmens</target>
+        </trans-unit>
+        <trans-unit id="Enum 1349862385 - EnumValue 2110190392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Company Information Name</source>
+          <target>Name der Unternehmensinformationen</target>
+        </trans-unit>
+        <trans-unit id="Enum 1349862385 - EnumValue 3997336476 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Company Name</source>
+          <target>Firmenname</target>
         </trans-unit>
         <trans-unit id="Enum 2907738260 - EnumValue 2265937057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>2/2</source>
@@ -451,6 +467,10 @@
           <source>Specifies the value of the "Vendor Aging Report ID" field.</source>
           <target>Gibt den Wert des Felds "Vendor Aging Report ID" an.</target>
         </trans-unit>
+        <trans-unit id="Page 380623817 - Control 2709343162 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Report Company Name field.</source>
+          <target>Gibt den Wert des Felds Firmenname in Berichten an.</target>
+        </trans-unit>
         <trans-unit id="Page 380623817 - Control 2752998707 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Customer Aging Column Report ID" field.</source>
           <target>Gibt den Wert des Felds "Berichts-ID der Kundenalterungsspalte" an.</target>
@@ -535,6 +555,10 @@
           <source>Dishonored CustLedgerEntry3</source>
           <target>Dishonored CustLedgerEntry3</target>
         </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1098611244 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
@@ -543,13 +567,25 @@
           <source>Output Options</source>
           <target>Ausgabeoptionen</target>
         </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1098611244 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
         </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 295436816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Vendor" field.</source>
+          <target>Gibt den Wert des Felds "Vertriebsmitarbeiter von Kreditor verwenden" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1098611244 - Control 295436816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Vendor</source>
           <target>Einkäufer von Kreditor verwenden</target>
+        </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 3039415211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Report Output" field.</source>
+          <target>Gibt den Wert des Feldes "Berichtsausgabe" an.</target>
         </trans-unit>
         <trans-unit id="Report 1098611244 - Control 3039415211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report Output</source>
@@ -559,13 +595,25 @@
           <source>Print,Preview</source>
           <target>Drucken,Vorschau,Word,PDF,E-Mail,XML - nur RDLC-Layouts</target>
         </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1098611244 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
         </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1098611244 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 1098611244 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 1098611244 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
@@ -811,6 +859,10 @@
           <source>Show "Amounts by Currency" summary</source>
           <target>Zusammenfassung "Beträge nach Währung" anzeigen</target>
         </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1358067951 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
@@ -819,9 +871,17 @@
           <source>Output Options</source>
           <target>Ausgabeoptionen</target>
         </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1358067951 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 3039415211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Report Output" field.</source>
+          <target>Gibt den Wert des Feldes "Berichtsausgabe" an.</target>
         </trans-unit>
         <trans-unit id="Report 1358067951 - Control 3039415211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report Output</source>
@@ -831,17 +891,33 @@
           <source>Print,Preview</source>
           <target>Drucken,Vorschau,Word,PDF,E-Mail,XML - nur RDLC-Layouts</target>
         </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1358067951 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 1358067951 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
         </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 1358067951 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
           <target>Buchungsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 1358067951 - Control 79677288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Customer" field.</source>
+          <target>Gibt den Wert des Felds "Agent vom Kunden verwenden" an.</target>
         </trans-unit>
         <trans-unit id="Report 1358067951 - Control 79677288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Customer</source>
@@ -1083,49 +1159,97 @@
           <source>Amount</source>
           <target>Betrag</target>
         </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 1333338216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sort Order" field.</source>
+          <target>Gibt den Wert des Felds "Sortierreihenfolge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2313733437 - Control 1333338216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sort Order</source>
           <target>Sortierreihenfolge</target>
+        </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 1540498609 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Detail Level" field.</source>
+          <target>Gibt den Wert des Felds "Detaillierungsgrad" an.</target>
         </trans-unit>
         <trans-unit id="Report 2313733437 - Control 1540498609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detail Level</source>
           <target>Detail-Level</target>
         </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2313733437 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 2107671703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Page Per Salesperson" field.</source>
+          <target>Gibt den Wert des Felds "Neue Seite pro Verkäufer" an.</target>
         </trans-unit>
         <trans-unit id="Report 2313733437 - Control 2107671703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Page Per Salesperson</source>
           <target>Neue Seite für Verkäufer</target>
         </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 235209409 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Hide Salesperson Total" field.</source>
+          <target>Gibt den Wert des Felds "Verkäufersumme ausblenden" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2313733437 - Control 235209409 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hide Salesperson Total</source>
           <target>Ausblenden Summe Verkäufer</target>
+        </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
         </trans-unit>
         <trans-unit id="Report 2313733437 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
         </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2313733437 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 2313733437 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
         </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 3384338572 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Print Filters" field.</source>
+          <target>Gibt den Wert des Felds "Druckfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2313733437 - Control 3384338572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Filters</source>
           <target>Druck Filter</target>
+        </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 3582862904 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Page Per Customer" field.</source>
+          <target>Gibt den Wert des Felds "Neue Seite pro Kunde" an.</target>
         </trans-unit>
         <trans-unit id="Report 2313733437 - Control 3582862904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Page Per Customer</source>
           <target>Neue Seite pro Debitor</target>
         </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2313733437 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
           <target>Buchungsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 2313733437 - Control 79677288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Customer" field.</source>
+          <target>Gibt den Wert des Felds "Agent vom Kunden verwenden" an.</target>
         </trans-unit>
         <trans-unit id="Report 2313733437 - Control 79677288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Customer</source>
@@ -1507,6 +1631,10 @@
           <source>Amount</source>
           <target>Betrag</target>
         </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2414126535 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
@@ -1515,13 +1643,25 @@
           <source>Output Options</source>
           <target>Ausgabeoptionen</target>
         </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2414126535 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
         </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 295436816 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Vendor" field.</source>
+          <target>Gibt den Wert des Felds "Vertriebsmitarbeiter von Kreditor verwenden" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2414126535 - Control 295436816 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Vendor</source>
           <target>Einkäufer von Kreditor verwenden</target>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3039415211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Report Output" field.</source>
+          <target>Gibt den Wert des Feldes "Berichtsausgabe" an.</target>
         </trans-unit>
         <trans-unit id="Report 2414126535 - Control 3039415211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report Output</source>
@@ -1531,9 +1671,17 @@
           <source>Print,Preview</source>
           <target>Drucken,Vorschau,Word,PDF,E-Mail,XML - nur RDLC-Layouts</target>
         </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 2414126535 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 2414126535 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
@@ -1546,6 +1694,10 @@
         <trans-unit id="Report 2414126535 - Control 3635264487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print using the Currency from the Document</source>
           <target>Drucken mit der Währung aus dem Dokument</target>
+        </trans-unit>
+        <trans-unit id="Report 2414126535 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 2414126535 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
@@ -1783,6 +1935,10 @@
           <source>Amount</source>
           <target>Betrag</target>
         </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3113820436 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
@@ -1791,9 +1947,17 @@
           <source>Output Options</source>
           <target>Ausgabeoptionen</target>
         </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3113820436 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
+        </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 3039415211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Report Output" field.</source>
+          <target>Gibt den Wert des Feldes "Berichtsausgabe" an.</target>
         </trans-unit>
         <trans-unit id="Report 3113820436 - Control 3039415211 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report Output</source>
@@ -1803,17 +1967,33 @@
           <source>Print,Preview</source>
           <target>Drucken,Vorschau,Word,PDF,E-Mail,XML - nur RDLC-Layouts</target>
         </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3113820436 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 3113820436 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
         </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3113820436 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
           <target>Buchungsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 3113820436 - Control 79677288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Customer" field.</source>
+          <target>Gibt den Wert des Felds "Agent vom Kunden verwenden" an.</target>
         </trans-unit>
         <trans-unit id="Report 3113820436 - Control 79677288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Customer</source>
@@ -2051,37 +2231,73 @@
           <source>Amount</source>
           <target>Betrag</target>
         </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 1333338216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Sort Order" field.</source>
+          <target>Gibt den Wert des Felds "Sortierreihenfolge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3114285717 - Control 1333338216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sort Order</source>
           <target>Sortierreihenfolge</target>
+        </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 1540498609 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Detail Level" field.</source>
+          <target>Gibt den Wert des Felds "Detaillierungsgrad" an.</target>
         </trans-unit>
         <trans-unit id="Report 3114285717 - Control 1540498609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detail Level</source>
           <target>Detail-Level</target>
         </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3114285717 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
         </trans-unit>
         <trans-unit id="Report 3114285717 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
         </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3114285717 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 3114285717 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
         </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 3384338572 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Print Filters" field.</source>
+          <target>Gibt den Wert des Felds "Druckfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3114285717 - Control 3384338572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Filters</source>
           <target>Druck Filter</target>
         </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 3947413408 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Page Per Vendor" field.</source>
+          <target>Gibt den Wert des Felds "Neue Seite nach Kreditor" an.</target>
+        </trans-unit>
         <trans-unit id="Report 3114285717 - Control 3947413408 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>New Page Per Vendor</source>
           <target>Neue Seite pro Kreditor</target>
+        </trans-unit>
+        <trans-unit id="Report 3114285717 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 3114285717 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
@@ -2203,6 +2419,10 @@
           <source>Amount</source>
           <target>Betrag</target>
         </trans-unit>
+        <trans-unit id="Report 348788974 - Control 1107891123 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Progressive Balance" field.</source>
+          <target>Gibt den Wert des Feldes "Progressiver Saldo" an.</target>
+        </trans-unit>
         <trans-unit id="Report 348788974 - Control 1107891123 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Progressive Balance</source>
           <target>Fortlaufender Saldo</target>
@@ -2211,9 +2431,17 @@
           <source>Options</source>
           <target>Optionen</target>
         </trans-unit>
+        <trans-unit id="Report 348788974 - Control 631676197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Amounts in Add. Reporting Currency" field.</source>
+          <target>Gibt den Wert des Felds "Beträge in addierter Berichtswährung anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 348788974 - Control 631676197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Amounts in Add. Reporting Currency</source>
           <target>Beträge in Berichtswährung ausgeben</target>
+        </trans-unit>
+        <trans-unit id="Report 348788974 - Control 956193170 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show source line" field.</source>
+          <target>Gibt den Wert des Feldes "Quellzeile anzeigen" an.</target>
         </trans-unit>
         <trans-unit id="Report 348788974 - Control 956193170 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show source line</source>
@@ -2283,10 +2511,6 @@
           <source>Doc. Date</source>
           <target>Belegdatum</target>
         </trans-unit>
-        <trans-unit id="Report 348788974 - NamedType 2480169402" translate="yes" size-unit="char" xml:space="preserve">
-          <source>There are unposted sales documents with a reserved %5 (%6). Please post these before continuing.\\%1: %2\%3: %4.</source>
-          <target>Es existieren nicht verbuchte Verkaufsdok. mit %5 (%6) reserviert. Vor dem Fortfahren die Verb. durchführen.\\%1: %2\%3: %4.</target>
-        </trans-unit>
         <trans-unit id="Report 348788974 - NamedType 2486251868" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer: </source>
           <target>Debitor:</target>
@@ -2322,10 +2546,6 @@
         <trans-unit id="Report 348788974 - NamedType 3441659247" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
           <target>Belegdatum</target>
-        </trans-unit>
-        <trans-unit id="Report 348788974 - NamedType 3490429821" translate="yes" size-unit="char" xml:space="preserve">
-          <source>There are unposted purchase documents with a reserved %5 (%6). Please post these before continuing.\\%1: %2\%3: %4.</source>
-          <target>Es existieren nicht verbuchte Einkaufsdok. mit %5 (%6) reserviert. Vor dem Fortfahren die Verb. durchführen.\\%1: %2\%3: %4.</target>
         </trans-unit>
         <trans-unit id="Report 348788974 - NamedType 3781390419" translate="yes" size-unit="char" xml:space="preserve">
           <source>Continued</source>
@@ -2379,6 +2599,10 @@
           <source>Column Aging</source>
           <target>Fälligkeitsregister in Spalte</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 1301904138 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Process Account Statement" field.</source>
+          <target>Gibt den Wert des Felds "Kontoauszug verarbeiten" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 1301904138 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process Account Statement</source>
           <target>Verarbeite Kontoauszug</target>
@@ -2386,6 +2610,10 @@
         <trans-unit id="Report 4069543121 - Control 1350470392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 1540498609 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Detail Level" field.</source>
+          <target>Gibt den Wert des Felds "Detaillierungsgrad" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 1540498609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detail Level</source>
@@ -2399,61 +2627,121 @@
           <source>Show "Amounts by Currency" summary</source>
           <target>Zusammenfassung "Beträge nach Währung" anzeigen</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 2740290379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Period Length" field.</source>
+          <target>Gibt den Wert des Felds "Periodenlänge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 2740290379 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Length</source>
           <target>Periodenlänge</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 3287144200 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Print Amounts in LCY" field.</source>
+          <target>Gibt den Wert des Felds "Druckmenge in LCY" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 3287144200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Amounts in LCY</source>
           <target>Beträge in MW drucken</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 4131036925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Process Line Aging" field.</source>
+          <target>Gibt den Wert des Feldes "Prozesslinienalterung" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 4131036925 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process Line Aging</source>
           <target>Verarbeite Fälligkeitsregisterzeile</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 414371592 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Column Count due/to be due" field.</source>
+          <target>Gibt den Wert des Felds "Spaltenanzahl aufgrund/schwach" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 414371592 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Column Count due/to be due</source>
           <target>Anzahl Spalten (im) Verfallen</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
           <target>Buchungsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 570273595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Report Setup" field.</source>
+          <target>Gibt den Wert des Felds "Report Setup" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 570273595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report Setup</source>
           <target>Berichtseinrichtung</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 765778735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Batch processing type" field.</source>
+          <target>Gibt den Wert des Felds "Stapelverarbeitungstyp" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 765778735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch processing type</source>
           <target>Batch-Verarbeitungsart</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 79677288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Customer" field.</source>
+          <target>Gibt den Wert des Felds "Agent vom Kunden verwenden" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 79677288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Customer</source>
           <target>Verwende den Verkäufer vom Debitor</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 83857061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Process Column Aging" field.</source>
+          <target>Gibt den Wert des Felds "Prozessspaltenalterung" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 83857061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process Column Aging</source>
           <target>Verarbeite Spalte Fälligkeitsregister</target>
         </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 897635815 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "One PDF per Customer" field.</source>
+          <target>Gibt den Wert des Felds "Eine PDF-Datei pro Kunde" an.</target>
+        </trans-unit>
         <trans-unit id="Report 4069543121 - Control 897635815 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>One PDF per Customer</source>
           <target>Ein PDF pro Debitor</target>
+        </trans-unit>
+        <trans-unit id="Report 4069543121 - Control 972820655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Aged As Of" field.</source>
+          <target>Gibt den Wert des Felds "Am Datum" an.</target>
         </trans-unit>
         <trans-unit id="Report 4069543121 - Control 972820655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Aged As Of</source>
@@ -2507,9 +2795,17 @@
           <source>Column Aging</source>
           <target>Fälligkeitsregister in Spalte</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 1301904138 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Process Account Statement" field.</source>
+          <target>Gibt den Wert des Felds "Kontoauszug verarbeiten" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 1301904138 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process Account Statement</source>
           <target>Verarbeite Kontoauszug</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 1540498609 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Detail Level" field.</source>
+          <target>Gibt den Wert des Felds "Detaillierungsgrad" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 1540498609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detail Level</source>
@@ -2523,6 +2819,10 @@
           <source>Show "Amounts by Currency" summary</source>
           <target>Zusammenfassung "Beträge nach Währung" anzeigen</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 1787089116 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Show Linked Entries" field.</source>
+          <target>Gibt den Wert des Felds "Verknüpfte Einträge anzeigen" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 1787089116 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Linked Entries</source>
           <target>Verbundene Bewegungen anzeigen</target>
@@ -2531,53 +2831,105 @@
           <source>General</source>
           <target>Allgemein</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 2632659660 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Only Open Entries" field.</source>
+          <target>Gibt den Wert des Feldes "Nur offene Einträge" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 2632659660 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Only Open Entries</source>
           <target>Nur offene Posten</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 2740290379 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Period Length" field.</source>
+          <target>Gibt den Wert des Felds "Periodenlänge" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 2740290379 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Length</source>
           <target>Periodenlänge</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 313682892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Due Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Ablaufdatumsfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 313682892 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Due Date Filter</source>
           <target>Fälligkeitsdatumsfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 3287144200 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Print Amounts in LCY" field.</source>
+          <target>Gibt den Wert des Felds "Druckmenge in LCY" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 3287144200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Amounts in LCY</source>
           <target>Beträge in MW drucken</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 3326239799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Payment Method Filter" field.</source>
+          <target>Gibt den Wert des Felds "Zahlungsmethodenfilter" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 3326239799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payment Method Filter</source>
           <target>Zahlungsmethodenfilter</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 4131036925 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Process Line Aging" field.</source>
+          <target>Gibt den Wert des Feldes "Prozesslinienalterung" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 4131036925 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process Line Aging</source>
           <target>Verarbeite Fälligkeitsregisterzeile</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 414371592 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Column Count due/to be due" field.</source>
+          <target>Gibt den Wert des Felds "Spaltenanzahl aufgrund/schwach" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 414371592 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Column Count due/to be due</source>
           <target>Anzahl Spalten (im) Verfallen</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 447285968 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Date Filter" field.</source>
+          <target>Gibt den Wert des Felds "Veröffentlichungsdatumsfilter" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 447285968 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date Filter</source>
           <target>Buchungsdatumsfilter</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 570273595 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Report Setup" field.</source>
+          <target>Gibt den Wert des Felds "Report Setup" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 570273595 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Report Setup</source>
           <target>Berichtseinrichtung</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 765778735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Batch processing type" field.</source>
+          <target>Gibt den Wert des Felds "Stapelverarbeitungstyp" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 765778735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch processing type</source>
           <target>Batch-Verarbeitungsart</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 79677288 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Use Salesperson from Customer" field.</source>
+          <target>Gibt den Wert des Felds "Agent vom Kunden verwenden" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 79677288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Use Salesperson from Customer</source>
           <target>Verwende den Verkäufer vom Debitor</target>
         </trans-unit>
+        <trans-unit id="Report 52678898 - Control 83857061 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Process Column Aging" field.</source>
+          <target>Gibt den Wert des Felds "Prozessspaltenalterung" an.</target>
+        </trans-unit>
         <trans-unit id="Report 52678898 - Control 83857061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Process Column Aging</source>
           <target>Verarbeite Spalte Fälligkeitsregister</target>
+        </trans-unit>
+        <trans-unit id="Report 52678898 - Control 972820655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Aged As Of" field.</source>
+          <target>Gibt den Wert des Felds "Am Datum" an.</target>
         </trans-unit>
         <trans-unit id="Report 52678898 - Control 972820655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Aged As Of</source>
@@ -3339,10 +3691,6 @@
           <source>Entry Type</source>
           <target>Postenart</target>
         </trans-unit>
-        <trans-unit id="Table 3072977790 - Field 149522872 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>,Initial Entry,Application,Unrealized Loss,Unrealized Gain,Realized Loss,Realized Gain,Payment Discount,Payment Discount (VAT Excl.),Payment Discount (VAT Adjustment),Appln. Rounding,Correction of Remaining Amount,Payment Tolerance,Payment Discount Tolerance,Payment Tolerance (VAT Excl.),Payment Tolerance (VAT Adjustment),Payment Discount Tolerance (VAT Excl.),Payment Discount Tolerance (VAT Adjustment)</source>
-          <target>,Urspr. Posten,Ausgleich,Unrealisierter Verlust,Unrealisierter Gewinn,Realisierter Verlust,Realisierter Gewinn,Skonto,Skonto (ohne MwSt.),Skonto (MwSt.-Regulierung),Ausgl. Rundung,Restbetrag Korrektur,Zahlungstoleranz,Skontotoleranz,Zahlungstoleranz (ohne MwSt.),Zahlungstoleranz (MwSt.-Regulierung),Skontotoleranz (ohne MwSt.),Skontotoleranz (MwSt.-Regulierung)</target>
-        </trans-unit>
         <trans-unit id="Table 3072977790 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Type</source>
           <target>Belegart</target>
@@ -3390,6 +3738,18 @@
         <trans-unit id="Table 3072977790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Detailed Ledger Entry Buffer</source>
           <target>Detaillierte Bewegungspuffer</target>
+        </trans-unit>
+        <trans-unit id="Table 3311352521 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Primärschlüssel</target>
+        </trans-unit>
+        <trans-unit id="Table 3311352521 - Field 636392376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Betrag</target>
+        </trans-unit>
+        <trans-unit id="Table 3311352521 - Field 832833506 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reporting Group No.</source>
+          <target>Nr. der Berichtsgruppe</target>
         </trans-unit>
         <trans-unit id="Table 3355260289 - Field 1006569366 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reporting Flag 1</source>
@@ -3734,6 +4094,10 @@
         <trans-unit id="Table 426484522 - Field 2148341731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Aging Report ID</source>
           <target>Kreditorenalterungsberichts-ID</target>
+        </trans-unit>
+        <trans-unit id="Table 426484522 - Field 2709343162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Report Company Name</source>
+          <target>Firmenname in Berichten</target>
         </trans-unit>
         <trans-unit id="Table 426484522 - Field 2752998707 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Aging Column Report ID</source>
