@@ -671,6 +671,22 @@
           <source>Failed calling function: %1</source>
           <target>Funzione di chiamata non riuscita: %1</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2681496459 - Method 370523797 - NamedType 410832780" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The file is corrupted</source>
+          <target>Il file è danneggiato</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2681496459 - NamedType 2762497220" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed records:%1\Accepted: %2\Rejected/Ignored: %3</source>
+          <target>Record processati: %1\Accettati: %2\Rifiutati/Ignorati: %3</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2681496459 - NamedType 3094293408" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Elaboration in progress\@1@@@@@@@@@@@@@@</source>
+          <target>Elaborazione in corso\@1@@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2681496459 - NamedType 3578138118" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The file %1 were not found</source>
+          <target>File %1 non trovato</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2684716203 - NamedType 2041511320" translate="yes" size-unit="char" xml:space="preserve">
           <source>Failed calling function: %1</source>
           <target>Errore nella chiamata della funzione: %1</target>
@@ -974,6 +990,18 @@
         <trans-unit id="Codeunit 979456391 - NamedType 3388173854" translate="yes" size-unit="char" xml:space="preserve">
           <source>TAG %1 cannot be blank.</source>
           <target>Il TAG %1 non può essere vuoto.</target>
+        </trans-unit>
+        <trans-unit id="Enum 4146238534 - EnumValue 1994964448 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer</source>
+          <target>Cliente</target>
+        </trans-unit>
+        <trans-unit id="Enum 4146238534 - EnumValue 2572667290 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>All Customers</source>
+          <target>Tutti i clienti</target>
+        </trans-unit>
+        <trans-unit id="Enum 4146238534 - EnumValue 4171065795 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Class</source>
+          <target>Classe documento</target>
         </trans-unit>
         <trans-unit id="Enum 45903871 - EnumValue 1904677256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ecobonus</source>
@@ -3967,6 +3995,10 @@
           <source>Used in IscrizioneREA tags export</source>
           <target>Utilizzato nell'esportazione dei tag Disezione</target>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Control 2595277695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File System FunctionAPI</source>
+          <target>File System FunctionAPI</target>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Control 2998472178 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>REA</source>
           <target>Iscrizione REA</target>
@@ -3982,6 +4014,10 @@
         <trans-unit id="Page 326399071 - Control 3114465641 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if discount on lines has to be exported as amount or percentage. In case of rounding difference, document will be exported using amounts.</source>
           <target>Specifica se gli sconti sulle righe saranno esportati come importo o come percentuale. In caso di differenze dovute all'arrotondamento verrà utilizzato il metodo per importo.</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 3124414295 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies where the created xml for Self Invoice are stored</source>
+          <target>Specifica dove sono archiviati gli xml creati per integr./autofattura.</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 3221209962 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies from what date export will be only available in 1.6 format.</source>
@@ -4019,6 +4055,10 @@
           <source>Specifies RegimeFiscale tag value; Text constant "RF" is added by default at the beginning of the string.</source>
           <target>Specifica il valore del tag RegimeFiscale; la costante di testo "RF" è aggiunta in dal sistema a inizio stringa</target>
         </trans-unit>
+        <trans-unit id="Page 326399071 - Control 3943835572 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Service Config Key field.</source>
+          <target>Specifica il valore del campo Chiave di configurazione del servizio.</target>
+        </trans-unit>
         <trans-unit id="Page 326399071 - Control 3978786276 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Used in IscrizioneREA tags export</source>
           <target>Utilizzato nell'esportazione dei tag Disezione</target>
@@ -4034,6 +4074,10 @@
         <trans-unit id="Page 326399071 - Control 4072933583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File format</source>
           <target>Formato file</target>
+        </trans-unit>
+        <trans-unit id="Page 326399071 - Control 410483935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies where the created xml have to be exported</source>
+          <target>Specifica dove sono archiviati gli xml creati per i documenti in uscita.</target>
         </trans-unit>
         <trans-unit id="Page 326399071 - Control 4197906064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies &lt;SoggettoEmittente&gt; tag value</source>
@@ -5231,6 +5275,10 @@
           <source>Specifies the value of the "File Storage Code" field.</source>
           <target>Specifica il valore del campo "File Storage Code".</target>
         </trans-unit>
+        <trans-unit id="Page 695602600 - Control 1891250343 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Import Folder field.</source>
+          <target>Specifica il valore del campo Cartella Importati.</target>
+        </trans-unit>
         <trans-unit id="Page 695602600 - Control 2401179333 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PA XSL Template Saved</source>
           <target>Modello XSL PA Salvato</target>
@@ -5239,9 +5287,17 @@
           <source>Specifies if new purchase documents should be initialized with a specific document class</source>
           <target>Specifica se un nuovo documento acquisto sarà inizializzato con una specifica classe documento.</target>
         </trans-unit>
+        <trans-unit id="Page 695602600 - Control 2595277695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File System FunctionAPI</source>
+          <target>File System FunctionAPI</target>
+        </trans-unit>
         <trans-unit id="Page 695602600 - Control 2798303980 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Classes</source>
           <target>Classi documento</target>
+        </trans-unit>
+        <trans-unit id="Page 695602600 - Control 2861685950 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Archive Folder field.</source>
+          <target>Specifica il valore del campo Cartella archivio.</target>
         </trans-unit>
         <trans-unit id="Page 695602600 - Control 3321539345 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Header</source>
@@ -5255,6 +5311,10 @@
           <source>Specifies an XSL template to be used when formatting an XML file</source>
           <target>Specifica il file template XSL da utilizzare per formattare il documento XML</target>
         </trans-unit>
+        <trans-unit id="Page 695602600 - Control 3943835572 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Service Config Key field.</source>
+          <target>Specifica il valore del campo Chiave di configurazione del servizio.</target>
+        </trans-unit>
         <trans-unit id="Page 695602600 - Control 397981922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if Posting Date in purchase headers that will be created should be filled with TODAY or IX-FE receipt date</source>
           <target>Specifica se la data di registrazione nelle intestazioni di acquisto che verranno create deve essere compilata con oggi o IX-FE data di ricevimento</target>
@@ -5266,6 +5326,10 @@
         <trans-unit id="Page 695602600 - Control 689635933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies directory to scan when importing files.</source>
           <target>Specifica la cartella da cui importare i file.</target>
+        </trans-unit>
+        <trans-unit id="Page 695602600 - Control 739202938 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Rejected Folder field.</source>
+          <target>Specifica il valore del campo Cartella rifiutata.</target>
         </trans-unit>
         <trans-unit id="Page 695602600 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inbound Setup (FTE)</source>
@@ -5310,6 +5374,14 @@
         <trans-unit id="Page 807332812 - Action 1242945158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Validate</source>
           <target>Valida</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 1407354089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Imports a folder. (From Inb. Setup - "Import Folder")</source>
+          <target>Importa una cartella. (Da Setup in Entrata- "Cartella Importati")</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 1407354089 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Folder FS</source>
+          <target>Importa cartella FS</target>
         </trans-unit>
         <trans-unit id="Page 807332812 - Action 1456163216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the DatiOrdineAcquisto lines page</source>
@@ -10987,6 +11059,10 @@
           <source>Amount,Percentage</source>
           <target>Importo,Percentuale</target>
         </trans-unit>
+        <trans-unit id="Table 326399071 - Field 3124414295 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purch. Self-Invoice File Path</source>
+          <target>Purch. Percorso del file di autofattura</target>
+        </trans-unit>
         <trans-unit id="Table 326399071 - Field 3128184946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
           <target>Nome</target>
@@ -11051,6 +11127,10 @@
           <source>Company Type</source>
           <target>Tipo di società</target>
         </trans-unit>
+        <trans-unit id="Table 326399071 - Field 3943835572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Config Key</source>
+          <target>Chiave di configurazione del servizio</target>
+        </trans-unit>
         <trans-unit id="Table 326399071 - Field 3978786276 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shareholder Status</source>
           <target>Stato azionista</target>
@@ -11066,6 +11146,10 @@
         <trans-unit id="Table 326399071 - Field 4041159780 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Add Item Code</source>
           <target>Aggiungi codice articolo</target>
+        </trans-unit>
+        <trans-unit id="Table 326399071 - Field 410483935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Path</source>
+          <target>Percorso file</target>
         </trans-unit>
         <trans-unit id="Table 326399071 - Field 4197906064 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transmission Intermediary No.</source>
@@ -11279,6 +11363,10 @@
           <source>File Storage Code</source>
           <target>Codice configurazione servizio</target>
         </trans-unit>
+        <trans-unit id="Table 3707401602 - Field 1891250343 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import Folder</source>
+          <target> Cartella Importati</target>
+        </trans-unit>
         <trans-unit id="Table 3707401602 - Field 2359202810 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>PA XSL Template File Name</source>
           <target>Nome file modello XSL PA</target>
@@ -11286,6 +11374,10 @@
         <trans-unit id="Table 3707401602 - Field 2524519963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cr. Memo Document Class Code</source>
           <target>Classe documento nota credito</target>
+        </trans-unit>
+        <trans-unit id="Table 3707401602 - Field 2861685950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Archive Folder</source>
+          <target>Cartella di archivio</target>
         </trans-unit>
         <trans-unit id="Table 3707401602 - Field 3289087759 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>B2B XSL Template File Name</source>
@@ -11299,9 +11391,17 @@
           <source>B2B XSL Template File BLOB</source>
           <target>BLOB file modello XSL ordinario</target>
         </trans-unit>
+        <trans-unit id="Table 3707401602 - Field 3943835572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Config Key</source>
+          <target>Chiave di configurazione del servizio</target>
+        </trans-unit>
         <trans-unit id="Table 3707401602 - Field 689635933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Path</source>
           <target>Percorso file</target>
+        </trans-unit>
+        <trans-unit id="Table 3707401602 - Field 739202938 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rejected Folder</source>
+          <target>Cartella rifiutata</target>
         </trans-unit>
         <trans-unit id="Table 3707401602 - Field 967711467 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Alternative XSL Template File Name</source>
