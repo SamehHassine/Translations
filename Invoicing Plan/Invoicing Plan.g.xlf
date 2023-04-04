@@ -393,6 +393,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Invoice Plan Line - Field Execute Action - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2624862372 - Field 4274826855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Invoice Plan Line - Field G/L Account - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2624862372 - Field 633819257 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Gen. Bus. Posting Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -822,6 +827,11 @@
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Template Line - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 933085470 - Field 4274826855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Template Line - Field G/L Account - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 933085470 - Field 417365185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Plan Template Code</source>
@@ -1718,6 +1728,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan Subform - Control Execute Invoice Action - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2162319592 - Control 4274826855 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "G/L Account" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan Subform - Control G/L Account - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2162319592 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Gen. Bus. Posting Group" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2118,6 +2133,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Template Subform - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 488468866 - Control 4274826855 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "G/L Account" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Template Subform - Control G/L Account - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 488468866 - Control 4095313195 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Invoice Type" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2328,6 +2348,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS IPL Sales Invoice Creation - NamedType YourOrderRefTxt</note>
         </trans-unit>
+        <trans-unit id="Report 3256361168 - Method 863941584 - NamedType 2348678250" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"%1" or "%2" must have a value to create an IPL Anticipated Invoice</source>
+          <note from="Developer" annotates="general" priority="2">%1 = the GLAccount field in IPL Lines, %2 = AccountAPInvoice in IPL Header</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS IPL Sales Invoice Creation - Method CheckGLAccount - NamedType CheckGLAccountLbl</note>
+        </trans-unit>
         <trans-unit id="Report 3256361168 - Control 2153613219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Posting Date" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2440,7 +2465,7 @@
         </trans-unit>
         <trans-unit id="PageExtension 1604556812 - Change 2937233469 - Method 3279464882 - NamedType 799028103" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 1604556812">
           <source>The line amount cannot be changed because it is linked to Invoice Plan %1. It must be changed in the Invoice Plan.</source>
-          <note from="Developer" annotates="general" priority="2">The Invoice Plan No</note>
+          <note from="Developer" annotates="general" priority="2">%1 = The Invoice Plan No</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS PageExt18091208 - Change Unit Price - Method OnBeforeValidate - NamedType ChangingAmountLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 3407579993 - Control 3905633698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2504787009">
