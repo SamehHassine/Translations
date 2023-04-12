@@ -978,6 +978,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - NamedType Text001Err</note>
         </trans-unit>
+        <trans-unit id="Table 127178702 - Field 1733804250 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Component Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field BOM Component Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 818736113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BOM Component Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field BOM Component Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 127178702 - Field 1622670459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>BOM Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1103,6 +1113,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Indentation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 127178702 - Field 1829800903 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Installed in Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Installed in Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 3567287514 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Installed in Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Installed in Line No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 127178702 - Field 568743302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1197,6 +1217,11 @@
           <source>Quantity Formula</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Quantity Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 127178702 - Field 3500504311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Replenishment System</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Configurator Line - Field Replenishment System - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 127178702 - Field 463590211 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Routing Link Code</source>
@@ -4228,6 +4253,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = Characteristic Code; %2 = Characteristic Value; %3 = Maximum Value; %4 = Formual Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS028 CFG Conf. Charac. Mgt. - NamedType Text002Err</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1219423288 - NamedType 2478835906" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configurator with Variants is not supported in %1 %2 (No. %3)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS028 CFG Configurator Mgt. - NamedType LblVariantMgtErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 1219423288 - NamedType 2316870939" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item is not configured</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5639,7 +5669,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control CopyRoutingComments - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 867969914 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the Enable BOM Reconfiguration field</source>
+          <source>Enable Reconfiguration of Production BOM and BOM Component.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control EnableBOMReconfiguration - Property ToolTip</note>
         </trans-unit>
@@ -9033,6 +9063,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090707 - Control EOS Copy Routing - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Control 2315620118 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Specifies the value of the Formula Code field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Control EOSFormulaCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Control 4212298309 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Specifies the value of the Quantity Formula field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Control EOSQtyFormula - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Control 2728614594 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Specifies the value of the Routing Rule Code field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Control EOSRoutingRuleCode - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 94729930 - Control 3914839110 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3967890522">
+          <source>Specifies the value of the Rule Code field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS028 PageExt 18090708 - Control EOSRuleCode - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2170450287 - Action 2935301904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1434786627">
           <source>Configurator</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9963,6 +10013,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18090701 - Field EOS Copy Routing - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 4135873075 - Field 3903248006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2378311977">
+          <source>Formula Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18090702 - Field EOS Formula Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4135873075 - Field 4186461976 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2378311977">
+          <source>Quantity Formula</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18090702 - Field EOS Quantity Formula - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4135873075 - Field 1178247282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2378311977">
+          <source>Condition Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18090702 - Field EOS Routing Rule Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4135873075 - Field 3532825014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2378311977">
+          <source>Rule Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18090702 - Field EOS Rule Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2799225220 - Field 3777800003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3276313895">
           <source>Configuration Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10043,6 +10113,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18091268 - Field EOS Ref. Surcharge Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 2625394185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3589646212">
+          <source>BOM Component Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18091269 - Field EOS BOM Component Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 1982694018 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3589646212">
+          <source>BOM Component Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18091269 - Field EOS BOM Component Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 634411676 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3589646212">
           <source>BOM Line No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10087,6 +10167,16 @@
           <source>Formula Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18091269 - Field EOS Formula Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 1296734928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3589646212">
+          <source>Installed in Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18091269 - Field EOS Installed in Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1992619580 - Field 87730017 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3589646212">
+          <source>Installed in Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS028 TableExt 18091269 - Field EOS Installed in Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1992619580 - Field 1625236407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3589646212">
           <source>Length</source>
