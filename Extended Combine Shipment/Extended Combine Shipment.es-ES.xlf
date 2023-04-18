@@ -39,7 +39,7 @@
           <source>Select to use the field as breaking criteria</source>
           <target>Seleccione esta opción para utilizar el campo como criterio de interrupción</target>
         </trans-unit>
-        <trans-unit id="Page 1031541067 - Control 3794312659 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 1031541067 - Control 3794312659 - Property 2001309823" translate="yes" size-unit="char" xml:space="preserve">
           <source>Select the fields by which you want to group invoices.</source>
           <target>Seleccione los campos por los que desea agrupar la factura</target>
         </trans-unit>
@@ -107,7 +107,7 @@
           <source>Specifies the value of the "Description" field</source>
           <target>Especifica el valor del campo "Descripción"</target>
         </trans-unit>
-        <trans-unit id="Page 4138601875 - Control 615966908 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Page 4138601875 - Control 615966908 - Property 2001309823" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies from which header get the values for the invoice</source>
           <target>Especifica de qué encabezado obtener los valores de la factura</target>
         </trans-unit>
@@ -136,8 +136,8 @@
           <target>Especifica el código de método de facturación para el cliente</target>
         </trans-unit>
         <trans-unit id="Report 1490119125 - Control 1477559269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The reference date used fot the invoicing method "date formula" calculation</source>
-          <target>La fecha de referencia utilizada para el método de facturación "fórmula de fecha" cálculo</target>
+          <source>The "Reference Date" used by the "Invoicing Method" to filter in the "From Date"/"To Date" range. The reference date is also used for "Posting Date", "Document Date", "Shipment Date" and "Order Date", if the "Posting Date" is not specified in the "Invoice Data" group. As "Operation Occured Date" if "Operation Occurred Date" is not specified in the "Invoice Data" group.</source>
+          <target>La "Fecha de referencia" utilizada por el "Método de facturación" para filtrar en el rango "Desde la fecha"/"Hasta la fecha". La fecha de referencia también se utiliza para "Fecha de contabilización", "Fecha del documento", "Fecha de envío" y "Fecha de pedido", si la "Fecha de contabilización" no se especifica en el grupo "Datos de factura". Como "Fecha de la operación" si "Fecha de la operación ocurrida" no se especifica en el grupo "Datos de la factura".</target>
         </trans-unit>
         <trans-unit id="Report 1490119125 - Control 1477559269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Reference Date</source>
@@ -147,9 +147,29 @@
           <source>Options</source>
           <target>Opciones</target>
         </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 2542111395 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice data</source>
+          <target>Datos de la factura</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 2707947796 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Documents created will use this date as "Operation Occured Date". If empty the "Reference Date" will be used.</source>
+          <target>Los documentos creados utilizarán esta fecha como "Fecha de ocurrencia de la operación". Si está vacío, se utilizará la "Fecha de referencia".</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 2707947796 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation Occured Date</source>
+          <target>Fecha de la operación</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 3037438984 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Documents created will use this date as "Posting Date", "Document Date", "Shipment Date" and "Order Date". If empty the "Reference Date" will be used.</source>
+          <target>Los documentos creados utilizarán esta fecha como "Fecha de contabilización". Si está vacío, se utilizará la "Fecha de referencia".</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Control 3037438984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Fecha de contabilización</target>
+        </trans-unit>
         <trans-unit id="Report 1490119125 - Control 326478567 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The "Def. Inv. Method Code" used</source>
-          <target>El "Código de Método Def.</target>
+          <source>The "Def. Inv. Method Code" is used only when the Customer does not have a specific one. Specifies the grouping fields.</source>
+          <target>El "Código del método Def. Inv." se utiliza solo cuando el Cliente no tiene uno específico. Especifica los campos de agrupación.</target>
         </trans-unit>
         <trans-unit id="Report 1490119125 - Control 326478567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Def. Inv. Method Code</source>
@@ -170,6 +190,18 @@
         <trans-unit id="Report 1490119125 - Method 2736589801 - NamedType 841718678" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 invoices have been created.</source>
           <target>Se han creado %1 facturas.</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 920911275 - NamedType 2229563192" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Date</source>
+          <target>Fecha de contabilización</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 920911275 - NamedType 2504123249" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reference Date</source>
+          <target>Fecha de referencia</target>
+        </trans-unit>
+        <trans-unit id="Report 1490119125 - Method 920911275 - NamedType 2682639558" translate="yes" size-unit="char" xml:space="preserve">
+          <source>"Operation Occured Date" cannot be greater than "%1"</source>
+          <target>"Fecha de la operación ocurrida" no puede ser mayor que "%1"</target>
         </trans-unit>
         <trans-unit id="Report 1490119125 - NamedType 1246781357" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipment No: %1</source>
