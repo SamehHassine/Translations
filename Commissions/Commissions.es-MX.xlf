@@ -39,9 +39,6 @@
           <source>No purchase document created/updated.</source>
           <target>No se ha creado ningún documento de compra.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1973429469 - NamedType 1663538591" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Commissions were not generated correctly.\Expected value = %5. Actual Value = %6 \%1 set to %2. \Workdate=%3 \Document Date=%4.</source>
-        </trans-unit>
         <trans-unit id="Codeunit 2547108696 - Method 3061207919 - NamedType 2821468818" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 needs to be rounded</source>
           <target>%1 debe redondearse</target>
@@ -74,10 +71,10 @@
           <source>%1 journal</source>
           <target>Diario %1</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3396113157 - Method 1305768699 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected record type detected (table %1), proper support for the table must be implemented.</source>
         </trans-unit>
-        <trans-unit id="Codeunit 3396113157 - Method 1305768699 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected %1 value detected, proper logic must be implemented..</source>
         </trans-unit>
         <trans-unit id="Codeunit 3639294878 - Method 1008427425 - NamedType 1964939054" translate="yes" size-unit="char" xml:space="preserve">
@@ -1637,6 +1634,9 @@
         <trans-unit id="Page 2797433351 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the salesperson.</source>
           <target>Especifica el código del vendedor.</target>
+        </trans-unit>
+        <trans-unit id="Page 2797433351 - NamedType 1347929637" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Network is enabled. You cannot edit this page.</source>
         </trans-unit>
         <trans-unit id="Page 2797433351 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Add. Salespersons/Purchasers</source>
@@ -5022,10 +5022,6 @@
           <source>Commission Prospect</source>
           <target>Prospecto de la Comisión</target>
         </trans-unit>
-        <trans-unit id="Report 1994358204 - ReportColumn 4237283545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Type</source>
-          <target>Tipo de documento</target>
-        </trans-unit>
         <trans-unit id="Report 1994358204 - ReportColumn 4237283545 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quote,Blanket Order,Order,Invoice,Return Order,Credit Memo,Posted Shipment,Posted Invoice,Posted Return Receipt,Posted Credit Memo,Arch. Quote,Arch. Order,Arch. Blanket Order,Arch. Return Order</source>
           <target>Oferta,Pedido abierto,Pedido,Factura,Devolución,Nota de abono,Histórico envío,V. invent. regis.,Dev. recep. regis.,Abono c. regis.,Oferta arch.,Pedido arch.,Pedido abierto arch.,Devolución arch.</target>
@@ -5201,18 +5197,6 @@
         <trans-unit id="Report 2836188360 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Commissions Detail (CMS)</source>
           <target>Detalle de las comisiones de impresión (CMS)</target>
-        </trans-unit>
-        <trans-unit id="Report 2836188360 - ReportColumn 1971135549 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Code</source>
-          <target>Código de proveedor</target>
-        </trans-unit>
-        <trans-unit id="Report 2836188360 - ReportColumn 2811115197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Type</source>
-          <target>Tipo de liquidación</target>
-        </trans-unit>
-        <trans-unit id="Report 2836188360 - ReportColumn 2979117234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Period</source>
-          <target>Período de liquidación</target>
         </trans-unit>
         <trans-unit id="Report 2836188360 - ReportLabel 2266766051" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fixed comm. amount (LCY)</source>
