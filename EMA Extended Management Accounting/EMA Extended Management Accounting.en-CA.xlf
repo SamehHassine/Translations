@@ -4068,11 +4068,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - Field EOS Line Type - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2362729240 - Field 1761888289 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posting,Heading,Total,Begin-Total,End-Total</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Column - Field EOS Line Type - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="Table 2362729240 - Field 581050965 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Modified by</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4977,6 +4972,26 @@
           <source>Default Journal</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/A Journal Mgt. - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657266398 - NamedType 1534764485" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This function updates the indentation of all the columns in the profitability income statement. All accounts between a Begin-Total and the matching End-Total are indented one level. The Totaling for each End-total is also updated.\\Do you want to indent the profitability income statement?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType AccIndentQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657266398 - NamedType 1575816433" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You can only indent %1 levels for accounts of the type Begin-Total.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = A number bigger than 1</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType ArrayExceededErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657266398 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indenting the profitability income statement #1##########</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType Text004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1657266398 - NamedType 1370456556" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End-Total %1 is missing a matching Begin-Total.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType Text005</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3050295096" size-unit="char" translate="yes" xml:space="preserve">
           <source>Column %1 must be &lt;&gt; %2.</source>
