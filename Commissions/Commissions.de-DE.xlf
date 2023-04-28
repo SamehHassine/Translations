@@ -71,14 +71,6 @@
           <source>%1 journal</source>
           <target>%1-Erfassung</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3396113157 - Method 1305768699 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unexpected record type detected (table %1), proper support for the table must be implemented.</source>
-          <target>Unerwarteter Datensatztyp erkannt (Tabelle %1), die richtige Unterstützung für die Tabelle muss implementiert werden.</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3396113157 - Method 1305768699 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Unexpected %1 value detected, proper logic must be implemented..</source>
-          <target>Unerwarteter %1-Wert erkannt, die richtige Logik muss implementiert werden.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3639294878 - Method 1008427425 - NamedType 1964939054" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2 already related to an existing %3 (%4) for salesperson %5.</source>
           <target>%1 %2 bereits verwandt mit einem vorhandenen %3 (%4) für Verkäufer %5.</target>
@@ -1638,6 +1630,10 @@
         <trans-unit id="Page 2797433351 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of the salesperson.</source>
           <target>Gibt den Code des Verkäufers an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2797433351 - NamedType 1347929637" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Network is enabled. You cannot edit this page.</source>
+          <target>Das Vertriebsnetz ist aktiviert. Sie können diese Seite nicht bearbeiten.</target>
         </trans-unit>
         <trans-unit id="Page 2797433351 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Add. Salespersons/Purchasers</source>
@@ -5031,10 +5027,6 @@
           <source>Commission Prospect</source>
           <target>Prospekt der Kommission </target>
         </trans-unit>
-        <trans-unit id="Report 1994358204 - ReportColumn 4237283545 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Type</source>
-          <target>Belegart</target>
-        </trans-unit>
         <trans-unit id="Report 1994358204 - ReportColumn 4237283545 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quote,Blanket Order,Order,Invoice,Return Order,Credit Memo,Posted Shipment,Posted Invoice,Posted Return Receipt,Posted Credit Memo,Arch. Quote,Arch. Order,Arch. Blanket Order,Arch. Return Order</source>
           <target>Angebot,Rahmenauftrag,Auftrag,Rechnung,Reklamation,Gutschrift,Geb. Lieferung,Geb. Rechnung,Geb. RŽ‰cksendung,Geb. Gutschrift</target>
@@ -5210,18 +5202,6 @@
         <trans-unit id="Report 2836188360 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Print Commissions Detail (CMS)</source>
           <target>Salesp./Purch. Provisionen</target>
-        </trans-unit>
-        <trans-unit id="Report 2836188360 - ReportColumn 1971135549 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Vendor Code</source>
-          <target>Kreditorencode</target>
-        </trans-unit>
-        <trans-unit id="Report 2836188360 - ReportColumn 2811115197 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Type</source>
-          <target>Abrechnungstyp</target>
-        </trans-unit>
-        <trans-unit id="Report 2836188360 - ReportColumn 2979117234 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Settlement Period</source>
-          <target>Abrechnungszeitraum</target>
         </trans-unit>
         <trans-unit id="Report 2836188360 - ReportLabel 2266766051" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fixed comm. amount (LCY)</source>
