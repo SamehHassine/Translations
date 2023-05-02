@@ -88,35 +88,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Free Gift Setup - Field VAT Prod. Posting Group S.I. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2580193268 - NamedType 1772493744" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Free Version</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType FreeVersLbl</note>
+        <trans-unit id="Codeunit 2580193268 - NamedType 2599441456" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial subscription for Sales Free Goods found - day %1 of %2</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Current Day ; %2 = Trial Duration</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType FreeTrialLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 3269160490" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No subscription for SFG present! - Action not allowed!</source>
+          <source>No subscription for Sales Free Goods present! - Action not allowed!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType NoSubscriptCULbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 4128705988" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No subscription for SFG present! - this page cannot be edited!</source>
+          <source>No subscription for Sales Free Goods present! - This page cannot be used!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType NoSubscriptLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 1625896033" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No subscription for SFG present! - this report cannot be generated!</source>
+          <source>No subscription for Sales Free Goods present! - this report cannot be generated!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType NoSubscriptRepLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 3560163384" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Set up a subscription</source>
+          <source>Set up a full subscription</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType SetUpSubscriptionTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 4205745040" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Subscribe for an activation</source>
+          <source>Subscribe for a free trial or a full activation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType SubscribeActivationTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2580193268 - NamedType 2929049406" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Trial Version</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX043 Subscription - NamedType TrialVersLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 688407614 - NamedType 2484161037" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to create the free-goods lines for %1 %2?</source>
@@ -423,6 +428,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007962 - Field EOS Gift Self Inv. Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1453927511 - Field 3218445688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Self Invoice Source Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007962 - Field EOS043 Self Inv Document Type - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3283217056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
           <source>Free Gift Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -439,14 +449,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007963 - Field EOS Gift Link To Line No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3535933740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
-          <source>Gift Self Invoice Document no.</source>
+          <source>Gift Self-Invoice Source Document no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007963 - Field EOS Gift Self Inv Document No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3819599521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
-          <source>Gift Self Invoice line no.</source>
+          <source>Gift Self-Invoice Source line no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007963 - Field EOS Gift Self Inv. Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2091624128 - Field 3218445688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Self Invoice Source Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007963 - Field EOS043 Self Inv Document Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 985139917 - Field 3283217056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1114148978">
           <source>Free Gift Code</source>
@@ -497,6 +512,21 @@
           <source>Gift linked to line no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOS TableExt18007967 - Field EOS Gift Link To Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3290074870 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS043 Self Inv. Document Type - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3290074870 - EnumValue 1708100201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS043 Self Inv. Document Type - EnumValue Sales Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3290074870 - EnumValue 4034894651 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS043 Self Inv. Document Type - EnumValue Sales Invoice - Property Caption</note>
         </trans-unit>
       </group>
     </body>
