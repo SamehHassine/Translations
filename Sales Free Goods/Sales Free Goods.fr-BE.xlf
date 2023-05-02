@@ -4,27 +4,29 @@
     <body>
       <group id="body">
         <trans-unit id="Codeunit 2580193268 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for SFG present! - this report cannot be generated!</source>
+          <source>No subscription for Sales Free Goods present! - this report cannot be generated!</source>
           <target>Pas d’abonnement pour SFG présent! - ce rapport ne peut pas être généré!</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2580193268 - NamedType 1772493744" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-          <target>Version gratuite</target>
+        <trans-unit id="Codeunit 2580193268 - NamedType 2599441456" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trial subscription for Sales Free Goods found - day %1 of %2</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 2580193268 - NamedType 2929049406" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trial Version</source>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 3269160490" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for SFG present! - Action not allowed!</source>
+          <source>No subscription for Sales Free Goods present! - Action not allowed!</source>
           <target>Pas d’abonnement pour SFG présent! - Action interdite !</target>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a subscription</source>
+          <source>Set up a full subscription</source>
           <target>Mise en place d'un abonnement</target>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 4128705988" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for SFG present! - this page cannot be edited!</source>
+          <source>No subscription for Sales Free Goods present! - This page cannot be used!</source>
           <target>Pas d’abonnement pour SFG présent! - cette page ne peut pas être éditée !</target>
         </trans-unit>
         <trans-unit id="Codeunit 2580193268 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Subscribe for an activation</source>
+          <source>Subscribe for a free trial or a full activation</source>
           <target>Abonnez-vous pour une activation</target>
         </trans-unit>
         <trans-unit id="Codeunit 688407614 - Method 1216439051 - NamedType 3344689049" translate="yes" size-unit="char" xml:space="preserve">
@@ -33,6 +35,15 @@
         <trans-unit id="Codeunit 688407614 - NamedType 2484161037" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to create the free-goods lines for %1 %2?</source>
           <target>Voulez-vous créer les lignes de produits gratuits pour %1 %2?</target>
+        </trans-unit>
+        <trans-unit id="Enum 3290074870 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+        </trans-unit>
+        <trans-unit id="Enum 3290074870 - EnumValue 1708100201 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Credit Memo</source>
+        </trans-unit>
+        <trans-unit id="Enum 3290074870 - EnumValue 4034894651 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Invoice</source>
         </trans-unit>
         <trans-unit id="Page 3473766390 - Control 2215612350 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Self Invoice Setup</source>
@@ -318,6 +329,9 @@
           <source>Account No.</source>
           <target>N° de compte</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1453927511 - Field 3218445688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Self Invoice Source Document Type</source>
+        </trans-unit>
         <trans-unit id="TableExtension 1453927511 - Field 3283217056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
           <target>Code cadeau gratuit</target>
@@ -354,6 +368,9 @@
           <source>Gift Self Invoice line no.</source>
           <target>Cadeau Auto-facture ligne no.</target>
         </trans-unit>
+        <trans-unit id="TableExtension 2091624128 - Field 3218445688 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Self Invoice Source Document Type</source>
+        </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3283217056 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Code</source>
           <target>Code cadeau gratuit</target>
@@ -363,11 +380,11 @@
           <target>Cadeau lié à la ligne no.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3535933740 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Gift Self Invoice Document no.</source>
+          <source>Gift Self-Invoice Source Document no.</source>
           <target>Document d’auto-facturation cadeau n°</target>
         </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3819599521 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Gift Self Invoice line no.</source>
+          <source>Gift Self-Invoice Source line no.</source>
           <target>Cadeau Auto-facture ligne no.</target>
         </trans-unit>
         <trans-unit id="TableExtension 2091624128 - Field 3858315858 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
