@@ -55,18 +55,6 @@
           <source>Unexpected %1 type</source>
           <target>Unerwarteter %1-Typ</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3300413541 - Method 1641233836 - NamedType 2786729175" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item %1 with serial no. type cost</source>
-          <target>Artikel %1 mit Seriennummer. Typkosten</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3300413541 - Method 1641233836 - NamedType 3519341398" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item %1 with variant type cost</source>
-          <target>Artikel %1 mit Variantentypkosten</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 3300413541 - Method 1641233836 - NamedType 726403358" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Item %1 with lot type cost</source>
-          <target>Artikel %1 mit Chargentypkosten</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3338230872 - NamedType 1341078928" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set subcontracting calculation setup</source>
           <target>Festlegen der Berechnungseinstellung für Zulieferunternehmen</target>
@@ -2558,6 +2546,10 @@
         <trans-unit id="Page 3119941560 - Control 451902762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to capacity cost type.</source>
           <target>Gibt an, welcher Standardkostencode für die Kapazitätskostenart ist.</target>
+        </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Include Purchase in Standard BOM field.</source>
+          <target>Gibt den Wert des Felds „Einkauf in Standardstückliste einbeziehen“ an.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -5951,6 +5943,10 @@
           <source>Material Subcontracting Cost</source>
           <target>Material-Zulieferkosten</target>
         </trans-unit>
+        <trans-unit id="Report 37588727 - ReportLabel 4264588493" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Material Cost</source>
+          <target>Einkaufsmaterialkosten</target>
+        </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 500876985" translate="yes" size-unit="char" xml:space="preserve">
           <source>UoM</source>
           <target>UoM</target>
@@ -6778,6 +6774,14 @@
         <trans-unit id="Table 1573099788 - Field 451902762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cap. Default Add. Cost Code</source>
           <target>Cap. Standard hinzufügen. Kostencode</target>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include Purchase in Standard BOM</source>
+          <target>Kauf im Feld Standard-Stückliste einschließen.</target>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 747511446 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Include Purchase,Exclude Purchase</source>
+          <target>Kauf einschließen,Kauf ausschließen</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 917035920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mat. Default Add. Cost Code</source>

@@ -1288,6 +1288,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Estimated WIP Consumption - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Purchase in Standard BOM</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Include Purchase in Stand. BOM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1573099788 - Field 747511446 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include Purchase,Exclude Purchase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Item Costing Setup - Field Include Purchase in Stand. BOM - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 1573099788 - Field 2765545487 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item Specific Cost Calc.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3988,21 +3998,6 @@
           <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS History Calc. Cost Mgt. - Method GetItemSNLotCost - NamedType UnexpectedFunctionErr</note>
         </trans-unit>
-        <trans-unit id="Codeunit 3300413541 - Method 1641233836 - NamedType 3519341398" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item %1 with variant type cost</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS History Calc. Cost Mgt. - Method GetItemSpecificCostSpecific - NamedType VariantTypeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3300413541 - Method 1641233836 - NamedType 726403358" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item %1 with lot type cost</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS History Calc. Cost Mgt. - Method GetItemSpecificCostSpecific - NamedType LotTypeErr</note>
-        </trans-unit>
-        <trans-unit id="Codeunit 3300413541 - Method 1641233836 - NamedType 2786729175" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Item %1 with serial no. type cost</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS History Calc. Cost Mgt. - Method GetItemSpecificCostSpecific - NamedType SerialTypeErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 3300413541 - Method 3672941353 - NamedType 2014937791" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item %1 unexpected %2</source>
           <note from="Developer" annotates="general" priority="2">%1 = Item  No. ; %2 = Cost Management Type of Product Family</note>
@@ -5807,6 +5802,11 @@
           <source>If a part of the production order has been produced (Finished quantity &lt; Quantity): the system calculates the consumption of materials and the times to be costed as a ratio between the 2 quantities (as in the calculation of the true WIP). If, on the other hand, the production order has been completed (Finished quantity &gt;= Quantity), regardless of the status of the order, the system only costs the materials and actual times recorded (it does not recalculate anything). This logic also determines the calculation of the final amounts and the final unit costs present in the routing history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Estimated WIP Consumption - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Include Purchase in Standard BOM field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Costing Setup Card - Control Include Purchase in Stand. BOM - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 2765545487 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if calculate costs for lot no. and serial no.</source>
@@ -11377,6 +11377,11 @@
           <source>Prod. Order No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel ProdOrderNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 37588727 - ReportLabel 4264588493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Material Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel PurchaseMaterialCost_ProdOrderComp_Caption</note>
         </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 2818644368" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity Per</source>
