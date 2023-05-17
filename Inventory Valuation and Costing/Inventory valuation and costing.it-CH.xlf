@@ -511,6 +511,10 @@
           <source>Specifies the LIFO direct material amount.</source>
           <target>Specifica l'importo dei costi materiali diretti LIFO</target>
         </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Specifica il valore del campo Valore magazzino zero.</target>
+        </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2580147455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Single-Level Capacity Cost.</source>
           <target>Specifica i costi di capacità correlati solo all'articolo padre dell'articolo.</target>
@@ -2524,8 +2528,8 @@
           <target>Conto lavoro</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3833024880 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which method to use for BOM and Routing date</source>
-          <target>Specifica come considerare lo data di DB e Cicli</target>
+          <source>Specifies which date to use in the BOM and Routing calculation</source>
+          <target>Specifica quale data considerare nel calcolo di DB e Cicli</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 394531934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the continuous LIFO cost</source>
@@ -2560,8 +2564,8 @@
           <target>Specifica il cod. tipologia costo predefinito per tipo costo capacità</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Include Purchase in Standard BOM field.</source>
-          <target>Specifica il valore del campo Includi acquisto nella distinta base standard.</target>
+          <source>Specifies whether or not to consider purchases in the BOM calculation. This option can be useful for hybrid items that are both produced and purchased.</source>
+          <target>Specifica se considerare o meno gli acquisti nel calcolo a distinta base. Questa opzione può essere utile nel caso di articoli ibridi che sono sia prodotti che acquistati.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -3726,6 +3730,10 @@
         <trans-unit id="Page 4157661377 - Control 23592677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Subcontracted WAC.</source>
           <target>Specifica l'importo a costo medio ponderato delle operazioni affidate a un terzista correlati all'articolo padre dell'articolo e ad altri articoli nella DB dell'articolo padre.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Specifica il valore del campo Valore magazzino zero.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2598133084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item costing period code.</source>
@@ -6784,11 +6792,11 @@
           <target>Cod. natura di costo capacità predefinito</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase in Standard BOM</source>
+          <source>Consider Purchase in Standard BOM</source>
           <target>Includi acquisti nel calcolo DB standard.</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase,Exclude Purchase</source>
+          <source>Include,Exclude</source>
           <target>Includi acquisto,Escludi acquisto</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 917035920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
