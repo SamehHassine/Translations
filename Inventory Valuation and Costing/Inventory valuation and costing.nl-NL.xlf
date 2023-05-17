@@ -499,6 +499,10 @@
           <source>Specifies the LIFO direct material amount.</source>
           <target>Hiermee geeft u de directe materiaalhoeveelheid van lifo op.</target>
         </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Specificeert de waarde van het veld Voorraadwaarde nul.</target>
+        </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2580147455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Single-Level Capacity Cost.</source>
           <target>Hiermee geeft u de capaciteitskosten op één niveau op.</target>
@@ -2512,8 +2516,8 @@
           <target>Onderaanneming</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3833024880 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which method to use for BOM and Routing date</source>
-          <target>Hiermee geeft u op welke methode moet worden gebruikt voor stuklijst- en routeringsdatum</target>
+          <source>Specifies which date to use in the BOM and Routing calculation</source>
+          <target>Specificeert welke datum moet worden gebruikt in de stuklijst- en routingberekening.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 394531934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the continuous LIFO cost</source>
@@ -2548,8 +2552,8 @@
           <target>Hiermee geeft u op wat de standaardtoevoegingskostencode is met betrekking tot het capaciteitskostentype.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Include Purchase in Standard BOM field.</source>
-          <target>Geef de waarde op van het veld Inkoop opnemen in standaardstuklijst.</target>
+          <source>Specifies whether or not to consider purchases in the BOM calculation. This option can be useful for hybrid items that are both produced and purchased.</source>
+          <target>Geeft aan of er al dan niet rekening moet worden gehouden met aankopen in de stuklijstberekening. Deze optie kan handig zijn voor hybride artikelen die zowel geproduceerd als ingekocht worden.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -3714,6 +3718,10 @@
         <trans-unit id="Page 4157661377 - Control 23592677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Subcontracted WAC.</source>
           <target>Specificeert het gewogen gemiddelde kostenbedrag van uitbestede bewerkingen met betrekking tot het bovenliggende artikel van het artikel en andere artikelen in de stuklijst van het bovenliggende artikel.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Specificeert de waarde van het veld Voorraadwaarde nul.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2598133084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item costing period code.</source>
@@ -6776,12 +6784,12 @@
           <target>Cap. Standaard toevoegen. Kostencode</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase in Standard BOM</source>
-          <target>Inkoop opnemen in het veld Standaardstuklijst.</target>
+          <source>Consider Purchase in Standard BOM</source>
+          <target>Houd rekening met aankopen in de standaard stuklijstberekening</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase,Exclude Purchase</source>
-          <target>Inclusief aankoop,Exclusief aankoop</target>
+          <source>Include,Exclude</source>
+          <target>Insluiten,Uitsluiten</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 917035920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mat. Default Add. Cost Code</source>

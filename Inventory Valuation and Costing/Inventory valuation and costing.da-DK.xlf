@@ -499,6 +499,10 @@
           <source>Specifies the LIFO direct material amount.</source>
           <target>Angiver det direkte LIFO-materialebeløb.</target>
         </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Angiver værdien af feltet Lagerværdi nul.</target>
+        </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2580147455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Single-Level Capacity Cost.</source>
           <target>Angiver kapacitetsomkostningerne på et enkelt niveau.</target>
@@ -2512,8 +2516,8 @@
           <target>Underleverance</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3833024880 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which method to use for BOM and Routing date</source>
-          <target>Angiver, hvilken metode der skal bruges til stykliste- og rutedato</target>
+          <source>Specifies which date to use in the BOM and Routing calculation</source>
+          <target>Angiver, hvilken dato der skal bruges i stykliste- og ruteberegningen.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 394531934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the continuous LIFO cost</source>
@@ -2548,8 +2552,8 @@
           <target>Angiver, hvilken standardkostpriskode der er relateret til kapacitetskostpristype.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Include Purchase in Standard BOM field.</source>
-          <target>Angiver værdien af feltet Inkluder køb i standardstykliste.</target>
+          <source>Specifies whether or not to consider purchases in the BOM calculation. This option can be useful for hybrid items that are both produced and purchased.</source>
+          <target>Angiver, om der skal tages hensyn til køb i styklisteberegningen. Denne mulighed kan være nyttig for hybridvarer, der både er produceret og købt.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -3714,6 +3718,10 @@
         <trans-unit id="Page 4157661377 - Control 23592677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Subcontracted WAC.</source>
           <target>Angiver det vægtede gennemsnitlige omkostningsbeløb for outsourcede operationer relateret til den overordnede vare for varen og andre poster i den overordnede vares stykliste.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Angiver værdien af feltet Lagerværdi nul.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2598133084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item costing period code.</source>
@@ -6776,12 +6784,12 @@
           <target>Cap. Standardtilføje. Omkostningskode</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase in Standard BOM</source>
-          <target>Inkluder køb i feltet Standardstykliste.</target>
+          <source>Consider Purchase in Standard BOM</source>
+          <target>Overvej køb i standardberegningen af ​​materialestyklister</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase,Exclude Purchase</source>
-          <target>Inkluder køb,Ekskludér køb</target>
+          <source>Include,Exclude</source>
+          <target>Inkluder,Ekskluder</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 917035920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mat. Default Add. Cost Code</source>

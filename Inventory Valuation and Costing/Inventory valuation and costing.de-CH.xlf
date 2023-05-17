@@ -499,6 +499,10 @@
           <source>Specifies the LIFO direct material amount.</source>
           <target>Gibt den LIFO-Direktmaterialbetrag an.</target>
         </trans-unit>
+        <trans-unit id="Page 1045935795 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Gibt den Wert des Feldes „Inventarwert Null“ an.</target>
+        </trans-unit>
         <trans-unit id="Page 1045935795 - Control 2580147455 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Single-Level Capacity Cost.</source>
           <target>Gibt die einstufigen Kapazitätskosten an.</target>
@@ -2512,8 +2516,8 @@
           <target>Untervergabe</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 3833024880 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which method to use for BOM and Routing date</source>
-          <target>Gibt an, welche Methode für Stückliste und Arbeitsplandatum verwendet werden soll.</target>
+          <source>Specifies which date to use in the BOM and Routing calculation</source>
+          <target>Gibt an, welches Datum in der Stücklisten- und Arbeitsplanberechnung verwendet werden soll.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 394531934 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if use the continuous LIFO cost</source>
@@ -2548,8 +2552,8 @@
           <target>Gibt an, welcher Standardkostencode für die Kapazitätskostenart ist.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 747511446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Include Purchase in Standard BOM field.</source>
-          <target>Gibt den Wert des Felds „Einkauf in Standardstückliste einbeziehen“ an.</target>
+          <source>Specifies whether or not to consider purchases in the BOM calculation. This option can be useful for hybrid items that are both produced and purchased.</source>
+          <target>Gibt an, ob Einkäufe bei der Stücklistenberechnung berücksichtigt werden sollen oder nicht. Diese Option kann für Hybridartikel nützlich sein, die sowohl produziert als auch gekauft werden.</target>
         </trans-unit>
         <trans-unit id="Page 3119941560 - Control 917035920 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which is the default addition cost code related to material cost type.</source>
@@ -3714,6 +3718,10 @@
         <trans-unit id="Page 4157661377 - Control 23592677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Subcontracted WAC.</source>
           <target>Gibt den gewichteten Durchschnittskostenbetrag der ausgelagerten Vorgänge an, die sich auf den übergeordneten Artikel des Artikels und andere Artikel in der Stückliste des übergeordneten Artikels beziehen.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2568386957 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Inventory Value Zero field.</source>
+          <target>Gibt den Wert des Feldes „Inventarwert Null“ an.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2598133084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item costing period code.</source>
@@ -6776,12 +6784,12 @@
           <target>Cap. Standard hinzufügen. Kostencode</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase in Standard BOM</source>
-          <target>Kauf im Feld Standard-Stückliste einschließen.</target>
+          <source>Consider Purchase in Standard BOM</source>
+          <target>Berücksichtigen Sie Einkäufe in der standardmäßigen Stücklistenberechnung</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 747511446 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Include Purchase,Exclude Purchase</source>
-          <target>Kauf einschließen,Kauf ausschließen</target>
+          <source>Include,Exclude</source>
+          <target>Einschließen,Ausschließen</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 917035920 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Mat. Default Add. Cost Code</source>
