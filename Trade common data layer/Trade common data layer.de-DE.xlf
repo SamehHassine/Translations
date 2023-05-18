@@ -3,13 +3,25 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 1509668696 - Method 4254127607 - NamedType 3714006762" translate="yes" size-unit="char" xml:space="preserve">
-          <source>''</source>
-          <target>''</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1744703423 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
           <source>Updating: #1\Record: #2 of #3\Detail records: #4\Per record (ms): #5</source>
           <target>Aktualisierung: #1\Datensatz: #2 von #3\Detail-Datensätze: #4\Pro Datensatz (ms): #5</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2552023741 - Method 2619190810 - NamedType 3982416129" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute </source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2552023741 - Method 29222728 - NamedType 3982416129" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute </source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2552023741 - Method 3731365951 - NamedType 3982416129" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute </source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2552023741 - Method 4109724318 - NamedType 3982416129" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute </source>
+          <target>Handelsattribut</target>
         </trans-unit>
         <trans-unit id="Codeunit 3063699058 - Method 1165505654 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
           <source>Updating: #1\Updated record no.: #2\Total records: #3</source>
@@ -24,7 +36,7 @@
           <target>Kundenhierarchien bei %1 aktualisieren?</target>
         </trans-unit>
         <trans-unit id="Codeunit 3063699058 - Method 1390524216 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Link %1 to %2 %3</source>
+          <source>Link %1 to %2</source>
           <target>Verknüpfung %1 mit %2 %3</target>
         </trans-unit>
         <trans-unit id="Codeunit 3063699058 - Method 1390524216 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
@@ -411,6 +423,10 @@
           <source>Fruit Preserves</source>
           <target>Obstkonserven</target>
         </trans-unit>
+        <trans-unit id="Enum 132888823 - EnumValue 3531868071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Feldnr.</target>
+        </trans-unit>
         <trans-unit id="Enum 1463865122 - EnumValue 3349558288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Include</source>
           <target>Einschließen</target>
@@ -418,6 +434,10 @@
         <trans-unit id="Enum 1463865122 - EnumValue 404491802 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude</source>
           <target>Ausschließen</target>
+        </trans-unit>
+        <trans-unit id="Enum 1547639355 - EnumValue 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
         </trans-unit>
         <trans-unit id="Enum 16692606 - EnumValue 136282145 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Certified</source>
@@ -427,7 +447,15 @@
           <source>Under Development</source>
           <target>In Entwicklung</target>
         </trans-unit>
+        <trans-unit id="Enum 1986314261 - EnumValue 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
         <trans-unit id="Enum 2438096981 - EnumValue 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Enum 30064773 - EnumValue 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Allgemein</target>
         </trans-unit>
@@ -439,6 +467,14 @@
           <source>Under Development</source>
           <target>In Entwicklung</target>
         </trans-unit>
+        <trans-unit id="Enum 3204177746 - EnumValue 3531868071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Feldnr.</target>
+        </trans-unit>
+        <trans-unit id="Enum 3456969584 - EnumValue 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
         <trans-unit id="Enum 3689672823 - EnumValue 1914986057 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hierarchy</source>
           <target>Hierachie</target>
@@ -447,6 +483,18 @@
           <source>Filter</source>
           <target>Filter</target>
         </trans-unit>
+        <trans-unit id="Enum 4266995851 - EnumValue 3531868071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Feldnr.</target>
+        </trans-unit>
+        <trans-unit id="Enum 720946648 - EnumValue 2901750256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attribute</source>
+          <target>Attribut</target>
+        </trans-unit>
+        <trans-unit id="Enum 720946648 - EnumValue 3531868071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Field No.</source>
+          <target>Feldnr.</target>
+        </trans-unit>
         <trans-unit id="Enum 735023673 - EnumValue 3349558288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Include</source>
           <target>Einschließen</target>
@@ -454,6 +502,86 @@
         <trans-unit id="Enum 735023673 - EnumValue 404491802 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exclude</source>
           <target>Ausschließen</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed. New captions will only be visible at the next logon!</source>
+          <target>Der Vorgang wurde abgeschlossen. Neue Beschriftungen sind nur bei der nächsten Anmeldung sichtbar!</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <target>Gibt den Wert des Felds Typ an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Control 2775011868 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Item Group Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut der Artikelgruppe an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Control 2879900210 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Caption field.</source>
+          <target>Gibt den Wert des Felds Beschriftung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <target>Gibt den Wert des Felds Name an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Control 3469662653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Attribute No. field.</source>
+          <target>Gibt den Wert des Feldes Attributnummer an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Control 951771478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1075111578 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Trade Attributes</source>
+          <target>Handelsattribute Artikel</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed. New captions will only be visible at the next logon!</source>
+          <target>Der Vorgang wurde abgeschlossen. Neue Beschriftungen sind nur bei der nächsten Anmeldung sichtbar!</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <target>Gibt den Wert des Felds Typ an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Control 2620628131 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Item Group Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut der Artikelgruppe an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Control 2879900210 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Caption field.</source>
+          <target>Gibt den Wert des Felds Beschriftung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <target>Gibt den Wert des Felds Name an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Control 3469662653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Attribute No. field.</source>
+          <target>Gibt den Wert des Feldes Attributnummer an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Control 951771478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1078990400 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Trade Attributes</source>
+          <target>Handelsattribute Debitoren</target>
         </trans-unit>
         <trans-unit id="Page 1128972207 - Control 1464663099 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specify the hierarchy level</source>
@@ -549,11 +677,11 @@
         </trans-unit>
         <trans-unit id="Page 1264574433 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
         </trans-unit>
         <trans-unit id="Page 1264574433 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
         </trans-unit>
         <trans-unit id="Page 1264574433 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level hierarchy.</source>
@@ -629,11 +757,11 @@
         </trans-unit>
         <trans-unit id="Page 1572365363 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
         </trans-unit>
         <trans-unit id="Page 1572365363 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
         </trans-unit>
         <trans-unit id="Page 1572365363 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level hierarchy.</source>
@@ -717,11 +845,11 @@
         </trans-unit>
         <trans-unit id="Page 1967521803 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
         </trans-unit>
         <trans-unit id="Page 1967521803 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
         </trans-unit>
         <trans-unit id="Page 1967521803 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level hierarchy.</source>
@@ -786,6 +914,46 @@
         <trans-unit id="Page 2030468809 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cluster Detail Subform</source>
           <target>Elementcluster-Detail-Unterformular</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed. New captions will only be visible at the next logon!</source>
+          <target>Der Vorgang wurde abgeschlossen. Neue Beschriftungen sind nur bei der nächsten Anmeldung sichtbar!</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Control 1194205006 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Sales Line Group Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut "Verkaufszeilengruppe" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <target>Gibt den Wert des Felds Typ an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Control 2879900210 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Caption field.</source>
+          <target>Gibt den Wert des Felds Beschriftung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <target>Gibt den Wert des Felds Name an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Control 3469662653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Attribute No. field.</source>
+          <target>Gibt den Wert des Feldes Attributnummer an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Control 951771478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2067292829 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Ln Trade Attributes</source>
+          <target>Handelsattribute VK-Zeile</target>
         </trans-unit>
         <trans-unit id="Page 2157625652 - Control 1048523542 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the upper level description for hierarchy.</source>
@@ -938,6 +1106,45 @@
         <trans-unit id="Page 3234714405 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Cluster Card (TCD)</source>
           <target>Kundenclusterkarte</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Action 1727274583 - Method 1377591017 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Operation completed. New captions will only be visible at the next logon!</source>
+          <target>Der Vorgang wurde abgeschlossen. Neue Beschriftungen sind nur bei der nächsten Anmeldung sichtbar!</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Insert Default Data</source>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <target>Gibt den Wert des Felds Typ an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Control 2879900210 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Caption field.</source>
+          <target>Gibt den Wert des Felds Beschriftung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <target>Gibt den Wert des Felds Name an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Control 3469662653 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Attribute No. field.</source>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Control 3665765557 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Sales Header Group Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut der Verkaufskopfgruppe an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Control 951771478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Trade Attribute field.</source>
+          <target>Gibt den Wert des Feldes Handelsattribut an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3258562962 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Hdr Trade Attributes</source>
+          <target>Handelsattribute VK-Kopf</target>
         </trans-unit>
         <trans-unit id="Page 3289302891 - Control 1048523542 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the upper level description for hierarchy.</source>
@@ -1143,13 +1350,69 @@
           <source>Hierarchy Relation Request (TCD)</source>
           <target>Hierarchiebeziehungsanforderung (TCD)</target>
         </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 1120154977 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 1289064000 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 13670766 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 1757851594 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 1779132016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 1849262019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 2395548211 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 3033244828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 3670941445 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 482458360 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Control 651367383 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3565864618 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Line Trade Attr Val</source>
+          <target>Handelsattributwert für Verkaufszeile</target>
+        </trans-unit>
         <trans-unit id="Page 3912203739 - Action 1727274583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Delete all hierarchy data and insert default data.</source>
           <target>Löschen Sie alle Hierarchiedaten, und fügen Sie Standarddaten ein.</target>
         </trans-unit>
         <trans-unit id="Page 3912203739 - Action 1727274583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert Default Data</source>
-          <target>Standardstatus und Statusänderung einfügen</target>
+          <target>Vorgabewerte einfügen</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Action 2499685166 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initialize Vendor Hierarchy</source>
+          <target>Kreditorenhierarchie initialisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Action 2499685166 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initialize Vendor Hierarchy</source>
+          <target>Kreditorenhierarchie initialisieren</target>
         </trans-unit>
         <trans-unit id="Page 3912203739 - Action 3452203359 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show and create if not exist the job queue for relation requests update.</source>
@@ -1159,6 +1422,30 @@
           <source>Job Queue Entries</source>
           <target>Aufgabenwarteschlangenposten</target>
         </trans-unit>
+        <trans-unit id="Page 3912203739 - Action 3514827094 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initialize Customer Hierarchy</source>
+          <target>Debitorenhierarchie initialisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Action 3514827094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initialize Customer Hierarchy</source>
+          <target>Debitorenhierarchie initialisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Action 4084818429 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initialize Item Hierarchy</source>
+          <target>Artikelhierarchie initialisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Action 4084818429 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Initialize Item Hierarchy</source>
+          <target>Artikelhierarchie initialisieren</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Control 1125268673 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the No. of Sales Ln Trade Attr. Mgt.</source>
+          <target>Gibt die Anzahl der möglichen VK-Zeilen-Handelsattribute an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Control 1132997479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the No. of Sales Hdr Trade Attr. Mgt.</source>
+          <target>Gibt die Anzahl der möglichen VK-Kopf-Handelsattribute an.</target>
+        </trans-unit>
         <trans-unit id="Page 3912203739 - Control 1357369661 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the series no. used for item clusters</source>
           <target>Gibt die Serie Nr. an. Wird für Elementcluster verwendet</target>
@@ -1167,9 +1454,17 @@
           <source>Specifies the value of the "Manual Hierarchy" field</source>
           <target>Gibt den Wert des Feldes "Manuelle Hierarchie" an.</target>
         </trans-unit>
+        <trans-unit id="Page 3912203739 - Control 148731468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the No. of Item Trade Attr. Mgt.</source>
+          <target>Gibt die Anzahl der möglichen Artikelhandelsattribute an.</target>
+        </trans-unit>
         <trans-unit id="Page 3912203739 - Control 1644269158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cluster</source>
           <target>Cluster</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Control 1849262019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
         </trans-unit>
         <trans-unit id="Page 3912203739 - Control 2192199132 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Manual Hierarchy" field</source>
@@ -1186,6 +1481,10 @@
         <trans-unit id="Page 3912203739 - Control 2750443042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the series no. used for customer clusters</source>
           <target>Gibt die Serie Nr. an. Wird für Kundencluster verwendet</target>
+        </trans-unit>
+        <trans-unit id="Page 3912203739 - Control 3073097179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the No. of Customer Trade Attr. Mgt.</source>
+          <target>Gibt die Anzahl der möglichen Kundenhandelsattribute an.</target>
         </trans-unit>
         <trans-unit id="Page 3912203739 - Control 3185604978 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the maximum item hierarchy level.</source>
@@ -1431,6 +1730,58 @@
           <source>Lines</source>
           <target>Zeilen</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1046792055 - Action 1064283269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or edit the item's Trade Attributes, such as color, size, or other characteristics that help to describe the item.</source>
+          <target>Zeigt oder bearbeitet die Handelsattribute des Artikels wie z. B. Farbe, Größe oder andere Merkmale, die zur Beschreibung des Artikels beitragen.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1046792055 - Action 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 1743371417 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 2212159011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 2381068034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 2849855628 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 299069160 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 3487552245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 3956339839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 4125248862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 918121777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1059537524 - Control 936765777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1184311897 - Control 1172810003 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 4 of hierarchy at today.</source>
           <target>Gibt die Hierarchieebene 4 an.</target>
@@ -1478,6 +1829,14 @@
         <trans-unit id="PageExtension 1184311897 - Control 964421361 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 2 of hierarchy at today.</source>
           <target>Gibt die Hierarchieebene 2 an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1684488672 - Action 1064283269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or edit the item's Trade Attributes, such as color, size, or other characteristics that help to describe the item.</source>
+          <target>Zeigt oder bearbeitet die Handelsattribute des Artikels wie z. B. Farbe, Größe oder andere Merkmale, die zur Beschreibung des Artikels beitragen.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1684488672 - Action 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
         </trans-unit>
         <trans-unit id="PageExtension 1822008514 - Action 1968366805 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Assign new Hierarchy" action.</source>
@@ -1579,6 +1938,94 @@
           <source>Specifies the level 2 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 2 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 1743371417 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 2212159011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 2381068034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 2849855628 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 299069160 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 3487552245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 3956339839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 4125248862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 918121777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2290796108 - Control 936765777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 1743371417 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 2212159011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 2381068034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 2849855628 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 299069160 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 3487552245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 3956339839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 4125248862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 918121777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2322185289 - Control 936765777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 2459705131 - Control 1172810003 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 4 of hierarchy at today.</source>
           <target>Gibt die Hierarchieebene 4 an.</target>
@@ -1611,6 +2058,14 @@
           <source>Specifies the level 2 of hierarchy at today.</source>
           <target>Gibt die Hierarchieebene 2 an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2959881906 - Action 1064283269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or edit the item's Trade Attributes, such as color, size, or other characteristics that help to describe the item.</source>
+          <target>Zeigt oder bearbeitet die Handelsattribute des Artikels wie z. B. Farbe, Größe oder andere Merkmale, die zur Beschreibung des Artikels beitragen.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2959881906 - Action 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Action 1968366805 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Assign new Hierarchy" action.</source>
           <target>Führt die Aktion "Neue Hierarchie zuweisen" aus.</target>
@@ -1618,6 +2073,10 @@
         <trans-unit id="PageExtension 3097401748 - Action 1968366805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assign new Hierarchy</source>
           <target>Neue Hierarchie zuweisen</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
         </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 106602804 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 7 of hierarchy at working date.</source>
@@ -1635,6 +2094,10 @@
           <source>Specifies the level 4 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 4 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 1743371417 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 1908900658 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hierarchy</source>
           <target>Hierachie</target>
@@ -1642,6 +2105,14 @@
         <trans-unit id="PageExtension 3097401748 - Control 2109080923 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 6 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 6 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 2212159011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 2381068034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 2424097399 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 2 of hierarchy at working date.</source>
@@ -1651,6 +2122,14 @@
           <source>Specifies the level 7 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 7 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 2849855628 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 299069160 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 3143186933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 6 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 6 am Arbeitsdatum an.</target>
@@ -1658,6 +2137,10 @@
         <trans-unit id="PageExtension 3097401748 - Control 3250449874 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 3 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 3 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 3487552245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 358493158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 5 of hierarchy at working date.</source>
@@ -1667,6 +2150,10 @@
           <source>Specifies the level 1 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 3956339839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 3957425972 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 5 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 5 am Arbeitsdatum an.</target>
@@ -1674,6 +2161,18 @@
         <trans-unit id="PageExtension 3097401748 - Control 4015235664 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 3 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 3 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 4125248862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 918121777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 3097401748 - Control 936765777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3097401748 - Control 964421361 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 2 of hierarchy at working date.</source>
@@ -1799,6 +2298,50 @@
           <source>Specifies the level 6 of item hierarchy.</source>
           <target>Gibt die Ebene 6 der Elementhierarchie an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 1743371417 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 2212159011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 2381068034 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 2849855628 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 299069160 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 3487552245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 3956339839 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 4125248862 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 918121777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 421840907 - Control 936765777 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 546615280 - Control 1192160948 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 7 of item hierarchy.</source>
           <target>Gibt die Ebene 7 der Elementhierarchie an.</target>
@@ -1871,6 +2414,14 @@
           <source>Specifies the level 6 of item hierarchy.</source>
           <target>Gibt die Ebene 6 der Elementhierarchie an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 578004461 - Action 1064283269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View or edit the item's Trade Attributes, such as color, size, or other characteristics that help to describe the item.</source>
+          <target>Zeigt oder bearbeitet die Handelsattribute des Artikels wie z. B. Farbe, Größe oder andere Merkmale, die zur Beschreibung des Artikels beitragen.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 578004461 - Action 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
         <trans-unit id="PageExtension 77827686 - Action 1968366805 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Assign new Hierarchy" action.</source>
           <target>Führt die Aktion "Neue Hierarchie zuweisen" aus.</target>
@@ -1879,9 +2430,17 @@
           <source>Assign new Hierarchy</source>
           <target>Neue Hierarchie zuweisen</target>
         </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 1064283269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attributes</source>
+          <target>Handelsattribute</target>
+        </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 106602804 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 7 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 7 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 1163769990 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 5 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 5 des Handelsattributs am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 1172810003 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 4 of hierarchy at working date.</source>
@@ -1895,6 +2454,14 @@
           <source>Specifies the level 4 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 4 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 1463648561 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 8 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 8 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 1632557584 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 3 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 3 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 1908900658 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hierarchy</source>
           <target>Hierachie</target>
@@ -1902,6 +2469,10 @@
         <trans-unit id="PageExtension 77827686 - Control 2003088401 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 11 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 11 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 2101345178 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 9 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 9 des Handelsattributs am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 2109080923 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 6 of hierarchy at working date.</source>
@@ -1918,6 +2489,10 @@
         <trans-unit id="PageExtension 77827686 - Control 2745298390 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 7 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 7 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 2907950818 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 1 of hierarchy at working date.</source>
+          <target>Gibt die Hierarchieebene 1 am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 3143186933 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 6 of hierarchy at working date.</source>
@@ -1943,6 +2518,10 @@
           <source>Specifies the level 8 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 8 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 3545647435 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 6 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 6 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 358493158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 5 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 5 am Arbeitsdatum an.</target>
@@ -1959,6 +2538,18 @@
           <source>Specifies the level 3 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 3 am Arbeitsdatum an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 4153827978 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 10 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 10 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 4183344052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 7 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 7 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 526073373 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 4 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 4 des Handelsattributs am Arbeitsdatum an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 77827686 - Control 616825937 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 8 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 8 am Arbeitsdatum an.</target>
@@ -1970,6 +2561,10 @@
         <trans-unit id="PageExtension 77827686 - Control 964421361 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the level 2 of hierarchy at working date.</source>
           <target>Gibt die Hierarchieebene 2 am Arbeitsdatum an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 77827686 - Control 994860967 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the level 2 of trade attribute at working date.</source>
+          <target>Gibt die Ebene 2 des Handelsattributs am Arbeitsdatum an.</target>
         </trans-unit>
         <trans-unit id="Report 1946770417 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
           <source>Operation completed.</source>
@@ -2045,7 +2640,7 @@
         </trans-unit>
         <trans-unit id="Table 1083179543 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Caption</source>
-          <target>Caption</target>
+          <target>Beschriftung</target>
         </trans-unit>
         <trans-unit id="Table 1083179543 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
@@ -2231,6 +2826,38 @@
           <source>Item Cluster Header</source>
           <target>Elementcluster-Header</target>
         </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Art</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 2775011868 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Group Trade Attribute</source>
+          <target>Handelsattribut Artikelgruppe</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Caption</source>
+          <target>Beschriftung</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 3469662653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attribute No.</source>
+          <target>Attributnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 951771478 - Method 2126772001 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade attribute already exists.</source>
+          <target>Handelsattribut existiert bereits.</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Field 951771478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute</source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Table 2425425935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Trade Attribute</source>
+          <target>Handelsattribut Artikel</target>
+        </trans-unit>
         <trans-unit id="Table 246836376 - Field 1789400218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level</source>
           <target>Ebene</target>
@@ -2241,7 +2868,7 @@
         </trans-unit>
         <trans-unit id="Table 246836376 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Caption</source>
-          <target>Caption</target>
+          <target>Beschriftung</target>
         </trans-unit>
         <trans-unit id="Table 246836376 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
@@ -2256,7 +2883,7 @@
           <target>Letztes Berechnungsdatum</target>
         </trans-unit>
         <trans-unit id="Table 2812195356 - Field 3388337713 - Method 2126772001 - NamedType 3490435816" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Invalid character used "(,|&amp;)"</source>
+          <source>Invalid character used "(',|&amp;)"</source>
           <target>Ungültiges Zeichen verwendet "(,|&amp;)"</target>
         </trans-unit>
         <trans-unit id="Table 2812195356 - Field 3388337713 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -2379,6 +3006,38 @@
           <source>Customer Cluster Line</source>
           <target>Kundenclusterlinie</target>
         </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Art</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Caption</source>
+          <target>Beschriftung</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 3469662653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attribute No.</source>
+          <target>Attributnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 3665765557 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Header Group Trade Attribute</source>
+          <target>Handelsattributgruppe VK-Kopf</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 951771478 - Method 2126772001 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade attribute already exists.</source>
+          <target>Handelsattribut existiert bereits.</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Field 951771478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute</source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Table 3247490729 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Header Trade Attr.</source>
+          <target>Handelsattribut VK-Kopf</target>
+        </trans-unit>
         <trans-unit id="Table 3386357222 - Field 1503369443 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Upper Level Code</source>
           <target>Oberstufencode</target>
@@ -2425,7 +3084,7 @@
         </trans-unit>
         <trans-unit id="Table 3893753120 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Caption</source>
-          <target>Caption</target>
+          <target>Beschriftung</target>
         </trans-unit>
         <trans-unit id="Table 3893753120 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
@@ -2435,9 +3094,21 @@
           <source>Customer Hierarchy Level</source>
           <target>Kundenhierarchieebene</target>
         </trans-unit>
+        <trans-unit id="Table 3912203739 - Field 1125268673 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Sales Ln Trade Attribute Managed</source>
+          <target>Anzahl VK-Zeilen-Handelsattribute</target>
+        </trans-unit>
+        <trans-unit id="Table 3912203739 - Field 1132997479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Sales Hdr Trade Attribute Managed</source>
+          <target>Anzahl VK-Kopf-Handelsattribute</target>
+        </trans-unit>
         <trans-unit id="Table 3912203739 - Field 1373907139 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Manual Customer Hierarchy</source>
           <target>Manuelle Kundenhierarchie</target>
+        </trans-unit>
+        <trans-unit id="Table 3912203739 - Field 148731468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Item Trade Attribute Managed</source>
+          <target>Anzahl Artikel-Handelsattribute</target>
         </trans-unit>
         <trans-unit id="Table 3912203739 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
@@ -2458,6 +3129,10 @@
         <trans-unit id="Table 3912203739 - Field 2750443042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Cluster No. Series</source>
           <target>Kundencluster-Nr. Serie</target>
+        </trans-unit>
+        <trans-unit id="Table 3912203739 - Field 3073097179 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No. of Customer Trade Attribute Managed</source>
+          <target>Anzahl Debitoren-Handelsattribute</target>
         </trans-unit>
         <trans-unit id="Table 3912203739 - Field 3185604978 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max. Item Hierarchy Level</source>
@@ -2574,6 +3249,70 @@
         <trans-unit id="Table 526302137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cluster Detail</source>
           <target>Elementclusterdetail</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 1194205006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Line Group Trade Attribute</source>
+          <target>Handelsattributgruppe VK-Zeile</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Art</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Caption</source>
+          <target>Beschriftung</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 3469662653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attribute No.</source>
+          <target>Attributnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 951771478 - Method 2126772001 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade attribute already exists.</source>
+          <target>Handelsattribut existiert bereits.</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Field 951771478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute</source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Table 942755263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Line Trade Attribute</source>
+          <target>Handelsattribut VK-Zeile</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Art</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 2620628131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Group Trade Attribute</source>
+          <target>Handelsattribut Artikelgruppe</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 2879900210 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Caption</source>
+          <target>Beschriftung</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 2961552353 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Name</source>
+          <target>Name</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 3469662653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attribute No.</source>
+          <target>Attributnr.</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 951771478 - Method 2126772001 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade attribute already exists.</source>
+          <target>Handelsattribut existiert bereits.</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Field 951771478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trade Attribute</source>
+          <target>Handelsattribut</target>
+        </trans-unit>
+        <trans-unit id="Table 999659267 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Customer Trade Attribute</source>
+          <target>Handelsattribut Debitor</target>
         </trans-unit>
         <trans-unit id="TableExtension 1277494635 - Field 1172810003 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level 4 Hierarchy Code</source>
