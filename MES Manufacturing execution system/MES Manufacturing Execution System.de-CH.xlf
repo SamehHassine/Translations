@@ -2259,6 +2259,10 @@
           <source>Post Consumption</source>
           <target>Post-Verbrauch</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2297543291 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synoptic</source>
+          <target>Synoptisch</target>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2326660151 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, calculation of Prod. Order Remaining Quantity will consider expected output and scrap not posted yet</source>
           <target>Wenn diese Option aktiviert ist, berücksichtigt die Berechnung der verbleibenden Bestellmenge die erwartete Leistung und den noch nicht gebuchten Ausschuss</target>
@@ -2266,6 +2270,14 @@
         <trans-unit id="Page 2865843814 - Control 2326660151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining Quantity With Employee Entries</source>
           <target>Restmenge mit Mitarbeitereinträgen</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 233059588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select the source data for synoptic panel.</source>
+          <target>Wählen Sie die Datenquelle für den synoptischen Bereich aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 233059588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synoptic Source</source>
+          <target>Synoptische Datenquelle</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2357246661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Output</source>
@@ -4247,6 +4259,10 @@
           <source>Panel ID</source>
           <target>Panel-ID</target>
         </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 4115177706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel SystemId</source>
+          <target>SystemId-Bereich</target>
+        </trans-unit>
         <trans-unit id="Table 2647740909 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>Nr.</target>
@@ -4422,6 +4438,14 @@
         <trans-unit id="Table 2865843814 - Field 2326660151 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Remaining Qty. With Reads</source>
           <target>Verbleibende Menge. Mit Lesevorgängen</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 233059588 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Synoptic Source</source>
+          <target>Synoptische Datenquelle</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 233059588 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Capacity,MES</source>
+          <target>Kapazitätsbewegungen,MES-Bewegungen</target>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 2435914475 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Journal Template Name</source>
@@ -5067,6 +5091,22 @@
           <source>Line No. Filter</source>
           <target>Linie Nr. Filter</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1049009013 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Line Quantity</source>
+          <target>Menge der Produktionsauftragsposition</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 1827610623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actual Entries Exists</source>
+          <target>Tatsächliche Bewegungen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 2128523937 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prod. Line Rem. Quantity</source>
+          <target>Verbleibende Menge Produktionsauftragspositionen</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 2487184805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Expected Run Time</source>
+          <target>Geschätzte Bearbeitungszeit</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 2545546799 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Source Type</source>
           <target>Bestellquellentyp</target>
@@ -5074,6 +5114,10 @@
         <trans-unit id="TableExtension 1861560906 - Field 2898458731 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Description</source>
           <target>Linienbeschreibung</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 3130965540 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Needed Time (ms)</source>
+          <target>Benötigte Zeit (ms)</target>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 3324354622 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Panel ID Filter</source>
@@ -5091,9 +5135,17 @@
           <source>Line Description 2</source>
           <target>Linienbeschreibung 2</target>
         </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 4095285095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Expected Entries Exists</source>
+          <target>Erwartete Bewegungen</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 663672673 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Scrap Quantity</source>
           <target>Erwartete Schrottmenge</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 70586945 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource Run Time</source>
+          <target>Verarbeitungszeit der Ressource</target>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 709297253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Quantity</source>
