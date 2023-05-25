@@ -217,7 +217,7 @@
         </trans-unit>
         <trans-unit id="Page 2433932303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Document Journal (CDW)</source>
-          <target>Dokumentbuch schließen (CDW)</target>
+          <target>Journal - Belege Schließen (CDW)</target>
         </trans-unit>
         <trans-unit id="Page 3475051458 - Action 127686680 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "ShowDocument" action.</source>
@@ -320,7 +320,7 @@
         </trans-unit>
         <trans-unit id="Page 3817120994 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Document Entries (CDW)</source>
-          <target>Dokumenteinträge schließen (CDW)</target>
+          <target>Posten - Belege Schließen (CDW)</target>
         </trans-unit>
         <trans-unit id="Page 562993329 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Name" field.</source>
@@ -330,7 +330,7 @@
         </trans-unit>
         <trans-unit id="Page 562993329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Document Batches (CDW)</source>
-          <target>Schließen von Dokumentstapeln (CDW)</target>
+          <target>Buch.-Blatt - Belege Schließen (CDW)</target>
         </trans-unit>
         <trans-unit id="Page 681938613 - Control 1049008599 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Delete Invoiced Sales Documents" field</source>
@@ -343,6 +343,10 @@
         <trans-unit id="Page 681938613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CDW Setup</source>
           <target>CDW-Setup</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1253747224 - Control 1413646162 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If specified, the documents will be closed using this source code. Leave empty to use the original source code of the entry.</source>
+          <target>Falls angegeben, werden die Belege mit diesem Herkunftscode geschlossen. Lassen Sie das Feld leer, um den Herkunftscode des ursprünglichen Posten zu verwenden.</target>
         </trans-unit>
         <trans-unit id="PageExtension 1696580381 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Item Entries Policy" field</source>
@@ -791,6 +795,10 @@
         <trans-unit id="TableExtension 533020560 - Method 128066600 - NamedType 1629945900" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not allowed with No. Series %2, because it has been already used in %3.</source>
           <target>%1 ist mit Nein nicht zulässig. Serie %2, da sie bereits in %3 verwendet wurde.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 994937475 - Field 1413646162 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Close Documents</source>
+          <target>Belege schließen</target>
         </trans-unit>
       </group>
     </body>
