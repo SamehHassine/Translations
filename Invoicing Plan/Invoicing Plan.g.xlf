@@ -128,11 +128,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Invoice Plan Header - Field Collected Amount (LCY) - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2492362187 - Field 3045335507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Completely Invoiced</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Invoice Plan Header - Field Completely Invoiced - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 2492362187 - Field 284764054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Country/Region Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -708,6 +703,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Sales Line Buffer - Field Document Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2079028662 - Field 907522666 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Discount Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS IPL Sales Line Buffer - Field Inv. Discount Amount - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2079028662 - Field 3582421358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Line Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1082,11 +1082,6 @@
           <source>Collected Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan - Control Collected Amount (LCY) - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4257111714 - Control 3045335507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Completely Invoiced" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan - Control Completely Invoiced - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4257111714 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Country/Region Code" field.</source>
@@ -1498,11 +1493,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan List - Control City - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 2986323648 - Control 3045335507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Completely Invoiced" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan List - Control Completely Invoiced - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 2986323648 - Control 284764054 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Country/Region Code" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1908,6 +1898,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan Texts - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1251468788 - Method 3636509867 - NamedType 3083661474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to copy all the extended texts for %1: %2?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Standard Text Code caption, %2 = Current Standard Text Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Invoice Plan Texts - Method InsertStandardText - NamedType AllExtendedTextsQst</note>
+        </trans-unit>
         <trans-unit id="Page 1251468788 - Control 3152332661 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Standard Text Code" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2192,6 +2187,11 @@
           <source>Invoice Plan Template Texts</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Template Texts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1850797918 - Method 3636509867 - NamedType 3083661474" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to copy all the extended texts for %1: %2?</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Standard Text Code caption, %2 = Current Standard Text Code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS IPL Template Texts - Method InsertStandardText - NamedType AllExtendedTextsQst</note>
         </trans-unit>
         <trans-unit id="Page 1850797918 - Control 3152332661 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Standard Text Code" field.</source>
