@@ -766,13 +766,17 @@
           <source>Ship Not Inventory Lines</source>
           <target>Spedisci righe no magazzino</target>
         </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 1351714136 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, sets fields "Document Destination Type" and "Document Destination No." from the Source Document in the Warehouse Receipt.</source>
+          <target>Se abilitato, imposta i campi "Tipo destinazione documento" e "Nr. destinazione documento" dal documento di origine nel carico warehouse.</target>
+        </trans-unit>
         <trans-unit id="Page 1137884171 - Control 1406942772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales</source>
           <target>Vendita</target>
         </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 1704799748 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from service order.</source>
-          <target>Specifica il report da stampare con spedizioni CWS registrate da ordini di assistenza.</target>
+        <trans-unit id="Page 1137884171 - Control 1795296698 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, sets fields "Document Destination Type" and "Document Destination No." from the Source Document in the Warehouse Shipment.</source>
+          <target>Se abilitato, imposta i campi "Tipo destinazione documento" e "Nr. destinazione documento" dal documento di origine nella spedizione warehouse.</target>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 1911917826 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies what should happen after posting warehouse document regarding it's deletion.</source>
@@ -782,10 +786,6 @@
           <source>Whse. Document Delete Policy</source>
           <target>Metodo cancellazione docum. whse.</target>
         </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 2057091634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Reporting</source>
-          <target>Reporting</target>
-        </trans-unit>
         <trans-unit id="Page 1137884171 - Control 2187938695 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Service</source>
           <target>Assistenza</target>
@@ -793,10 +793,6 @@
         <trans-unit id="Page 1137884171 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
-        </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 2464621171 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from outbound transfer order.</source>
-          <target>Specifica il report da stampare con spedizioni CWS registrate da ordini di trasferimento.</target>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 2540983019 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments.</source>
@@ -886,10 +882,6 @@
           <source>Specifies the default value on new warehouse shipment.</source>
           <target>Specifica il valore di default in una nuova spedizione warehouse.</target>
         </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 4289299091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from sales order.</source>
-          <target>Specifica il report da stampare con spedizioni CWS registrate da ordini di vendita.</target>
-        </trans-unit>
         <trans-unit id="Page 1137884171 - Control 495124604 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if lines groups are calculated at the end of one of the different action used to retrieve source lines</source>
           <target>Specifica se i gruppi di righe vengono calcolati alla fine di una delle diverse azioni utilizzate per recuperare le righe di origine</target>
@@ -901,10 +893,6 @@
         <trans-unit id="Page 1137884171 - Control 538715564 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipment</source>
           <target>Spedizione</target>
-        </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 672120465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from purchase return order.</source>
-          <target>Specifica il report da stampare con spedizioni CWS registrate da ordini di reso acquisto.</target>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 922601005 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether to post not inventory lines on a source document while posting warehouse shipments.</source>
@@ -5142,6 +5130,10 @@
           <source>Receive Not-Inventory Lines (Sales)</source>
           <target>Ricevi righe no magazzino (vendita)</target>
         </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 1351714136 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set Destination Fields in Whse. Receipt</source>
+          <target>Imposta Campi Destinazione in Carico Whse.</target>
+        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 1601524317 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order Line Description (Sales)</source>
           <target>Riga descrittiva nr. ordine (vendita)</target>
@@ -5150,9 +5142,9 @@
           <source>Primary Key</source>
           <target>Chiave primaria</target>
         </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 1704799748 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Report ID for Service Order Shipment</source>
-          <target>ID report spedizioni assistenza</target>
+        <trans-unit id="Table 1137884171 - Field 1795296698 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set Destination Fields in Whse. Shipment</source>
+          <target>Imposta Campi Destinazione in Spedizione Whse.</target>
         </trans-unit>
         <trans-unit id="Table 1137884171 - Field 1911917826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Whse. Shipment Delete Policy</source>
@@ -5169,10 +5161,6 @@
         <trans-unit id="Table 1137884171 - Field 2394335473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ship Not-Inventory Lines (Purchase)</source>
           <target>Spedisci righe no magazzino (acquisto)</target>
-        </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 2464621171 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Report ID for Outbound Transfer Order Shipment</source>
-          <target>ID report spedizioni trasferimento</target>
         </trans-unit>
         <trans-unit id="Table 1137884171 - Field 284711661 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order Line in Shipment (Sales)</source>
@@ -5206,10 +5194,6 @@
           <source>Combine Shipments</source>
           <target>Cumula spedizioni</target>
         </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 4289299091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Report ID for Sales Order Shipment</source>
-          <target>ID report spedizioni vendita</target>
-        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 495124604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Grouping By Activity</source>
           <target>Abilita raggruppamento per attività</target>
@@ -5217,10 +5201,6 @@
         <trans-unit id="Table 1137884171 - Field 623826671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Return Line Description (Purchase)</source>
           <target>Riga descrittiva nr. ordine reso (acquisto)</target>
-        </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 672120465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Report ID for Purchase Return. Order Shipment</source>
-          <target>ID report spedizioni reso acquisto</target>
         </trans-unit>
         <trans-unit id="Table 1137884171 - Field 903633362 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order Line Description (Service)</source>

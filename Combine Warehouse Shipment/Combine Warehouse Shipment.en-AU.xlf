@@ -633,26 +633,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 2464621171 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report ID for Outbound Transfer Order Shipment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Report ID Out.Transfer Shpt. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 672120465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report ID for Purchase Return. Order Shipment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Report ID P.Ret.Order Shpt. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 4289299091 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report ID for Sales Order Shipment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Report ID S.Order Shpt. - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Table 1137884171 - Field 1704799748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report ID for Service Order Shipment</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Report ID Serv.Order Shpt. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Table 1137884171 - Field 623826671 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Return Line Description (Purchase)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -662,6 +642,16 @@
           <source>Return Line in Shipment (Purchase)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Return Line in Shpt.-Purch. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 1351714136 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Destination Fields in Whse. Receipt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Set Destination Fields Rcpt. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1137884171 - Field 1795296698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Destination Fields in Whse. Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS CWS Setup - Field Set Destination Fields Shpt. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1137884171 - Field 2984904794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Ship Nos.</source>
@@ -4048,30 +4038,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Return Line in Shpt.-Purch. - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 2057091634 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Reporting</source>
+        <trans-unit id="Page 1137884171 - Control 1351714136 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, sets fields "Document Destination Type" and "Document Destination No." from the Source Document in the Warehouse Receipt.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Reporting - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 2464621171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from outbound transfer order.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Report ID Out.Transfer Shpt. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 672120465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from purchase return order.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Report ID P.Ret.Order Shpt. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 4289299091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from sales order.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Report ID S.Order Shpt. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1137884171 - Control 1704799748 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies which report print with CWS posted shipments from service order.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Report ID Serv.Order Shpt. - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Set Destination Fields Rcpt. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 1406942772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales</source>
@@ -4117,6 +4087,11 @@
           <source>Receive Not Inventory Lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Post Not-Item Lines-S. Rcpt. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1137884171 - Control 1795296698 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, sets fields "Document Destination Type" and "Document Destination No." from the Source Document in the Warehouse Shipment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS CWS Setup - Control Set Destination Fields Shpt. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1137884171 - Control 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service</source>
