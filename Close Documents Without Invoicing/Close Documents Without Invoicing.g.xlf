@@ -23,6 +23,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Entry - Field Document No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2747478188 - Field 921700828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edited by ValueEntryFix Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Entry - Field Edited by ValueEntryFix Report - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2747478188 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -708,6 +713,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 CDW Setup - Control Delete Invcd. Sales Documents - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 681938613 - Action 4262405252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finds the Value Entry records with the wrong cost amount and fix them.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 CDW Setup - Action FixMultipleValueEntryBug - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 681938613 - Action 4262405252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fix duplicated value entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 CDW Setup - Action FixMultipleValueEntryBug - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3475051458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document lines</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -787,6 +802,16 @@
           <source>Executes the "ShowDocument" action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 Document Lines - Action ShowDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2160215848 - NamedType 2848374150" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 CDW entry records fixed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS041 CDW ValueEntryFix - NamedType UpdatedRecordsMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 2160215848 - Method 3416123631 - NamedType 2758323782" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This report can be run when "%1" and "%2" are false in the "%3" table.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS041 CDW ValueEntryFix - Method OnInitReport - NamedType ReportNotAllowedMsg</note>
         </trans-unit>
         <trans-unit id="PageExtension 1253747224 - Control 1413646162 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 15448575">
           <source>If specified, the documents will be closed using this source code. Leave empty to use the original source code of the entry.</source>
@@ -1038,20 +1063,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 CDW Cost Posting Type - EnumValue Zero - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 1113628781 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source> </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 Item Entries Policy - EnumValue   - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Enum 1113628781 - EnumValue 2109973162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No Item Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 Item Entries Policy - EnumValue No Item Entries - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 282191864 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source> </source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 Posting Policy - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 746298496 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No Invoicing and Ledger Entries</source>
