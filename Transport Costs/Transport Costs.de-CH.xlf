@@ -35,10 +35,6 @@
           <source>%1 Post Code not found</source>
           <target>Postleitzahl %1 nicht gefunden</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2874897930 - Method 224459359 - NamedType 4210240643" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 Post Code not found</source>
-          <target>Postleitzahl %1 nicht gefunden</target>
-        </trans-unit>
         <trans-unit id="Codeunit 2874897930 - Method 2328982843 - NamedType 1752902907" translate="yes" size-unit="char" xml:space="preserve">
           <source>Modified tour total. Update documents amounts ?</source>
           <target>Abgeänderte Tour. Neuberechnung der Dokumentenbeträge?</target>
@@ -1985,6 +1981,12 @@
           <source>Shipping Price Version</source>
           <target>Transportpreislisten-Version</target>
         </trans-unit>
+        <trans-unit id="Page 3859852310 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Card</source>
+        </trans-unit>
+        <trans-unit id="Page 3859852310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Shipping Prices Lines</source>
+        </trans-unit>
         <trans-unit id="Page 4106133153 - Control 1419731019 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Document No." field.</source>
           <target>Gibt den Wert des Feldes "Dokument Nr." an.</target>
@@ -2125,6 +2127,10 @@
           <source>Specifies the value of the "Tariff (Actual Manual)" field.</source>
           <target>Gibt den Wert des Feldes "Tarif (Tatsächliches Handbuch)" an.</target>
         </trans-unit>
+        <trans-unit id="Page 4279457068 - Control 1290332383 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the No. of the Purchase Invoice.</source>
+          <target>Gibt die Nummer der Eingangsrechnung an.</target>
+        </trans-unit>
         <trans-unit id="Page 4279457068 - Control 1291705767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Status" field.</source>
           <target>Gibt den Wert des Feldes "Status" an.</target>
@@ -2140,6 +2146,10 @@
         <trans-unit id="Page 4279457068 - Control 1419956942 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Salesperson Description" field.</source>
           <target>Gibt den Wert des Feldes "Verkäuferbeschreibung" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4279457068 - Control 1469635898 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Status of the Purchase Invoice ("Temporary" or "Posted")</source>
+          <target>Gibt den Status der Eingangsrechnung an ("Temporär" oder "Gebucht")</target>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Control 1578778856 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Total" field.</source>
@@ -2184,6 +2194,10 @@
         <trans-unit id="Page 4279457068 - Control 2243457362 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected</source>
           <target>Soll</target>
+        </trans-unit>
+        <trans-unit id="Page 4279457068 - Control 2420024149 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Line No. of the Purchase Invoice.</source>
+          <target>Gibt die Positionsnummer der Eingangsrechnung an.</target>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Control 2544732316 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Total Tariff" field.</source>
@@ -2553,6 +2567,14 @@
           <source>Suggest Transport Cost</source>
           <target>Vorschlagen Transportkosten</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1897474297 - Action 3183853859 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows the related Document Shipping Prices Lines.</source>
+          <target>Zeigt die zugehörigen Transportkosten pro Belegzeilen an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1897474297 - Action 3183853859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Shipping Prices Lines</source>
+          <target>Transportkosten pro Belegzeile</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1897474297 - Control 3904960809 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Shipping Agent Code" field.</source>
           <target>Gibt den Wert des Feldes "EOS Shipping Agent Code" an.</target>
@@ -2628,6 +2650,14 @@
         <trans-unit id="PageExtension 2673047342 - Control 605422776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Ship. Agent Service Code" field.</source>
           <target>Gibt den Wert des "EOS-Schiffs" an. Agent Service Code" Feld.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811703187 - Action 3183853859 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows the related Document Shipping Prices Lines.</source>
+          <target>Zeigt die zugehörigen Transportkosten pro Belegzeilen an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2811703187 - Action 3183853859 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Shipping Prices Lines</source>
+          <target>Transportkosten pro Belegzeile</target>
         </trans-unit>
         <trans-unit id="PageExtension 3172867531 - Control 719816248 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "EOS Exclude ETC Calculation" field.</source>
@@ -3577,6 +3607,10 @@
           <source>Tariff (Actual Manual)</source>
           <target>Tarif (Actual Manual)</target>
         </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 1290332383 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Invoice No.</source>
+          <target>Einkaufsrechnungs-Nr.</target>
+        </trans-unit>
         <trans-unit id="Table 1891397859 - Field 1291705767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Status</target>
@@ -3597,6 +3631,14 @@
           <source>Salesperson Description</source>
           <target>Verkäufer Beschreibung</target>
         </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 1469635898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Invoice Status</source>
+          <target>Status der Eingangsrechnung</target>
+        </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 1469635898 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,Temporary,Posted</source>
+          <target> ,Temporär,Registriert</target>
+        </trans-unit>
         <trans-unit id="Table 1891397859 - Field 1747240156 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tariff (Actual)</source>
           <target>Tarif (Ist)</target>
@@ -3616,6 +3658,10 @@
         <trans-unit id="Table 1891397859 - Field 2014842014 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Volume</source>
           <target>Gesamtvolumen</target>
+        </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 2420024149 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Invoice Line No.</source>
+          <target>Einkaufsrechnungsposten-Nr.</target>
         </trans-unit>
         <trans-unit id="Table 1891397859 - Field 2673639676 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Area Code</source>
