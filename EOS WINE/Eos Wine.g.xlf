@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="en-AU" original="EOS WINE base">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="EOS WINE">
     <body>
       <group id="body">
         <trans-unit id="Table 2054380904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -495,7 +495,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 354055094 - Method 3631810962 - NamedType 3259705315" size-unit="char" translate="yes" xml:space="preserve">
           <source>Previous outputs already used.\Please adjust the quantity.\Quantity to revert: %1\Remaining quantity: %2</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = WineTreatment.Quantity base;%2 = ItemLedgerEntry.RemainingQuantity</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS EX080 Wine Management - Method CanRevertPosting - NamedType PartialOutputErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 354055094 - Method 3631810962 - NamedType 753022568" size-unit="char" translate="yes" xml:space="preserve">
@@ -2874,7 +2874,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control AllocatedQty - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3157681767 - Control 1132721297 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the TotalAllocatedQty field</source>
+          <source>Specifies the value of the Total Allocated Quantity field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control TotalAllocatedQty - Property ToolTip</note>
         </trans-unit>
@@ -2884,9 +2884,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control ConsumedQty - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3157681767 - Control 388023722 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the TotalConsumedQty field</source>
+          <source>Specifies the value of the Total Consumed Quantity field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control TotalConsumedQty - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157681767 - Control 388023722 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Consumed Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control TotalConsumedQty - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3157681767 - Control 1363990034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Qty. to Assign</source>
@@ -2894,7 +2899,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control QtyToAssign - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3157681767 - Control 971595080 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the TotalQtyToAssign field</source>
+          <source>Specifies the value of the Total Quantity To Assign field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control TotalQtyToAssign - Property ToolTip</note>
         </trans-unit>
@@ -2904,9 +2909,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control RemainingQty - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3157681767 - Control 1147074663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the TotalRemainingQuantity field</source>
+          <source>Specifies the value of the Total Remaining Quantity field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control TotalRemainingQuantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157681767 - Control 1147074663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Remaining Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS EX080 Sales Ass. Worksheet - Control TotalRemainingQuantity - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3157681767 - Action 2028946871 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Load Lines action</source>
@@ -5827,6 +5837,11 @@
           <source>Groving Area</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS EX080 Wine Characteristic - EnumValue Groving Area - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2578385627 - EnumValue 18652612 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS EX080 Wine Type - EnumValue  - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2578385627 - EnumValue 2585154307 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Grape</source>
