@@ -1715,6 +1715,10 @@
           <source>Specifies the number of the item</source>
           <target>Gibt die Nummer des Artikels an</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 662368029 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Standard Task Code field.</source>
+          <target>Gibt den Wert des Felds „Standardaufgabencode“ an.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 703574062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Work Center Specific Unit Cost.</source>
           <target>Gibt die arbeitsplatzspezifischen Stückkosten an.</target>
@@ -4360,7 +4364,7 @@
           <target>Standardkosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 2737223367 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continous LIFO Cost,Continous FIFO Cost,Last Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost</source>
           <target>Standardkosten,Durchschnittliche Kosten,Gewogene Durchschnittskosten,Kontinuierliche LIFO-Kosten,Kontinuierliche FIFO-Kosten, letzte Kosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 3207157547 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4392,7 +4396,7 @@
           <target>%1 bei </target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1  Deviations</source>
+          <source>%1 Deviations</source>
           <target>%1 Abweichungen</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
@@ -4404,7 +4408,7 @@
           <target>Standardkosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3078467498" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <target>Kontinuierliche FIFO-Kosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3140410629" translate="yes" size-unit="char" xml:space="preserve">
@@ -4420,7 +4424,7 @@
           <target>Letzte Kosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 4273407817" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <target>Kontinuierliche LIFO-Kosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
@@ -4428,7 +4432,7 @@
           <target>Gewogene Durchschnittskosten</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Deviation</source>
+          <source>Cost Deviation (IVC)</source>
           <target>Kostenabweichung (IVC)</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - ReportLabel 1222604928" translate="yes" size-unit="char" xml:space="preserve">
@@ -5907,10 +5911,6 @@
           <source>Calculated Run Time</source>
           <target>Berechnete Laufzeit</target>
         </trans-unit>
-        <trans-unit id="Report 37588727 - ReportLabel 2742563309" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material Cost</source>
-          <target>Materialkosten</target>
-        </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 2818644368" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity Per</source>
           <target>Menge Pro</target>
@@ -5962,6 +5962,10 @@
         <trans-unit id="Report 37588727 - ReportLabel 4211329720" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Subcontracting Cost</source>
           <target>Material-Zulieferkosten</target>
+        </trans-unit>
+        <trans-unit id="Report 37588727 - ReportLabel 4264588493" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Material Cost</source>
+          <target>Einkaufsmaterialkosten</target>
         </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 500876985" translate="yes" size-unit="char" xml:space="preserve">
           <source>UoM</source>
@@ -6084,8 +6088,8 @@
           <target>Gruppensumme</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1735593419" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Change</source>
-          <target>Nettoveränderung</target>
+          <source>End Period Inventory</source>
+          <target>Periodeninventar beenden</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
@@ -6116,7 +6120,7 @@
           <target>Bestandskostenanalyse</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3768804653" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO</source>
+          <source>LIFO</source>
           <target>Kontinuierliche LIFO</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3773226062" translate="yes" size-unit="char" xml:space="preserve">
@@ -6126,10 +6130,6 @@
         <trans-unit id="Report 436924526 - NamedType 378064412" translate="yes" size-unit="char" xml:space="preserve">
           <source>en-US</source>
           <target>en-US</target>
-        </trans-unit>
-        <trans-unit id="Report 436924526 - NamedType 3817462976" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO</source>
-          <target>Kontinuierliche LIFO</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 4107814232" translate="yes" size-unit="char" xml:space="preserve">
           <source>UM</source>
@@ -6320,7 +6320,7 @@
           <target>Standardkosten</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1117091898 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continuous LIFO Cost,Continuous FIFO Cost,Last Cost,Fiscal Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost,Fiscal Cost</source>
           <target>Standardkosten,Durchschnittliche Kosten,Gewogene Durchschnittskosten,Kontinuierliche LIFO-Kosten,Kontinuierliche FIFO-Kosten,Letzte Kosten,Steuerkosten</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1871236469 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -6340,7 +6340,7 @@
           <target>Steuerkosten</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 1943290340" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <target>Kontinuierliche LIFO-Kosten</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 2589500502" translate="yes" size-unit="char" xml:space="preserve">
@@ -6368,7 +6368,7 @@
           <target>Durchschnittliche Kosten</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 4254176862" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <target>Kontinuierliche FIFO-Kosten</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6388,8 +6388,8 @@
           <target>Artikel-Nr.</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2588783325" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inventory </source>
-          <target>Inventar </target>
+          <source>End Period Inventory</source>
+          <target>Periodeninventar beenden</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2889609511" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Unit of Measure</source>
@@ -6661,7 +6661,7 @@
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1433976805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Custom Addit. Cost</source>
-          <target>Aktivieren Sie benutzerdefiniertes Addit. Kosten</target>
+          <target>Aktivieren Sie zusätzliche Kosten</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1955715159 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max. Rounding %</source>
@@ -6813,7 +6813,7 @@
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 97748882 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Custom Rollup Add. Cost</source>
-          <target>Aktivieren Sie benutzerdefinierteroll hinzufügen. Kosten</target>
+          <target>Aktivieren Sie die Aufteilung nach Kostenart</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - NamedType 876234982" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code just used</source>

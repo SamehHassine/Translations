@@ -1715,6 +1715,10 @@
           <source>Specifies the number of the item</source>
           <target>Specifica il cod. articolo</target>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 662368029 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Standard Task Code field.</source>
+          <target>Specifica il valore del campo codice task standard.</target>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 703574062 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Work Center Specific Unit Cost.</source>
           <target>Specifica il costo unitario specifico del centro di lavoro.</target>
@@ -4360,7 +4364,7 @@
           <target>Costo standard</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 2737223367 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continous LIFO Cost,Continous FIFO Cost,Last Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost</source>
           <target>Costo standard,Costo medio,Costo medio ponderato,Costo LIFO,Costo FIFO,Costo ultimo</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 3207157547 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4392,7 +4396,7 @@
           <target>%1 al</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1  Deviations</source>
+          <source>%1 Deviations</source>
           <target>%1 deviazioni</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
@@ -4404,7 +4408,7 @@
           <target>Costo standard</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3078467498" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <target>Costo FIFO</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3140410629" translate="yes" size-unit="char" xml:space="preserve">
@@ -4420,7 +4424,7 @@
           <target>Costo ultimo</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 4273407817" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <target>Costo LIFO</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
@@ -4428,8 +4432,8 @@
           <target>Costo medio ponderato</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Deviation</source>
-          <target>Deviazione costi</target>
+          <source>Cost Deviation (IVC)</source>
+          <target>Deviazione costi (IVC)</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - ReportLabel 1222604928" translate="yes" size-unit="char" xml:space="preserve">
           <source>% Dev.</source>
@@ -5907,10 +5911,6 @@
           <source>Calculated Run Time</source>
           <target>Tempo lavorazione calcolato</target>
         </trans-unit>
-        <trans-unit id="Report 37588727 - ReportLabel 2742563309" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Material Cost</source>
-          <target>Costo materiale</target>
-        </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 2818644368" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity Per</source>
           <target>Quantità per</target>
@@ -5962,6 +5962,10 @@
         <trans-unit id="Report 37588727 - ReportLabel 4211329720" translate="yes" size-unit="char" xml:space="preserve">
           <source>Material Subcontracting Cost</source>
           <target>Costo conto lavoro materiale</target>
+        </trans-unit>
+        <trans-unit id="Report 37588727 - ReportLabel 4264588493" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Material Cost</source>
+          <target>Costo acq. materiale</target>
         </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 500876985" translate="yes" size-unit="char" xml:space="preserve">
           <source>UoM</source>
@@ -6084,8 +6088,8 @@
           <target>Totale gruppo</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1735593419" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Change</source>
-          <target>Giacenza</target>
+          <source>End Period Inventory</source>
+          <target>Giacenza fine periodo</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page</source>
@@ -6116,7 +6120,7 @@
           <target>Analisi dei costi di magazzino</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3768804653" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO</source>
+          <source>LIFO</source>
           <target>LIFO</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3773226062" translate="yes" size-unit="char" xml:space="preserve">
@@ -6126,10 +6130,6 @@
         <trans-unit id="Report 436924526 - NamedType 378064412" translate="yes" size-unit="char" xml:space="preserve">
           <source>en-US</source>
           <target>en-US</target>
-        </trans-unit>
-        <trans-unit id="Report 436924526 - NamedType 3817462976" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO</source>
-          <target>LIFO</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 4107814232" translate="yes" size-unit="char" xml:space="preserve">
           <source>UM</source>
@@ -6320,7 +6320,7 @@
           <target>Costo standard</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1117091898 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continuous LIFO Cost,Continuous FIFO Cost,Last Cost,Fiscal Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost,Fiscal Cost</source>
           <target>Costo standard,Costo medio,Costo medio ponderato,Costo LIFO,Costo FIFO,Costo ultimo,Costo fiscale</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1871236469 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -6340,7 +6340,7 @@
           <target>Costo fiscale</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 1943290340" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <target>Costo LIFO</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 2589500502" translate="yes" size-unit="char" xml:space="preserve">
@@ -6368,7 +6368,7 @@
           <target>Costo medio</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 4254176862" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <target>Costo FIFO</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6388,8 +6388,8 @@
           <target>Nr. articolo</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2588783325" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inventory </source>
-          <target>Giacenza</target>
+          <source>End Period Inventory</source>
+          <target>Giacenza fine periodo</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2889609511" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Unit of Measure</source>
@@ -6661,7 +6661,7 @@
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1433976805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Custom Addit. Cost</source>
-          <target>Abilita nature di costo pers.</target>
+          <target>Abilita costi aggiuntivi</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 1955715159 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max. Rounding %</source>
@@ -6813,7 +6813,7 @@
         </trans-unit>
         <trans-unit id="Table 1573099788 - Field 97748882 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Custom Rollup Add. Cost</source>
-          <target>Abilita rollup nature di costo pers.</target>
+          <target>Abilita spaccatura per natura di costo</target>
         </trans-unit>
         <trans-unit id="Table 1573099788 - NamedType 876234982" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code just used</source>
@@ -6849,7 +6849,7 @@
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Other Cost</source>
-          <target>Altri costi a costo medio</target>
+          <target>Costo aggiuntivo medio</target>
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -6865,7 +6865,7 @@
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Average Other Cost</source>
-          <target>Altri costi a costo medio - Ricalcolo</target>
+          <target>Costo aggiuntivo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 1763507910 - Field 3680588356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Overhead Material Cost</source>
@@ -7469,7 +7469,7 @@
         </trans-unit>
         <trans-unit id="Table 2679012623 - Field 2239551250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Other Cost Calculation</source>
-          <target>Calcolo altri costi</target>
+          <target>Calcolo costo aggiuntivo</target>
         </trans-unit>
         <trans-unit id="Table 2679012623 - Field 2239551250 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calendar Time,Run Time</source>
@@ -7541,7 +7541,7 @@
         </trans-unit>
         <trans-unit id="Table 2679012623 - Field 665087653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Other Cost Amount</source>
-          <target>Importo altri costi</target>
+          <target>Importo costo aggiuntivo</target>
         </trans-unit>
         <trans-unit id="Table 2679012623 - Field 966287263 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name 2</source>
@@ -8309,7 +8309,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Other Cost</source>
-          <target>Altri costi a costo medio</target>
+          <target>Costo aggiuntivo medio</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 2554411924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Material WAC</source>
@@ -8357,7 +8357,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 3483968494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Other Cost WAC</source>
-          <target>Altri costi a costo medio pond.</target>
+          <target>Costo aggiuntivo medio pond.</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 3501167128 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Direct Capacity WAC</source>
@@ -8369,7 +8369,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Average Other Cost</source>
-          <target>Altri costi a costo medio - Ricalcolo</target>
+          <target>Costo aggiuntivo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 3590891415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Subcontracted Amount</source>
@@ -8385,7 +8385,7 @@
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 4038061973 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Other Cost WAC</source>
-          <target>Altri costi a costo medio pond. - Ricalcolo</target>
+          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 4175112414 - Field 4149096017 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Overhead Capacity WAC</source>
@@ -8457,7 +8457,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 2239551250 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Other Cost Calculation</source>
-          <target>Calcolo altri costi</target>
+          <target>Calcolo costo aggiuntivo</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 2239551250 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calendar Time,Run Time</source>
@@ -8517,7 +8517,7 @@
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 665087653 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Other Cost Amount</source>
-          <target>Importo altri costi</target>
+          <target>Importo costo aggiuntivo</target>
         </trans-unit>
         <trans-unit id="Table 4182196371 - Field 940769526 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center Type</source>
@@ -8717,7 +8717,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Average Other Cost</source>
-          <target>Costo medio - Liv. sing.</target>
+          <target>Costo aggiuntivo medio - Liv. sing.</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2554411924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Mfg. Ovhd. WAC</source>
@@ -8745,7 +8745,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2639665725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-Up Other Cost</source>
-          <target>Altri costi a costo medio - Ricalcolo</target>
+          <target>Costo aggiuntivo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 2655807025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Start Period Inventory</source>
@@ -8797,7 +8797,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3281262850 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Other Cost</source>
-          <target>Altri costi a costo medio - Liv. singolo</target>
+          <target>Costo aggiuntivo medio - Liv. singolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indirect Cost %</source>
@@ -8837,7 +8837,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3483968494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Single-Level Other Cost WAC</source>
-          <target>Costo medio pond. - Liv. sing.</target>
+          <target>Costo aggiuntivo medio pond. - Liv. sing.</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3500504311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Replenishment System</source>
@@ -8869,7 +8869,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Average Other Cost</source>
-          <target>Costo medio - Ricalcolo</target>
+          <target>Costo aggiuntivo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 3585864286 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Standard Routing Cost</source>
@@ -8909,7 +8909,7 @@
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 4038061973 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Other Cost WAC</source>
-          <target>Altri costi a costo medio pond. - Ricalcolo</target>
+          <target>Costo aggiuntivo medio pond. - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 43999735 - Field 411531942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Unit of Measure</source>
@@ -9429,7 +9429,7 @@
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 2462961205 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Other Cost</source>
-          <target>Altri costi a costo medio</target>
+          <target>Costo aggiuntivo medio</target>
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period Code</source>
@@ -9445,7 +9445,7 @@
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 358540213 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled Up Average Other Cost</source>
-          <target>Altri costi a costo medio - Ricalcolo</target>
+          <target>Costo aggiuntivo medio - Ricalcolo</target>
         </trans-unit>
         <trans-unit id="Table 718509801 - Field 3680588356 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Average Overhead Material Cost</source>
