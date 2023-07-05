@@ -2348,6 +2348,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Prod. Ord. Rtng. Line WIP - Field Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2336925172 - Field 624954544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Cost Calculation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Prod. Ord. Rtng. Line WIP - Field Unit Cost Calculation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2336925172 - Field 624954544 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time,Units</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Prod. Ord. Rtng. Line WIP - Field Unit Cost Calculation - Property OptionCaption</note>
+        </trans-unit>
         <trans-unit id="Table 2336925172 - Field 2007883225 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Wip Period Capacity Ovhd. Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7288,6 +7298,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Prod. Ord. Rtng. WIP Subp. - Control Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4135252272 - Control 624954544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit Cost Calculation field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Prod. Ord. Rtng. WIP Subp. - Control Unit Cost Calculation - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4135252272 - Control 245137026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the WIP time</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8728,6 +8743,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Setup Time Unit of Meas. Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 662368029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Standard Task Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Standard Task Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 220467343 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the theoretical total time.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9424,7 +9444,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Copy Cost History Period - Control ReqPageToPeriodCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Deviation</source>
+          <source>Cost Deviation (IVC)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - Property Caption</note>
         </trans-unit>
@@ -9434,7 +9454,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text001Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1  Deviations</source>
+          <source>%1 Deviations</source>
           <note from="Developer" annotates="general" priority="2">%1 = Cost Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text002Lbl</note>
         </trans-unit>
@@ -9464,12 +9484,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text007Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 4273407817" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text008Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3078467498" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text009Lbl</note>
         </trans-unit>
@@ -9549,7 +9569,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - Control ReqCostType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 2737223367 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continous LIFO Cost,Continous FIFO Cost,Last Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - Control ReqCostType - Property OptionCaption</note>
         </trans-unit>
@@ -9614,12 +9634,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - NamedType AverageCostLbl</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 4254176862" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - NamedType ContinuousFIFOCostLbl</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 1943290340" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - NamedType ContinuousLIFOCostLbl</note>
         </trans-unit>
@@ -9669,7 +9689,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - ReportLabel Filters_Caption</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2588783325" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Inventory </source>
+          <source>End Period Inventory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - ReportLabel Inventory_Caption</note>
         </trans-unit>
@@ -9719,7 +9739,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - Control ReqPageCostType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1117091898 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continuous LIFO Cost,Continuous FIFO Cost,Last Cost,Fiscal Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost,Fiscal Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - Control ReqPageCostType - Property OptionCaption</note>
         </trans-unit>
@@ -9739,7 +9759,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3768804653" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous LIFO</source>
+          <source>LIFO</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType ContinuousLIFOLbl</note>
         </trans-unit>
@@ -9774,7 +9794,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType InventoryMultiCostEvaluationLbl</note>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1735593419" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Net Change</source>
+          <source>End Period Inventory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType Inventory_CaptionLbl</note>
         </trans-unit>
@@ -9792,11 +9812,6 @@
           <source>en-US</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType LanguageLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 436924526 - NamedType 3817462976" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous LIFO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType LIFO_ContinuoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3773226062" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Cost</source>
@@ -11357,11 +11372,6 @@
           <source>Lot Size</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel LotSize_Item_Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 37588727 - ReportLabel 2742563309" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Material Cost</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel MatCost_ProdOrderComp_Caption</note>
         </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 3949877669" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
