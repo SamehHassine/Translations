@@ -3,10 +3,6 @@
   <file datatype="xml" source-language="en-US" target-language="de-CH" original="">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 1170118565 - NamedType 3568648430" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Power PMM not installed!</source>
-          <target>Power PMM nicht installiert!</target>
-        </trans-unit>
         <trans-unit id="Codeunit 1634792758 - Method 1537613639 - NamedType 1923465080" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cannot insert a duplicate work journal line for the same work request line and resource.</source>
           <target>Es kann keine doppelte Arbeitserfassungszeile für dieselbe Arbeitsanforderungsposition und Ressource eingefügt werden.</target>
@@ -423,6 +419,10 @@
           <source>Specifies the number of the maintenance point.</source>
           <target>Gibt die Nummer des Wartungspunktes an.</target>
         </trans-unit>
+        <trans-unit id="Page 1253979977 - Control 1130278330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial no.</source>
+          <target>Gibt die seriennummer an.</target>
+        </trans-unit>
         <trans-unit id="Page 1253979977 - Control 1482668068 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the lot no.</source>
           <target>Gibt das Los Nr. an.</target>
@@ -470,6 +470,10 @@
         <trans-unit id="Page 1253979977 - Control 2814799924 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the bin code.</source>
           <target>Gibt den Lagerplatz an, an dem die Artikel kommissioniert oder eingelagert werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 1253979977 - Control 3059824091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot no.</source>
+          <target>Gibt das Los Nr. an.</target>
         </trans-unit>
         <trans-unit id="Page 1253979977 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the variant code.</source>
@@ -2663,6 +2667,10 @@
           <source>Specifies the maintenance point.</source>
           <target>Gibt den Wartungspunkt an.</target>
         </trans-unit>
+        <trans-unit id="Page 3209909483 - Control 1130278330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial number.</source>
+          <target>Gibt die seriennummer an.</target>
+        </trans-unit>
         <trans-unit id="Page 3209909483 - Control 1152644207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the posting time.</source>
           <target>Gibt den Buchungszeitpunkt an.</target>
@@ -2710,6 +2718,10 @@
         <trans-unit id="Page 3209909483 - Control 27469227 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the work request line no.</source>
           <target>Gibt die Positionsnummer der Arbeitsanforderung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3209909483 - Control 3059824091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot number.</source>
+          <target>Gibt das Los Nr. an.</target>
         </trans-unit>
         <trans-unit id="Page 3209909483 - Control 3179217921 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the base quantity.</source>
@@ -4035,6 +4047,10 @@
           <source>Specifies the value of the shortcut dimension 2.</source>
           <target>Gibt den Wert der Verknüpfungsdimension 2 an.</target>
         </trans-unit>
+        <trans-unit id="Page 539280606 - Control 1130278330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial no.</source>
+          <target>Gibt die seriennummer an.</target>
+        </trans-unit>
         <trans-unit id="Page 539280606 - Control 1415774669 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the activity description.</source>
           <target>Gibt die Aktivitätsbeschreibung an.</target>
@@ -4094,6 +4110,10 @@
         <trans-unit id="Page 539280606 - Control 3037438984 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date</source>
           <target>Buchungsdatum</target>
+        </trans-unit>
+        <trans-unit id="Page 539280606 - Control 3059824091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot no.</source>
+          <target>Gibt das Los Nr. an.</target>
         </trans-unit>
         <trans-unit id="Page 539280606 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the variant code.</source>
@@ -5495,6 +5515,10 @@
           <source>Maintenance Point No.</source>
           <target>Wartungspunkt Nr.</target>
         </trans-unit>
+        <trans-unit id="Table 2088020017 - Field 1130278330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Seriennr.</target>
+        </trans-unit>
         <trans-unit id="Table 2088020017 - Field 1152644207 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Time</source>
           <target>Buchungszeit</target>
@@ -5550,6 +5574,10 @@
         <trans-unit id="Table 2088020017 - Field 2814799924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bin Code</source>
           <target>Lagerplatzcode</target>
+        </trans-unit>
+        <trans-unit id="Table 2088020017 - Field 3059824091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
         </trans-unit>
         <trans-unit id="Table 2088020017 - Field 3179217921 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity (Base)</source>
@@ -6431,6 +6459,10 @@
           <source>Maintenance Point No.</source>
           <target>Wartungspunkt Nr.</target>
         </trans-unit>
+        <trans-unit id="Table 869358067 - Field 1130278330 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Serial No.</source>
+          <target>Seriennr.</target>
+        </trans-unit>
         <trans-unit id="Table 869358067 - Field 1482668068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lot No.</source>
           <target>Chargennr.</target>
@@ -6490,6 +6522,10 @@
         <trans-unit id="Table 869358067 - Field 2881306605 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Activity Description</source>
           <target>Aktivitätsbeschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 869358067 - Field 3059824091 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot No.</source>
+          <target>Chargennr.</target>
         </trans-unit>
         <trans-unit id="Table 869358067 - Field 3179217921 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity (Base)</source>
