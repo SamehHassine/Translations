@@ -2449,9 +2449,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES PowerMES Functions - Method InitDynamicListSetup - NamedType TableNotSupportedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 472225746 - NamedType 1118023816" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The use of PowerMES not permitted.</source>
+          <source>The use of Power MES is not permitted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES PowerMES Functions - Method IsPowerMESAllowed - NamedType PowerMESNotAllowedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3854802188 - Method 3805046314 - NamedType 2267412864" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The use of Power MES Machine Drivers is not permitted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS 070 MES PowerMES Functions - Method IsPowerMESMachineDriversAllowed - NamedType PowerMESMachineDriversNotAllowedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 3854802188 - Method 993309393 - NamedType 2196946907" size-unit="char" translate="yes" xml:space="preserve">
           <source>Set a valid Serial No. and/or Lot No.</source>
@@ -5958,15 +5963,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Action EOS070_ScrapCodes - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3632576327 - Control 3764818929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
-          <source>IoT Hub Name</source>
+        <trans-unit id="PageExtension 3632576327 - Control 626163918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
+          <source>MES</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOS076 IoT Device ID - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3632576327 - Control 4232495398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
-          <source>IoT Hub Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOS076 IoT Hub Name - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOSMES - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3632576327 - Control 3486481600 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
           <source>Manage man time entries with MES</source>
@@ -5982,6 +5982,21 @@
           <source>If enabled, machine time entries must be closed directly</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOS076 Unsupervised - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3632576327 - Control 3636869948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
+          <source>MES IoT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOSMESIOT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3632576327 - Control 3764818929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
+          <source>IoT Hub Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOS076 IoT Device ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3632576327 - Control 4232495398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 955025918">
+          <source>IoT Hub Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18122710 - Control EOS076 IoT Hub Name - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="TableExtension 2601907357 - Field 1084989812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3622167055">
           <source>Employee Entry No.</source>
