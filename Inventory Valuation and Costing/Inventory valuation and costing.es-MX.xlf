@@ -3727,6 +3727,10 @@
           <source>Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup.</source>
           <target>Especifica el tipo de producto del artículo para vincular las transacciones realizadas para este artículo con la cuenta de contabilidad adecuada según la configuración de contabilización general.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2143919915 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the last direct cost.</source>
+          <target>Especifica si se debe forzar el último coste directo.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2304016699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net change.</source>
           <target>Especifica el cambio neto.</target>
@@ -3775,6 +3779,10 @@
           <source>Specifies the type of supply order created by the planning system when the item needs to be replenished.</source>
           <target>Especifica el tipo de orden de suministro creada por el sistema de planificación cuando se debe reabastecer la posición.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 3574057718 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force LIFO cost.</source>
+          <target>Especifica si se debe forzar el coste LIFO.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 4038061973 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Other Cost WAC.</source>
           <target>Especifica el monto del otro costo promedio ponderado del nuevo cálculo de los costos de capacidad general del artículo a partir de los niveles subyacentes del artículo.</target>
@@ -3791,9 +3799,21 @@
           <source>Specifies the Rolled-up Overhead Mat. WAC.</source>
           <target>Especifica el monto del costo promedio ponderado del nuevo cálculo de los costos de capacidad general del artículo a partir de los niveles subyacentes del artículo.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 487722444 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the weighed average cost.</source>
+          <target>Especifica si se debe forzar el coste medio ponderado.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 509231516 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the FIFO cost.</source>
+          <target>Especifica si se debe forzar el coste FIFO.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item code.</source>
           <target>Especifica el código del elemento.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 660642799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the average cost.</source>
+          <target>Especifica si se debe forzar el coste medio.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 786132076 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the start period inventory</source>
@@ -4364,7 +4384,7 @@
           <target>Costo estándar</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 2737223367 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continous LIFO Cost,Continous FIFO Cost,Last Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost</source>
           <target>Costo estándar, costo promedio, costo promedio ponderado, costo continuo DE LIFO, costo continuo de FIFO, último costo</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 3207157547 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -4396,7 +4416,7 @@
           <target>%1 a la vez </target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1  Deviations</source>
+          <source>%1 Deviations</source>
           <target>%1 Desviaciones</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
@@ -4408,7 +4428,7 @@
           <target>Costo estándar</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3078467498" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <target>Costo continuo de FIFO</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3140410629" translate="yes" size-unit="char" xml:space="preserve">
@@ -4424,7 +4444,7 @@
           <target>Last Cost</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 4273407817" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <target>Costo continuo de LIFO</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
@@ -4432,7 +4452,7 @@
           <target>Costo promedio ponderado</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Deviation</source>
+          <source>Cost Deviation (IVC)</source>
           <target>Desviación de costos</target>
         </trans-unit>
         <trans-unit id="Report 1043643459 - ReportLabel 1222604928" translate="yes" size-unit="char" xml:space="preserve">
@@ -4518,6 +4538,14 @@
         <trans-unit id="Report 1806603524 - NamedType 1582893390" translate="yes" size-unit="char" xml:space="preserve">
           <source>Items copy ...</source>
           <target>Copiar elementos ...</target>
+        </trans-unit>
+        <trans-unit id="Report 1806603524 - NamedType 1692283015" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specific additional costs copy ...</source>
+          <target>Copia de costos adicionales específicos ...</target>
+        </trans-unit>
+        <trans-unit id="Report 1806603524 - NamedType 2493285208" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specific costs copy ...</source>
+          <target>Copia de costos específicos ...</target>
         </trans-unit>
         <trans-unit id="Report 1806603524 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
@@ -4800,24 +4828,32 @@
           <target>Opciones</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 1571969600" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculating WIP costs ...</source>
-          <target>Cálculo Wip ...</target>
+          <source>Calculating WIP costs ...\\</source>
+          <target>Cálculo Wip ...\\</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 2220542166" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No. #1####################\</source>
+          <target>N.º de artículo #1###################\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2244912787" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Recalc. items with circular references ...</source>
-          <target>Recalculando artículos con referencias circulares...</target>
+          <source>Recalc. items with circular references ...\\</source>
+          <target>Recalculando artículos con referencias circulares...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2792817358" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update production costs ...</source>
-          <target>Actualizar los costes de producción ...</target>
+          <source>Update production costs ...\\</source>
+          <target>Actualizar los costes de producción ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3624983459" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculating costs ...</source>
-          <target>Calculando costos...</target>
+          <source>Calculating costs ...\\</source>
+          <target>Calculando costos...\\</target>
         </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No. #2################## @3@@@@@@@@@@@@@</source>
-          <target>No. #2###################### @3 @@@@@@@@@@@@@</target>
+        <trans-unit id="Report 2229818940 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Counter    #2#######\</source>
+          <target>Contador #2#######\</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total    #3#######</source>
+          <target>Total #3#######</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Actual Cost</source>
@@ -4826,6 +4862,9 @@
         <trans-unit id="Report 2229818940 - ReportDataItem 1281519832 - Method 72583909 - NamedType 2047221147" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attention, %1 wrong %2=%3 cannot be used with specific cost</source>
           <target>Atención,%1 incorrecto %2=%3 no se puede usar con un costo específico</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - ReportDataItem 1281519832 - Method 72583909 - NamedType 3656906925" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No items cost history present. Launch the archive period data report</source>
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 1152042207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specify if show Routing Cost Amount</source>
@@ -6088,7 +6127,7 @@
           <target>Total del grupo</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1735593419" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Change</source>
+          <source>End Period Inventory</source>
           <target>Cambio neto</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1987762555" translate="yes" size-unit="char" xml:space="preserve">
@@ -6120,7 +6159,7 @@
           <target>Análisis de costes de inventario</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3768804653" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO</source>
+          <source>LIFO</source>
           <target>LIFO continuo</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3773226062" translate="yes" size-unit="char" xml:space="preserve">
@@ -6130,10 +6169,6 @@
         <trans-unit id="Report 436924526 - NamedType 378064412" translate="yes" size-unit="char" xml:space="preserve">
           <source>en-US</source>
           <target>en-US</target>
-        </trans-unit>
-        <trans-unit id="Report 436924526 - NamedType 3817462976" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO</source>
-          <target>LIFO continuo</target>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 4107814232" translate="yes" size-unit="char" xml:space="preserve">
           <source>UM</source>
@@ -6168,7 +6203,7 @@
           <target>Archivo de elementos faltantes ejecutándose...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1224385819" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description: #2##################################################\</source>
+          <source>Description #2##################################################\</source>
           <target>Descripción: #2##################################################\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1473390049" translate="yes" size-unit="char" xml:space="preserve">
@@ -6187,10 +6222,6 @@
           <source>Attention: Period %1 - "%2" not empty!\Only new items in period should be archived! Do you want to proceed?</source>
           <target>Atención: Período %1 - "%2" no vacío!-¡Sólo se deben archivar los nuevos elementos en el período! ¿Quieres continuar?</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3375937549" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lines:       #3###### @4@@@@@@@@@@@@@</source>
-          <target>             #3###### @4@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 3541090350" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM and routing archive running ...\\</source>
           <target>LDM y archivo de enrutamiento en ejecución ...\\</target>
@@ -6203,12 +6234,20 @@
           <source>Canceled Operation !</source>
           <target>Operación cancelada !</target>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Counter    #3#######\</source>
+          <target>Contador #3#######\</target>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 4071146213" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period %1 not found !</source>
           <target>Período %1 no encontrado !</target>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total    #4#######</source>
+          <target>Total #4#######</target>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 771342085" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.:         #1####################\</source>
+          <source>No.         #1####################\</source>
           <target>No.:         #1####################\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6324,7 +6363,7 @@
           <target>Costo estándar</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1117091898 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continuous LIFO Cost,Continuous FIFO Cost,Last Cost,Fiscal Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost,Fiscal Cost</source>
           <target>Costo estándar, costo promedio, costo promedio ponderado, costo continuo de LIFO, costo continuo de FIFO, último costo, costo fiscal</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1871236469 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -6344,7 +6383,7 @@
           <target>Coste fiscal</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 1943290340" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <target>Costo LIFO continuo</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 2589500502" translate="yes" size-unit="char" xml:space="preserve">
@@ -6372,7 +6411,7 @@
           <target>Coste promedio</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 4254176862" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Continuous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <target>Costo FIFO continuo</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -6392,7 +6431,7 @@
           <target>Artículo No.</target>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2588783325" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Inventory </source>
+          <source>End Period Inventory</source>
           <target>Inventario </target>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2889609511" translate="yes" size-unit="char" xml:space="preserve">
