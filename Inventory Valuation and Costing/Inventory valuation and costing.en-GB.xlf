@@ -5473,6 +5473,31 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Control FIFO Cost - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 660642799 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if to force the average cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Control Force Average Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 509231516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if to force the FIFO cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Control Force FIFO Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2143919915 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if to force the last direct cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Control Force Last Direct Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 3574057718 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if to force LIFO cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Control Force LIFO Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 487722444 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if to force the weighed average cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Item Cost History List - Control Force Weighed Average Cost - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2139693550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8743,6 +8768,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Setup Time Unit of Meas. Code - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2748615199 - Control 662368029 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Standard Task Code field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Routing History List - Control Standard Task Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2748615199 - Control 220467343 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the theoretical total time.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9183,6 +9213,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType BOMTitleLbl</note>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 3909125117" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Counter    #3#######\</source>
+          <note from="Developer" annotates="general" priority="2">%3 = Record No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType CounterProgressLbl</note>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1054324517" size-unit="char" translate="yes" xml:space="preserve">
           <source>Missing item archive running ...\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9197,11 +9232,6 @@
           <source>Update impossible for definitive period !</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType ModifyNotAllowedErr</note>
-        </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3375937549" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Lines:       #3###### @4@@@@@@@@@@@@@</source>
-          <note from="Developer" annotates="general" priority="2">%3 = Current Line No.; %4 = Percentage Progress</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType NewProgressLbl</note>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 3697733513" size-unit="char" translate="yes" xml:space="preserve">
           <source>Canceled Operation !</source>
@@ -9224,14 +9254,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType PeriodNotFoundErr</note>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1224385819" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Description: #2##################################################\</source>
+          <source>Description #2##################################################\</source>
           <note from="Developer" annotates="general" priority="2">%2 = Item or BOM Description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType ProgressItemDescrLbl</note>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 771342085" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No.:         #1####################\</source>
+          <source>No.         #1####################\</source>
           <note from="Developer" annotates="general" priority="2">%1 = Item or BOM No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType ProgressItemNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 698078071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total    #4#######</source>
+          <note from="Developer" annotates="general" priority="2">%4 = Total Items</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Archive Period Data - NamedType TotalProgressLbl</note>
         </trans-unit>
         <trans-unit id="Report 543964970 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
@@ -9253,35 +9288,50 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 3950098385" size-unit="char" translate="yes" xml:space="preserve">
-          <source>No. #2################## @3@@@@@@@@@@@@@</source>
-          <note from="Developer" annotates="general" priority="2">%2 = Item No. ; %3 = Percentage Progress</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType ProgressLbl</note>
+        <trans-unit id="Report 2229818940 - NamedType 3909125117" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Counter    #2#######\</source>
+          <note from="Developer" annotates="general" priority="2">%2 = Record No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType CounterProgressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 2220542166" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No. #1####################\</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Item No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType ItemProgressLbl</note>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3624983459" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Calculating costs ...</source>
+          <source>Calculating costs ...\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType TitleCostLbl</note>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2244912787" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Recalc. items with circular references ...</source>
+          <source>Recalc. items with circular references ...\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType TitleItemWithLoopLbl</note>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2792817358" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Update production costs ...</source>
+          <source>Update production costs ...\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType TitleProductionCostLbl</note>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 1571969600" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Calculating WIP costs ...</source>
+          <source>Calculating WIP costs ...\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType TitleWipLbl</note>
         </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 698078071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total    #3#######</source>
+          <note from="Developer" annotates="general" priority="2">%3 = Total Items</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - NamedType TotalProgressLbl</note>
+        </trans-unit>
         <trans-unit id="Report 2229818940 - ReportDataItem 1281519832 - Method 72583909 - NamedType 2047221147" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attention, %1 wrong %2=%3 cannot be used with specific cost</source>
-          <note from="Developer" annotates="general" priority="2">%1 = Caption of Item Costing Setup; %2 = Code of Item Costing Setup; %3 = Caption of Production Cost Calculation ; %4 = Production Cost Calculation of Item Costing Setup.</note>
+          <note from="Developer" annotates="general" priority="2">%1 = Caption of Item Costing Setup; %2 = Code of Item Costing Setup; %3 = Caption of Production Cost Calculation</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - ReportDataItem ItemCostHistory - Method OnPreDataItem - NamedType SpecificCostSetupErr</note>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - ReportDataItem 1281519832 - Method 72583909 - NamedType 3656906925" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No items cost history present. Launch the archive period data report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Calculate Actual Cost - ReportDataItem ItemCostHistory - Method OnPreDataItem - NamedType MissingHistoryDataErr</note>
         </trans-unit>
         <trans-unit id="Report 2229818940 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
@@ -9398,6 +9448,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Copy Cost History Period - NamedType RoutingCopyLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1806603524 - NamedType 1692283015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specific additional costs copy ...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Copy Cost History Period - NamedType SpecificAdditionalCostCopyLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1806603524 - NamedType 2493285208" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specific costs copy ...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Copy Cost History Period - NamedType SpecificCostCopyLbl</note>
+        </trans-unit>
         <trans-unit id="Report 1806603524 - NamedType 1582893390" size-unit="char" translate="yes" xml:space="preserve">
           <source>Items copy ...</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -9439,7 +9499,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Copy Cost History Period - Control ReqPageToPeriodCode - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Deviation</source>
+          <source>Cost Deviation (IVC)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - Property Caption</note>
         </trans-unit>
@@ -9449,7 +9509,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text001Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 1753513791" size-unit="char" translate="yes" xml:space="preserve">
-          <source>%1  Deviations</source>
+          <source>%1 Deviations</source>
           <note from="Developer" annotates="general" priority="2">%1 = Cost Type</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text002Lbl</note>
         </trans-unit>
@@ -9479,12 +9539,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text007Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 4273407817" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text008Lbl</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - NamedType 3078467498" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - NamedType Text009Lbl</note>
         </trans-unit>
@@ -9564,7 +9624,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - Control ReqCostType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1043643459 - Control 2737223367 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continous LIFO Cost,Continous FIFO Cost,Last Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Cost Deviation - Control ReqCostType - Property OptionCaption</note>
         </trans-unit>
@@ -9629,12 +9689,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - NamedType AverageCostLbl</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 4254176862" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous FIFO Cost</source>
+          <source>FIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - NamedType ContinuousFIFOCostLbl</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - NamedType 1943290340" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous LIFO Cost</source>
+          <source>LIFO Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - NamedType ContinuousLIFOCostLbl</note>
         </trans-unit>
@@ -9684,7 +9744,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - ReportLabel Filters_Caption</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - ReportLabel 2588783325" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Inventory </source>
+          <source>End Period Inventory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - ReportLabel Inventory_Caption</note>
         </trans-unit>
@@ -9734,7 +9794,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - Control ReqPageCostType - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 957143814 - Control 1117091898 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Standard Cost,Average Cost,Weighed Average Cost,Continuous LIFO Cost,Continuous FIFO Cost,Last Cost,Fiscal Cost</source>
+          <source>Standard Cost,Average Cost,Weighed Average Cost,LIFO Cost,FIFO Cost,Last Cost,Fiscal Cost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Fiscal Inventory Valuation - Control ReqPageCostType - Property OptionCaption</note>
         </trans-unit>
@@ -9754,7 +9814,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3768804653" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous LIFO</source>
+          <source>LIFO</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType ContinuousLIFOLbl</note>
         </trans-unit>
@@ -9789,7 +9849,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType InventoryMultiCostEvaluationLbl</note>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 1735593419" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Net Change</source>
+          <source>End Period Inventory</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType Inventory_CaptionLbl</note>
         </trans-unit>
@@ -9807,11 +9867,6 @@
           <source>en-US</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType LanguageLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 436924526 - NamedType 3817462976" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Continuous LIFO</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Inventory Cost Analysis - NamedType LIFO_ContinuoCaptionLbl</note>
         </trans-unit>
         <trans-unit id="Report 436924526 - NamedType 3773226062" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Cost</source>
@@ -11373,11 +11428,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel LotSize_Item_Caption</note>
         </trans-unit>
-        <trans-unit id="Report 37588727 - ReportLabel 2742563309" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Material Cost</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel MatCost_ProdOrderComp_Caption</note>
-        </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 3949877669" size-unit="char" translate="yes" xml:space="preserve">
           <source>Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -11402,6 +11452,11 @@
           <source>Prod. Order No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel ProdOrderNo_Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 37588727 - ReportLabel 4264588493" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase Material Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Wip History - ReportLabel PurchaseMaterialCost_ProdOrderComp_Caption</note>
         </trans-unit>
         <trans-unit id="Report 37588727 - ReportLabel 2818644368" size-unit="char" translate="yes" xml:space="preserve">
           <source>Quantity Per</source>
