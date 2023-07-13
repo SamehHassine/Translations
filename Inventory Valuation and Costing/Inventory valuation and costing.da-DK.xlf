@@ -3727,6 +3727,10 @@
           <source>Specifies the item's product type to link transactions made for this item with the appropriate general ledger account according to the general posting setup.</source>
           <target>Angiver varens produkttype for at knytte posteringer, der er foretaget for denne vare, til den relevante finanskonto i henhold til bogføringsopsætningen.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 2143919915 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the last direct cost.</source>
+          <target>Angiver, om den sidste direkte omkostning skal gennemtvinges.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 2304016699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the net change.</source>
           <target>Angiver bevægelsen.</target>
@@ -3775,6 +3779,10 @@
           <source>Specifies the type of supply order created by the planning system when the item needs to be replenished.</source>
           <target>Angiver den forsyningsordretype, der oprettes af planlægningssystemet, når varen skal genopfyldes.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 3574057718 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force LIFO cost.</source>
+          <target>Angiver, om LIFO-omkostninger skal gennemtvinges.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 4038061973 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Rolled-up Other Cost WAC.</source>
           <target>Angiver størrelsen på de andre vægtede gennemsnitlige omkostninger ved genberegning af varens generelle kapacitetsomkostninger fra varens underliggende niveauer.</target>
@@ -3791,9 +3799,21 @@
           <source>Specifies the Rolled-up Overhead Mat. WAC.</source>
           <target>Angiver det vægtede gennemsnitlige omkostningsbeløb for genberegningen af ​​varens generelle kapacitetsomkostninger fra elementets underliggende niveauer.</target>
         </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 487722444 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the weighed average cost.</source>
+          <target>Angiver, om den vejede gennemsnitlige kostpris skal gennemtvinges.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 509231516 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the FIFO cost.</source>
+          <target>Angiver, om FIFO-omkostningerne skal gennemtvinges.</target>
+        </trans-unit>
         <trans-unit id="Page 4157661377 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the item code.</source>
           <target>Angiver varekoden.</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Control 660642799 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if to force the average cost.</source>
+          <target>Angiver, om den gennemsnitlige kostpris skal gennemtvinges.</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Control 786132076 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the start period inventory</source>
@@ -4519,6 +4539,14 @@
           <source>Items copy ...</source>
           <target>Elementer kopi ...</target>
         </trans-unit>
+        <trans-unit id="Report 1806603524 - NamedType 1692283015" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specific additional costs copy ...</source>
+          <target>Specifikke ekstra omkostninger kopi ...</target>
+        </trans-unit>
+        <trans-unit id="Report 1806603524 - NamedType 2493285208" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specific costs copy ...</source>
+          <target>Specifikke omkostninger kopi ...</target>
+        </trans-unit>
         <trans-unit id="Report 1806603524 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
           <target>Nr. #2###################### @3 @@@@@@@@@@@@@</target>
@@ -4800,24 +4828,32 @@
           <target>Muligheder</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 1571969600" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculating WIP costs ...</source>
-          <target>Wip beregning ...</target>
+          <source>Calculating WIP costs ...\\</source>
+          <target>Wip beregning ...\\</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 2220542166" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No. #1####################\</source>
+          <target>Varenr. #1#####################\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2244912787" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Recalc. items with circular references ...</source>
-          <target>Genberegning af varer med cirkulære referencer ...</target>
+          <source>Recalc. items with circular references ...\\</source>
+          <target>Genberegning af varer med cirkulære referencer ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 2792817358" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update production costs ...</source>
-          <target>Opdater produktionsomkostninger ...</target>
+          <source>Update production costs ...\\</source>
+          <target>Opdater produktionsomkostninger ...\\</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - NamedType 3624983459" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculating costs ...</source>
-          <target>Beregner omkostninger...</target>
+          <source>Calculating costs ...\\</source>
+          <target>Beregner omkostninger...\\</target>
         </trans-unit>
-        <trans-unit id="Report 2229818940 - NamedType 3950098385" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No. #2################## @3@@@@@@@@@@@@@</source>
-          <target>Nr. #2###################### @3 @@@@@@@@@@@@@</target>
+        <trans-unit id="Report 2229818940 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Counter    #2#######\</source>
+          <target>Tæller #2#######\</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total    #3#######</source>
+          <target>Total #3#######</target>
         </trans-unit>
         <trans-unit id="Report 2229818940 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Calculate Actual Cost</source>
@@ -4826,6 +4862,10 @@
         <trans-unit id="Report 2229818940 - ReportDataItem 1281519832 - Method 72583909 - NamedType 2047221147" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attention, %1 wrong %2=%3 cannot be used with specific cost</source>
           <target>Bemærk, %1 forkert %2 = %3 kan ikke bruges med specifikke omkostninger</target>
+        </trans-unit>
+        <trans-unit id="Report 2229818940 - ReportDataItem 1281519832 - Method 72583909 - NamedType 3656906925" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No items cost history present. Launch the archive period data report</source>
+          <target>Ingen varer koster historik til stede. Start arkivperiodedatarapporten</target>
         </trans-unit>
         <trans-unit id="Report 2281176656 - Control 1152042207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specify if show Routing Cost Amount</source>
@@ -6164,7 +6204,7 @@
           <target>Manglende varearkiv kører ...\\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1224385819" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Description: #2##################################################\</source>
+          <source>Description #2##################################################\</source>
           <target>Beskrivelse: #2##################################################\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 1473390049" translate="yes" size-unit="char" xml:space="preserve">
@@ -6183,10 +6223,6 @@
           <source>Attention: Period %1 - "%2" not empty!\Only new items in period should be archived! Do you want to proceed?</source>
           <target>Bemærk: Periode %1 - "%2" er ikke tom!\Kun nye elementer i perioden skal arkiveres! Vil du fortsætte?</target>
         </trans-unit>
-        <trans-unit id="Report 543964970 - NamedType 3375937549" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lines:       #3###### @4@@@@@@@@@@@@@</source>
-          <target>             #3###### @4@@@@@@@@@@@@@</target>
-        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 3541090350" translate="yes" size-unit="char" xml:space="preserve">
           <source>BOM and routing archive running ...\\</source>
           <target>Stykliste og routing arkiv kører ...\\</target>
@@ -6199,12 +6235,20 @@
           <source>Canceled Operation !</source>
           <target>Annulleret operation!</target>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 3909125117" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Counter    #3#######\</source>
+          <target>Tæller #3#######\</target>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 4071146213" translate="yes" size-unit="char" xml:space="preserve">
           <source>Period %1 not found !</source>
           <target>Perioden %1 blev ikke fundet !</target>
         </trans-unit>
+        <trans-unit id="Report 543964970 - NamedType 698078071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total    #4#######</source>
+          <target>I alt #4#######</target>
+        </trans-unit>
         <trans-unit id="Report 543964970 - NamedType 771342085" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No.:         #1####################\</source>
+          <source>No.         #1####################\</source>
           <target>Nr.:         #1####################\</target>
         </trans-unit>
         <trans-unit id="Report 543964970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
