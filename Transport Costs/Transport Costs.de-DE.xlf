@@ -59,6 +59,10 @@
           <source>Were found only services for this Shipping Price (%1), proceed anyway?</source>
           <target>Wurden nur Dienstleistungen für diesen Versandpreis (%1) gefunden, gehen Sie trotzdem vor?</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2874897930 - Method 4050776216 - NamedType 3932149199" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Type %1 is not supported.</source>
+          <target>Der Dokumenttyp %1 wird nicht unterstützt.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2874897930 - Method 851278748 - NamedType 1191867593" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice amount must be set</source>
           <target>Rechnungsbetrag muss festgelegt werden.</target>
@@ -403,6 +407,10 @@
           <source>Calc. Trasf Order</source>
           <target>Calc. Trasf-Bestellung</target>
         </trans-unit>
+        <trans-unit id="Page 1444946926 - Action 1404343820 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tour Summary</source>
+          <target>Gesamtwerte pro Runde</target>
+        </trans-unit>
         <trans-unit id="Page 1444946926 - Action 1541030846 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the "Calc. Sales Ret. Orders" action.</source>
           <target>Führt die Aktion "Calc. Sales Ret. Orders" aus.</target>
@@ -428,11 +436,11 @@
           <target>Calc. Purch. Bestellungen Trasp. Kosten</target>
         </trans-unit>
         <trans-unit id="Page 1444946926 - Action 3193728873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Update Actual form Expected" action.</source>
+          <source>Executes the "Update Actual from Expected" action.</source>
           <target>Führt die Aktion "Aktuelles Formular erwartet aktualisieren" aus.</target>
         </trans-unit>
         <trans-unit id="Page 1444946926 - Action 3193728873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update Actual form Expected</source>
+          <source>Update Actual from Expected</source>
           <target>Aktualisieren tatsächliche Form Erwartete</target>
         </trans-unit>
         <trans-unit id="Page 1444946926 - Action 3443501657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1040,11 +1048,11 @@
           <target>Calc. Purch. Bestellungen Trasp. Kosten</target>
         </trans-unit>
         <trans-unit id="Page 2718138253 - Action 3193728873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Update Actual form Expected" action.</source>
+          <source>Executes the "Update Actual from Expected" action.</source>
           <target>Führt die Aktion "Aktuelles Formular erwartet aktualisieren" aus.</target>
         </trans-unit>
         <trans-unit id="Page 2718138253 - Action 3193728873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update Actual form Expected</source>
+          <source>Update Actual from Expected</source>
           <target>Aktualisieren tatsächliche Form Erwartete</target>
         </trans-unit>
         <trans-unit id="Page 2718138253 - Action 3443501657 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -1671,6 +1679,42 @@
           <source>Document Shipping Price Line</source>
           <target>Transportkostenzeile nach Dok.</target>
         </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 3106002577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>Funktionen</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 3193728873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Update Actual from Expected" action.</source>
+          <target>Führt die Aktion "Aktuelles Formular erwartet aktualisieren" aus.</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 3193728873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update Actual from Expected</source>
+          <target>Aktualisieren tatsächliche Form Erwartete</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 70153554 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Tour Trasport Cost</source>
+          <target>Transportkosten berechnen Fahrt</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 70153554 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculate Tour Trasport Cost</source>
+          <target>Transportkosten berechnen Fahrt</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Control 1788431247 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Applied Tariff (Expected)</source>
+          <target>Verschmierte Fracht (Zitat)</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Control 3681063431 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Applied Tariff (Actual)</source>
+          <target>Spread-Fracht (Endsaldo)</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Control 61036631 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Tour Totals</source>
+          <target>Gesamtwerte pro Runde</target>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - NamedType 3114637384" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status definitive. Confirm recalculation ?</source>
+          <target>Endzustand. Bestätigen Sie die Neuberechnung ?</target>
+        </trans-unit>
         <trans-unit id="Page 323529350 - Action 2284392541 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Price</source>
           <target>&amp;Preis</target>
@@ -1975,6 +2019,10 @@
           <source>Shipping Price Version</source>
           <target>Transportpreislisten-Version</target>
         </trans-unit>
+        <trans-unit id="Page 3859852310 - Action 3873595854 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Source Document</source>
+          <target>Herkunftsbeleg</target>
+        </trans-unit>
         <trans-unit id="Page 3859852310 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Card</source>
           <target>Karte</target>
@@ -2076,11 +2124,11 @@
           <target>F&amp;unktion</target>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Action 3193728873 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Update Actual form Expected" action.</source>
+          <source>Executes the "Update Actual from Expected" action.</source>
           <target>Führt die Aktion "Aktuelles Formular erwartet aktualisieren" aus.</target>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Action 3193728873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update Actual form Expected</source>
+          <source>Update Actual from Expected</source>
           <target>Aktualisieren tatsächliche Form Erwartete</target>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Action 3412251671 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -3563,6 +3611,10 @@
           <source>Error Flag</source>
           <target>Fehler</target>
         </trans-unit>
+        <trans-unit id="Table 1817527673 - Field 3893560092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence Code in Tour</source>
+          <target>Reihenfolgecode in Tour</target>
+        </trans-unit>
         <trans-unit id="Table 1817527673 - Field 389560391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Charge (Actual)</source>
           <target>Zusätzliche Gebühr (Ist)</target>
@@ -3758,6 +3810,10 @@
         <trans-unit id="Table 1891397859 - Field 3860348335 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error Flag</source>
           <target>Fehler</target>
+        </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 3893560092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence Code in Tour</source>
+          <target>Reihenfolgecode in Tour</target>
         </trans-unit>
         <trans-unit id="Table 1891397859 - Field 389560391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Additional Charge (Actual)</source>
