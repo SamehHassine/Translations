@@ -413,6 +413,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DocShippingAgentPrice - Field EOS Sell-to Customer No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1817527673 - Field 3893560092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence Code in Tour</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DocShippingAgentPrice - Field EOS Sequence Code in Tour - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1817527673 - Field 1367589718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sequence Number Tour Plan</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -768,10 +773,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DocumentShippingPrice - Field EOS Sell-to Customer No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 3893560092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sequence Code in Tour</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DocumentShippingPrice - Field EOS Sequence Code in Tour - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1891397859 - Field 1367589718 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sequence Number Tour Plan</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DocumentShippingPrice - Field EOS Sequence Number Tour Plan - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1891397859 - Field 3021490898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Record ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DocumentShippingPrice - Field EOS Setup Record ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1891397859 - Field 605422776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipping Agent Service Code</source>
@@ -1617,6 +1632,11 @@
           <source>Single document calculation. Confirm tour amount total forcing ?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Shipping Price Mgt. - Method SplitTourExpectedTotals - NamedType lText002Msg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2874897930 - Method 4050776216 - NamedType 3932149199" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type %1 is not supported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Shipping Price Mgt. - Method TourRemainingAmount - NamedType DocTypeErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4106538407 - NamedType 1252561225" size-unit="char" translate="yes" xml:space="preserve">
           <source>Unexpected %1 table</source>
@@ -2559,12 +2579,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPriceList - Action F&amp;unctions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2718138253 - Action 3193728873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Update Actual form Expected" action.</source>
+          <source>Executes the "Update Actual from Expected" action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPriceList - Action Update Actual form Expected - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2718138253 - Action 3193728873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Update Actual form Expected</source>
+          <source>Update Actual from Expected</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPriceList - Action Update Actual form Expected - Property Caption</note>
         </trans-unit>
@@ -2813,6 +2833,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Control EOS Sequence Number Tour Plan - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1444946926 - Control 3021490898 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Shipping Price Line found.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Control EOS Setup Record ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1444946926 - Control 3021490898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Setup Record ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Control EOS Setup Record ID - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1444946926 - Control 3904960809 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Shipping Agent Code" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3008,18 +3038,23 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Action Source Document - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1444946926 - Action 1404343820 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tour Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Action Tour Summary - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1444946926 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>F&amp;unctions</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Action F&amp;unctions - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1444946926 - Action 3193728873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Update Actual form Expected" action.</source>
+          <source>Executes the "Update Actual from Expected" action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Action Update Actual form Expected - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1444946926 - Action 3193728873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Update Actual form Expected</source>
+          <source>Update Actual from Expected</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DocumentShippingPrices - Action Update Actual form Expected - Property Caption</note>
         </trans-unit>
@@ -4269,12 +4304,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS ShippingPricesSettlement - Action Set Status to Definitive - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Action 3193728873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Executes the "Update Actual form Expected" action.</source>
+          <source>Executes the "Update Actual from Expected" action.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS ShippingPricesSettlement - Action Update Actual form Expected - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4279457068 - Action 3193728873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Update Actual form Expected</source>
+          <source>Update Actual from Expected</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS ShippingPricesSettlement - Action Update Actual form Expected - Property Caption</note>
         </trans-unit>
@@ -4497,6 +4532,51 @@
           <source>Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS ShippingVersionList - Action Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status definitive. Confirm recalculation ?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Control 61036631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Tour Totals</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Control TourTotals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Control 3681063431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Tariff (Actual)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Control AppliedTariffActual - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Control 1788431247 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applied Tariff (Expected)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Control AppliedTariffExpected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 70153554 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Tour Trasport Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Action Calculate Tour Trasport Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 70153554 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate Tour Trasport Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Action Calculate Tour Trasport Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 3193728873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Update Actual from Expected" action.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Action Update Actual form Expected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3174682971 - Action 3193728873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Actual from Expected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Tour Summary - Action Update Actual form Expected - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2812283927 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Transport Cost Setup (ETC)</source>
