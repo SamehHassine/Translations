@@ -61,11 +61,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines posted   #3########</source>
-          <target>Regels die #3 zijn geplaatst ########</target>
+          <target>Regels die zijn geplaatst #3########</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 2287756966" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lines checked  #2######## \</source>
-          <target>Regels gecontroleerd #2######## \</target>
+          <source>Lines checked  #2########\</source>
+          <target>Regels gecontroleerd #2########\</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 2362165204" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. or  Balance No. must be defined.\Line %1, document %2, amount %3.</source>
@@ -88,8 +88,8 @@
           <target>Het saldo van de posten op %1 is %2, maar moet 0 zijn.</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 3140410629" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Lines          #1######## \</source>
-          <target>Regels #1######## \</target>
+          <source>Lines          #1########\</source>
+          <target>Regels #1########\</target>
         </trans-unit>
         <trans-unit id="Codeunit 1925638936 - NamedType 3585314565" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deletion of %1 not expected.</source>
@@ -364,8 +364,8 @@
           <target>Nee. van kostenposten #4######## </target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1439018206" translate="yes" size-unit="char" xml:space="preserve">
-          <source>G/L entry no.          #1######## \</source>
-          <target>G/L-vermeldingsnr.          #1######## \</target>
+          <source>G/L entry no.          #1########\</source>
+          <target>G/L-vermeldingsnr.          #1########\</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 1569402885" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update cancelled</source>
@@ -400,7 +400,7 @@
           <target>Gecombineerde posten per maand </target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 3853470381" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost account           #2######## \</source>
+          <source>Cost account           #2########\</source>
           <target>Kostenrekening #2######## \</target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 4058166956" translate="yes" size-unit="char" xml:space="preserve">
@@ -416,8 +416,8 @@
           <target>Gecombineerde inzendingen per dag </target>
         </trans-unit>
         <trans-unit id="Codeunit 3933426754 - NamedType 912201424" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Combined entries       #3######## \</source>
-          <target>Gecombineerde vermeldingen #3######## \</target>
+          <source>Combined entries       #3########\</source>
+          <target>Gecombineerde vermeldingen #3########\</target>
         </trans-unit>
         <trans-unit id="Codeunit 4219997186 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
           <source>No subscription for EMA present! - this report cannot be generated!</source>
@@ -447,9 +447,69 @@
           <source>Missing %1 to %2.</source>
           <target>Ontbrekende %1 tot %2.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 444311949 - NamedType 3050295096" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 444311949 - NamedType 1084854755" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indirect Cost</source>
+          <target>Indirecte kosten</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 1257081728" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales doc.</source>
+          <target>Verkoop document</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update profitability analysis ...\\</source>
+          <target>Winstgevendheidsanalyse bijwerken ...\\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prof. Income     #4##############</source>
+          <target>Winstgevendheid Resultatenrekening #4################</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 2283928019" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indirect Cost - more split driver</source>
+          <target>Indirecte kosten met gesplitste bestuurder</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 2287756966" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting date     #3##############\</source>
+          <target>Postdatum #3################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Column %1 must be &lt;&gt; %2.</source>
-          <target>Kolom %1 moet worden &lt;&gt; %2.</target>
+          <target>Kolom %1 moet &lt;&gt; %2 zijn.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 3078467498" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Driver Code      #4##############</source>
+          <target>Bestuurderscode #4################</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 3078813345" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Driver value</source>
+          <target>Waarde van stuurprogramma's</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 3140410629" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.         #2##############\</source>
+          <target>Artikelnr. #2################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 3668474178" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Direct Cost</source>
+          <target>Directe kosten</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Step #1##############\</source>
+          <target>Berekeningsstap #1################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 3797269194" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.        #3##############\</source>
+          <target>Invoer nr. #3################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 4273407817" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C/A Account No.  #3##############\</source>
+          <target>C/A-rekeningnummer #3################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Prof. Income     #2##############\</source>
+          <target>Winstgevendheid Resultatenrekening #2################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 799064184" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales doc. without item entries</source>
+          <target>Verkoopdocument zonder artikelposten</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>All line types, including headings, begin-total and end-total, are transferred.\</source>
@@ -521,7 +581,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 3853470381" translate="yes" size-unit="char" xml:space="preserve">
           <source>Number   #1########</source>
-          <target>Nummer #1 ########</target>
+          <target>Nummer #1########</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 3952866467" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indent chart of CA\</source>
@@ -6209,7 +6269,7 @@
         </trans-unit>
         <trans-unit id="Report 610890968 - NamedType 3078467498" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date    #2######</source>
-          <target>Boekingsdatum #2 ######</target>
+          <target>Boekingsdatum #2######</target>
         </trans-unit>
         <trans-unit id="Report 610890968 - NamedType 3369531319" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to start the copy?</source>
@@ -6261,7 +6321,7 @@
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1010155901" translate="yes" size-unit="char" xml:space="preserve">
           <source>Register no.      #1######</source>
-          <target>Registreernr.      #1 ######</target>
+          <target>Registreernr.      #1######</target>
         </trans-unit>
         <trans-unit id="Report 819671009 - NamedType 1123266489" translate="yes" size-unit="char" xml:space="preserve">
           <source>Are you sure?</source>
@@ -6623,7 +6683,7 @@
           <source>Dimension Auto Update</source>
           <target>Automatische bijwerking van dimensie</target>
         </trans-unit>
-        <trans-unit id="Table 133711482 - NamedType 3123336986" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Table 133711482 - NamedType 2229707210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Please enter a valid filter value for %1</source>
           <target>Voer een geldige filterwaarde in voor %1</target>
         </trans-unit>
@@ -8021,7 +8081,7 @@
         </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 3457502012" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indenting Columns #1##########</source>
-          <target>Kolommen #1 inspringen ##########</target>
+          <target>Kolommen inspringen #1##########</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Profitability Income Statement</source>
