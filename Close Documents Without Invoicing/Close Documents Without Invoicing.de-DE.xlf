@@ -25,7 +25,7 @@
         </trans-unit>
         <trans-unit id="Codeunit 2073913737 - NamedType 1772493744" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Version</source>
-          <target>Freie Version</target>
+          <target>Gratis-Version</target>
         </trans-unit>
         <trans-unit id="Codeunit 2073913737 - NamedType 2599441456" translate="yes" size-unit="char" xml:space="preserve">
           <source>Trial subscription for Close Documents without Invoicing found - day %1 of %2</source>
@@ -81,15 +81,15 @@
         </trans-unit>
         <trans-unit id="Enum 2115411625 - EnumValue 3276221047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Cost</source>
-          <target>Soll-Kosten</target>
+          <target>Erwartete Kosten</target>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 1309474442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No Ledger Entries</source>
-          <target>Keine Sachposten</target>
+          <source>Statistic Document (No Ledger Entries)</source>
+          <target>Statistischer Beleg (Keine Sachposten)</target>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 746298496 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No Invoicing and Ledger Entries</source>
-          <target>Keine Fakturierungs- und Sachposten</target>
+          <source>No invoicing/Force as invoiced (No Invoicing and Ledger Entries)</source>
+          <target>Nicht fakturieren/Als Fakturiert erzwingen (Keine Fakturierungs - und Sachposten)</target>
         </trans-unit>
         <trans-unit id="Page 2433932303 - Action 1168962272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Lines</source>
@@ -131,10 +131,6 @@
           <source>Get Return Receipt Lines</source>
           <target>Rücksendungszeilen holen</target>
         </trans-unit>
-        <trans-unit id="Page 2433932303 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Navigate" action.</source>
-          <target>Führt die Aktion "Navigieren" aus.</target>
-        </trans-unit>
         <trans-unit id="Page 2433932303 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Navigate</source>
           <target>Navigieren</target>
@@ -155,217 +151,37 @@
           <source>Get Sales Shipment Lines</source>
           <target>Verkaufslieferzeilen holen</target>
         </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 1208376509 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Cost Posting Type" field.</source>
-          <target>Gibt den Wert des Feldes "Kostenbuchungsart" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 1317910145 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Qty. to Close" field.</source>
-          <target>Gibt den Wert des Feldes "Zu schließende Menge" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Reason Code" field.</source>
-          <target>Gibt den Wert des Feldes "Ursachencode" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 1977110138 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Document Subtype" field.</source>
-          <target>Gibt den Wert des Feldes "Quelldokument-Subtyp" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 222741501 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Max. Qty. to Close" field.</source>
-          <target>Gibt den Wert des Feldes "Max. zu schließende Menge" an.</target>
-        </trans-unit>
         <trans-unit id="Page 2433932303 - Control 222741501 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Max. Qty. to Close</source>
           <target>Max. Menge zu schließen</target>
         </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 2251719201 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Batch Name" field.</source>
-          <target>Gibt den Wert des Feldes "Chargenname" an.</target>
-        </trans-unit>
         <trans-unit id="Page 2433932303 - Control 2251719201 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Batch Name</source>
           <target>Buch.-Blattname</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Unit of Measure Code" field.</source>
-          <target>Gibt den Wert des Feldes "Einheitencode" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 3371451125 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Document Line No." field.</source>
-          <target>Gibt den Wert des Feldes "Herkunftsbelegpositionsnummer" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Gibt den Wert des Feldes "Buchungsdatum" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 3989027157 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Qty. to Close (base)" field.</source>
-          <target>Gibt den Wert des Feldes "Zu schließende Menge (Basis)" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 4255030724 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "CWS No." field.</source>
-          <target>Gibt den Wert des Feldes "CWS-Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 4267346559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Quelldokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Dokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 2433932303 - Control 587895070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Document Type" field.</source>
-          <target>Gibt den Wert des Feldes "Quelldokumenttyp" an.</target>
         </trans-unit>
         <trans-unit id="Page 2433932303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Document Journal (CDW)</source>
           <target>Journal - Belege Schließen (CDW)</target>
         </trans-unit>
         <trans-unit id="Page 3475051458 - Action 127686680 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "ShowDocument" action.</source>
-          <target>Führt die Aktion "ShowDocument" aus.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 1527563463 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "External Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Externes Dokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Unit of Measure Code" field.</source>
-          <target>Gibt den Wert des Feldes "Einheitencode" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Quantity" field.</source>
-          <target>Gibt den Wert des Feldes "Menge" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 3179217921 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Quantity (Base)" field.</source>
-          <target>Gibt den Wert des Feldes "Menge (Basis)" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 3585791758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Invoiced Quantity (Base)" field.</source>
-          <target>Gibt den Wert des Feldes "Fakturierte Menge (Basis)" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Gibt den Wert des Feldes "Buchungsdatum" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "No." field.</source>
-          <target>Gibt den Wert des Feldes "Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 4255030724 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "CWS No." field.</source>
-          <target>Gibt den Wert des Feldes "CWS-Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 4267346559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Source Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Quelldokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description 2" field.</source>
-          <target>Gibt den Wert des Feldes "Beschreibung 2" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Dokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 580412389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document Date" field.</source>
-          <target>Gibt den Wert des Feldes "Belegdatum" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3475051458 - Control 629385458 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Invoiced Quantity" field.</source>
-          <target>Gibt den Wert des Feldes "Fakturierte Menge" an.</target>
+          <source>Executes the "Show Document" action.</source>
+          <target>Führt die Aktion "Dokument anzeigen" aus.</target>
         </trans-unit>
         <trans-unit id="Page 3475051458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document lines</source>
           <target>Dokumentzeilen</target>
         </trans-unit>
-        <trans-unit id="Page 3817120994 - Action 2935758446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Value Entries" action.</source>
-          <target>Führt die Aktion "Werteingaben" aus.</target>
-        </trans-unit>
         <trans-unit id="Page 3817120994 - Action 2935758446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Value Entries</source>
           <target>Wertposten</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "Navigate" action.</source>
-          <target>Führt die Aktion "Navigieren" aus.</target>
         </trans-unit>
         <trans-unit id="Page 3817120994 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Navigate</source>
           <target>Navigieren</target>
         </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 1208376509 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Cost Posting Type" field.</source>
-          <target>Gibt den Wert des Feldes "Kostenbuchungsart" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 1230414700 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Policy" field.</source>
-          <target>Gibt den Wert des Feldes "Buchungsrichtlinie" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 1908046867 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Reason Code" field.</source>
-          <target>Gibt den Wert des Feldes "Ursachencode" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 1977110138 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document Subtype" field.</source>
-          <target>Gibt den Wert des Feldes "Dokumentuntertyp" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 3179217921 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Quantity (Base)" field.</source>
-          <target>Gibt den Wert des Feldes "Menge (Basis)" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 3371451125 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document Line No." field.</source>
-          <target>Gibt den Wert des Feldes "Dokumentzeile Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Date" field.</source>
-          <target>Gibt den Wert des Feldes "Buchungsdatum" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 4267346559 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Dokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 486908828 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document No." field.</source>
-          <target>Gibt den Wert des Feldes "Dokument Nr." an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 587895070 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Document Type" field.</source>
-          <target>Gibt den Wert des Feldes "Dokumenttyp" an.</target>
-        </trans-unit>
-        <trans-unit id="Page 3817120994 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Entry No." field.</source>
-          <target>Gibt den Wert des Feldes "Eintrag Nr." an.</target>
-        </trans-unit>
         <trans-unit id="Page 3817120994 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Document Entries (CDW)</source>
           <target>Posten - Belege Schließen (CDW)</target>
-        </trans-unit>
-        <trans-unit id="Page 562993329 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Name" field.</source>
-          <target>Gibt den Wert für das Feld Name an</target>
-        </trans-unit>
-        <trans-unit id="Page 562993329 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Description" field.</source>
-          <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
         </trans-unit>
         <trans-unit id="Page 562993329 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Close Document Batches (CDW)</source>
@@ -373,11 +189,11 @@
         </trans-unit>
         <trans-unit id="Page 681938613 - Action 4262405252 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Finds the Value Entry records with the wrong cost amount and fix them.</source>
-          <target>Findet die Werteingabedatensätze mit dem falschen Kostenbetrag und korrigiert sie.</target>
+          <target>Findet die Werposten mit dem falschen Kostenbetrag und korrigiert sie.</target>
         </trans-unit>
         <trans-unit id="Page 681938613 - Action 4262405252 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Fix duplicated value entry</source>
-          <target>Doppelte Werteingabe korrigieren</target>
+          <target>Doppelte Wertposten korrigieren</target>
         </trans-unit>
         <trans-unit id="Page 681938613 - Control 1049008599 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Delete Invoiced Sales Documents" field</source>
@@ -403,6 +219,14 @@
           <source>Specifies the value of the "Posting Policy" field</source>
           <target>Gibt den Wert des Feldes "Buchungsrichtlinie" an.</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1941723473 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Gibt den Wert des Felds "Artikelposten-Richtlinie" an.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1941723473 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Gibt den Wert des Feldes "Buchungsrichtlinie" an.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1996458952 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Item Entries Policy" field</source>
           <target>Gibt den Wert des Felds "Artikelposten-Richtlinie" an.</target>
@@ -411,16 +235,12 @@
           <source>Specifies the value of the "Posting Policy" field</source>
           <target>Gibt den Wert des Feldes "Buchungsrichtlinie" an.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 2334276998 - Control 1430697993 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Cost Posting Type" field.</source>
-          <target>Gibt den Wert des Feldes "Kostenbuchungsart" an.</target>
+        <trans-unit id="PageExtension 241677295 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Gibt den Wert des Felds "Artikelposten-Richtlinie" an.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 2334276998 - Control 2385819306 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Item Entries Policy" field.</source>
-          <target>Gibt den Wert des Feldes "Item Entries Policy" an.</target>
-        </trans-unit>
-        <trans-unit id="PageExtension 2334276998 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Posting Policy" field.</source>
+        <trans-unit id="PageExtension 241677295 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
           <target>Gibt den Wert des Feldes "Buchungsrichtlinie" an.</target>
         </trans-unit>
         <trans-unit id="PageExtension 3096747988 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
@@ -463,10 +283,6 @@
           <source>Specifies the value of the "Posting Policy" field</source>
           <target>Gibt den Wert des Feldes "Buchungsrichtlinie" an.</target>
         </trans-unit>
-        <trans-unit id="PageExtension 77173926 - Action 4169247415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "CDW Entries" action.</source>
-          <target>Führt die Aktion "CDW-Einträge" aus.</target>
-        </trans-unit>
         <trans-unit id="PageExtension 77173926 - Action 4169247415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CDW Entries</source>
           <target>CDW-Posten</target>
@@ -485,7 +301,11 @@
         </trans-unit>
         <trans-unit id="Report 2160215848 - NamedType 2848374150" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 CDW entry records fixed</source>
-          <target>%1 CDW-Eintragssätze korrigiert</target>
+          <target>%1 CDW-Datensätze korrigiert</target>
+        </trans-unit>
+        <trans-unit id="Report 2160215848 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fix duplicated value entry</source>
+          <target>Doppelte Wertposten korrigieren</target>
         </trans-unit>
         <trans-unit id="Table 2512296621 - Field 3009101675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order No.</source>
@@ -506,10 +326,6 @@
         <trans-unit id="Table 2512296621 - Field 685195948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document No.</source>
           <target>Belegnr.</target>
-        </trans-unit>
-        <trans-unit id="Table 2512296621 - Field 970416965 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>PK</source>
-          <target>PK</target>
         </trans-unit>
         <trans-unit id="Table 2512296621 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipment Line Buffer</source>
@@ -623,10 +439,6 @@
           <source>Unit of Measure Code</source>
           <target>Einheitencode</target>
         </trans-unit>
-        <trans-unit id="Table 509980317 - Field 2607338362 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sign Factor</source>
-          <target>Zeichen-Faktor</target>
-        </trans-unit>
         <trans-unit id="Table 509980317 - Field 2704330142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
           <target>Name</target>
@@ -698,10 +510,6 @@
         <trans-unit id="Table 509980317 - Field 806193894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty. per Unit of Measure</source>
           <target>Menge pro Einheit</target>
-        </trans-unit>
-        <trans-unit id="Table 509980317 - Field 960685460 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Handler</source>
-          <target>Handler</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Method 300553685 - NamedType 1885353175" translate="yes" size-unit="char" xml:space="preserve">
           <source>You can not close more than %1 for document %2.</source>
@@ -818,6 +626,22 @@
         <trans-unit id="TableExtension 2253855090 - Method 1509282545 - NamedType 1629945900" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not allowed with No. Series %2, because it has been already used in %3.</source>
           <target>%1 ist mit Nein nicht zulässig. Serie %2, da sie bereits in %3 verwendet wurde.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3016326080 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Artikelposten-Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3016326080 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Policy</source>
+          <target>Buchungsrichtlinie</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3654022697 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Artikelposten-Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3654022697 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Policy</source>
+          <target>Buchungsrichtlinie</target>
         </trans-unit>
         <trans-unit id="TableExtension 3721503645 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Entries Policy</source>
