@@ -84,12 +84,12 @@
           <target>Expected Cost</target>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 1309474442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No Ledger Entries</source>
-          <target>No Ledger Entries</target>
+          <source>Statistic Document (No Ledger Entries)</source>
+          <target>Statistic Document (No Ledger Entries)</target>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 746298496 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No Invoicing and Ledger Entries</source>
-          <target>No Invoicing and Ledger Entries</target>
+          <source>No invoicing/Force as invoiced (No Invoicing and Ledger Entries)</source>
+          <target>No invoicing/Force as invoiced (No Invoicing and Ledger Entries)</target>
         </trans-unit>
         <trans-unit id="Page 2433932303 - Action 1168962272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Lines</source>
@@ -228,8 +228,8 @@
           <target>Close Document Journal (CDW)</target>
         </trans-unit>
         <trans-unit id="Page 3475051458 - Action 127686680 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Executes the "ShowDocument" action.</source>
-          <target>Executes the "ShowDocument" action.</target>
+          <source>Executes the "Show Document" action.</source>
+          <target>Executes the "Show Document" action.</target>
         </trans-unit>
         <trans-unit id="Page 3475051458 - Control 1527563463 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "External Document No." field.</source>
@@ -403,6 +403,14 @@
           <source>Specifies the value of the "Posting Policy" field</source>
           <target>Specifies the value of the "Posting Policy" field</target>
         </trans-unit>
+        <trans-unit id="PageExtension 1941723473 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Specifies the value of the "Item Entries Policy" field</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 1941723473 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Specifies the value of the "Posting Policy" field</target>
+        </trans-unit>
         <trans-unit id="PageExtension 1996458952 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Item Entries Policy" field</source>
           <target>Specifies the value of the "Item Entries Policy" field</target>
@@ -422,6 +430,14 @@
         <trans-unit id="PageExtension 2334276998 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Posting Policy" field.</source>
           <target>Specifies the value of the "Posting Policy" field.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 241677295 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Item Entries Policy" field</source>
+          <target>Specifies the value of the "Item Entries Policy" field</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 241677295 - Control 282191864 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Posting Policy" field</source>
+          <target>Specifies the value of the "Posting Policy" field</target>
         </trans-unit>
         <trans-unit id="PageExtension 3096747988 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Item Entries Policy" field</source>
@@ -487,6 +503,10 @@
           <source>%1 CDW entry records fixed</source>
           <target>%1 CDW entry records fixed</target>
         </trans-unit>
+        <trans-unit id="Report 2160215848 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Fix duplicated value entry</source>
+          <target>Fix duplicated value entry</target>
+        </trans-unit>
         <trans-unit id="Table 2512296621 - Field 3009101675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order No.</source>
           <target>Order No.</target>
@@ -506,10 +526,6 @@
         <trans-unit id="Table 2512296621 - Field 685195948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document No.</source>
           <target>Document No.</target>
-        </trans-unit>
-        <trans-unit id="Table 2512296621 - Field 970416965 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>PK</source>
-          <target>PK</target>
         </trans-unit>
         <trans-unit id="Table 2512296621 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shipment Line Buffer</source>
@@ -623,10 +639,6 @@
           <source>Unit of Measure Code</source>
           <target>Unit of Measure Code</target>
         </trans-unit>
-        <trans-unit id="Table 509980317 - Field 2607338362 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sign Factor</source>
-          <target>Sign Factor</target>
-        </trans-unit>
         <trans-unit id="Table 509980317 - Field 2704330142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
           <target>Name</target>
@@ -698,10 +710,6 @@
         <trans-unit id="Table 509980317 - Field 806193894 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty. per Unit of Measure</source>
           <target>Qty. per Unit of Measure</target>
-        </trans-unit>
-        <trans-unit id="Table 509980317 - Field 960685460 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Handler</source>
-          <target>Handler</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Method 300553685 - NamedType 1885353175" translate="yes" size-unit="char" xml:space="preserve">
           <source>You can not close more than %1 for document %2.</source>
@@ -818,6 +826,22 @@
         <trans-unit id="TableExtension 2253855090 - Method 1509282545 - NamedType 1629945900" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 is not allowed with No. Series %2, because it has been already used in %3.</source>
           <target>%1 is not allowed with No. Series %2, because it has been already used in %3.</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3016326080 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Item Entries Policy</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3016326080 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Policy</source>
+          <target>Posting Policy</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3654022697 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Entries Policy</source>
+          <target>Item Entries Policy</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 3654022697 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Posting Policy</source>
+          <target>Posting Policy</target>
         </trans-unit>
         <trans-unit id="TableExtension 3721503645 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Entries Policy</source>
