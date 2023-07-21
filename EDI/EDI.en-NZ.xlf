@@ -103,6 +103,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Docum. Check Buffer - Field FILE - Creation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 621206662 - Field 3469125828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FILE - File Path Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Docum. Check Buffer - Field FILE - File Path - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 621206662 - Field 986970827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>FILE - No. Exported</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -142,6 +147,11 @@
           <source>Creation By</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI File - Field Creation By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 965275328 - Field 689635933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI File - Field File Path - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 965275328 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Line No.</source>
@@ -568,6 +578,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Setup - Field File Name Mask - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 2993446362 - Field 1170236474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File System Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Setup - Field File System Path - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 2993446362 - Field 2236549798 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>File Name Format</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -587,6 +602,11 @@
           <source>No. Series</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Setup - Field No. Series - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2993446362 - Field 754948606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Config code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Message Setup - Field Service Config Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2993446362 - Field 1989655163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show RequestPage</source>
@@ -687,6 +707,11 @@
           <source>Version No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS074 EDI Values - Field Version No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3684607029 - Method 3768384065 - NamedType 3359697259" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No lines found for EDI message %1 %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS074 EDI Folder Support - Method OnBeforeExportFile_CreateFile - NamedType NoLinesErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2723552227 - NamedType 2293779180" size-unit="char" translate="yes" xml:space="preserve">
           <source>No lines found for EDI message %1 %2.</source>
@@ -913,6 +938,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Check EDI Document - Control FILE - Creation - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 534155453 - Control 3469125828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies file path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Check EDI Document - Control FILE - File Path - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 534155453 - Control 3469125828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FILE - File Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 Check EDI Document - Control FILE - File Path - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 534155453 - Control 986970827 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies exprted file no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -953,6 +988,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI File List - Control Creation By - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3141704114 - Control 689635933 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Path" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI File List - Control File Path - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3141704114 - Control 1893586424 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies message no.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -967,6 +1007,41 @@
           <source>Specifies type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI File List - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141704114 - Action 3802384254 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open EDI file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI File List - Action EOS074.02 Open - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3141704114 - Action 3802384254 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI File List - Action EOS074.02 Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1918580542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Files Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1918580542 - Control 2206733951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Files Factbox - Control Path - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1918580542 - Control 2206733951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Files Factbox - Control Path - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1918580542 - Action 4259830144 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open EDI file</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Files Factbox - Action Open - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1918580542 - Action 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Files Factbox - Action Open - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3495809002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDI Groups</source>
@@ -1428,6 +1503,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Setup - Control File Name Mask - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2993446362 - Control 1170236474 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "File System Path" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Setup - Control File System Path - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2993446362 - Control 3189665167 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies line delimiter setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1442,6 +1522,11 @@
           <source>Specifies no. series setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Setup - Control No. Series - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2993446362 - Control 754948606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Service Config code" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS074 EDI Message Setup - Control Service Config Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2993446362 - Control 1989655163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies show requestpage setup</source>
