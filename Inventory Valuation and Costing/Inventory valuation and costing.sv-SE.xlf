@@ -95,6 +95,10 @@
           <source>%1 type invalid in this function</source>
           <target>%1 typ ogiltig i den här funktionen</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3362265698 - Method 145985684 - NamedType 2136568042" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total standard subcontracting costs</source>
+          <target>Totala standardkostnader för underleverantörer</target>
+        </trans-unit>
         <trans-unit id="Codeunit 409564612 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>No. #2################## @3@@@@@@@@@@@@@</source>
           <target>Nr. #2###################### @3 @@@@@@@@@@@@@</target>
@@ -162,6 +166,38 @@
         <trans-unit id="Enum 2215512778 - EnumValue 3982294784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Actual Entries</source>
           <target>Faktiska transaktioner</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 3276313895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item</source>
+          <target>Artikel</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 3433205814 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work Center</source>
+          <target>Produktionsgrupp</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 3445929007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Subcontracting cost</source>
+          <target>Kostnader för legotillverkning</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 348912950 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource</source>
+          <target>Resurs</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 3491850788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Material cost</source>
+          <target>Material kostnad</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 423926106 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Machine Center</source>
+          <target>Maskingrupp</target>
+        </trans-unit>
+        <trans-unit id="Enum 3305052889 - EnumValue 744343241 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Capacity cost</source>
+          <target>Kapacitetskostnad</target>
         </trans-unit>
         <trans-unit id="Enum 4031655884 - EnumValue 2704613478 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Italian Civil Low Method</source>
@@ -322,6 +358,14 @@
         <trans-unit id="Page 1045935795 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Upprullade kostnadsaktier</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View item cost shares</source>
+          <target>Visa artikelkostnadsandelar</target>
+        </trans-unit>
+        <trans-unit id="Page 1045935795 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Cost Shares</source>
+          <target>Postkostnadsandelar</target>
         </trans-unit>
         <trans-unit id="Page 1045935795 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -950,6 +994,66 @@
         <trans-unit id="Page 1226601917 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center History List</source>
           <target>Historiklista för resurs</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Action 3446176498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate data based on selected options.</source>
+          <target>Beräkna om data baserat på valda alternativ.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Action 3446176498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Load data</source>
+          <target>Ladda data</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
+          <target>Anger artikelns position i strukturens sammansättning. Artiklar på lägre nivå visas med indrag under överordnade.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 2052971837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how many units of the component are required to assemble or produce one unit of the top item.</source>
+          <target>Anger hur många enheter av komponenten som behövs för att sammanställa eller producera en enhet av toppartikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 2052971837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Qty. per Top Item</source>
+          <target>Antal per artiklar i topp</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <target>Anger hur varje enhet av artikeln eller resursen mäts, till exempel i stycken eller timmar. Som standard infogas värdet i fältet Basenhet på artikel- eller resurskortet.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window.</source>
+          <target>Anger variantkoden som du angav i fältet Variantfilter i fönstret Artikeldisposition per strukturnivå.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's description.</source>
+          <target>Anger artikelns beskrivning.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 3500504311 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's replenishment system.</source>
+          <target>Anger artikelns återanskaffningssystem.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 381961415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost of one unit of the item</source>
+          <target>Anger kostnaden för en enhet av artikeln</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 3996842083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of all cost at this BOM level.</source>
+          <target>Anger summan av alla kostnader på den här strukturnivån.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>Anger numret på den inblandade posten eller posten enligt den angivna nummerserien.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Control 739346273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Linjer</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>None of the items in the filter have a BOM.</source>
+          <target>Ingen av artiklarna i filtret har en struktur.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348929754 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Costs</source>
+          <target>Artikelkostnader</target>
         </trans-unit>
         <trans-unit id="Page 1357498460 - Control 1154582004 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the actual consumption quantity.</source>
@@ -3227,6 +3331,262 @@
           <source>Prod. Order Line WIP Card</source>
           <target>Art. Pia-kort för beställningsrad</target>
         </trans-unit>
+        <trans-unit id="Page 37749907 - Action 3394901700 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show history card for the item of selected line</source>
+          <target>Visa historikkort för objektet på den valda raden</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 3394901700 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Cost History Card</source>
+          <target>Artikelkostnadshistorikkort</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 3446176498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate data based on selected options.</source>
+          <target>Beräkna om data baserat på valda alternativ.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 3446176498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Load data</source>
+          <target>Ladda data</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 3577097913 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Compare with a different period/cost</source>
+          <target>Jämför med en annan period/kostnad</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 3577097913 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Compare</source>
+          <target>Jämföra</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 4125097576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show card for the No. of selected line</source>
+          <target>Visa kort för antalet vald rad</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Action 4125097576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Card</source>
+          <target>Artikelkort</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1245516462 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit of measure of the BOM item. </source>
+          <target>Anger måttenheten för stycklistan.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1350915204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show cost distribution</source>
+          <target>Visa kostnadsfördelning</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1408207923 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the total material cost of all components on the parent item's BOM.</source>
+          <target>Anger den totala materialkostnaden för alla komponenter i den överordnade artikelns strukturlista.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1553686271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item to explode in the Item Cost Card window.</source>
+          <target>Anger artikeln som ska explodera i fönstret Artikelkostnadskort.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1553686271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1628624548 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
+          <target>Anger kostnaden på en nivå för att lägga ut verksamheten på entreprenad till en underleverantör.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1852021844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's processed qty.</source>
+          <target>Anger artikelns bearbetade antal.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1852021844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>D: Processed Qty.</source>
+          <target>D: Bearbetat antal.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's position in the BOM structure. Lower-level items are indented under their parents.</source>
+          <target>Anger artikelns position i strukturens sammansättning. Artiklar på lägre nivå visas med indrag under överordnade.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 1953313348 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the rolled-up manufacturing overhead cost of the item.</source>
+          <target>Anger den sammanlagda tillverkningskostnaden för artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2013433829 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how many units of the component are required to assemble or produce one unit of the item on the BOM line.</source>
+          <target>Anger hur många enheter av komponenten som krävs för att montera eller producera en enhet av artikeln på stycklistan.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2052971837 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how many units of the component are required to assemble or produce one unit of the top item.</source>
+          <target>Anger hur många enheter av komponenten som behövs för att sammanställa eller producera en enhet av toppartikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2052971837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>E: Qty. per Top Item</source>
+          <target>E: Antal per artiklar i topp</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2082968347 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost of material at this BOM level that will eventually be scrapped in order to produce the parent item.</source>
+          <target>Anger kostnaden för material på denna stycklistnivå som så småningom kommer att skrotas för att producera den överordnade artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2115629424 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's overhead rate.</source>
+          <target>Anger artikelns omkostnader.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2287818464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the production BOM that the item represents.</source>
+          <target>Anger numret på den produktionsstruktur som artikeln representerar.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <target>Anger hur varje enhet av artikeln eller resursen mäts, till exempel i stycken eller timmar. Som standard infogas värdet i fältet Basenhet på artikel- eller resurskortet.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2567283642 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the rolled-up additional cost of the item.</source>
+          <target>Anger den sammanlagda merkostnaden för artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2605679551 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the single-level manufacturing overhead cost.</source>
+          <target>Anger omkostnader för tillverkning på en nivå.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2611207985 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how the cost of the resource on the assembly BOM is allocated during assembly.</source>
+          <target>Anger hur kostnaden för resursen på sammansättnings-BOM allokeras under sammansättningen.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2655551271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's purchased qty.</source>
+          <target>Anger antalet köpta varor.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2655551271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>B: Purchased Qty.</source>
+          <target>B: Inköpt antal</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2805819452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's purchase cost.</source>
+          <target>Anger varans inköpskostnad.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2805819452 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>A: Purchased Cost</source>
+          <target>A: Inköpt kostnad</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2847550804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show cost type</source>
+          <target>Visa kostnadstyp</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 2919920005 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the single-level capacity overhead cost.</source>
+          <target>Anger kapacitetsoverheadkostnaden på en nivå.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3024818368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost of all component material that will eventually be scrapped to produce the parent item.</source>
+          <target>Anger kostnaden för allt komponentmaterial som så småningom kommer att skrotas för att producera den överordnade artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3105812678 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how many units of the item are scrapped to output the top item quantity.</source>
+          <target>Anger hur många enheter av artikeln som ska skrotas för att mata ut den översta artikelkvantiteten.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3123169861 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the item's production order routing.</source>
+          <target>Anger numret på artikelns produktionsorderdirigering.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3209146096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the material cost of all items at all levels of the parent item's BOM, added to the material cost of the item itself.</source>
+          <target>Anger materialkostnaden för alla artiklar på alla nivåer av den överordnade artikelns stycklista, läggs till materialkostnaden för själva artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3221928107 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how many units of the component are required to assemble or produce one unit of the parent.</source>
+          <target>Anger hur många enheter av komponenten som krävs för att montera eller producera en enhet av föräldern.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3299657368 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the percentage of the item's last purchase cost that includes indirect costs, such as freight that is associated with the purchase of the item.</source>
+          <target>Anger procentandelen av artikelns senaste inköpskostnad som innehåller indirekta kostnader, till exempel frakt som är kopplad till inköpet av artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3386962071 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the costing period to analyse</source>
+          <target>Anger kostnadsperioden som ska analyseras</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3386962071 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period code</source>
+          <target>Periodkod</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3433119822 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's lot size. The value is copied from the Lot Size field on the item card.</source>
+          <target>Anger objektets partistorlek. Värdet kopieras från fältet Partistorlek på artikelkortet.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the variant code that you entered in the Variant Filter field in the Item Availability by BOM Level window.</source>
+          <target>Anger variantkoden som du angav i fältet Variantfilter i fönstret Artikeldisposition per strukturnivå.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3454684932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how many units of the item are scrapped to output the parent item quantity.</source>
+          <target>Anger hur många enheter av artikeln som ska skrotas för att mata ut den överordnade artikelkvantiteten.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3461750827 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show details</source>
+          <target>Visa detaljer</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's description.</source>
+          <target>Anger artikelns beskrivning.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3500504311 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's replenishment system.</source>
+          <target>Anger artikelns återanskaffningssystem.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3512234762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the percentage of the item that you expect to be scrapped in the production process.</source>
+          <target>Anger procentandelen av artikeln som du förväntar dig ska kasseras i produktionsprocessen.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 353239997 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the single-level additional cost of the item.</source>
+          <target>Anger extrakostnaden på en nivå för artikeln.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 381961415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the cost of one unit of the item</source>
+          <target>Anger kostnaden för en enhet av artikeln</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3953897364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's purchase cost.</source>
+          <target>Anger varans inköpskostnad.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3953897364 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>C: Production cost</source>
+          <target>C: Produktionskostnad</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3975523020 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item's overhead capacity cost rolled up from underlying item levels.</source>
+          <target>Anger artikelns overheadkapacitetskostnad hoprullad från underliggande artikelnivåer.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 3996842083 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sum of all cost at this BOM level.</source>
+          <target>Anger summan av alla kostnader på den här strukturnivån.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>Anger numret på den inblandade posten eller posten enligt den angivna nummerserien.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 4235170772 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the single-level cost of outsourcing operations to a subcontractor.</source>
+          <target>Anger kostnaden på en nivå för att lägga ut verksamheten på entreprenad till en underleverantör.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 6957098 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the capacity costs related to the item's parent item only.</source>
+          <target>Anger endast de kapacitetskostnader som är relaterade till artikelns överordnade artikel.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 739346273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Linjer</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 828292189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Alternativ</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Control 856716861 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the capacity costs related to the item's parent item and other items in the parent item's BOM.</source>
+          <target>Anger kapacitetskostnaderna relaterade till artikelns överordnade artikel och andra artiklar i den överordnade artikelns stycklista.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - NamedType 225820054" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item History standard cost is different from calculated standard cost</source>
+          <target>Artikelhistorik standardkostnad skiljer sig från beräknad standardkostnad</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - NamedType 4204058380" translate="yes" size-unit="char" xml:space="preserve">
+          <source>None of the items in the filter have a BOM.</source>
+          <target>Ingen av artiklarna i filtret har en struktur.</target>
+        </trans-unit>
+        <trans-unit id="Page 37749907 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Cost Shares</source>
+          <target>Postkostnadsandelar</target>
+        </trans-unit>
         <trans-unit id="Page 3780393502 - Control 1076702913 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which method to use for BOM and Routing Status</source>
           <target>Anger vilken metod som ska användas för strukturliste- och routningsstatus</target>
@@ -3674,6 +4034,14 @@
         <trans-unit id="Page 4157661377 - Action 4259720451 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rolled-up Cost Shares</source>
           <target>Upprullade kostnadsaktier</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>View item cost shares</source>
+          <target>Visa artikelkostnadsandelar</target>
+        </trans-unit>
+        <trans-unit id="Page 4157661377 - Action 587303844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Cost Shares</source>
+          <target>Postkostnadsandelar</target>
         </trans-unit>
         <trans-unit id="Page 4157661377 - Action 737847898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Cost</source>
@@ -4270,6 +4638,102 @@
         <trans-unit id="Page 848244484 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Specific Cost List</source>
           <target>Artikelspecifik kostnadslista</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Action 3446176498 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Recalculate data based on selected options.</source>
+          <target>Beräkna om data baserat på valda alternativ.</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Action 3446176498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Load data</source>
+          <target>Ladda data</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 1553686271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 1625126989 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show details</source>
+          <target>Visa detaljer</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 1625126989 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost nature,Production BOM/Routing</source>
+          <target>Kostnadsnatur,Produktionsstycklista/Routing</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 1685910798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show cost distribution</source>
+          <target>Visa kostnadsfördelning</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 1685910798 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up,Single Level</source>
+          <target>Upprullad,Enkel nivå</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 2311472643 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show cost type</source>
+          <target>Visa kostnadstyp</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 2311472643 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average,Standard</source>
+          <target>Genomsnittlig,standard</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 3577097913 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Compare</source>
+          <target>Jämföra</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 4067788243 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show cost distribution</source>
+          <target>Visa kostnadsfördelning</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 4067788243 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up,Single Level</source>
+          <target>Upprullad,Enkel nivå</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 4148510544 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the costing period to analyse</source>
+          <target>Anger kostnadsperioden som ska analyseras</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 4148510544 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period Code</source>
+          <target>Periodkod</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 4224562494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show cost type</source>
+          <target>Visa kostnadstyp</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 4224562494 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Average,Standard</source>
+          <target>Genomsnittlig,standard</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 491239865 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the costing period to analyse</source>
+          <target>Anger kostnadsperioden som ska analyseras</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 491239865 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period Code</source>
+          <target>Periodkod</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 828292189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Alternativ</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 987430372 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show details</source>
+          <target>Visa detaljer</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Control 987430372 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cost nature,Production BOM/Routing</source>
+          <target>Kostnadsnatur,Produktionsstycklista/Routing</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - NamedType 3749787547" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the costing period code to compare</source>
+          <target>Anger vilken kostnadsperiodkod som ska jämföras</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - NamedType 559118403" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the item no. to compare</source>
+          <target>Anger artikelnr. att jämföra</target>
+        </trans-unit>
+        <trans-unit id="Page 870260980 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Cost Compare</source>
+          <target>Jämför artikelkostnad</target>
         </trans-unit>
         <trans-unit id="Page 998456120 - Control 1818270507 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies which item's cost flow is used to calculate item's value.</source>
@@ -7814,6 +8278,214 @@
         <trans-unit id="Table 3070548092 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Order Line WIP</source>
           <target>Art. Pia för orderrad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1191506180 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit Cost Source</source>
+          <target>Enhetskostnadskälla</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1191506180 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source> ,Standard,Average,Weighted Average,Fixed,Budget,Formula C/E,Formula [(A*B+C*D)/(B+D)/E]</source>
+          <target> ,Standard,Genomsnitt,Vägt medelvärde,Fast,Budget,Formel C/E,Formel [(A*B+C*D)/(B+D)/E]</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1245516462 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>BOM Unit of Measure Code</source>
+          <target>Enhetskod för struktur</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1408207923 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level Material Cost</source>
+          <target>Materialkostnad på en nivå</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1628624548 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level Subcontrd. Cost</source>
+          <target>En nivå underleverantör. Kostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1852021844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed Qty</source>
+          <target>Bearbetat antal</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Typ</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 1953313348 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Capacity Ovhd. Cost</source>
+          <target>Uppsum. kap.overh.kostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2013433829 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Qty. per BOM Line</source>
+          <target>Antal per strukturrad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2052971837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Qty. per Top Item</source>
+          <target>Antal per artiklar i topp</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2082968347 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level Scrap Cost</source>
+          <target>En-nivå kassationskostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2115629424 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Overhead Rate</source>
+          <target>Omkostnader</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2161572060 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Location Code</source>
+          <target>Platskod</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2200046723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indentation</source>
+          <target>Indrag</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2287818464 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production BOM No.</source>
+          <target>Produktionsstrukturnr</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Kod för måttenhet</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2556434784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rounding Precision</source>
+          <target>Avrundning</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2567283642 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-Up additional Cost</source>
+          <target>Samlad extra kostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2598133084 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Period Code</source>
+          <target>Periodkod</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2605679551 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level Mfg. Ovhd Cost</source>
+          <target>En-nivå mat.overheadkost.</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2611207985 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource Usage Type</source>
+          <target>Resursförbrukningstyp</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2611207985 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Direct,Fixed</source>
+          <target>Direkt,Fast</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2655551271 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchased Qty</source>
+          <target>Inköpt antal</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2659380520 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Is Leaf</source>
+          <target>Är löv</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 2919920005 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level Cap. Ovhd Cost</source>
+          <target>Ennivålock. Ovhd Kostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3024818368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Scrap Cost</source>
+          <target>Uppsum.kassationskost.</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3031031638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Low-Level Code</source>
+          <target>Lågnivåkod</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3105812678 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scrap Qty. per Parent</source>
+          <target>Kassationsantal per överordnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3123169861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Routing No.</source>
+          <target>Operationsföljdsnr</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3209146096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Material Cost</source>
+          <target>Uppvald material kostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3221928107 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Qty. per Parent</source>
+          <target>Antal per överordnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3299657368 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indirect Cost %</source>
+          <target>Indirekt kostnad %</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3433119822 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lot Size</source>
+          <target>Partiets storlek</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Variantkod</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3454684932 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scrap Qty. per Top Item</source>
+          <target>Kassationsantal per toppartikel</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Beskrivning</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3500504311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Replenishment System</source>
+          <target>Påfyllningssystem</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3512234762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Scrap %</source>
+          <target>Skrot %</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 353239997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level additional Cost</source>
+          <target>Tilläggskostnad på en nivå</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3781582636 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Inventoriable</source>
+          <target>I lagervärdet</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3802096367 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Safety Lead Time</source>
+          <target>Säkerhetsledtid</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 381961415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit Cost</source>
+          <target>Enhetskostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3964271423 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Lead-Time Offset</source>
+          <target>Uppsummerad ledtidsförskjutning</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3975523020 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Mfg. Ovhd Cost</source>
+          <target>Upprullad Mfg. Ovhd Kostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3977833617 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Purchase Amount</source>
+          <target>Inköpsbelopp</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 3996842083 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Cost</source>
+          <target>Totalkostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nej.</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 4235170772 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Subcontracted Cost</source>
+          <target>Upprullad underleverantörskostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 6957098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single-Level Capacity Cost</source>
+          <target>Kostnad för kapacitet på en nivå</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 856716861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rolled-up Capacity Cost</source>
+          <target>Uppvald kapacitetskostnad</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>Löpnr</target>
+        </trans-unit>
+        <trans-unit id="Table 3101680879 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item History Cost Buffer</source>
+          <target>Historik kostnadsbuffert</target>
         </trans-unit>
         <trans-unit id="Table 3433563251 - Field 107958094 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Capacity Ovhd. Cost</source>
