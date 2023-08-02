@@ -452,7 +452,7 @@
           <target>Indirecte kosten</target>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 1257081728" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sales doc.</source>
+          <source>Sales</source>
           <target>Verkoop document</target>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 1753513791" translate="yes" size-unit="char" xml:space="preserve">
@@ -466,10 +466,6 @@
         <trans-unit id="Codeunit 444311949 - NamedType 2165353731" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prof. Income     #4##############</source>
           <target>Winstgevendheid Resultatenrekening #4################</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 444311949 - NamedType 2283928019" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indirect Cost - more split driver</source>
-          <target>Indirecte kosten met gesplitste bestuurder</target>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 2287756966" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting date     #3##############\</source>
@@ -496,12 +492,12 @@
           <target>Directe kosten</target>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3779895200" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Calculation Step #1##############\</source>
+          <source>Step             #1##############\</source>
           <target>Berekeningsstap #1################\</target>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3797269194" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Entry No.        #3##############\</source>
-          <target>Invoer nr. #3################\</target>
+          <source>Entry No.        #3##############</source>
+          <target>Invoer nr. #3################</target>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 4273407817" translate="yes" size-unit="char" xml:space="preserve">
           <source>C/A Account No.  #3##############\</source>
@@ -510,10 +506,6 @@
         <trans-unit id="Codeunit 444311949 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prof. Income     #2##############\</source>
           <target>Winstgevendheid Resultatenrekening #2################\</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 444311949 - NamedType 799064184" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Sales doc. without item entries</source>
-          <target>Verkoopdocument zonder artikelposten</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>All line types, including headings, begin-total and end-total, are transferred.\</source>
@@ -1370,6 +1362,9 @@
         <trans-unit id="Page 1453782444 - Control 1149824122 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of analysys</source>
           <target>Hiermee geeft u de analysecode op</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Control 1206868322 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Total Net Weight field.</source>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 1419731019 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the document number on the entry. The document is the voucher that the entry was based on, for example, a receipt.</source>
@@ -7936,7 +7931,7 @@
           <target>Aangepaste codeunit</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Column</source>
+          <source>Driver Profitability Income Statement</source>
           <target>Stuurprogrammakolom</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8108,7 +8103,7 @@
           <target>Eindtotaal %1 mist een overeenkomend begintotaal.</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - NamedType 3457502012" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Indenting Columns #1##########</source>
+          <source>Indenting Profitability Income Statement #1##########</source>
           <target>Kolommen inspringen #1##########</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9496,7 +9491,7 @@
           <target>Budgetfilter</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1617365723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Column</source>
+          <source>Driver Profitability Income Statement</source>
           <target>Stuurprogrammakolom</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 1621242373 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9556,7 +9551,7 @@
           <target>Lege regel</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2362729240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>C/IN Column</source>
+          <source>Profitability Income Statement</source>
           <target>C/IN-kolom</target>
         </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2515378034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9792,7 +9787,7 @@
           <target>Analysecode</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1206868322 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Weight</source>
+          <source>Total Net Weight</source>
           <target>Nettogewicht</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1419731019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9892,7 +9887,7 @@
           <target>Shortcutdimensiecode 5</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 4059098133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Line Amount</source>
+          <source>Amount (LCY)</source>
           <target>Regelbedrag</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 4126842061 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
