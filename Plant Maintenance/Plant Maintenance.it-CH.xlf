@@ -39,6 +39,10 @@
           <source>The journal lines have been posted.</source>
           <target>Le righe del giornale sono state registrate.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2774749088 - Method 182539846 - NamedType 2607509861" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are cycle lines that need to be manually scheduled since there is no capacity for the specified planned date and time.</source>
+          <target>Sono presenti righe ciclo che devono essere pianificate manualmente poiché non c'è capacità per la data e ora inizio pianificata specificata.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3626261191 - NamedType 1370456556" translate="yes" size-unit="char" xml:space="preserve">
           <source>The sum of setup, move and wait time exceeds the available time in the period.</source>
           <target>La somma di setup</target>
@@ -1470,6 +1474,10 @@
         <trans-unit id="Page 1852736102 - Control 2716546567 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the series number of the maintenance point.</source>
           <target>Specifica il numero di serie del punto di manutenzione.</target>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 2727244544 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies whether to allocate work request cycles to resources when refreshing the work request.</source>
+          <target>Specifica se allocare i cicli delle richieste di lavoro alle risorse durante l'aggiornamento della richiesta di lavoro.</target>
         </trans-unit>
         <trans-unit id="Page 1852736102 - Control 2732017096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies whether to change the status of the work request when the maintenance cycle is completed.</source>
@@ -5434,6 +5442,10 @@
         <trans-unit id="Table 1852736102 - Field 2716546567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Maintenance Point No. Series</source>
           <target>Nr. serie punto manutenzione</target>
+        </trans-unit>
+        <trans-unit id="Table 1852736102 - Field 2727244544 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Allocate Cycle To Resource</source>
+          <target>Alloca ciclo a risorsa</target>
         </trans-unit>
         <trans-unit id="Table 1852736102 - Field 2732017096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Change Work Request Status On Cycle Completed</source>
