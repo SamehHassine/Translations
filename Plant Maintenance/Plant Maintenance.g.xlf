@@ -998,6 +998,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Plant Maintenance Setup - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1852736102 - Field 2727244544 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allocate Cycle To Resource</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Plant Maintenance Setup - Field Allocate Cycle To Resource - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1852736102 - Field 3874861212 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Attachment Provider</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2707,6 +2712,11 @@
           <source>Starting time must be before ending time.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Calc. Work Req. Cycle - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2774749088 - Method 182539846 - NamedType 2607509861" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are cycle lines that need to be manually scheduled since there is no capacity for the specified planned date and time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Calc. Work Request - Method WorkRequestHasRecalculateCycles - NamedType RecalculateTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3719533026 - NamedType 70404680" size-unit="char" translate="yes" xml:space="preserve">
           <source>The journal lines have been posted.</source>
@@ -4877,6 +4887,11 @@
           <source>Posting</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Posting - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1852736102 - Control 2727244544 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to allocate work request cycles to resources when refreshing the work request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Plant Maintenance Setup - Control Allocate Cycle To Resource - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1852736102 - Control 2732017096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies whether to change the status of the work request when the maintenance cycle is completed.</source>
@@ -8552,11 +8567,6 @@
           <source>Create Work Request (Interactive)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS060 Work Req. Cycle Res. - EnumValue Create Work Request (Interactive) - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 1327246214 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS060 Work Req. Cycle Status - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 1327246214 - EnumValue 816905803 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Started</source>
