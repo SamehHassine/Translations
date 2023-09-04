@@ -259,6 +259,18 @@
           <source>Operation Completed</source>
           <target>Operazione completata</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 952758506 - NamedType 1713639944" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Confirm undo of selected entry?</source>
+          <target>Confermi lo storno del movimento selezionato?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 952758506 - NamedType 4174210593" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Output lines to be posted for Employee Entry No. %1</source>
+          <target>Esistono righe da registrare per il movimento dipendente nr. %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1423286042 - Method 952758506 - NamedType 770950667" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No posted entries found for Employee Entry No. %1.\Do you want to continue?</source>
+          <target>Nessun movimento registrato trovato per il movimento dipendente %1.\Continuare?</target>
+        </trans-unit>
         <trans-unit id="Codeunit 1423286042 - Method 995385846 - NamedType 1858590414" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Order %1 is blocked</source>
           <target>L'ordine di produzione %1 è bloccato</target>
@@ -326,6 +338,10 @@
         <trans-unit id="Codeunit 2503755138 - Method 964694333 - NamedType 1227823353" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open stapling entries exists. You must close them before close operation.</source>
           <target>Chiudere le pinzature in corso.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3377287267 - Method 2467841319 - NamedType 3941493968" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting DateTime nor Ending DateTime set</source>
+          <target>Data/Ora inizio e/o Data/Ora fine non indicata</target>
         </trans-unit>
         <trans-unit id="Codeunit 3497152283 - Method 2901095472 - NamedType 2572014162" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are open %1 related to %2 %3.</source>
@@ -579,6 +595,18 @@
           <source>Add Stapling</source>
           <target>Aggiungi pinzatura</target>
         </trans-unit>
+        <trans-unit id="Enum 3083780537 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 3083780537 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Errore</target>
+        </trans-unit>
+        <trans-unit id="Enum 3083780537 - EnumValue 3208180638 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Processed</source>
+          <target>Elaborato</target>
+        </trans-unit>
         <trans-unit id="Enum 3094680767 - EnumValue 1065337893 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production</source>
           <target>Produzione</target>
@@ -730,6 +758,10 @@
         <trans-unit id="Page 1117684536 - Control 2377467855 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enable Log" field</source>
           <target>Specifica il valore del campo "Abilita log"</target>
+        </trans-unit>
+        <trans-unit id="Page 1117684536 - Control 3687300662 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "API Version" field</source>
+          <target>Specifica il valore del campo "Versione API"</target>
         </trans-unit>
         <trans-unit id="Page 1117684536 - Control 521091233 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Hub Name" field</source>
@@ -1215,6 +1247,14 @@
           <source>Resource Scraps (MES)</source>
           <target>Scarti (MES)</target>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 1587411120 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Undo selected entry, reverting timesm output and consumptions if necessary.</source>
+          <target>Storna il movimento selezionato, inclusi tempi, versamenti e consumi se necessario.</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 1587411120 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Undo Entry</source>
+          <target>Storna movimento</target>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Action 1692444235 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Navigate</source>
           <target>Navi&amp;ga</target>
@@ -1232,12 +1272,20 @@
           <target>Consente di aprire una pagina in cui è possibile &lt;a0&gt;modificare una voce dipendente&lt;/a0&gt;.</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 3386012838 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Close Document</source>
+          <source>Close selected entry.</source>
           <target>Chiudi documento</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 3386012838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Close Entry</source>
+          <target>Chiudi movimento</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 3622167055 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the capacity ledger entries of the involved employee entry. Capacity is recorded either as time (run time, stop time, or setup time) or as quantity (scrap quantity or output quantity).</source>
           <target>Visualizzare i movimenti contabili capacità del movimento dipendente coinvolto. La capacità viene registrata come tempo (tempo di esecuzione, tempo di arresto o tempo di a setup) o come quantità (quantità di scarto o quantità di output).</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Action 3622167055 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Capacity Ledger Entry</source>
+          <target>Mov. contabili capacità</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Action 4055413014 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open the tracking lines page</source>
@@ -1266,6 +1314,10 @@
         <trans-unit id="Page 1920932823 - Control 1489664975 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Activity Type</source>
           <target>Specifica il valore del campo "Tipo attività"</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Control 1491762620 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Secondary UoM Output Quantity" field</source>
+          <target>Specifica il valore del campo "Quantità di output UdM secondaria"</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Control 149522872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Entry Type</source>
@@ -1323,6 +1375,10 @@
           <source>Indicate Output Quantity</source>
           <target>Indica la quantità di output</target>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Control 2519404076 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Secondary Unit of Measure Code"</source>
+          <target>Specifica il valore del campo "Cod. unità di misura secondaria"</target>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Control 2542071172 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Routing Reference No.</source>
           <target>Indica il nr. riferimento ciclo</target>
@@ -1350,6 +1406,10 @@
         <trans-unit id="Page 1920932823 - Control 3102751489 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Attached-To Entry No.</source>
           <target>Collegato-a Nr. movimento</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Control 3118620029 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Secondary UoM Total Output Quantity" field</source>
+          <target>Specifica il valore del campo "Quantità di output totale UdM secondaria"</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Control 3123169861 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Routing No.</source>
@@ -1391,6 +1451,10 @@
           <source>Indicate First Name</source>
           <target>Indica il nome</target>
         </trans-unit>
+        <trans-unit id="Page 1920932823 - Control 366168080 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Secondary UoM Scrap Quantity" field</source>
+          <target>Specifica il valore del campo "Quantità di scarto UdM secondaria"</target>
+        </trans-unit>
         <trans-unit id="Page 1920932823 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Posting Date</source>
           <target>Indica la data di registrazione</target>
@@ -1406,6 +1470,10 @@
         <trans-unit id="Page 1920932823 - Control 4004740007 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Exported</source>
           <target>Indica esportato</target>
+        </trans-unit>
+        <trans-unit id="Page 1920932823 - Control 4015712434 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Secondary UoM Total Scrap Quantity" field</source>
+          <target>Specifica il valore del campo "Quantità di scarto totale UdM secondaria"</target>
         </trans-unit>
         <trans-unit id="Page 1920932823 - Control 4065966391 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Indicate Work Center No.</source>
@@ -1523,6 +1591,10 @@
           <source>Specifies the value of the "Device ID" field</source>
           <target>Specifica il valore del campo "ID dispositivo"</target>
         </trans-unit>
+        <trans-unit id="Page 1930833055 - Control 2969359993 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Last Error Text" field</source>
+          <target>Specifica il valore del campo "Ultimo messaggio di errore"</target>
+        </trans-unit>
         <trans-unit id="Page 1930833055 - Control 323917633 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Enqueued DateTime" field</source>
           <target>Specifica il valore del campo "Data-Ora accodamento"</target>
@@ -1534,6 +1606,10 @@
         <trans-unit id="Page 1930833055 - Control 4208776898 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Payload" field</source>
           <target>Specifica il valore del campo "Payload"</target>
+        </trans-unit>
+        <trans-unit id="Page 1930833055 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Status" field</source>
+          <target>Specifica il valore del campo "Stato"</target>
         </trans-unit>
         <trans-unit id="Page 1930833055 - Control 804796200 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Import DateTime" field</source>
@@ -1943,6 +2019,10 @@
           <source>Specifies the value of the "Last Status Update DateTime" field</source>
           <target>Specifica il valore del campo "Data-Ora Ultimo aggiornamento stato"</target>
         </trans-unit>
+        <trans-unit id="Page 2550601468 - Control 3829465482 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "Default Employee No." field</source>
+          <target>Specifica il valore del campo "Nr. dipendente di default"</target>
+        </trans-unit>
         <trans-unit id="Page 2550601468 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Status" field</source>
           <target>Specifica il valore del campo "Stato"</target>
@@ -2015,6 +2095,14 @@
           <source>Production Responsibles</source>
           <target>Responsabili produzione</target>
         </trans-unit>
+        <trans-unit id="Page 2647740909 - Control 2628606866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage Packaging Materials from this resource</source>
+          <target>Se attivo, è possibile assegnare un materiale di imballaggio in fase di versamento</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Control 2777942052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage Handling Units from this resource</source>
+          <target>Se attivo, è possibile assegnare un unità di carico in fase di versamento</target>
+        </trans-unit>
         <trans-unit id="Page 2647740909 - Control 2799385806 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Count of Quality responsibles</source>
           <target>Nr. responsabili di qualità</target>
@@ -2038,6 +2126,10 @@
         <trans-unit id="Page 2647740909 - Control 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Page 2647740909 - Control 636534004 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Output Quantity for this resource</source>
+          <target>Disabilita la modifica della quantità di output nel PowerMES</target>
         </trans-unit>
         <trans-unit id="Page 2647740909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Panel Setup (MES)</source>
@@ -2271,6 +2363,10 @@
           <source>Output</source>
           <target>Output</target>
         </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 236920392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Components</source>
+          <target>Componenti</target>
+        </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2435914475 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Set Job Journal Template Name for Indirect Time Management</source>
           <target>Indica il nome del template registrazione commessa per la gestione dei tempi indiretti</target>
@@ -2290,6 +2386,10 @@
         <trans-unit id="Page 2865843814 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>General</source>
           <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2454560232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the flushing method for MES managed component</source>
+          <target>Indica il metodo di consuntivazione dei componenti aggiunti da Power MES</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 255840581 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enter the codes of the various operations to be performed so that the system can recognize them.</source>
@@ -2326,6 +2426,18 @@
         <trans-unit id="Page 2865843814 - Control 2738051774 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Function API</source>
           <target>API di funzione</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2740252009 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of "IoT Default Scrap" field</source>
+          <target>Specifica il valore del campo "Codice scarto di default IoT"</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2740252009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Default Scrap Code</source>
+          <target>Codice scarto di default IoT</target>
+        </trans-unit>
+        <trans-unit id="Page 2865843814 - Control 2796441734 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT</source>
+          <target>IoT</target>
         </trans-unit>
         <trans-unit id="Page 2865843814 - Control 2839050074 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Texts</source>
@@ -2762,6 +2874,154 @@
         <trans-unit id="Page 3279960439 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Custom Filters (MES)</source>
           <target>Filtri personalizzati (MES)</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 3432668166 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Reason Codes" action</source>
+          <target>Apre la lista delle causali</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 3432668166 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Codes</source>
+          <target>Causali</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 347328507 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Employees" action</source>
+          <target>Apre la lista dei dipendenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 347328507 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Employees</source>
+          <target>Dipendenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 722101725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Contacts" action</source>
+          <target>Apre la pagina dei contatti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Action 722101725 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contacts</source>
+          <target>Contatti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 1751291442 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage a secondary unit of measure in output and scrap posting</source>
+          <target>Gestione di un unità di misura secondaria in registrazioni output e scarti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 1787409239 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM</source>
+          <target>UdM secondaria</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 185872391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Contacts</source>
+          <target>Contatti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the resource type</source>
+          <target>Tipo risorsa</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Tipo</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2216202556 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, allows all employees to log in on this panel</source>
+          <target>Consenti l'accesso al pannello a tutti gli utenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2216202556 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free access</source>
+          <target>Accesso libero</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2247835100 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Secondary quantity per UoM. If set the secondary quantity is calculated automatically</source>
+          <target>Specifica la quantità per unità di misura secondaria. Se compilato, la quantità secondaria verrà calcolata automaticamente.</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2346885236 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Options</source>
+          <target>Opzioni</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 236920392 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Components</source>
+          <target>Componenti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 237102728 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Count of production responsibles</source>
+          <target>Nr. responsabili di produzione</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 237102728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Responsibles</source>
+          <target>Responsabili produzione</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Generale</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2454560232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the flushing method for MES managed component</source>
+          <target>Indica il metodo di consuntivazione dei componenti aggiunti da Power MES</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2514777851 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, rework can be started without scrap quantities</source>
+          <target>Se attivo, è possibile iniziare una rilavorazione senza aver dichiarato degli scarti</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2519404076 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Secondary Unit Of Measure Code</source>
+          <target>Specifica il codice unità di misura secondario</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2628606866 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage Packaging Materials from this resource</source>
+          <target>Se attivo, è possibile assegnare un materiale di imballaggio in fase di versamento</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2777942052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Manage Handling Units from this resource</source>
+          <target>Se attivo, è possibile assegnare un unità di carico in fase di versamento</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2799385806 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Count of Quality responsibles</source>
+          <target>Nr. responsabili di qualità</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 2799385806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quality Responsibles</source>
+          <target>Responsabili qualità</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 3014885516 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set the order of resources</source>
+          <target>Imposta la sequenza delle risorse</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 3014885516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence No.</source>
+          <target>Nr. sequenza</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 3153576333 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, focus will be placed on Search bar</source>
+          <target>Se abilitato, il focus verrà attivato sulla barra di ricerca</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 3153576333 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Focus On Search</source>
+          <target>Focus su campo ricerca</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select the Resource No.</source>
+          <target>Seleziona il nr. risorsa</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>No.</source>
+          <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 537318398 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Units</source>
+          <target>Unità di carico</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 587986903 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, barcode action will prompt automatically after selecting operation</source>
+          <target>Se attivo, dopo la selezione di un operazione verrà aperta automaticamente la pagina per la lettura del barcode</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 587986903 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Focus On Search</source>
+          <target>Focus su barra di ricerca</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Control 636534004 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Output Quantity for this resource</source>
+          <target>Disabilita la modifica della quantità di output nel PowerMES</target>
+        </trans-unit>
+        <trans-unit id="Page 3338615813 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Production Panel Setup Card (MES)</source>
+          <target>Setup pannello di produzione (MES)</target>
         </trans-unit>
         <trans-unit id="Page 3448781404 - Action 1078659391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Custom Lists</source>
@@ -3507,6 +3767,10 @@
           <source>Hub Name</source>
           <target>Nome Hub</target>
         </trans-unit>
+        <trans-unit id="Table 1117684536 - Field 3687300662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>API Version</source>
+          <target>Versione API</target>
+        </trans-unit>
         <trans-unit id="Table 1117684536 - Field 378043294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>SAS Token</source>
           <target>Token SAS</target>
@@ -3623,6 +3887,10 @@
           <source>Activity Type</source>
           <target>Tipo attività</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 1491762620 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM Output Qty.</source>
+          <target>Quantità di output UdM secondaria</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 149522872 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry Type</source>
           <target>Tipo movimento</target>
@@ -3703,6 +3971,10 @@
           <source>None,Machine Time,Man Time</source>
           <target>Nessuna,Tempo macchina,Tempo uomo</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 2519404076 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM Code</source>
+          <target>Cod. unità di misura secondaria</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 2542071172 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing Reference No.</source>
           <target>Nr. riferimento ciclo</target>
@@ -3735,6 +4007,10 @@
           <source>Attached-To Entry No.</source>
           <target>Collegato-a Nr. movimento</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3118620029 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM Total Output Qty.</source>
+          <target>Quantità di output totale UdM secondaria</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3123169861 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Routing No.</source>
           <target>Nr. ciclo</target>
@@ -3755,6 +4031,10 @@
           <source>Exported Date</source>
           <target>Data esportazione</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3162113026 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Telemetry Entry No.</source>
+          <target>Nr. movimento telemetria IoT</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3162383302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Operation No.</source>
           <target>Nr. operazione</target>
@@ -3767,9 +4047,21 @@
           <source>Rework Description</source>
           <target>Descrizione rilavoro</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3297701779 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit Created</source>
+          <target>Unità di carico create</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3444679095 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>First Name</source>
           <target>Primo nome</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3552643821 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Instructions No.</source>
+          <target>Nr. istruzioni di imballaggio</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 366168080 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM Scrap Qty.</source>
+          <target>Quantità di scarto UdM secondaria</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3710982960 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Date</source>
@@ -3783,6 +4075,14 @@
           <source>Posting DateTime</source>
           <target>Data/ora di registrazione</target>
         </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3880635402 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit No.</source>
+          <target>Nr. unità di carico</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 3943050797 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Material No.</source>
+          <target>Nr. materiale di imballaggio</target>
+        </trans-unit>
         <trans-unit id="Table 1859070565 - Field 3949660550 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Hidden</source>
           <target>Nascosto</target>
@@ -3790,6 +4090,14 @@
         <trans-unit id="Table 1859070565 - Field 4004740007 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exported</source>
           <target>Esportato</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 4015712434 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM Total Scrap Qty.</source>
+          <target>Quantità di scarto totale UdM secondaria</target>
+        </trans-unit>
+        <trans-unit id="Table 1859070565 - Field 4028440572 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Undo By Entry No.</source>
+          <target>Stornato da nr. movimento</target>
         </trans-unit>
         <trans-unit id="Table 1859070565 - Field 4065966391 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Center No.</source>
@@ -4231,6 +4539,10 @@
           <source>Rework</source>
           <target>Rilavorazione</target>
         </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 1751291442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM Management</source>
+          <target>Gestione UdM secondaria</target>
+        </trans-unit>
         <trans-unit id="Table 2647740909 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
           <target>Tipo</target>
@@ -4239,17 +4551,37 @@
           <source>Free Access</source>
           <target>Accesso libero</target>
         </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2247835100 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Qty. Per UoM</source>
+          <target>Quantità per unità di misura secondaria</target>
+        </trans-unit>
         <trans-unit id="Table 2647740909 - Field 237102728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Production Responsibles</source>
           <target>Responsabili produzione</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2454560232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Component Flushing Method</source>
+          <target>Metodo consuntivazione componenti</target>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 2505668655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Link Id</source>
           <target>Id collegamento</target>
         </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2514777851 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rework without scrap</source>
+          <target>Rilavorazione senza scarti</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2519404076 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary UoM</source>
+          <target>UdM secondaria</target>
+        </trans-unit>
         <trans-unit id="Table 2647740909 - Field 2544235875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Panel No.</source>
           <target>Nr. pannello</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 2737013675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Packaging Material Management</source>
+          <target>Gestione materiale di imballaggio</target>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 2799385806 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quality Responsibles</source>
@@ -4258,6 +4590,10 @@
         <trans-unit id="Table 2647740909 - Field 3014885516 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sequence No.</source>
           <target>Nr. sequenza</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 3153576333 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Focus On Search</source>
+          <target>Focus su campo ricerca</target>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Field 3449788141 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Panel ID</source>
@@ -4270,6 +4606,18 @@
         <trans-unit id="Table 2647740909 - Field 4200184881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No.</source>
           <target>Nr.</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 587986903 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Automatic Barcode Prompt</source>
+          <target>Lettura barcode automatica</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 636534004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Disable Output Quantity</source>
+          <target>Blocca quantità di output</target>
+        </trans-unit>
+        <trans-unit id="Table 2647740909 - Field 902285928 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Handling Unit Management</source>
+          <target>Gestione unità di carico</target>
         </trans-unit>
         <trans-unit id="Table 2647740909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>MES Production Panel Setup</source>
@@ -4346,6 +4694,10 @@
         <trans-unit id="Table 2800070136 - Field 3591331459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Undefined Quantity</source>
           <target>Quantità da gestire</target>
+        </trans-unit>
+        <trans-unit id="Table 2800070136 - Field 4252798214 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Base Unit Of Measure</source>
+          <target>Unità di misura base</target>
         </trans-unit>
         <trans-unit id="Table 2800070136 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
@@ -4459,6 +4811,10 @@
           <source>Family Output Text</source>
           <target>Output per famiglia</target>
         </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 2454560232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Component Flushing Method</source>
+          <target>Metodo consuntivazione componenti</target>
+        </trans-unit>
         <trans-unit id="Table 2865843814 - Field 255840581 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Start Rework Text</source>
           <target>Inizia rilavorazione del testo</target>
@@ -4478,6 +4834,10 @@
         <trans-unit id="Table 2865843814 - Field 272639395 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Force Lot Information</source>
           <target>Forza creazione informazioni nr. lotto</target>
+        </trans-unit>
+        <trans-unit id="Table 2865843814 - Field 2740252009 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>IoT Default Scrap Code</source>
+          <target>Codice scarto di default IoT</target>
         </trans-unit>
         <trans-unit id="Table 2865843814 - Field 2950157804 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Data Handling Type</source>
@@ -4627,6 +4987,10 @@
           <source>Last Status Update DateTime</source>
           <target>Data-Ora Ultimo aggiornamento stato</target>
         </trans-unit>
+        <trans-unit id="Table 3005577696 - Field 3829465482 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Employee No.</source>
+          <target>Nr. dipendente di default</target>
+        </trans-unit>
         <trans-unit id="Table 3005577696 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Stato</target>
@@ -4675,6 +5039,10 @@
           <source>Device ID</source>
           <target>ID Dispositivo</target>
         </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 2969359993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Error Text</source>
+          <target>Ultimo messaggio di errore</target>
+        </trans-unit>
         <trans-unit id="Table 3241182029 - Field 323917633 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enqueued DateTime</source>
           <target>Data-Ora accodamento</target>
@@ -4686,6 +5054,10 @@
         <trans-unit id="Table 3241182029 - Field 4208776898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Payload</source>
           <target>Payload</target>
+        </trans-unit>
+        <trans-unit id="Table 3241182029 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Stato</target>
         </trans-unit>
         <trans-unit id="Table 3241182029 - Field 804796200 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import DateTime</source>
@@ -5098,6 +5470,10 @@
         <trans-unit id="TableExtension 1861560906 - Field 2128523937 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prod. Line Rem. Quantity</source>
           <target>Quantità residua righe ordine di produzione</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1861560906 - Field 2464920287 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Panel Setup ID Filter</source>
+          <target>Filtro Id setup pannello</target>
         </trans-unit>
         <trans-unit id="TableExtension 1861560906 - Field 2487184805 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Expected Run Time</source>
