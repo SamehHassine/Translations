@@ -84,27 +84,31 @@
           <target>¿Está seguro de que desea rechazar el lote seleccionado?-Batch: %1-Created: %2-La acción es irreversible!</target>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 1625896033" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for DCF present! - this report cannot be generated!</source>
+          <source>No subscription for DocFinance present! - this report cannot be generated!</source>
           <target>¡No hay suscripción para DCF presente! - ¡Este informe no se puede generar!</target>
         </trans-unit>
-        <trans-unit id="Codeunit 3600054511 - NamedType 1772493744" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Free Version</source>
-          <target>Versión gratuita</target>
+        <trans-unit id="Codeunit 3600054511 - NamedType 2599441456" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trial subscription for DocFinance found - day %1 of %2</source>
+          <target>Se ha encontrado una suscripción de prueba para DocFinance - día %1 de %2</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3600054511 - NamedType 2929049406" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Trial Version</source>
+          <target>Versión de prueba</target>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 3269160490" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for DCF present! - Action not allowed!</source>
+          <source>No subscription for DocFinance present! - Action not allowed!</source>
           <target>¡No hay suscripción para DCF presente! - ¡Acción no permitida!</target>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 3560163384" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Set up a subscription</source>
+          <source>Set up a full subscription</source>
           <target>Configurar una suscripción</target>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 4128705988" translate="yes" size-unit="char" xml:space="preserve">
-          <source>No subscription for DCF present! - this page cannot be edited!</source>
+          <source>No subscription for DocFinance present! - This page cannot be used!</source>
           <target>¡No hay suscripción para DCF presente! - ¡Esta página no se puede editar!</target>
         </trans-unit>
         <trans-unit id="Codeunit 3600054511 - NamedType 4205745040" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Subscribe for a activation</source>
+          <source>Subscribe for a free trial or a full activation</source>
           <target>Suscríbete para una activación</target>
         </trans-unit>
         <trans-unit id="Codeunit 3911913361 - Method 142198285 - NamedType 1340729869" translate="yes" size-unit="char" xml:space="preserve">
@@ -202,6 +206,18 @@
         <trans-unit id="Page 1427793338 - Action 58484011 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show detail</source>
           <target>Mostrar detalle</target>
+        </trans-unit>
+        <trans-unit id="Page 1427793338 - Action 700596077 - Method 1377591017 - NamedType 2724188868" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected record has no error to show.</source>
+          <target>El registro seleccionado no tiene ningún error que mostrar.</target>
+        </trans-unit>
+        <trans-unit id="Page 1427793338 - Action 700596077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the page with error and call stack.</source>
+          <target>Abre la página con error y pila de llamadas.</target>
+        </trans-unit>
+        <trans-unit id="Page 1427793338 - Action 700596077 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Error</source>
+          <target>Mostrar error</target>
         </trans-unit>
         <trans-unit id="Page 1427793338 - Control 3329328363 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>BatchID of the data transfer to DocFinance</source>
@@ -414,6 +430,18 @@
         <trans-unit id="Page 2351867756 - Action 58484011 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show detail</source>
           <target>Mostrar detalle</target>
+        </trans-unit>
+        <trans-unit id="Page 2351867756 - Action 700596077 - Method 1377591017 - NamedType 2724188868" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The selected record has no error to show.</source>
+          <target>El registro seleccionado no tiene ningún error que mostrar.</target>
+        </trans-unit>
+        <trans-unit id="Page 2351867756 - Action 700596077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the page with error and call stack.</source>
+          <target>Abre la página con error y pila de llamadas.</target>
+        </trans-unit>
+        <trans-unit id="Page 2351867756 - Action 700596077 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Show Error</source>
+          <target>Mostrar error</target>
         </trans-unit>
         <trans-unit id="Page 2351867756 - Control 3329328363 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>BatchID of the data transfer to DocFinance</source>
@@ -2527,6 +2555,10 @@
           <source>Records No. Receiv/Payable</source>
           <target>Registros No. Receiv/Payable</target>
         </trans-unit>
+        <trans-unit id="Table 4239683190 - Field 1637095154 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Duration</source>
+          <target>Duración</target>
+        </trans-unit>
         <trans-unit id="Table 4239683190 - Field 1761304904 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Subtype</source>
           <target>Subtipo</target>
@@ -2538,6 +2570,10 @@
         <trans-unit id="Table 4239683190 - Field 2698510795 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Error Entry No.</source>
           <target>No de entrada del último error.</target>
+        </trans-unit>
+        <trans-unit id="Table 4239683190 - Field 2807499914 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>End DateTime</source>
+          <target>Fecha de finalizaciónHora</target>
         </trans-unit>
         <trans-unit id="Table 4239683190 - Field 2818456336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Records No. Import Arch</source>
