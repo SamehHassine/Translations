@@ -775,10 +775,6 @@
           <source>Specifies document class code.</source>
           <target>Spécifie le code de classe de document.</target>
         </trans-unit>
-        <trans-unit id="Page 2151778819 - Control 995894606 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct Total Cost</source>
-          <target>Coût total</target>
-        </trans-unit>
         <trans-unit id="Page 2151778819 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Requests (PRQ)</source>
           <target>Demande d'achat (PRQ)</target>
@@ -870,10 +866,6 @@
         <trans-unit id="Page 2707712963 - Control 3103858163 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 4, which is one of the global dimension codes that you set up in the General Ledger Setup window.</source>
           <target>Spécifie le code de Raccourci Dimension 4, qui est l’un des codes de dimension globale que vous avez configurés dans la fenêtre d’installation du Grand Livre.</target>
-        </trans-unit>
-        <trans-unit id="Page 2707712963 - Control 3232671336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct Total Cost</source>
-          <target>Coût total</target>
         </trans-unit>
         <trans-unit id="Page 2707712963 - Control 359587124 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Job Line Type" field.</source>
@@ -1108,12 +1100,8 @@
           <target>Spécifie la valeur du champ « Description ».</target>
         </trans-unit>
         <trans-unit id="Page 3894193984 - Control 3709072786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Direct Total Cost" field.</source>
+          <source>Specifies the value of the "Line Amount" field.</source>
           <target>Spécifie la valeur du champ « Coût total direct ».</target>
-        </trans-unit>
-        <trans-unit id="Page 3894193984 - Control 3709072786 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct Total Cost</source>
-          <target>Coût total</target>
         </trans-unit>
         <trans-unit id="Page 3894193984 - Control 3741554780 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 5, which is one of the global dimension codes that you set up in the General Ledger Setup window.</source>
@@ -1210,10 +1198,6 @@
         <trans-unit id="Page 3917701218 - Control 3103858163 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 4, which is one of the global dimension codes that you set up in the General Ledger Setup window.</source>
           <target>Spécifie le code de Raccourci Dimension 4, qui est l’un des codes de dimension globale que vous avez configurés dans la fenêtre d’installation du Grand Livre.</target>
-        </trans-unit>
-        <trans-unit id="Page 3917701218 - Control 3709072786 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Direct Total Cost</source>
-          <target>Coût total</target>
         </trans-unit>
         <trans-unit id="Page 3917701218 - Control 3741554780 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code for Shortcut Dimension 5, which is one of the global dimension codes that you set up in the General Ledger Setup window.</source>
@@ -2767,10 +2751,6 @@
           <source>Type</source>
           <target>Type</target>
         </trans-unit>
-        <trans-unit id="Table 2552389881 - Field 3456033531 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,G/L Account,Item</source>
-          <target> ,Compte gnéral,Article</target>
-        </trans-unit>
         <trans-unit id="Table 2552389881 - Field 3483079473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Update Source</source>
           <target>Dernière mise à jour Source</target>
@@ -3371,6 +3351,14 @@
           <source>Record-ID</source>
           <target>ID d'enregistrement</target>
         </trans-unit>
+        <trans-unit id="Table 3449405648 - Field 3576043015 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line Amount (LCY)</source>
+          <target>Montant de ligne (LCY)</target>
+        </trans-unit>
+        <trans-unit id="Table 3449405648 - Field 3582421358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line Amount</source>
+          <target>Montant ligne</target>
+        </trans-unit>
         <trans-unit id="Table 3449405648 - Field 359587124 - Method 2126772001 - NamedType 1608414080" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 cannot be changed when %2 is set.</source>
           <target>%1 ne peut pas être modifié si %2 est défini.</target>
@@ -3506,6 +3494,10 @@
         <trans-unit id="Table 4169734679 - Field 1003760969 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shortcut Dimension 2 Code</source>
           <target>Code raccourci axe 2</target>
+        </trans-unit>
+        <trans-unit id="Table 4169734679 - Field 1028436379 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Amount (LCY)</source>
+          <target>Montant total (LCY)</target>
         </trans-unit>
         <trans-unit id="Table 4169734679 - Field 1064748404 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Approval Level</source>
@@ -3776,7 +3768,7 @@
           <target>Dem. de prix N ° de ligne</target>
         </trans-unit>
         <trans-unit id="TableExtension 716594908 - Field 1696416121 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>PRQ Admin</source>
+          <source>PRQ Administrator</source>
           <target>PRQ Administrateur</target>
         </trans-unit>
         <trans-unit id="TableExtension 884789956 - Field 1017838918 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
