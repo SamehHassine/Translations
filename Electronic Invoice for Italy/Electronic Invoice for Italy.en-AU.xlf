@@ -143,13 +143,13 @@
           <source>%1 %2 is in Error status. Do you want to proceed anyway?</source>
           <target>%1 %2 is in Error status. Do you want to proceed anyway?</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1342986557 - Method 3185187714 - NamedType 1068754970" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Process result:\   Processed records: %1\   %3 created: %2</source>
-          <target>Process result:\   Processed records: %1\   %3 created: %2</target>
-        </trans-unit>
-        <trans-unit id="Codeunit 1342986557 - Method 3185187714 - NamedType 1881095303" translate="yes" size-unit="char" xml:space="preserve">
+        <trans-unit id="Codeunit 1342986557 - Method 3185187714 - NamedType 2263094942" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create %2 %1?\(Only records with no error and not already related to a %3 will be processed)</source>
           <target>Create %2 %1?\(Only records with no error and not already related to a %3 will be processed)</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1342986557 - Method 3185187714 - NamedType 2834812261" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process result:\   Processed records: %1\   %3 created: %2</source>
+          <target>Process result:\   Processed records: %1\   %3 created: %2</target>
         </trans-unit>
         <trans-unit id="Codeunit 1342986557 - Method 3206010156 - NamedType 3768398224" translate="yes" size-unit="char" xml:space="preserve">
           <source>The p7m file is not valid</source>
@@ -1347,6 +1347,14 @@
           <source>ScontoMaggiorazione</source>
           <target>ScontoMaggiorazione</target>
         </trans-unit>
+        <trans-unit id="Page 1668318867 - Action 182258798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens related DatiContratto lines page</source>
+          <target>Opens related DatiContratto lines page</target>
+        </trans-unit>
+        <trans-unit id="Page 1668318867 - Action 182258798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto</source>
+          <target>DatiContratto</target>
+        </trans-unit>
         <trans-unit id="Page 1668318867 - Action 2150030376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens related DatiRitenuta lines page</source>
           <target>Opens related DatiRitenuta lines page</target>
@@ -1838,6 +1846,10 @@
         <trans-unit id="Page 2255788665 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inbound Electr. Document Log</source>
           <target>Inbound Electr. Document Log</target>
+        </trans-unit>
+        <trans-unit id="Page 2306216898 - Control 659266341 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the DatiContratto IdDocumento field.</source>
+          <target>Specifies the value of the DatiContratto IdDocumento field.</target>
         </trans-unit>
         <trans-unit id="Page 2306216898 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Inbound Electr. Document Subpage</source>
@@ -2551,6 +2563,14 @@
           <source>ScontoMaggiorazione</source>
           <target>ScontoMaggiorazione</target>
         </trans-unit>
+        <trans-unit id="Page 2883045121 - Action 182258798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens related DatiContratto lines page</source>
+          <target>Opens related DatiContratto lines page</target>
+        </trans-unit>
+        <trans-unit id="Page 2883045121 - Action 182258798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto</source>
+          <target>DatiContratto</target>
+        </trans-unit>
         <trans-unit id="Page 2883045121 - Action 2150030376 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens related DatiRitenuta lines page</source>
           <target>Opens related DatiRitenuta lines page</target>
@@ -3063,6 +3083,14 @@
           <source>ScontoMaggiorazione</source>
           <target>ScontoMaggiorazione</target>
         </trans-unit>
+        <trans-unit id="Page 3259584055 - Action 182258798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Opens the DatiContratto lines page" action.</source>
+          <target>Executes the "Opens the DatiContratto lines page" action.</target>
+        </trans-unit>
+        <trans-unit id="Page 3259584055 - Action 182258798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the DatiContratto lines page</source>
+          <target>Opens the DatiContratto lines page</target>
+        </trans-unit>
         <trans-unit id="Page 3259584055 - Action 1979318928 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the import log page</source>
           <target>Opens the import log page</target>
@@ -3350,6 +3378,10 @@
         <trans-unit id="Page 3259584055 - Control 248192567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CedentePrestatore - CodiceFiscale</source>
           <target>CedentePrestatore - CodiceFiscale</target>
+        </trans-unit>
+        <trans-unit id="Page 3259584055 - Control 2492098790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto</source>
+          <target>DatiContratto</target>
         </trans-unit>
         <trans-unit id="Page 3259584055 - Control 2505070693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "AliquotaRitenuta" field.</source>
@@ -4615,6 +4647,10 @@
           <source>DatiDDT</source>
           <target>DatiDDT</target>
         </trans-unit>
+        <trans-unit id="Page 3709652859 - Control 2492098790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto</source>
+          <target>DatiContratto</target>
+        </trans-unit>
         <trans-unit id="Page 3709652859 - Control 3000762348 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gross Lines VAT Amount</source>
           <target>Gross Lines VAT Amount</target>
@@ -5375,6 +5411,14 @@
           <source>Import Folder</source>
           <target>Import Folder</target>
         </trans-unit>
+        <trans-unit id="Page 807332812 - Action 182258798 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Opens the DatiContratto lines page</source>
+          <target>Opens the DatiContratto lines page</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Action 182258798 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto</source>
+          <target>DatiContratto</target>
+        </trans-unit>
         <trans-unit id="Page 807332812 - Action 1979318928 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Opens the import log page</source>
           <target>Opens the import log page</target>
@@ -5726,6 +5770,10 @@
         <trans-unit id="Page 807332812 - Control 248192567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CedentePrestatore - CodiceFiscale</source>
           <target>CedentePrestatore - CodiceFiscale</target>
+        </trans-unit>
+        <trans-unit id="Page 807332812 - Control 2492098790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto</source>
+          <target>DatiContratto</target>
         </trans-unit>
         <trans-unit id="Page 807332812 - Control 2505070693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "AliquotaRitenuta" field.</source>
@@ -8179,6 +8227,14 @@
           <source>Recognized No.</source>
           <target>Recognized No.</target>
         </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 1149165256 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto IdDocumento</source>
+          <target>DatiContratto IdDocumento</target>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 1163672662 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto CodiceCommessaConvenzione</source>
+          <target>DatiContratto CodiceCommessaConvenzione</target>
+        </trans-unit>
         <trans-unit id="Table 1079634047 - Field 1220181624 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Base Amount</source>
           <target>Base Amount</target>
@@ -8252,8 +8308,8 @@
           <target>Source Doc. Line Type</target>
         </trans-unit>
         <trans-unit id="Table 1079634047 - Field 1861805144 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta</source>
-          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta</target>
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</source>
+          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</target>
         </trans-unit>
         <trans-unit id="Table 1079634047 - Field 1869079459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Doc. Entry No.</source>
@@ -8315,6 +8371,10 @@
           <source>Direct Unit Cost</source>
           <target>Direct Unit Cost</target>
         </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 2750197068 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto CodiceCUP</source>
+          <target>DatiContratto CodiceCUP</target>
+        </trans-unit>
         <trans-unit id="Table 1079634047 - Field 2785083732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>Line No.</target>
@@ -8330,6 +8390,10 @@
         <trans-unit id="Table 1079634047 - Field 3182535809 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rounding</source>
           <target>Rounding</target>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 3247523699 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto Data</source>
+          <target>DatiContratto Data</target>
         </trans-unit>
         <trans-unit id="Table 1079634047 - Field 3280100355 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No. Forced</source>
@@ -8407,6 +8471,10 @@
           <source> ,A,B,C,D,E,G,H,I,L,L1,M,M1,M2,N,O,O1,P,Q,R,S,T,U,V,V1,V2,W,X,Y,ZO</source>
           <target> ,A,B,C,D,E,G,H,I,L,L1,M,M1,M2,N,O,O1,P,Q,R,S,T,U,V,V1,V2,W,X,Y,ZO</target>
         </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 47297581 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto CodiceCIG</source>
+          <target>DatiContratto CodiceCIG</target>
+        </trans-unit>
         <trans-unit id="Table 1079634047 - Field 482613935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Line Line No.</source>
           <target>Purchase Line Line No.</target>
@@ -8454,6 +8522,10 @@
         <trans-unit id="Table 1079634047 - Field 832242215 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Related Receipt/Ret. Shpt. No.</source>
           <target>Related Receipt/Ret. Shpt. No.</target>
+        </trans-unit>
+        <trans-unit id="Table 1079634047 - Field 90244278 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto NumItem</source>
+          <target>DatiContratto NumItem</target>
         </trans-unit>
         <trans-unit id="Table 1079634047 - Field 949770657 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
@@ -9124,8 +9196,8 @@
           <target>Line Type</target>
         </trans-unit>
         <trans-unit id="Table 1583667169 - Field 1761888289 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,BeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta</source>
-          <target> ,BeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta</target>
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</source>
+          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</target>
         </trans-unit>
         <trans-unit id="Table 1583667169 - Field 1936120847 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sorting Order</source>
@@ -9388,8 +9460,8 @@
           <target>Line Type</target>
         </trans-unit>
         <trans-unit id="Table 181332593 - Field 1761888289 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta</source>
-          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta</target>
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</source>
+          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</target>
         </trans-unit>
         <trans-unit id="Table 181332593 - Field 1822999826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>NumeroLinea</source>
@@ -9430,6 +9502,10 @@
         <trans-unit id="Table 181332593 - Field 2375698155 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Import ID</source>
           <target>Import ID</target>
+        </trans-unit>
+        <trans-unit id="Table 181332593 - Field 2383242257 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto CodiceCUP</source>
+          <target>DatiContratto CodiceCUP</target>
         </trans-unit>
         <trans-unit id="Table 181332593 - Field 2474436402 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Tipo</source>
@@ -9515,6 +9591,10 @@
           <source>DataDDT</source>
           <target>DataDDT</target>
         </trans-unit>
+        <trans-unit id="Table 181332593 - Field 3603374919 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto NumItem</source>
+          <target>DatiContratto NumItem</target>
+        </trans-unit>
         <trans-unit id="Table 181332593 - Field 3729155815 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CodiceCIG</source>
           <target>CodiceCIG</target>
@@ -9547,6 +9627,14 @@
           <source>Data</source>
           <target>Data</target>
         </trans-unit>
+        <trans-unit id="Table 181332593 - Field 4110388336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto CodiceCIG</source>
+          <target>DatiContratto CodiceCIG</target>
+        </trans-unit>
+        <trans-unit id="Table 181332593 - Field 4157902324 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto CodiceCommessaConvenzione</source>
+          <target>DatiContratto CodiceCommessaConvenzione</target>
+        </trans-unit>
         <trans-unit id="Table 181332593 - Field 4245554627 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>UnitaMisura</source>
           <target>UnitaMisura</target>
@@ -9559,6 +9647,10 @@
           <source>Natura</source>
           <target>Natura</target>
         </trans-unit>
+        <trans-unit id="Table 181332593 - Field 659266341 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto IdDocumento</source>
+          <target>DatiContratto IdDocumento</target>
+        </trans-unit>
         <trans-unit id="Table 181332593 - Field 678427268 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>AliquotaIVA</source>
           <target>AliquotaIVA</target>
@@ -9570,6 +9662,10 @@
         <trans-unit id="Table 181332593 - Field 693271883 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>DataFinePeriodo</source>
           <target>DataFinePeriodo</target>
+        </trans-unit>
+        <trans-unit id="Table 181332593 - Field 716709074 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>DatiContratto Data</source>
+          <target>DatiContratto Data</target>
         </trans-unit>
         <trans-unit id="Table 181332593 - Field 902757429 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CodiceValore</source>
@@ -9691,13 +9787,17 @@
           <source>Electr. Document Recipient</source>
           <target>Electr. Document Recipient</target>
         </trans-unit>
+        <trans-unit id="Table 185956770 - Field 1484082790 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>RiferimentoNumeroLinea</source>
+          <target>RiferimentoNumeroLinea</target>
+        </trans-unit>
         <trans-unit id="Table 185956770 - Field 1761888289 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Type</source>
           <target>Line Type</target>
         </trans-unit>
         <trans-unit id="Table 185956770 - Field 1761888289 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione</source>
-          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione</target>
+          <source> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</source>
+          <target> ,DatiBeniServizi,DatiOrdineAcquisto,DatiRiepilogo,DatiDDT,DatiPagamento,ScontoMaggiorazione,DatiRitenuta,DatiContratto,DatiConvenzione,DatiRicezione,DatiFattureCollegate,DatiSAL</target>
         </trans-unit>
         <trans-unit id="Table 185956770 - Field 1989356158 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry No.</source>
