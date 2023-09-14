@@ -271,14 +271,6 @@
           <source>Foreign Vendor Bills Floppy (CBI)</source>
           <target>Kreditor Rechnungsfloppy Ausland</target>
         </trans-unit>
-        <trans-unit id="Report 489352535 - Control 1042671269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Batch Name</source>
-          <target>Gibt den Batchnamen an</target>
-        </trans-unit>
-        <trans-unit id="Report 489352535 - Control 1042671269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Batch Name</source>
-          <target>Buch.-Blattname</target>
-        </trans-unit>
         <trans-unit id="Report 489352535 - Control 1145081075 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Template Name</source>
           <target>Gibt den Vorlagennamen an</target>
@@ -290,6 +282,18 @@
         <trans-unit id="Report 489352535 - Control 4105281732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Report 489352535 - Control 92482887 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Batch Name</source>
+          <target>Gibt den Batchnamen an</target>
+        </trans-unit>
+        <trans-unit id="Report 489352535 - Control 92482887 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Batch Name</source>
+          <target>Name der Charge</target>
+        </trans-unit>
+        <trans-unit id="Report 489352535 - Method 2736589801 - NamedType 143641881" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Import File</source>
+          <target>Datei importieren</target>
         </trans-unit>
         <trans-unit id="Report 489352535 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>SEPA DD Dishonored (CBI)</source>
@@ -356,8 +360,8 @@
           <target>Das System kann die Rechnung für die Aufstellung  %1 nicht finden\</target>
         </trans-unit>
         <trans-unit id="XmlPort 489352535 - NamedType 2740740089" translate="yes" size-unit="char" xml:space="preserve">
-          <source>It's not possibile to find the customer</source>
-          <target>Es ist nicht möglich, den Kunden zu finden</target>
+          <source>It was not possibile to find the customer bill for the reference message: %1</source>
+          <target>Es ist nicht möglich, den Customer Bill zu finden für die XML-Verweise: %1</target>
         </trans-unit>
         <trans-unit id="XmlPort 489352535 - NamedType 3260707279" translate="yes" size-unit="char" xml:space="preserve">
           <source>File %1 contains a paid receipt.\Receiver's bank return an advise of paid issue to creditor after comunication by payer's bank\\NOT EXPECTED</source>
