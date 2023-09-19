@@ -943,6 +943,14 @@
           <source>New Setup Wizard</source>
           <target>Neuer Setup-Assistent</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3836025439 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Update "Numeric Value" field from the characteristic value in Rule Relations and Characteristics Set for "Measure" type characteristics.</source>
+          <target>Aktualisiert das Feld "Numerischer Wert" aus dem Merkmalswert in Regelbeziehungen und Feature-Sets für Merkmale vom Typ "Kennzahl".</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3836025439 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Align Numeric Values</source>
+          <target>Numerische Werte ausrichten</target>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Action 4130025558 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes the Recalculate Neutral Rules action</source>
           <target>Führt die Aktion "Neutrale Regeln neu berechnen" aus.</target>
@@ -1168,8 +1176,8 @@
           <target>Gibt den Wert der externen Konfigurationsnummern an. Feld</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 657238126 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Enables the checking of mandatory values only on the first level, if the item has already been configured. It only works with "Enable BOM Reconfiguration" disabled.</source>
-          <target>Ermöglicht die Überprüfung der erforderlichen Werte nur auf der ersten Ebene, wenn das Element bereits konfiguriert wurde. Es funktioniert nur, wenn "Neukonfiguration der Montage-/ Fert.-Stückliste aktivieren" deaktiviert ist.</target>
+          <source>Enables the reconfiguration only on the first level, if the item has already been configured. It only works with "Enable BOM Reconfiguration" disabled.</source>
+          <target>Ermöglicht die Neukonfiguration nur auf der ersten Ebene, wenn das Element bereits konfiguriert wurde. Es funktioniert nur, wenn "Stücklisten-Neukonfiguration/Montage aktivieren" deaktiviert ist.</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 668790677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description for positive surcharge lines.</source>
@@ -1209,6 +1217,10 @@
         <trans-unit id="Page 1762500533 - Control 867969914 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, the product configurator, when using an already existing configuration, recreates the production BOM and routing starting from the neutral code. If it is disabled, the production BOM and the routing are calculated only the first time. However, the item description is recalculated in both cases. Enabling may have an impact on performance.</source>
           <target>Ermöglichen Sie die Neukonfiguration von Produktions- und Montagestücklisten.</target>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Method 2322634654 - NamedType 1334529336" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Do you want to update "Numeric Value" fields for "Measure" type characteristics in Rule Relations and Characteristics Sets ?</source>
+          <target>Möchten Sie die Felder "Numerischer Wert" für Merkmale des Typs "Kennzahl" in Regelbeziehungen und Merkmalssätzen aktualisieren?</target>
         </trans-unit>
         <trans-unit id="Page 1762500533 - NamedType 2316870939" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error with SAAS Excel (%1): %2</source>
@@ -1277,6 +1289,10 @@
         <trans-unit id="Page 1828487371 - Control 2763291245 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Error Message field</source>
           <target>Gibt den Wert des Feldes Fehlermeldung an</target>
+        </trans-unit>
+        <trans-unit id="Page 1828487371 - Control 311866782 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the numeric value of the Secondary Characteristic Value</source>
+          <target>Gibt den numerischen Wert des sekundären Merkmalswerts an</target>
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 3291986161 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rounding Direction field</source>
@@ -3534,6 +3550,10 @@
           <source>Specifies the value of the Rounding Precision field</source>
           <target>Gibt den Wert des Feldes Rundungsgenauigkeit an.</target>
         </trans-unit>
+        <trans-unit id="Page 659773391 - Control 320823028 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the numeric value of the Characteristic Value</source>
+          <target>Gibt den numerischen Wert des Merkmalswerts an</target>
+        </trans-unit>
         <trans-unit id="Page 659773391 - Control 3801928269 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Formula Code field</source>
           <target>Gibt den Wert des Feldes Formelcode an</target>
@@ -4940,6 +4960,10 @@
         <trans-unit id="Table 1237716355 - Field 1677307002 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristic Value</source>
           <target>Charakteristischer Wert</target>
+        </trans-unit>
+        <trans-unit id="Table 1237716355 - Field 1758538756 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Numeric Value</source>
+          <target>Numerischer Wert</target>
         </trans-unit>
         <trans-unit id="Table 1237716355 - Field 1826753698 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Transfer Value Formula</source>
@@ -8093,6 +8117,10 @@
         <trans-unit id="Table 702556827 - Field 2149112459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Characteristic Code</source>
           <target>Primärer Merkmal Code</target>
+        </trans-unit>
+        <trans-unit id="Table 702556827 - Field 2180667318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Secondary Numeric Value</source>
+          <target>Sekundärer numerischer Wert</target>
         </trans-unit>
         <trans-unit id="Table 702556827 - Field 2556434784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rounding Precision</source>

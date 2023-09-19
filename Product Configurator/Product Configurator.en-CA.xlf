@@ -98,6 +98,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Charac. Set Line - Field Line No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1237716355 - Field 1758538756 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Numeric Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Charac. Set Line - Field Numeric Value - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1237716355 - Field 13618793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Rounding Direction</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4028,6 +4033,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Rule Relation - Field Hide Characteristic Opt./Mand. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 702556827 - Field 2180667318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secondary Numeric Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS028 CFG Rule Relation - Field Numeric Value 2 - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 702556827 - Field 526938458 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Relation Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4697,6 +4707,11 @@
           <source>Specifies the value of the Line No. field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Charac. Set Subform - Control LineNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 659773391 - Control 320823028 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the numeric value of the Characteristic Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Charac. Set Subform - Control NumericValue - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 659773391 - Control 13618793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Rounding Direction field.</source>
@@ -5718,6 +5733,11 @@
           <note from="Developer" annotates="general" priority="2">%1 = Field name in error; %2 = Error text</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - NamedType Text001Err</note>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Method 2322634654 - NamedType 1334529336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to update "Numeric Value" fields for "Measure" type characteristics in Rule Relations and Characteristics Sets ?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Method AlignNumericValueFromCharacValue - NamedType AlignNumeriValueLbl</note>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 1819335129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Excel</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5859,7 +5879,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control DisableConfigLinesTypeBOM - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Control 657238126 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enables the checking of mandatory values only on the first level, if the item has already been configured. It only works with "Enable BOM Reconfiguration" disabled.</source>
+          <source>Enables the reconfiguration only on the first level, if the item has already been configured. It only works with "Enable BOM Reconfiguration" disabled.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control Enable Check On First Level - Property ToolTip</note>
         </trans-unit>
@@ -6042,6 +6062,16 @@
           <source>Description for positive surcharge lines.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Control OptionalSurchargeDescr - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3836025439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update "Numeric Value" field from the characteristic value in Rule Relations and Characteristics Set for "Measure" type characteristics.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Action AlignNumericValue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1762500533 - Action 3836025439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Align Numeric Values</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Configurator Setup - Action AlignNumericValue - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1762500533 - Action 1411902918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the Align Std. Variants action</source>
@@ -8607,6 +8637,11 @@
           <source>Specifies the value of the Hide Characteristic Opt./Mand. field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Rules Relations - Control HideCharacteristicOptMand - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1828487371 - Control 311866782 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the numeric value of the Secondary Characteristic Value</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS028 CFG Rules Relations - Control NumericValue2 - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 2062843026 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Relation Type field</source>
