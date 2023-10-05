@@ -1903,6 +1903,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS G/L Book - Print - Method GetDocTypeText - NamedType CreditMemoLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1347818540 - Method 2838728512 - NamedType 2799625823" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The G/L Book - Print report from %1 to %2 cannot be reprinted because it has not been printed yet</source>
+          <note from="Developer" annotates="general" priority="2">%1 = Starting Date for the report, %2 = Ending Date for the report</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS G/L Book - Print - Method GetLastPrintedPageFnc - NamedType ReprintInfoErr</note>
+        </trans-unit>
         <trans-unit id="Report 1347818540 - ReportLabel 3290626732" size-unit="char" translate="yes" xml:space="preserve">
           <source>Account Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2857,11 +2862,6 @@
           <source>Print VAT Register (Grouped)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18008268 - Action EOSPrintVATRegisterGrouped - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2978054896 - Action 3139979794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 896930563">
-          <source>Verify VAT Exemptions</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18008273 - Action EOSTEST1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1223273239 - Control 2614126101 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 434101636">
           <source>Specifies if VAT exeption should be ignored queh using this setup.</source>
