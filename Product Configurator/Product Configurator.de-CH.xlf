@@ -271,6 +271,14 @@
           <source>Higher</source>
           <target>Höher</target>
         </trans-unit>
+        <trans-unit id="Enum 1388199427 - EnumValue 223131788 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>During Process</source>
+          <target>Während des Prozesses</target>
+        </trans-unit>
+        <trans-unit id="Enum 1388199427 - EnumValue 2318284850 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Configurator Closing</source>
+          <target>Konfigurator-Schließen</target>
+        </trans-unit>
         <trans-unit id="Enum 1637308859 - EnumValue 112710097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Variant</source>
           <target>Variante</target>
@@ -991,6 +999,10 @@
           <source>If enabled, the configurator in the presence of surcharges creates additional lines in the sales/purchase documents. If disabled, the amount of any surcharges is added to the unit price of the line.</source>
           <target>Gibt den Wert des Felds Zuschlagspositionen aktivieren an.</target>
         </trans-unit>
+        <trans-unit id="Page 1762500533 - Control 1737524201 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enables in rule relations the field "Relations Calculation Type", to specify when to execute relations for the first level.</source>
+          <target>Aktiviert das Feld "Art der Beziehungsberechnung" in den Regelbeziehungen, um anzugeben, wann Beziehungen für die erste Ebene ausgeführt werden sollen.</target>
+        </trans-unit>
         <trans-unit id="Page 1762500533 - Control 1819335129 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Excel</source>
           <target>Excel</target>
@@ -1290,6 +1302,10 @@
           <source>Specifies the value of the Error Message field</source>
           <target>Gibt den Wert des Feldes Fehlermeldung an</target>
         </trans-unit>
+        <trans-unit id="Page 1828487371 - Control 2828093282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies when relations must be executed for the first level. Enable the flag "Enable Relations Calculation Type" in Setup CFG to use it.</source>
+          <target>Gibt an, wann Beziehungen für die erste Ebene ausgeführt werden sollen. Aktivieren Sie das Flag "Beziehungsberechnungstyp aktivieren" im CFG-Setup, um es zu verwenden.</target>
+        </trans-unit>
         <trans-unit id="Page 1828487371 - Control 311866782 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the numeric value of the Secondary Characteristic Value</source>
           <target>Gibt den numerischen Wert des sekundären Merkmalswerts an</target>
@@ -1313,6 +1329,10 @@
         <trans-unit id="Page 1828487371 - Control 4099368615 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Check Condition Type field</source>
           <target>Gibt den Wert des Felds Konditionstyp prüfen an</target>
+        </trans-unit>
+        <trans-unit id="Page 1828487371 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the sequence in which the relations are processed during a configuration, grouped by primary key.</source>
+          <target>Gibt die Reihenfolge an, in der die Beziehungen während einer Konfiguration verarbeitet werden, gruppiert nach Primärschlüssel.</target>
         </trans-unit>
         <trans-unit id="Page 1828487371 - Control 606801091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code 1 field</source>
@@ -5907,6 +5927,10 @@
           <source>Volume Calculation Type</source>
           <target>Volumenberechnungstyp</target>
         </trans-unit>
+        <trans-unit id="Table 1762500533 - Field 1737524201 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Relations Calculation Type</source>
+          <target>Beziehungsberechnungstyp aktivieren</target>
+        </trans-unit>
         <trans-unit id="Table 1762500533 - Field 1752262951 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Std. Variants Aligned</source>
           <target>Std. Varianten ausgerichtet</target>
@@ -8166,6 +8190,10 @@
           <source>Condition Code</source>
           <target>Konditionscode</target>
         </trans-unit>
+        <trans-unit id="Table 702556827 - Field 2828093282 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Relations Calculation Type</source>
+          <target>Art der Beziehungsberechnung</target>
+        </trans-unit>
         <trans-unit id="Table 702556827 - Field 2852966117 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error Message</source>
           <target>Fehlermeldung</target>
@@ -8189,6 +8217,10 @@
         <trans-unit id="Table 702556827 - Field 4062202310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Secondary Characteristic Code / Characteristics Set Code</source>
           <target>Sekundärer Merkmal Code</target>
+        </trans-unit>
+        <trans-unit id="Table 702556827 - Field 4154341761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sequence</source>
+          <target>Sequenz</target>
         </trans-unit>
         <trans-unit id="Table 702556827 - Field 526938458 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Relation Type</source>
