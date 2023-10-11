@@ -47,6 +47,10 @@
           <source>Subscribe for a activation</source>
           <target>Richiedere una attivazione</target>
         </trans-unit>
+        <trans-unit id="Codeunit 2513428523 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Posting Policy "%1" is not allowed in %2.</source>
+          <target>Il criterio di registrazione "%1" non è consentito in %2.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3069543008 - Method 3324274913 - NamedType 1449016598" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the journal lines?</source>
           <target>Contabilizzare le righe di registrazione?</target>
@@ -80,8 +84,8 @@
           <target>Zero</target>
         </trans-unit>
         <trans-unit id="Enum 2115411625 - EnumValue 3276221047 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Expected Cost</source>
-          <target>Costo previsto</target>
+          <source>Expected Amount</source>
+          <target>Importo previsto</target>
         </trans-unit>
         <trans-unit id="Enum 282191864 - EnumValue 1309474442 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Statistic Document (No Ledger Entries)</source>
@@ -235,6 +239,14 @@
           <source>Specifies the value of the "Posting Policy" field</source>
           <target>Specifica il valore del campo "Criterio di registrazione"</target>
         </trans-unit>
+        <trans-unit id="PageExtension 2334276998 - Control 1430697993 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the type of cost posting that is used for purchase documents.</source>
+          <target>Specifica il tipo di registrazione dei costi utilizzato per i documenti di acquisto.</target>
+        </trans-unit>
+        <trans-unit id="PageExtension 2334276998 - Control 1665126265 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the type of cost posting that is used for sales documents.</source>
+          <target>Specifica il tipo di registrazione dei costi utilizzato per i documenti di vendita.</target>
+        </trans-unit>
         <trans-unit id="PageExtension 241677295 - Control 1113628781 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Item Entries Policy" field</source>
           <target>Specifica il valore del campo "Criterio di generazione movimenti articoli"</target>
@@ -348,8 +360,8 @@
           <target>Batch registrazioni CDW</target>
         </trans-unit>
         <trans-unit id="Table 2747478188 - Field 1208376509 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Posting Type</source>
-          <target>Tipo registrazione costi</target>
+          <source>Amount Posting Type</source>
+          <target>Tipo registrazione importo</target>
         </trans-unit>
         <trans-unit id="Table 2747478188 - Field 1230414700 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>
@@ -404,8 +416,8 @@
           <target>Movimento CDW</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 1208376509 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Cost Posting Type</source>
-          <target>Tipo registrazione costi</target>
+          <source>Amount Posting Type</source>
+          <target>Tipo registrazione importo</target>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 1317910145 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Qty. to Close</source>
@@ -598,6 +610,10 @@
         <trans-unit id="TableExtension 2084946067 - Field 1430697993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Posting Type</source>
           <target>Tipo registrazione costi</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084946067 - Field 1665126265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Income Posting Type</source>
+          <target>Tipo registrazione ricavi</target>
         </trans-unit>
         <trans-unit id="TableExtension 2084946067 - Field 282191864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posting Policy</source>

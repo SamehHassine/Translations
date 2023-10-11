@@ -9,7 +9,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Entry - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2747478188 - Field 1208376509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Posting Type</source>
+          <source>Amount Posting Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Entry - Field Cost Posting Type - Property Caption</note>
         </trans-unit>
@@ -149,7 +149,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Journal Line - Method TestMaxQtyToClose - NamedType YouCannotCloseQtyErr</note>
         </trans-unit>
         <trans-unit id="Table 509980317 - Field 1208376509 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Cost Posting Type</source>
+          <source>Amount Posting Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Journal Line - Field Cost Posting Type - Property Caption</note>
         </trans-unit>
@@ -342,6 +342,11 @@
           <source>Do you want to post the journal lines?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 CDW Post - Method PostJournalYesNo - NamedType PostJnlBatchQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2513428523 - NamedType 1497386908" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Posting Policy "%1" is not allowed in %2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 CDW Tests - NamedType PostingPolicyNotAllowedErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 479705392 - NamedType 3709114904" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Document Type not handled</source>
@@ -658,6 +663,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090668 - Control EOS041 Posting Policy - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="PageExtension 2334276998 - Control 1430697993 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3348372542">
+          <source>Specifies the type of cost posting that is used for purchase documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090669 - Control EOS041 Cost Posting Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2334276998 - Control 1665126265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3348372542">
+          <source>Specifies the type of cost posting that is used for sales documents.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOSPageExt18090669 - Control EOS041 Income Posting Type - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 77173926 - Action 4169247415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2513602899">
           <source>CDW Entries</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -712,6 +727,11 @@
           <source>Cost Posting Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090667 - Field EOS041 Cost Posting Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084946067 - Field 1665126265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1908046867">
+          <source>Income Posting Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090667 - Field EOS041 Income Posting Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2084946067 - Field 1113628781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1908046867">
           <source>Item Entries Policy</source>
@@ -834,7 +854,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090674 - Field EOS041 Posting Policy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2115411625 - EnumValue 3276221047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Expected Cost</source>
+          <source>Expected Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 CDW Cost Posting Type - EnumValue Expected Cost - Property Caption</note>
         </trans-unit>
