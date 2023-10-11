@@ -6928,16 +6928,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Matching - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2565869148 - Action 2305954697 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Customer Bonus Settlement Journal.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Settl. Jnl. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 2565869148 - Action 2305954697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bonus Settlement Journal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Action Bonus Settl. Jnl. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 2565869148 - Action 318492381 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Bonus Settlement Plan</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8477,16 +8467,6 @@
           <source>Bonus Settlement Jnl.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Matching - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1348237060 - Action 2305954697 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Open Vendor Bonus Settlement Journal.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Settl. Jnl. - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1348237060 - Action 2305954697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bonus Settlement Journal</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Action Bonus Settl. Jnl. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Action 318492381 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Open Bonus Settlement Plan</source>
@@ -10318,6 +10298,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 2339826591 - Method 2642478942 - NamedType 173658532" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"New Amount" must be greater than the sum of negative entries (%1)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Method ValidateAmount - NamedType GtNegEntriesErr</note>
+        </trans-unit>
         <trans-unit id="Report 2339826591 - Control 698539839 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settings</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -10389,19 +10374,29 @@
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Report 2339826591 - Control 2416541386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New Doc Amout</source>
+          <source>New Amount</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 173658532" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New amount must be greater than the sum of neg. entries (%1)</source>
+        <trans-unit id="Report 2339826591 - Control 796907990 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "New Amount (%)" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Method OnValidate - NamedType GtNegEntriesErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control NewDocAmountPercentageField - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 2339826591 - Control 2416541386 - Method 2126772001 - NamedType 2767418744" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New amount cannot be 0</source>
+        <trans-unit id="Report 2339826591 - Control 796907990 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Amount (%)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control New Doc Amout - Method OnValidate - NamedType GtZeroErr</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control NewDocAmountPercentageField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2653902142 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Source Document" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control SourceTextField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 2339826591 - Control 2653902142 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS075 Edit Doc. Amount - Control SourceTextField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1133078386 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Insert External Document</source>
