@@ -7,6 +7,10 @@
           <source>Cannot delete Item %1! Used by %2</source>
           <target>Artikel %1 kann nicht gelöscht werden! Verwendet von %2</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3848347172 - Method 3808092304 - NamedType 3205810991" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 have been crearted from %2 documents.</source>
+          <target>%1 wurden aus %2 Belegen erstellt.</target>
+        </trans-unit>
         <trans-unit id="Enum 152890839 - EnumValue 146219450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order</source>
           <target>Bestellung</target>
@@ -98,6 +102,14 @@
         <trans-unit id="Enum 3117920874 - EnumValue 939084794 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Posted Credit Memo</source>
           <target>Gebuchte Gutschrift</target>
+        </trans-unit>
+        <trans-unit id="Page 2195327178 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <target>Suchen Sie Posten und Belege, die für die Belegnummer und das Buchungsdatum auf dem ausgewählten Beleg vorhanden sind. (Früher hieß diese Aktion „Navigieren“).</target>
+        </trans-unit>
+        <trans-unit id="Page 2195327178 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries...</source>
+          <target>Posten suchen...</target>
         </trans-unit>
         <trans-unit id="Page 2195327178 - Control 1003760969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Shortcut Dimension 2 Code.</source>
@@ -398,6 +410,14 @@
         <trans-unit id="Page 2253083218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Snapshot Setup (ALB)</source>
           <target>Snapshot-Einrichtung (ALB)</target>
+        </trans-unit>
+        <trans-unit id="Page 3636628199 - Action 3538210097 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <target>Suchen Sie Posten und Belege, die für die Belegnummer und das Buchungsdatum auf dem ausgewählten Beleg vorhanden sind. (Früher hieß diese Aktion „Navigieren“).</target>
+        </trans-unit>
+        <trans-unit id="Page 3636628199 - Action 3538210097 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries...</source>
+          <target>Posten suchen...</target>
         </trans-unit>
         <trans-unit id="Page 3636628199 - Control 1003760969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Shortcut Dimension 2 Code.</source>
@@ -719,85 +739,45 @@
           <source>Purchase Credit Memo</source>
           <target>Einkaufsgutschrift</target>
         </trans-unit>
-        <trans-unit id="Report 1243418510 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Purchase Orders.</source>
-          <target>%1 wurden aus %2 Bestellungen erstellt.</target>
-        </trans-unit>
         <trans-unit id="Report 1243418510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create Purchase Order Snapshot (ALB)</source>
-          <target>Bestell-Snapshot erstellen (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 1751366502 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Purchase Invoices.</source>
-          <target>%1 wurden aus %2 Einkaufsrechnungen erstellt.</target>
+          <source>Create Purchase Header Snapshot (ALB)</source>
+          <target>Snapshots aus EK-Kopf erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 1751366502 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Purchase Invoice Snapshot (ALB)</source>
-          <target>Einkaufsrechnungs-Snapshot erstellen (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 2867546866 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Sales Invoices.</source>
-          <target>%1 wurden aus %2 Verkaufsrechnungen erstellt.</target>
+          <target>Snapshots aus EK-Rechnungen erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 2867546866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Sales Invoice Snapshot (ALB)</source>
-          <target>Erstellen von Verkaufsrechnungs-Snapshot (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 3040983032 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Sales Credit Memos.</source>
-          <target>%1 wurden aus %2 Verkaufsgutschriften erstellt.</target>
+          <target>Snapshots aus VK-Rechnungen erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 3040983032 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Sales Cr. Memo Snapshot (ALB)</source>
-          <target>Erstellen von Sales Cr. Memo Snapshot (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 3094569004 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>\%1 were created from %2 Purchase Credit Memos.</source>
-          <target>\Aus %2 Einkaufsgutschriften wurden %1 erstellt.</target>
+          <target>Snapshots aus VK-Gutschriften erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 3094569004 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Purchase Cr. Memo Snapshot (ALB)</source>
-          <target>Erstellen Sie Kauf Cr. Memo Snapshot (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 3823833498 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Sales Orders.</source>
-          <target>%1 wurden aus %2 Aufträgen erstellt.</target>
+          <target>Snapshots aus EK-Gutschriften erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 3823833498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Create Sales Order Snapshot (ALB)</source>
-          <target>Erstellen eines Verkaufsauftrags-Snapshots (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 413851652 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Purchase Receipts.</source>
-          <target>%1 wurden aus %2 Einkaufszugängen erstellt.</target>
+          <source>Create Sales Header Snapshot (ALB)</source>
+          <target>Snapshots aus VK-Kopf erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 413851652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Purchase Receipt Snapshot (ALB)</source>
-          <target>Einkaufsbeleg-Snapshot erstellen (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 4161236186 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Return Receipts.</source>
-          <target>%1 wurden aus %2 Return Receipts erstellt.</target>
+          <target>Snapshots aus EK-Lieferungen erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 4161236186 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Return Receipt Snapshot (ALB)</source>
-          <target>Return Receipt Snapshot erstellen (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 858260812 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Return Shipments.</source>
-          <target>%1 wurden aus %2 Rücksendungen erstellt.</target>
+          <target>Snapshots aus VK-Rücklieferungen erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 858260812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Return Shipment Snapshot (ALB)</source>
-          <target>Snapshot für Rücksendungen erstellen (ALB)</target>
-        </trans-unit>
-        <trans-unit id="Report 973146946 - NamedType 2720473193" translate="yes" size-unit="char" xml:space="preserve">
-          <source>%1 were created from %2 Sales Shipments.</source>
-          <target>%1 wurden aus %2 Verkaufslieferungen erstellt.</target>
+          <target>Snapshots aus EK-Rücklieferungen erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Report 973146946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create Sales Shipment Snapshot (ALB)</source>
-          <target>Erstellen von Verkaufslieferungs-Snapshot (ALB)</target>
+          <target>Snapshots aus VK-Lieferungen erstellen (ALB)</target>
         </trans-unit>
         <trans-unit id="Table 2253083218 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
