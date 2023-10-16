@@ -728,6 +728,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Cycle Line - Field Type No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 4240478136 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Cycle Line - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 4240478136 - Field 1684721775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Version No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -909,7 +914,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Point - Field Predicted Maintenance Time - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 624616754 - Field 2021312970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Priority Status</source>
+          <source>Priority</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Maintenance Point - Field Priority Status - Property Caption</note>
         </trans-unit>
@@ -1562,6 +1567,11 @@
           <source>Work Journal Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Journal Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 869358067 - NamedType 2477347661" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot set the specified value because in %1 %2, the field %3 is %4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Journal Line - NamedType InconsistentFieldValueErr</note>
         </trans-unit>
         <trans-unit id="Table 869358067 - Field 2881306605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Activity Description</source>
@@ -2243,6 +2253,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request - Method PerformFinish - NamedType OpenEntriesErr</note>
         </trans-unit>
+        <trans-unit id="Table 1104065921 - Field 3775055098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Actual Maintenance Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request - Field Actual Maintenance Time - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1104065921 - Field 573373209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2313,6 +2328,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request - Field From Work Request - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1104065921 - Field 2230713639 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Has Active Cycles</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request - Field Has Active Cycles - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1104065921 - Field 922263048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Last Modified By User ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2379,7 +2399,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request - Field Predicted Maintenance Time - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1104065921 - Field 2021312970 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Priority Status</source>
+          <source>Priority</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request - Field Priority Status - Property Caption</note>
         </trans-unit>
@@ -2583,6 +2603,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request Cycle - Field Type No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1778933465 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS060 Work Request Cycle - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1778933465 - Field 1527594213 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2728,10 +2753,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Machine Journal - Post - NamedType PostJnlLinesQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 3375172810" size-unit="char" translate="yes" xml:space="preserve">
-          <source>A work request has been created.</source>
+        <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 223995371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work request %1 has been created. Do you want to open the work request?</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Maintenance Mgt. - Method CreateWorkRequestFromMaintenancePoint - NamedType SingleWRCreatedMsg</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Maintenance Mgt. - Method CreateWorkRequestFromMaintenancePoint - NamedType SingleWRCreatedQst</note>
         </trans-unit>
         <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 4044470727" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 work requests have been created.</source>
@@ -2748,6 +2773,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Maintenance Mgt. - Method EOS060WorkRequestCycle_OnBeforeDeleteEvent - NamedType OpenEntriesErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 1634792758 - Method 165217404 - NamedType 921807613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity description cannot be empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Maintenance Mgt. - Method PostFastWorkRequest - NamedType EmptyActivityDescriptionErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2024626692 - Method 2118915129 - NamedType 1381562752" size-unit="char" translate="yes" xml:space="preserve">
           <source>Target %1 %2 already exist.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2762,6 +2792,11 @@
           <source>The journal lines have been posted.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Work Journal - Post - NamedType JnlLinesPostedTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2297719062 - NamedType 272352229" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nothing to post.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS060 Work Journal - Post - NamedType NothingToPostErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 2297719062 - NamedType 3855131189" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to post the journal lines?</source>
@@ -2837,6 +2872,146 @@
           <source>Specifies the language in which the caption is translated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Caption Translations - Control Language Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2814799924 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the bin code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Bin Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 4235638250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the capacity unit of measure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Cap. Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 47657272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description 2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Description 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 4187992892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the direct unit cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Direct Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1908272084 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Job No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Job No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 561421623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Job Task No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Job Task No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3582421358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line amount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Line Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1747721638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the machine that you want to post an entry for.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Machine No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 10077250 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the maintenance point.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Maintenance Point No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the item or resource.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3710982960 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date you want to assign.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Posting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the quantity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1577567912 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the shortcut dimension 1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Shortcut Dimension 1 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1003760969 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the shortcut dimension 2.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Shortcut Dimension 2 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1621762002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the suggested quantity.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Suggested Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit cost.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit of measure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the variant code.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3059824091 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the lot no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Work Lot No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1747312699 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the work request cycle parameter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Work Request Cycle Parameter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 513533977 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the work request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Work Request No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1130278330 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the serial no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Control Work Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Action 4254856415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy suggested quantity to quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Action Copy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Action 4254856415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Suggested Quantity To Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Fast Work Request Subp. - Action Copy - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 512507888 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Follow Up Action Parameters</source>
@@ -4198,6 +4373,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Control Type No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2013640426 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Cycle Subp - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2013640426 - Action 1402615620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Line</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -4319,7 +4499,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Predicted Maintenance Time - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Control 2021312970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the priority status.</source>
+          <source>Specifies the priority.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point Card - Control Priority Status - Property ToolTip</note>
         </trans-unit>
@@ -4619,7 +4799,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point List - Control Predicted Maintenance Time - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3213519952 - Control 2021312970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the priority status.</source>
+          <source>Specifies the priority.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Maintenance Point List - Control Priority Status - Property ToolTip</note>
         </trans-unit>
@@ -5293,36 +5473,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Fault Sub Area Code - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 463191725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Resolution Code" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Resolution Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 2789558104 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Symptom Code" field.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Symptom Code - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 2419875235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Work Request</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control WorkRequestFields - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 1415774669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the activity description.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control ActivityDescription - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 1415774669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Activity Description</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control ActivityDescription - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the description.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Description - Property ToolTip</note>
-        </trans-unit>
         <trans-unit id="Page 4186650290 - Control 331903282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the Job No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5342,6 +5492,51 @@
           <source>Job Task No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control JobTaskNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 463191725 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Resolution Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Resolution Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 2789558104 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Symptom Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Symptom Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 2419875235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control WorkRequestFields - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 1415774669 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the activity description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control ActivityDescription - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 1415774669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control ActivityDescription - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 3353500109 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the closing notes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Closing Note - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 2844520922 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the contract reference number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Contract Reference No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 486636496 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the fault detection date and time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Fault Detection DateTime - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 1747721638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the machine.</source>
@@ -5379,7 +5574,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Planned Starting Date - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 1180402187 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the planned starting time.</source>
+          <source>Specifies the starting time.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Planned Starting Time - Property ToolTip</note>
         </trans-unit>
@@ -5394,7 +5589,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Predicted Maintenance Time - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 2021312970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the priority status.</source>
+          <source>Specifies the priority.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Priority Status - Property ToolTip</note>
         </trans-unit>
@@ -5408,6 +5603,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Resource No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 260154279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the base unit of measure for the selected resource.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control ResourceUoM - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 260154279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control ResourceUoM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 1658766258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attachments</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Control Attached Documents - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4186650290 - Action 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>View comments.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5419,12 +5634,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Action Comments - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Action 2282416948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Posts the work request.</source>
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Action Post - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post</source>
+          <source>P&amp;ost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 PLM Fast Work Request - Action Post - Property Caption</note>
         </trans-unit>
@@ -5547,16 +5762,6 @@
           <source>Post Activity (PMM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Post Activity - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 539280606 - Method 3173960887 - NamedType 272352229" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Nothing to post.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Post Activity - Method PostJnlLines - NamedType NothingToPostErr</note>
-        </trans-unit>
-        <trans-unit id="Page 539280606 - Method 3173960887 - NamedType 2544846007" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Job is mandatory for %1 %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Post Activity - Method PostJnlLines - NamedType JobMandatoryErr</note>
         </trans-unit>
         <trans-unit id="Page 539280606 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>General</source>
@@ -7333,6 +7538,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control General - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 3775055098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the actual maintenance time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Actual Maintenance Time - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2212518253 - Control 573373209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the posting date.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7424,7 +7634,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Predicted Maintenance Time - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Control 2021312970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the priority status.</source>
+          <source>Specifies the priority.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Control Priority Status - Property ToolTip</note>
         </trans-unit>
@@ -7569,14 +7779,19 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action ChangeStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2282416948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post the journal.</source>
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action Post - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post</source>
+          <source>P&amp;ost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action Post - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Action 3196202479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh the work request cycle schedule.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action RefreshWorkRequest - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 3196202479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Re&amp;fresh Work Request</source>
@@ -7584,7 +7799,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action RefreshWorkRequest - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2843477723 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Update the lines on the Work Request with the lines on the Cycle.</source>
+          <source>Update the lines on the work request with the lines on the cycle.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Card - Action UpdateCycle - Property ToolTip</note>
         </trans-unit>
@@ -7728,6 +7943,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Control Type No. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 1306352976 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Unit of Measure Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1306352976 - Control 1527594213 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Vendor No." field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7793,6 +8013,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Complete - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1306352976 - Action 3862320497 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Duplicate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1306352976 - Action 3862320497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Duplicate</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request Cycles - Action Duplicate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1306352976 - Action 620325036 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Start</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7817,6 +8047,11 @@
           <source>Work Requests (PMM)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2897767351 - Control 3775055098 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the actual maintenance time.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control Actual Maintenance Time - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 573373209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the posting date.</source>
@@ -7863,6 +8098,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control From Work Request - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2897767351 - Control 2230713639 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies if there are active cycle lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control Has Active Cycles - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2897767351 - Control 922263048 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the user who last modified the work request.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7882,6 +8122,11 @@
           <source>Specifies the maintenance point.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control Maintenance Point No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2897767351 - Control 2155264991 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of maintenance according to the UNI 10147 standard.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control Maintenance Type - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 4077268732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the maintenance type.</source>
@@ -7914,7 +8159,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control Predicted Maintenance Time - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 2021312970 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the priority status.</source>
+          <source>Specifies the priority.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Control Priority Status - Property ToolTip</note>
         </trans-unit>
@@ -8039,12 +8284,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Action ChangeStatus - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Action 2282416948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post the journal.</source>
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Action Post - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Action 2282416948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Post</source>
+          <source>P&amp;ost</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS060 Work Request List - Action Post - Property Caption</note>
         </trans-unit>
@@ -8463,11 +8708,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS060 Attachments Provider - EnumValue Standard - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Enum 2175392342 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS060 Maintenance Type - EnumValue   - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Enum 2175392342 - EnumValue 215510385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Autonomous Maintenance</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8542,11 +8782,6 @@
           <source>Resource Group</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS060 Work Req. Capacity Type - EnumValue EOS060 Resource Group - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Enum 2374824744 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source></source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS060 Work Req. Cycle Res. - EnumValue   - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 2374824744 - EnumValue 2870521752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Fast Work Request</source>

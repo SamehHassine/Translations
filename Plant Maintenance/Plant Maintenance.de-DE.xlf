@@ -7,9 +7,13 @@
           <source>Cannot insert a duplicate work journal line for the same work request line and resource.</source>
           <target>Es kann keine doppelte Arbeitserfassungszeile für dieselbe Arbeitsanforderungsposition und Ressource eingefügt werden.</target>
         </trans-unit>
-        <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 3375172810" translate="yes" size-unit="char" xml:space="preserve">
-          <source>A work request has been created.</source>
-          <target>Eine Arbeitsanforderung wurde erstellt.</target>
+        <trans-unit id="Codeunit 1634792758 - Method 165217404 - NamedType 921807613" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Activity description cannot be empty.</source>
+          <target>Die Aktivitätsbeschreibung darf nicht leer sein.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 223995371" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Work request %1 has been created. Do you want to open the work request?</source>
+          <target>Die Arbeitsanforderung %1 wurde erstellt. Möchten Sie die Arbeitsanfrage öffnen?</target>
         </trans-unit>
         <trans-unit id="Codeunit 1634792758 - Method 2796420149 - NamedType 4044470727" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 work requests have been created.</source>
@@ -30,6 +34,10 @@
         <trans-unit id="Codeunit 2297719062 - Method 3231574183 - NamedType 2424420258" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 cannot be empty.</source>
           <target>%1 darf nicht leer sein.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 2297719062 - NamedType 272352229" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Nothing to post.</source>
+          <target>Es gibt nichts zu buchen.</target>
         </trans-unit>
         <trans-unit id="Codeunit 2297719062 - NamedType 3855131189" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the journal lines?</source>
@@ -647,6 +655,14 @@
           <source>F&amp;unctions</source>
           <target>F&amp;unktion</target>
         </trans-unit>
+        <trans-unit id="Page 1306352976 - Action 3862320497 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Duplicate</source>
+          <target>Duplikat</target>
+        </trans-unit>
+        <trans-unit id="Page 1306352976 - Action 3862320497 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Duplicate</source>
+          <target>Duplikat</target>
+        </trans-unit>
         <trans-unit id="Page 1306352976 - Action 620325036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Start</source>
           <target>Starten</target>
@@ -686,6 +702,10 @@
         <trans-unit id="Page 1306352976 - Control 2108151760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Starting Date-Time</source>
           <target>Startdatum/-zeit</target>
+        </trans-unit>
+        <trans-unit id="Page 1306352976 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Feldes "Code der Maßeinheit" an.</target>
         </trans-unit>
         <trans-unit id="Page 1306352976 - Control 2790486453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Comment" field.</source>
@@ -1176,8 +1196,8 @@
           <target>Gibt die Auftragsnummer an.</target>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Control 2021312970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the priority status.</source>
-          <target>Gibt den Prioritätsstatus an.</target>
+          <source>Specifies the priority.</source>
+          <target>Gibt die Priorität an.</target>
         </trans-unit>
         <trans-unit id="Page 1752173526 - Control 2101608298 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the planning value.</source>
@@ -1587,6 +1607,10 @@
           <source>Specifies the value of the "Type" field.</source>
           <target>Gibt den Wert des Feldes "Typ" an.</target>
         </trans-unit>
+        <trans-unit id="Page 2013640426 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Unit of Measure Code" field.</source>
+          <target>Gibt den Wert des Feldes "Code der Maßeinheit" an.</target>
+        </trans-unit>
         <trans-unit id="Page 2013640426 - Control 2790486453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Comment" field.</source>
           <target>Gibt den Wert des Felds "Kommentar" an.</target>
@@ -1617,7 +1641,7 @@
         </trans-unit>
         <trans-unit id="Page 2013640426 - Control 4235638250 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Capacity Unit of Measure Code" field.</source>
-          <target>Gibt den Wert des Felds "Unit Code" an.</target>
+          <target>Gibt den Wert des Felds "Capacity Unit of Measure Code" an.</target>
         </trans-unit>
         <trans-unit id="Page 2013640426 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description 2" field.</source>
@@ -1748,12 +1772,12 @@
           <target>Arbeitsposten</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2282416948 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Post the journal.</source>
-          <target>Buchen Sie das Buch.-Blatt.</target>
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
+          <target>Schließt den Beleg oder das Buch.-Blatt durch Buchen der Beträge und Mengen auf den entsprechenden Konten in den Firmenbüchern ab.</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2282416948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Post</source>
-          <target>Bereitstellen</target>
+          <source>P&amp;ost</source>
+          <target>Bu&amp;chen</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2571907030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entries</source>
@@ -1768,12 +1792,16 @@
           <target>Ersatzteile</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2843477723 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Update the lines on the Work Request with the lines on the Cycle.</source>
+          <source>Update the lines on the work request with the lines on the cycle.</source>
           <target>Aktualisieren Sie die Zeilen im Arbeitsauftrag mit den Zeilen im Zyklus.</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 2843477723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Cycle</source>
           <target>Update-Zyklus</target>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Action 3196202479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Refresh the work request cycle schedule.</source>
+          <target>Aktualisieren Sie den Zeitplan für den Arbeitsanforderungszyklus.</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Action 3196202479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Re&amp;fresh Work Request</source>
@@ -1864,8 +1892,8 @@
           <target>Gibt das Datum und die Uhrzeit an, zu der die Arbeitsanforderung zuletzt geändert wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Control 2021312970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the priority status.</source>
-          <target>Gibt den Prioritätsstatus an.</target>
+          <source>Specifies the priority.</source>
+          <target>Gibt die Priorität an.</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Control 211641476 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the maintenance is external.</source>
@@ -1934,6 +1962,10 @@
         <trans-unit id="Page 2212518253 - Control 3652085922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the work request parent.</source>
           <target>Gibt das übergeordnete Element der Arbeitsanforderung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2212518253 - Control 3775055098 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the actual maintenance time.</source>
+          <target>Gibt die tatsächliche Wartungszeit an.</target>
         </trans-unit>
         <trans-unit id="Page 2212518253 - Control 3961767479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the resource.</source>
@@ -2022,6 +2054,118 @@
         <trans-unit id="Page 2227208402 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Machine Picture</source>
           <target>Maschinenbild</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Action 4254856415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy suggested quantity to quantity</source>
+          <target>Vorschlagsmenge in Menge kopieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Action 4254856415 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy Suggested Quantity To Quantity</source>
+          <target>Vorschlagsmenge in Menge kopieren</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1003760969 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the shortcut dimension 2.</source>
+          <target>Gibt den Wert der Verknüpfungsdimension 2 an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 10077250 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the maintenance point.</source>
+          <target>Gibt die Nummer des Wartungspunktes an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1130278330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the serial no.</source>
+          <target>Gibt die seriennummer an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1577567912 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the shortcut dimension 1.</source>
+          <target>Gibt den Wert der Verknüpfungsdimension 1 an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1621762002 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the suggested quantity.</source>
+          <target>Gibt die vorgeschlagene Menge an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1747312699 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the work request cycle parameter.</source>
+          <target>Gibt den Parameter Arbeitsanforderungszyklus an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1747721638 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the machine that you want to post an entry for.</source>
+          <target>Gibt die Nummer des Computers an, für den Sie einen Posten buchen möchten.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the type.</source>
+          <target>Gibt die Art an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 1908272084 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Job No.</source>
+          <target>Gibt die Auftragsnummer an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2161572060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the location code.</source>
+          <target>Gibt den Speicherort an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit of measure.</source>
+          <target>Legt die einheit fest.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2704404533 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the quantity.</source>
+          <target>Gibt die Menge an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 2814799924 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the bin code.</source>
+          <target>Gibt den Lagerplatz an, an dem die Artikel kommissioniert oder eingelagert werden.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3059824091 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the lot no.</source>
+          <target>Gibt das Los Nr. an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3450651614 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the variant code.</source>
+          <target>Gibt den Variantencode an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description.</source>
+          <target>Gibt die beschreibung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3582421358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the line amount.</source>
+          <target>Gibt den betrag in der zeile an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 3710982960 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the date you want to assign.</source>
+          <target>Gibt das Datum der Zuweisung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 381961415 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the unit cost.</source>
+          <target>Gibt den Einstandspreis an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 4187992892 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the direct unit cost.</source>
+          <target>Gibt die direkten Einstandspreiseinstandskosten an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 4200184881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the item or resource.</source>
+          <target>Gibt die Nummer des Artikels oder der Ressource an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 4235638250 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the capacity unit of measure.</source>
+          <target>Gibt die Kapazitätsmaßeinheit an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the description 2.</source>
+          <target>Gibt die Beschreibung 2 an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 513533977 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the number of the work request.</source>
+          <target>Gibt die Nummer der Arbeitsanforderung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Control 561421623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the Job Task No.</source>
+          <target>Gibt die Projektaufgabe Nr. an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2331182183 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Zeilen</target>
         </trans-unit>
         <trans-unit id="Page 2427944595 - Action 1133711125 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Copy spare parts from work request.</source>
@@ -2540,12 +2684,12 @@
           <target>Arbeitsposten</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Action 2282416948 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Post the journal.</source>
-          <target>Buchen Sie das Buch.-Blatt.</target>
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
+          <target>Schließt den Beleg oder das Buch.-Blatt durch Buchen der Beträge und Mengen auf den entsprechenden Konten in den Firmenbüchern ab.</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Action 2282416948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Post</source>
-          <target>Bereitstellen</target>
+          <source>P&amp;ost</source>
+          <target>Bu&amp;chen</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Action 2571907030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entries</source>
@@ -2624,16 +2768,24 @@
           <target>Gibt das Datum und die Uhrzeit an, zu der die Arbeitsanforderung zuletzt geändert wurde.</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 2021312970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the priority status.</source>
-          <target>Gibt den Prioritätsstatus an.</target>
+          <source>Specifies the priority.</source>
+          <target>Gibt die Priorität an.</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 211641476 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the maintenance is external.</source>
           <target>Gibt an, ob die Wartung extern ist.</target>
         </trans-unit>
+        <trans-unit id="Page 2897767351 - Control 2155264991 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the type of maintenance according to the UNI 10147 standard.</source>
+          <target>Gibt die Art der Wartung gemäß der Norm UNI 10147 an.</target>
+        </trans-unit>
         <trans-unit id="Page 2897767351 - Control 2186326632 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the date and time when the work request was created.</source>
           <target>Gibt das Datum und die Uhrzeit an, zu der die Arbeitsanforderung erstellt wurde.</target>
+        </trans-unit>
+        <trans-unit id="Page 2897767351 - Control 2230713639 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies if there are active cycle lines.</source>
+          <target>Gibt an, ob aktive Zykluslinien vorhanden sind.</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 2790486453 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if the work request has comments.</source>
@@ -2658,6 +2810,10 @@
         <trans-unit id="Page 2897767351 - Control 3652085922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the parent work request.</source>
           <target>Gibt die übergeordnete Arbeitsanforderung an.</target>
+        </trans-unit>
+        <trans-unit id="Page 2897767351 - Control 3775055098 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the actual maintenance time.</source>
+          <target>Gibt die tatsächliche Wartungszeit an.</target>
         </trans-unit>
         <trans-unit id="Page 2897767351 - Control 3961767479 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the resource.</source>
@@ -2904,8 +3060,8 @@
           <target>Gibt den Computer an.</target>
         </trans-unit>
         <trans-unit id="Page 3213519952 - Control 2021312970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the priority status.</source>
-          <target>Gibt den Prioritätsstatus an.</target>
+          <source>Specifies the priority.</source>
+          <target>Gibt die Priorität an.</target>
         </trans-unit>
         <trans-unit id="Page 3213519952 - Control 2101608298 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the planning value.</source>
@@ -3664,12 +3820,12 @@
           <target>Registrieren,Registrieren und schließen</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Action 2282416948 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Posts the work request.</source>
-          <target>Protokolliert die Bewerbung.</target>
+          <source>Finalize the document or journal by posting the amounts and quantities to the related accounts in your company books.</source>
+          <target>Schließt den Beleg oder das Buch.-Blatt durch Buchen der Beträge und Mengen auf den entsprechenden Konten in den Firmenbüchern ab.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Action 2282416948 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Post</source>
-          <target>Bereitstellen</target>
+          <source>P&amp;ost</source>
+          <target>Bu&amp;chen</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Action 503024588 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View comments.</source>
@@ -3684,16 +3840,8 @@
           <target>Gibt den Wartungspunkt an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 1180402187 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the planned starting time.</source>
-          <target>Gibt die geplante Startzeit an.</target>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 1207394189 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Job Task No.</source>
-          <target>Gibt die Nr. Auftragsvorgang.</target>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 1207394189 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Job Task No.</source>
-          <target>Projektaufgabennr.</target>
+          <source>Specifies the starting time.</source>
+          <target>Gibt die Startzeit an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 1415774669 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the activity description.</source>
@@ -3707,9 +3855,17 @@
           <source>Specifies the maintenance work type.</source>
           <target>Gibt den Wartungsarbeitstyp an.</target>
         </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 1527594213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the vendor.</source>
+          <target>Gibt den Kreditor an.</target>
+        </trans-unit>
         <trans-unit id="Page 4186650290 - Control 1548734901 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Fault Reason Code" field.</source>
           <target>Gibt den Wert des Felds "Fehlerursachencode" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 1658766258 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Attachments</source>
+          <target>Anhänge</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 1702057817 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Fault Code" field.</source>
@@ -3720,20 +3876,32 @@
           <target>Gibt den Computer an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 2021312970 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the priority status.</source>
-          <target>Gibt den Prioritätsstatus an.</target>
+          <source>Specifies the priority.</source>
+          <target>Gibt die Priorität an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 2155264991 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the type of maintenance according to the UNI 10147 standard.</source>
           <target>Gibt die Art der Wartung gemäß der Norm UNI 10147 an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 2419875235 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Work Request</source>
-          <target>Arbeitsanforderung</target>
+          <source>General</source>
+          <target>Allgemein</target>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 260154279 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the base unit of measure for the selected resource.</source>
+          <target>Gibt die Basismaßeinheit für die ausgewählte Ressource an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 260154279 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Resource Unit of Measure</source>
+          <target>Ressourceneinheit</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 2789558104 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Symptom Code" field.</source>
           <target>Gibt den Wert des Felds "Symptomcode" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 2844520922 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the contract reference number.</source>
+          <target>Gibt die Vertragsreferenznummer an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 3063762278 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the resource group.</source>
@@ -3743,13 +3911,9 @@
           <source>Specifies the value of the "Fault Area Code" field.</source>
           <target>Gibt den Wert des Felds "Fehlergebietscode" an.</target>
         </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 331903282 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the Job No.</source>
-          <target>Gibt die Nr. begangen.</target>
-        </trans-unit>
-        <trans-unit id="Page 4186650290 - Control 331903282 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Job No.</source>
-          <target>Projektnr.</target>
+        <trans-unit id="Page 4186650290 - Control 3353500109 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the closing notes.</source>
+          <target>Gibt die Schlussnoten an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the description.</source>
@@ -3790,6 +3954,10 @@
         <trans-unit id="Page 4186650290 - Control 463191725 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Resolution Code" field.</source>
           <target>Gibt den Wert des Felds "Auflösungscode" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 4186650290 - Control 486636496 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the fault detection date and time.</source>
+          <target>Gibt das Datum und die Uhrzeit der Fehlererkennung an.</target>
         </trans-unit>
         <trans-unit id="Page 4186650290 - Method 4177352842 - NamedType 3197030684" translate="yes" size-unit="char" xml:space="preserve">
           <source>This work request has not been posted. Close the page anyway?</source>
@@ -4258,14 +4426,6 @@
         <trans-unit id="Page 539280606 - Control 561421623 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Job Task No.</source>
           <target>Gibt die Projektaufgabe Nr. an.</target>
-        </trans-unit>
-        <trans-unit id="Page 539280606 - Method 3173960887 - NamedType 2544846007" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Job is mandatory for %1 %2.</source>
-          <target>Der Auftrag ist für %1 %2 obligatorisch.</target>
-        </trans-unit>
-        <trans-unit id="Page 539280606 - Method 3173960887 - NamedType 272352229" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Nothing to post.</source>
-          <target>Es gibt nichts zu buchen.</target>
         </trans-unit>
         <trans-unit id="Page 539280606 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Post Activity (PMM)</source>
@@ -4800,8 +4960,8 @@
           <target>Datum-Uhrzeit der letzten Änderung</target>
         </trans-unit>
         <trans-unit id="Table 1104065921 - Field 2021312970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Priority Status</source>
-          <target>Prioritätsstatus</target>
+          <source>Priority</source>
+          <target>Priorität</target>
         </trans-unit>
         <trans-unit id="Table 1104065921 - Field 211641476 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>External Maintenance</source>
@@ -4814,6 +4974,10 @@
         <trans-unit id="Table 1104065921 - Field 2186326632 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Created Date-Time</source>
           <target>Datum/Uhrzeit der Erstellung</target>
+        </trans-unit>
+        <trans-unit id="Table 1104065921 - Field 2230713639 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Has Active Cycles</source>
+          <target>Hat aktive Zyklen</target>
         </trans-unit>
         <trans-unit id="Table 1104065921 - Field 2316529775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No. Filter</source>
@@ -4858,6 +5022,10 @@
         <trans-unit id="Table 1104065921 - Field 3652085922 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Work Request</source>
           <target>Von Arbeitsanfrage</target>
+        </trans-unit>
+        <trans-unit id="Table 1104065921 - Field 3775055098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Actual Maintenance Time</source>
+          <target>Tatsächliche Wartungszeit</target>
         </trans-unit>
         <trans-unit id="Table 1104065921 - Field 3961767479 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No.</source>
@@ -5210,6 +5378,10 @@
         <trans-unit id="Table 1778933465 - Field 2316529775 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Resource No. Filter</source>
           <target>Ressourcen-Nr. Filter</target>
+        </trans-unit>
+        <trans-unit id="Table 1778933465 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Einheitencode</target>
         </trans-unit>
         <trans-unit id="Table 1778933465 - Field 2790486453 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comment</source>
@@ -6079,6 +6251,10 @@
           <source>Setup Time</source>
           <target>Rüstzeit</target>
         </trans-unit>
+        <trans-unit id="Table 4240478136 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Einheitencode</target>
+        </trans-unit>
         <trans-unit id="Table 4240478136 - Field 2790486453 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Comment</source>
           <target>Bemerkung</target>
@@ -6372,8 +6548,8 @@
           <target>Projektnr.</target>
         </trans-unit>
         <trans-unit id="Table 624616754 - Field 2021312970 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Priority Status</source>
-          <target>Prioritätsstatus</target>
+          <source>Priority</source>
+          <target>Priorität</target>
         </trans-unit>
         <trans-unit id="Table 624616754 - Field 2101608298 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Planning Value</source>
@@ -6706,6 +6882,10 @@
         <trans-unit id="Table 869358067 - Field 561421623 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Job Task No.</source>
           <target>Projektaufgabennr.</target>
+        </trans-unit>
+        <trans-unit id="Table 869358067 - NamedType 2477347661" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot set the specified value because in %1 %2, the field %3 is %4</source>
+          <target>Sie können den angegebenen Wert nicht festlegen, da in %1 %2 das Feld %3 %4 ist</target>
         </trans-unit>
         <trans-unit id="Table 869358067 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Work Journal Line</source>
