@@ -28,6 +28,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Competence Dates Setup - Field Allow Sim. Posting To - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3545314552 - Field 1850216573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy Accrual Information In General Journal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Competence Dates Setup - Field Copy Accrual Info In GenJnl - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3545314552 - Field 3543173642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Default Settlement Template</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -317,6 +322,11 @@
           <source>Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS G/L Accrual Template - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3907095050 - Field 2608517152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memos - Use Opposite Accounts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS G/L Accrual Template - Field Cr.Memo Opposite Accounts - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3907095050 - Field 1627857220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Days per Month</source>
@@ -938,6 +948,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Accruals Management - Method TestPeriodOpen - NamedType PeriodMustBeOpenErr</note>
         </trans-unit>
+        <trans-unit id="Codeunit 3042290154 - Method 2516864469 - NamedType 1766913774" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%6 %7 can't be reversed because one of its %1's %2 is not included in the %3. Allowed Range: %4 to %5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Accruals Management - Method UndoAccrual - NamedType CompetenceDatesSGL</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3042290154 - Method 2516864469 - NamedType 4050537900" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%3 %4 can't be reversed because the %1 %2 has been blocked for Accruals posting</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS G/L Accruals Management - Method UndoAccrual - NamedType BlockedPeriodErr</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3002368850 - NamedType 3063462520" size-unit="char" translate="yes" xml:space="preserve">
           <source>Analysis View     #1############################\\</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1028,6 +1048,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Competence Dates Setup - Control AccrualsRestrictions - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3545314552 - Control 3418717865 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Journal Options</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Competence Dates Setup - Control GeneralJournalOptions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3545314552 - Control 1850216573 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If this flag is active, upon creating a new General Journal Line, the Accruals information will be copied from the line above, if any.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Competence Dates Setup - Control Copy Accrual Info In GenJnl - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3545314552 - Control 2571957757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>G/L Simulation Posting Restrictions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1092,6 +1122,11 @@
           <source>Indicates which description to use when posting accruals with this template.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Accrual Templates - Control Accrual Description Source - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3849255735 - Control 2141155642 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If activated: the Accrual entries generated by a Purchase Credit Memo (as opposed to those related to a Purchase Invoice) affect the accounts set as Accrued Revenue Account and/or Deferred Revenue Account.The Accrual entries of a Sales Credit Memo (as opposed to those related to a Sales Invoice) affect the accounts set as Accrued Expense Account and/or Deferred Expense Account</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS G/L Accrual Templates - Control Use Opposite Accounts in CrMemo - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2932534431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>G/L Balance by Dim. Matrix (SGL)</source>
