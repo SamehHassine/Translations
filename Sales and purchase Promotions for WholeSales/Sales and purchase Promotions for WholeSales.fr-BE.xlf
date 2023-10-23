@@ -3,6 +3,14 @@
   <file datatype="xml" source-language="en-US" target-language="fr-BE" original="">
     <body>
       <group id="body">
+        <trans-unit id="Codeunit 1400195469 - Method 212636969 - NamedType 3354448114" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 must be blank if %1 is %3</source>
+          <target>%1 doit être vide si %1 est %3</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1400195469 - Method 3898862763 - NamedType 553877745" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Per importo</source>
+          <target>Par importo</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2083513935 - Method 4293701997 - NamedType 2407551971" translate="yes" size-unit="char" xml:space="preserve">
           <source>The Item %1 is not included in the assortment(s) %2</source>
           <target>L’article %1 n’est pas inclus dans l’assortiment(s) %2</target>
@@ -279,6 +287,10 @@
           <source>Prices including VAT cannot be calculated when %1 is %2.</source>
           <target>Les prix TTC ne peuvent pas être calculés quand %1 est identique à %2.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 4237411477 - Method 1665861916 - NamedType 3901192127" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Nothing to Release</source>
+          <target>Rien à libérer</target>
+        </trans-unit>
         <trans-unit id="Codeunit 704200178 - Method 1256179282 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>FREEGIFT</source>
           <target>FREEGIFT</target>
@@ -507,6 +519,22 @@
           <source>Sales Price/Disc.</source>
           <target>Prix de vente/disque.</target>
         </trans-unit>
+        <trans-unit id="Enum 2481027758 - EnumValue 136282145 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Certified</source>
+          <target>Validé</target>
+        </trans-unit>
+        <trans-unit id="Enum 2481027758 - EnumValue 1778072510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Closed</source>
+          <target>Clôturé</target>
+        </trans-unit>
+        <trans-unit id="Enum 2481027758 - EnumValue 3137958037 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Under Development</source>
+          <target>Modification en cours</target>
+        </trans-unit>
+        <trans-unit id="Enum 2481027758 - EnumValue 4137051400 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New</source>
+          <target>Nouveau</target>
+        </trans-unit>
         <trans-unit id="Enum 2597945539 - EnumValue 2530084284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Canvas</source>
           <target>Toile</target>
@@ -518,6 +546,42 @@
         <trans-unit id="Enum 2597945539 - EnumValue 687971871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount</source>
           <target>Remise</target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 1925560535 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount (Multiple)</source>
+          <target>Montant (multiple)</target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 1933309450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Weight (Multiple)</source>
+          <target>Poids net (multiple)</target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 262546830 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity (Multiple)</source>
+          <target>Quantité (multiple)</target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 2704404533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantité</target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 3088522385 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Weight</source>
+          <target>Poids net</target>
+        </trans-unit>
+        <trans-unit id="Enum 264110602 - EnumValue 636392376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Montant</target>
+        </trans-unit>
+        <trans-unit id="Enum 2765059213 - EnumValue 3337756715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Line</source>
+          <target>Ligne de document</target>
+        </trans-unit>
+        <trans-unit id="Enum 2765059213 - EnumValue 4077097412 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Header</source>
+          <target>En-tête du document</target>
         </trans-unit>
         <trans-unit id="Enum 2800709909 - EnumValue 1006062663 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>To Check</source>
@@ -563,6 +627,14 @@
           <source>Not constraint</source>
           <target>Pas de contrainte</target>
         </trans-unit>
+        <trans-unit id="Enum 3100694959 - EnumValue 2284507331 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Per Line</source>
+          <target>Par ligne</target>
+        </trans-unit>
+        <trans-unit id="Enum 3100694959 - EnumValue 3479856313 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Once</source>
+          <target>Une fois</target>
+        </trans-unit>
         <trans-unit id="Enum 3281072811 - EnumValue 3635338911 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Price</source>
           <target>Prix</target>
@@ -570,6 +642,18 @@
         <trans-unit id="Enum 3281072811 - EnumValue 687971871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discount</source>
           <target>Remise</target>
+        </trans-unit>
+        <trans-unit id="Enum 3295536483 - EnumValue 2210851648 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoice Discount</source>
+          <target>Remise de facture</target>
+        </trans-unit>
+        <trans-unit id="Enum 3295536483 - EnumValue 2330764759 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>As Item Charge</source>
+          <target>En tant que frais d’article</target>
+        </trans-unit>
+        <trans-unit id="Enum 3295536483 - EnumValue 3773936953 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>On Line</source>
+          <target>En ligne</target>
         </trans-unit>
         <trans-unit id="Enum 3376439878 - EnumValue 1514282299 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Keep manual and recalculate</source>
@@ -1475,10 +1559,6 @@
           <source>Last Modified By User</source>
           <target>Dernière modification par l'utilisateur</target>
         </trans-unit>
-        <trans-unit id="Page 1674805592 - Control 2284699095 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Counting Level</source>
-          <target>Niveau de comptage</target>
-        </trans-unit>
         <trans-unit id="Page 1674805592 - Control 2393253273 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Date Modified</source>
           <target>Date dern. modification</target>
@@ -1502,10 +1582,6 @@
         <trans-unit id="Page 1674805592 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Statut</target>
-        </trans-unit>
-        <trans-unit id="Page 1674805592 - Control 67248183 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Quantity</source>
-          <target>Quantité minimum</target>
         </trans-unit>
         <trans-unit id="Page 1674805592 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,General,Report,Functions</source>
@@ -1583,10 +1659,6 @@
           <source>Last Modified By User</source>
           <target>Dernière modification par l'utilisateur</target>
         </trans-unit>
-        <trans-unit id="Page 1707466334 - Control 2284699095 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Counting Level</source>
-          <target>Niveau de comptage</target>
-        </trans-unit>
         <trans-unit id="Page 1707466334 - Control 2393253273 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Last Date Modified</source>
           <target>Date dern. modification</target>
@@ -1614,10 +1686,6 @@
         <trans-unit id="Page 1707466334 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Statut</target>
-        </trans-unit>
-        <trans-unit id="Page 1707466334 - Control 67248183 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Quantity</source>
-          <target>Quantité minimum</target>
         </trans-unit>
         <trans-unit id="Page 1707466334 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
           <source>New,General,Report,Functions</source>
@@ -2383,6 +2451,10 @@
           <source>User ID</source>
           <target>Code utilisateur</target>
         </trans-unit>
+        <trans-unit id="Page 1938634196 - Control 278339036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup if BC can apply this discount only once</source>
+          <target>Configurer si BC ne peut appliquer cette réduction qu’une seule fois</target>
+        </trans-unit>
         <trans-unit id="Page 1938634196 - Control 2887023464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Promotion Information</source>
           <target>Informations sur la promotion</target>
@@ -2395,6 +2467,10 @@
           <source>Code</source>
           <target>Code</target>
         </trans-unit>
+        <trans-unit id="Page 1938634196 - Control 3062980853 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Code</source>
+          <target>Code du panier-cadeau</target>
+        </trans-unit>
         <trans-unit id="Page 1938634196 - Control 3085290051 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>From Item Cluster</source>
           <target>À partir du cluster d’éléments</target>
@@ -2406,6 +2482,10 @@
         <trans-unit id="Page 1938634196 - Control 3250442335 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Promo Item No.</source>
           <target>Numéro d’article de promotion</target>
+        </trans-unit>
+        <trans-unit id="Page 1938634196 - Control 3297905313 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Level</source>
+          <target>Niveau de calcul</target>
         </trans-unit>
         <trans-unit id="Page 1938634196 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -2631,6 +2711,202 @@
           <source>Sales Price</source>
           <target>Prix vente</target>
         </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Valeur</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1132314576 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code - Customer</source>
+          <target>Code - Client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1315103634 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description - Item</source>
+          <target>Description - Article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1501705016 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check On Promised Deliv. Date</source>
+          <target>Vérifiez promis Deliv. Date</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1560297723 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Value</source>
+          <target>Valeur seuil totale de la commande</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1684593370 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rule Type</source>
+          <target>Type de règle</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1752926472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Value</source>
+          <target>Valeur seuil de référence unique</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1843562232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternativity Group Code</source>
+          <target>Code de groupe alternativité</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 1949503842 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No. - Item Document</source>
+          <target>Ligne n° - Document d’article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2050678802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Time Modified</source>
+          <target>Heure dern. modification</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 205715888 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2 - Item</source>
+          <target>Description 2 - Article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 20897140 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type - Item</source>
+          <target>Type - Article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2202511042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level - Item</source>
+          <target>Niveau - Article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2258239319 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2 - Customer</source>
+          <target>Description 2 - Client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2264544430 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Shows the sales order with this discount</source>
+          <target>Affiche la commande client avec cette remise</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2390037895 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2393253273 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Date Modified</source>
+          <target>Date dern. modification</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2502086188 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Customer Cluster</source>
+          <target>À partir du cluster client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2618109715 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Filters Code</source>
+          <target>Code des filtres de documents</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2736782809 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description - Customer</source>
+          <target>Description - Client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2887023464 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Promotion Information</source>
+          <target>Informations sur la promotion</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 2906190659 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sell-Out Starting Date</source>
+          <target>Date de départ de la vente</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 291696375 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code - Item</source>
+          <target>Code - Article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3062980853 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Code</source>
+          <target>Code du panier-cadeau</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3085290051 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Item Cluster</source>
+          <target>À partir du cluster d’éléments</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3089508457 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level - Customer</source>
+          <target>Niveau - Client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3114511169 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assortment Code</source>
+          <target>Code d’assortiment</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3130089826 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sell-Out Ending Date</source>
+          <target>Date de fin de vente</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3206417310 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Type</source>
+          <target>Type de seuil de référence unique</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3421419450 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclusive</source>
+          <target>Exclusive</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3464940271 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Coupon Code field.</source>
+          <target>Spécifie la valeur du champ Code de coupon.</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3559883404 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No. - Customer</source>
+          <target>Numéro de ligne - Client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3645727132 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Type</source>
+          <target>Type de seuil de commande total</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3926723303 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Unit of Measure</source>
+          <target>Total Seuil de commande Unité de mesure</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 3974917762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Disc. Code</source>
+          <target>Disque de vente. Code</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 4130293374 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Priority</source>
+          <target>Priorité</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 4198939294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Code devise</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 4232229052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Unit of Measure</source>
+          <target>Seuil de référence unique Unité de mesure</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 458406397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Date fin</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Date début</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 49112784 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Setup if BC can apply this discount only once</source>
+          <target>Configurer si BC ne peut appliquer cette réduction qu’une seule fois</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Statut</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 5497179 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type - Customer</source>
+          <target>Type - Client</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>N° article</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>N° séquence</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Method 1672340052 - NamedType 670950187" translate="yes" size-unit="char" xml:space="preserve">
+          <source>%1 - %2</source>
+          <target>%1 - %2</target>
+        </trans-unit>
+        <trans-unit id="Page 1994278942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Header Discount Line</source>
+          <target>Ligne de remise d’en-tête de vente (SPX)</target>
+        </trans-unit>
         <trans-unit id="Page 2157611510 - Control 1016159581 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Ignore Scalar Breakdown" field</source>
           <target>Spécifie la valeur du champ « Ignorer la panne scalaire »</target>
@@ -2811,6 +3087,14 @@
           <source>Sales Discount Line</source>
           <target>Ligne de réduction des ventes</target>
         </trans-unit>
+        <trans-unit id="Page 2240922259 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies a unique code to be used for item.</source>
+          <target>Spécifie un code unique à utiliser pour l’élément.</target>
+        </trans-unit>
+        <trans-unit id="Page 2240922259 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free REF Identifiers</source>
+          <target>Identifiants REF gratuits</target>
+        </trans-unit>
         <trans-unit id="Page 2245369735 - Action 1218934035 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>SFA Discount</source>
           <target>Remise SFA</target>
@@ -2899,6 +3183,66 @@
           <source>Sales Disc. Line - Doc. Show</source>
           <target>Disque de vente. Line - Doc. Show</target>
         </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 1180363706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Release</source>
+          <target>Lancer</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 215240513 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reopen</source>
+          <target>Rouvrir</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 215240513 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Re&amp;open</source>
+          <target>R&amp;ouvrir</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 293070022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Close</source>
+          <target>Terminer</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 293070022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Close</source>
+          <target>Terminer</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 4032263875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Release</source>
+          <target>Lancer</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Action 4032263875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Re&amp;lease</source>
+          <target>&amp;Lancer</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>General</source>
+          <target>Général</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <target>Spécifie la valeur du champ Code.</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Control 3298781935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Free Gift Code field.</source>
+          <target>Spécifie la valeur du champ Code cadeau gratuit.</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target>Spécifie la valeur du champ Description.</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Control 3471137671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Lines</source>
+          <target>Lignes</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <target>Spécifie la valeur du champ État.</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New,Process,Report,Status</source>
+          <target>Nouveau,Processus,Rapport,État</target>
+        </trans-unit>
+        <trans-unit id="Page 2284466938 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket (SPP)</source>
+          <target>Panier-cadeau (SPP)</target>
+        </trans-unit>
         <trans-unit id="Page 2342676550 - Action 1643041865 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Discount Line - Detail</source>
           <target>Ligne de réduction des ventes - Détail</target>
@@ -2970,6 +3314,206 @@
         <trans-unit id="Page 2342676550 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Lines</source>
           <target>Lignes</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Action 2223207931 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Select All action.</source>
+          <target>Exécute l’action Sélectionner tout.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Action 2223207931 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select All</source>
+          <target>Sélectionner tout</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Action 2427105420 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the Deselect All action.</source>
+          <target>Exécute l’action Désélectionner tout.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Action 2427105420 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deselect All</source>
+          <target>Désélectionner tout</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 1097741352 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Default Gift Quantity field.</source>
+          <target>Spécifie la valeur du champ Quantité de cadeau par défaut.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 1148876473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Max Quantity field.</source>
+          <target>Spécifie la valeur du champ Quantité maximale.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure Code field.</source>
+          <target>Spécifie la valeur du champ Code d’unité de mesure.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 2445482498 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reference</source>
+          <target>Référence</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 3359083468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Alternative Group field.</source>
+          <target>Spécifie la valeur du champ Autre groupe.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target>Spécifie la valeur du champ Description.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 3471137671 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Available Gift Lines</source>
+          <target>Lignes cadeaux disponibles</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 3873431897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Default Gift field.</source>
+          <target>Spécifie la valeur du champ Cadeau par défaut.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 4012422142 - Method 2126772001 - NamedType 2546350958" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You already selected another item of the same alternative group</source>
+          <target>Vous avez déjà sélectionné un autre élément du même groupe alternatif</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 4012422142 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Selected Quantity field.</source>
+          <target>Spécifie la valeur du champ Quantité sélectionnée.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Item No. field.</source>
+          <target>Spécifie la valeur du champ N° d’élément.</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Method 1677541777 - NamedType 1162595851" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift for Sales Disc.: %1, Calc. Level: Line, Item: %2</source>
+          <target>Disque cadeau pour les ventes: %1, Calc. Niveau: Ligne, Article: %2</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Method 1939755056 - NamedType 1162595851" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift for Sales Disc.: %1, Calc. Level: Line, Item: %2</source>
+          <target>Disque cadeau pour les ventes: %1, Calc. Niveau: Ligne, Article: %2</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Method 2948591496 - NamedType 1162595851" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift for Sales Disc.: %1, Calc. Level: Document, Item: %2</source>
+          <target>Disque cadeau pour la vente: %1, Calc. Niveau: Document, Article: %2</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Method 716454850 - NamedType 3684886694" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Select Available Gifts</source>
+          <target>Sélectionnez les cadeaux disponibles</target>
+        </trans-unit>
+        <trans-unit id="Page 2417752604 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Line Selection (SPP)</source>
+          <target>Sélection de la ligne de panier-cadeau (SPP)</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Valeur</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1560297723 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Value</source>
+          <target>Valeur seuil totale de la commande</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1752926472 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Ref. Threshold Value</source>
+          <target>Valeur seuil de réf. unique</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1788234644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level Caption</source>
+          <target>Légende de niveau</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1788234644 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level Caption</source>
+          <target>Légende de niveau</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+          <target>Niveau</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1843562232 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternativity Group Code</source>
+          <target>Code de groupe alternativité</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 2114581088 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Decreasing promotion management</source>
+          <target>Gestion décroissante des promotions</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 2390037895 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 2618109715 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Filters</source>
+          <target>Filtres de documents</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 2664685233 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Promotion Information</source>
+          <target>Informations sur la promotion</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3062980853 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Code</source>
+          <target>Code du panier-cadeau</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3114511169 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assortment Code</source>
+          <target>Code d’assortiment</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3206417310 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Ref. Threshold Type</source>
+          <target>Type de seuil de réf. unique</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3297905313 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Level</source>
+          <target>Niveau de calcul</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>N° ligne</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3421419450 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclusive</source>
+          <target>Exclusive</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3645727132 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Type</source>
+          <target>Type de seuil de commande total</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 3926723303 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Unit of Measure</source>
+          <target>Total Seuil de commande Unité de mesure</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 4232229052 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Unit of Measure</source>
+          <target>Seuil de référence unique Unité de mesure</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 4261383932 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check On Promised Delivery Date</source>
+          <target>Vérifiez la date de livraison promise</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 458406397 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Date fin</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 460889064 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Date début</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Description 2</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>N° article</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Control 772194043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Type</source>
+          <target>Type de calcul</target>
+        </trans-unit>
+        <trans-unit id="Page 2460399062 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Documents (SPP)</source>
+          <target>Documents de remise (SPP)</target>
         </trans-unit>
         <trans-unit id="Page 2660015616 - Action 1735507514 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>&amp;Line</source>
@@ -4735,6 +5279,54 @@
           <source>Get Sales Price</source>
           <target>Extraire prix vente</target>
         </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Valeur</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 2027907519 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Discount Type field.</source>
+          <target>Spécifie la valeur du champ Type de remise.</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 2027907519 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 2390037895 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 2480638018 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Document - Line No. field.</source>
+          <target>Spécifie la valeur du champ Document - Numéro de ligne.</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 2664685233 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Promotion Information</source>
+          <target>Informations sur la promotion</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 3062980853 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Code</source>
+          <target>Code du panier-cadeau</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 3277249065 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Calculation Level field.</source>
+          <target>Spécifie la valeur du champ Niveau de calcul.</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 3277249065 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Level</source>
+          <target>Niveau de calcul</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Control 3974917762 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Disc. Code</source>
+          <target>Disque de vente. Code</target>
+        </trans-unit>
+        <trans-unit id="Page 3618555058 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Discount Lines (SPP)</source>
+          <target>Lignes de remise sur les ventes (SPP)</target>
+        </trans-unit>
         <trans-unit id="Page 3721258016 - Action 3137075697 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Open Entity</source>
           <target>Entité ouverte</target>
@@ -4762,10 +5354,6 @@
         <trans-unit id="Page 3721258016 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Description</target>
-        </trans-unit>
-        <trans-unit id="Page 3721258016 - Control 3692136735 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Number</source>
-          <target>Nombre minimum</target>
         </trans-unit>
         <trans-unit id="Page 3721258016 - Control 4217383732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Filter</source>
@@ -5227,6 +5815,62 @@
           <source>Sales Price</source>
           <target>Prix vente</target>
         </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 1131619133 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Valeur</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 1788234644 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level Caption</source>
+          <target>Légende de niveau</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 1788234644 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level Caption</source>
+          <target>Légende de niveau</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 1789400218 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+          <target>Niveau</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 2390037895 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 2765059213 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Level</source>
+          <target>Niveau de calcul</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 3100694959 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Type</source>
+          <target>Type de calcul</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>N° ligne</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 47657272 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Description 2</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>N° article</target>
+        </trans-unit>
+        <trans-unit id="Page 4069813606 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Document Subform</source>
+          <target>Sous-formulaire de document de remise</target>
+        </trans-unit>
         <trans-unit id="Page 419567700 - Action 649813931 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Assortment</source>
           <target>Afficher l’assortiment</target>
@@ -5286,6 +5930,26 @@
         <trans-unit id="Page 419567700 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Assortment Items (SPP)</source>
           <target>Articles d’assortiment (SPP)</target>
+        </trans-unit>
+        <trans-unit id="Page 4217004924 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Code field.</source>
+          <target>Spécifie la valeur du champ Code.</target>
+        </trans-unit>
+        <trans-unit id="Page 4217004924 - Control 3298781935 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Free Gift Code field.</source>
+          <target>Spécifie la valeur du champ Code cadeau gratuit.</target>
+        </trans-unit>
+        <trans-unit id="Page 4217004924 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target>Spécifie la valeur du champ Description.</target>
+        </trans-unit>
+        <trans-unit id="Page 4217004924 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Status field.</source>
+          <target>Spécifie la valeur du champ État.</target>
+        </trans-unit>
+        <trans-unit id="Page 4217004924 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket List (SPP)</source>
+          <target>Liste de paniers-cadeaux (SPX)</target>
         </trans-unit>
         <trans-unit id="Page 47834340 - Control 2491730758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Date and Time</source>
@@ -5427,6 +6091,42 @@
           <source>Filter Card</source>
           <target>Carte de filtre</target>
         </trans-unit>
+        <trans-unit id="Page 627747812 - Control 1097741352 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Default Gift Quantity field.</source>
+          <target>Spécifie la valeur du champ Quantité de cadeau par défaut.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 1148876473 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Max Quantity field.</source>
+          <target>Spécifie la valeur du champ Quantité maximale.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 2385270358 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure Code field.</source>
+          <target>Spécifie la valeur du champ Code d’unité de mesure.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 3359083468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Alternative Group field.</source>
+          <target>Spécifie la valeur du champ Autre groupe.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Description field.</source>
+          <target>Spécifie la valeur du champ Description.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 3873431897 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Default Gift field.</source>
+          <target>Spécifie la valeur du champ Cadeau par défaut.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 568743302 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Item No. field.</source>
+          <target>Spécifie la valeur du champ N° d’élément.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Control 64516088 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the REF field.</source>
+          <target>Spécifie la valeur du champ REF.</target>
+        </trans-unit>
+        <trans-unit id="Page 627747812 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Lines(SPP)</source>
+          <target>Lignes de paniers-cadeaux (SPP)</target>
+        </trans-unit>
         <trans-unit id="Page 65180125 - Action 1180363706 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Release</source>
           <target>Lancer</target>
@@ -5531,6 +6231,14 @@
           <source>Co&amp;mments</source>
           <target>Co&amp;mmentaires</target>
         </trans-unit>
+        <trans-unit id="Page 65180125 - Action 771484294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Header Discounts</source>
+          <target>Remises sur les en-têtes</target>
+        </trans-unit>
+        <trans-unit id="Page 65180125 - Action 771484294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Header Discounts</source>
+          <target>Remises sur les en-têtes</target>
+        </trans-unit>
         <trans-unit id="Page 65180125 - Action 840833448 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Discounts</source>
           <target>Preferentiels</target>
@@ -5550,6 +6258,10 @@
         <trans-unit id="Page 65180125 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
           <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Page 65180125 - Control 1950729902 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the Net Price field.</source>
+          <target>Spécifie la valeur du champ Prix net.</target>
         </trans-unit>
         <trans-unit id="Page 65180125 - Control 2195334052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Items</source>
@@ -5627,9 +6339,17 @@
           <source>Constraints</source>
           <target>Contraintes</target>
         </trans-unit>
+        <trans-unit id="Page 65180125 - Control 3914465265 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Items</source>
+          <target>Articles</target>
+        </trans-unit>
         <trans-unit id="Page 65180125 - Control 4087500016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order Total</source>
           <target>Total des commandes</target>
+        </trans-unit>
+        <trans-unit id="Page 65180125 - Control 4100939454 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Documents</source>
+          <target>Documents</target>
         </trans-unit>
         <trans-unit id="Page 65180125 - Control 4198939294 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Currency Code</source>
@@ -6599,6 +7319,18 @@
           <source>Sales Price Line</source>
           <target>Ligne de prix de vente</target>
         </trans-unit>
+        <trans-unit id="Table 1239978758 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1239978758 - Field 3137062411 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assigned To Item No.</source>
+          <target>Affecté à l’article n°</target>
+        </trans-unit>
+        <trans-unit id="Table 1239978758 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free REF Identifier</source>
+          <target>Identifiant REF gratuit</target>
+        </trans-unit>
         <trans-unit id="Table 1303474623 - Field 1132441025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cr. M. Disc. % Sell-Out</source>
           <target>Cr. M. Disc. % Sell-Out</target>
@@ -6822,6 +7554,10 @@
         <trans-unit id="Table 162813636 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
           <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 162813636 - Field 1950729902 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Net Price</source>
+          <target>Prix net</target>
         </trans-unit>
         <trans-unit id="Table 162813636 - Field 222620933 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Notes</source>
@@ -7155,6 +7891,10 @@
           <source>Starting Date</source>
           <target>Date début</target>
         </trans-unit>
+        <trans-unit id="Table 1659933995 - Field 49112784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Once</source>
+          <target>Utiliser une fois</target>
+        </trans-unit>
         <trans-unit id="Table 1659933995 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Statut</target>
@@ -7435,6 +8175,30 @@
           <source>Sales Discount Line - Document</source>
           <target>Ligne de réduction des ventes - Document</target>
         </trans-unit>
+        <trans-unit id="Table 1829415510 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 1829415510 - Field 1878130204 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Additional Charge,Discount</source>
+          <target>En supplément,Réduction</target>
+        </trans-unit>
+        <trans-unit id="Table 1829415510 - Field 2128882689 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Occurrences per Customer</source>
+          <target>Occurrences par client</target>
+        </trans-unit>
+        <trans-unit id="Table 1829415510 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 1829415510 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 1829415510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Coupon Additional Charges</source>
+          <target>Frais supplémentaires de coupon</target>
+        </trans-unit>
         <trans-unit id="Table 1868079085 - Field 1867544961 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Quantity for each</source>
           <target>Quantité pour chaque</target>
@@ -7554,6 +8318,78 @@
         <trans-unit id="Table 2024887866 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Pr./Disc. Sales Line Set ID</source>
           <target>ID de l’ensemble de lignes de vente Pr./Disc.</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 1097741352 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Gift Quantity</source>
+          <target>Quantité de cadeaux par défaut</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 1148876473 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Max Quantity</source>
+          <target>Quantité maximale</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Code unité</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 3062980853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Code</source>
+          <target>Code du panier-cadeau</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No.</source>
+          <target>N° ligne</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 3359083468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternative Group</source>
+          <target>Groupe alternatif</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 3873431897 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Default Gift</source>
+          <target>Cadeau par défaut</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 4012422142 - Method 2126772001 - NamedType 4051869107" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The Maximum Quantity can be %1</source>
+          <target>La quantité maximale peut être %1</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 4012422142 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Selected Quantity</source>
+          <target>Quantité sélectionnée</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>N° article</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Field 64516088 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>REF</source>
+          <target>REF</target>
+        </trans-unit>
+        <trans-unit id="Table 2074372328 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Line</source>
+          <target>Ligne de paniers-cadeaux</target>
+        </trans-unit>
+        <trans-unit id="Table 21043951 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 21043951 - Field 3298781935 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Free Gift Code</source>
+          <target>Code cadeau gratuit</target>
+        </trans-unit>
+        <trans-unit id="Table 21043951 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 21043951 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Statut</target>
+        </trans-unit>
+        <trans-unit id="Table 21043951 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Header</source>
+          <target>En-tête du panier-cadeau</target>
         </trans-unit>
         <trans-unit id="Table 2156029219 - Field 1132441025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cr. M. Disc. % Sell-Out</source>
@@ -7759,6 +8595,10 @@
           <source>Rule Type</source>
           <target>Type de règle</target>
         </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 1752926472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Value</source>
+          <target>Valeur seuil de référence unique</target>
+        </trans-unit>
         <trans-unit id="Table 2381811323 - Field 1789400218 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Level</source>
           <target>Niveau</target>
@@ -7779,6 +8619,10 @@
           <source>Threshold Type</source>
           <target>Type de seuil</target>
         </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 2264544430 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Used</source>
+          <target>Remise utilisée</target>
+        </trans-unit>
         <trans-unit id="Table 2381811323 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unit of Measure Code</source>
           <target>Code unité</target>
@@ -7794,6 +8638,10 @@
         <trans-unit id="Table 2381811323 - Field 2601276131 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 2655688942 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Filters Code</source>
+          <target>Code des filtres de documents</target>
         </trans-unit>
         <trans-unit id="Table 2381811323 - Field 2664685233 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Promotion Information</source>
@@ -7822,6 +8670,10 @@
         <trans-unit id="Table 2381811323 - Field 3250442335 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Promo Item No.</source>
           <target>Numéro d’article de promotion</target>
+        </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 3297905313 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Level</source>
+          <target>Niveau de calcul</target>
         </trans-unit>
         <trans-unit id="Table 2381811323 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
@@ -7855,6 +8707,10 @@
           <source>Currency Code</source>
           <target>Code devise</target>
         </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 4232229052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold U.o.M.</source>
+          <target>Seuil de référence unique U.o.M.</target>
+        </trans-unit>
         <trans-unit id="Table 2381811323 - Field 4259759119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Based on Original Amount</source>
           <target>Basé sur le montant original</target>
@@ -7879,6 +8735,10 @@
           <source>Description 2</source>
           <target>Description 2</target>
         </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 49112784 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Once</source>
+          <target>Utiliser une fois</target>
+        </trans-unit>
         <trans-unit id="Table 2381811323 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item No.</source>
           <target>N° article</target>
@@ -7886,6 +8746,10 @@
         <trans-unit id="Table 2381811323 - Field 67248183 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Minimum Quantity</source>
           <target>Quantité minimum</target>
+        </trans-unit>
+        <trans-unit id="Table 2381811323 - Field 772194043 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Calculation Type</source>
+          <target>Type de calcul</target>
         </trans-unit>
         <trans-unit id="Table 2381811323 - Field 794970065 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Promo Scenery Code</source>
@@ -8379,6 +9243,10 @@
           <source>Ignore Scalar Breakdown</source>
           <target>Ignorer la panne scalaire</target>
         </trans-unit>
+        <trans-unit id="Table 2858204637 - Field 1094872406 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Application Type</source>
+          <target>Type d’application</target>
+        </trans-unit>
         <trans-unit id="Table 2858204637 - Field 1609432433 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable in SFA Discount</source>
           <target>Activer dans SFA Discount</target>
@@ -8394,6 +9262,14 @@
         <trans-unit id="Table 2858204637 - Field 1843562232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Alternativity Group Code</source>
           <target>Code de groupe alternativité</target>
+        </trans-unit>
+        <trans-unit id="Table 2858204637 - Field 2330706724 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item Charge No.</source>
+          <target>N° de frais d’article</target>
+        </trans-unit>
+        <trans-unit id="Table 2858204637 - Field 2390037895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
         </trans-unit>
         <trans-unit id="Table 2858204637 - Field 3004954119 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Code</source>
@@ -8656,7 +9532,7 @@
           <target>Niveau de hiérarchie</target>
         </trans-unit>
         <trans-unit id="Table 3290458444 - Field 1843562232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Alternativity Group Code</source>
+          <source>Line Group</source>
           <target>Code de groupe alternativité</target>
         </trans-unit>
         <trans-unit id="Table 3290458444 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -8671,6 +9547,10 @@
           <source>Assortment Code</source>
           <target>Code d’assortiment</target>
         </trans-unit>
+        <trans-unit id="Table 3290458444 - Field 311566335 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Pallet Minimum Number</source>
+          <target>Nombre minimum de palettes</target>
+        </trans-unit>
         <trans-unit id="Table 3290458444 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No.</source>
           <target>N° ligne</target>
@@ -8678,10 +9558,6 @@
         <trans-unit id="Table 3290458444 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Description</target>
-        </trans-unit>
-        <trans-unit id="Table 3290458444 - Field 3692136735 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Number</source>
-          <target>Nombre minimum</target>
         </trans-unit>
         <trans-unit id="Table 3290458444 - Field 4285612108 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filter Type</source>
@@ -8770,10 +9646,6 @@
         <trans-unit id="Table 3614321171 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Statut</target>
-        </trans-unit>
-        <trans-unit id="Table 3614321171 - Field 67248183 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Minimum Quantity</source>
-          <target>Quantité minimum</target>
         </trans-unit>
         <trans-unit id="Table 3614321171 - Method 3760999749 - NamedType 3030556193" translate="yes" size-unit="char" xml:space="preserve">
           <source>The assortment appears to be associated with one or more customer hierarchies. The assortment check will continue on the previously certified items</source>
@@ -8926,6 +9798,254 @@
         <trans-unit id="Table 3715271288 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Promo Header</source>
           <target>Tête promo</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1131619133 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Value</source>
+          <target>Valeur</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1132314576 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1315103634 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1501705016 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check on Promised Deliv. Date</source>
+          <target>Vérifiez promis Deliv. Date</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1560297723 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Value</source>
+          <target>Valeur seuil totale de la commande</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1569188909 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line Discount Type</source>
+          <target>Type de remise de ligne</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1684593370 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Rule Type</source>
+          <target>Type de règle</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1752926472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Value</source>
+          <target>Valeur seuil de référence unique</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1843562232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Alternativity Group Code</source>
+          <target>Code de groupe alternativité</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 1949503842 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No. - Item Document</source>
+          <target>Ligne n° - Document d’article</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2050678802 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Time Modified</source>
+          <target>Heure dern. modification</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 205715888 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Description 2</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 20897140 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2202511042 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+          <target>Niveau</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2226859227 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Constr. General</source>
+          <target>Vérifier Constr. Général</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2258239319 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description 2</source>
+          <target>Description 2</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2267616079 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Constr. Assortment</source>
+          <target>Vérifier Constr. Assortiment</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2363328873 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document - Type</source>
+          <target>Document - Type</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2385270358 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <target>Code unité</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2390037895 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Type</source>
+          <target>Type de remise</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2393253273 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Last Date Modified</source>
+          <target>Date dern. modification</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2480638018 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document - Line No.</source>
+          <target>Document - Numéro de ligne</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2502086188 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Customer Cluster</source>
+          <target>À partir du cluster client</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2618109715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document Filters Code</source>
+          <target>Code des filtres de documents</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2664685233 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Promotion Information</source>
+          <target>Informations sur la promotion</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2736782809 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2906190659 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sell-Out Starting Date</source>
+          <target>Date de départ de la vente</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 291696375 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code</source>
+          <target>Code</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 2978065947 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Constr. Table Filter</source>
+          <target>Vérifier le filtre de table Constr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3062980853 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Gift Basket Code</source>
+          <target>Code du panier-cadeau</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3085290051 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>From Item Cluster</source>
+          <target>À partir du cluster d’éléments</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3089508457 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Level</source>
+          <target>Niveau</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3114511169 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Assortment Code</source>
+          <target>Code d’assortiment</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3130089826 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sell-Out Ending Date</source>
+          <target>Date de fin de vente</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3182860744 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sorting Order</source>
+          <target>Ordre de tri</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3206417310 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold Type</source>
+          <target>Type de seuil de référence unique</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3421419450 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Exclusive</source>
+          <target>Exclusive</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3450651614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Variant Code</source>
+          <target>Code variante</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3461834954 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Description</source>
+          <target>Description</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3559883404 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Line No. - Customer</source>
+          <target>Numéro de ligne - Client</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3645727132 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold Type</source>
+          <target>Type de seuil de commande total</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3716235426 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Usage Limit</source>
+          <target>Vérifier la limite d’utilisation</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3826689261 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Failed</source>
+          <target>Raté</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 385952146 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Constr. Single Reference</source>
+          <target>Vérifier Constr. Référence unique</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3926723303 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Total Order Threshold U.o.M.</source>
+          <target>Total des commandes Seuil U.o.M.</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 3974917762 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Disc. Code</source>
+          <target>Disque de vente. Code</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 4130293374 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Priority</source>
+          <target>Priorité</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 4198939294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Currency Code</source>
+          <target>Code devise</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 4232229052 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Single Reference Threshold U.o.M.</source>
+          <target>Seuil de référence unique U.o.M.</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 458406397 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Ending Date</source>
+          <target>Date fin</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 460889064 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Date début</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 486908828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document - No.</source>
+          <target>Document - Non.</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Status</source>
+          <target>Statut</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 5497179 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Type</source>
+          <target>Type</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 568743302 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Item No.</source>
+          <target>N° article</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 720233546 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Use Discount</source>
+          <target>Utiliser la remise</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 757882997 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Constr. Quantity Range</source>
+          <target>Vérifier la gamme de quantités constr.</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 763763477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Check Constr. Total Order</source>
+          <target>Vérifier constr. Total Order</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 883711285 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry No.</source>
+          <target>N° séquence</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Field 90423963 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Selected</source>
+          <target>Sélectionné</target>
+        </trans-unit>
+        <trans-unit id="Table 3757655553 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales Document Discount Line</source>
+          <target>Ligne de remise sur les documents de vente</target>
         </trans-unit>
         <trans-unit id="Table 419567700 - Field 1843562232 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Alternativity Group Code</source>
@@ -9438,6 +10558,14 @@
         <trans-unit id="Table 932997745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Discount Line - Detail</source>
           <target>Ligne de réduction des ventes - Détail</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1214458115 - Field 2746359761 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Original Shipment Method Code</source>
+          <target>Code de méthode d’expédition d’origine</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 1852154732 - Field 3516118543 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Discount Amount</source>
+          <target>Montant de la remise</target>
         </trans-unit>
         <trans-unit id="TableExtension 229539606 - Field 2368801472 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Type</source>
