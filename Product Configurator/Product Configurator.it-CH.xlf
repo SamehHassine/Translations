@@ -1384,92 +1384,92 @@
           <target>Traduzioni</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 1008990988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Max Lenght field</source>
-          <target>Specifica il valore del campo Lunghezza massima</target>
+          <source>Can only be used with structure type characteristics. Prevents a characteristic from taking more characters than indicated.</source>
+          <target>Dedicata a caratteristiche di tipo struttura. Impedisce che una caratteristica possa assumere valori superiori a quello indicato.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 1434804902 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Step field</source>
-          <target>Specifica il valore del campo Passo</target>
+          <source>Only for characteristics of type «measure», it is only used by the batch configuration. Determines the increment for characteristics of type «measure».</source>
+          <target>Vale solo per le caratteristiche di tipo misura e viene utilizzato nella configurazione batch. Determina l'incremento che deve essere fatto per le caratteristiche di tipo misura.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 1461151337 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Mandatory field</source>
           <target>Specifica il valore del campo Obbligatorio</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 1528477310 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Disable Linked Charac. Copy field</source>
-          <target>Specifica il valore del campo Disabilità copia caratteristiche collegate (prezzi)</target>
+          <source>Used for master characteristics with connection. By activating this field, the Align Connections function does not value the "Linked Characteristic Code" and "Linked Characteristic Value" fields in the connected characteristics. In the presence of multiple characteristics that insist on the same connected characteristic it is very useful.</source>
+          <target>Utilizzato per le caratteristiche master e quelle con connessione. Attivando questo campo, la funzione Allinea coincidenze non valorizza i campi "Codice caratteristica collegata" e "Valore caratteristica collegata" nelle caratteristiche connesse. In presenza di molteplici caratteristiche che insistono sulla stessa caratteristica connessa è molto utile.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 1692399443 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Attribute ID field</source>
-          <target>Specifica il valore del campo ID attributo</target>
+          <source>Specifies the Attribute ID. Used for the mapping between characteristics and attributes.</source>
+          <target>Indica l'ID Attributo. Utilizzato per la mappatura fra caratteristiche e attributi.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 1735060826 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Connection field</source>
-          <target>Specifica il valore del campo Connessione</target>
+          <source>The value of a master characteristic must be indicated. Use the "Align Connection" action to update the other values.</source>
+          <target>Va indicato il valore di una caratteristica master. Utilizzare l'azione «Allinea coincidenze» per aggiornare gli altri valori. Si consiglia la schedulazione della procedura perché i tempi di esecuzione potrebbero essere lunghi.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2417871994 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Surcharge Type field</source>
-          <target>Specifica il valore del campo Tipo maggiorazione</target>
+          <source>Type used to insert the surcharge line. The allowed values are G/L Account, Item, Resource, Fixed Asset, Charge (Item).</source>
+          <target>Indica il tipo con cui viene inserita la riga di maggiorazione (non optional). I valori ammessi sono Conto C/G, Articolo, Risorsa, Cespite, Addebito (Articolo).</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2659520720 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Without Values field</source>
-          <target>Specifica il valore del campo Senza valori</target>
+          <source>Allows to use a structure characteristic without specifying a predefined list of values.</source>
+          <target>Consente di utilizzare una caratteristica di tipo struttura senza indicare un elenco predefinito di valori.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2793404423 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Acronym field</source>
-          <target>Specifica il valore del campo Acronimo</target>
+          <source>Is used to compose the item description before any characteristic value code or description. There are two ways to configure an item's description: 1. as defined by the rule using the “Format Description” and “Format Description 2” fields. 2. configurator uses all characteristics code and description based on these settings: “Use Code” and “Use Description” fields in characteristics and characteristics values tables.</source>
+          <target>Viene utilizzato nella composizione della descrizione dell'articolo prima dell'eventuale codice o descrizione del valore della caratteristica. Esistono due modalità per configurare la descrizione di un articolo: 1. Secondo la definizione della regola: opzione più frequente per un maggiore controllo 2. Con una somma di caratteristiche: in mancanza di una regola con istruzioni per la compilazione della descrizione, il sistema compone la descrizione dell'articolo andando a leggere nelle caratteristiche quelle con il flag Usa codice e Usa descrizione.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2854340050 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Code field</source>
-          <target>Specifica il valore del campo Usa codice</target>
+          <source>if active, the configurator uses the characteristic value for the creation of the item description.</source>
+          <target>Se attivo inserisce il codice del valore caratteristica nella descrizione articolo.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2879530804 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Numeric Format field</source>
-          <target>Specifico il valore del campo Formato numerico</target>
+          <source>Specifies the expression used to format the code in AL language (for example, &lt;Precision,2:2&gt;&lt;Standard Format,2&gt;). It is only used for relations of type «higher level», in order to customize how to format characteristics of type «structure» calculated by a formula.</source>
+          <target>Indica l'espressione che in AL viene utilizzata per formattare il codice (ad esempio &lt;Precision,2:2&gt;&lt;Standard Format,2&gt;). Viene usata solo per le relazioni di tipo a livello superiore per formattare in modo custom caratteristiche di tipo struttura calcolate con formula.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 2901750256 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Attribute field</source>
-          <target>Specifica il valore del campo Attributo</target>
+          <source>Specifies the Attribute Value. Used for the mapping between characteristics and attributes.</source>
+          <target>Indica il Valore Attributo. Utilizzato per la mappatura fra caratteristiche e attributi.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Code field</source>
-          <target>Specifica il valore del campo Codice</target>
+          <source>Characteristic code.</source>
+          <target>Codice caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3160886077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Value Posting field</source>
-          <target>Specifica il valore del campo Registrazione valore</target>
+          <source>Determines how dimensions are handled.</source>
+          <target>Determina la tipologia di gestione della dimensione.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3387829703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Description field</source>
-          <target>Specifica il valore del campo Usa descrizione</target>
+          <source>if active, the configurator uses the description of the characteristic value for the creation of the item description.</source>
+          <target>Se attivo inserisce la descrizione del valore caratteristica nella descrizione articolo.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Description field</source>
-          <target>Specifica il valore del campo Descrizione</target>
+          <source>Characteristic description.</source>
+          <target>Descrizione caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3614475802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Dimension Value Code field</source>
-          <target>Specifica il valore del campo Codice valore dimensioni</target>
+          <source>Enabled only when configuring items. If this field is not empty, the dimension value is inherited by the newly created item.</source>
+          <target>Utilizzato solo se il configuratore crea articoli. Se questo campo contiene un valore, quel valore dimensione viene portata sull'articolo creato.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3743924233 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Surcharge No. field</source>
-          <target>Specifica il valore del campo Nr. maggiorazione</target>
+          <source>Code used to insert the surcharge line.</source>
+          <target>Indica il codice con cui viene inserita la riga di maggiorazione (non optional).</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 3795808207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Dimension Code field</source>
-          <target>Specifica il valore del campo Codice dimensione</target>
+          <source>Enabled only when configuring items. If this field is not empty, the dimension is inherited by the newly created item.</source>
+          <target>Utilizzato solo se il configuratore crea articoli. Se questo campo contiene un valore, quella dimensione viene portata sull'articolo creato.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Sequence field</source>
           <target>Specifica il valore del campo Sequenza</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 4209475936 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Master field</source>
-          <target>Specifica il valore del campo Master</target>
+          <source>Indicates that the values of one characteristic can be used by other characteristics.</source>
+          <target>Indica che i valori di una caratteristica possono essere utilizzati da altre caratteristiche.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Control 616205043 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Decoding Type field</source>
-          <target>Specifica il valore del campo Tipo decodifica</target>
+          <source>Allowed values are Structure and Measure. Structure: characteristics that take a defined list of pre-encoded alphanumeric or numeric values. Measure: characteristics that accept only free-entry numeric values.</source>
+          <target>Tipo Decodifica: Assume solo i valori Struttura e Misura. 1. Struttura: caratteristiche che assumono un elenco definito di valori alfanumerici o numerici pre-codificati. 2. Misura: caratteristiche che accettano solo valori numerici ad inserimento libero.</target>
         </trans-unit>
         <trans-unit id="Page 1865153025 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Characteristics (CFG)</source>
@@ -2172,100 +2172,100 @@
           <target>Valori</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1005932042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Trigger Custom Code field</source>
-          <target>Specifica il valore del campo Esegui codice personalizzato</target>
+          <source>If activated during the validation of the characteristic value, it executes any custom code associated with the rule. Contact your partner for information on how to extend the configurator.</source>
+          <target>Se attivato in fase di validazione del valore della caratteristica esegue l'eventuale codice personalizzato associato alla regola. Contattare il proprio partner per informazione su come estendere il configuratore.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1062612596 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the To Value field</source>
-          <target>Specifica il valore del campo A valore</target>
+          <source>Used only for measure-type characteristics allows to set an upper limit.</source>
+          <target>Utilizzato solo per le caratteristiche di tipo misura consente di impostare un limite superiore.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1379071524 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rule Description field</source>
           <target>Specifica il valore del campo Descrizione regola</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1461151337 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Mandatory field</source>
-          <target>Specifica il valore del campo Obbligatorio</target>
+          <source>Defines whether the characteristic is Mandatory or Optional for the rule.</source>
+          <target>Definisce se la caratteristica è Obbligatoria o Opzionale per la regola.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1533679336 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Exclude From Releations Calc. With Conditions field.</source>
-          <target>Specifica il valore del campo Escludi dal calcolo delle relazioni con condizioni.</target>
+          <source>Excludes the characteristic from the calculation of conditional relations. To be enabled for all characteristics that are not used in rule condition relations. Very important for performance. In the rule, there is a certificate action that allows you to set it automatically.</source>
+          <target>Esclude la caratteristica dal calcolo delle relazioni con condizione. Da attivare per tutte le caratteristiche che non vengono utilizzate nelle relazioni con condizione della regola. Molto importante per le performance. Nella regola esiste l'azione certifica che permette di impostarlo automaticamente.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1685213283 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Price List Surcharge field</source>
-          <target>Specifica il valore del campo Maggiorazione listino</target>
+          <source>It allows to define whether the characteristic is used in the calculation of price list surcharges.</source>
+          <target>Permette di definire se la caratteristica viene utilizzata nel calcolo delle maggiorazioni di listino.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1735060826 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Connection field</source>
-          <target>Specifica il valore del campo Connessione</target>
+          <source>Indicate the master rule to which this characteristic is linked. Use the "Align Connection" action to update the values.</source>
+          <target>Indicare la regola master a cui questa caratteristica fa riferimento. Utilizzare l'azione «Allinea coincidenze» per aggiornare i valori. Si consiglia la schedulazione della procedura perché i tempi di esecuzione potrebbero essere lunghi.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 1842525789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Exclude the Characteristic from the calculation Surcharge</source>
-          <target>Escludere la Caratteristica dal calcolo maggiorazioni</target>
+          <source>Excludes the characteristic from the calculation of surcharges. Very important for performance.</source>
+          <target>Esclude la caratteristica dal calcolo delle maggiorazioni. Molto importante per le performance.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 2200046723 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Indentation field</source>
-          <target>Specifica il valore del campo Indentazione</target>
+          <source>Allows to set an indentation to the characteristic when prompted to the user.</source>
+          <target>Consente di impostare una indentazione alla caratteristica quando viene richiesta all'operatore.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 2680239491 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Get Output From Custom Code field</source>
-          <target>Specifica il valore del campo Leggi output da codice personalizzato</target>
+          <source>If activated during the validation of the characteristic value, it executes any custom code associated with the rule and assigns the value to the characteristic. Contact your partner for information on how to extend the configurator.</source>
+          <target>Se attivato in fase di validazione del valore della caratteristica esegue l'eventuale codice personalizzato associato alla regola e assegna il valore alla caratteristica. Contattare il proprio partner per informazione su come estendere il configuratore.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 3009536204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Get Output From Excel field</source>
-          <target>Specifica il valore del campo Leggi output da excel</target>
+          <source>If activated during the validation phase of the characteristic value, it recalculates any excel formulas associated with the rule and assigns the value to the characteristic.</source>
+          <target>Se attivato in fase di validazione del valore della caratteristica ricalcola le eventuali formule excel associate alla regola e assegna il valore alla caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 3293934895 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the From Value field</source>
-          <target>Specifica il valore del campo Da Valore</target>
+          <source>Used only for measure-type characteristics, allows to set a lower limit.</source>
+          <target>Utilizzato solo per le caratteristiche di tipo misura consente di impostare un limite inferiore.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 3334115041 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Style field</source>
-          <target>Specifica il valore del campo Stile</target>
+          <source>Allows you to set a style, color and style, to the characteristic when prompted to the user.</source>
+          <target>Consente di impostare uno stile, colore e stile, alla caratteristica quando viene richiesta all'operatore.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 3635338911 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Price field</source>
-          <target>Specifica il valore del campo Prezzo</target>
+          <source>Used to define which characteristics are used in the price matrix for the items associated with the rule.</source>
+          <target>Utilizzato per definire quali caratteristiche vengono utilizzate nella matrice prezzi per gli articoli associati alla regola.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 3675520119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Disable Characteristic by Key field</source>
-          <target>Specifica il valore del campo Disabilita caratteristica da chiave</target>
+          <source>Excludes the characteristic from the composition of the search keys of the configured items. It is recommended to use only for dummy characteristics used for calculations.</source>
+          <target>Esclude la caratteristica dalla composizione delle chiavi di ricerca degli articoli configurati. Si consiglia l'utilizzo solo per caratteristiche di appoggio utilizzate per calcoli.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 3931082108 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item field</source>
           <target>Specifica il valore del campo Articolo neutro</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4058621829 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Not Editable field</source>
-          <target>Specifica il valore del campo Non editabile</target>
+          <source>Makes the characteristic uneditable. For use in characteristics calculated by relations or with a default value.</source>
+          <target>Rende non editabile la caratteristica. Da utilizzare nelle caratteristiche calcolate tramite relazioni o con un valore di default.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4136959197 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Characteristic Description field</source>
-          <target>Specifica il valore del campo Descrizione caratteristica</target>
+          <source>Characteristic Description.</source>
+          <target>Descrizione caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4154341761 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Sequence field</source>
-          <target>Specifica il valore del campo Sequenza</target>
+          <source>Defines the sequence in which the characteristics are requested to the user. The sequence is used to create the configurator's search keys, therefore the change of sequence involves the reconfiguration of any previously generated items.</source>
+          <target>Definisce la sequenza con cui le caratteristiche vengono richieste all'operatore. La sequenza viene utilizzata per costruire le chiavi di ricerca del configuratore pertanto Il cambio di sequenza comporta la riconfigurazione degli eventuali articoli precedentemente generati.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4228343207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Hide Characteristic field</source>
-          <target>Specifica il valore del campo Nascondi caratteristica in configurazione</target>
+          <source>Allows the characteristic to be hidden from the user during configuration. For use in characteristics calculated by relations or with a default value.</source>
+          <target>Permette di nascondere la caratteristica all'operatore durante la configurazione. Da utilizzare nelle caratteristiche calcolate tramite relazioni o con un valore di default.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Characteristic Code field</source>
-          <target>Specifica il valore del campo Codice caratteristica</target>
+          <source>Characteristic Code.</source>
+          <target>Codice caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 4288020487 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Exclude From Releations Calc. field.</source>
-          <target>Specifica il valore del campo  Escludi dal calcolo delle relazioni.</target>
+          <source>Excludes the characteristic from the calculation of relations. To be enabled for all characteristics that are not used in rule relations. Very important for performance. In the rule, there is a certificate action that allows you to set it automatically.</source>
+          <target>Esclude la caratteristica dal calcolo delle relazioni. Da attivare per tutte le caratteristiche che non vengono utilizzate nelle relazioni della regola. Molto importante per le performance. Nella regola esiste l'azione certifica che permette di impostarlo automaticamente.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 672138789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Rule Code field</source>
           <target>Specifica il valore del campo Codice regola</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Control 75932693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Process In Excel field</source>
-          <target>Specifica il valore del campo Processa in excel</target>
+          <source>If activated during the validation of the value of the characteristic, it recalculates any excel formulas associated with the rule.</source>
+          <target>Se attivato in fase di validazione del valore della caratteristica ricalcola le eventuali formule excel associate alla regola.</target>
         </trans-unit>
         <trans-unit id="Page 3051687837 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rule Characteristics</source>
@@ -2850,72 +2850,72 @@
           <target>Copia regola</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 1005932042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Trigger Custom Code field</source>
-          <target>Specifica il valore del campo Esegui codice personalizzato</target>
+          <source>Triggers custom code during the validation of the characteristic values. The custom code can be executed during the process or after the configurator closes. Please contact your partner for information on how to extend the configurator logic.</source>
+          <target>Consente di abilitare l'esecuzione di codice personalizzato durante la digitazione dei valori delle caratteristiche. Il codice può essere eseguito durante il processo o alla chiusura del configuratore. Contattare il proprio partner per informazione su come estendere il configuratore.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 1545733452 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Item Description field</source>
-          <target>Specifica il valore del campo Utilizza descrizione articolo</target>
+          <source>Enables using the neutral item description (it's added before the description constructed according to the format description).</source>
+          <target>serve per utilizzare la descrizione del codice artico neutro (viene aggiunta prima della descrizione costruita tramite il formato descrizione).</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 226362463 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Format Description field</source>
-          <target>Specifica il valore del campo Formato descrizione</target>
+          <source>Defines the formula used to calculate the description of the item/variant generated by the configurator. You can enter free characters or use characteristic values. Characteristic code in curly brackets {} to use the value description. Characteristic code in square brackets [] to use the value. You can also use [ITEMNO%] to enter the neutral item code.</source>
+          <target>Definisce la formula con cui viene calcolata la descrizione dell'articolo/variante generato dal configuratore. E' possibile inserire caratteri liberi oppure utilizzare i valori delle caratteristiche. Codice caratteristica fra Parentesi Graffe {} per utilizzare la descrizione del valore. Codice caratteristica fra Parentesi Quadre [] per utilizzare il valore. E' possibile inoltre utilizzare [ITEMNO%] per inserire il codice dell'articolo neutro.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 2289336536 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Excel field</source>
-          <target>Specifica il valore del campo Utilizza excel</target>
+          <source>The configurator provides the possibility of associating the rule with an Excel sheet for the management of relations. By using this field, you can decide when the formulas expected in the Excel sheet are executed. The allowed values are: Blank which corresponds to never, During process, Configurator closing.</source>
+          <target>Il configuratore prevede la possibilità di associare alla regola un foglio Excel per la gestione delle relazioni. Tramite l'utilizzo di questo campo è possibile decidere quando le formule previste nel foglio Excel vengono eseguite. I valori ammessi sono: Vuoto che corrisponde a  mai, Durante il processo, Alla fine del processo.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 2656350149 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Enabled Format Code field</source>
-          <target>Specifica il valore del campo Abilita formattazione codice</target>
+          <source>It is used to enable the formatting of item/variant codes created by the configurator using a formula defined in the Format Code field. If not enabled, the items/variants are created with the No. series in the Configurator Setup.</source>
+          <target>Viene utilizzato per abilitare la formattazione dei codici articolo/variante creati dal configuratore tramite una formula definita nel campo Formato Codice. Se non abilitato gli articoli / varianti vengono creati con il nr. di serie impostato nel Setup Configuratore.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Code field</source>
-          <target>Specifica il valore del campo Codice</target>
+          <source>Rule code.</source>
+          <target>Codice regola.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3185361365 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Digit Counter field</source>
-          <target>Specifica il valore del campo Descrizione</target>
+          <source>Identifies the number of digits to be used for the Code Counter.</source>
+          <target>identifica il numero di cifre da usare nel Contatore per codice.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3412253089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Format Description 2 field</source>
-          <target>Specifica il valore del campo Formato descrizione 2</target>
+          <source>Defines the formula used to calculate the description 2 of the item/variant generated by the configurator. You can enter free characters or use characteristic values. Characteristic code in curly brackets {} to use the value description. Characteristic code in square brackets [] to use the value. You can also use [ITEMNO%] to enter the neutral item code.</source>
+          <target>Definisce la formula con cui viene calcolata la descrizione 2 dell'articolo/variante generato dal configuratore. E' possibile inserire caratteri liberi oppure utilizzare i valori delle caratteristiche. Codice caratteristica fra Parentesi Graffe {} per utilizzare la descrizione del valore. Codice caratteristica fra Parentesi Quadre [] per utilizzare il valore. E' possibile inoltre utilizzare [ITEMNO%] per inserire il codice dell'articolo neutro.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3428670628 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how the Configurator works (Items or Variants). The Default Type uses the configuration on Setup.</source>
           <target>Specifica il funzionamento del configuratore (articoli o varianti). Il tipo predefinito utilizza la configurazione a Setup.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Description field</source>
-          <target>Specifica il valore del campo Descrizione</target>
+          <source>Rule description.</source>
+          <target>Descrizione regola.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 358284941 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Last Certification Date Time field.</source>
           <target>Specifica il valore del campo Data e ora ultima certificazione.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3621015563 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Code Counter field</source>
-          <target>Specifica il valore del campo Contatore per codice</target>
+          <source>It is used in case you want to add a counter to the end of the code.</source>
+          <target>viene utilizzato nel caso in cui si voglia aggiungere un progressivo al formato codice.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3837936093 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Has Content (Excel) field</source>
-          <target>Specifica il valore del campo Ha contenuto (excel)</target>
+          <source>Active if a relationship spreadsheet has been associated with the rule.</source>
+          <target>Attivo se alla regola è stato associato un foglio di calcolo delle relazioni.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 3837936093 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Has Content (Excel)</source>
           <target>Ha contenuto (excel)</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 4209475936 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Master field</source>
-          <target>Specifica il valore del campo Master</target>
+          <source>Indicates that the characteristics and their values of a rule can be used by other linked rules. The connection is made through the connection field in the rule characteristics.</source>
+          <target>Indica che le caratteristiche e i relativi valori di una regola possono essere utilizzati da altre regole collegate. Il collegamento avviene tramite il campo connessione presente nelle caratteristiche delle regole.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 4223553786 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Format Code field</source>
-          <target>Specifica il valore del campo Abilita formattazione codice</target>
+          <source>Defines the formula by which the item/variant code generated by the configurator is calculated. You can enter free characters or use characteristic values. Characteristic code in curly brackets {} to use the value description. Characteristic code in square brackets [] to use the value. You can also use [ITEMNO%] to enter the neutral item code.</source>
+          <target>Definisce la formula con cui viene calcolato il codice articolo/variante generato dal configuratore. E' possibile inserire caratteri liberi oppure utilizzare i valori delle caratteristiche. Codice caratteristica fra Parentesi Graffe {} per utilizzare la descrizione del valore. Codice caratteristica fra Parentesi Quadre [] per utilizzare il valore. E' possibile inoltre utilizzare [ITEMNO%] per inserire il codice dell'articolo neutro.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Control 558439158 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Neutral Routing field.</source>
-          <target>Specifica il valore del campo Usa Ciclo Standard.</target>
+          <source>The configurator for all items with this rule does not generate a configured routing but uses the same routing as the neutral item.</source>
+          <target>Il configuratore per tutti gli articoli con questa regola non genera un ciclo configurato ma utilizza lo stesso ciclo dell'articolo neutro.</target>
         </trans-unit>
         <trans-unit id="Page 3757971336 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Rules (CFG)</source>
@@ -3176,112 +3176,112 @@
           <target>Specifiche articolo optional</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1647945793 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Sorting Code field</source>
-          <target>Specifica il valore del campo Codice ordinamento</target>
+          <source>defines a priority for the value. When two or more characteristics trigger the direct validation of a third characteristic, the system prioritizes the one with the biggest sorting code.</source>
+          <target>Utilizzato per definire la priorità del valore. In presenza di due caratteristiche che fanno scattare la compilazione diretta di un'altra caratteristica, il sistema prende sempre quella con l'ordinamento maggiore.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1718894230 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Optional Item No. field</source>
-          <target>Specifica il valore del campo Nr. articolo optional</target>
+          <source>defines the optional item to use for that characteristic value</source>
+          <target>Definisce l'articolo optional associato al valore caratteristica. Il Nr. Articolo optional e la relativa quantità possono essere gestiti nella tabella Specifiche Articolo Optional quando ho bisogno di specificare optional diversi per articoli neutri diversi.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1862012067 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Linked Characteristic Code field</source>
-          <target>Specifica il valore del campo Codice caratteristica collegata</target>
+          <source>Used with Linked Characteristic Value. When compiled, the configuration makes a 1:1 transfer of the values on this characteristic, without having to specify a relation of type transfer value.</source>
+          <target>Utilizzato assieme al Valore caratteristica collegata, se valorizzato, in configurazione viene effettuato un trasferimento a valore 1:1 su questa caratteristica e non è necessario scrivere una relazione di tipo trasferimento a valore.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1900957152 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Source No. field</source>
-          <target>Specifica il valore del campo Nr. origine</target>
+          <source>Work center code or Machine center Code to be used in the routing according to the Source Type.</source>
+          <target>Codice area di produzione o Centro di lavoro da utilizzare nel ciclo in funzione al Tipo Origine.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 1995709449 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Purchase Item No. field</source>
-          <target>Specifica il valore del campo Nr. articolo acquisto</target>
+          <source>Defines the fix purchase item that should be replaced by the «Item from neutral to fix» in the configured BOM.</source>
+          <target>Definisce l'articolo puntuale, tendenzialmente di acquisto, che deve essere sostituito all'articolo «Da neutro a puntuale» nella DB di produzione DB. Si utilizza quando il rapporto fra la caratteristica e l'articolo puntuale è 1:1.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 211001564 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Optional Item Quantity field</source>
-          <target>Specifica il valore del campo Quantità articolo optional</target>
+          <source>multiplier that identifies the optional quantity. The Optional Item Spec. Table is needed when we need to specify different optionals for different neutral items.</source>
+          <target>Moltiplicatore utilizzato per il calcolo della quantità di articolo optional.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 214740259 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Neutral Item No. field</source>
           <target>Specifica il valore del campo Nr. articolo neutro</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2417871994 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Surcharge Type field</source>
-          <target>Specifica il valore del campo Tipo maggiorazione</target>
+          <source>Type used to insert the surcharge line. The allowed values are G/L Account, Item, Resource, Fixed Asset, Charge (Item).</source>
+          <target>Indica il tipo con cui viene inserita la riga di maggiorazione (non optional). I valori ammessi sono Conto C/G, Articolo, Risorsa, Cespite, Addebito (Articolo).</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2420880357 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Standard Task Code field</source>
-          <target>Specifica il valore del campo Cod. task standard</target>
+          <source>Standard Task Code to be used in routing line.</source>
+          <target>Codice task standard da utilizzare nella riga ciclo.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2541095665 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Linked Characteristic Value field</source>
-          <target>Specifica il valore del campo Valore caratteristica collegata</target>
+          <source>Used with Linked Characteristic Code. When compiled, the configuration makes a 1:1 transfer of the values on this characteristic, without having to specify a relation of type transfer value.</source>
+          <target>Utilizzato assieme al Codice caratteristica collegata, se valorizzato, in configurazione viene effettuato un trasferimento a valore 1:1 su questa caratteristica e non è necessario scrivere una relazione di tipo trasferimento a valore.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2619559758 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Attribute Value ID field</source>
-          <target>Specifica il valore del campo ID valore attributo</target>
+          <source>Specifies the Attribute ID. Used for the mapping between characteristic values and attributes.</source>
+          <target>Indica l'ID Attributo. Utilizzato per la mappatura fra valori caratteristiche e attributi.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2793404423 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Acronym field</source>
-          <target>Specifica il valore del campo Acronimo</target>
+          <source>In case there's an acronym, the characteristic value description is replaced by it in the item description, and the characteristic code is replaced by it in the item code.</source>
+          <target>Viene sostituito nella descrizione articolo alla descrizione del valore della caratteristica e nel codice dell'articolo al posto del codice della caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2854340050 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Code field</source>
-          <target>Specifica il valore del campo Usa codice</target>
+          <source>if active, the configurator uses the characteristic value for the creation of the item description. it's inherited by the characteristic and can be disabled for each value.</source>
+          <target>Se attivo inserisce il codice del valore caratteristica nella descrizione articolo. Viene ereditato dalla caratteristica e può essere disabilitato per singolo valore.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 2887840001 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Attribute Value field</source>
-          <target>Specifica il valore del campo Valore attributo</target>
+          <source>Specifies the Attribute Value. Used for the mapping between characteristic values and attributes.</source>
+          <target>Indica il Valore Attributo. Utilizzato per la mappatura fra valori caratteristiche e attributi.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Code field</source>
-          <target>Specifica il valore del campo Codice</target>
+          <source>Value characteristic code.</source>
+          <target>Codice valore caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3160886077 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Value Posting field</source>
-          <target>Specifica il valore del campo Registrazione valore</target>
+          <source>Determines how dimensions are handled.</source>
+          <target>Determina la tipologia di gestione della dimensione.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 331289299 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Run Time Factor field</source>
-          <target>Specifica il valore del campo Fattore tempo lavorazione</target>
+          <source>Factor used to calculate the run time of the routing line.</source>
+          <target>Fattore utilizzato per il calcolo del tempo di lavorazione della riga ciclo.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3387829703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Use Description field</source>
-          <target>Specifica il valore del campo Usa descrizione</target>
+          <source>if active, the configurator uses the description of the characteristic value for the creation of the item description. It's inherited by the characteristic and can be disabled for each value.</source>
+          <target>Se attivo inserisce la descrizione del valore caratteristica nella descrizione articolo. Viene ereditato dalla caratteristica e può essere disabilitato per singolo valore.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3461834954 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Description field</source>
-          <target>Specifica il valore del campo Descrizione</target>
+          <source>Value characteristic description.</source>
+          <target>Descrizione valore caratteristica.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3499132677 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Enable Routing Line field</source>
-          <target>Specifica il valore del campo Abilita ciclo di produzione</target>
+          <source>When active, specifies that the characteristic value conditions the line of the configured routing. Enables business logic for fields: Source Type, Source No., Run Time Factor, Standard Task Code.</source>
+          <target>Se attivo, identifica che il valore della caratteristica condiziona la riga del ciclo configurato. Attiva le logiche dei campi: Tipo origine, Nr. Origine, Fattore tempo lavorazione, Cod. task standard.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3543129988 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Blocked field</source>
-          <target>Specifica il valore del campo Bloccato</target>
+          <source>when active, the characteristic value is hidden.</source>
+          <target>Se attivo, il valore caratteristica non è più selezionabile in configurazione.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3614475802 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Dimension Value Code field</source>
-          <target>Specifica il valore del campo Codice valore dimensioni</target>
+          <source>Enabled only when configuring items. If this field is not empty, the dimension value is inherited by the newly created item.</source>
+          <target>Utilizzato solo se il configuratore crea articoli. Se questo campo contiene un valore, quel valore dimensione viene portata sull'articolo creato.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3676588670 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Neutral Rule Charac. Value field</source>
-          <target>Specifica il valore del campo Valore caratt. regole neutri/ammessi</target>
+          <source>Used with Neutral Rule Characteristic Code. When compiled with a neutral rule present, these are used instead of the characteristic to search for the fix code.</source>
+          <target>Utilizzato assieme al Codice caratteristica regole neutri/ammessi. Se valorizzato, in presenza di una regola dei neutri, viene utilizzato al posto del valore della caratteristica stessa per ricercare il codice puntuale.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3743924233 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Surcharge No. field</source>
-          <target>Specifica il valore del campo Nr. maggiorazione</target>
+          <source>Code used to insert the surcharge line.</source>
+          <target>Indica il codice con cui viene inserita la riga di maggiorazione (non optional).</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3795808207 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Dimension Code field</source>
-          <target>Specifica il valore del campo Codice dimensione</target>
+          <source>Enabled only when configuring items. If this field is not empty, the dimension is inherited by the newly created item.</source>
+          <target>Utilizzato solo se il configuratore crea articoli. Se questo campo contiene un valore, quella dimensione viene portata sull'articolo creato.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3880888208 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Neutral Rule Charac. Code field</source>
-          <target>Specifica il valore del campo Codice caratt. regole neutri/ammessi</target>
+          <source>Used with Neutral Rule Characteristic Value. When compiled with a neutral rule present, these are used instead of the characteristic to search for the fix code.</source>
+          <target>Utilizzato assieme al Valore caratteristica regole neutri/ammessi. Se valorizzato, in presenza di una regola dei neutri, viene utilizzato al posto della caratteristica stessa per ricercare il codice puntuale.</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 3996861631 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the Source Type field</source>
-          <target>Specifica il valore del campo Tipo origine</target>
+          <source>The routing line can be created as Work Center or Machine Center.</source>
+          <target>La riga di ciclo può essere gestita come Area di produzione o Centro di lavoro</target>
         </trans-unit>
         <trans-unit id="Page 4147127503 - Control 4247545364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Characteristic Code field</source>
