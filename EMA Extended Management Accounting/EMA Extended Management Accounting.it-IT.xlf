@@ -1483,10 +1483,6 @@
           <source>Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.</source>
           <target>Specifica un riferimento a una combinazione di valori di dimensioni. I valori effettivi sono archiviati nella tabella Voce set di dimensioni.</target>
         </trans-unit>
-        <trans-unit id="Page 1453782444 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New,Process,Report,Entry</source>
-          <target>Nuovo,Processo,Report,Movimento</target>
-        </trans-unit>
         <trans-unit id="Page 1453782444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Profitability Analysis Entries</source>
           <target>Movimenti analisi profittabilità</target>
@@ -1756,8 +1752,8 @@
           <target>Specifica se si desidera che venga visualizzata una riga vuota immediatamente dopo questo centro di costo quando si stampa il grafico dei centri di costo. I campi Nuova pagina, Riga vuota e Rientro definiscono il layout del grafico dei centri di costo.</target>
         </trans-unit>
         <trans-unit id="Page 1790866452 - Control 3058396733 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the additional cost type</source>
-          <target>Specifica il tipo di costo aggiuntivo</target>
+          <source>Specifies the Cost Nature</source>
+          <target>Specifica la natura di costo.</target>
         </trans-unit>
         <trans-unit id="Page 1790866452 - Control 309010296 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the source type of the cost type.</source>
@@ -1972,16 +1968,16 @@
           <target>Specifica di scrivere anche la transazione con importo zero.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2632434655 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the additional cost type.</source>
-          <target>Specifica il tipo di costo aggiuntivo.</target>
+          <source>Specifies the net of Cost Nature.</source>
+          <target>Specifica il netto delle nature di costo.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 2643202029 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the number of the table.</source>
           <target>Specifica il numero della tabella.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 3058396733 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the additional cost type.</source>
-          <target>Specifica il tipo di costo aggiuntivo.</target>
+          <source>Specifies the Cost Nature.</source>
+          <target>Specifica la natura di costo.</target>
         </trans-unit>
         <trans-unit id="Page 1917728018 - Control 3063045632 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Corrections</source>
@@ -7997,7 +7993,7 @@
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 3058396733 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Nature</source>
-          <target>Natura di costo</target>
+          <target>Nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 3065357990 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Driver Code</source>
@@ -8013,7 +8009,7 @@
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 309010296 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source> ,Net proceeds,Proceeds,Discounts,Line discounts,Invoice discount,,,Sales item charge,,Total cost,Material cost,Capacity cost,Subcontractor cost,Purchase item charge,,,C/A,C/IN,,,Sales cost custom calculation,End custom calculation,,Item,Customer,Additional Cost</source>
-          <target> ,Ricavi netti,Ricavi,Sconti,Sconti riga,Sconti fattura,,,Add. art. vendita,,Costo totale,Costo materiale,Costo manodopera,Costo lav.est.,Add. acquisto,,,C/A,C/E profittabilità,,,Costo vendita pers.,Costo finale pers.,,Articolo,Clienti,Costi aggiuntivi</target>
+          <target> ,Ricavi netti,Ricavi,Sconti,Sconti riga,Sconti fattura,,,Add. art. vendita,,Costo totale,Costo materiale,Costo manodopera,Costo lav.est.,Add. acquisto,,,C/A,C/E profittabilità,,,Costo vendita pers.,Costo finale pers.,,Articolo,Clienti,Nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 3128184946 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Name</source>
@@ -8024,8 +8020,8 @@
           <target>Nr. conto C/A</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 331397240 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Net Of Additional Cost Type</source>
-          <target>Sottrai costi aggiuntivi</target>
+          <source>Net Of Cost Nature</source>
+          <target>Sottrai nature di costo</target>
         </trans-unit>
         <trans-unit id="Table 2362729240 - Field 3359820171 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Driver Sequence</source>
@@ -9928,7 +9924,7 @@
           <target>ID set di dimensioni</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>C/IN Entry</source>
+          <source>Profitability Analysis Entry</source>
           <target>Movimenti profittabilità</target>
         </trans-unit>
         <trans-unit id="Table 337701643 - Field 1390656416 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
