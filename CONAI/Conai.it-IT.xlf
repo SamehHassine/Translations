@@ -65,11 +65,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 966038481 - Method 1393384857 - NamedType 4088692891" translate="yes" size-unit="char" xml:space="preserve">
           <source>The selected changed line has CONAI-lines linked.\Use the "Restore Weights" action in "Conai Packages" page to update CONAI-lines weight.</source>
-          <target>La riga modificata selezionata ha linee CONAI collegate.\Utilizzare l'azione "Ripristina pesi" nella pagina "Imballo CONAI" per aggiornare lo peso delle righe CONAI.</target>
+          <target>La riga modificata selezionata ha linee CONAI collegate.\Utilizzare l'azione "Ripristina pesi" nella pagina "Imballo CONAI" per aggiornare il peso delle righe CONAI.</target>
         </trans-unit>
         <trans-unit id="Codeunit 966038481 - Method 602180232 - NamedType 4088692891" translate="yes" size-unit="char" xml:space="preserve">
           <source>The selected changed line has CONAI-lines linked.\Use the "Restore Weights" action in "Conai Packages" page to update CONAI-lines weight.</source>
-          <target>La riga modificata selezionata ha linee CONAI collegate.\Utilizzare l'azione "Ripristina pesi" nella pagina "Imballo CONAI" per aggiornare lo peso delle righe CONAI.</target>
+          <target>La riga modificata selezionata ha linee CONAI collegate.\Utilizzare l'azione "Ripristina pesi" nella pagina "Imballo CONAI" per aggiornare il peso delle righe CONAI.</target>
         </trans-unit>
         <trans-unit id="Enum 1151057020 - EnumValue 2104648824 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary</source>
@@ -157,7 +157,7 @@
         </trans-unit>
         <trans-unit id="Page 1043609354 - Control 1857830287 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the CONAI Detail On Document field</source>
-          <target>Specifica il valore del campo Dettagli conAI nel documento</target>
+          <target>Specifica il valore del campo Dettagli CONAI nel documento</target>
         </trans-unit>
         <trans-unit id="Page 1043609354 - Control 1882905478 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Source No. field</source>
@@ -426,6 +426,10 @@
         <trans-unit id="Page 3641692506 - Action 1093701614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Insert default data</source>
           <target>Inserire dati di default</target>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 1942364489 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the Conai is calculated only on the materials of the document.</source>
+          <target>Se abilitato, il Conai viene calcolato solo sui materiali del documento.</target>
         </trans-unit>
         <trans-unit id="Page 3641692506 - Control 203361468 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Nos. used for shipments that contains only CONAI lines</source>
@@ -1114,6 +1118,10 @@
         <trans-unit id="Table 3641692506 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
           <target>Chiave primaria</target>
+        </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 1942364489 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Document Materials Filter</source>
+          <target>Abilita filtro materiali documento</target>
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 203361468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CONAI Lines Shipments Nos.</source>
