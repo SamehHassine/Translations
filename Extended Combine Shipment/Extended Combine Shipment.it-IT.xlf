@@ -64,16 +64,16 @@
           <target>Specifica la didascalia del campo</target>
         </trans-unit>
         <trans-unit id="Page 1031541067 - NamedType 1017923459" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document Line</source>
-          <target>Riga documento</target>
+          <source>Document Line (%1)</source>
+          <target>Riga documento (%1)</target>
         </trans-unit>
         <trans-unit id="Page 1031541067 - NamedType 2444394906" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order</source>
           <target>Ordine</target>
         </trans-unit>
         <trans-unit id="Page 1031541067 - NamedType 2903553241" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document</source>
-          <target>Documento</target>
+          <source>Document (%1)</source>
+          <target>Documento (%1)</target>
         </trans-unit>
         <trans-unit id="Page 1031541067 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoicing Method Fields Editor</source>
@@ -130,6 +130,10 @@
         <trans-unit id="Page 4266467808 - Control 1408322834 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the Default Inv. Method Code</source>
           <target>Specifica il codice metodo di fatturazione di default</target>
+        </trans-unit>
+        <trans-unit id="Page 4266467808 - Control 628100881 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If this field is enabled, the 'Sell To' customer from the invoice header will always be retrieved from the 'Sell To' of the first processed order. If the flag is instead disabled (recommended choice), the 'Sell to' customer of the invoice header will be retrieved from the order, in case of a single 'Sell to' present in the combined shipments; otherwise, it will be forced to match the 'Bill to' customer</source>
+          <target>Se questo campo è abilitato, il cliente di "Vendere a" della testata fattura sarà sempre recuperato dal "Vendere a" del primo ordine processato. Se il flag invece risulta essere disabilitato (scelta consigliata), il cliente di "Vendere a" della testata fattura verrà recuperato dall'ordine, nel caso di un unico "Vendere a" presente nelle spedizioni combinate, altrimenti verrà forzato pari al cliente di "Fatturare a"</target>
         </trans-unit>
         <trans-unit id="Page 4266467808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Extended Combine Shipment Setup (ECS)</source>
@@ -223,22 +227,6 @@
           <source>Extended Combine Shipments (ECS)</source>
           <target>Fatt. Cumulative Estese (ECS)</target>
         </trans-unit>
-        <trans-unit id="Table 3061646976 - Field 1878130204 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Type</source>
-          <target>Tipo</target>
-        </trans-unit>
-        <trans-unit id="Table 3061646976 - Field 2662783598 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Hash</source>
-          <target>Hash</target>
-        </trans-unit>
-        <trans-unit id="Table 3061646976 - Field 3320823955 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Line No.</source>
-          <target>Nr. riga</target>
-        </trans-unit>
-        <trans-unit id="Table 3061646976 - Field 486908828 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Document No.</source>
-          <target>Nr. documento</target>
-        </trans-unit>
         <trans-unit id="Table 3656066566 - Field 168471254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoice to</source>
           <target>Fattura a</target>
@@ -294,6 +282,10 @@
         <trans-unit id="Table 4266467808 - Field 1663593181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Primary Key</source>
           <target>Chiave primaria</target>
+        </trans-unit>
+        <trans-unit id="Table 4266467808 - Field 628100881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Retrieve Sell-To Customer from Order</source>
+          <target>Recupera cliente "Vendere a " dall'ordine</target>
         </trans-unit>
         <trans-unit id="TableExtension 2566720634 - Field 1135824849 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Invoicing Method Code</source>
