@@ -288,6 +288,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Header - NamedType Text002Lbl</note>
         </trans-unit>
+        <trans-unit id="Table 3390243733 - Method 3635223667 - NamedType 750120336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The field "%1" has been changed. Do you want to update all lines?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Header - Method UpdateBonusLines - NamedType ConfirmQst</note>
+        </trans-unit>
         <trans-unit id="Table 3390243733 - Field 4292096376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Accrued Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -322,6 +327,11 @@
           <source>Remaining Amount (LCY)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Header - Field Remaining Amount (LCY) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3390243733 - Field 62508446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settleable Amount Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Header - Field Settleable Amount Calc. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3390243733 - Field 3726447172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settled Amount (LCY)</source>
@@ -1583,6 +1593,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Method CheckDeleteConditions - NamedType SettlPlanError</note>
         </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 236813114 - NamedType 2417567676" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The table "%1" is not empty.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Method TestNoEntriesExist - NamedType RecordNotEmptyErr</note>
+        </trans-unit>
         <trans-unit id="Table 2314441710 - Method 4159301246 - NamedType 411164334" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Line %1 %2 will be excluded from settlement, are you sure?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2057,6 +2072,11 @@
           <source>Each,Customer,Vendor</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Field Settle-to Type - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Field 62508446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settleable Amount Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Line - Field Settleable Amount Calc. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2314441710 - Field 3726447172 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Settled Amount (LCY) (Accrued)</source>
@@ -2538,6 +2558,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Cust. Bonus Settl. Item Chg. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 682335893 - Field 3967863567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cust. Settleable Amount Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Cust. Settleable Amount Calc. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 682335893 - Field 1066953488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Allocation Acc. No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2717,6 +2742,11 @@
           <source>Vend. Bonus Settl. Item Chg.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Vend. Bonus Settl. Item Chg. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 543567687 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vend. Settleable Amount Calc.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Bonus Setup - Field Vend. Settleable Amount Calc. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 682335893 - Field 330696824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Vendor Allocation Acc. No.</source>
@@ -3029,7 +3059,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Management - NamedType Text006Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3350342113 - Method 1341108089 - NamedType 4050137628" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The bonus line %1 %2 cannot be calculated.</source>
+          <source>The %1 line %2 %3 cannot be calculated.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Bonus Management - Method TestBonusLineCalculableStatus - NamedType BonusLineCannotBeCalculatedErr</note>
         </trans-unit>
@@ -4498,6 +4528,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control Settle-to Type - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 631852079 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates the amount that can be settled for this entry.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control SettleableAmountLcyField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 631852079 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settleable Amount (LCY)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Ledger Entries - Control SettleableAmountLcyField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3822340309 - Control 3726447172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Settled Amount (LCY).</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5793,6 +5833,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Cust. Bonus Settl. Item Chg. - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 682335893 - Control 3967863567 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method for customer bonus entries. This applies only when no specific method is specified on the bonus header/line. Defaults to "Invoiced Amount".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Cust. Settleable Amount Calc. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 682335893 - Control 488586875 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the Def. Cust. Settl. Batch Name field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5987,6 +6032,11 @@
           <source>Specifies Vend. Bonus Settl. Item Chg..</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Vend. Bonus Settl. Item Chg. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 543567687 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method for vendor bonus entries. This applies only when no specific method is specified on the bonus header/line. Defaults to "Invoiced Amount".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Bonus Setup - Control Vend. Settleable Amount Calc. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2884647076 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Bonus Thresholds (SPB)</source>
@@ -6408,6 +6458,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3138936008 - Control 62508446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method to use for this bonus. If not specified, the value from the bonus setup is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card - Control Settleable Amount Calc. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3138936008 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Status.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -6787,6 +6842,11 @@
           <source>Specifies Settle-to Type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Settle-to Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2565869148 - Control 62508446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the settleable amount calculation method to use for this bonus line. If not specified, the value from the bonus header is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Customer Bonus Card Subf. - Control Settleable Amount Calc. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2565869148 - Control 3726447172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Settled Amount (LCY).</source>
@@ -7958,6 +8018,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card - Control Description - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 3669854560 - Control 62508446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method to use for this bonus. If not specified, the value from the bonus setup is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card - Control Settleable Amount Calc. - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3669854560 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Status.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -8327,6 +8392,11 @@
           <source>Specifies Settle-to Type.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Settle-to Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Control 62508446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the settleable amount calculation method to use for this bonus line. If not specified, the value from the bonus header is used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Vendor Bonus Card Subf. - Control Settleable Amount Calc. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Control 3726447172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies Settled Amount (LCY).</source>
@@ -12262,6 +12332,21 @@
           <source>Wednesday</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075 WD Start Periodicity - EnumValue Wednesday - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 183892433 - EnumValue 4105396539 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075SettleableAmountCalc - EnumValue Invoiced Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 183892433 - EnumValue 2710634838 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paid Amount (Full)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075SettleableAmountCalc - EnumValue Paid Amount (Full) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 183892433 - EnumValue 273124494 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Paid Amount (Partial)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS075SettleableAmountCalc - EnumValue Paid Amount (Partial) - Property Caption</note>
         </trans-unit>
       </group>
     </body>

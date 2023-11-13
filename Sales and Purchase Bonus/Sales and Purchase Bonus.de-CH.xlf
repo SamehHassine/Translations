@@ -156,8 +156,8 @@
           <target>Berechnung der Abschläge</target>
         </trans-unit>
         <trans-unit id="Codeunit 3350342113 - Method 1341108089 - NamedType 4050137628" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The bonus line %1 %2 cannot be calculated.</source>
-          <target>Die Bonuszeile %1 %2 kann nicht berechnet werden.</target>
+          <source>The %1 line %2 %3 cannot be calculated.</source>
+          <target>Die %1-Zeile %2 %3 kann nicht berechnet werden.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3350342113 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 must be greater than %2</source>
@@ -234,6 +234,18 @@
         <trans-unit id="Codeunit 525723200 - NamedType 1486929738" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deleting #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</source>
           <target>Löschung #1################################\ Step #2###\ @3@@@@@@@@@@@@@@@@@</target>
+        </trans-unit>
+        <trans-unit id="Enum 183892433 - EnumValue 2710634838 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Paid Amount (Full)</source>
+          <target>Bezahlter Betrag (vollständig)</target>
+        </trans-unit>
+        <trans-unit id="Enum 183892433 - EnumValue 273124494 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Paid Amount (Partial)</source>
+          <target>Bezahlter Betrag (teilweise)</target>
+        </trans-unit>
+        <trans-unit id="Enum 183892433 - EnumValue 4105396539 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Invoiced Amount</source>
+          <target>Fakturierter Betrag</target>
         </trans-unit>
         <trans-unit id="Enum 1989287314 - EnumValue 1778072510 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Closed</source>
@@ -1070,6 +1082,10 @@
         <trans-unit id="Page 1348237060 - Control 592951229 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Amount (LCY).</source>
           <target>Gibt Betrag (LCY) an.</target>
+        </trans-unit>
+        <trans-unit id="Page 1348237060 - Control 62508446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the settleable amount calculation method to use for this bonus line. If not specified, the value from the bonus header is used.</source>
+          <target>Geben Sie die Methode zur Berechnung des liquidierbaren Betrags an, welche für diese Zeile verwendet werden soll. Wenn nicht angegeben, wird der Wert aus dem Bonus-Kopf verwendet.</target>
         </trans-unit>
         <trans-unit id="Page 1348237060 - Control 67205030 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Settlement Amount To Be Accrued (LCY)" field</source>
@@ -3527,6 +3543,10 @@
           <source>Specifies Amount (LCY).</source>
           <target>Gibt Betrag (LCY) an.</target>
         </trans-unit>
+        <trans-unit id="Page 2565869148 - Control 62508446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the settleable amount calculation method to use for this bonus line. If not specified, the value from the bonus header is used.</source>
+          <target>Geben Sie die Methode zur Berechnung des liquidierbaren Betrags an, welche für diese Zeile verwendet werden soll. Wenn nicht angegeben, wird der Wert aus dem Bonus-Kopf verwendet.</target>
+        </trans-unit>
         <trans-unit id="Page 2565869148 - Control 635266883 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Snapshot Filter</source>
           <target>Sales Snapshot-Filter</target>
@@ -3742,6 +3762,10 @@
         <trans-unit id="Page 3138936008 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Status.</source>
           <target>Gibt Status an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3138936008 - Control 62508446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method to use for this bonus. If not specified, the value from the bonus setup is used.</source>
+          <target>Gibt die Standardmethode zur Berechnung des liquidierbaren Betrags an, welche für diesen Bonus verwendet werden soll. Wenn nicht angegeben, wird der Wert von der Bonus-Einrichtung verwendet.</target>
         </trans-unit>
         <trans-unit id="Page 3138936008 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer Bonus Card (SPB)</source>
@@ -3978,6 +4002,10 @@
         <trans-unit id="Page 3669854560 - Control 513339096 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Status.</source>
           <target>Gibt Status an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3669854560 - Control 62508446 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method to use for this bonus. If not specified, the value from the bonus setup is used.</source>
+          <target>Gibt die Standardmethode zur Berechnung des liquidierbaren Betrags an, welche für diesen Bonus verwendet werden soll. Wenn nicht angegeben, wird der Wert von der Bonus-Einrichtung verwendet.</target>
         </trans-unit>
         <trans-unit id="Page 3669854560 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Vendor Bonus Card (SPB)</source>
@@ -4390,6 +4418,14 @@
         <trans-unit id="Page 3822340309 - Control 627063663 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies Source Ref. No..</source>
           <target>Gibt Herkunftsref.-Nr. an.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 631852079 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Indicates the amount that can be settled for this entry.</source>
+          <target>Gibt den Betrag an, der für diesen Posten abgerechnet werden kann.</target>
+        </trans-unit>
+        <trans-unit id="Page 3822340309 - Control 631852079 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settleable Amount (LCY)</source>
+          <target>Abrechenbarer Betrag (MW)</target>
         </trans-unit>
         <trans-unit id="Page 3822340309 - Control 696187989 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Ref. Snapshot Type</source>
@@ -5187,6 +5223,10 @@
           <source>Specifies the value of the "Group By Document" field</source>
           <target>Gibt den Wert des Feldes "Gruppe nach Dokument" an.</target>
         </trans-unit>
+        <trans-unit id="Page 682335893 - Control 3967863567 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method for customer bonus entries. This applies only when no specific method is specified on the bonus header/line. Defaults to "Invoiced Amount".</source>
+          <target>Gibt die standardmäßige Berechnungsmethod für den liquidierbaren Betrag für Debitorenbonusposten an. Dies gilt nur, wenn in der Bonuskopf/-zeile keine spezifische Methode angegeben ist. Die Vorgabe ist "Rechnungsbetrag".</target>
+        </trans-unit>
         <trans-unit id="Page 682335893 - Control 4115099847 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the default point item no.</source>
           <target>Gibt das Standardpunktelement Nr. an.</target>
@@ -5214,6 +5254,10 @@
         <trans-unit id="Page 682335893 - Control 488586875 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Def. Cust. Settl. Batch Name field</source>
           <target>Gibt den Wert der Def. Debitorenabrechnung Buch.-Blattname-Feld</target>
+        </trans-unit>
+        <trans-unit id="Page 682335893 - Control 543567687 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the default settleable amount calculation method for vendor bonus entries. This applies only when no specific method is specified on the bonus header/line. Defaults to "Invoiced Amount".</source>
+          <target>Gibt die standardmäßige Berechnungsmethod für den liquidierbaren Betrag für Kreditorenbonusposten an. Dies gilt nur, wenn in der Bonuskopf/-zeile keine spezifische Methode angegeben ist. Die Vorgabe ist "Rechnungsbetrag".</target>
         </trans-unit>
         <trans-unit id="Page 682335893 - Control 830354502 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Purchase Invoice Doc. Class field</source>
@@ -8235,6 +8279,10 @@
           <source>Item Filter</source>
           <target>Artikelfilter</target>
         </trans-unit>
+        <trans-unit id="Table 2314441710 - Field 62508446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settleable Amount Calc.</source>
+          <target>Berech. Liquidierbarer Betrag</target>
+        </trans-unit>
         <trans-unit id="Table 2314441710 - Field 67205030 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Settlement Amount to be Accrued (LCY)</source>
           <target>Abzugrenzungsbetrag (LCY)</target>
@@ -8290,6 +8338,10 @@
         <trans-unit id="Table 2314441710 - Method 1205143113 - NamedType 3952432619" translate="yes" size-unit="char" xml:space="preserve">
           <source>There are processed settlement plan</source>
           <target>Es gibt einen bearbeiteten Abrechnungsplan</target>
+        </trans-unit>
+        <trans-unit id="Table 2314441710 - Method 236813114 - NamedType 2417567676" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The table "%1" is not empty.</source>
+          <target>Die Tabelle '%1' ist nicht leer.</target>
         </trans-unit>
         <trans-unit id="Table 2314441710 - Method 4159301246 - NamedType 411164334" translate="yes" size-unit="char" xml:space="preserve">
           <source>Bonus Line %1 %2 will be excluded from settlement, are you sure?</source>
@@ -8390,6 +8442,14 @@
         <trans-unit id="Table 3390243733 - Field 513339096 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Status</source>
           <target>Status</target>
+        </trans-unit>
+        <trans-unit id="Table 3390243733 - Field 62508446 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Settleable Amount Calc.</source>
+          <target>Berech. Liquidierbarer Betrag</target>
+        </trans-unit>
+        <trans-unit id="Table 3390243733 - Method 3635223667 - NamedType 750120336" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The field "%1" has been changed. Do you want to update all lines?</source>
+          <target>Das Feld "%1" wurde geändert. Möchten Sie alle Zeilen aktualisieren?</target>
         </trans-unit>
         <trans-unit id="Table 3390243733 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>It is not possible to change %1 because there are Bonus Lines currently defined.</source>
@@ -9311,6 +9371,10 @@
           <source> ,Bonus Line/Document/Dimesion,Bonus Line/Dimension</source>
           <target> ,Bonuszeile/Dokument/Dimension,Bonuszeile/Dimension</target>
         </trans-unit>
+        <trans-unit id="Table 682335893 - Field 3967863567 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Cust. Settleable Amount Calc.</source>
+          <target>Berech. Liquidierbarer Betrag Debitoren</target>
+        </trans-unit>
         <trans-unit id="Table 682335893 - Field 4115099847 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Point Item No.</source>
           <target>Standardpunktartikel-Nr.</target>
@@ -9334,6 +9398,10 @@
         <trans-unit id="Table 682335893 - Field 488586875 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Customer Settlement Journal Batch Name</source>
           <target>Standard-Debitorenabrechnungsbuch.-Blattnamelt;</target>
+        </trans-unit>
+        <trans-unit id="Table 682335893 - Field 543567687 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Vend. Settleable Amount Calc.</source>
+          <target>Berech. Liquidierbarer Betrag Kreditoren</target>
         </trans-unit>
         <trans-unit id="Table 682335893 - Field 830354502 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Purchase Invoice Doc. Class</source>
