@@ -83,6 +83,22 @@
           <source>The column '%1' does not exist in the dataset.</source>
           <target>La colonna '%1' non esiste nel set di dati.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 442212062 - Method 2380145755 - NamedType 2367521239" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Code: %1</source>
+          <target>Codice: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - Method 2380145755 - NamedType 2444345320" translate="yes" size-unit="char" xml:space="preserve">
+          <source>HTTP Status: %1</source>
+          <target>Stato HTTP: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - Method 2380145755 - NamedType 3082053221" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Message: %1</source>
+          <target>Messaggio: %1</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - NamedType 2164942842" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This operation is not supported.</source>
+          <target>Questa operazione non è supportata.</target>
+        </trans-unit>
         <trans-unit id="Enum 1977147216 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source> </source>
           <target> </target>
@@ -142,6 +158,26 @@
         <trans-unit id="Enum 482006191 - EnumValue 622223347 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>System is unusable</source>
           <target>System is unusable</target>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 1455412149 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Folder Name" field.</source>
+          <target>Specifica il valore del campo "Nome cartella".</target>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 1455412149 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Folder Name</source>
+          <target>Nome cartella</target>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 2093199745 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "New Filename" field.</source>
+          <target>Specifica il valore del campo "Nuovo nome file".</target>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 2093199745 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Filename</source>
+          <target>Nuovo nome file</target>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy File</source>
+          <target>Copia file</target>
         </trans-unit>
         <trans-unit id="Page 1054600449 - Action 335581068 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Deletes all telemetry older than a week.</source>
@@ -347,10 +383,6 @@
           <source>Delete the selected entry?</source>
           <target>Eliminare la voce selezionata?</target>
         </trans-unit>
-        <trans-unit id="Page 136020747 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>AzFileShare Browser</source>
-          <target>AzFileShare Browser</target>
-        </trans-unit>
         <trans-unit id="Page 1544310594 - Action 1072542776 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Shows a list of all open data readers for the given connection.</source>
           <target>Mostra un elenco di tutti i data-reader aperti per la connessione specificata.</target>
@@ -403,22 +435,6 @@
           <source>Specifies the value of the "ConnectionId" field.</source>
           <target>Specifica il valore del campo "ConnectionId".</target>
         </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 3398598583 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Downloads the response payload.</source>
-          <target>Scarica il payload della request.</target>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 3398598583 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Response Data</source>
-          <target>Response Data</target>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 834443137 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Downloads the request payload.</source>
-          <target>Scarica il payload della response.</target>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 834443137 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Request Data</source>
-          <target>Dati request</target>
-        </trans-unit>
         <trans-unit id="Page 1557268532 - Control 2897649021 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Session Id" field.</source>
           <target>Specifica il valore del campo "Session Id".</target>
@@ -450,10 +466,6 @@
         <trans-unit id="Page 1557268532 - Control 883711285 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Entry No." field.</source>
           <target>Specifica il valore del campo "Numero di voce".</target>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Web Request Log (EAL)</source>
-          <target>Web Request Log (EAL)</target>
         </trans-unit>
         <trans-unit id="Page 1732014891 - Action 1786049364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Loads data from the API.</source>
@@ -787,9 +799,9 @@
           <source>Specifies the value of the "x-ms-request-id" field.</source>
           <target>Specifica il valore del campo "x-ms-request-id".</target>
         </trans-unit>
-        <trans-unit id="Page 218545441 - Control 2206733951 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Specifies the value of the "Path" field.</source>
-          <target>Specifica il valore del campo "Percorso".</target>
+        <trans-unit id="Page 218545441 - Control 2179665667 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the path to the folder this file is in.</source>
+          <target>Specifica il percorso della cartella in cui si trova il file.</target>
         </trans-unit>
         <trans-unit id="Page 218545441 - Control 2285405264 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "x-ms-file-creation-time" field.</source>
@@ -862,6 +874,34 @@
         <trans-unit id="Page 218545441 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>File Details</source>
           <target>Dettagli del file</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 2037941036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the target folder on the file system where the file should be placed.</source>
+          <target>Specifica la cartella di destinazione nel file system in cui deve essere caricato il file.</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 2037941036 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Folder Name</source>
+          <target>Nome cartella</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 461572996 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the name of the file to be uploaded.</source>
+          <target>Specifica il nome del file da caricare.</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 461572996 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>File Name</source>
+          <target>Nome file</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 650359949 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the content that is about to be uploaded.</source>
+          <target>Specifica il contenuto che sta per essere caricato.</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 650359949 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Content</source>
+          <target>Contenuto</target>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Upload File</source>
+          <target>Upload file</target>
         </trans-unit>
         <trans-unit id="Page 2379223636 - Control 1493261129 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Directory Name" field.</source>
@@ -1451,14 +1491,6 @@
           <source>Load</source>
           <target>Carica</target>
         </trans-unit>
-        <trans-unit id="Page 3124467794 - Action 3876018767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Shows all logged requests for this service configuration.</source>
-          <target>Mostra tutte le request registrate per questa configurazione del servizio.</target>
-        </trans-unit>
-        <trans-unit id="Page 3124467794 - Action 3876018767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Request Log</source>
-          <target>Request-Log</target>
-        </trans-unit>
         <trans-unit id="Page 3124467794 - Control 1878130204 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Type" field.</source>
           <target>Specifica il valore del campo "Tipo".</target>
@@ -1591,14 +1623,6 @@
           <source>Load</source>
           <target>Carica</target>
         </trans-unit>
-        <trans-unit id="Page 345584352 - Action 3876018767 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Shows all logged requests for this service configuration.</source>
-          <target>Mostra tutte le richieste registrate per questa configurazione del servizio.</target>
-        </trans-unit>
-        <trans-unit id="Page 345584352 - Action 3876018767 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Request Log</source>
-          <target>Request-Log</target>
-        </trans-unit>
         <trans-unit id="Page 345584352 - Control 130340402 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the timeout (in seconds) to use for requests. If this is not specified, the default client timeout is used.</source>
           <target>Specifica il timeout (in secondi) da utilizzare per le request. Se questa opzione non viene specificata, viene utilizzato il timeout client predefinito.</target>
@@ -1626,6 +1650,18 @@
         <trans-unit id="Page 345584352 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Service Configuration</source>
           <target>Configurazione servizio</target>
+        </trans-unit>
+        <trans-unit id="Page 3634084577 - Control 2037941036 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Folder Name" field.</source>
+          <target>Specifica il valore del campo "Nome cartella".</target>
+        </trans-unit>
+        <trans-unit id="Page 3634084577 - Control 2037941036 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Folder Name</source>
+          <target>Nome cartella</target>
+        </trans-unit>
+        <trans-unit id="Page 3634084577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>New Folder</source>
+          <target>Nuova cartella</target>
         </trans-unit>
         <trans-unit id="Page 3700053630 - Control 3004954119 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Code" field.</source>
@@ -2079,6 +2115,94 @@
           <source>Text Editor</source>
           <target>Editor testi</target>
         </trans-unit>
+        <trans-unit id="Page 695816558 - Action 1107918703 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Moves back one level.</source>
+          <target>Torna indietro di un livello.</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 1107918703 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Folder Up</source>
+          <target>Directory-su</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 2478093760 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Creates a new folder on the storage</source>
+          <target>Crea una nuova cartella nell'archivio.</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 2478093760 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Create Folder</source>
+          <target>Crea cartella</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3372522237 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Deletes the selected entry on the storage</source>
+          <target>Elimina la voce selezionata dallo storage.</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3372522237 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Entry</source>
+          <target>Elimina voce</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3463412311 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy an existing file to a folder</source>
+          <target>Copia una file esistente in una cartella</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3463412311 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Copy</source>
+          <target>Copia</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 815214216 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Downloads the selected file from the storage.</source>
+          <target>Scarica il file selezionato dallo storage.</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 815214216 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Download</source>
+          <target>Scarica</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 830149435 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Refreshes the entry list</source>
+          <target>Aggiorna l'elenco delle voci</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 830149435 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Refresh</source>
+          <target>Aggiorna</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 965101253 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Uploads a file to the storage</source>
+          <target>Carica un file sullo storage.</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 965101253 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Upload</source>
+          <target>Caricare</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 149522872 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Entry Type" field.</source>
+          <target>Specifica il valore del campo "Tipo di voce".</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 2702644459 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Service Configuration" field.</source>
+          <target>Specifica il valore del campo "Configurazione servizio".</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 2702644459 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Service Configuration</source>
+          <target>Configurazione servizio</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 2961552353 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Name" field.</source>
+          <target>Specifica il valore del campo "Nome".</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 820447238 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the currently visualized folder.</source>
+          <target>Specifica la cartella attualmente visualizzata.</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 820447238 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Current Folder</source>
+          <target>Cartella corrente</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 995333756 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Content-Length" field.</source>
+          <target>Specifica il valore del campo "Content-Length".</target>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Method 697954495 - NamedType 1335670301" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete the selected entry?</source>
+          <target>Eliminare la voce selezionata?</target>
+        </trans-unit>
         <trans-unit id="Page 71430791 - Action 1786049364 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Loads data from the API.</source>
           <target>Carica i dati dall'API.</target>
@@ -2394,6 +2518,10 @@
         <trans-unit id="Table 1620188913 - Field 1582327135 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sorting Sequence</source>
           <target>Sequenza di ordinamento</target>
+        </trans-unit>
+        <trans-unit id="Table 1620188913 - Field 2179665667 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Path</source>
+          <target>Percorso padre</target>
         </trans-unit>
         <trans-unit id="Table 1620188913 - Field 2206733951 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Path</source>

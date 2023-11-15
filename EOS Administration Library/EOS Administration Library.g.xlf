@@ -498,6 +498,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 AzFS Entry - Field Name - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 1620188913 - Field 2179665667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Path</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS004 AzFS Entry - Field Parent Path - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 1620188913 - Field 2206733951 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Path</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1097,6 +1102,26 @@
           <source>Message: %1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 AzFS Storage - Method TryParseErrorResponse - NamedType ErrorMessageTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - NamedType 2164942842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This operation is not supported.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Azure FileShare FS - NamedType NotSupportedErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - Method 2380145755 - NamedType 2444345320" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HTTP Status: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Azure FileShare FS - Method TryParseErrorResponse - NamedType StatusTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - Method 2380145755 - NamedType 2367521239" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Azure FileShare FS - Method TryParseErrorResponse - NamedType ErrorCodeTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 442212062 - Method 2380145755 - NamedType 3082053221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message: %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS004 Azure FileShare FS - Method TryParseErrorResponse - NamedType ErrorMessageTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 1168058614 - NamedType 2059604429" size-unit="char" translate="yes" xml:space="preserve">
           <source>Failed to convert value %1 to type %2</source>
@@ -2408,11 +2433,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Subscription SignUp - Action PreviousStepAct - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 136020747 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>AzFileShare Browser</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 AzFileShare Browser - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 136020747 - Method 697954495 - NamedType 1335670301" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delete the selected entry?</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -2593,10 +2613,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 AzFS File Details - Control Last Modified - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 218545441 - Control 2206733951 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Specifies the value of the "Path" field.</source>
+        <trans-unit id="Page 218545441 - Control 2179665667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the path to the folder this file is in.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 AzFS File Details - Control Path - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 AzFS File Details - Control Parent Path - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 218545441 - Control 968663094 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "StorageUrl" field.</source>
@@ -3218,6 +3238,141 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Field History Factbox - Control Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 695816558 - Method 697954495 - NamedType 1335670301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete the selected entry?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Method DeleteEntry - NamedType DeleteEntryQst</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 995333756 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Content-Length" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control Content-Length - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 149522872 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Entry Type" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 820447238 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the currently visualized folder.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control CurrFolderField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 820447238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Current Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control CurrFolderField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 2702644459 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Service Configuration" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control ServConnCodeField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Control 2702644459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service Configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Control ServConnCodeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 1107918703 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Moves back one level.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action BackAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 1107918703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder Up</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action BackAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3463412311 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy an existing file to a folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action CopyFileAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3463412311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action CopyFileAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 2478093760 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Creates a new folder on the storage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action CreateFolderAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 2478093760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action CreateFolderAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3372522237 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Deletes the selected entry on the storage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action DeleteEntryAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 3372522237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action DeleteEntryAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 815214216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Downloads the selected file from the storage.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action DownloadFileAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 815214216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action DownloadFileAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 830149435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refreshes the entry list</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action RefreshEntriesAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 830149435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action RefreshEntriesAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 965101253 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Uploads a file to the storage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action UploadFileAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 695816558 - Action 965101253 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Browser - Action UploadFileAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Copy File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Copy Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 1455412149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Folder Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Copy Dialog - Control FolderNameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 1455412149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Copy Dialog - Control FolderNameField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 2093199745 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "New Filename" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Copy Dialog - Control NewFilenameField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 10422949 - Control 2093199745 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Filename</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 FileSystem Copy Dialog - Control NewFilenameField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2379223636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>New Directory</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3232,6 +3387,21 @@
           <source>Directory Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 New Directory Dialog - Control DirectoryNameValueField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3634084577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 New Folder Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3634084577 - Control 2037941036 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Folder Name" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 New Folder Dialog - Control FolderNameValueField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3634084577 - Control 2037941036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 New Folder Dialog - Control FolderNameValueField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 976378563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>PDF Protect Settings (EAL)</source>
@@ -3358,16 +3528,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Service Config. - Control Type - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 345584352 - Action 3876018767 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shows all logged requests for this service configuration.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Service Config. - Action RequestLog - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 345584352 - Action 3876018767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Request Log</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Service Config. - Action RequestLog - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 3124467794 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Service Configuration List (EAL)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3392,16 +3552,6 @@
           <source>Specifies the value of the "Type" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Service Config. List - Control Type - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3124467794 - Action 3876018767 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Shows all logged requests for this service configuration.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Service Config. List - Action RequestLog - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 3124467794 - Action 3876018767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Request Log</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Service Config. List - Action RequestLog - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1820702909 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Configuration</source>
@@ -3538,10 +3688,40 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Text Editor - Action FormatAction - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 1557268532 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Web Request Log (EAL)</source>
+        <trans-unit id="Page 2298717412 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload File</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Web Request Log - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 650359949 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the content that is about to be uploaded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Control ContentField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 650359949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Control ContentField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 461572996 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the file to be uploaded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Control FilenameValueField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 461572996 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Control FilenameValueField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 2037941036 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the target folder on the file system where the file should be placed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Control FolderNameValueField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2298717412 - Control 2037941036 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Upload File Dialog - Control FolderNameValueField - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1557268532 - Control 3301321002 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Date/Time" field.</source>
@@ -3582,26 +3762,6 @@
           <source>Specifies the value of the "User Id" field.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Web Request Log - Control User Id - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 834443137 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Downloads the request payload.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Web Request Log - Action RequestPayload - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 834443137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Request Data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Web Request Log - Action RequestPayload - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 3398598583 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Downloads the response payload.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Web Request Log - Action ResponsePayload - Property ToolTip</note>
-        </trans-unit>
-        <trans-unit id="Page 1557268532 - Action 3398598583 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Response Data</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page EOS004 Web Request Log - Action ResponsePayload - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2402838621 - Action 1786049364 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Loads data from the API.</source>
