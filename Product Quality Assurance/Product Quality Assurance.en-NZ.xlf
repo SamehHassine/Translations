@@ -2243,6 +2243,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Post Transfer Management - Method CheckAdjustmentBin - NamedType lCtxText0001</note>
         </trans-unit>
+        <trans-unit id="Codeunit 904674845 - NamedType 3426733551" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The document has Inspection Orders linked. It can not be deleted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS Quality Event Handlers - NamedType DeleteOrderLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 904674845 - Method 132751519 - NamedType 310490318" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item %1 is blocked by QS.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3502,6 +3507,21 @@
           <source>Create Follow-Up Inspection</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inspection Order - Action Crea Successivo Controllo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 195722731 - Action 1409600628 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove the references to the source document (Purchase Order, Sales Order) in the Ispection Order.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inspection Order - Action RemoveRefDocument - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 195722731 - Action 1409600628 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove Ref. Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inspection Order - Action RemoveRefDocument - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 195722731 - Action 1409600628 - Method 1377591017 - NamedType 1422154189" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to remove the references to the source document?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inspection Order - Action RemoveRefDocument - Method OnAction - NamedType MsgDeleteRefLbl</note>
         </trans-unit>
         <trans-unit id="Page 1082073557 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Inspection Order List (PQA)</source>
@@ -4809,7 +4829,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inspection Setup - Control Default Reason Code - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 2446076292 - Control 2794685242 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Enables the filter on "Type" field in Inspection Matrix Setup. By standard the filter includes both the specified Type and the default value "Vendor". If enabled, the filter includes only the Type specified by the source document.</source>
+          <source>Enables the filter on "Type" field in Inspection Matrix Setup. By standard the filter includes both the specified Type the default value "Vendor". If enabled, the filter includes only the Type specified by the source document.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS Inspection Setup - Control Enable Type Filter InspMatrix - Property ToolTip</note>
         </trans-unit>
