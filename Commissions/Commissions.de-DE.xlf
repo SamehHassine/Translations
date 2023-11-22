@@ -71,6 +71,14 @@
           <source>%1 journal</source>
           <target>%1-Erfassung</target>
         </trans-unit>
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unexpected record type detected (table %1), proper support for the table must be implemented.</source>
+          <target>Unerwarteter Datensatztyp erkannt (Tabelle %1), muss eine ordnungsgemäße Unterstützung für die Tabelle implementiert werden.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unexpected %1 value detected, proper logic must be implemented..</source>
+          <target>Unerwarteter %1-Wert erkannt, die richtige Logik muss implementiert werden.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 3639294878 - Method 1008427425 - NamedType 1964939054" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2 already related to an existing %3 (%4) for salesperson %5.</source>
           <target>%1 %2 bereits verwandt mit einem vorhandenen %3 (%4) für Verkäufer %5.</target>
@@ -5275,6 +5283,14 @@
           <source>Process Sales Invoice</source>
           <target>Verarbeiten der Verkaufsrechnung</target>
         </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This flag allows to delete the Commission Ledger Entries that are both open and not in settlement for the salesperson deleted from the Salespersons page list on the processed Document Line</source>
+          <target>Mit diesem Kennzeichen können Sie die Provisionsposten löschen, die sowohl offen als auch nicht in Abwicklung für den Verkäufer sind, der aus der Liste der Verkäufer in der verarbeiteten Belegposition gelöscht wurde</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Entries</source>
+          <target>Einträgen löschen</target>
+        </trans-unit>
         <trans-unit id="Report 3044685614 - Control 4105281732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Optionen</target>
@@ -5287,6 +5303,14 @@
           <source>Overwrite Existing</source>
           <target>Vorhandene Überschreibung</target>
         </trans-unit>
+        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 1074372818" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission not deleted, the Entry has a settlement in progress or it is closed.</source>
+          <target>Die Provision wurde nicht gelöscht, für den Eintrag ist eine Abrechnung in Bearbeitung oder er ist geschlossen.</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 3334061755" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission deleted</source>
+          <target>Kommission gestrichen</target>
+        </trans-unit>
         <trans-unit id="Report 3044685614 - NamedType 1178781371" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processing #1############## #2#######</source>
           <target>Verarbeitung #1############## #2#######</target>
@@ -5294,6 +5318,10 @@
         <trans-unit id="Report 3044685614 - NamedType 2359690022" translate="yes" size-unit="char" xml:space="preserve">
           <source>The App Commission is not enabled</source>
           <target>Die App-Kommission ist nicht aktiviert</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - NamedType 980109615" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The report is about to process the Commission Ledger Entries for ALL lines in: \%1: %2  \%3: %4 \are you sure you want to continue?</source>
+          <target>Der Report ist im Begriff, die Provisionsposten für ALLE Zeilen zu verarbeiten in: \%1: %2 \%3: %4 \sind Sie sicher, dass Sie fortfahren möchten?</target>
         </trans-unit>
         <trans-unit id="Report 3044685614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create commission entries</source>
