@@ -73,9 +73,11 @@
         </trans-unit>
         <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 1608146540" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected record type detected (table %1), proper support for the table must be implemented.</source>
+          <target>Se ha detectado un tipo de registro inesperado (tabla %1), se debe implementar la compatibilidad adecuada con la tabla.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3396113157 - Method 425154674 - NamedType 3090844914" translate="yes" size-unit="char" xml:space="preserve">
           <source>Unexpected %1 value detected, proper logic must be implemented..</source>
+          <target>Se detectó un valor %1 inesperado, se debe implementar la lógica adecuada.</target>
         </trans-unit>
         <trans-unit id="Codeunit 3639294878 - Method 1008427425 - NamedType 1964939054" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 %2 already related to an existing %3 (%4) for salesperson %5.</source>
@@ -231,9 +233,11 @@
         </trans-unit>
         <trans-unit id="Enum 1380557116 - EnumValue 2448168655 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Workdate</source>
+          <target>Fecha de trabajo</target>
         </trans-unit>
         <trans-unit id="Enum 1380557116 - EnumValue 580412389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Document Date</source>
+          <target>Fecha del documento</target>
         </trans-unit>
         <trans-unit id="Enum 1818920053 - EnumValue 2702998682 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line Discount %</source>
@@ -1637,6 +1641,7 @@
         </trans-unit>
         <trans-unit id="Page 2797433351 - NamedType 1347929637" translate="yes" size-unit="char" xml:space="preserve">
           <source>Sales Network is enabled. You cannot edit this page.</source>
+          <target>La red de ventas está habilitada. Esta página no se puede editar.</target>
         </trans-unit>
         <trans-unit id="Page 2797433351 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Add. Salespersons/Purchasers</source>
@@ -2068,9 +2073,11 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Action 4184627849 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Executes a report that updates salespersons on documents.</source>
+          <target>Ejecuta un informe que actualiza a los vendedores sobre los documentos.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Action 4184627849 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Salespersons On Documents</source>
+          <target>Actualizar vendedores en documentos</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 1026268089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if sales network management in enabled. If not, you will be able to insert salespersons directly on customers and documents.</source>
@@ -2194,6 +2201,7 @@
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3342573389 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the Commissions Calculation Date field.</source>
+          <target>Especifica el valor del campo Fecha de cálculo de comisiones.</target>
         </trans-unit>
         <trans-unit id="Page 3431204148 - Control 3431023670 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if when a due date is modified on a customer ledger entry related to a settled/in settlement advance commission entry, user can force to proceed.</source>
@@ -4457,24 +4465,31 @@
         </trans-unit>
         <trans-unit id="Query 1600194900 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Product Commission Group Code</source>
+          <target>Consultar el código de grupo de comisiones de productos</target>
         </trans-unit>
         <trans-unit id="Query 1751777690 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Sales Person</source>
+          <target>Consultar al vendedor</target>
         </trans-unit>
         <trans-unit id="Query 3079749465 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Salesperson Role</source>
+          <target>Consultar rol de vendedor</target>
         </trans-unit>
         <trans-unit id="Query 4009777844 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Customer Commission Group Code</source>
+          <target>Consultar el código de grupo de comisiones de clientes</target>
         </trans-unit>
         <trans-unit id="Query 665623871 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Sales Network</source>
+          <target>Consultar la red de ventas</target>
         </trans-unit>
         <trans-unit id="Query 730208778 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Customer No</source>
+          <target>Consultar el número de cliente</target>
         </trans-unit>
         <trans-unit id="Query 876824755 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Query Product No</source>
+          <target>Consultar el número de producto</target>
         </trans-unit>
         <trans-unit id="Report 1343196591 - Control 2507660060 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if a summary page with execution log has to be opened at the end of the process.</source>
@@ -4990,60 +5005,79 @@
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 1933819208 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if Sales Headers will be updated.</source>
+          <target>Especifica si se actualizarán los encabezados de ventas.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 1933819208 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Sales Headers</source>
+          <target>Actualizar encabezados de ventas</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2119454732 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if Posted Sales Cr. Memos will be updated.</source>
+          <target>Especifica si se actualizarán las notas de ventas registradas.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2119454732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Posted Sales Cr. Memos</source>
+          <target>Actualizar los memorandos de ventas registrados</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2232234320 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how Salespersons will be copied from Customer to Document Header.</source>
+          <target>Especifica cómo se copiarán los vendedores del cliente a la cabecera del documento.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2232234320 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Customer to Header propagation</source>
+          <target>Propagación de cliente a encabezado</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2232234320 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Action,Add Missing,Overwrite</source>
+          <target>Sin acción, Agregar faltante, Sobrescribir</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2622989254 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies if Posted Sales Invoices will be updated.</source>
+          <target>Especifica si se actualizarán las facturas de venta registradas.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 2622989254 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Posted Sales Invoices</source>
+          <target>Actualizar facturas de ventas registradas</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 331095309 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies how Salespersons will be copied from Document Header to Document Line.</source>
+          <target>Especifica cómo se copiarán los vendedores del encabezado del documento a la línea del documento.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 331095309 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Header to Line propagation</source>
+          <target>Propagación de encabezado a línea</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 331095309 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
           <source>No Action,Add Missing,Overwrite</source>
+          <target>Sin acción, Agregar faltante, Sobrescribir</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 4241910694 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Filters</source>
+          <target>Filtros</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 99405531 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Gets an Excel file Log with the processed records and the changes done by the report</source>
+          <target>Obtiene un registro de archivos de Excel con los registros procesados y los cambios realizados por el informe</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Control 99405531 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Excel Log</source>
+          <target>Obtener registro de Excel</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Method 2736589801 - NamedType 2499179930" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Salespersons On Docs report Log (CMS)</source>
+          <target>Actualizar el registro de informes de vendedores en documentos (CMS)</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Method 2736589801 - NamedType 4107204564" translate="yes" size-unit="char" xml:space="preserve">
           <source>Changed %1 documents.</source>
+          <target>Se han cambiado los documentos %1.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - NamedType 960129613" translate="yes" size-unit="char" xml:space="preserve">
           <source>No action selected.</source>
+          <target>No se ha seleccionado ninguna acción.</target>
         </trans-unit>
         <trans-unit id="Report 1709093808 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Update Salesp. On Docs (CMS)</source>
+          <target>Actualizar Salesp. En Documentos (CMS)</target>
         </trans-unit>
         <trans-unit id="Report 180129807 - Control 1793549782 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies to which date filter commission entries on posting date. This date represent reference date when seeking reduction setup.</source>
@@ -5333,6 +5367,14 @@
           <source>Process Sales Invoice</source>
           <target>Procesar factura de ventas</target>
         </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>This flag allows to delete the Commission Ledger Entries that are both open and not in settlement for the salesperson deleted from the Salespersons page list on the processed Document Line</source>
+          <target>Este botón permite eliminar los movimientos de comisión que estén abiertos y no estén en liquidación de los agentes eliminados de la página de la lista de Agentes en la línea de documento procesada</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Delete Entries</source>
+          <target>Eliminar movimientos</target>
+        </trans-unit>
         <trans-unit id="Report 3044685614 - Control 4105281732 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Opciones</target>
@@ -5345,6 +5387,14 @@
           <source>Overwrite Existing</source>
           <target>Sobrescribir existente</target>
         </trans-unit>
+        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 1074372818" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission not deleted, the Entry has a settlement in progress or it is closed.</source>
+          <target>Comisión no eliminada, la Entrada tiene una liquidación en curso o está cerrada.</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 3334061755" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Commission deleted</source>
+          <target>Comisión suprimida</target>
+        </trans-unit>
         <trans-unit id="Report 3044685614 - NamedType 1178781371" translate="yes" size-unit="char" xml:space="preserve">
           <source>Processing #1############## #2#######</source>
           <target>Procesamiento de #1############## #2#######</target>
@@ -5352,6 +5402,10 @@
         <trans-unit id="Report 3044685614 - NamedType 2359690022" translate="yes" size-unit="char" xml:space="preserve">
           <source>The App Commission is not enabled</source>
           <target>La Comisión de Aplicaciones no está habilitada</target>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - NamedType 980109615" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The report is about to process the Commission Ledger Entries for ALL lines in: \%1: %2  \%3: %4 \are you sure you want to continue?</source>
+          <target>El report está a punto de procesar los movimientos comisiones  para TODAS las líneas en: \%1: %2 \%3: %4 \¿está seguro de que desea continuar?</target>
         </trans-unit>
         <trans-unit id="Report 3044685614 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Create commission entries</source>
@@ -6351,6 +6405,7 @@
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3342573389 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Commissions Calculation Date</source>
+          <target>Fecha de cálculo de comisiones</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 3431023670 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Allow Due Date mod. on Settled Advance Entries</source>
@@ -6402,6 +6457,7 @@
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 6620776 - Method 2126772001 - NamedType 3382506742" translate="yes" size-unit="char" xml:space="preserve">
           <source>No existing commission line will be updated automatically, you must update them manually if needed.</source>
+          <target>Ninguna línea de comisión existente se actualizará automáticamente, debe actualizarlas manualmente si es necesario.</target>
         </trans-unit>
         <trans-unit id="Table 3431204148 - Field 6620776 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Free Gift Calc. Method</source>
