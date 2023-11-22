@@ -1633,6 +1633,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - NamedType gCtxText18006602Err</note>
         </trans-unit>
+        <trans-unit id="Table 2993563720 - NamedType 3009578149" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Must be different from the "Status Code" field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - NamedType Txt001Lbl</note>
+        </trans-unit>
         <trans-unit id="Table 2993563720 - Field 4001757031 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Changes disabled</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1687,6 +1692,11 @@
           <source>Last Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Last Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2993563720 - Field 3025938226 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Suggested Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Table Status - Field Next Suggested Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 2993563720 - Field 2379948459 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Status Code</source>
@@ -1747,6 +1757,11 @@
           <source>Description</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Change Path - Field Path Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 652797652 - Field 4084329682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Records Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DS Tables Change Path - Field Records Filter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 652797652 - Field 3135334477 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Table ID</source>
@@ -2912,6 +2927,11 @@
           <source>You have information about EDS.Would you like to open?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method CalculateUserToNotify - NamedType lCtxText18006600Qst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 842517887 - Method 3166811509 - NamedType 2579892417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You cannot move to the next suggested state if you are within a path.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DS Management - Method NextStatus - NamedType TxtPathLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 842517887 - Method 2247529724 - NamedType 4090211762" size-unit="char" translate="yes" xml:space="preserve">
           <source>There is not setup for %1 %2, %3 %4 in %5.</source>
@@ -4228,6 +4248,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Record Status FactBox - Action Change Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2598370398 - Action 3450954181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Next Status" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Record Status FactBox - Action Next Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2598370398 - Action 3450954181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Record Status FactBox - Action Next Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3044119923 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Record Status Info</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5433,6 +5463,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Last Status - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 2416094138 - Control 3025938226 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Next Suggested Status" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Table Status List - Control Next Suggested Status - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2416094138 - Control 471678279 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Deletion disabled" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5512,6 +5547,11 @@
           <source>Specifies the value of the "Description" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Tables Change Path - Control Path Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 652797652 - Control 4084329682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the "Records Filter" field</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DS Tables Change Path - Control Records Filter - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 652797652 - Control 3135334477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the value of the "Table ID" field</source>
@@ -6888,6 +6928,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Rec. Status FactBox - Action Change Status - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 4019868779 - Action 3450954181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Next Status" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Rec. Status FactBox - Action Next Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4019868779 - Action 3450954181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Rec. Status FactBox - Action Next Status - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 4019868779 - Action 215142402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Executes the "Show Mandatory Field" action</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -7382,6 +7432,16 @@
           <source>Change Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Log Factbox - Action Change Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3816568665 - Action 3450954181 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the "Next Status" action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Log Factbox - Action Next Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3816568665 - Action 3450954181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS003 Status Log Factbox - Action Next Status - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2438731754 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>EDS Status Transaction Log (System ID)</source>

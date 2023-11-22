@@ -403,6 +403,9 @@
           <source>There is not setup for %1 %2, %3 %4 in %5.</source>
           <target>Es gibt keine Einrichtung für %1 %2, %3 %4 in %5.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 842517887 - Method 3166811509 - NamedType 2579892417" translate="yes" size-unit="char" xml:space="preserve">
+          <source>You cannot move to the next suggested state if you are within a path.</source>
+        </trans-unit>
         <trans-unit id="Codeunit 842517887 - Method 3355285927 - NamedType 1614022648" translate="yes" size-unit="char" xml:space="preserve">
           <source>%1 Change EDS Status: from %2 to %3</source>
           <target>%1 Datensicherungsstatus ändern: von %2 zu %3</target>
@@ -1198,6 +1201,9 @@
           <source>Specifies the value of the "Colour" field</source>
           <target>Gibt den Wert des Feldes "Farbe" an.</target>
         </trans-unit>
+        <trans-unit id="Page 2416094138 - Control 3025938226 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Next Suggested Status" field</source>
+        </trans-unit>
         <trans-unit id="Page 2416094138 - Control 3135334477 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Table ID" field</source>
           <target>Gibt den Wert des Feldes "Tabellen-ID" an.</target>
@@ -1587,6 +1593,12 @@
         <trans-unit id="Page 2598370398 - Action 1181470318 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Change Status</source>
           <target>Status ändern</target>
+        </trans-unit>
+        <trans-unit id="Page 2598370398 - Action 3450954181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Next Status" action</source>
+        </trans-unit>
+        <trans-unit id="Page 2598370398 - Action 3450954181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next Status</source>
         </trans-unit>
         <trans-unit id="Page 2598370398 - Control 777858465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Status" field</source>
@@ -2959,6 +2971,12 @@
           <source>Change Status</source>
           <target>Status ändern</target>
         </trans-unit>
+        <trans-unit id="Page 3816568665 - Action 3450954181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Next Status" action</source>
+        </trans-unit>
+        <trans-unit id="Page 3816568665 - Action 3450954181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next Status</source>
+        </trans-unit>
         <trans-unit id="Page 3816568665 - Control 1497076986 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Change Path Code" field</source>
           <target>Gibt den Wert des Feldes "Pfadcode ändern" an.</target>
@@ -3270,6 +3288,12 @@
         <trans-unit id="Page 4019868779 - Action 215142402 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Show Mandatory Field</source>
           <target>Pflichtfeld anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Page 4019868779 - Action 3450954181 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Executes the "Next Status" action</source>
+        </trans-unit>
+        <trans-unit id="Page 4019868779 - Action 3450954181 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next Status</source>
         </trans-unit>
         <trans-unit id="Page 4019868779 - Control 777858465 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Status" field</source>
@@ -3622,6 +3646,9 @@
         <trans-unit id="Page 652797652 - Control 3969856917 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Description" field</source>
           <target>Gibt den Wert des Feldes "Beschreibung" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 652797652 - Control 4084329682 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies the value of the "Records Filter" field</source>
         </trans-unit>
         <trans-unit id="Page 652797652 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>EDS Tables Change Path</source>
@@ -5137,6 +5164,9 @@
           <source>Black,Blue,Bold Black,Bold Blue,Italic Red,Italic Blue,Bold Green,Bold Red,Yellow,Grey</source>
           <target>Noir,Bleu,Bold Black,Bold Blue,Italic Red,Italic Blue,Bold Green,Bold Red,Yellow,Grey</target>
         </trans-unit>
+        <trans-unit id="Table 2993563720 - Field 3025938226 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Next Suggested Status</source>
+        </trans-unit>
         <trans-unit id="Table 2993563720 - Field 3135334477 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Table ID</source>
           <target>Tabellen-ID</target>
@@ -5192,6 +5222,9 @@
         <trans-unit id="Table 2993563720 - NamedType 1910772588" translate="yes" size-unit="char" xml:space="preserve">
           <source>Impossible delete %1 %2 because there are %3 records with this value.</source>
           <target>Unmöglich %1 %2 zu löschen, denn es gibt %3 Einträge mit diesen Werten.</target>
+        </trans-unit>
+        <trans-unit id="Table 2993563720 - NamedType 3009578149" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Must be different from the "Status Code" field.</source>
         </trans-unit>
         <trans-unit id="Table 2993563720 - NamedType 703165691" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
@@ -5660,6 +5693,9 @@
         <trans-unit id="Table 652797652 - Field 3969856917 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Description</source>
           <target>Beschreibung</target>
+        </trans-unit>
+        <trans-unit id="Table 652797652 - Field 4084329682 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Records Filter</source>
         </trans-unit>
         <trans-unit id="Table 652797652 - NamedType 703165691" translate="yes" size-unit="char" xml:space="preserve">
           <source>You cannot rename a %1.</source>
