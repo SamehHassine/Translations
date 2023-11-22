@@ -6783,10 +6783,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - NamedType NotEnabledLbl</note>
         </trans-unit>
+        <trans-unit id="Report 3044685614 - NamedType 980109615" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The report is about to process the Commission Ledger Entries for ALL lines in: \%1: %2  \%3: %4 \are you sure you want to continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - NamedType PreProcessMsg</note>
+        </trans-unit>
         <trans-unit id="Report 3044685614 - NamedType 1178781371" size-unit="char" translate="yes" xml:space="preserve">
           <source>Processing #1############## #2#######</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - NamedType ProcessLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 3334061755" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Method DeleteOrphanEntries - NamedType LogDeletedEntriesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Method 1048590915 - NamedType 1074372818" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Commission not deleted, the Entry has a settlement in progress or it is closed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Method DeleteOrphanEntries - NamedType LogNonDeletedEntriesLbl</note>
         </trans-unit>
         <trans-unit id="Report 3044685614 - ReportDataItem 1724164490 - Method 3245603402 - NamedType 4242511204" size-unit="char" translate="yes" xml:space="preserve">
           <source>Commission calculated.</source>
@@ -6822,6 +6837,16 @@
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Control GroupName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This flag allows to delete the Commission Ledger Entries that are both open and not in settlement for the salesperson deleted from the Salespersons page list on the processed Document Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Control Delete Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Report 3044685614 - Control 4026041789 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report EOS Commission Fetch Entries - Control Delete Entries - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3044685614 - Control 1962828171 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if existing manual commission entries on processed documents has to be kept even if Overwrite Existing flag is enabled.</source>
