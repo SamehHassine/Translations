@@ -3,10 +3,10 @@
   <file datatype="xml" source-language="en-US" target-language="en-GB" original="Delivery Route Planner for Transport Costs">
     <body>
       <group id="body">
-        <trans-unit id="Codeunit 2250190234 - Method 757410686 - NamedType 3450261973" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Codeunit 2250190234 - Method 757410686 - NamedType 4051335237" size-unit="char" translate="yes" xml:space="preserve">
           <source>You are using a shipping price of type "%1" with areas.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS09202 ETC Event Handler - Method CU18090627_OnBeforeGetDetailOnCalcShippingPriceForTourPlan - NamedType LblShipPriceAreaMsg</note>
+          <note from="Developer" annotates="general" priority="2">%1 is the type of shipping price.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS09202 ETC Event Handler - Method CU18090627_OnBeforeGetDetailOnCalcShippingPriceForTourPlan - NamedType MsgShipPriceAreaLbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 2933372906 - Method 1759220867 - NamedType 1196336482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Confirm recalculation of Transport Costs for the Route Plan %1 ?</source>
@@ -113,6 +113,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS09202 Tour Summary - Control AppliedTariffExpected - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1842993404 - Control 3206138168 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split the Tour Tariff (Actual) on the transport costs lines, if the parameter source is Route Plan.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS09202 Tour Summary - Control EOS Tour Tariff (Actual) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1842993404 - Control 3539631344 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split the Tour Tariff (Expected) on transport costs lines, if the parameter source is Route Plan.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS09202 Tour Summary - Control EOS Tour Tariff (Expected) - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 1842993404 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>F&amp;unctions</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -197,6 +207,11 @@
           <source>Specifies the default parameter source (weights, pallet, hours..) for the calculation of transport costs.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09202 PageExt18008161 - Control EOS09202 Parameters Source - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1566412794 - Action 1192573084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1444946926">
+          <source>Tour Summary</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EOS09202 PageExt18008162 - Action EOS09202TourSummary - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 2841806028 - Control 1149375569 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4577671">
           <source>Specifies the default parameter source (weights, pallet, hours..) for the calculation of transport costs.</source>
