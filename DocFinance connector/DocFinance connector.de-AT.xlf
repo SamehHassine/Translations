@@ -35,6 +35,12 @@
           <source>You cannot delete journal line, it is related to DocFinance line (%1).\Use the menu function to delete this record</source>
           <target>Sie können die Erfassungszeile nicht löschen, sie ist mit der DocFinance-Zeile (%1) verknüpft.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1234353073 - Method 2504130688 - NamedType 2391231709" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document number %1 does not exist or is already closed.</source>
+        </trans-unit>
+        <trans-unit id="Codeunit 1234353073 - Method 661531896 - NamedType 2391231709" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document number %1 does not exist or is already closed.</source>
+        </trans-unit>
         <trans-unit id="Codeunit 2018922889 - NamedType 2285947584" translate="yes" size-unit="char" xml:space="preserve">
           <source>Missing payment method in "%1" record or "%2"</source>
           <target>Fehlende Zahlungsmethode in "%1" Datensatz o "%2"</target>
@@ -288,8 +294,8 @@
           <target>Verarbeiten des aktuellen Stapels und Verschieben der Zeilen in das Buch.-Blatt</target>
         </trans-unit>
         <trans-unit id="Page 152628609 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Process batch</source>
-          <target>Prozessbatch</target>
+          <source>Process COGE batch</source>
+          <target>COGE-Charge verarbeiten</target>
         </trans-unit>
         <trans-unit id="Page 152628609 - Action 58484011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the records related to this batch</source>
@@ -320,8 +326,8 @@
           <target>Erstellungsdatum/-zeitpunkt des Importbatches</target>
         </trans-unit>
         <trans-unit id="Page 152628609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Batches (DCF)</source>
-          <target>Importbatches (DCF)</target>
+          <source>Import COGE Batches (DCF)</source>
+          <target>COGE-Chargen importieren (DCF)</target>
         </trans-unit>
         <trans-unit id="Page 1571871162 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No. that express the order the lines has been exported</source>
@@ -568,8 +574,8 @@
           <target>Chargen, die verarbeitet werden müssen</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2161969294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>To Process Imported Records</source>
-          <target>So verarbeiten Sie importierte Datensätze</target>
+          <source>Process COGE batches</source>
+          <target>COGE-Chargen verarbeiten</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2346606626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exported batches of MasterData</source>
@@ -584,8 +590,8 @@
           <target>Importchargen, die bereits verarbeitet wurden</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3500055881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Archive</source>
-          <target>Importarchiv</target>
+          <source>Import COGE Archive</source>
+          <target>COGE-Archiv importieren</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3527138042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page to setup multiple decode for a setup</source>
@@ -749,11 +755,11 @@
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 380228022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>API Publisher/group/version</source>
-          <target>API Publisher/Gruppe/Version</target>
+          <target>API Publisher/group/version</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 380228022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>API Publisher/group/version</source>
-          <target>API Publisher/Gruppe/Version</target>
+          <target>API Publisher/group/version</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 3884942992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Bank Account when Our Bank Account not specified</source>
@@ -1000,8 +1006,8 @@
           <target>Erstellungsdatum/-zeitpunkt des Importbatches</target>
         </trans-unit>
         <trans-unit id="Page 3396196777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Batches Archive (DCF)</source>
-          <target>Batches-Archiv importieren (DCF)</target>
+          <source>COGE Batches Archive (DCF)</source>
+          <target>COGE-Chargen-Archiv (DCF)</target>
         </trans-unit>
         <trans-unit id="Page 3475235194 - Control 1761304904 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error subtype, identifies if the record is related to the Import, export MasterdData or export Receive/Payable</source>
