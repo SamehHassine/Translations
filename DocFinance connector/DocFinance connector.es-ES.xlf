@@ -35,6 +35,14 @@
           <source>You cannot delete journal line, it is related to DocFinance line (%1).\Use the menu function to delete this record</source>
           <target>No se puede eliminar la línea del diario, está relacionada con la línea DocFinance (%1).</target>
         </trans-unit>
+        <trans-unit id="Codeunit 1234353073 - Method 2504130688 - NamedType 2391231709" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document number %1 does not exist or is already closed.</source>
+          <target>El número de documento %1 no existe o ya está cerrado.</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 1234353073 - Method 661531896 - NamedType 2391231709" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Document number %1 does not exist or is already closed.</source>
+          <target>El número de documento %1 no existe o ya está cerrado.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 2018922889 - NamedType 2285947584" translate="yes" size-unit="char" xml:space="preserve">
           <source>Missing payment method in "%1" record or "%2"</source>
           <target>Falta método de pago en el registro "%1" o "%2"</target>
@@ -288,8 +296,8 @@
           <target>Procesar el lote actual y mover las líneas al diario</target>
         </trans-unit>
         <trans-unit id="Page 152628609 - Action 2675496269 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Process batch</source>
-          <target>Procesar lote</target>
+          <source>Process COGE batch</source>
+          <target>Procesar lote COGE</target>
         </trans-unit>
         <trans-unit id="Page 152628609 - Action 58484011 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View the records related to this batch</source>
@@ -320,8 +328,8 @@
           <target>Fecha/hora de creación del lote de importación</target>
         </trans-unit>
         <trans-unit id="Page 152628609 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Batches (DCF)</source>
-          <target>Importar lotes (DCF)</target>
+          <source>Import COGE Batches (DCF)</source>
+          <target>Importar lotes COGE (DCF)</target>
         </trans-unit>
         <trans-unit id="Page 1571871162 - Control 3320823955 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Line No. that express the order the lines has been exported</source>
@@ -568,8 +576,8 @@
           <target>Lotes que deben procesarse</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2161969294 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>To Process Imported Records</source>
-          <target>Para procesar registros importados</target>
+          <source>Process COGE batches</source>
+          <target>Procesar lotes COGE</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 2346606626 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Exported batches of MasterData</source>
@@ -584,8 +592,8 @@
           <target>Importar lotes ya procesados</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3500055881 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Archive</source>
-          <target>Importar archivo</target>
+          <source>Import COGE Archive</source>
+          <target>Importar archivo COGE</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Action 3527138042 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Page to setup multiple decode for a setup</source>
@@ -753,11 +761,11 @@
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 380228022 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>API Publisher/group/version</source>
-          <target>API Publisher/grupo/versión</target>
+          <target>API Publisher/group/version</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 380228022 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>API Publisher/group/version</source>
-          <target>API Publisher/grupo/versión</target>
+          <target>API Publisher/group/version</target>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 3884942992 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Bank Account when Our Bank Account not specified</source>
@@ -1004,8 +1012,8 @@
           <target>Fecha/hora de creación del lote de importación</target>
         </trans-unit>
         <trans-unit id="Page 3396196777 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Import Batches Archive (DCF)</source>
-          <target>Importar batches Archive (DCF)</target>
+          <source>COGE Batches Archive (DCF)</source>
+          <target>Archivo de lotes COGE (DCF)</target>
         </trans-unit>
         <trans-unit id="Page 3475235194 - Control 1761304904 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Error subtype, identifies if the record is related to the Import, export MasterdData or export Receive/Payable</source>
