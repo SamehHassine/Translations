@@ -1778,6 +1778,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Gen. Jnl. Template - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3009369369 - Field 2030401322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Include DCF numerator in Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS DCF Setup - Field Incl. DCF numerator in Doc No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3009369369 - Field 100511243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Loss G/L Account No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1842,6 +1847,16 @@
           <source>Are you sure that you want to reject the selected batch?\Batch: %1\Created: %2\\The action is irreversible!</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Arch. Record Mngt - Method Import_RejectArchive - NamedType RejectBatchQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1234353073 - Method 2504130688 - NamedType 2391231709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document number %1 does not exist or is already closed.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Document number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Event Management - Method Gen. Journal Line_OnBeforeGetCustLedgerEntry - NamedType NotExistErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1234353073 - Method 661531896 - NamedType 2391231709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document number %1 does not exist or is already closed.</source>
+          <note from="Developer" annotates="general" priority="2">%1=Document number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS DCF Event Management - Method Gen. Journal Line_OnBeforeGetVendLedgerEntry - NamedType NotExistErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 1234353073 - Method 1058525227 - NamedType 157861790" size-unit="char" translate="yes" xml:space="preserve">
           <source>You cannot delete journal line, it is related to DocFinance line (%1).\Use the menu function to delete this record</source>
@@ -2882,6 +2897,11 @@
           <source>The import lines template</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Gen. Jnl. Template - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3009369369 - Control 2030401322 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether to include the DocFinance numerator when building the Document No. in Gen. Journal Lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS DCF Setup - Control Incl. DCF numerator in Doc No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3009369369 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
