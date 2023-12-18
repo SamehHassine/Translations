@@ -503,9 +503,17 @@
           <source>C/A Account No.  #3##############\</source>
           <target>C/A-rekeningnummer #3################\</target>
         </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 496128909" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dimension %1 not found in EMA setup driver dimension</source>
+          <target>Afmeting %1 niet gevonden in de dimensie van het EMA-installatiestuurprogramma</target>
+        </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prof. Income     #2##############\</source>
           <target>Winstgevendheid Resultatenrekening #2################\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 799064184" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales doc. without item entries</source>
+          <target>Verkoopdocument zonder artikelinvoer</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>All line types, including headings, begin-total and end-total, are transferred.\</source>
@@ -1347,6 +1355,14 @@
           <source>C/A Account Association (EMA)</source>
           <target>C/A-rekeningvereniging (EMA)</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1405007275 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <target>Zoek posten en documenten die bestaan voor het documentnummer en de boekingsdatum op het geselecteerde document. (Voorheen heette deze actie Navigeren.)</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1405007275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries...</source>
+          <target>Zoek bewegingen</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
           <target>Dimensies weergeven of bewerken, zoals gebied, project of afdeling, die u toewijzen aan verkoop- en inkoopdocumenten om kosten te verdelen en transactiegeschiedenis te analyseren.</target>
@@ -1358,6 +1374,14 @@
         <trans-unit id="Page 1453782444 - Action 3475288728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry</source>
           <target>Post</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 4062682134 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Limit the entries according to the dimension filters that you specify. NOTE: If you use a high number of dimension combinations, this function may not work and can result in a message that the SQL server only supports a maximum of 2100 parameters.</source>
+          <target>Beperk de posten op basis van de dimensiefilters die u opgeeft. OPMERKING: Als u een groot aantal dimensiecombinaties gebruikt, werkt deze functie mogelijk niet en kan dit resulteren in een bericht dat de SQL-server maximaal 2100 parameters ondersteunt.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 4062682134 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set Dimension Filter</source>
+          <target>Dimensiefilter instellen</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 1149824122 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of analysys</source>
@@ -1478,10 +1502,6 @@
         <trans-unit id="Page 1453782444 - Control 899329330 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies a reference to a combination of dimension values. The actual values are stored in the Dimension Set Entry table.</source>
           <target>Hiermee geeft u een verwijzing op naar een combinatie van dimensiewaarden. De werkelijke waarden worden opgeslagen in de tabel Dimensiesetpost.</target>
-        </trans-unit>
-        <trans-unit id="Page 1453782444 - Property 2019332006" translate="yes" size-unit="char" xml:space="preserve">
-          <source>New,Process,Report,Entry</source>
-          <target>Nieuw,Proces,Rapport,Vermelding</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Profitability Analysis Entries</source>
@@ -6996,7 +7016,7 @@
           <target>C/A-budgetbatch</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1210463481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Single Dimension 2</source>
+          <source>Driver Dimension 2</source>
           <target>Driver Enkele dimensie 2</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1274147321 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7024,7 +7044,7 @@
           <target>Geen uitlijning,automatisch,prompt</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1848160098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Single Dimension 3</source>
+          <source>Driver Dimension 3</source>
           <target>Driver enkele dimensie 3</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2014457106 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7036,7 +7056,7 @@
           <target>Broncode C/A-toewijzing</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2485856715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Single Dimension 4</source>
+          <source>Driver Dimension 4</source>
           <target>Driver Enkele dimensie 4</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2515378034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7104,7 +7124,7 @@
           <target>Broncode grootboekinvoer naar C/A</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 572766864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Drive Dimensione 1</source>
+          <source>Driver Dimension 1</source>
           <target>Station Dimensione 1</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 60466006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -9788,7 +9808,7 @@
           <target>Analysecode</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1206868322 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total Net Weight</source>
+          <source>Net Weight</source>
           <target>Nettogewicht</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1419731019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
