@@ -298,6 +298,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Setup - Field Primary Key - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 681938613 - Field 3339485332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason Code Verification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CDW Setup - Field Reason Code Verification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2003483493 - Method 2411557764 - NamedType 2957197235" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unable to load %1 for "%2".</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CdwProperty - Method ThrowLoadError - NamedType UnableToLoadErr</note>
+        </trans-unit>
+        <trans-unit id="Table 2003483493 - Method 3044863476 - NamedType 259440107" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The item/document posting policy of "%1" and "%2" must be equal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS041 CdwProperty - Method VerifyEqualTo - NamedType MustBeEqualErr</note>
+        </trans-unit>
         <trans-unit id="Table 2512296621 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipment Line Buffer</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -343,15 +358,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 CDW Post - Method PostJournalYesNo - NamedType PostJnlBatchQst</note>
         </trans-unit>
-        <trans-unit id="Codeunit 2513428523 - NamedType 1497386908" size-unit="char" translate="yes" xml:space="preserve">
-          <source>The Posting Policy "%1" is not allowed in %2.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 CDW Tests - NamedType PostingPolicyNotAllowedErr</note>
-        </trans-unit>
         <trans-unit id="Codeunit 479705392 - NamedType 3709114904" size-unit="char" translate="yes" xml:space="preserve">
           <source>Source Document Type not handled</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 Document Handling - NamedType SourceDocumentTypeNotHandledErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 479705392 - Method 3451017835 - NamedType 4132651486" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are %1 not invoiced documents (%2).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS041 Document Handling - Method ThrowNotInvoicedDocumentError - NamedType DocumentsExistErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 4134785379 - NamedType 762899482" size-unit="char" translate="yes" xml:space="preserve">
           <source>Do you want to post the %1 %2?</source>
@@ -542,6 +557,11 @@
           <source>Specifies the value of the "Delete Invoiced Sales Documents" field</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 CDW Setup - Control Delete Invcd. Sales Documents - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 681938613 - Control 3339485332 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how posting policy changes on a reason code are verified against existing posted documents in the current account period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS041 CDW Setup - Control Reason Code Verification - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 681938613 - Action 4262405252 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Finds the Value Entry records with the wrong cost amount and fix them.</source>
@@ -823,6 +843,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090667 - Field EOS041 Cost Posting Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2084946067 - Field 1402370468 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1908046867">
+          <source>Date Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EOSTableExt18090667 - Field EOS041 Date Filter - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 2084946067 - Field 1665126265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1908046867">
           <source>Income Posting Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -972,6 +997,21 @@
           <source>Statistic Document (No Ledger Entries)</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041 Posting Policy - EnumValue No Ledger Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3319620439 - EnumValue 3473949665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041ConfirmationLevel - EnumValue Confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3319620439 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041ConfirmationLevel - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3319620439 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS041ConfirmationLevel - EnumValue None - Property Caption</note>
         </trans-unit>
       </group>
     </body>
