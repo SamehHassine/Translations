@@ -47,10 +47,6 @@
           <source>Subscribe for a activation</source>
           <target>Eine Aktivierung beantragen</target>
         </trans-unit>
-        <trans-unit id="Codeunit 2513428523 - NamedType 1497386908" translate="yes" size-unit="char" xml:space="preserve">
-          <source>The Posting Policy "%1" is not allowed in %2.</source>
-          <target>Die Buchungsrichtlinie "%1" ist in %2 nicht zulässig.</target>
-        </trans-unit>
         <trans-unit id="Codeunit 3069543008 - Method 3324274913 - NamedType 1449016598" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the journal lines?</source>
           <target>Möchten Sie die Buch.-Blattzeilen buchen?</target>
@@ -70,6 +66,10 @@
         <trans-unit id="Codeunit 4134785379 - NamedType 762899482" translate="yes" size-unit="char" xml:space="preserve">
           <source>Do you want to post the %1 %2?</source>
           <target>Wollen Sie %1 %2 buchen?</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 479705392 - Method 3451017835 - NamedType 4132651486" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are %1 not invoiced documents (%2).</source>
+          <target>Es gibt %1 nicht fakturierte Belege (%2).</target>
         </trans-unit>
         <trans-unit id="Codeunit 479705392 - NamedType 3709114904" translate="yes" size-unit="char" xml:space="preserve">
           <source>Source Document Type not handled</source>
@@ -94,6 +94,18 @@
         <trans-unit id="Enum 282191864 - EnumValue 746298496 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>No invoicing/Force as invoiced (No Invoicing and Ledger Entries)</source>
           <target>Nicht fakturieren/Als Fakturiert erzwingen (Keine Fakturierungs - und Sachposten)</target>
+        </trans-unit>
+        <trans-unit id="Enum 3319620439 - EnumValue 2248886284 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Error</source>
+          <target>Fehler</target>
+        </trans-unit>
+        <trans-unit id="Enum 3319620439 - EnumValue 3371220206 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>None</source>
+          <target>Keine</target>
+        </trans-unit>
+        <trans-unit id="Enum 3319620439 - EnumValue 3473949665 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Confirmation</source>
+          <target>Bestätigung</target>
         </trans-unit>
         <trans-unit id="Page 2433932303 - Action 1168962272 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Get Lines</source>
@@ -206,6 +218,10 @@
         <trans-unit id="Page 681938613 - Control 1153164161 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the value of the "Delete Invoiced Purch. Documents" field</source>
           <target>Gibt den Wert des Feldes "Fakturierte EK-Belege löschen" an.</target>
+        </trans-unit>
+        <trans-unit id="Page 681938613 - Control 3339485332 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Specifies how posting policy changes on a reason code are verified against existing posted documents in the current account period.</source>
+          <target>Gibt an, wie Änderungen der Buchungsrichtlinien für einen Ursachencode gegen vorhandene gebuchte Belege in der aktuellen Buchhaltungsperiode geprüft werden.</target>
         </trans-unit>
         <trans-unit id="Page 681938613 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CDW Setup</source>
@@ -330,6 +346,14 @@
         <trans-unit id="Report 2160215848 - RequestPage 2516438534 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Options</source>
           <target>Optionen</target>
+        </trans-unit>
+        <trans-unit id="Table 2003483493 - Method 2411557764 - NamedType 2957197235" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Unable to load %1 for "%2".</source>
+          <target>%1 für "%2" konnte nicht geladen werden.</target>
+        </trans-unit>
+        <trans-unit id="Table 2003483493 - Method 3044863476 - NamedType 259440107" translate="yes" size-unit="char" xml:space="preserve">
+          <source>The item/document posting policy of "%1" and "%2" must be equal.</source>
+          <target>Die Artikel-/Beleg-Buchungsrichtlinie von "%1" und "%2" muss identisch sein.</target>
         </trans-unit>
         <trans-unit id="Table 2512296621 - Field 3009101675 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Order No.</source>
@@ -591,6 +615,10 @@
           <source>Primary Key</source>
           <target>Primärschlüssel</target>
         </trans-unit>
+        <trans-unit id="Table 681938613 - Field 3339485332 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Reason Code Verification</source>
+          <target>Verifizierung des Ursachencodes</target>
+        </trans-unit>
         <trans-unit id="TableExtension 1170717177 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Entries Policy</source>
           <target>Artikelposten-Richtlinie</target>
@@ -618,6 +646,10 @@
         <trans-unit id="TableExtension 2084946067 - Field 1113628781 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Item Entries Policy</source>
           <target>Artikelposten-Richtlinie</target>
+        </trans-unit>
+        <trans-unit id="TableExtension 2084946067 - Field 1402370468 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Date Filter</source>
+          <target>Datumsfilter</target>
         </trans-unit>
         <trans-unit id="TableExtension 2084946067 - Field 1430697993 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Cost Posting Type</source>
