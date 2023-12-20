@@ -618,6 +618,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Setup - Field CONAI Weight Exemption Calc. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 3035720916 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable Calculation on Base Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EOS031 CONAI Setup - Field Enable Base UoM Calc. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 3641692506 - Field 1942364489 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Enable Document Materials Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -682,6 +687,11 @@
           <source>Update document %1 %2 with CONAI details?</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS031 CONAI Mgt. - NamedType UpdateDocumentWithCONAIQst</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 490782907 - Method 2676321816 - NamedType 460280699" size-unit="char" translate="yes" xml:space="preserve">
+          <source>There are Conai lines attached to the Document Line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS031 CONAI Mgt. - Method ExcludeConaiCalcErr - NamedType ExcludeConaiErr</note>
         </trans-unit>
         <trans-unit id="Codeunit 490782907 - Method 1258921765 - NamedType 999066112" size-unit="char" translate="yes" xml:space="preserve">
           <source>This exception is not editable beacause exists a CONAI Exemption for this customer and material.</source>
@@ -1272,6 +1282,11 @@
           <source>Enable Weight Exemption Calculation for Sales Lines.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Setup - Control CONAI Weight Exemption Calc. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 3035720916 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>If enabled, the Conai is calculated on the item base unit of measure. Otherwise the unit of measure of the document line will be used.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS031 CONAI Setup - Control Enable Base UoM Calc. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 3641692506 - Control 1942364489 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>If enabled, only the conai materials of the document are shown in the Conai detail.</source>

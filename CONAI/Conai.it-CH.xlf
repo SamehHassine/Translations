@@ -42,6 +42,10 @@
           <source>This exception is not editable beacause exists a CONAI Exemption for this customer and material.</source>
           <target>Questa eccezione non è modificabile perché esiste un'esenzione CONAI per questo cliente e materiale.</target>
         </trans-unit>
+        <trans-unit id="Codeunit 490782907 - Method 2676321816 - NamedType 460280699" translate="yes" size-unit="char" xml:space="preserve">
+          <source>There are Conai lines attached to the Document Line.</source>
+          <target>Ci sono righe Conai collegate alla Riga Documento.</target>
+        </trans-unit>
         <trans-unit id="Codeunit 490782907 - Method 3546745754 - NamedType 3425271162" translate="yes" size-unit="char" xml:space="preserve">
           <source>Total Weight (Kg) %1 Exemption % %2</source>
           <target>Peso Totale (kg) %1 Esenzione % %2</target>
@@ -442,9 +446,13 @@
           <source>Enable Weight Exemption Calculation for Sales Lines.</source>
           <target>Abilita il calcolo dell'esenzione sul peso per le righe di vendita.</target>
         </trans-unit>
+        <trans-unit id="Page 3641692506 - Control 3035720916 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>If enabled, the Conai is calculated on the item base unit of measure. Otherwise the unit of measure of the document line will be used.</source>
+          <target>Se abilitato, il Conai viene calcolato sull'unità di misura base dell'articolo. In caso contrario, verrà utilizzata l'unità di misura della riga del documento.</target>
+        </trans-unit>
         <trans-unit id="Page 3641692506 - Control 3146418089 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>If enabled, for each document line in the Conai detail, only the materials belonging to the line will be shown, therefore excluding the materials that do not have a contribution amount.</source>
-          <target>Se abilitato, per ogni riga del documento nel dettaglio Conai, verranno visualizzati solo i materiali appartenenti alla riga, escludendo quindi i materiali che non hanno un importo di contributo.</target>
+          <target>Se abilitato, per ogni riga del documento nel dettaglio Conai, verranno visualizzati solo i materiali appartenenti alla riga, escludendo quindi i materiali che non hanno un importo contributo.</target>
         </trans-unit>
         <trans-unit id="Page 3641692506 - Control 3651077253 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable the rounding of the CONAI calculation to kg.</source>
@@ -1177,6 +1185,10 @@
         <trans-unit id="Table 3641692506 - Field 2434920436 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>CONAI Weight Exemption Calc.</source>
           <target>CONAI Calcolo Esenzione sul Peso</target>
+        </trans-unit>
+        <trans-unit id="Table 3641692506 - Field 3035720916 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Enable Calculation on Base Unit of Measure</source>
+          <target>Abilita calcolo sull'Unità di Misura Base</target>
         </trans-unit>
         <trans-unit id="Table 3641692506 - Field 3146418089 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Enable Line Materials Filter</source>
