@@ -873,11 +873,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Account - Field EOS Split On - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 2974831103 - Field 3597819326 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Value,Quantity,Net Weight,Total Weight</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Account - Field EOS Split On - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="Table 2974831103 - Field 2515378034 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Starting Date For Bdg Entries.</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -3729,22 +3724,22 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - Field EOS Cost Type - Property OptionCaption</note>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 572766864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Drive Dimensione 1</source>
+          <source>Driver Dimension 1</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - Field EOS Driver Single Dimension 1 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1210463481 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Driver Single Dimension 2</source>
+          <source>Driver Dimension 2</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - Field EOS Driver Single Dimension 2 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1848160098 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Driver Single Dimension 3</source>
+          <source>Driver Dimension 3</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - Field EOS Driver Single Dimension 3 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2485856715 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Driver Single Dimension 4</source>
+          <source>Driver Dimension 4</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/A Setup - Field EOS Driver Single Dimension 4 - Property Caption</note>
         </trans-unit>
@@ -4494,7 +4489,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Field EOS Lot No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1206868322 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total Net Weight</source>
+          <source>Net Weight</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS C/IN Entry - Field EOS Net Weight - Property Caption</note>
         </trans-unit>
@@ -4793,11 +4788,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EOS Driver Buffer - Field EOS Split On - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 229730577 - Field 3597819326 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
-          <source> ,Value,Quantity,Net Weight,Total Weight</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EOS Driver Buffer - Field EOS Split On - Property OptionCaption</note>
-        </trans-unit>
         <trans-unit id="Table 337701643 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Standard Production Volume</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5053,6 +5043,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Account-Indent - NamedType Text005</note>
         </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 496128909" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimension %1 not found in EMA setup driver dimension</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType DriverDimErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 799064184" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales doc. without item entries</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Phase01BisLbl</note>
+        </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 1257081728" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -5085,47 +5085,47 @@
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3779895200" size-unit="char" translate="yes" xml:space="preserve">
           <source>Step             #1##############\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%1 = Step description</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text003Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3140410629" size-unit="char" translate="yes" xml:space="preserve">
           <source>Item No.         #2##############\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%2 = Item No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text004Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 2287756966" size-unit="char" translate="yes" xml:space="preserve">
           <source>Posting date     #3##############\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%3 = Posting date</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text005Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 2165353731" size-unit="char" translate="yes" xml:space="preserve">
           <source>Prof. Income     #4##############</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%4 = Profitability Income</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text006Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 576348388" size-unit="char" translate="yes" xml:space="preserve">
           <source>Prof. Income     #2##############\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%2 = Profitability Income</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text007Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 4273407817" size-unit="char" translate="yes" xml:space="preserve">
           <source>C/A Account No.  #3##############\</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%3 = C/A Account No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text008Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3078467498" size-unit="char" translate="yes" xml:space="preserve">
           <source>Driver Code      #4##############</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%4 = Driver Code</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text009Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 3797269194" size-unit="char" translate="yes" xml:space="preserve">
           <source>Entry No.        #3##############</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%3 = Entry No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text010Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 17661673" size-unit="char" translate="yes" xml:space="preserve">
           <source>Document No.     #3##############</source>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2">%3 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit EOS C/IN Update - NamedType Text011Lbl</note>
         </trans-unit>
         <trans-unit id="Codeunit 3108461516 - NamedType 4204058380" size-unit="char" translate="yes" xml:space="preserve">
@@ -9738,6 +9738,36 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action Dimensions - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 4062682134 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Limit the entries according to the dimension filters that you specify. NOTE: If you use a high number of dimension combinations, this function may not work and can result in a message that the SQL server only supports a maximum of 2100 parameters.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action SetDimensionFilter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 4062682134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Set Dimension Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action SetDimensionFilter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1405007275 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action &amp;Navigate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1405007275 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Find entries...</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action &amp;Navigate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1033528029 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EOS C/IN Entries - Action Category_Entry - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1790866452 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Profitability Income Statement List (EMA)</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -12932,6 +12962,26 @@
           <source></source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum EOS C/A Budget Matrix Dim. - EnumValue Undefined - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 1371923692 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source> </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Spreading Method - EnumValue   - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 636392376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Spreading Method - EnumValue Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Spreading Method - EnumValue Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 2854289444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum EOS Spreading Method - EnumValue Weight - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 3430570480 - EnumValue 2012075949 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 4087461738">
           <source>Cost Accounts</source>

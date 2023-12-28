@@ -503,9 +503,17 @@
           <source>C/A Account No.  #3##############\</source>
           <target>Conto C/A #3##############\</target>
         </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 496128909" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Dimension %1 not found in EMA setup driver dimension</source>
+          <target>Dimensione %1 non trovata nel setup driver dimensioni di EMA</target>
+        </trans-unit>
         <trans-unit id="Codeunit 444311949 - NamedType 576348388" translate="yes" size-unit="char" xml:space="preserve">
           <source>Prof. Income     #2##############\</source>
           <target>C/E profit.     #2##############\</target>
+        </trans-unit>
+        <trans-unit id="Codeunit 444311949 - NamedType 799064184" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Sales doc. without item entries</source>
+          <target>Doc. di vendita senza movimenti articoli</target>
         </trans-unit>
         <trans-unit id="Codeunit 458493509 - NamedType 1196336482" translate="yes" size-unit="char" xml:space="preserve">
           <source>All line types, including headings, begin-total and end-total, are transferred.\</source>
@@ -622,6 +630,22 @@
         <trans-unit id="Codeunit 985244087 - NamedType 95063322" translate="yes" size-unit="char" xml:space="preserve">
           <source>Default Journal</source>
           <target>Registrazioni di default</target>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 1371923692 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source> </source>
+          <target> </target>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 2704404533 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Quantità</target>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 2854289444 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Weight</source>
+          <target>Peso</target>
+        </trans-unit>
+        <trans-unit id="Enum 2479704217 - EnumValue 636392376 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Amount</source>
+          <target>Importo</target>
         </trans-unit>
         <trans-unit id="Enum 2803531008 - EnumValue 2493508126 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Final Balance</source>
@@ -1351,6 +1375,18 @@
           <source>C/A Account Association (EMA)</source>
           <target>Associazione conti analitici (EMA)</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1033528029 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Entry</source>
+          <target>Movimento</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1405007275 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries and documents that exist for the document number and posting date on the selected document. (Formerly this action was named Navigate.)</source>
+          <target>Trova i movimenti e i documenti esistenti per il numero di documento e la data di registrazione nel documento selezionato. (In precedenza questa azione era denominata Naviga.)</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 1405007275 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Find entries...</source>
+          <target>Trova movimenti</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Action 2173385693 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>View or edit dimensions, such as area, project, or department, that you can assign to sales and purchase documents to distribute costs and analyze transaction history.</source>
           <target>Visualizza o modifica le dimensioni, come area, progetto o reparto, che puoi assegnare ai documenti di vendita e acquisto per distribuire i costi e analizzare la cronologia delle transazioni.</target>
@@ -1359,9 +1395,21 @@
           <source>Dimensions</source>
           <target>Dimensioni</target>
         </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 3383493608 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Process</source>
+          <target>Azioni</target>
+        </trans-unit>
         <trans-unit id="Page 1453782444 - Action 3475288728 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Entry</source>
           <target>Movimento</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 4062682134 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Limit the entries according to the dimension filters that you specify. NOTE: If you use a high number of dimension combinations, this function may not work and can result in a message that the SQL server only supports a maximum of 2100 parameters.</source>
+          <target>Limitare i movimenti in base ai filtri dimensione specificati. NOTA: se si utilizza un numero elevato di combinazioni di dimensioni, questa funzione non viene eseguita in modo corretto e può generare un messaggio che indica che SQL Server supporta solo un massimo di 2100 parametri.</target>
+        </trans-unit>
+        <trans-unit id="Page 1453782444 - Action 4062682134 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
+          <source>Set Dimension Filter</source>
+          <target>Imposta filtro dimensione</target>
         </trans-unit>
         <trans-unit id="Page 1453782444 - Control 1149824122 - Property 1295455071" translate="yes" size-unit="char" xml:space="preserve">
           <source>Specifies the code of analysys</source>
@@ -6992,7 +7040,7 @@
           <target>Batch registrazioni COGE</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1210463481 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Single Dimension 2</source>
+          <source>Driver Dimension 2</source>
           <target>Driver dimensione 2</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1274147321 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7020,7 +7068,7 @@
           <target>Nessun allineamento,Automatico,Richiesta</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 1848160098 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Single Dimension 3</source>
+          <source>Driver Dimension 3</source>
           <target>Driver dimensione 3</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2014457106 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7032,7 +7080,7 @@
           <target>Codice origine allocazione C/A</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2485856715 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Driver Single Dimension 4</source>
+          <source>Driver Dimension 4</source>
           <target>Driver dimensione 4</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 2515378034 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7100,7 +7148,7 @@
           <target>Codice origine sincr. C/G - C/A</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 572766864 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Drive Dimensione 1</source>
+          <source>Driver Dimension 1</source>
           <target>Driver dimensione 1</target>
         </trans-unit>
         <trans-unit id="Table 1807575381 - Field 60466006 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
@@ -7878,10 +7926,6 @@
         <trans-unit id="Table 229730577 - Field 3597819326 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Split On</source>
           <target>Spalmatura</target>
-        </trans-unit>
-        <trans-unit id="Table 229730577 - Field 3597819326 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Value,Quantity,Net Weight,Total Weight</source>
-          <target> ,Importo,Quantità,Peso, </target>
         </trans-unit>
         <trans-unit id="Table 229730577 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Driver Buffer</source>
@@ -9607,10 +9651,6 @@
           <source>Split On</source>
           <target>Spalmatura</target>
         </trans-unit>
-        <trans-unit id="Table 2974831103 - Field 3597819326 - Property 62802879" translate="yes" size-unit="char" xml:space="preserve">
-          <source> ,Value,Quantity,Net Weight,Total Weight</source>
-          <target> ,Importo,Quantità,Peso, </target>
-        </trans-unit>
         <trans-unit id="Table 2974831103 - Field 3661182487 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
           <source>Capacity Type</source>
           <target>Tipo capacità</target>
@@ -9784,7 +9824,7 @@
           <target>Codice analisi</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1206868322 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
-          <source>Total Net Weight</source>
+          <source>Net Weight</source>
           <target>Peso netto totale</target>
         </trans-unit>
         <trans-unit id="Table 3353917842 - Field 1419731019 - Property 2879900210" translate="yes" size-unit="char" xml:space="preserve">
